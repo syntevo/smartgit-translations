@@ -1943,10 +1943,9 @@ wnd(Log|Project).mnu"Submodule"=Submodule
 wnd(Log|Project).mnu"Tools"=Tools
 wnd(Log|Project).mnu"View"=View
 wnd(Log|Project).tab"Branches"=Branches
-wnd(Log|Project).tab"Changes for $1 - $2 \($3\)"=\
- Changes for $1 - $2 \($3\)
-wnd(Log|Project).tab"Changes for $1 - $2"=Changes for $1 - $2
 wnd(Log|Project).tab"Changes of $1 - $2"=Changes of $1 - $2
+wnd(Log|Project).tab"Changes of $1 - $2 \($3\)"=\
+ Changes of $1 - $2 \($3\)
 wnd(Log|Project).tab"Changes of $1 \($2\) - $3"=\
  Changes of $1 \($2\) - $3
 wnd(Log|Project).tab"Changes of $1 \($2\)"=Changes of $1 \($2\)
