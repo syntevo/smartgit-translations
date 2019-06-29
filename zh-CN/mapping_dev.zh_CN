@@ -1752,7 +1752,8 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor|Log|Project).mnu"< No Windows 
 wnd(Log|Project).hnt"File Filter"=文件过滤器
 wnd(Log|Project).hnt"Filter"=过滤器
 wnd(Log|Project).lbl"$1 files hidden"=$1 个隐藏文件
-wnd(Log|Project).lbl"Ready"=就绪
+wnd(Log|Project).lblStatusBarMessage"$1"=$1
+wnd(Log|Project).lblStatusBarMessage"Ready"=就绪
 wnd(Log|Project).mni"LFS"=LFS
 wnd(Log|Project).mni"Move To"=移动到
 wnd(Log|Project).mni"New Group"=创建分组
@@ -1968,9 +1969,9 @@ wnd(Log|Project).mnu"Submodule"=子模块
 wnd(Log|Project).mnu"Tools"=工具
 wnd(Log|Project).mnu"View"=视图
 wnd(Log|Project).tab"Branches"=分支
-wnd(Log|Project).tab"Changes of $1 - $2"=$1 的变化 - $2
 wnd(Log|Project).tab"Changes of $1 - $2 \($3\)"=\
  $1 的变化 - $2 \($3\)
+wnd(Log|Project).tab"Changes of $1 - $2"=$1 的变化 - $2
 wnd(Log|Project).tab"Changes of $1 \($2\) - $3"=\
  $1 的变化\($2\) - $3
 wnd(Log|Project).tab"Changes of $1 \($2\)"=$1 的变化\($2\)

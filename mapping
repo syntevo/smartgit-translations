@@ -1727,7 +1727,8 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor|Log|Project).mnu"< No Windows 
 wnd(Log|Project).hnt"File Filter"=File Filter
 wnd(Log|Project).hnt"Filter"=Filter
 wnd(Log|Project).lbl"$1 files hidden"=$1 files hidden
-wnd(Log|Project).lbl"Ready"=Ready
+wnd(Log|Project).lblStatusBarMessage"$1"=$1
+wnd(Log|Project).lblStatusBarMessage"Ready"=Ready
 wnd(Log|Project).mni"LFS"=LFS
 wnd(Log|Project).mni"Move To"=Move To
 wnd(Log|Project).mni"New Group"=New Group
@@ -1943,9 +1944,9 @@ wnd(Log|Project).mnu"Submodule"=Submodule
 wnd(Log|Project).mnu"Tools"=Tools
 wnd(Log|Project).mnu"View"=View
 wnd(Log|Project).tab"Branches"=Branches
-wnd(Log|Project).tab"Changes of $1 - $2"=Changes of $1 - $2
 wnd(Log|Project).tab"Changes of $1 - $2 \($3\)"=\
  Changes of $1 - $2 \($3\)
+wnd(Log|Project).tab"Changes of $1 - $2"=Changes of $1 - $2
 wnd(Log|Project).tab"Changes of $1 \($2\) - $3"=\
  Changes of $1 \($2\) - $3
 wnd(Log|Project).tab"Changes of $1 \($2\)"=Changes of $1 \($2\)
