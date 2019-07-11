@@ -1390,7 +1390,7 @@ dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
 dlgSgResetAdv.hdl%1=重置提交 $1
 dlgSgResetAdv.inf=将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作树。
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
- 不要触摸索引或工作树 - “--soft”
+ 不要变更索引或工作树 - “--soft”
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
  重置索引和工作树 - “--hard”
 dlgSgResetAdv.rbt"Reset the Index and the working tree, skipping modified files - 'keep'"=\
