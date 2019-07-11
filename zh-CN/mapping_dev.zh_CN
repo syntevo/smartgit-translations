@@ -334,7 +334,7 @@ dlgSgAbortRebasingConfirm.fur=您的工作树处于 “变基” 状态。你可
 dlgSgAbortRebasingConfirm.hdl=您想中止变基吗？
 dlgSgAbortRebasingConfirm.tle=丢弃
 dlgSgAbortRevertingConfirm.btn"Abort Revert"=中止还原
-dlgSgAbortRevertingConfirm.fur=您的工作树处于 “恢复” 状态。您可以中止它以退出此状态，然后重新开始恢复。\n\n中止将清除任何本地修改 \(通过调用 “git reset --hard”\)!
+dlgSgAbortRevertingConfirm.fur=您的工作树处于 “还原” 状态。您可以中止它以退出此状态，然后重新开始还原。\n\n中止将清除任何本地修改 \(通过调用 “git reset --hard”\)!
 dlgSgAbortRevertingConfirm.hdl=你想重置你的工作树吗？
 dlgSgAbortRevertingConfirm.tle=丢弃
 dlgSgAbout.btn"Register"=注册
@@ -359,7 +359,7 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=您确定要删除所有已知凭据
 dlgSgAuthenticationRemoveAllCredentials.tle=移除所有
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=从坏的 HEAD 开始二分
 dlgSgBisectStartConfirm.btn"Start Bisect"=开始二分
-dlgSgBisectStartConfirm.fur=在 Git 开始二进制搜索之前，你需要将1个提交标记为好，1个提交为坏。
+dlgSgBisectStartConfirm.fur=在 Git 开始二进制搜索之前，你需要将 1 个提交标记为好，1 个提交为坏。
 dlgSgBisectStartConfirm.hdl=是否应该以错误的提交开始？
 dlgSgBisectStartConfirm.tle=开始二分
 dlgSgBitbucketGenerateToken.edt"Code"=代码
@@ -388,18 +388,18 @@ dlgSgBranchAddCheckoutOverwriteExisting.tle=创建分支
 dlgSgBranchDeleteLocalConfirmMultiple.btn"Delete"=删除
 dlgSgBranchDeleteLocalConfirmMultiple.chk"Delete from remote repository"=从远程仓库中删除
 dlgSgBranchDeleteLocalConfirmMultiple.chk"Delete tracked branches"=删除跟踪的分支
-dlgSgBranchDeleteLocalConfirmMultiple.fur=恢复已删除的分支可能很复杂。\n\n您只能从本地远程分支列表中删除分支，但这可能会使分支带回下一次获取。
+dlgSgBranchDeleteLocalConfirmMultiple.fur=还原已删除的分支可能会变得很复杂。\n\n您只能从本地远程分支列表中删除分支，但这分支可能会在下一次获取中恢复。
 dlgSgBranchDeleteLocalConfirmMultiple.hdl%1=您确定要删除 $1 本地分支吗？
 dlgSgBranchDeleteLocalConfirmMultiple.tle=删除
 dlgSgBranchDeleteLocalConfirmSingle.btn"Delete"=删除
 dlgSgBranchDeleteLocalConfirmSingle.chk"Delete from remote repository '$1'"=从远程仓库 “$1” 中删除
 dlgSgBranchDeleteLocalConfirmSingle.chk"Delete tracked branch '$1'"=删除跟踪分支 “$1”
-dlgSgBranchDeleteLocalConfirmSingle.fur=您可能会丢失未经推送的更改，或恢复分支可能会很复杂 \(es\)！
+dlgSgBranchDeleteLocalConfirmSingle.fur=您可能会丢失未经推送的更改，或还原分支可能会很复杂 \(es\)！
 dlgSgBranchDeleteLocalConfirmSingle.hdl%1=您确定要删除本地分支 “$1” 吗？
 dlgSgBranchDeleteLocalConfirmSingle.tle=删除
 dlgSgBranchDeleteRemoteConfirmSingle.btn"Delete"=删除
 dlgSgBranchDeleteRemoteConfirmSingle.chk%1=从远程 “$1” 删除
-dlgSgBranchDeleteRemoteConfirmSingle.fur=您只能从本地远程分支列表中删除分支，但这可能会使分支带回下一次获取。
+dlgSgBranchDeleteRemoteConfirmSingle.fur=您只能从本地远程分支列表中删除分支，但这分支可能会在下一次获取中恢复。
 dlgSgBranchDeleteRemoteConfirmSingle.hdl%1=您要删除远程分支 “$1” 吗？
 dlgSgBranchDeleteRemoteConfirmSingle.tle=删除
 dlgSgBugReportSettings.btn"Exit"=退出
@@ -561,7 +561,7 @@ dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=常用表达式
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=记住模式
 dlgSgCommitSelectMessageFromLog.tle=选择提交消息
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=总是提交
-dlgSgCommitToDetachedHead.fur=仓库 HEAD 当前不指向分支，而是直接引用提交 \(SHA\)。提交时，新创建的提交只能通过其 SHA 访问，因此可能很容易丢失。\n\n现在，您应该首先为当前 HEAD 创建一个分支，然后再提交。
+dlgSgCommitToDetachedHead.fur=仓库 HEAD 当前不指向分支，而是直接参考提交 \(SHA\)。提交时，新创建的提交只能通过其 SHA 访问，因此可能很容易丢失。\n\n现在，您应该首先为当前 HEAD 创建一个分支，然后再提交。
 dlgSgCommitToDetachedHead.hdl=你想提交一个独立的 HEAD 吗？
 dlgSgCommitToDetachedHead.tle=提交
 dlgSgCompareTwoFiles.btn"Compare with Each Other"=相互比较
@@ -571,7 +571,7 @@ dlgSgCompareTwoFiles.hdl=所选的两个文件是否应相互比较？
 dlgSgCompareTwoFiles.tle=比较
 dlgSgConflictSolverStageForCommit.btn"Don't Stage"=放弃暂存
 dlgSgConflictSolverStageForCommit.btn"Stage"=暂存
-dlgSgConflictSolverStageForCommit.fur=分段是解决文件冲突状态所必需的。
+dlgSgConflictSolverStageForCommit.fur=暂存是解决文件冲突状态所必需的。
 dlgSgConflictSolverStageForCommit.hdl=您想现在提交暂存文件吗？
 dlgSgConflictSolverStageForCommit.tle=提交暂存
 dlgSgCustomizeProjectUi.btn"Add"=创建
@@ -592,13 +592,13 @@ dlgSgCustomizeProjectUi.tab"Toolbar"=工具栏
 dlgSgCustomizeProjectUi.tle=自定义
 dlgSgDeleteFileTrash.btn"Delete"=删除
 dlgSgDeleteFileTrash.btn"Move to Trash"=移动到回收站
-dlgSgDeleteFileTrash.fur=如果单击删除，则可能需要文件恢复工具来恢复已删除的文件！
+dlgSgDeleteFileTrash.fur=如果单击删除，则可能需要文件还原工具来还原已删除的文件！
 dlgSgDeleteFileTrash.hdl%1=确定要删除 “$1” 吗？
 dlgSgDeleteFileTrash.tle=删除
 dlgSgDiscard.btn"Discard"=丢弃
 dlgSgDiscard.col"Directory"=目录
 dlgSgDiscard.col"Name"=用户名
-dlgSgDiscard.edt"Revert to"=恢复
+dlgSgDiscard.edt"Revert to"=还原
 dlgSgDiscard.hdl=丢弃本地或暂存的更改
 dlgSgDiscard.inf=选择应丢弃更改的文件以及是否将其设置回 Index 或 HEAD 状态。
 dlgSgDiscard.rbt"HEAD"=HEAD
@@ -608,7 +608,7 @@ dlgSgDiscardNoFilesFound.fur=找不到暂存文件或本地更改的文件。
 dlgSgDiscardNoFilesFound.hdl=没有什么可以丢弃的。
 dlgSgDiscardNoFilesFound.tle=丢弃
 dlgSgDiscardRevertTo(Head|Index).btn"Discard"=丢弃
-dlgSgDiscardRevertTo(Head|Index).fur=内容可能很难恢复！
+dlgSgDiscardRevertTo(Head|Index).fur=内容可能很难还原！
 dlgSgDiscardRevertTo(Head|Index).tle=丢弃
 dlgSgDiscardRevertToHead.hdl%1=您确定要将 $1 文件重置为 HEAD 状态吗？
 dlgSgDiscardRevertToIndex.hdl%1=您确定要将 $1 文件重置为其 Index 状态吗？
@@ -621,7 +621,7 @@ dlgSgFileCompareNoChanges.fur=两个文件内容按字节顺序相等。\n要查
 dlgSgFileCompareNoChanges.hdl=打开文件比较，但不显示任何更改？
 dlgSgFileCompareNoChanges.tle=文件比较
 dlgSgFindObject.edt"Repository Path, Commit ID or Ref"=\
- 仓库路径、提交 ID 或引用
+ 仓库路径、提交 ID 或参考
 dlgSgFindObject.tle=查找对象
 dlgSgFlowBranchDivergedHandlerFastForward.btn"Fast-Forward"=快进
 dlgSgFlowBranchDivergedHandlerFastForward.fur%3=本地分支 “$1” 位于其跟踪分支 “$2” 的后面。您可以现在快进，也可以稍后手动前进，例如签出分支 $3 。
@@ -647,7 +647,7 @@ dlgSgFlowConfigure.hdl=配置分支命名方案
 dlgSgFlowConfigure.inf=配置应如何命名 feature、release 和 hotfix 分支。
 dlgSgFlowConfigure.rbt"Full \(feature, release, hotfix, support branches\)"=\
  所有 \(feature, release, hotfix, support 分支\)
-dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=右 \(只是特征分支\)
+dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=轻量 \(只是功能分支\)
 dlgSgFlowConfigure.tle=配置 Git 工作流
 dlgSgFlowConfigureChangeOrSwitchOff.btn"Change Configuration"=更改配置
 dlgSgFlowConfigureChangeOrSwitchOff.btn"Switch-Off Git-Flow"=关闭 Git 工作流
@@ -685,8 +685,8 @@ dlgSgFlowFeatureStart.lbl"Resulting Branch: $1"=结果分支：$1
 dlgSgFlowFeatureStart.tle=开始功能
 dlgSgFlowHotfixFinish.btn"Finish"=完成
 dlgSgFlowHotfixFinish.btn"Select from Log"=从日志中选择
-dlgSgFlowHotfixFinish.chk"Create version tag"=创建版本标记
-dlgSgFlowHotfixFinish.chk"Create version tag:"=创建版本标记：
+dlgSgFlowHotfixFinish.chk"Create version tag"=创建版本标签
+dlgSgFlowHotfixFinish.chk"Create version tag:"=创建版本标签：
 dlgSgFlowHotfixFinish.chk"Delete hotfix branch"=删除热修复分支
 dlgSgFlowHotfixFinish.chk"Fetch latest '$1' commits"=获取最新的 “$1” 提交
 dlgSgFlowHotfixFinish.chk"Merge to develop"=合并到开发
@@ -708,12 +708,12 @@ dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development 
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
  把主开发线合并或变基提交到 “$1” 功能分支。
 dlgSgFlowIntegrateDevelop.rbt"Merge from '$1'"=合并 “$1”
-dlgSgFlowIntegrateDevelop.rbt"Rebase current feature onto '$1'"=将当前功能便基为 “$1”
+dlgSgFlowIntegrateDevelop.rbt"Rebase current feature onto '$1'"=将当前功能变基为 “$1”
 dlgSgFlowIntegrateDevelop.tle=整合开发
 dlgSgFlowReleaseFinish.btn"Finish"=完成
 dlgSgFlowReleaseFinish.btn"Select from Log"=从日志中选择
-dlgSgFlowReleaseFinish.chk"Create version tag"=创建版本标记
-dlgSgFlowReleaseFinish.chk"Create version tag:"=创建版本标记：
+dlgSgFlowReleaseFinish.chk"Create version tag"=创建版本标签
+dlgSgFlowReleaseFinish.chk"Create version tag:"=创建版本标签：
 dlgSgFlowReleaseFinish.chk"Delete release branch"=删除发布分支
 dlgSgFlowReleaseFinish.chk"Fetch latest '$1' and '$2' commits"=\
  获取最新的 “$1” 和 “$2” 提交
@@ -729,7 +729,7 @@ dlgSgFlowReleaseFinish.tle=完成发布
 dlgSgGarbageCollector.btn"Run Garbage Collector"=运行垃圾回收器
 dlgSgGarbageCollector.chk"Also prune recently created objects"=同时删除最近创建的对象
 dlgSgGarbageCollector.chk"Expire reflog now \(will also delete stashes!\)"=\
- 立即过期重新登录 \(也将删除库存！\)
+ 立即过期操作记录 \(reflog\) \(也会删除贮藏\)
 dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a while\)"=\
  更积极地优化仓库 \(可能需要一段时间\)
 dlgSgGarbageCollector.hdl=运行垃圾回收器
@@ -868,8 +868,8 @@ dlgSgIgnoreFile.err"The pattern must match all selected file names. For instance
 dlgSgIgnoreFile.hdl=标记要忽略的文件
 dlgSgIgnoreFile.inf=选择是仅忽略所选文件还是忽略与指定模式匹配的所有文件。跟踪的文件将被删除 \(停止跟踪\)。
 dlgSgIgnoreFile.lbl"Use ? to match a single or \* to match multiple arbitrary characters. The pattern will be saved in the .gitignore file of the same directory."=\
- 使用 ？ 匹配单个或 \* 以匹配多个任意字符。该模式将保存在同一目录的 .gitignore 文件中。
-dlgSgIgnoreFile.rbt"Ignore as pattern \(e.g. '\*.obj'\):"=忽略模式 \(例如 \*.obj \)：
+ 使用 ? 匹配单个或 \* 以匹配多个任意字符。该模式将保存在同一目录的 .gitignore 文件中。
+dlgSgIgnoreFile.rbt"Ignore as pattern \(e.g. '\*.obj'\):"=正则忽略 \(例如 \*.obj \)：
 dlgSgIgnoreFile.rbt"Ignore explicitly \(e.g. 'Makefile'\)"=明确忽略 \(例如 Makefile \)：
 dlgSgIgnoreFile.tle=忽略
 dlgSgJournalFormCommitCantBeModified.fur=不是您 HEAD 主要父系历史的一部分
@@ -918,7 +918,7 @@ dlgSgLogOpenNewWindow.fur=已经存在一个可以显示的日志窗口。
 dlgSgLogOpenNewWindow.hdl=是否要打开新的日志窗口？
 dlgSgLogOpenNewWindow.tle=日志
 dlgSgLogRefActionsDeleteConfirm.btn"Delete Branch"=删除分支
-dlgSgLogRefActionsDeleteConfirm.fur=您可能会丢失未推送的更改，或恢复分支可能会很复杂 \(es\)！
+dlgSgLogRefActionsDeleteConfirm.fur=您可能会丢失未推送的更改，或还原分支可能会很复杂 \(es\)！
 dlgSgLogRefActionsDeleteConfirm.hdl%1=你真的想删除本地分支 “$1” 吗？
 dlgSgLogRefActionsDeleteConfirm.tle=删除本地分支
 dlgSgLogRefreshRepositoryInvalid.btn"Close Repository"=关闭仓库
@@ -1031,7 +1031,7 @@ dlgSgPreferences.chk"Remember from last used single Log or Working Tree window"=
  记住最后使用的日志或者工作树的窗口
 dlgSgPreferences.chk"Remove leading and trailing whitespace"=删除前导和尾随空格
 dlgSgPreferences.chk"Remove missing files"=删除丢失的文件
-dlgSgPreferences.chk"Restore all confirmation dialogs"=恢复所有确认对话框
+dlgSgPreferences.chk"Restore all confirmation dialogs"=还原所有确认对话框
 dlgSgPreferences.chk"Show also the resolve dialog for external conflict solvers"=\
  也显示外部冲突解决器的解决对话框
 dlgSgPreferences.chk"Show line length guides \(only useful for monospaced-font\)"=\
@@ -1167,11 +1167,11 @@ dlgSgPull.chk"Remember as default for repository"=记住作为仓库的默认值
 dlgSgPull.chk"Update existing and fetch new tags"=\
  更新现有标签并获取新标签
 dlgSgPull.edt"Fetch From"=获取
-dlgSgPull.hdl=从远程仓库中提取提交
+dlgSgPull.hdl=从远程仓库中拉取提交
 dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
- 与 “仅提取” 相比,拉取还将包含提取的更改 \(展开下面的选项进行配置\)。
+ 与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
- 选择要提取的远程仓库。与仅提取相比,拉取还将包含提取的更改 \(展开下面的选项进行配置\)。
+ 选择要获取的远程仓库。与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
 dlgSgPull.rbt"Merge fetched remote changes"=合并获取的远程更改
 dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
  将本地分支变基为获取的更改
@@ -1189,7 +1189,7 @@ dlgSgPullConfiguration.rbt"Merge"=合并
 dlgSgPullConfiguration.rbt"Rebase"=变基
 dlgSgPullConfiguration.tle=配置拉取
 dlgSgPullNoRemoteRepository.btn"Add Remote"=创建远程
-dlgSgPullNoRemoteRepository.fur=您首先需要创建一个远程仓库来提取。
+dlgSgPullNoRemoteRepository.fur=您首先需要创建一个远程仓库来拉取。
 dlgSgPullNoRemoteRepository.hdl=没有找到远程仓库。
 dlgSgPullNoRemoteRepository.tle=拉取
 dlgSgPushConfirmSingleBranch.btn"Push"=推送
@@ -1221,8 +1221,8 @@ dlgSgPushToRef.edt"Target Repository"=目标仓库
 dlgSgPushToRef.hdl"Push '$1' to a remote repository"=\
  将 “$1” 推送到远程仓库
 dlgSgPushToRef.hdl"Push '$1' to remote '$2'"=将 “$1” 推送到远程 “$2” 
-dlgSgPushToRef.inf=选择目标仓库，在其中推送引用。
-dlgSgPushToRef.rbt"Custom Ref:"=自定义引用：
+dlgSgPushToRef.inf=选择目标仓库，在其中推送参考。
+dlgSgPushToRef.rbt"Custom Ref:"=自定义参考：
 dlgSgPushToRef.rbt"Tracked or matching branch"=跟踪或匹配分支
 dlgSgPushToRef.tle=推送到
 dlgSgPushToRemoteResetTargetBranches.btn"Force Push"=强制推送
@@ -1309,7 +1309,7 @@ dlgSgRecursiveUnstage.tle=取消暂存
 dlgSgRemoteFetchMoreNoMoreBranches.fur=远程仓库中存在的所有分支也都已在本地存在。
 dlgSgRemoteFetchMoreNoMoreBranches.hdl=没有更多的远程分支来获取。
 dlgSgRemoteFetchMoreNoMoreBranches.tle=获取更多
-dlgSgRemoteProperties.chk"Perform background Poll or Fetch"=执行后台轮询或提取
+dlgSgRemoteProperties.chk"Perform background Poll or Fetch"=执行后台轮询或获取
 dlgSgRemoteProperties.edt"URL or Path"=URL 或路径
 dlgSgRemoteProperties.hdl=配置远程属性
 dlgSgRemoteProperties.inf=更改远程服务器的 URL 和其他属性。
@@ -1369,7 +1369,7 @@ dlgSgRepositoryRemove.fur=这会将仓库保留在磁盘上，但只是让 Smart
 dlgSgRepositoryRemove.hdl%1=您确定要删除 $1 的仓库吗？
 dlgSgRepositoryRemove.tle=删除
 dlgSgRepositorySettings.chk"Always fetch new commits, tags and branches from submodule"=\
- 始终从子模块中获取新的提交，标记和分支
+ 始终从子模块中获取新的提交，标签和分支
 dlgSgRepositorySettings.chk"Initialize new submodules"=初始化新的子模块
 dlgSgRepositorySettings.chk"Prune obsolete remote tracked branches"=删除过时的远程跟踪分支
 dlgSgRepositorySettings.chk"Remember as default"=记住默认
@@ -1390,15 +1390,15 @@ dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
 dlgSgResetAdv.hdl%1=重置提交 $1
 dlgSgResetAdv.inf=将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作树。
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
- 不要触摸索引或工作树 - “软”
+ 不要触摸索引或工作树 - “--soft”
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
- 重置索引和工作树 - “硬”
+ 重置索引和工作树 - “--hard”
 dlgSgResetAdv.rbt"Reset the Index and the working tree, skipping modified files - 'keep'"=\
- 重置索引和工作树，跳过修改过的文件 - “保留”
+ 重置索引和工作树，跳过修改过的文件 - “--keep”
 dlgSgResetAdv.rbt"Reset the Index and the working tree, skipping working tree modified files - 'merge'"=\
- 重置索引和工作树，跳过工作树修改的文件 - “合并”
+ 重置索引和工作树，跳过工作树修改的文件 - “--merge”
 dlgSgResetAdv.rbt"Reset the Index but not the working tree - 'mixed'"=\
- 重置索引，但不重置工作树 - “混合”
+ 重置索引，但不重置工作树 - “--mixed”
 dlgSgResetAdv.tle=重置
 dlgSgResetConfirm.btn"Reset"=重置
 dlgSgResetConfirm.fur=当前暂存和本地更改将丢失！
@@ -1408,7 +1408,7 @@ dlgSgResolve.btn"Resolve"=解决
 dlgSgResolve.chk"Stage file \(reset conflict state\)"=暂存文件 \(重置冲突状态\)
 dlgSgResolve.edt"Content"=内容
 dlgSgResolve.hdl=解决冲突
-dlgSgResolve.inf=选择要用于已解析文件的内容。
+dlgSgResolve.inf=选择要用于已解决的文件的内容。
 dlgSgResolve.rbt"Leave as is"=保持不变
 dlgSgResolve.rbt"Open Conflict Solver"=打开冲突解决器
 dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
@@ -1556,14 +1556,14 @@ dlgSgStashAll.inf=保存的存储可以在以后应用。默认情况下，清�
 dlgSgStashAll.tle=贮藏
 dlgSgStashApply.btn"Apply && Drop"=应用并删除
 dlgSgStashApply.btn"Apply"=应用
-dlgSgStashApply.chk"Restore Index"=恢复索引
+dlgSgStashApply.chk"Restore Index"=还原索引
 dlgSgStashApply.hdl"Apply a previously saved stash"=应用以前保存的存储
 dlgSgStashApply.hdl"Apply the latest saved stash"=应用最新保存的存储
 dlgSgStashApply.inf=确定如何将存储应用于索引或工作树。
 dlgSgStashApply.tle=应用贮藏
-dlgSgStashApplyWithoutRestoringIndex.btn"Try Without Restoring Index"=尝试不恢复索引
-dlgSgStashApplyWithoutRestoringIndex.fur=应用修补程序时恢复索引失败。
-dlgSgStashApplyWithoutRestoringIndex.hdl=是否应用存储而不恢复索引？
+dlgSgStashApplyWithoutRestoringIndex.btn"Try Without Restoring Index"=尝试不还原索引
+dlgSgStashApplyWithoutRestoringIndex.fur=应用修补程序时还原索引失败。
+dlgSgStashApplyWithoutRestoringIndex.hdl=是否应用存储而不还原索引？
 dlgSgStashApplyWithoutRestoringIndex.tle=应用贮藏
 dlgSgStashOnDemandConfirmation.btn"Discard"=丢弃
 dlgSgStashOnDemandConfirmation.btn"Save Stash"=贮藏
@@ -1571,7 +1571,7 @@ dlgSgStashOnDemandConfirmation.chk=自动贮藏
 dlgSgStashOnDemandConfirmation.fur=请选择将它们保存为存储，以便以后手动重新应用或丢弃它们。
 dlgSgStashOnDemandConfirmation.hdl=如何处理工作树或索引更改？
 dlgSgStashOnDemandConfirmation.tle=重置
-dlgSgStashOnDemandLocalChangesCantBeReapplied.fur=一旦完成拉取操作，您应该手动应用最新的存储，以将本地更改恢复到工作树中。
+dlgSgStashOnDemandLocalChangesCantBeReapplied.fur=一旦完成拉取操作，您应该手动应用最新的存储，以将本地更改还原到工作树中。
 dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl=您的本地更改已被贮藏，但无法重新应用。
 dlgSgStashOnDemandLocalChangesCantBeReapplied.tle=拉取
 dlgSgStashesDropConfirm.btn"Drop Stash"=丢弃贮藏
@@ -1615,7 +1615,7 @@ dlgSgTagAdd.inf=输入要创建的标签名称。如果输入消息，则会创�
 dlgSgTagAdd.tle=创建标签
 dlgSgTool(Add|Edit).btn"Clear"=清除
 dlgSgTool(Add|Edit).chk"Can be used by the Open command"=\
- 可以由打开命令使用
+ 可以由 “打开” 命令使用
 dlgSgTool(Add|Edit).chk"Request confirmation before invoking:"=在调用之前请求确认：
 dlgSgTool(Add|Edit).chk"Show output and wait until finished"=\
  显示输出并等待完成
@@ -1629,7 +1629,7 @@ dlgSgTool(Add|Edit).inf=定义工具菜单项的名称，应执行的命令并�
 dlgSgTool(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有效的通配符是 ?\u00a0\(一个任意字符\)和 \*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt，\u00a0\* .html。
 dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref \(optional\)"=\
- 第二个提交 ID 或引用 \(可选\)
+ 第二个提交 ID 或参考 \(可选\)
 dlgSgTool(Add|Edit).mni"Commit ID or Ref"=提交 ID 或参考
 dlgSgTool(Add|Edit).mni"Configured Text File Encoding"=配置的文本文件编码
 dlgSgTool(Add|Edit).mni"File or Directory Name"=文件或目录名称
@@ -1682,7 +1682,7 @@ dlgSgWorktreePruneNoWorktree.tle=删除废弃的工作树
 edt"Search For"=搜索
 pop"$1 succeeded."=$1 成功。
 pop"Command Fetch \(background\) has been aborted."=\
- 命令提取 \(后台\) 已中止。
+ 命令获取 \(后台\) 已中止。
 pop"Modify the previous commit and commit."=\
  修改先前的提交和提交。
 pop"No more changes."=没有差异。
@@ -1693,9 +1693,9 @@ pop"There is no action available for this drop operation."=\
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  取消第一次提交和提交的不需要的更改。
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left=使用左边文件块
-wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left-right=向左，然后向右
+wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left-right=左边，然后右边
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right=使用右边文件块
-wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=向右，然后向左
+wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=右边，然后左边
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-undo=撤销
 wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-export-html=导出为 HTML 文件
 wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-open-base=打开基本文件更改
@@ -1721,8 +1721,8 @@ wnd(Compare|ConflictSolver|Git.indexEditor).mniView-synchronize-scrolling=同步
 wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Next Change"=下一处差异
 wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Prev. Change"=上一处差异
 wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Reload"=重新加载
-wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Take Left"=向左
-wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Take Right"=向右
+wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Take Left"=左边
+wnd(Compare|ConflictSolver|Git.indexEditor).tbr"Take Right"=右边
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mni"Copy Selection"=复制选中
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniCustomize=自定义
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-copy=复制
@@ -1760,7 +1760,7 @@ wnd(Log|Project).mni"New Group"=创建分组
 wnd(Log|Project).mni"No Group"=没有分组
 wnd(Log|Project).mniAbout=关于 SmartGit
 wnd(Log|Project).mniAnnotate=追溯
-wnd(Log|Project).mniAssume-unchanged-toggle=切换 “忽略跟踪”
+wnd(Log|Project).mniAssume-unchanged-toggle=切换 “假设不变”
 wnd(Log|Project).mniBisectBad=将 HEAD 标记为坏的
 wnd(Log|Project).mniBisectExit=重置
 wnd(Log|Project).mniBisectGood=将 HEAD 标记为好的
@@ -1869,13 +1869,13 @@ wnd(Log|Project).mniRemoteProperties=属性
 wnd(Log|Project).mniRemoteRename=重命名
 wnd(Log|Project).mniRemove=删除
 wnd(Log|Project).mniRename=重命名
-wnd(Log|Project).mniRepositoryAdd=创建或创建仓库
+wnd(Log|Project).mniRepositoryAdd=添加或创建
 wnd(Log|Project).mniRepositoryAddGroup=创建分组
 wnd(Log|Project).mniRepositoryClone=克隆
 wnd(Log|Project).mniRepositoryClose=关闭
 wnd(Log|Project).mniRepositoryEditConfig=仓库
 wnd(Log|Project).mniRepositoryEditConfigUser=用户
-wnd(Log|Project).mniRepositoryFavorite=标记为收藏
+wnd(Log|Project).mniRepositoryFavorite=取消标记为收藏夹
 wnd(Log|Project).mniRepositoryOpen=打开仓库
 wnd(Log|Project).mniRepositoryOpenInNewWindow=在新窗口中打开仓库
 wnd(Log|Project).mniRepositoryRemove=删除
@@ -1931,7 +1931,7 @@ wnd(Log|Project).mniViewStyleMixed=混合
 wnd(Log|Project).mniViewStyleWorkingTree=仅工作树
 wnd(Log|Project).mniViewToolBar=显示工具栏
 wnd(Log|Project).mniViewUnchanged=显示未更改的文件
-wnd(Log|Project).mniViewUnchangedAssumed=显示假定未更改的文件
+wnd(Log|Project).mniViewUnchangedAssumed=显示假设不变的文件
 wnd(Log|Project).mniViewUnversioned=显示无版本文件
 wnd(Log|Project).mniWindowBranches=分支视图
 wnd(Log|Project).mniWindowChanges=更改视图
@@ -1950,7 +1950,7 @@ wnd(Log|Project).mniWindowOutput=输出视图
 wnd(Log|Project).mniWindowWorkingTree=工作树窗口
 wnd(Log|Project).mniWorktreeAdd=创建工作树
 wnd(Log|Project).mniWorktreeRemove=修剪过时的工作树
-wnd(Log|Project).mnu"< No Windows >"=<无窗口>
+wnd(Log|Project).mnu"< No Windows >"=< 无窗口 >
 wnd(Log|Project).mnu"Bisect"=二分
 wnd(Log|Project).mnu"Branch"=分支
 wnd(Log|Project).mnu"Debug"=调试
@@ -1982,10 +1982,10 @@ wnd(Log|Project).tab"Commit"=提交
 wnd(Log|Project).tab"Debug Log"=调试日志
 wnd(Log|Project).tab"Files \(Working Tree\)"=文件 \(工作副本\)
 wnd(Log|Project).tab"Files"=文件
-wnd(Log|Project).tab"Graph \(Initializing...\)"=图 \(初始化...\)
-wnd(Log|Project).tab"Graph \(Loading...\)"=图 \(载入中...\)
-wnd(Log|Project).tab"Graph \(Running log...\)"=图 \(运行日志...\)
-wnd(Log|Project).tab"Graph \(Scanning WT...\)"=图 \(扫描 WT...\)
+wnd(Log|Project).tab"Graph \(Initializing...\)"=图形 \(初始化...\)
+wnd(Log|Project).tab"Graph \(Loading...\)"=图形 \(载入中...\)
+wnd(Log|Project).tab"Graph \(Running log...\)"=图形 \(运行日志...\)
+wnd(Log|Project).tab"Graph \(Scanning WT...\)"=图形 \(扫描 WT...\)
 wnd(Log|Project).tab"Graph"=图形
 wnd(Log|Project).tab"Journal"=日志
 wnd(Log|Project).tab"Output"=输出
@@ -2068,8 +2068,8 @@ wndConflictSolver.tbr"Merge + Right"=合并 + 右
 wndConflictSolver.tbr"Merge Below"=下方合并
 wndConflictSolver.tbr"Next Conflict"=下一处冲突
 wndConflictSolver.tbr"Prev. Conflict"=上一处冲突
-wndConflictSolver.tbr"Take Left, Right"=向左, 向右
-wndConflictSolver.tbr"Take Right, Left"=向右, 向左
+wndConflictSolver.tbr"Take Left, Right"=左边, 右边
+wndConflictSolver.tbr"Take Right, Left"=右边, 左边
 wndConflictSolver.tbtGoto-next-conflict=下一处冲突。
 wndDeepgit.btn"Go Deeper"=更深入
 wndDeepgit.col"File"=文件
@@ -2236,7 +2236,7 @@ wndLog.mni"Toggle Hosting Provider Integration"=切换托管服务提供商集�
 wndLog.mni"Toggle"=切换
 wndLog.mniBranchesGitFlowRemoteOnly=在 Git 工作流部分显示远程分支
 wndLog.mniBranchesGitFlowTracked=显示远程，跟踪分支
-wndLog.mniBranchesSectionize=按路径名称分组标记和分支 \(foo/bar\)
+wndLog.mniBranchesSectionize=按路径名称分组标签和分支 \(foo/bar\)
 wndLog.mniBranchesSectionizeCompact=除了单项
 wndLog.mniBranchesSortByName=按名称排序参考
 wndLog.mniBranchesSortByNameReversed=按名称排序参考 \(数字反转\)
@@ -2260,7 +2260,7 @@ wndLog.mniWindowMaximizeRestore"Restore Maximized View"=还原视图
 wndLog.tab"Comments \($1\)"=注释 \($1\)
 wndLog.tbt"Clear logging."=清除日志记录。
 wndLog.tbt"Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."=\
- 当前仓库未配置主机提供商。前往 “首选项创建配置”。
+ 当前仓库未配置主机提供商。前往 “首选项” 创建配置。
 wndLog.tbt"Show directories tree"=显示目录树
 wndLog.tbtAnnotate=显示所选文件的追溯 \(注释\) 视图。
 wndLog.tbtClearOutput=清除输出窗格。
@@ -2282,7 +2282,7 @@ wndLog.tbtSync=推送当前分支的本地提交并拉取远程程更改。
 wndLog.tbtUnstage=从索引中删除暂存更改。
 wndLog.tbtViewIgnored=如果选中，将显示忽略的文件。
 wndLog.tbtViewUnchanged=如果选中，将显示未更改的文件。
-wndLog.tbtViewUnchangedAssumed=如果选中，将显示具有 “忽略跟踪” 标志的文件。
+wndLog.tbtViewUnchangedAssumed=如果选中，将显示具有 “假设不变” 标志的文件。
 wndProject.btn"Abort"=中止
 wndProject.btn"Commit"=提交
 wndProject.btn"Continue"=继续
