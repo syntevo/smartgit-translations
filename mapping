@@ -456,13 +456,6 @@ dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
  Specify the Git, Mercurial or SVN repository to clone.
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  Specify the local directory for the new repository.
-dlgSgClone.mni"Add Hosting Provider"=Add Hosting Provider
-dlgSgClone.mni"BitBucket"=BitBucket
-dlgSgClone.mni"Bitbucket Server"=Bitbucket Server
-dlgSgClone.mni"Codebase \(API credentials\)"=Codebase \(API credentials\)
-dlgSgClone.mni"GitLab \(gitlab.com\)"=GitLab \(gitlab.com\)
-dlgSgClone.mni"GitLab \(smart\)"=GitLab \(smart\)
-dlgSgClone.mni"github.com"=github.com
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=Clone all revisions \(recommended\)
 dlgSgClone.rbt"Clone from revision:"=Clone from revision:
 dlgSgClone.rbt"Local Git or Mercurial repository"=Local Git or Mercurial repository
