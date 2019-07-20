@@ -63,7 +63,7 @@ dlgQUpdateCheckLatestBuild.btn"Get Latest Build"=Get Latest Build
 dlgQUpdateCheckLatestBuild.fur=Only use the latest build if requested by the support team.
 dlgQUpdateCheckLatestBuild.hdl=Are you sure to download the latest build?
 dlgQUpdateCheckLatestBuild.tle=Check for Latest Build
-dlgQUpdateCheckLatestBuildFetchFailed.fur%1=Details: Could not resolve the IP address of the host '$1'.
+dlgQUpdateCheckLatestBuildFetchFailed.fur%1=Details: $1
 dlgQUpdateCheckLatestBuildFetchFailed.hdl=Initializing upgrade failed.
 dlgQUpdateCheckLatestBuildFetchFailed.tle=Check for Latest Build
 dlgQUpdateCheckNoNewerLatestBuild.fur=You are already using the latest build.
@@ -1649,8 +1649,7 @@ dlgSgWorktreePruneNoWorktree.hdl=No worktree to prune.
 dlgSgWorktreePruneNoWorktree.tle=Prune Obsolete Worktrees
 edt"Search For"=Search For
 pop"$1 succeeded."=$1 succeeded.
-pop"Command Fetch \(background\) has been aborted."=\
- Command Fetch \(background\) has been aborted.
+pop"Command $1 has been aborted."=Command $1 has been aborted.
 pop"Modify the previous commit and commit."=\
  Modify the previous commit and commit.
 pop"No more changes."=No more changes.
