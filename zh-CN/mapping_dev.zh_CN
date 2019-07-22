@@ -25,7 +25,7 @@
 
 *.btn"Cancel"=取消
 *.btn"Close"=关闭
-*.btn"OK"=好
+*.btn"OK"=同意
 *.hnt"Filter"=过滤器
 dlgDgAbout.edt"Build Date"=编译日期
 dlgDgAbout.edt"Email"=电子邮箱
