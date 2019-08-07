@@ -2205,11 +2205,7 @@ wndLog.tbtViewIgnored=如果选中，将显示忽略的文件。
 wndLog.tbtViewStaged=如果选中，将显示具有暂存 \(Index\) 更改且未更改工作树的文件。
 wndLog.tbtViewUnchanged=如果选中，将显示未更改的文件。
 wndLog.tbtViewUnchangedAssumed=如果选中，将显示具有 “假设不变” 标志的文件。
-<<<<<<< HEAD
-wndLog.tbtViewUnversioned=如果选中，未加入版本控制的文件将会显示。
-=======
 wndLog.tbtViewUnversioned=如果选中，则不会显示版本控制的文件。
->>>>>>> origin/master
 wndLog.tbtWindowLayoutSetMain=切换到主透视图。
 wndProject.btn"Abort"=中止
 wndProject.btn"Commit"=提交
