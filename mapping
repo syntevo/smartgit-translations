@@ -833,7 +833,7 @@ dlgSgGitHubGenerateToken.rbt"Authenticate with your GitHub account and password"
  Authenticate with your GitHub account and password
 dlgSgGitHubGenerateToken.tle=Generate API Token
 dlgSgGitHubPullRequestCreate.btn"Create"=Create
-dlgSgGitHubPullRequestCreate.chk"Create only draft"=Create only draft
+dlgSgGitHubPullRequestCreate.chk"Draft \(don\'t notify code owners yet\)"=Draft \(don\'t notify code owners yet\)
 dlgSgGitHubPullRequestCreate.edt"$1 \u21d2"=$1 \u21d2
 dlgSgGitHubPullRequestCreate.edt"Title and Description"=Title and Description
 dlgSgGitHubPullRequestCreate.hdl=Create a Pull Request
