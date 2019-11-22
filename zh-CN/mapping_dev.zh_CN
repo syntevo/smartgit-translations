@@ -1206,7 +1206,7 @@ dlgSgPreferences.chk"Detect local changes in closed 'favorite' repositories"=\
  检测 “我的收藏” 中已关闭的仓库中的本地更改
 dlgSgPreferences.chk"Detect remote changes"=检测远程更改
 dlgSgPreferences.chk"Detect renames \(for added and removed files, as command line Git does\)"=\
- 检测重命名 \(创建和删​​除文件，如命 Git 令行所做的那样\)
+ 检测重命名 \(创建和删​​除文件，如 Git 命令行所做的那样\)
 dlgSgPreferences.chk"Distinguish between content and EOL-only changes \(slightly more expensive\)"=\
  区分内容和 EOL-only 的更改 \(稍微昂贵的代价\)
 dlgSgPreferences.chk"Enable integration for configured hosting providers \(pull requests, comments\)"=\
