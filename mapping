@@ -1067,7 +1067,7 @@ dlgSgLogGraphRootSwitch.hdl=Select shown branches
 dlgSgLogGraphRootSwitch.inf=Select the branches for which to show commits in the graph.
 dlgSgLogGraphRootSwitch.tle=Select Branches
 dlgSgLogOpenFailedRepository.fur=Is the repository still valid?
-dlgSgLogOpenFailedRepository.hdl%1=Repository '$1' is not valid.
+dlgSgLogOpenFailedRepository.hdl=Repository could not be opened.
 dlgSgLogOpenFailedRepository.tle=Log
 dlgSgLogOpenFailedSubmodule.fur=Is the repository still valid?
 dlgSgLogOpenFailedSubmodule.hdl%1=Repository '$1' is not valid.
@@ -1192,8 +1192,8 @@ dlgSgPreferences.chk"Enable integration for configured hosting providers \(pull 
  Enable integration for configured hosting providers \(pull requests, comments\)
 dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take Right\)"=\
  Focus next change after accepting change \(Take Left/Take Right\)
-dlgSgPreferences.chk"For Preview versions, always check for the latest build"=\
- For Preview versions, always check for the latest build
+dlgSgPreferences.chk"For Preview versions, automatically download the latest build"=\
+ For Preview versions, automatically download the latest build
 dlgSgPreferences.chk"Highlight current line in text content"=\
  Highlight current line in text content
 dlgSgPreferences.chk"Home and end: operate on line, not the document"=\
@@ -1213,7 +1213,8 @@ dlgSgPreferences.chk"Refresh file system also while SmartGit is in background"=\
  Refresh file system also while SmartGit is in background
 dlgSgPreferences.chk"Remember from last used single Log or Working Tree window"=\
  Remember from last used single Log or Working Tree window
-dlgSgPreferences.chk"Remove leading and trailing whitespace"=Remove leading and trailing whitespace
+dlgSgPreferences.chk"Remove leading and trailing whitespace from commit message"=\
+ Remove leading and trailing whitespace from commit message
 dlgSgPreferences.chk"Remove missing files"=Remove missing files
 dlgSgPreferences.chk"Restore all confirmation dialogs"=Restore all confirmation dialogs
 dlgSgPreferences.chk"Show also the resolve dialog for external conflict solvers"=\
