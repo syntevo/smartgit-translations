@@ -98,6 +98,9 @@ dlgQUpdateCheckForNewVersion.btn"Skip"=跳过
 dlgQUpdateCheckForNewVersion.hdl=SmartGit 需要检查更新
 dlgQUpdateCheckForNewVersion.inf=如果需要，请配置代理并重试。
 dlgQUpdateCheckForNewVersion.tle=检查新版本
+dlgQUpdateCheckForNewVersionFailed.fur%1=Details: Failed to connect to '$1'.
+dlgQUpdateCheckForNewVersionFailed.hdl=Checking for new versions has failed.
+dlgQUpdateCheckForNewVersionFailed.tle=Check for New Version
 dlgQUpdateCheckLatestBuild.btn"Get Latest Build"=确认
 dlgQUpdateCheckLatestBuild.fur=仅在支持团队要求时使用最新版本。
 dlgQUpdateCheckLatestBuild.hdl=您确定要下载最新编译版本吗？
@@ -857,7 +860,8 @@ dlgSgGitHubGenerateToken.rbt"Authenticate with your GitHub account and password"
  使用您的 GitHub 帐户和密码进行身份验证
 dlgSgGitHubGenerateToken.tle=生成 API 令牌
 dlgSgGitHubPullRequestCreate.btn"Create"=创建
-dlgSgGitHubPullRequestCreate.chk"Create only draft"=仅创建草稿
+dlgSgGitHubPullRequestCreate.chk"Draft \(don\'t notify code owners yet\)"=\
+ Draft \(don\'t notify code owners yet\)
 dlgSgGitHubPullRequestCreate.edt"$1 \u21d2"=$1 \u21d2
 dlgSgGitHubPullRequestCreate.edt"Title and Description"=标题和描述
 dlgSgGitHubPullRequestCreate.hdl=创建一个拉取请求
@@ -1088,7 +1092,7 @@ dlgSgLogGraphRootSwitch.hdl=选择显示的分支
 dlgSgLogGraphRootSwitch.inf=选择要在图表中显示提交的分支。
 dlgSgLogGraphRootSwitch.tle=选择分支
 dlgSgLogOpenFailedRepository.fur=仓库是否仍然有效？
-dlgSgLogOpenFailedRepository.hdl%1=仓库 “$1” 无效。
+dlgSgLogOpenFailedRepository.hdl=Repository could not be opened.
 dlgSgLogOpenFailedRepository.tle=日志
 dlgSgLogOpenFailedSubmodule.fur=仓库是否仍然有效？
 dlgSgLogOpenFailedSubmodule.hdl%1=仓库 “$1” 无效。
@@ -1213,7 +1217,7 @@ dlgSgPreferences.chk"Enable integration for configured hosting providers \(pull 
  为已配置的主机提供商启用集成 \(拉取请求，注释\)
 dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take Right\)"=\
  接受变更后，关注下一个变化 \(向左/向右\)
-dlgSgPreferences.chk"For Preview versions, always check for the latest build"=\
+dlgSgPreferences.chk"For Preview versions, automatically download the latest build"=\
  对于预览版本，始终检查最新编译版本
 dlgSgPreferences.chk"Highlight current line in text content"=\
  突出显示文本内容中的当前行
@@ -1234,7 +1238,8 @@ dlgSgPreferences.chk"Refresh file system also while SmartGit is in background"=\
  SmartGit 在后台工作时也刷新文件系统
 dlgSgPreferences.chk"Remember from last used single Log or Working Tree window"=\
  记住最后使用的日志或者工作树的窗口
-dlgSgPreferences.chk"Remove leading and trailing whitespace"=删除前导和尾随空格
+dlgSgPreferences.chk"Remove leading and trailing whitespace from commit message"=\
+ 删除前导和尾随空格
 dlgSgPreferences.chk"Remove missing files"=删除丢失的文件
 dlgSgPreferences.chk"Restore all confirmation dialogs"=还原所有确认对话框
 dlgSgPreferences.chk"Show also the resolve dialog for external conflict solvers"=\
@@ -1354,6 +1359,9 @@ dlgSgProcessKiller.btn"Wait"=等待
 dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
  当 SmartGit 配置为使用系统 SSH 客户端时，通常会发生这种情况，该客户端需要请求凭据。由于技术问题，SmartGit 无法读取 SSH 客户端的输入请求，因此会挂起。\n\n如果您认为进程挂起，请单击 “退出进程” 按钮，否则单击 “等待”。
 dlgSgProcessKiller.tle=进程无响应
+dlgSgProviderPullRequestCreateNoTargetRepositories.fur=The repository is no GitHub-fork and there are no other remotes which are forks of this repository.
+dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=No target repositories found.
+dlgSgProviderPullRequestCreateNoTargetRepositories.tle=Create Pull Request
 dlgSgProviderPullRequestDropConfirmMr.btn"Drop"=终止
 dlgSgProviderPullRequestDropConfirmMr.fur=拉取请求本身不会在服务器上删除。
 dlgSgProviderPullRequestDropConfirmMr.hdl%1=是否确实要删除请求 $1 的本地提交？
@@ -2099,6 +2107,9 @@ wndDeepgit.mniBack=回退
 wndDeepgit.mniEdit-copy=复制
 wndDeepgit.mniExtendLineToBlock=将线延伸到块
 wndDeepgit.mniFile-close=关闭
+wndDeepgit.mniFilterAddSelection=Add Selection to Filter
+wndDeepgit.mniFilterReset=Reset Filter
+wndDeepgit.mniFilterSetSelection=Set Selection as Filter
 wndDeepgit.mniFollowRenames=关注重命名
 wndDeepgit.mniForward=前进
 wndDeepgit.mniGoto-line=转到行
@@ -2211,6 +2222,7 @@ wndLog.col"Name"=名称
 wndLog.col"Path"=路径
 wndLog.col"Relative Directory"=相对目录
 wndLog.col"Renamed Path"=重命名路径
+wndLog.col"State"=State
 wndLog.col"Text"=文本
 wndLog.mni"<no entry>"=< 禁止输入 >
 wndLog.mni"Abbreviated"=简短的
@@ -2353,6 +2365,7 @@ wndLog.mniIgnore-line-separators=忽略行尾更改
 wndLog.mniLogShowAllParents=关注所有父系
 wndLog.mniPreviewShowCurrentLines=显示长的当前行
 wndLog.mniRemoteCopyUrl=复制网址
+wndLog.mniRepositorySelectObsolete=Select Obsolete Repositories
 wndLog.mniSet-syntax=语法语言
 wndLog.mniShow-line-numbers=显示行号
 wndLog.mniView-ignore-whitespaces-all=忽略所有空白字符变化
@@ -2431,11 +2444,14 @@ wndProject.mniLogRepository=日志窗口
 wndProject.mniSelectCommittableFiles=选择可提交文件
 wndProject.mniSelectDirectory=选择目录
 wndProject.mniSelectRoot=选择仓库根目录
+wndProject.mniViewSeparateWtAndIndex=Separate Working Tree and Index
 wndProject.mniWindowJournal=日志视图
 wndProject.tbr"Add"=创建
 wndProject.tbtFetch=从远程仓库获取提交，并且 \(可选地\) 将它们与可能的本地提交集成。
 wndProject.tbtLog=显示所选文件或目录的历史记录。
 wndProject.tbtLogRepository=显示整个仓库的历史记录。
+wndProject.tbtMerge=Merge changes from other branches.
+wndProject.tbtPush=Push local commits to the remote origin repository.
 wndProject.tbtRemove=从仓库中删除选定的文件或目录。
 wndProject.tbtStashSave=贮藏当前更改。
 wndProject.tbtViewFromSubmodules=如果选中，将显示子模块中的文件。
@@ -2645,10 +2661,14 @@ wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project).
 wnd(Log|Project).mniWindowOutput=输出视图
 wnd(Log|Project).mniWindowWorkingTree=工作树窗口
 wnd(Log|Project).mniWorktreeAdd=创建工作树
+wnd(Log|Project).mniWorktreePrune=Prune Obsolete Worktrees
 wnd(Log|Project).mniWorktreeRemove=修剪过时的工作树
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project).mnu"< No Windows >"=< 无窗口 >
 wnd(Log|Project).mnu"Bisect"=二分
 wnd(Log|Project).mnu"Branch"=分支
+wnd(Log|Project).mnu"Branches"=Branches
+wnd(Log|Project).mnu"Changes"=Changes
+wnd(Log|Project).mnu"Commits"=Commits
 wnd(Log|Project).mnu"Debug"=调试
 wnd(Log|Project).mnu"Edit Git Config"=编辑 Git 配置文件
 wnd(Log|Project).mnu"Edit"=编辑
@@ -2659,6 +2679,7 @@ wnd(Log|Project).mnu"Local"=本地
 wnd(Log|Project).mnu"Query"=查询
 wnd(Log|Project).mnu"Rebase"=变基
 wnd(Log|Project).mnu"Remote"=远程
+wnd(Log|Project).mnu"Repositories"=仓库
 wnd(Log|Project).mnu"Repository"=仓库
 wnd(Log|Project).mnu"Review"=审阅
 wnd(Log|Project).mnu"Submodule"=子模块
