@@ -1823,7 +1823,7 @@ dlgSgSetup.edt"Hg Executable"=Hg 可执行文件
 dlgSgSetup.edt"License File"=许可证文件
 dlgSgSetup.edt"Repository search"=仓库搜索
 dlgSgSetup.edt"User Name"=用户名
-dlgSgSetup.inf"Decide whether you prefer a File Manager or Log History like style of the SmartGit main window. You can change this option later in the preferences."=\
+dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
  决定您是喜欢文件管理器还是历史日志，如 SmartGit 主窗口的样式。 您可以稍后在首选项中更改此选项。
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在首选项中更改它。
@@ -1843,16 +1843,16 @@ dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use Sma
  您已购买 SmartGit 许可证，并且有资格将 SmartGit 用于商业和非商业用途。
 dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  您可以免费试用 SmartGit 30天。
-dlgSgSetup.rbt"File Manager \(recommended\)"=文件管理 \(推荐\)
+dlgSgSetup.rbt"Commits \(Log History\)"=日志历史
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  免费的 SmartGit 评估用于商业用途
-dlgSgSetup.rbt"Log History"=日志历史
 dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
  仅限非商业用途 \(大多数功能, 无技术支持\)
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  注册用户，商业用途 \(所有功能, 技术支持\)
 dlgSgSetup.rbt"Use SmartGit as SSH client"=使用 SmartGit 作为 SSH 客户端
 dlgSgSetup.rbt"Use system SSH client"=使用系统 SSH 客户端
+dlgSgSetup.rbt"Working Tree"=工作树
 dlgSgSetup.tle=设置 SmartGit
 dlgSgShowLocalChanges.btn"Compare"=比较
 dlgSgShowLocalChanges.hdl=在索引和工作树中修改了文件 preview.html.erb
