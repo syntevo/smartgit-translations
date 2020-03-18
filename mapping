@@ -1798,8 +1798,8 @@ dlgSgSetup.edt"Hg Executable"=Hg Executable
 dlgSgSetup.edt"License File"=License File
 dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=User Name
-dlgSgSetup.inf"Decide whether you prefer a File Manager or Log History like style of the SmartGit main window. You can change this option later in the preferences."=\
- Decide whether you prefer a File Manager or Log History like style of the SmartGit main window. You can change this option later in the preferences.
+dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
+ Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences.
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences.
 dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
@@ -1818,16 +1818,16 @@ dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use Sma
  You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes.
 dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  You may try SmartGit free of charge for 30 days.
-dlgSgSetup.rbt"File Manager \(recommended\)"=File Manager \(recommended\)
+dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  Free SmartGit evaluation for commercial use
-dlgSgSetup.rbt"Log History"=Log History
 dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
  Non-commercial use only \(most features, no support\)
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  Registered user, commercial use \(all features, support\)
 dlgSgSetup.rbt"Use SmartGit as SSH client"=Use SmartGit as SSH client
 dlgSgSetup.rbt"Use system SSH client"=Use system SSH client
+dlgSgSetup.rbt"Working Tree"=Working Tree
 dlgSgSetup.tle=Setup SmartGit
 dlgSgShowLocalChanges.btn"Compare"=Compare
 dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
