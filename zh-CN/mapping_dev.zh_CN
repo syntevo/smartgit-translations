@@ -1359,7 +1359,7 @@ dlgSgProcessKiller.btn"Wait"=等待
 dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
  当 SmartGit 配置为使用系统 SSH 客户端时，通常会发生这种情况，该客户端需要请求凭据。由于技术问题，SmartGit 无法读取 SSH 客户端的输入请求，因此会挂起。\n\n如果您认为进程挂起，请单击 “退出进程” 按钮，否则单击 “等待”。
 dlgSgProcessKiller.tle=进程无响应
-dlgSgProviderPullRequestCreateNoTargetRepositories.fur=该仓库不是 GitHub 分支，也没有其他远程仓库。
+dlgSgProviderPullRequestCreateNoTargetRepositories.fur=该仓库不是 GitHub 复刻仓库，也没有复刻了此仓库的其它远程仓库。
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=找不到目标仓库。
 dlgSgProviderPullRequestCreateNoTargetRepositories.tle=创建拉取请求
 dlgSgProviderPullRequestDropConfirmMr.btn"Drop"=终止
