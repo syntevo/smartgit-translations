@@ -1322,7 +1322,6 @@ dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, 
  如果您使用SSH连接到其他 Git 仓库，请选择要使用的 SSH 客户端。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  要使用所有 SmartGit 功能，您需要在系统上安装 Git 命令行。在这里提供已安装的 “git” 可执行文件的完整路径。
- In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable.
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
  要使用所有 SmartGit 功能，您需要在系统上安装 Git 命令行或 Mercurial。在这里提供已安装的 “git” 或 “hg” 可执行文件的完整路径。
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
