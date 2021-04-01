@@ -1,0 +1,32 @@
+dlgQBugReportSend.edt"Reply To"=Reply To
+dlgQUpdateCheckNewVersion.btn"Download"=Download
+dlgQUpdateCheckNewVersion.fur=It's recommended to update to the new version.
+dlgQUpdateCheckNewVersion.hdl=A new version of SmartGit is available.
+dlgQUpdateCheckNewVersion.tle=Check for New Version
+dlgSgClone.inf"Specify the repository to clone."=Specify the repository to clone.
+dlgSgClone.rbt"Local repository"=Local repository
+dlgSgClone.rbt"Remote repository"=Remote repository
+dlgSgDiscard.btn"Discard to Stash"=Discard to Stash
+dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
+ Commit '$1' was not found in repository.
+dlgSgPreferences.cdl"Git Executable"=Git Executable
+wndAnnotate.mniShowChanges=Show Changes
+wndCompare.mniRefresh=Reload
+wndDeepgit.mniConfigureRefGroups=Tag-Grouping
+wndDeepgit.mniGoto-next-diff=Next Change
+wndDeepgit.mniGoto-previous-diff=Previous Change
+wndDeepgit.mniPerspectiveHistory=Diff Perspective
+wndDeepgit.mniShowOnRefs=Show On Refs in Navigation
+wndDeepgit.tbr"Diff"=Diff
+wndLog.mni"Copy Full ID"=Copy Full ID
+wndLog.mniBranchesSectionizeAfterLastSlash=After last slash
+wndLog.mniBranchesSectionsBeforeRefs=Show groups first
+wndLog.mniBranchesSelectObsolete=Select Obsolete Local Branches
+wndLog.tbt"If selected, the directories will be shown."=\
+ If selected, the directories will be shown.
+wndLog.tbt"Interpret the search pattern as regular expression."=\
+ Interpret the search pattern as regular expression.
+wndLog.tbtRevealHomeCommit=Reveal HEAD/working tree in graph.
+wndProject.col"Ext."=Ext.
+wndProject.col"Last Changed On"=Last Changed On
+wndProject.col"Relative Path"=Relative Path
