@@ -18,15 +18,31 @@ wndDeepgit.mniGoto-previous-diff=Previous Change
 wndDeepgit.mniPerspectiveHistory=Diff Perspective
 wndDeepgit.mniShowOnRefs=Show On Refs in Navigation
 wndDeepgit.tbr"Diff"=Diff
-wndLog.mni"Copy Full ID"=Copy Full ID
-wndLog.mniBranchesSectionizeAfterLastSlash=After last slash
-wndLog.mniBranchesSectionsBeforeRefs=Show groups first
-wndLog.mniBranchesSelectObsolete=Select Obsolete Local Branches
-wndLog.tbt"If selected, the directories will be shown."=\
+wnd(Log|Project).col"Ext."=Ext.
+wnd(Log|Project).col"Last Changed On"=Last Changed On
+wnd(Log|Project).col"Relative Path"=Relative Path
+wnd(Log|Project).mni"Cherry-Pick Commits to $1"=Cherry-Pick Commits to $1
+wnd(Log|Project).mni"Comment $1"=Comment $1
+wnd(Log|Project).mni"Copy Full ID"=Copy Full ID
+wnd(Log|Project).mni"Delete 'Comment $1'"=Delete 'Comment $1'
+wnd(Log|Project).mni"Edit 'Comment $1'"=Edit 'Comment $1'
+wnd(Log|Project).mni"Rebase $1 commit from $2 to $3"=\
+ Rebase $1 commit from $2 to $3
+wnd(Log|Project).mni"Rebase $1 commits from $2 to $3"=\
+ Rebase $1 commits from $2 to $3
+wnd(Log|Project).mni"Reply '$1'"=Reply '$1'
+wnd(Log|Project).mni"Reset HEAD to $1"=Reset HEAD to $1
+wnd(Log|Project).mni"Revert $1"=Revert $1
+wnd(Log|Project).mni"Set '$1' to $2"=Set '$1' to $2
+wnd(Log|Project).mniBranchesSectionizeAfterLastSlash=After last slash
+wnd(Log|Project).mniBranchesSectionsBeforeRefs=Show groups first
+wnd(Log|Project).mniBranchesSelectObsolete=Select Obsolete Local Branches
+wnd(Log|Project).tab"Comments \($1\)"=Comments \($1\)
+wnd(Log|Project).tbt"If selected, the directories will be shown."=\
  If selected, the directories will be shown.
-wndLog.tbt"Interpret the search pattern as regular expression."=\
+wnd(Log|Project).tbt"Interpret the search pattern as regular expression."=\
  Interpret the search pattern as regular expression.
-wndLog.tbtRevealHomeCommit=Reveal HEAD/working tree in graph.
-wndProject.col"Ext."=Ext.
-wndProject.col"Last Changed On"=Last Changed On
-wndProject.col"Relative Path"=Relative Path
+wnd(Log|Project).tbt"Reading incoming merge requests from '$1'."=\
+ Reading incoming merge requests from '$1'.
+wnd(Log|Project).tbt"Reading repository info from '$1'."=Reading repository info from '$1'.
+wnd(Log|Project).tbtRevealHomeCommit=Reveal HEAD/working tree in graph.
