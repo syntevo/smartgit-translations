@@ -23,8 +23,11 @@
 :*"Refresh"=刷新
 :*"Email"=电子邮箱
 
+*.btn"< Back"=< 上一步
 *.btn"Cancel"=取消
 *.btn"Close"=关闭
+*.btn"Finish"=完成
+*.btn"Next >"=下一步 >
 *.btn"OK"=确定
 *.hnt"Filter"=过滤器
 dlgDgAbout.edt"Build Date"=编译日期
@@ -530,9 +533,6 @@ dlgSgClean.chk"Remove untracked directories"=删除未跟踪的目录
 dlgSgClean.hdl=删除未跟踪的文件
 dlgSgClean.inf=选择应删除哪些未跟踪的文件。
 dlgSgClean.tle=清理工作树
-dlgSgClone.btn"< Back"=< 上一步
-dlgSgClone.btn"Finish"=完成
-dlgSgClone.btn"Next >"=下一步 >
 dlgSgClone.chk"Create upstream remote"=同时创建上游仓库的远程连接
 dlgSgClone.chk"Fetch all Heads and Tags"=获取所有 HEAD 和标签
 dlgSgClone.chk"Fetch all commits"=获取所有提交
@@ -1835,11 +1835,8 @@ dlgSgSelectBranch.edt"Tracked Branch"=跟踪分支
 dlgSgSelectBranch.hdl=选择跟踪分支
 dlgSgSelectBranch.inf%1=选择应由 “$1” 跟踪的分支。
 dlgSgSelectBranch.tle=设置跟踪分支
-dlgSgSetup.btn"< Back"=< 上一步
 dlgSgSetup.btn"Configure Proxy"=设置代理
 dlgSgSetup.btn"Exit"=退出
-dlgSgSetup.btn"Finish"=完成
-dlgSgSetup.btn"Next >"=下一步 >
 dlgSgSetup.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  发生内部错误后自动发送 “崩溃追踪”
 dlgSgSetup.chk"I understand and agree to all terms and conditions of the"=\
