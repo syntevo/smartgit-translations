@@ -3,13 +3,62 @@ dlgQUpdateCheckNewVersion.btn"Download"=Download
 dlgQUpdateCheckNewVersion.fur=It's recommended to update to the new version.
 dlgQUpdateCheckNewVersion.hdl=A new version of SmartGit is available.
 dlgQUpdateCheckNewVersion.tle=Check for New Version
+dlgScJiraCommitMessageSelect.lbl"Load All Issues"=Load All Issues
+dlgScJiraCommitMessageSelect.lbl"Query Configuration"=Query Configuration
+dlgScMasterPasswordEnter.edt"Master Password"=Master Password
+dlgScMasterPasswordEnter.hdl=Enter the master password
+dlgScMasterPasswordEnter.inf=A stored password or passphrase has been requested from the password store.
+dlgScMasterPasswordEnter.tle=Passwords
+dlgScRegisterRequestRejected.fur=The license server rejected the request. Please manually register the latest license file you've got by email or try again later.
+dlgScRegisterRequestRejected.hdl=Failed to update license file.
+dlgScRegisterRequestRejected.tle=SmartGit License
 dlgSgClone.inf"Specify the repository to clone."=Specify the repository to clone.
 dlgSgClone.rbt"Local repository"=Local repository
 dlgSgClone.rbt"Remote repository"=Remote repository
+dlgSgCommit.chk"Amend last commit"=Amend last commit
+dlgSgCommit.lbl"More Options"=More Options
 dlgSgDiscard.btn"Discard to Stash"=Discard to Stash
 dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  Commit '$1' was not found in repository.
 dlgSgPreferences.cdl"Git Executable"=Git Executable
+dlgSgPreferences.chk"For ambiguous protocols like 'http', show dialog to choose between Git and SVN clone"=\
+ For ambiguous protocols like 'http', show dialog to choose between Git and SVN clone
+dlgSgPreferences.chk"Show chooser dialog if multiple entries match"=\
+ Show chooser dialog if multiple entries match
+dlgSgPull.lbl"More Options"=More Options
+dlgSgPushToRemote.chk"Force pushing \(even if it's not fast-forward\)"=\
+ Force pushing \(even if it's not fast-forward\)
+dlgSgPushToRemote.chk"Remove remote branches which don't have a local counterpart"=\
+ Remove remote branches which don't have a local counterpart
+dlgSgPushToRemote.edt"Target Repository"=Target Repository
+dlgSgPushToRemote.hdl=Push 'mstrap' branches to another remote
+dlgSgPushToRemote.inf=All branches of 'mstrap' \(as locally represented by the corresponding remote branches\) will be pushed to the target repository.
+dlgSgPushToRemote.tle=Push To
+dlgSgPushToRemoteRemoveTargetBranches.btn"Remove"=Remove
+dlgSgPushToRemoteRemoveTargetBranches.fur=Removed branches and their commits in the target remote which will be lost afterwards.
+dlgSgPushToRemoteRemoveTargetBranches.hdl=Do you really want to remove target remote branches?
+dlgSgPushToRemoteRemoveTargetBranches.tle=Push To
+dlgSgRepositorySettings.edt"Group Patterns"=Group Patterns
+dlgSgRepositorySettings.edt"Single Patterns"=Single Patterns
+dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
+ Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
+dlgSgRepositorySettings.tab"Signing"=Signing
+dlgSgRepositorySettings.tab"Tag-Grouping"=Tag-Grouping
+dlgSgRepositorySettings.tab"User & Encoding"=User & Encoding
+dlgSgSubmoduleAdd.chk"Map SVN trunk, tags and branches to Git"=\
+ Map SVN trunk, tags and branches to Git
+dlgSgSubmoduleAdd.edt"Local Directory"=Local Directory
+dlgSgSubmoduleAdd.edt"Local Path"=Local Path
+dlgSgSubmoduleAdd.edt"Repository URL"=Repository URL
+dlgSgSubmoduleAdd.edt"URL"=URL
+dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relative to the outer repository root directory."=\
+ Provide the path where the submodule should be added relative to the outer repository root directory.
+dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
+ Specify the repository to clone as submodule.
+dlgSgSubmoduleAdd.rbt"Local repository"=Local repository
+dlgSgSubmoduleAdd.rbt"Remote repository"=Remote repository
+dlgSgSubmoduleAdd.tle=Add Submodule
+dlgSgToolEdit.edt"Keyboard Shortcut"=Keyboard Shortcut
 wndAnnotate.mniShowChanges=Show Changes
 wndCompare.mniRefresh=Reload
 wndDeepgit.mniConfigureRefGroups=Tag-Grouping
@@ -18,31 +67,65 @@ wndDeepgit.mniGoto-previous-diff=Previous Change
 wndDeepgit.mniPerspectiveHistory=Diff Perspective
 wndDeepgit.mniShowOnRefs=Show On Refs in Navigation
 wndDeepgit.tbr"Diff"=Diff
+wndEditor.mniEdit-undo=Undo
+wndProject.mnu"Resolve"=Resolve
+wnd(Log|Project).btn"Conflict Solver"=Conflict Solver
+wnd(Log|Project).btn"Recreate Conflict"=Recreate Conflict
+wnd(Log|Project).btn"Step"=Step
+wnd(Log|Project).btn"Take Ours"=Take Ours
+wnd(Log|Project).btn"Take Theirs"=Take Theirs
+wnd(Log|Project).chk"Amend last commit"=Amend last commit
 wnd(Log|Project).col"Ext."=Ext.
 wnd(Log|Project).col"Last Changed On"=Last Changed On
 wnd(Log|Project).col"Relative Path"=Relative Path
+wnd(Log|Project).lbl"Directories"=Directories
+wnd(Log|Project).lbl"File"=File
+wnd(Log|Project).mni"Author Avatar"=Author Avatar
 wnd(Log|Project).mni"Cherry-Pick Commits to $1"=Cherry-Pick Commits to $1
 wnd(Log|Project).mni"Comment $1"=Comment $1
 wnd(Log|Project).mni"Copy Full ID"=Copy Full ID
 wnd(Log|Project).mni"Delete 'Comment $1'"=Delete 'Comment $1'
 wnd(Log|Project).mni"Edit 'Comment $1'"=Edit 'Comment $1'
+wnd(Log|Project).mni"Files from Subdirectories"=Files from Subdirectories
 wnd(Log|Project).mni"Rebase $1 commit from $2 to $3"=\
  Rebase $1 commit from $2 to $3
 wnd(Log|Project).mni"Rebase $1 commits from $2 to $3"=\
  Rebase $1 commits from $2 to $3
 wnd(Log|Project).mni"Reply '$1'"=Reply '$1'
 wnd(Log|Project).mni"Reset HEAD to $1"=Reset HEAD to $1
+wnd(Log|Project).mni"Resolve"=Resolve
 wnd(Log|Project).mni"Revert $1"=Revert $1
 wnd(Log|Project).mni"Set '$1' to $2"=Set '$1' to $2
+wnd(Log|Project).mni"Stage Lines"=Stage Lines
+wnd(Log|Project).mniBranchSplitFiles=Split Off Files
 wnd(Log|Project).mniBranchesSectionizeAfterLastSlash=After last slash
 wnd(Log|Project).mniBranchesSectionsBeforeRefs=Show groups first
 wnd(Log|Project).mniBranchesSelectObsolete=Select Obsolete Local Branches
+wnd(Log|Project).mniDebugCreateNonDisposedSwtResource=Create Non-Disposed SWT Resource
+wnd(Log|Project).mniEditFile=Edit File
+wnd(Log|Project).mniForgetCommit=Forget Commit
+wnd(Log|Project).mniRebaseStep=Step
+wnd(Log|Project).mniResolveOurs=Take Ours
+wnd(Log|Project).mniResolveRecreateConflict=Recreate Conflict
+wnd(Log|Project).mniResolveTheirs=Take Theirs
+wnd(Log|Project).mniRewriteTextFile=Fix Line-Endings
+wnd(Log|Project).mniSubtreePush=Push
+wnd(Log|Project).mnu"Resolve"=Resolve
 wnd(Log|Project).tab"Comments \($1\)"=Comments \($1\)
+wnd(Log|Project).tab"Graph \(Initializing Log-Cache...\)"=Graph \(Initializing Log-Cache...\)
+wnd(Log|Project).tab"Graph \(Initializing Subtree-Cache...\)"=Graph \(Initializing Subtree-Cache...\)
+wnd(Log|Project).tbr"Compact"=Compact
+wnd(Log|Project).tbr"Side by Side"=Side by Side
+wnd(Log|Project).tbr"Unified"=Unified
 wnd(Log|Project).tbt"If selected, the directories will be shown."=\
  If selected, the directories will be shown.
+wnd(Log|Project).tbt"Indicates how many files or directories are selected."=\
+ Indicates how many files or directories are selected.
 wnd(Log|Project).tbt"Interpret the search pattern as regular expression."=\
  Interpret the search pattern as regular expression.
 wnd(Log|Project).tbt"Reading incoming merge requests from '$1'."=\
  Reading incoming merge requests from '$1'.
 wnd(Log|Project).tbt"Reading repository info from '$1'."=Reading repository info from '$1'.
+wnd(Log|Project).tbtCherryPick=Merge changes from other branches.
 wnd(Log|Project).tbtRevealHomeCommit=Reveal HEAD/working tree in graph.
+wnd(Log|Project).tbtRevert=Undo the changes of an existing commit by "reverse" merging it.
