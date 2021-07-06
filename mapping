@@ -694,9 +694,10 @@ dlgSgDiscardRevertToIndex.hdl%1=Do you want to reset $1 files back to their Inde
 dlgSgDiscardRevertTo(Head|Index).btn"Discard"=Discard
 dlgSgDiscardRevertTo(Head|Index).fur=The content might be hard to restore!
 dlgSgDiscardRevertTo(Head|Index).tle=Discard
-dlgSgErrorUtilsClientException.fur=Could not determine URL for submodule /submodule. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  Commit '$1' was not found in repository.
+dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
+ Could not determine URL for submodule $1. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
 dlgSgErrorUtilsClientException.hdl=Executing a command has failed.
@@ -1228,7 +1229,7 @@ dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take R
  Focus next change after accepting change \(Take Left/Take Right\)
 dlgSgPreferences.chk"For Preview versions, automatically download the latest build"=\
  For Preview versions, automatically download the latest build
-dlgSgPreferences.chk"For ambiguous protocols like 'http', show dialog to choose between Git and SVN clone"=\
+dlgSgPreferences.chk"For ambiguous protocols like 'https', show dialog to choose between Git and SVN clone"=\
  For ambiguous protocols like 'http', show dialog to choose between Git and SVN clone
 dlgSgPreferences.chk"Highlight current line in text content"=\
  Highlight current line in text content
@@ -1489,8 +1490,8 @@ dlgSgPushToRemote.chk"Force pushing \(even if it's not fast-forward\)"=\
 dlgSgPushToRemote.chk"Remove remote branches which don't have a local counterpart"=\
  Remove remote branches which don't have a local counterpart
 dlgSgPushToRemote.edt"Target Repository"=Target Repository
-dlgSgPushToRemote.hdl=Push 'mstrap' branches to another remote
-dlgSgPushToRemote.inf=All branches of 'mstrap' \(as locally represented by the corresponding remote branches\) will be pushed to the target repository.
+dlgSgPushToRemote.hdl%1=Push '$1' branches to another remote
+dlgSgPushToRemote.inf%1=All branches of '$1' \(as locally represented by the corresponding remote branches\) will be pushed to the target repository.
 dlgSgPushToRemote.tle=Push To
 dlgSgPushToRemoteRemoveTargetBranches.btn"Remove"=Remove
 dlgSgPushToRemoteRemoveTargetBranches.fur=Removed branches and their commits in the target remote which will be lost afterwards.

@@ -719,9 +719,10 @@ dlgSgDiscardRevertToIndex.hdl%1=您确定要将 $1 文件重置为其 Index 状�
 dlgSgDiscardRevertTo(Head|Index).btn"Discard"=丢弃
 dlgSgDiscardRevertTo(Head|Index).fur=内容可能很难还原！
 dlgSgDiscardRevertTo(Head|Index).tle=丢弃
-dlgSgErrorUtilsClientException.fur=未在仓库内找到提交 '$1'.
 dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  未在仓库内找到提交 '$1'.
+dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
+ Could not determine URL for submodule $1. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=仓库 “$1” 无效。
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
 dlgSgErrorUtilsClientException.hdl=执行命令失败。
@@ -1253,7 +1254,7 @@ dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take R
  接受变更后，关注下一个变化 \(向左/向右\)
 dlgSgPreferences.chk"For Preview versions, automatically download the latest build"=\
  对于预览版本，自动下载最新版本
-dlgSgPreferences.chk"For ambiguous protocols like 'http', show dialog to choose between Git and SVN clone"=\
+dlgSgPreferences.chk"For ambiguous protocols like 'https', show dialog to choose between Git and SVN clone"=\
  对于像 "http "这样含糊不清的协议，显示选择Git或SVN克隆的对话框
 dlgSgPreferences.chk"Highlight current line in text content"=\
  突出显示文本内容中的当前行
@@ -1514,8 +1515,8 @@ dlgSgPushToRemote.chk"Force pushing \(even if it's not fast-forward\)"=\
 dlgSgPushToRemote.chk"Remove remote branches which don't have a local counterpart"=\
  删除没有本地对应的远程分支
 dlgSgPushToRemote.edt"Target Repository"=目标仓库
-dlgSgPushToRemote.hdl=将 'mstrap' 分支推送到另一个远程
-dlgSgPushToRemote.inf='mstrap' 的所有分支（在本地由相应的远程分支代表）将被推送到目标仓库.
+dlgSgPushToRemote.hdl%1=将 '$1' 分支推送到另一个远程
+dlgSgPushToRemote.inf%1='$1' 的所有分支（在本地由相应的远程分支代表）将被推送到目标仓库.
 dlgSgPushToRemote.tle=推送到
 dlgSgPushToRemoteRemoveTargetBranches.btn"Remove"=删除
 dlgSgPushToRemoteRemoveTargetBranches.fur=删除之后会丢失的目标远程中的分支和它们的提交.
