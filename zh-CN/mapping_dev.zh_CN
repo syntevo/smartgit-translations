@@ -722,7 +722,7 @@ dlgSgDiscardRevertTo(Head|Index).tle=丢弃
 dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  未在仓库内找到提交 '$1'.
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
- Could not determine URL for submodule $1. Is it correctly initialized?
+ 无法确定子模块 $1 的URL. 确定已经正常初始化?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=仓库 “$1” 无效。
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
 dlgSgErrorUtilsClientException.hdl=执行命令失败。
@@ -1255,7 +1255,7 @@ dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take R
 dlgSgPreferences.chk"For Preview versions, automatically download the latest build"=\
  对于预览版本，自动下载最新版本
 dlgSgPreferences.chk"For ambiguous protocols like 'https', show dialog to choose between Git and SVN clone"=\
- 对于像 "http "这样含糊不清的协议，显示选择Git或SVN克隆的对话框
+ 对于像 "https" 这样含糊不清的协议，显示选择Git或SVN克隆的对话框
 dlgSgPreferences.chk"Highlight current line in text content"=\
  突出显示文本内容中的当前行
 dlgSgPreferences.chk"Home and end: operate on line, not the document"=\
