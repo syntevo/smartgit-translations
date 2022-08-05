@@ -158,28 +158,18 @@ dlgScBugtrackerSslFingerprintNew.lbl"Is the following server fingerprint correct
 dlgScBugtrackerSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
  如有疑问，请与你的服务器管理员联系。
 dlgScBugtrackerSslFingerprintNew.tle=SSL 身份验证
-dlgScConflictSolverAdd.edt"Arguments"=参数
-dlgScConflictSolverAdd.edt"Command"=命令
-dlgScConflictSolverAdd.edt"File Pattern"=文件模式
 dlgScConflictSolverAdd.hdl=添加冲突解决方案
-dlgScConflictSolverAdd.inf"Define the file pattern \(e.g. \*.txt\) and select the merge tool which should be used to resolve conflicting files matching this pattern."=\
- 定义文件模式 \(例如：\*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
-dlgScConflictSolverAdd.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
-dlgScConflictSolverAdd.rbt"Built-in Conflict Solver"=内置冲突解决器
-dlgScConflictSolverAdd.rbt"External Conflict Solver"=外部冲突解决器
 dlgScConflictSolverAdd.tle=添加
-dlgScConflictSolverEdit.edt"Arguments"=参数
-dlgScConflictSolverEdit.edt"Command"=命令
-dlgScConflictSolverEdit.edt"File Pattern"=文件模式
 dlgScConflictSolverEdit.hdl=变基冲突解决方案
-dlgScConflictSolverEdit.inf"Define the file pattern \(e.g. \*.txt\) and select the merge tool which should be used to resolve conflicting files matching this pattern."=\
- 定义文件模式 \(例如: \*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
-dlgScConflictSolverEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
-dlgScConflictSolverEdit.rbt"Built-in Conflict Solver"=内置冲突解决器
-dlgScConflictSolverEdit.rbt"External Conflict Solver"=外部冲突解决器
 dlgScConflictSolverEdit.tle=编辑
+dlgScConflictSolver(Add|Edit).edt"Arguments"=参数
+dlgScConflictSolver(Add|Edit).edt"Command"=命令
+dlgScConflictSolver(Add|Edit).edt"File Pattern"=文件模式
+dlgScConflictSolver(Add|Edit).inf=定义文件模式 \(例如：\*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
+dlgScConflictSolver(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
+dlgScConflictSolver(Add|Edit).rbt"Built-in Conflict Solver"=内置冲突解决器
+dlgScConflictSolver(Add|Edit).rbt"External Conflict Solver"=外部冲突解决器
 dlgScConflictSolverUnresolvedConflicts.chk=不再显示警告
 dlgScConflictSolverUnresolvedConflicts.fur=并非所有冲突都已得到解决。
 dlgScConflictSolverUnresolvedConflicts.hdl=你想关闭冲突解决器吗？
@@ -204,41 +194,29 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=强制退出
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit 已检测到其安装文件 \(JAR 文件\) 中的不一致，这很可能是由安装错误引起的。\n\n请完全卸载 SmartGit，确保没有剩余的安装文件 \(尤其是 JAR 文件\) ，然后重新安装。\n\n如果问题仍然存在，请将以下记录文件作为附件发送到 smartgit@syntevo.com。
 dlgScDialogAssertionHandlerLinkageError.tle=内部错误
-dlgScFileComparatorAdd.edt"Arguments"=参数
-dlgScFileComparatorAdd.edt"Command"=命令
-dlgScFileComparatorAdd.edt"File Pattern"=文件模式
 dlgScFileComparatorAdd.hdl=添加外部差异工具
-dlgScFileComparatorAdd.inf"Define the file pattern \(e.g. \*.png\) and select the compare command which should be used to compare files matching the file pattern."=\
- 定义文件模式 \(例如：\*.png\) 并选择比较命令，该命令应用于比较与文件模式匹配的文件。
-dlgScFileComparatorAdd.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
-dlgScFileComparatorAdd.mni"File"=文件
-dlgScFileComparatorAdd.mni"Left Encoding"=左编码
-dlgScFileComparatorAdd.mni"Left File"=左文件
-dlgScFileComparatorAdd.mni"Left Local File"=左本地文件
-dlgScFileComparatorAdd.mni"Left Title"=左标题
-dlgScFileComparatorAdd.mni"Right Encoding"=右编码
-dlgScFileComparatorAdd.mni"Right File"=右文件
-dlgScFileComparatorAdd.mni"Right Local File"=右本地文件
-dlgScFileComparatorAdd.mni"Right Title"=右标题
-dlgScFileComparatorAdd.rbt"Built-in file compare"=内置文件比较
-dlgScFileComparatorAdd.rbt"External diff tool:"=外部差异工具：
-dlgScFileComparatorAdd.rbt"External viewer \(invoked for both compared files\):"=\
- 外部查看器 \(两个文件比较时使用\)
 dlgScFileComparatorAdd.tle=添加
-dlgScFileComparatorEdit.edt"Arguments"=参数
-dlgScFileComparatorEdit.edt"Command"=命令
-dlgScFileComparatorEdit.edt"File Pattern"=文件模式
 dlgScFileComparatorEdit.hdl=编辑外部差异工具
-dlgScFileComparatorEdit.inf"Define the file pattern \(e.g. \*.png\) and select the compare command which should be used to compare files matching the file pattern."=\
- 定义文件模式 \(例如: \*.png\) 并选择比较命令，该命令应用于比较与文件模式匹配的文件。
-dlgScFileComparatorEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
-dlgScFileComparatorEdit.rbt"Built-in file compare"=内置文件比较
-dlgScFileComparatorEdit.rbt"External diff tool:"=外部差异工具：
-dlgScFileComparatorEdit.rbt"External viewer \(invoked for both compared files\):"=\
- 外部查看器 \(两个文件比较时使用\)
 dlgScFileComparatorEdit.tle=编辑
+dlgScFileComparator(Add|Edit).edt"Arguments"=参数
+dlgScFileComparator(Add|Edit).edt"Command"=命令
+dlgScFileComparator(Add|Edit).edt"File Pattern"=文件模式
+dlgScFileComparator(Add|Edit).inf=定义文件模式 \(例如：\*.png\) 并选择比较命令，该命令应用于比较与文件模式匹配的文件。
+dlgScFileComparator(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
+dlgScFileComparator(Add|Edit).mni"File"=文件
+dlgScFileComparator(Add|Edit).mni"Left Encoding"=左编码
+dlgScFileComparator(Add|Edit).mni"Left File"=左文件
+dlgScFileComparator(Add|Edit).mni"Left Local File"=左本地文件
+dlgScFileComparator(Add|Edit).mni"Left Title"=左标题
+dlgScFileComparator(Add|Edit).mni"Right Encoding"=右编码
+dlgScFileComparator(Add|Edit).mni"Right File"=右文件
+dlgScFileComparator(Add|Edit).mni"Right Local File"=右本地文件
+dlgScFileComparator(Add|Edit).mni"Right Title"=右标题
+dlgScFileComparator(Add|Edit).rbt"Built-in file compare"=内置文件比较
+dlgScFileComparator(Add|Edit).rbt"External diff tool:"=外部差异工具：
+dlgScFileComparator(Add|Edit).rbt"External viewer \(invoked for both compared files\):"=\
+ 外部查看器 \(两个文件比较时使用\)
 dlgScFileCompareFileChanged.btn"Discard"=丢弃
 dlgScFileCompareFileChanged.btn"Save"=保存
 dlgScFileCompareFileChanged.fur=如果您不保存更改，您的更改将会丢失。
