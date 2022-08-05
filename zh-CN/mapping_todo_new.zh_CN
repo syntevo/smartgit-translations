@@ -1,0 +1,34 @@
+dlgScCustomizeToolBar.btn"Add"=Add
+dlgScCustomizeToolBar.btn"Remove"=Remove
+dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
+dlgScCustomizeToolBar.col"Available"=Available
+dlgScCustomizeToolBar.col"Selected"=Selected
+dlgScCustomizeToolBar.tle=Configure Toolbar
+dlgSgLogCompareWithWorkingTree.btn"Compare After"=Compare After
+dlgSgLogCompareWithWorkingTree.btn"Compare Before"=Compare Before
+dlgSgLogCompareWithWorkingTree.edt"Working Tree File"=Working Tree File
+dlgSgLogCompareWithWorkingTree.hdl=Compare repository file with local file
+dlgSgLogCompareWithWorkingTree.inf=Select whether to compare with the repository file as it was Before or After the selected commit.
+dlgSgLogCompareWithWorkingTree.tle=Compare with Working Tree
+dlgSgPreferences.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
+dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
+ Tab enters and Backspace deletes multiple leading spaces
+dlgSgSubmoduleAdd.edt"URL"=URL
+wndDeepgit.mniPerspectiveHistory=Diff Perspective
+wnd(Log|Project).lbl"Directory"=Directory
+wnd(Log|Project).lbl"Files"=Files
+wnd(Log|Project).mniOpenUserEcho=Feature Requests
+wnd(Log|Project).tbr"Conflict Solver"=Conflict Solver
+wnd(Log|Project).tbr"Drop Stash"=Drop Stash
+wnd(Log|Project).tbr"Fetch"=Fetch
+wnd(Log|Project).tbr"Finish"=Finish
+wnd(Log|Project).tbr"Integrate"=Integrate
+wnd(Log|Project).tbr"Log Selection"=Log Selection
+wnd(Log|Project).tbr"Reset Adv."=Reset Adv.
+wnd(Log|Project).tbr"Start"=Start
+wnd(Log|Project).tbtConflictSolver=Open the Conflict Solver \(or configured external merge tool\) to resolve conflicts.
+wnd(Log|Project).tbtFlowHotfixFinish=Finish a Git-Flow hotfix.
+wnd(Log|Project).tbtFlowIntegrateDevelop=Integrate new base commits into a Git-Flow feature.
+wnd(Log|Project).tbtResetAdvanced=Reset current HEAD to another commit and keep the difference in Index or Working Tree.
+wnd(Log|Project).tbtViewRenameSource=If selected, removed/missing source files of detected renames will be shown.
