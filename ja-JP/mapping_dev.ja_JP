@@ -352,10 +352,10 @@ dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=Upgrade Now
 dlgScUpdateInstallationUpgrade.fur%1=The new version $1 has been downloaded which needs to be installed.
 dlgScUpdateInstallationUpgrade.hdl=今すぐSmartGitをアップグレードしますか？
 dlgScUpdateInstallationUpgrade.tle=Upgrade SmartGit
-dlgSelectDiff.col"Command"=Command
+dlgSelectDiff.col"Command"=コマンド
 dlgSelectDiff.hdl=Select the diff tool
 dlgSelectDiff.inf=Select which matching diff tool should be used.
-dlgSelectDiff.tle=File Compare
+dlgSelectDiff.tle=ファイルの比較
 dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Abort Bisect
 dlgSgAbortBisectingConfirm.fur=Your working tree is in 'bisecting' state. You may abort it to get out of this state.\n\nAborting will checkout the branch or commit before starting bisect.
 dlgSgAbortBisectingConfirm.hdl=Do you want to reset your working tree?
@@ -492,10 +492,10 @@ dlgSgCheckoutTargetAlreadyExistsOverwrite.btn"Overwrite"=上書き
 dlgSgCheckoutTargetAlreadyExistsOverwrite.fur=「'キャンセル」をクリックすると、別のブランチ名を選択することができます。
 dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=ブランチ '$1' はすでに存在しています。上書きしますか？
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=チェックアウト
-dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=Cherry-Pick
+dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
 dlgSgCherryPickConfigurationFile.hdl%1=Do you want to cherry-pick changes of '$1'?
-dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
+dlgSgCherryPickConfigurationFile.tle=チェリーピック
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfirmation.chk=Append source SHA to commit message
@@ -1027,7 +1027,7 @@ dlgSgHttpPasswordCredentials.tle=ログイン
 dlgSgIgnoreChanged.btn"Discard Changes"=Discard Changes
 dlgSgIgnoreChanged.fur=The changes will be discarded when proceeding!
 dlgSgIgnoreChanged.hdl=Are you sure to remove changed files?
-dlgSgIgnoreChanged.tle=Ignore
+dlgSgIgnoreChanged.tle=無視
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=無視
 dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignore File
 dlgSgIgnoreDirectoryConfirm.fur=このディレクトリ名は、.ignore ファイルに追加されます。 .ignore ファイルが存在しない場合は、作成されます。
@@ -1092,11 +1092,11 @@ dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare With Each Other"=ファ
 dlgSgLogCompareSelectedFilesAgainstEachOther.fur=You may compare the selected files against each other or open up two separate compares for each file against its previous state.
 dlgSgLogCompareSelectedFilesAgainstEachOther.hdl=Do you want to compare the selected files against each other?
 dlgSgLogCompareSelectedFilesAgainstEachOther.tle=比較
-dlgSgLogCompareWithWorkingTree.btn"Compare After"=Compare After
-dlgSgLogCompareWithWorkingTree.btn"Compare Before"=Compare Before
-dlgSgLogCompareWithWorkingTree.edt"Working Tree File"=Working Tree File
-dlgSgLogCompareWithWorkingTree.hdl=Compare repository file with local file
-dlgSgLogCompareWithWorkingTree.inf=Select whether to compare with the repository file as it was Before or After the selected commit.
+dlgSgLogCompareWithWorkingTree.btn"Compare After"=後と比較
+dlgSgLogCompareWithWorkingTree.btn"Compare Before"=前と比較
+dlgSgLogCompareWithWorkingTree.edt"Working Tree File"=ワーキングツリーファイル
+dlgSgLogCompareWithWorkingTree.hdl=リポジトリファイルとローカルファイルの比較
+dlgSgLogCompareWithWorkingTree.inf=選択したコミットの前または後の状態のリポジトリファイルと比較するかどうかを選択します。
 dlgSgLogCompareWithWorkingTree.tle=Compare with Working Tree
 dlgSgLogGraphRootSwitch.chk"Include tracked remote branches"=Include tracked remote branches
 dlgSgLogGraphRootSwitch.hdl=Select shown branches
@@ -1192,7 +1192,7 @@ dlgSgPreferences.cdl"Git Config"=Git Config
 dlgSgPreferences.cdl"Git Executable"=Git 実行ファイル
 dlgSgPreferences.cdl"Hosting Providers"=ホスティングプロバイダ
 dlgSgPreferences.cdl"Keyboard Shortcuts"=キーボード ショートカット
-dlgSgPreferences.cdl"Log and Working Tree window"=Log and Working Tree window
+dlgSgPreferences.cdl"Log and Working Tree window"=ログとワーキングツリーウィンドウ
 dlgSgPreferences.cdl"Log"=ログ
 dlgSgPreferences.cdl"Low-level Properties"=ローレベルプロパティ
 dlgSgPreferences.cdl"Privacy"=プライバシー
@@ -1213,7 +1213,7 @@ dlgSgPreferences.chk"Allow to open multiple Log windows for the same repository/
 dlgSgPreferences.chk"Also detect renames for untracked and missing files"=\
  トラックされていないファイルや行方不明のファイルのリネームも検出します。
 dlgSgPreferences.chk"Always fetch new commits, tags and branches from submodule"=\
- Always fetch new commits, tags and branches from submodule
+ サブモジュールから常に新しいコミット、タグ、ブランチを取得する
 dlgSgPreferences.chk"Ask for master password on startup"=\
  起動時にマスターパスワードの入力を求める
 dlgSgPreferences.chk"Autoindent new lines"=改行時のオートインデント
@@ -1222,7 +1222,7 @@ dlgSgPreferences.chk"Automatically save stash on common commands, if they fail d
 dlgSgPreferences.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  内部エラー発生後、自動的に「クラッシュフットプリント」を送信
 dlgSgPreferences.chk"Automatically set up tracking for new branches \(requires push.default to be unset\)"=\
- Automatically set up tracking for new branches \(requires push.default to be unset\)
+ 新しいブランチのトラッキングを自動的に設定する\(push.defaultが未設定の必要があります。\）
 dlgSgPreferences.chk"Automatically set up tracking for new branches"=\
  新規ブランチの追跡を自動的に設定
 dlgSgPreferences.chk"Begin of line: jump to first non-whitespace character"=\
@@ -1250,7 +1250,7 @@ dlgSgPreferences.chk"Highlight current line in text content"=\
 dlgSgPreferences.chk"Home and end: operate on line, not the document"=\
  Home , End キー : ドキュメントではなく、行に対して操作する
 dlgSgPreferences.chk"Include untracked files"=追跡されていないファイルの追加
-dlgSgPreferences.chk"Initialize new submodules"=Initialize new submodules
+dlgSgPreferences.chk"Initialize new submodules"=新しいサブモジュールを初期化
 dlgSgPreferences.chk"Left and right cursor moves: limit to current line"=\
  左右のカーソル移動：現在の行に制限
 dlgSgPreferences.chk"Open repositories when idle"=アイドル時にリポジトリを開く \(Open repositories when idle\)
@@ -1260,7 +1260,7 @@ dlgSgPreferences.chk"Periodically invoke Git's garbage collection when idle"=\
 dlgSgPreferences.chk"Preselect 'Staged' if files are staged, even if a file without staged changes is selected"=\
  ファイルがステージングされている場合、ステージングされていない変更のないファイルが選択されていても、「ステージング」を事前に選択する。
 dlgSgPreferences.chk"Proxy requires authentication"=プロキシに認証が必要
-dlgSgPreferences.chk"Prune obsolete remote tracked branches"=Prune obsolete remote tracked branches
+dlgSgPreferences.chk"Prune obsolete remote tracked branches"=不要になったリモートトラッキングブランチを整理
 dlgSgPreferences.chk"Push all tags"=全てのタグをプッシュ
 dlgSgPreferences.chk"Refresh file system also while SmartGit is in background"=\
  SmartGit がバックグラウンド動作している間、ファイルシステムを更新する
@@ -1271,7 +1271,7 @@ dlgSgPreferences.chk"Remove leading and trailing whitespace from commit message"
 dlgSgPreferences.chk"Remove missing files"=見つからないファイルの削除
 dlgSgPreferences.chk"Restore all confirmation dialogs"=すべての確認ダイアログを復元する
 dlgSgPreferences.chk"Send 'crash footprints' after an internal error has occurred"=\
- Send 'crash footprints' after an internal error has occurred
+ 内部エラー発生後、「クラッシュフットプリント」を送信
 dlgSgPreferences.chk"Send usage statistics"=使用状況の統計情報の送信
 dlgSgPreferences.chk"Show also the resolve dialog for external conflict solvers"=\
  外部のコンフリクトソルバーの解決ダイアログも表示する
@@ -1283,13 +1283,13 @@ dlgSgPreferences.chk"Show verbose date for last days, e.g. Yesterday"=\
  過去の日の詳細な日付を表示する（例：Yesterday
 dlgSgPreferences.chk"Show welcome dialog if no repository has been reopened"=\
  リポジトリが再オープンされていない場合、ウェルカムダイアログを表示する。
-dlgSgPreferences.chk"Sign all commits"=Sign all commits
+dlgSgPreferences.chk"Sign all commits"=すべてのコミットに署名する
 dlgSgPreferences.chk"Swap 'ours' and 'theirs' on Rebase conflicts for easier understanding"=\
  リベースの競合で'ours'と'theirs'を入れ替えて理解しやすくする。
 dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
- Tab enters and Backspace deletes multiple leading spaces
+ Tabキーで複数のスペースを入力し、Backspaceキーで先頭の複数個のスペースを削除する
 dlgSgPreferences.chk"Trim whitespace"=空白を削除する
-dlgSgPreferences.chk"Update registered submodules"=Update registered submodules
+dlgSgPreferences.chk"Update registered submodules"=登録されたサブモジュールを更新する
 dlgSgPreferences.chk"Use background color for file table to indicate certain states"=\
  ファイルテーブルの背景色で状態を示す
 dlgSgPreferences.chk"Use font configured in User Interface > Built-in Text Editors"=\
@@ -1318,7 +1318,7 @@ dlgSgPreferences.col"Repository"=リポジトリ
 dlgSgPreferences.col"Shortcut"=ショートカット
 dlgSgPreferences.col"Value"=値
 dlgSgPreferences.edt"Date Format\*"=日付形式\*
-dlgSgPreferences.edt"Email"=Email
+dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
 dlgSgPreferences.edt"File Name Matches\*"=ファイル名の一致\*
@@ -1327,24 +1327,24 @@ dlgSgPreferences.edt"Font Size"=Font Size
 dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
-dlgSgPreferences.edt"Group Patterns"=Group Patterns
+dlgSgPreferences.edt"Group Patterns"=グループパターン
 dlgSgPreferences.edt"Hg Executable"=Hg Executable
 dlgSgPreferences.edt"Host"=ホスト
 dlgSgPreferences.edt"Known credentials"=Known credentials
 dlgSgPreferences.edt"Language\*"=言語\*
-dlgSgPreferences.edt"Name"=Name
+dlgSgPreferences.edt"Name"=名前
 dlgSgPreferences.edt"On startup"=起動時
 dlgSgPreferences.edt"Password"=パスワード
 dlgSgPreferences.edt"Port"=ポート
 dlgSgPreferences.edt"Prefer"=Prefer
 dlgSgPreferences.edt"Preview"=プレビュー
 dlgSgPreferences.edt"Shortcut"=ショートカット
-dlgSgPreferences.edt"Signing Key"=Signing Key
-dlgSgPreferences.edt"Single Patterns"=Single Patterns
-dlgSgPreferences.edt"Startup Window"=Startup Window
-dlgSgPreferences.edt"Submodule handling\*"=Submodule handling\*
+dlgSgPreferences.edt"Signing Key"=署名キー
+dlgSgPreferences.edt"Single Patterns"=シングルパターン
+dlgSgPreferences.edt"Startup Window"=スタートアップウィンドウ
+dlgSgPreferences.edt"Submodule handling\*"=サブモジュールの取り扱い\*
 dlgSgPreferences.edt"Suggest to"=提案する
-dlgSgPreferences.edt"Text File Encoding"=Text File Encoding
+dlgSgPreferences.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgSgPreferences.edt"Theme"=テーマ
 dlgSgPreferences.edt"Theme\*"=テーマ\*
 dlgSgPreferences.edt"Time Format\*"=時間形式\*
@@ -1355,7 +1355,7 @@ dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the s
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
  ツールメニューに表示される外部ツールを定義します。名前の前に「\*」が付いているものは、「開く」コマンドで使用できます。
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
- Here you can edit your account's 'gitconfig' which contains the defaults for all repositories.
+ ここでは、あなたのアカウントの 'gitconfig' を編集することができます。この設定には、すべてのリポジトリのデフォルト値が含まれています。
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
@@ -1367,7 +1367,7 @@ dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。クラッシュフットプリント」には、お使いのマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は一切含まれません。
 dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
+ この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  このプロキシは、主に「新しいバージョンの確認」に使用されます。\rシステムのプロキシ設定が適切でない場合には、Git HTTP\(S\)の接続にも使用されます。(詳細はドキュメントを参照してください)
 dlgSgPreferences.lbl"When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."=\
@@ -1414,14 +1414,14 @@ dlgSgPreferences.rbt"Working Tree"=ワーキングツリー
 dlgSgPreferences.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
 dlgSgPreferences.tab"Behavior"=動作
 dlgSgPreferences.tab"Colors"=色
-dlgSgPreferences.tab"Encoding"=Encoding
+dlgSgPreferences.tab"Encoding"=エンコーディング
 dlgSgPreferences.tab"Font"=フォント
 dlgSgPreferences.tab"Languages"=言語
-dlgSgPreferences.tab"Pull"=Pull
-dlgSgPreferences.tab"Push"=Push
-dlgSgPreferences.tab"Signing"=Signing
-dlgSgPreferences.tab"Tag-Grouping"=Tag-Grouping
-dlgSgPreferences.tab"User"=User
+dlgSgPreferences.tab"Pull"=プル
+dlgSgPreferences.tab"Push"=プッシュ
+dlgSgPreferences.tab"Signing"=署名
+dlgSgPreferences.tab"Tag-Grouping"=タグ-グルーピング
+dlgSgPreferences.tab"User"=ユーザー
 dlgSgPreferences.tle=環境設定
 dlgSgProcessKiller.btn"Exit Process"=プロセスを終了
 dlgSgProcessKiller.btn"Wait"=Wait
@@ -1452,7 +1452,7 @@ dlgSgProviderPullRequestRetractPr.tle=Retract Pull Request
 dlgSgPull.btn"Fetch Only"=フェッチのみ
 dlgSgPull.btn"Pull"=プル
 dlgSgPull.chk"Fetch from all remotes"=すべてのリモートからフェッチする
-dlgSgPull.chk"More Options"=More Options
+dlgSgPull.chk"More Options"=追加のオプション
 dlgSgPull.chk"Remember as default for repository"=リポジトリのデフォルトとして記憶する
 dlgSgPull.chk"Update existing and fetch new tags"=\
  既存のタグの更新と新しいタグの取得
@@ -1757,13 +1757,13 @@ dlgSgRepositorySettings.hdl=効果的なリポジトリ設定の編集
 dlgSgRepositorySettings.inf=ここでは、ユーザー設定ファイルとリポジトリに対する効果的なGit設定を確認・編集することができます。\rオプションをユーザー設定として保存するには、「デフォルトとして記憶する」を選択します。
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
-dlgSgRepositorySettings.tab"Encoding"=Encoding
+dlgSgRepositorySettings.tab"Encoding"=エンコーディング
 dlgSgRepositorySettings.tab"Pull"=プル
 dlgSgRepositorySettings.tab"Push"=プッシュ
 dlgSgRepositorySettings.tab"Signing"=署名
 dlgSgRepositorySettings.tab"Tag-Grouping"=タグ-グルーピング
 dlgSgRepositorySettings.tab"User & Encoding"=ユーザーとエンコーディング
-dlgSgRepositorySettings.tab"User"=User
+dlgSgRepositorySettings.tab"User"=ユーザー
 dlgSgRepositorySettings.tle=リポジトリの設定
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  The name should not contain an email address.
@@ -1958,7 +1958,7 @@ dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD vs. Working Tree
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=Index vs. Working Tree
 dlgSgShowLocalChanges.tle=比較する
 dlgSgSplitOffFiles.btn"Split Off"=Split Off
-dlgSgSplitOffFiles.edt"Commit Message"=Commit Message
+dlgSgSplitOffFiles.edt"Commit Message"=コミットメッセージ
 dlgSgSplitOffFiles.hdl=Move files to a second commit
 dlgSgSplitOffFiles.inf=Provide the message for the second commit that should contain the changes from the selected files.
 dlgSgSplitOffFiles.tle=Split Off Files
@@ -2017,7 +2017,7 @@ dlgSgStashesDropConfirm.hdl=選択したスタッシュを削除しますか？
 dlgSgStashesDropConfirm.tle=スタッシュを削除
 dlgSgSubmoduleAdd.chk"Map SVN trunk, tags and branches to Git"=\
  Map SVN trunk, tags and branches to Git
-dlgSgSubmoduleAdd.edt"Branch"=Branch
+dlgSgSubmoduleAdd.edt"Branch"=ブランチ
 dlgSgSubmoduleAdd.edt"Local Directory"=Local Directory
 dlgSgSubmoduleAdd.edt"Local Path"=Local Path
 dlgSgSubmoduleAdd.edt"Repository URL"=リポジトリ URL
@@ -2079,7 +2079,7 @@ dlgSgTagDeleteConfirmSingle.chk%1=リモート '$1' から削除
 dlgSgTagDeleteConfirmSingle.fur=You will not be able to restore it.
 dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
-dlgSgToolAdd.edt"Keyboard Shortcut"=Keyboard Shortcut
+dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolAdd.hdl=外部ツールの追加
 dlgSgToolAdd.mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
 dlgSgToolAdd.tle=追加
@@ -2288,15 +2288,15 @@ wndDeepgit.tbr"Origins"=Origins
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
 wndDeepgit.tbtPerspectiveBlameSimple=Find where the line originates from in simple cases when there are no alternative Origins.
 wndDeepgit.tbtPerspectiveCommit=Investigate Log.
-wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line originates from.\n\nIn order to inspect available Origins, they have to be evaluated first. First, select the file you want to investigate using File\|Open and select a line in it. Then wait until the calculation of possible Origins has finished.
+wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line originates from.\n\nSelected origin candidate can't be investigated because it doesn't reflect a real change.
 wndEditor.mni"CR \(classic macOS\)"=CR \(classic macOS\)
 wndEditor.mni"CR+LF \(Windows\)"=CR+LF \(Windows\)
 wndEditor.mni"LF \(Unix, macOS\)"=LF \(Unix, macOS\)
 wndEditor.mniEdit-undo=取り消し\(Undo\)
 wndEditor.mniEofEnforceLineEnding=Enforce Line Ending on End of File
 wndEditor.mniReplaceTabsWithSpaces=Replace Tabs With Spaces
-wndEditor.mniView-remember-as-default=Remember as Default
-wndEditor.mniView-settings=Settings
+wndEditor.mniView-remember-as-default=デフォルトとして記憶する
+wndEditor.mniView-settings=設定
 wndGit.indexEditor.mni"Discard Inner-line Change"=Discard Inner-line Change
 wndGit.indexEditor.mni"Discard Line"=Discard Line
 wndGit.indexEditor.mni"Discard Selection"=Discard Selection
@@ -2304,10 +2304,10 @@ wndGit.indexEditor.mni"Unstage Inner-line Change"=Unstage Inner-line Change
 wndGit.indexEditor.mni"Unstage Line"=Unstage Line
 wndGit.indexEditor.mni"Unstage Selection"=Unstage Selection
 wndGit.indexEditor.mniView-layout-all=全て
-wndGit.indexEditor.mniView-layout-head-index=HEAD and Index
-wndGit.indexEditor.mniView-layout-head-index-wt=All
+wndGit.indexEditor.mniView-layout-head-index=HEAD と Index
+wndGit.indexEditor.mniView-layout-head-index-wt=全て
 wndGit.indexEditor.mniView-layout-head-wt-above-index=HEAD and Working Tree Above Index
-wndGit.indexEditor.mniView-layout-index-wt=Index and Working Tree
+wndGit.indexEditor.mniView-layout-index-wt=Index と Working Tree
 wndGit.indexEditor.mniView-layout-left-merge=HEAD と Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
@@ -2366,16 +2366,16 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"File"=ファイル
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Go To"=移動
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"View"=表示
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).tbr"Save"=保存
-wnd(Log|Project|Std)."Abort"=Abort
-wnd(Log|Project|Std)."Commit"=Commit
+wnd(Log|Project|Std)."Abort"=中断
+wnd(Log|Project|Std)."Commit"=コミット
 wnd(Log|Project|Std)."Conflict Solver"=Conflict Solver
-wnd(Log|Project|Std)."Continue"=Continue
+wnd(Log|Project|Std)."Continue"=続ける
 wnd(Log|Project|Std)."Mark HEAD as Bad"=Mark HEAD as Bad
 wnd(Log|Project|Std)."Mark HEAD as Good"=Mark HEAD as Good
 wnd(Log|Project|Std)."Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std)."Recreate Conflict"=Recreate Conflict
 wnd(Log|Project|Std)."Rerun Thoroughly"=Rerun Thoroughly
-wnd(Log|Project|Std)."Reset"=Reset
+wnd(Log|Project|Std)."Reset"=リセット
 wnd(Log|Project|Std)."Reveal"=Reveal
 wnd(Log|Project|Std)."Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std)."Step"=Step
@@ -2403,10 +2403,10 @@ wnd(Log|Project|Std).chk"Amend last commit instead of creating new one"=\
 wnd(Log|Project|Std).chk"Amend last commit"=前回のコミットを修正
 wnd(Log|Project|Std).chk"Bypass commit hook"=コミットフックをバイパスする
 wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=Create simple commit \('squash'\)
-wnd(Log|Project|Std).chk"Push"=Push
+wnd(Log|Project|Std).chk"Push"=プッシュ
 wnd(Log|Project|Std).col"Assignee"=Assignee
 wnd(Log|Project|Std).col"Author"=Author
-wnd(Log|Project|Std).col"Branch"=Branch
+wnd(Log|Project|Std).col"Branch"=ブランチ
 wnd(Log|Project|Std).col"Copied From"=Copied From
 wnd(Log|Project|Std).col"Copied from"=Copied from
 wnd(Log|Project|Std).col"Date"=Date
@@ -2599,7 +2599,7 @@ wnd(Log|Project|Std).mniBranchAbort=中断
 wnd(Log|Project|Std).mniBranchAdd=ブランチを追加
 wnd(Log|Project|Std).mniBranchAddTag=タグを追加
 wnd(Log|Project|Std).mniBranchClose=閉じる
-wnd(Log|Project|Std).mniBranchContinue=Continue
+wnd(Log|Project|Std).mniBranchContinue=続ける
 wnd(Log|Project|Std).mniBranchDelete=削除
 wnd(Log|Project|Std).mniBranchRename=リネーム
 wnd(Log|Project|Std).mniBranchResetTracking=Stop Tracking
@@ -2699,7 +2699,7 @@ wnd(Log|Project|Std).mniLogWorkingTreeIndexOnDemand=Show Working Tree  Index On 
 wnd(Log|Project|Std).mniLogWorkingTreeIndexPermanent=Show Working Tree  Index Permanently
 wnd(Log|Project|Std).mniMailingList=SmartGitウェブサイト
 wnd(Log|Project|Std).mniMerge=マージ
-wnd(Log|Project|Std).mniModifyCommit=Modify
+wnd(Log|Project|Std).mniModifyCommit=変更
 wnd(Log|Project|Std).mniNewStandardWindow=Show Standard Window
 wnd(Log|Project|Std).mniNewWindow=新しいウィンドウ
 wnd(Log|Project|Std).mniOpen=ワーキングツリーから開く
@@ -2906,7 +2906,7 @@ wnd(Log|Project|Std).tbr"Blame"=ブレーム
 wnd(Log|Project|Std).tbr"Branch"=ブランチ
 wnd(Log|Project|Std).tbr"Check Out"=チェックアウト
 wnd(Log|Project|Std).tbr"Cherry-Pick"=チェリーピック
-wnd(Log|Project|Std).tbr"Clone"=Clone
+wnd(Log|Project|Std).tbr"Clone"=クローン
 wnd(Log|Project|Std).tbr"Commit"=コミット
 wnd(Log|Project|Std).tbr"Compact"=Compact
 wnd(Log|Project|Std).tbr"Conflict Solver"=コンフリクトソルバー
@@ -2933,7 +2933,7 @@ wnd(Log|Project|Std).tbr"Reset"=リセット
 wnd(Log|Project|Std).tbr"Revert"=Revert
 wnd(Log|Project|Std).tbr"Review"=レビュー
 wnd(Log|Project|Std).tbr"Save Stash"=スタッシュに保存
-wnd(Log|Project|Std).tbr"Search"=Search
+wnd(Log|Project|Std).tbr"Search"=検索
 wnd(Log|Project|Std).tbr"Side by Side"=並べて表示
 wnd(Log|Project|Std).tbr"Stage"=ステージ
 wnd(Log|Project|Std).tbr"Start"=開始
