@@ -31,22 +31,6 @@ dlgScAboutUpdateInstallation.btn"Upgrade Installation"=Upgrade Installation
 dlgScAboutUpdateInstallation.tle=Upgrade Installation
 dlgScApplicationStarterRestart.btn"Remind Later"=Remind Later
 dlgScApplicationStarterRestart.fur=The downloaded program update should be applied now.
-dlgScBugtrackerCredentials.hdl%1=Login to '$1'
-dlgScBugtrackerCredentials.inf=Provide the user name and password for authenticating to JIRA.
-dlgScBugtrackerCredentials.tle=Login to JIRA
-dlgScBugtrackerCredentials.wrn"HTTP response code $1"=HTTP response code $1
-dlgScBugtrackerSslClientCertificate.chk"Store passphrase"=Store passphrase
-dlgScBugtrackerSslClientCertificate.hdl%1=Select the client certificate for $1
-dlgScBugtrackerSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
-dlgScBugtrackerSslClientCertificate.tle=JIRA Client Certificate
-dlgScBugtrackerSslFingerprintNew.btn"Accept"=Accept
-dlgScBugtrackerSslFingerprintNew.btn"Reject"=Reject
-dlgScBugtrackerSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
-dlgScBugtrackerSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
-dlgScBugtrackerSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
- Is the following server fingerprint correct?
-dlgScBugtrackerSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
- When in doubt, contact your server administrator.
 dlgScConflictSolverUnresolvedConflicts.tle=Unresolved Conflicts
 dlgScCustomizeAccelerators.col"Accelerator"=Accelerator
 dlgScCustomizeAccelerators.col"Menu Item"=Menu Item
@@ -57,6 +41,22 @@ dlgScCustomizeToolBar.btn"Reset to Default"=Reset to Default
 dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
 dlgScCustomizeToolBar.col"Available"=Available
 dlgScCustomizeToolBar.col"Selected"=Selected
+dlgScDevOpsCredentials.hdl%1=Login to '$1'
+dlgScDevOpsCredentials.inf=Provide the user name and password for authenticating to JIRA.
+dlgScDevOpsCredentials.tle=Login to JIRA
+dlgScDevOpsCredentials.wrn"HTTP response code $1"=HTTP response code $1
+dlgScDevOpsSslClientCertificate.chk"Store passphrase"=Store passphrase
+dlgScDevOpsSslClientCertificate.hdl%1=Select the client certificate for $1
+dlgScDevOpsSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
+dlgScDevOpsSslClientCertificate.tle=JIRA Client Certificate
+dlgScDevOpsSslFingerprintNew.btn"Accept"=Accept
+dlgScDevOpsSslFingerprintNew.btn"Reject"=Reject
+dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
+dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
+dlgScDevOpsSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
+ Is the following server fingerprint correct?
+dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
+ When in doubt, contact your server administrator.
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
  Optional comments or steps to reproduce \(in case you still recall\)
 dlgScDialogAssertionHandler.tle=Native Crash Logs
@@ -75,7 +75,7 @@ dlgScFileComparator(Add|Edit).mni"Left Title"=Left Title
 dlgScFileComparator(Add|Edit).mni"Right Encoding"=Right Encoding
 dlgScFileComparator(Add|Edit).mni"Right Local File"=Right Local File
 dlgScFileComparator(Add|Edit).mni"Right Title"=Right Title
-dlgScFilePatternsEdit.hdl=Language: C#
+dlgScFilePatternsEdit.hdl%1=Language: $1
 dlgScFilePatternsEdit.tle=File Patterns
 dlgScJiraCommitMessageSelect.col"Fix Version"=Fix Version
 dlgScJiraCommitMessageSelect.col"Status"=Status

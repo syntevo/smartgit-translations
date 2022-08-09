@@ -107,32 +107,6 @@ dlgScApplicationStarterRestart.btn"Restart"=再起動
 dlgScApplicationStarterRestart.fur=The downloaded program update should be applied now.
 dlgScApplicationStarterRestart.hdl=SmartGitは再起動が必要です。
 dlgScApplicationStarterRestart.tle=再起動
-dlgScBugtrackerCredentials.btn"Login"=ログイン
-dlgScBugtrackerCredentials.chk"Store password"=パスワードの保存
-dlgScBugtrackerCredentials.edt"Password"=パスワード
-dlgScBugtrackerCredentials.edt"User Name"=ユーザ名
-dlgScBugtrackerCredentials.hdl%1=Login to '$1'
-dlgScBugtrackerCredentials.inf=Provide the user name and password for authenticating to JIRA.
-dlgScBugtrackerCredentials.tle=Login to JIRA
-dlgScBugtrackerCredentials.wrn"HTTP response code $1"=HTTP response code $1
-dlgScBugtrackerSslClientCertificate.btn"Login"=ログイン
-dlgScBugtrackerSslClientCertificate.chk"Store passphrase"=Store passphrase
-dlgScBugtrackerSslClientCertificate.edt"Certificate"=証明書
-dlgScBugtrackerSslClientCertificate.edt"Passphrase"=パスフレーズ
-dlgScBugtrackerSslClientCertificate.hdl%1=Select the client certificate for $1
-dlgScBugtrackerSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
-dlgScBugtrackerSslClientCertificate.tle=JIRA Client Certificate
-dlgScBugtrackerSslClientCertificate.wrn"$1"=$1
-dlgScBugtrackerSslFingerprintNew.btn"Accept"=Accept
-dlgScBugtrackerSslFingerprintNew.btn"Reject"=Reject
-dlgScBugtrackerSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
-dlgScBugtrackerSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
-dlgScBugtrackerSslFingerprintNew.edt"Server"=サーバ
-dlgScBugtrackerSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
- Is the following server fingerprint correct?
-dlgScBugtrackerSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
- When in doubt, contact your server administrator.
-dlgScBugtrackerSslFingerprintNew.tle=SSL認証
 dlgScConflictSolverAdd.hdl=コンフリクトソルバーの追加
 dlgScConflictSolverAdd.tle=追加
 dlgScConflictSolverEdit.hdl=コンフリクトソルバーの編集
@@ -166,6 +140,32 @@ dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
 dlgScCustomizeToolBar.col"Available"=Available
 dlgScCustomizeToolBar.col"Selected"=Selected
 dlgScCustomizeToolBar.tle=ツールバーの設定
+dlgScDevOpsCredentials.btn"Login"=ログイン
+dlgScDevOpsCredentials.chk"Store password"=パスワードの保存
+dlgScDevOpsCredentials.edt"Password"=パスワード
+dlgScDevOpsCredentials.edt"User Name"=ユーザ名
+dlgScDevOpsCredentials.hdl%1=Login to '$1'
+dlgScDevOpsCredentials.inf=Provide the user name and password for authenticating to JIRA.
+dlgScDevOpsCredentials.tle=Login to JIRA
+dlgScDevOpsCredentials.wrn"HTTP response code $1"=HTTP response code $1
+dlgScDevOpsSslClientCertificate.btn"Login"=ログイン
+dlgScDevOpsSslClientCertificate.chk"Store passphrase"=Store passphrase
+dlgScDevOpsSslClientCertificate.edt"Certificate"=証明書
+dlgScDevOpsSslClientCertificate.edt"Passphrase"=パスフレーズ
+dlgScDevOpsSslClientCertificate.hdl%1=Select the client certificate for $1
+dlgScDevOpsSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
+dlgScDevOpsSslClientCertificate.tle=JIRA Client Certificate
+dlgScDevOpsSslClientCertificate.wrn"$1"=$1
+dlgScDevOpsSslFingerprintNew.btn"Accept"=Accept
+dlgScDevOpsSslFingerprintNew.btn"Reject"=Reject
+dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
+dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
+dlgScDevOpsSslFingerprintNew.edt"Server"=サーバ
+dlgScDevOpsSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
+ Is the following server fingerprint correct?
+dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
+ When in doubt, contact your server administrator.
+dlgScDevOpsSslFingerprintNew.tle=SSL認証
 dlgScDialogAssertionHandler.btn"Send Logs"=ログの送信
 dlgScDialogAssertionHandler.edt"Email"=電子メール
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
@@ -211,7 +211,7 @@ dlgScFileCompareFileChanged.fur=保存しない場合、変更内容が失われ
 dlgScFileCompareFileChanged.hdl=変更内容を保存しますか？
 dlgScFileCompareFileChanged.tle=ファイルが変更されています
 dlgScFilePatternsEdit.edt"File Pattern"=ファイルパターン
-dlgScFilePatternsEdit.hdl=Language: C#
+dlgScFilePatternsEdit.hdl%1=Language: $1
 dlgScFilePatternsEdit.inf=ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。
 dlgScFilePatternsEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\r例：*.txt,*.html \r ? (任意の1文字) \r * (任意の数の任意の文字)
@@ -1290,10 +1290,6 @@ dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
  Tab enters and Backspace deletes multiple leading spaces
 dlgSgPreferences.chk"Trim whitespace"=空白を削除する
 dlgSgPreferences.chk"Update registered submodules"=Update registered submodules
-dlgSgPreferences.chk"Use background color for file table to indicate certain states"=\
- ファイルテーブルの背景色で状態を示す
-dlgSgPreferences.chk"Use font configured in User Interface > Built-in Text Editors"=\
- 「ユーザーインターフェース」→「内蔵テキストエディタ」で設定したフォントを使用する。
 dlgSgPreferences.chk"Use gravatar.com to show images for the users"=\
  gravatar.comを使用してユーザーアイコンを表示する
 dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
