@@ -211,7 +211,7 @@ dlgScFileCompareFileChanged.fur=Your changes will be lost, if you don't save the
 dlgScFileCompareFileChanged.hdl=Do you want to save your changes?
 dlgScFileCompareFileChanged.tle=File Changed
 dlgScFilePatternsEdit.edt"File Pattern"=File Pattern
-dlgScFilePatternsEdit.hdl=Language: C#
+dlgScFilePatternsEdit.hdl%1=Language: $1
 dlgScFilePatternsEdit.inf=File patterns are used to determine file language, which is used for syntax coloring.
 dlgScFilePatternsEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html
