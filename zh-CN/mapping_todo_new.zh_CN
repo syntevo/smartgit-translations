@@ -11,6 +11,7 @@ dlgScFileComparatorAdd.mni"Base Title"=Base Title
 dlgScFileComparatorEdit.mni"Base Encoding"=Base Encoding
 dlgScFileComparatorEdit.mni"Base File"=Base File
 dlgScFileComparatorEdit.mni"Base Title"=Base Title
+dlgScFilePatternsEdit.hdl%1=Language: $1
 dlgSelectDiff.col"Command"=Command
 dlgSelectDiff.hdl=Select the diff tool
 dlgSelectDiff.inf=Select which matching diff tool should be used.
