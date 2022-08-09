@@ -107,32 +107,6 @@ dlgScApplicationStarterRestart.btn"Restart"=Restart
 dlgScApplicationStarterRestart.fur=The downloaded program update should be applied now.
 dlgScApplicationStarterRestart.hdl=SmartGit requires a restart.
 dlgScApplicationStarterRestart.tle=Restart
-dlgScBugtrackerCredentials.btn"Login"=Login
-dlgScBugtrackerCredentials.chk"Store password"=Store password
-dlgScBugtrackerCredentials.edt"Password"=Password
-dlgScBugtrackerCredentials.edt"User Name"=User Name
-dlgScBugtrackerCredentials.hdl%1=Login to '$1'
-dlgScBugtrackerCredentials.inf=Provide the user name and password for authenticating to JIRA.
-dlgScBugtrackerCredentials.tle=Login to JIRA
-dlgScBugtrackerCredentials.wrn"HTTP response code $1"=HTTP response code $1
-dlgScBugtrackerSslClientCertificate.btn"Login"=Login
-dlgScBugtrackerSslClientCertificate.chk"Store passphrase"=Store passphrase
-dlgScBugtrackerSslClientCertificate.edt"Certificate"=Certificate
-dlgScBugtrackerSslClientCertificate.edt"Passphrase"=Passphrase
-dlgScBugtrackerSslClientCertificate.hdl%1=Select the client certificate for $1
-dlgScBugtrackerSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
-dlgScBugtrackerSslClientCertificate.tle=JIRA Client Certificate
-dlgScBugtrackerSslClientCertificate.wrn"$1"=$1
-dlgScBugtrackerSslFingerprintNew.btn"Accept"=Accept
-dlgScBugtrackerSslFingerprintNew.btn"Reject"=Reject
-dlgScBugtrackerSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
-dlgScBugtrackerSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
-dlgScBugtrackerSslFingerprintNew.edt"Server"=Server
-dlgScBugtrackerSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
- Is the following server fingerprint correct?
-dlgScBugtrackerSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
- When in doubt, contact your server administrator.
-dlgScBugtrackerSslFingerprintNew.tle=SSL Authentication
 dlgScConflictSolverAdd.hdl=Add conflict solver
 dlgScConflictSolverAdd.tle=Add
 dlgScConflictSolverEdit.hdl=Edit conflict solver
@@ -166,6 +140,32 @@ dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
 dlgScCustomizeToolBar.col"Available"=Available
 dlgScCustomizeToolBar.col"Selected"=Selected
 dlgScCustomizeToolBar.tle=Configure Toolbar
+dlgScDevOpsCredentials.btn"Login"=Login
+dlgScDevOpsCredentials.chk"Store password"=Store password
+dlgScDevOpsCredentials.edt"Password"=Password
+dlgScDevOpsCredentials.edt"User Name"=User Name
+dlgScDevOpsCredentials.hdl%1=Login to '$1'
+dlgScDevOpsCredentials.inf=Provide the user name and password for authenticating to JIRA.
+dlgScDevOpsCredentials.tle=Login to JIRA
+dlgScDevOpsCredentials.wrn"HTTP response code $1"=HTTP response code $1
+dlgScDevOpsSslClientCertificate.btn"Login"=Login
+dlgScDevOpsSslClientCertificate.chk"Store passphrase"=Store passphrase
+dlgScDevOpsSslClientCertificate.edt"Certificate"=Certificate
+dlgScDevOpsSslClientCertificate.edt"Passphrase"=Passphrase
+dlgScDevOpsSslClientCertificate.hdl%1=Select the client certificate for $1
+dlgScDevOpsSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
+dlgScDevOpsSslClientCertificate.tle=JIRA Client Certificate
+dlgScDevOpsSslClientCertificate.wrn"$1"=$1
+dlgScDevOpsSslFingerprintNew.btn"Accept"=Accept
+dlgScDevOpsSslFingerprintNew.btn"Reject"=Reject
+dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
+dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
+dlgScDevOpsSslFingerprintNew.edt"Server"=Server
+dlgScDevOpsSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
+ Is the following server fingerprint correct?
+dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
+ When in doubt, contact your server administrator.
+dlgScDevOpsSslFingerprintNew.tle=SSL Authentication
 dlgScDialogAssertionHandler.btn"Send Logs"=Send Logs
 dlgScDialogAssertionHandler.edt"Email"=Email
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
@@ -211,7 +211,7 @@ dlgScFileCompareFileChanged.fur=Your changes will be lost, if you don't save the
 dlgScFileCompareFileChanged.hdl=Do you want to save your changes?
 dlgScFileCompareFileChanged.tle=File Changed
 dlgScFilePatternsEdit.edt"File Pattern"=File Pattern
-dlgScFilePatternsEdit.hdl=Language: C#
+dlgScFilePatternsEdit.hdl%1=Language: $1
 dlgScFilePatternsEdit.inf=File patterns are used to determine file language, which is used for syntax coloring.
 dlgScFilePatternsEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html
@@ -1290,10 +1290,6 @@ dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
  Tab enters and Backspace deletes multiple leading spaces
 dlgSgPreferences.chk"Trim whitespace"=Trim whitespace
 dlgSgPreferences.chk"Update registered submodules"=Update registered submodules
-dlgSgPreferences.chk"Use background color for file table to indicate certain states"=\
- Use background color for file table to indicate certain states
-dlgSgPreferences.chk"Use font configured in User Interface > Built-in Text Editors"=\
- Use font configured in User Interface > Built-in Text Editors
 dlgSgPreferences.chk"Use gravatar.com to show images for the users"=\
  Use gravatar.com to show images for the users
 dlgSgPreferences.chk"Use indentation from previous non-empty line"=\

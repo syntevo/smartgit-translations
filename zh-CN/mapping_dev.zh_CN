@@ -132,32 +132,6 @@ dlgScApplicationStarterRestart.btn"Restart"=重新启动
 dlgScApplicationStarterRestart.fur=下载的程序更新现在应该应用。
 dlgScApplicationStarterRestart.hdl=SmartGit 需要重新启动。
 dlgScApplicationStarterRestart.tle=重新启动
-dlgScBugtrackerCredentials.btn"Login"=登录
-dlgScBugtrackerCredentials.chk"Store password"=存储密码
-dlgScBugtrackerCredentials.edt"Password"=密码
-dlgScBugtrackerCredentials.edt"User Name"=用户名
-dlgScBugtrackerCredentials.hdl%1=登录 “$1”
-dlgScBugtrackerCredentials.inf=提供用于向 JIRA 进行身份验证的用户名和密码。
-dlgScBugtrackerCredentials.tle=登录到 JIRA
-dlgScBugtrackerCredentials.wrn"HTTP response code $1"=HTTP 响应代码 $1
-dlgScBugtrackerSslClientCertificate.btn"Login"=登录
-dlgScBugtrackerSslClientCertificate.chk"Store passphrase"=存储密码
-dlgScBugtrackerSslClientCertificate.edt"Certificate"=证书
-dlgScBugtrackerSslClientCertificate.edt"Passphrase"=密码
-dlgScBugtrackerSslClientCertificate.hdl%1=选择 $1 的客户端证书
-dlgScBugtrackerSslClientCertificate.inf=选择用于向 JIRA 进行身份验证的客户端证书文件。
-dlgScBugtrackerSslClientCertificate.tle=JIRA 客户证书
-dlgScBugtrackerSslClientCertificate.wrn"$1"=$1
-dlgScBugtrackerSslFingerprintNew.btn"Accept"=接受
-dlgScBugtrackerSslFingerprintNew.btn"Reject"=拒绝
-dlgScBugtrackerSslFingerprintNew.edt"MD5 fingerprint"=MD5 指纹
-dlgScBugtrackerSslFingerprintNew.edt"SHA fingerprint"=SHA 指纹
-dlgScBugtrackerSslFingerprintNew.edt"Server"=服务器
-dlgScBugtrackerSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
- 以下服务器指纹是否正确？
-dlgScBugtrackerSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
- 如有疑问，请与你的服务器管理员联系。
-dlgScBugtrackerSslFingerprintNew.tle=SSL 身份验证
 dlgScConflictSolverAdd.hdl=添加冲突解决方案
 dlgScConflictSolverAdd.tle=添加
 dlgScConflictSolverEdit.hdl=变基冲突解决方案
@@ -191,6 +165,32 @@ dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
 dlgScCustomizeToolBar.col"Available"=Available
 dlgScCustomizeToolBar.col"Selected"=Selected
 dlgScCustomizeToolBar.tle=Configure Toolbar
+dlgScDevOpsCredentials.btn"Login"=登录
+dlgScDevOpsCredentials.chk"Store password"=存储密码
+dlgScDevOpsCredentials.edt"Password"=密码
+dlgScDevOpsCredentials.edt"User Name"=用户名
+dlgScDevOpsCredentials.hdl%1=登录 “$1”
+dlgScDevOpsCredentials.inf=提供用于向 JIRA 进行身份验证的用户名和密码。
+dlgScDevOpsCredentials.tle=登录到 JIRA
+dlgScDevOpsCredentials.wrn"HTTP response code $1"=HTTP 响应代码 $1
+dlgScDevOpsSslClientCertificate.btn"Login"=登录
+dlgScDevOpsSslClientCertificate.chk"Store passphrase"=存储密码
+dlgScDevOpsSslClientCertificate.edt"Certificate"=证书
+dlgScDevOpsSslClientCertificate.edt"Passphrase"=密码
+dlgScDevOpsSslClientCertificate.hdl%1=选择 $1 的客户端证书
+dlgScDevOpsSslClientCertificate.inf=选择用于向 JIRA 进行身份验证的客户端证书文件。
+dlgScDevOpsSslClientCertificate.tle=JIRA 客户证书
+dlgScDevOpsSslClientCertificate.wrn"$1"=$1
+dlgScDevOpsSslFingerprintNew.btn"Accept"=接受
+dlgScDevOpsSslFingerprintNew.btn"Reject"=拒绝
+dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 指纹
+dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA 指纹
+dlgScDevOpsSslFingerprintNew.edt"Server"=服务器
+dlgScDevOpsSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
+ 以下服务器指纹是否正确？
+dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
+ 如有疑问，请与你的服务器管理员联系。
+dlgScDevOpsSslFingerprintNew.tle=SSL 身份验证
 dlgScDialogAssertionHandler.btn"Send Logs"=发送记录
 dlgScDialogAssertionHandler.edt"Email"=电子邮箱
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
@@ -236,7 +236,7 @@ dlgScFileCompareFileChanged.fur=如果您不保存更改，您的更改将会丢
 dlgScFileCompareFileChanged.hdl=你确定要保存更改吗？
 dlgScFileCompareFileChanged.tle=文件已更改
 dlgScFilePatternsEdit.edt"File Pattern"=文件模式
-dlgScFilePatternsEdit.hdl=语言：C#
+dlgScFilePatternsEdit.hdl%1=语言：$1
 dlgScFilePatternsEdit.inf=文件模式用于确定文件语言，该文件用于语法着色。
 dlgScFilePatternsEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
@@ -1315,10 +1315,6 @@ dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
  Tab enters and Backspace deletes multiple leading spaces
 dlgSgPreferences.chk"Trim whitespace"=删除空格
 dlgSgPreferences.chk"Update registered submodules"=Update registered submodules
-dlgSgPreferences.chk"Use background color for file table to indicate certain states"=\
- 使用文件表的背景颜色来指示某些状态
-dlgSgPreferences.chk"Use font configured in User Interface > Built-in Text Editors"=\
- 使用用户界面 > 内置文本编辑器中配置的字体
 dlgSgPreferences.chk"Use gravatar.com to show images for the users"=\
  使用 gravatar.com 为用户显示图像
 dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
