@@ -1,130 +1,29 @@
 *.btn"OK"=OK
-dlgDgSetEncoding.inf=Specify the encoding which should be used for processing and viewing files. Note, that UTF-8 encoding will be auto-detected, regardless of the configuration here.
-dlgDgSetEncoding.tle=Set Encoding
-dlgProgress.tle"Checking push conditions"=Checking push conditions
 dlgProgress.tle"Jump To"=Jump To
 dlgProgress.tle"Layouting Graph"=Layouting Graph
-dlgProgress.tle"SmartGit Installation Update"=SmartGit Installation Update
-dlgQBugFileSendingFailed.fur%1=Maybe you need to configure a proxy or our server is temporarily down.\nDetails: $1
-dlgQBugFileSendingFailed.tle=Native Crash Logs
-dlgQBugReportSend.edt"Comments or Steps to Reproduce"=Comments or Steps to Reproduce
-dlgQBugReportSend.edt"Reply To"=Reply To
-dlgQBugReportSend.tle=Internal Error
-dlgQDockManagerClosedView.fur=To reopen it again, use the corresponding menu item from the Window menu.
-dlgQDockManagerClosedView.hdl%1=You've closed the view '$1'.
-dlgQDockManagerClosedView.tle=Closed View
-dlgQFileSaveAcceptFilterOverwrite.fur=To save to a different file, click 'Cancel'.
-dlgQFileSaveAcceptFilterOverwrite.tle=Overwrite File
-dlgQFrameManagerExit.fur=There are unsaved changes which would be lost when exiting now!
-dlgQIntegerInputProviderInvalidValue.fur%2=Port must be in the range from $1 to $2.
-dlgQIntegerInputProviderInvalidValue.hdl%1=The text in field '$1' is not valid.
-dlgQIntegerInputProviderInvalidValue.tle=Input Validation
-dlgQUpdateCheckForNewVersion.hdl=SmartGit needs to check for updates
-dlgQUpdateCheckForNewVersion.inf=If necessary, please configure the proxy and retry.
-dlgQUpdateCheckForNewVersionFailed.fur%1=Details: Failed to connect to '$1'.
-dlgQUpdateCheckForNewVersionFailed.hdl=Checking for new versions has failed.
-dlgQUpdateCheckLatestBuildFetchFailed.fur%1=Details: $1
-dlgQUpdateCheckLatestBuildFetchFailed.hdl=Initializing upgrade failed.
-dlgQUpdateCheckNewVersion.fur=It's recommended to update to the new version.
-dlgQUpdateCheckNoNewerLatestBuild.hdl=No newer build found.
-dlgScAboutUpdateInstallation.btn"Upgrade Installation"=Upgrade Installation
-dlgScAboutUpdateInstallation.tle=Upgrade Installation
-dlgScApplicationStarterRestart.btn"Remind Later"=Remind Later
-dlgScApplicationStarterRestart.fur=The downloaded program update should be applied now.
-dlgScConflictSolverUnresolvedConflicts.tle=Unresolved Conflicts
 dlgScCustomizeAccelerators.col"Accelerator"=Accelerator
-dlgScCustomizeAccelerators.col"Menu Item"=Menu Item
 dlgScCustomizeAccelerators.edt"Accelerator"=Accelerator
 dlgScCustomizeAccelerators.hdl=Customize Accelerators
 dlgScCustomizeAccelerators.inf=Double click on the menu item for which the accelerator should be changed, then press the accelerator keys and click the Assign button.
-dlgScCustomizeToolBar.btn"Reset to Default"=Reset to Default
-dlgScCustomizeToolBar.chk"Show text below icon"=Show text below icon
-dlgScCustomizeToolBar.col"Available"=Available
-dlgScCustomizeToolBar.col"Selected"=Selected
-dlgScDevOpsCredentials.hdl%1=Login to '$1'
-dlgScDevOpsCredentials.inf=Provide the user name and password for authenticating to JIRA.
-dlgScDevOpsCredentials.tle=Login to JIRA
-dlgScDevOpsCredentials.wrn"HTTP response code $1"=HTTP response code $1
-dlgScDevOpsSslClientCertificate.chk"Store passphrase"=Store passphrase
-dlgScDevOpsSslClientCertificate.hdl%1=Select the client certificate for $1
-dlgScDevOpsSslClientCertificate.inf=Select the client certificate file for authenticating to JIRA.
-dlgScDevOpsSslClientCertificate.tle=JIRA Client Certificate
 dlgScDevOpsSslFingerprintNew.btn"Accept"=Accept
 dlgScDevOpsSslFingerprintNew.btn"Reject"=Reject
-dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 fingerprint
-dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA fingerprint
-dlgScDevOpsSslFingerprintNew.lbl"Is the following server fingerprint correct?"=\
- Is the following server fingerprint correct?
-dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrator."=\
- When in doubt, contact your server administrator.
-dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
- Optional comments or steps to reproduce \(in case you still recall\)
-dlgScDialogAssertionHandler.tle=Native Crash Logs
-dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
- SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com.
-dlgScDialogAssertionHandlerLinkageError.tle=Internal Error
-dlgScFileComparatorAdd.mni"Base Encoding"=Base Encoding
-dlgScFileComparatorAdd.mni"Base File"=Base File
-dlgScFileComparatorAdd.mni"Base Title"=Base Title
-dlgScFileComparatorEdit.mni"Base Encoding"=Base Encoding
-dlgScFileComparatorEdit.mni"Base File"=Base File
-dlgScFileComparatorEdit.mni"Base Title"=Base Title
-dlgScFileComparator(Add|Edit).mni"Left Encoding"=Left Encoding
-dlgScFileComparator(Add|Edit).mni"Left Local File"=Left Local File
-dlgScFileComparator(Add|Edit).mni"Left Title"=Left Title
-dlgScFileComparator(Add|Edit).mni"Right Encoding"=Right Encoding
-dlgScFileComparator(Add|Edit).mni"Right Local File"=Right Local File
-dlgScFileComparator(Add|Edit).mni"Right Title"=Right Title
-dlgScFilePatternsEdit.hdl%1=Language: $1
-dlgScFilePatternsEdit.tle=File Patterns
+dlgScJiraCommitMessageSelect.chk"Query Configuration"=Query Configuration
 dlgScJiraCommitMessageSelect.col"Fix Version"=Fix Version
-dlgScJiraCommitMessageSelect.col"Status"=Status
-dlgScJiraCommitMessageSelect.col"Summary"=Summary
-dlgScJiraCommitMessageSelect.hdl=Select commit message by JIRA issue
-dlgScJiraCommitMessageSelect.inf=The selected issue summary will be used as commit message.
 dlgScJiraCommitMessageSelect.lbl"Enter the JQL-Queries which will be loaded in the specified order: every query on a new line, \$\{projects\} will be substituted by the JIRA project key\(s\) which is derived or explicitly specified in your .gitbugtraq file.\n\nYou can compose a JQL query directly in JIRA, using Issues\|Search and go to Advanced view there."=\
  Enter the JQL-Queries which will be loaded in the specified order: every query on a new line, \$\{projects\} will be substituted by the JIRA project key\(s\) which is derived or explicitly specified in your .gitbugtraq file.\n\nYou can compose a JQL query directly in JIRA, using Issues\|Search and go to Advanced view there.
-dlgScJiraCommitMessageSelect.lbl"Load All Issues"=Load All Issues
-dlgScJiraCommitMessageSelect.lbl"Query Configuration"=Query Configuration
-dlgScJiraCommitMessageSelect.tle=Select Issue
-dlgScJiraResolveIssue.btn"Don't Resolve"=Don't Resolve
-dlgScJiraResolveIssue.btn"Resolve"=Resolve
+dlgScJiraResolveIssue.btn"Ignore"=Ignore
+dlgScJiraResolveIssue.btn"Resolve Issue"=Resolve Issue
 dlgScJiraResolveIssue.edt"Resolution"=Resolution
-dlgScJiraResolveIssue.edt"Summary"=Summary
 dlgScJiraResolveIssue.hdl%1=Resolve issue $1
-dlgScJiraResolveIssue.inf=Select whether to resolve this issue and for which version to mark as resolved.
-dlgScJiraResolveIssue.tle=Resolve JIRA Issue
-dlgScMasterPasswordCreate.edt"Retype Again"=Retype Again
-dlgScMasterPasswordCreate.rbt"Use the following master password"=Use the following master password
-dlgScPropertiesReset.hdl%1=Do you want to reset $1 system properties to their defaults?
-dlgScPropertiesReset.tle=Reset Properties
-dlgScPropertyEdit.hdl=Edit low-level property value
-dlgScPropertyEdit.inf%1=Set the value for property '$1'
+dlgScPasswordMasterChangeSuccessfulChange.fur=Be sure to remember it, otherwise you won't be able to access your stored passwords anymore.
+dlgScPasswordMasterChangeSuccessfulChange.hdl=The master password has been changed.
+dlgScPasswordMasterChangeSuccessfulChange.tle=Change Master Password
 dlgScPropertyEdit.rbt"false"=false
 dlgScPropertyEdit.rbt"true"=true
-dlgScPropertyEdit.tle=Edit Property
-dlgScRegisterFormLicenseConfirmDetails.tle=SmartGit License
-dlgScRegisterFreeUpdatesExpiredLicense.hdl=The free update period for this license does not cover this version.
-dlgScRegisterFreeUpdatesExpiredLicense.tle=SmartGit License
-dlgScRegisterRequestRejected.hdl=Failed to update license file.
-dlgScRegisterRequestRejected.tle=SmartGit License
-dlgScSetupLicense.tle=SmartGit License
-dlgScSpellCheckDictionaryEdit.hdl=Edit spell checker dictionary
 dlgScSslFingerprint.btn"Accept"=Accept
 dlgScSslFingerprint.btn"Reject"=Reject
-dlgScSslFingerprint.edt"SHA fingerprint"=SHA fingerprint
-dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correct?"=\
- The server fingerprint has changed! Is the change correct?
-dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
- This might indicate a security problem! When in doubt, contact your server administrator.
-dlgScSslFingerprint.tle=Server Fingerprint
-dlgScTextFinderFindFromStart.btn"Find from Beginning"=Find from Beginning
-dlgScTextFinderFindFromStart.fur=No occurrences have been found until the end of the document.
-dlgScTextFinderFindFromStart.hdl=Do you want to continue from the beginning of the document?
 dlgScTextFinderNothingFound.hdl=No \(more\) occurrences have been found.
-dlgScTextReplace.chk"Regular Expression search"=Regular Expression search
-dlgScTextReplace.chk"Replace With:"=Replace With:
-dlgScTextReplace.edt"Text to Find"=Text to Find
+dlgScTextReplace.btn"Replace All"=Replace All
 dlgScTextSettings.chk"Coalesce nearby change blocks"=Coalesce nearby change blocks
 dlgScTextSettings.chk"Split leading/trailing added or removed lines into separate blocks"=\
  Split leading/trailing added or removed lines into separate blocks
@@ -140,28 +39,23 @@ dlgScTextSettings.rbt"Trailing and changed"=Trailing and changed
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=Upgrade Now
 dlgScUpdateInstallationUpgrade.fur%1=The new version $1 has been downloaded which needs to be installed.
 dlgScUpdateInstallationUpgrade.tle=Upgrade SmartGit
-dlgSelectDiff.col"Command"=Command
 dlgSelectDiff.hdl=Select the diff tool
 dlgSelectDiff.inf=Select which matching diff tool should be used.
-dlgSelectDiff.tle=File Compare
 dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Abort Bisect
 dlgSgAbortBisectingConfirm.fur=Your working tree is in 'bisecting' state. You may abort it to get out of this state.\n\nAborting will checkout the branch or commit before starting bisect.
-dlgSgAbortBisectingConfirm.hdl=Do you want to reset your working tree?
 dlgSgAbortCherryPickingConfirm.btn"Abort Cherry-Pick"=Abort Cherry-Pick
 dlgSgAbortCherryPickingConfirm.fur=Your working tree is in 'cherry-picking' state. You may abort it to get out of this state and freshly start over with the cherry-picking afterwards.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
-dlgSgAbortCherryPickingConfirm.hdl=Do you want to reset your working tree?
 dlgSgAbortMergingConfirm.fur=Your working tree is in 'merging' state. You may abort it to get out of this state and freshly start over with the merge afterwards.\n\nAborting will try to reconstruct the pre-merge state \(by invoking 'git merge --abort'\)!
-dlgSgAbortMergingConfirm.hdl=Do you want to abort the current merge?
 dlgSgAbortRebasingConfirm.btn"Abort Rebase"=Abort Rebase
 dlgSgAbortRebasingConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
-dlgSgAbortRebasingConfirm.hdl=Do you want to abort the rebasing?
 dlgSgAbortRevertingConfirm.btn"Abort Revert"=Abort Revert
 dlgSgAbortRevertingConfirm.fur=Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
-dlgSgAbortRevertingConfirm.hdl=Do you want to reset your working tree?
 dlgSgAbout.edt"Java Version"=Java Version
 dlgSgAbout.edt"Maximum Heap"=Maximum Heap
 dlgSgAbout.edt"Settings Path"=Settings Path
 dlgSgAuthenticationRemoveAllCredentials.fur=You will have to re-enter all authentication details.
+dlgSgAuthenticationShowPassword.edt"Password"=Password
+dlgSgAuthenticationShowPassword.tle%1=Password for $1
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
 dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
 dlgSgBisectStartConfirm.fur=You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search.
@@ -175,6 +69,8 @@ dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't b
  Choose a different branch, the current branch can't be used.
 dlgSgBranchAddCheckout.err"The name must not end with a slash or dot."=\
  The name must not end with a slash or dot.
+dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
+ This branch already exists at this commit.
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=Add branch at commit $1
 dlgSgBranchDeleteCurrentNotPossible.fur=By default, SmartGit disallows to delete the current branch. To skip this restriction, set low-level property 'branch.delete.allowToDeleteCurrentBranch'.
 dlgSgBranchDeleteCurrentNotPossible.hdl=You can't delete the current branch.
@@ -183,6 +79,8 @@ dlgSgBranchDeleteLocalConfirmMultiple.fur=It might be complicated to restore del
 dlgSgBranchDeleteRemoteConfirmSingle.fur=You may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch.
 dlgSgBranchTrackingSetConfirm.fur=The necessary configuration will be performed in the .git/config file.
 dlgSgBranchTrackingSetConfirm.hdl%2=Do you want to configure '$1' to track '$2'?
+dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgBugReportSettings.hdl=Crash Reporting
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=Just Checkout
 dlgSgCheckoutFastForwardMerge.fur=Fast-forward-merging automatically moves the branch forward to the tracked remote branch.
@@ -190,15 +88,15 @@ dlgSgCheckoutFastForwardMerge.hdl%1=Do you want to fast-forward-merge remote cha
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
-dlgSgCheckoutTarget.rbt"Checkout local branch:"=Checkout local branch:
+dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
  Local branch '$1' is behind checkout target '$2'.
 dlgSgCheckoutTarget.wrn"Local branch '$1' is diverged from checkout target '$2'."=\
  Local branch '$1' is diverged from checkout target '$2'.
-dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=Cherry-Pick
+dlgSgCheckoutTarget.wrn"Local branch is ahead of remote branch. The checkout will end up at a more recent commit."=\
+ Local branch is ahead of remote branch. The checkout will end up at a more recent commit.
 dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
 dlgSgCherryPickConfigurationFile.hdl%1=Do you want to cherry-pick changes of '$1'?
-dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
 dlgSgCherryPickConfirmation.chk=Append source SHA to commit message
 dlgSgCherryPickConfirmation.fur=This will cherry-pick the selected commit into the Working Tree.
@@ -226,10 +124,6 @@ dlgSgClone.edt"Local Directory"=Local Directory
 dlgSgClone.edt"Omit files larger than"=Omit files larger than
 dlgSgClone.err"Please select an empty, local directory for the new repository."=\
  Please select an empty, local directory for the new repository.
-dlgSgClone.err"Please specify the URL of the remote repository to be cloned."=\
- Please specify the URL of the remote repository to be cloned.
-dlgSgClone.err"Please specify the root directory of a local repository."=\
- Please specify the root directory of a local repository.
 dlgSgClone.inf"Customize how and what to clone."=\
  Customize how and what to clone.
 dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
@@ -276,8 +170,18 @@ dlgSgCommitSelectMessageFromLog.mni"Forget Pattern"=Forget Pattern
 dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=Regular Expressions
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
 dlgSgCommitSelectMessageFromLog.tle=Select Commit Message
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
+dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
+dlgSgCommitSingleOrAllWorkingTreeChanges.tle=Commit
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
 dlgSgCommitToDetachedHead.hdl=Do you want to commit to a detached HEAD?
+dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
+dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictSolverMarkResolved.fur=To complete a conflict resolution, the file needs to be marked as resolved \(git stage\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions.
+dlgSgConflictSolverMarkResolved.hdl=Do you want to mark the file as resolved?
+dlgSgConflictSolverMarkResolved.tle=Mark Resolved
 dlgSgConflictSolverStageForCommit.btn"Don't Stage"=Don't Stage
 dlgSgConflictSolverStageForCommit.fur=Staging is necessary to resolve the file's conflict status.
 dlgSgConflictSolverStageForCommit.hdl=Do you want to stage the file for commit now?
@@ -304,6 +208,7 @@ dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
  Could not determine URL for submodule $1. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
+dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgFileCompareNoChanges.hdl=Open the file compare though no changes will be shown?
 dlgSgFindObject.edt"Repository Path, Commit ID or Ref"=\
  Repository Path, Commit ID or Ref
@@ -418,6 +323,7 @@ dlgSgGitHubPullRequestMerge.lbl"If your are fine with the Pull Request changes, 
 dlgSgGitHubPullRequestMerge.rbt"Mark as merged on GitHub Server"=\
  Mark as merged on GitHub Server
 dlgSgGitHubPullRequestMerge.tle=Merge Pull Request
+dlgSgGitLabGenerateToken.edt"Code"=Code
 dlgSgGitLabGenerateToken.hdl=Enter the generated token
 dlgSgGitLabGenerateToken.inf=Authenticate at GitLab and enter the generated token.
 dlgSgGitLabGenerateToken.tle=Request Access Token
@@ -442,8 +348,10 @@ dlgSgHistorySquash.edt"Authorship"=Authorship
 dlgSgHistorySquash.hdl=Squash multiple commits
 dlgSgHistorySquash.inf=The selected commits will be replaced by one squashed commit containing all changes of the individual commits.
 dlgSgHistorySquash.tle=Squash Commits
-dlgSgHostingProviderAdd.edt"Client Certificate"=Client Certificate
 dlgSgHostingProviderAdd.edt"Domain"=Domain
+dlgSgHostingProviderAdd.edt"Server URL \(including collection\)"=Server URL \(including collection\)
+dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the assembla website."=\
  Use the same login information as for the assembla website.
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the beanstalk website and make sure that for 'My Profile' - 'Account' - 'Account Settings' - 'Developer API' is enabled."=\
@@ -452,24 +360,22 @@ dlgSgHostingProviderAdd.lbl"Use the same login information as for the codebasehq
  Use the same login information as for the codebasehq website.
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the unfuddle website."=\
  Use the same login information as for the unfuddle website.
-dlgSgHostingProviderEdit.edt"Client Certificate"=Client Certificate
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
  Please enter a Personal Access Token for your GitLab account.
 dlgSgHostingProviderEdit.err"Please enter an OAuth 'refresh' token."=\
  Please enter an OAuth 'refresh' token.
 dlgSgHostingProviderEdit.err"Please enter the API token."=Please enter the API token.
 dlgSgHostingProviderEdit.hdl%1=Configure $1 account
-dlgSgHostingProviderEdit.inf%1=Please specify your credentials to connect to $1.
+dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderSelectRepository.col"Namespace"=Namespace
 dlgSgHostingProviderSelectRepository.tle=GitHub Projects
 dlgSgHttpPasswordAuthenticationFailedCause1.fur%3=The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\n\nTo resolve, recreate the $2 hosting provider in the Preferences.\n\nDetails:\n\n$3
 dlgSgHttpPasswordAuthenticationFailedCause1.tle=HTTP authentication
 dlgSgHttpPasswordCredentials.hdl%1=Login to '$1'
-dlgSgHttpPasswordCredentials.inf=Provide the user name and password for authenticating to the repository.
 dlgSgIgnoreChanged.btn"Discard Changes"=Discard Changes
 dlgSgIgnoreChanged.fur=The changes will be discarded when proceeding!
 dlgSgIgnoreChanged.hdl=Are you sure to remove changed files?
-dlgSgIgnoreChanged.tle=Ignore
 dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignore File
 dlgSgIgnoreEdit.hdl=Edit Git ignore file
 dlgSgIgnoreEdit.inf=Select the Git ignore file to edit.
@@ -505,11 +411,6 @@ dlgSgLogComment(|s)DeleteConfirm.fur=Comments can't be restored after deletion.
 dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare Separately"=Compare Separately
 dlgSgLogCompareSelectedFilesAgainstEachOther.fur=You may compare the selected files against each other or open up two separate compares for each file against its previous state.
 dlgSgLogCompareSelectedFilesAgainstEachOther.hdl=Do you want to compare the selected files against each other?
-dlgSgLogCompareWithWorkingTree.btn"Compare After"=Compare After
-dlgSgLogCompareWithWorkingTree.btn"Compare Before"=Compare Before
-dlgSgLogCompareWithWorkingTree.edt"Working Tree File"=Working Tree File
-dlgSgLogCompareWithWorkingTree.hdl=Compare repository file with local file
-dlgSgLogCompareWithWorkingTree.inf=Select whether to compare with the repository file as it was Before or After the selected commit.
 dlgSgLogCompareWithWorkingTree.tle=Compare with Working Tree
 dlgSgLogGraphRootSwitch.chk"Include tracked remote branches"=Include tracked remote branches
 dlgSgLogGraphRootSwitch.hdl=Select shown branches
@@ -529,79 +430,51 @@ dlgSgLogRefreshRepositoryInvalid.btn"Remove Repository"=Remove Repository
 dlgSgLogRefreshRepositoryInvalid.fur%1=This could mean that the repository at\n\n$1was removed or renamed outside SmartGit.
 dlgSgLogRefreshRepositoryInvalid.hdl%1=The opened repository '$1' became invalid.
 dlgSgMergeHowToMerge.btn"Fast-Forward"=Fast-Forward
-dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
- Please specify the root directory of a Git or Mercurial repository.
+dlgSgMergeHowToMerge.btn"Squash-Merge"=Squash-Merge
+dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
+ Please specify the root directory of a Git repository.
 dlgSgOpenRepositoryInitializeChooseVcs.fur=The specified directory does not appear to be a valid Git or Mercurial repository.
 dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
+dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
+dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
+dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
+dlgSgOpenRepositoryInitializeGit.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  Don't show again for these $1 warnings
 dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
+dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
 dlgSgOutput.tle"Command Output"=Command Output
 dlgSgOutput.tle"Command Succeeded"=Command Succeeded
+dlgSgOutput.tle"Output"=Output
 dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPreferences.btn"Re-Add Defaults"=Re-Add Defaults
 dlgSgPreferences.cdl"Executables"=Executables
 dlgSgPreferences.cdl"Git Config"=Git Config
-dlgSgPreferences.cdl"Log and Working Tree window"=Log and Working Tree window
-dlgSgPreferences.cdl"Standard Window"=Standard Window
-dlgSgPreferences.chk"Always fetch new commits, tags and branches from submodule"=\
- Always fetch new commits, tags and branches from submodule
-dlgSgPreferences.chk"Automatically set up tracking for new branches \(requires push.default to be unset\)"=\
- Automatically set up tracking for new branches \(requires push.default to be unset\)
-dlgSgPreferences.chk"Initialize new submodules"=Initialize new submodules
-dlgSgPreferences.chk"Prune obsolete remote tracked branches"=Prune obsolete remote tracked branches
-dlgSgPreferences.chk"Send 'crash footprints' after an internal error has occurred"=\
- Send 'crash footprints' after an internal error has occurred
-dlgSgPreferences.chk"Sign all commits"=Sign all commits
-dlgSgPreferences.chk"Tab enters and Backspace deletes multiple leading spaces"=\
- Tab enters and Backspace deletes multiple leading spaces
 dlgSgPreferences.chk"Update registered submodules"=Update registered submodules
 dlgSgPreferences.col"Accelerator"=Accelerator
 dlgSgPreferences.col"Command + Arguments"=Command + Arguments
 dlgSgPreferences.col"Details"=Details
-dlgSgPreferences.edt"Email"=Email
 dlgSgPreferences.edt"Font Family"=Font Family
 dlgSgPreferences.edt"Font Size"=Font Size
 dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
-dlgSgPreferences.edt"Group Patterns"=Group Patterns
 dlgSgPreferences.edt"Hg Executable"=Hg Executable
 dlgSgPreferences.edt"Known credentials"=Known credentials
-dlgSgPreferences.edt"Name"=Name
 dlgSgPreferences.edt"Prefer"=Prefer
-dlgSgPreferences.edt"Signing Key"=Signing Key
-dlgSgPreferences.edt"Single Patterns"=Single Patterns
-dlgSgPreferences.edt"Startup Window"=Startup Window
-dlgSgPreferences.edt"Submodule handling\*"=Submodule handling\*
-dlgSgPreferences.edt"Text File Encoding"=Text File Encoding
-dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
- Here you can edit your account's 'gitconfig' which contains the defaults for all repositories.
+dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
+ Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually.
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
  In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable.
-dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
 dlgSgPreferences.lbl"\*\) these options require an application restart to be applied"=\
  \*\) these options require an application restart to be applied
-dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
- Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)
-dlgSgPreferences.rbt"Basic \(for simple workflows\)"=Basic \(for simple workflows\)
 dlgSgPreferences.rbt"Light"=Light
-dlgSgPreferences.rbt"Log graph \(commit oriented\)"=Log graph \(commit oriented\)
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)
-dlgSgPreferences.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
-dlgSgPreferences.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
-dlgSgPreferences.tab"Encoding"=Encoding
-dlgSgPreferences.tab"Pull"=Pull
-dlgSgPreferences.tab"Push"=Push
-dlgSgPreferences.tab"Signing"=Signing
-dlgSgPreferences.tab"Tag-Grouping"=Tag-Grouping
-dlgSgPreferences.tab"User"=User
 dlgSgProcessKiller.btn"Wait"=Wait
 dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
  This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait.
@@ -621,7 +494,6 @@ dlgSgProviderPullRequestRetractPr.btn"Retract"=Retract
 dlgSgProviderPullRequestRetractPr.hdl=Retract Pull Request
 dlgSgProviderPullRequestRetractPr.inf=Enter the comment which will be logged with the closed pull request.
 dlgSgProviderPullRequestRetractPr.tle=Retract Pull Request
-dlgSgPull.chk"More Options"=More Options
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
@@ -645,8 +517,6 @@ dlgSgPushToNoTagsOrLocalBranches.fur=You can only push tags or local branches.
 dlgSgPushToNoTagsOrLocalBranches.hdl=No tags or local branches to push.
 dlgSgPushToRef.err"Enter the remote location to which the commits of the current branch should be pushed to."=\
  Enter the remote location to which the commits of the current branch should be pushed to.
-dlgSgPushToRef.err"Please specify a valid Git ref."=\
- Please specify a valid Git ref.
 dlgSgPushToRef.hdl"Push '$1' to remote '$2'"=Push '$1' to remote '$2'
 dlgSgPushToRef.inf=Select the target repository where to push the ref\(s\).
 dlgSgPushToRemoteRemoveTargetBranches.fur=Removed branches and their commits in the target remote which will be lost afterwards.
@@ -676,9 +546,7 @@ dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Put Changes into Index"=Put Cha
 dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1=The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\n\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes.
 dlgSgRebaseContinueWithoutApplyingAllChanges.hdl=Do you want to continue splitting the commit without applying all changes?
 dlgSgRebaseHeadToCommitConfirmBc.fur%1=This will apply all commits from the working tree branch '$1' \(HEAD\) onto the selected commit.
-dlgSgRebaseHeadToCommitConfirmBc.hdl%1=Do you want to rebase '$1' onto the selected commit?
 dlgSgRebaseHeadToCommitConfirmBr.fur%2=This will apply all commits from the working tree branch '$1' \(HEAD\) to '$2'.
-dlgSgRebaseHeadToCommitConfirmBr.hdl%2=Do you want to rebase '$1' to '$2'?
 dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase HEAD to"=Rebase HEAD to
 dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase Interactively"=Rebase Interactively
 dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).tle=Rebase HEAD to Selected Commit
@@ -715,11 +583,6 @@ dlgSgRemoteProperties.tle=Remote Properties
 dlgSgRemoteSelect.hdl=Initialize remote review database
 dlgSgRemoteSelect.inf=Select the remote repository for which you want to initialize the review database.
 dlgSgRemoteSelect.tle=Initialize Remote
-dlgSgRemoteSetDepth.btn"Set Depth"=Set Depth
-dlgSgRemoteSetDepth.edt"Depth"=Depth
-dlgSgRemoteSetDepth.hdl=Set repository depth
-dlgSgRemoteSetDepth.inf=Use a large number \(e.g. 100000\) to set an unlimited depth.
-dlgSgRemoteSetDepth.tle=Set Depth
 dlgSgRemotesAdd.chk"Verify repository connection"=Verify repository connection
 dlgSgRemotesAdd.edt"URL or Path"=URL or Path
 dlgSgRemotesAdd.inf=Enter the URL and a short name for the remote repository.
@@ -752,10 +615,12 @@ dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2=Do you want to remove the reposi
 dlgSgRepositoryRemoveSingleRepoSingleGroup.fur=This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group.
 dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2=Do you want to remove the repository "$1" and the group "$2"?
 dlgSgRepositorySettings.edt"GPG Program"=GPG Program
-dlgSgRepositorySettings.tab"Encoding"=Encoding
-dlgSgRepositorySettings.tab"User"=User
+dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
+ Please enter a valid, comma-separated list of regular expressions.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  The name should not contain an email address.
+dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
+ Thoroughly fix line-endings according to .gitattributes
 dlgSgResolve.btn"Resolve"=Resolve
 dlgSgResolve.chk"Stage file \(reset conflict state\)"=Stage file \(reset conflict state\)
 dlgSgResolve.edt"Content"=Content
@@ -770,6 +635,10 @@ dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
 dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  Set to rebased branch '$1' \("ours", $2\)
 dlgSgResolve.tle=Resolve
+dlgSgResolveManuallyModifiedSingle.btn"Overwrite"=Overwrite
+dlgSgResolveManuallyModifiedSingle.fur%1=$1 seems to contain manual conflict resolutions. They will be lost when continuing.
+dlgSgResolveManuallyModifiedSingle.hdl=Do you want to overwrite your manual conflict resolution?
+dlgSgResolveManuallyModifiedSingle.tle=Resolve
 dlgSgResolveSubmodule.btn"Resolve"=Resolve
 dlgSgResolveSubmodule.hdl=Resolve Conflict
 dlgSgResolveSubmodule.inf=Select to which submodule commit you want to resolve.
@@ -814,15 +683,11 @@ dlgSgReviewUserAddEdit.err"Email address is not valid."=Email address is not val
 dlgSgReviewUserAddEdit.err"Enter at least one alias."=Enter at least one alias.
 dlgSgSelectBranch.edt"Tracked Branch"=Tracked Branch
 dlgSgSelectBranch.hdl=Select tracked branch
-dlgSgSetup.chk"I understand and agree to all terms and conditions of the"=\
- I understand and agree to all terms and conditions of the
+dlgSgSetup.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgSetup.edt"Hg Executable"=Hg Executable
 dlgSgSetup.edt"Repository search"=Repository search
-dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
- Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences.
-dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
- Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there.
-dlgSgSetup.inf"Please wait a few moments while searching for a Git or Hg installation."=\
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
  Please wait a few moments while searching for a Git or Hg installation.
 dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  You may try SmartGit free of charge for 30 days.
@@ -834,7 +699,6 @@ dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  Registered user, commercial use \(all features, support\)
 dlgSgSetup.rbt"Undecided"=Undecided
-dlgSgSetup.rbt"Working Tree \(SmartGit 19.1 defaults\)"=Working Tree \(SmartGit 19.1 defaults\)
 dlgSgSetup.tle=Setup SmartGit
 dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
 dlgSgShowLocalChanges.inf=Select the file states to compare.
@@ -842,7 +706,6 @@ dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD vs. Index
 dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD vs. Working Tree
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=Index vs. Working Tree
 dlgSgSplitOffFiles.btn"Split Off"=Split Off
-dlgSgSplitOffFiles.edt"Commit Message"=Commit Message
 dlgSgSplitOffFiles.hdl=Move files to a second commit
 dlgSgSplitOffFiles.inf=Provide the message for the second commit that should contain the changes from the selected files.
 dlgSgSplitOffFiles.tle=Split Off Files
@@ -865,7 +728,6 @@ dlgSgStashOnDemandLocalChangesCantBeReapplied.fur=Once you have concluded the Pu
 dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl=Your local changes have been stashed away, but could not be reapplied.
 dlgSgSubmoduleAdd.chk"Map SVN trunk, tags and branches to Git"=\
  Map SVN trunk, tags and branches to Git
-dlgSgSubmoduleAdd.edt"Branch"=Branch
 dlgSgSubmoduleAdd.edt"Local Directory"=Local Directory
 dlgSgSubmoduleAdd.edt"Local Path"=Local Path
 dlgSgSubmoduleAdd.edt"URL"=URL
@@ -881,14 +743,11 @@ dlgSgSubmoduleResetConfirm.fur=The corresponding commit will be checked out, so 
 dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
 dlgSgSubmoduleResetConfirm.tle=Reset Submodule
 dlgSgSvnClientCertificate.chk"Store passphrase"=Store passphrase
-dlgSgSvnClientCertificate.hdl=Client Certificate
-dlgSgSvnClientCertificate.inf%1=Provide the client certificate for authentication to the SVN repository '$1'.
 dlgSgSvnClientCertificate.wrn"Authentication to the SVN repository '$1' failed with error: $2"=\
  Authentication to the SVN repository '$1' failed with error: $2'
 dlgSgSvnSslFingerprintChanged.btn"Accept"=Accept
 dlgSgSvnSslFingerprintChanged.btn"Reject"=Reject
 dlgSgSvnSslFingerprintChanged.edt"MD5 fingerprint"=MD5 fingerprint
-dlgSgSvnSslFingerprintChanged.edt"SHA fingerprint"=SHA fingerprint
 dlgSgSvnSslFingerprintChanged.lbl"The server fingerprint has changed! Is the change correct?"=\
  The server fingerprint has changed! Is the change correct?
 dlgSgSvnSslFingerprintChanged.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
@@ -901,28 +760,10 @@ dlgSgTagAdd.inf=Enter the name of the tag to create. If entering a message, an a
 dlgSgTagAddOverwrite.fur=Click 'Cancel' to choose a different tag name.
 dlgSgTagAddOverwrite.hdl%1=The tag '$1' already exists. Do you want to overwrite it?
 dlgSgTagDeleteConfirmSingle.fur=You will not be able to restore it.
-dlgSgToolAdd.edt"Keyboard Shortcut"=Keyboard Shortcut
 dlgSgToolAdd.mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
 dlgSgToolEdit.err"Please enter the name for this command."=\
  Please enter the name for this command.
 dlgSgTool(Add|Edit).edt"Accelerator"=Accelerator
-dlgSgTool(Add|Edit).inf=Define the name of the tool menu item, the command which should be executed and configure its arguments. The used variables define on what selection the tool may be used.
-dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref \(optional\)"=\
- 2nd Commit ID or Ref \(optional\)
-dlgSgTool(Add|Edit).mni"Commit ID or Ref"=Commit ID or Ref
-dlgSgTool(Add|Edit).mni"File or Directory Name"=File or Directory Name
-dlgSgTool(Add|Edit).mni"File or Directory Path"=File or Directory Path
-dlgSgTool(Add|Edit).mni"File or Directory URI"=File or Directory URI
-dlgSgTool(Add|Edit).mni"Git Installation"=Git Installation
-dlgSgTool(Add|Edit).mni"Hg Executable"=Hg Executable
-dlgSgTool(Add|Edit).mni"Hg Installation"=Hg Installation
-dlgSgTool(Add|Edit).mni"Remote \(Push\) URL"=Remote \(Push\) URL
-dlgSgTool(Add|Edit).mni"Repository Root Path"=Repository Root Path
-dlgSgTool(Add|Edit).mni"Selection File"=Selection File
-dlgSgTool(Add|Edit).mni"Show Directory Selection Dialog"=Show Directory Selection Dialog
-dlgSgTool(Add|Edit).mni"Show Open File Dialog"=Show Open File Dialog
-dlgSgTool(Add|Edit).mni"Show Save File Dialog"=Show Save File Dialog
-dlgSgTool(Add|Edit).mni"SmartGit Installation"=SmartGit Installation
 dlgSgTool(Add|Edit).rbt"Refs"=Refs
 dlgSgTool(Add|Edit).rbt"SHAs"=SHAs
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=Message: $1
@@ -957,7 +798,6 @@ wndAnnotate.mniCommit-last=Go to Last Commit
 wndAnnotate.mniCommit-preceding-line=Go to Preceding Commit
 wndAnnotate.mniSet-syntax=Syntax Language
 wndAnnotate.mniUndo-goto=Undo Go To
-wndAnnotate.mniWindowHideView=Hide View
 wndAnnotate.mniWindowLineHistory=Line History
 wndAnnotate.rbt"Commit Index"=Commit Index
 wndAnnotate.rbt"Time"=Time
@@ -975,7 +815,13 @@ wndConflictSolver.tbr"Merge + Right"=Merge + Right
 wndConflictSolver.tbr"Merge Below"=Merge Below
 wndConflictSolver.tbr"Take Left, Right"=Take Left, Right
 wndConflictSolver.tbr"Take Right, Left"=Take Right, Left
+wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
+wndConflictSolver.tbtFile-save=Save file modifications.
+wndConflictSolver.tbtGoto-next-diff=Go to next change.
+wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
 wndDeepgit.btn"Go Deeper"=Go Deeper
+wndDeepgit.mni"Open File Log"=Open File Log
+wndDeepgit.mni"Open Repository Log"=Open Repository Log
 wndDeepgit.mniBack=Go Back
 wndDeepgit.mniExtendLineToBlock=Extend Lines To Blocks
 wndDeepgit.mniFilterReset=Reset Filter
@@ -1007,20 +853,13 @@ wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line orig
 wndEditor.mni"CR \(classic macOS\)"=CR \(classic macOS\)
 wndEditor.mni"CR+LF \(Windows\)"=CR+LF \(Windows\)
 wndEditor.mni"LF \(Unix, macOS\)"=LF \(Unix, macOS\)
-wndEditor.mniEofEnforceLineEnding=Enforce Line Ending on End of File
-wndEditor.mniReplaceTabsWithSpaces=Replace Tabs With Spaces
-wndEditor.mniView-remember-as-default=Remember as Default
-wndEditor.mniView-settings=Settings
 wndGit.indexEditor.mni"Discard Inner-line Change"=Discard Inner-line Change
 wndGit.indexEditor.mni"Discard Line"=Discard Line
 wndGit.indexEditor.mni"Discard Selection"=Discard Selection
 wndGit.indexEditor.mni"Unstage Inner-line Change"=Unstage Inner-line Change
 wndGit.indexEditor.mni"Unstage Line"=Unstage Line
 wndGit.indexEditor.mni"Unstage Selection"=Unstage Selection
-wndGit.indexEditor.mniView-layout-head-index=HEAD and Index
-wndGit.indexEditor.mniView-layout-head-index-wt=All
 wndGit.indexEditor.mniView-layout-head-wt-above-index=HEAD and Working Tree Above Index
-wndGit.indexEditor.mniView-layout-index-wt=Index and Working Tree
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mnu"< No Windows >"=< No Windows >
@@ -1029,16 +868,12 @@ wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=Take Right, 
 wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-open-base=Open Base File Changes
 wnd(Compare|ConflictSolver|Git.indexEditor).mniView-synchronize-scrolling=Synchronize Scrolling
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSet-syntax=Syntax Language
-wnd(Log|Project|Std)."Abort"=Abort
-wnd(Log|Project|Std)."Commit"=Commit
 wnd(Log|Project|Std)."Conflict Solver"=Conflict Solver
-wnd(Log|Project|Std)."Continue"=Continue
 wnd(Log|Project|Std)."Mark HEAD as Bad"=Mark HEAD as Bad
 wnd(Log|Project|Std)."Mark HEAD as Good"=Mark HEAD as Good
 wnd(Log|Project|Std)."Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std)."Recreate Conflict"=Recreate Conflict
 wnd(Log|Project|Std)."Rerun Thoroughly"=Rerun Thoroughly
-wnd(Log|Project|Std)."Reset"=Reset
 wnd(Log|Project|Std)."Reveal"=Reveal
 wnd(Log|Project|Std)."Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std)."Step"=Step
@@ -1047,18 +882,18 @@ wnd(Log|Project|Std)."Take Ours"=Take Ours
 wnd(Log|Project|Std)."Take Theirs"=Take Theirs
 wnd(Log|Project|Std).btn"Mark HEAD as Bad"=Mark HEAD as Bad
 wnd(Log|Project|Std).btn"Mark HEAD as Good"=Mark HEAD as Good
+wnd(Log|Project|Std).btn"Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std).btn"Recreate Conflict"=Recreate Conflict
 wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
 wnd(Log|Project|Std).btn"Reveal"=Reveal
+wnd(Log|Project|Std).btn"Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std).btn"Step"=Step
 wnd(Log|Project|Std).btn"Swap"=Swap
 wnd(Log|Project|Std).btn"Take Ours"=Take Ours
 wnd(Log|Project|Std).btn"Take Theirs"=Take Theirs
 wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=Create simple commit \('squash'\)
-wnd(Log|Project|Std).chk"Push"=Push
 wnd(Log|Project|Std).col"Assignee"=Assignee
 wnd(Log|Project|Std).col"Author"=Author
-wnd(Log|Project|Std).col"Branch"=Branch
 wnd(Log|Project|Std).col"Copied From"=Copied From
 wnd(Log|Project|Std).col"Copied from"=Copied from
 wnd(Log|Project|Std).col"Date"=Date
@@ -1118,6 +953,8 @@ wnd(Log|Project|Std).mni"Full Name With Email"=Full Name With Email
 wnd(Log|Project|Std).mni"Full Name"=Full Name
 wnd(Log|Project|Std).mni"Git Config"=Git Config
 wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS Version
+wnd(Log|Project|Std).mni"Include Merge Only if File was Changed"=\
+ Include Merge Only if File was Changed
 wnd(Log|Project|Std).mni"Integrate"=Integrate
 wnd(Log|Project|Std).mni"Jump To"=Jump To
 wnd(Log|Project|Std).mni"Mark as Bad"=Mark as Bad
@@ -1163,6 +1000,7 @@ wnd(Log|Project|Std).mni"Show More Commits \(Temporarily\)"=Show More Commits \(
 wnd(Log|Project|Std).mni"Show Only Selected Branches and Tags"=\
  Show Only Selected Branches and Tags
 wnd(Log|Project|Std).mni"Show Only Selected Refs"=Show Only Selected Refs
+wnd(Log|Project|Std).mni"Show Unchanged Directories"=Show Unchanged Directories
 wnd(Log|Project|Std).mni"Show Working Tree On Demand"=Show Working Tree On Demand
 wnd(Log|Project|Std).mni"Show Working Tree Permanently"=Show Working Tree Permanently
 wnd(Log|Project|Std).mni"Sort Merge Parents First"=Sort Merge Parents First
@@ -1180,7 +1018,6 @@ wnd(Log|Project|Std).mni"Varying Coloring"=Varying Coloring
 wnd(Log|Project|Std).mniAssume-unchanged-toggle=Toggle 'Assume Unchanged'
 wnd(Log|Project|Std).mniBisectBad=Mark HEAD as Bad
 wnd(Log|Project|Std).mniBisectGood=Mark HEAD as Good
-wnd(Log|Project|Std).mniBranchContinue=Continue
 wnd(Log|Project|Std).mniBranchResetTracking=Stop Tracking
 wnd(Log|Project|Std).mniBranchSplit=Modify or Split Commit
 wnd(Log|Project|Std).mniBranchSplitFiles=Split Off Files
@@ -1225,10 +1062,7 @@ wnd(Log|Project|Std).mniLogShowOnlyFirstParents=Show Only First Parents
 wnd(Log|Project|Std).mniLogTopoFiltering=Show Graph While Filtering
 wnd(Log|Project|Std).mniLogWorkingTreeIndexOnDemand=Show Working Tree  Index On Demand
 wnd(Log|Project|Std).mniLogWorkingTreeIndexPermanent=Show Working Tree  Index Permanently
-wnd(Log|Project|Std).mniModifyCommit=Modify
-wnd(Log|Project|Std).mniNewStandardWindow=Show Standard Window
 wnd(Log|Project|Std).mniOpenRootLog=Open Root Log
-wnd(Log|Project|Std).mniOpenUserEcho=Feature Requests
 wnd(Log|Project|Std).mniOpenWorkingTree=Open Working Tree
 wnd(Log|Project|Std).mniPreviewCompareHeadVsIndex=HEAD vs. Index
 wnd(Log|Project|Std).mniPreviewCompareIndexVsWT=Index vs. Working Tree
@@ -1255,7 +1089,6 @@ wnd(Log|Project|Std).mniSelectCommittableFiles=Select Committable Files
 wnd(Log|Project|Std).mniSelectDirectory=Select Directory
 wnd(Log|Project|Std).mniSelectRoot=Select Repository Root
 wnd(Log|Project|Std).mniSet-syntax=Syntax Language
-wnd(Log|Project|Std).mniSetDepth=Set Depth
 wnd(Log|Project|Std).mniSkipWorkTree=Toggle 'Skip Worktree'
 wnd(Log|Project|Std).mniSortCommitsAsIs=Sort Commits by Time
 wnd(Log|Project|Std).mniSortCommitsMergeParentsFirst=Sort Commits with Merge Parents first
@@ -1279,7 +1112,6 @@ wnd(Log|Project|Std).mniViewStyleWorkingTree=Only Working Tree
 wnd(Log|Project|Std).mniViewUnchangedAssumed=Show Assume-Unchanged Files
 wnd(Log|Project|Std).mniViewUnversioned=Show Unversioned Files
 wnd(Log|Project|Std).mniWindowDebugLog=Debug Log
-wnd(Log|Project|Std).mniWindowHideView=Hide View
 wnd(Log|Project|Std).mniWindowJournal=Journal
 wnd(Log|Project|Std).mniWindowLayoutSetMain=Main Perspective
 wnd(Log|Project|Std).mniWindowLayoutSetReview=Review Perspective
@@ -1297,7 +1129,6 @@ wnd(Log|Project|Std).tab"Graph \(Scanning WT...\)"=Graph \(Scanning WT...\)
 wnd(Log|Project|Std).tab"Journal"=Journal
 wnd(Log|Project|Std).tbr"  History  "=History
 wnd(Log|Project|Std).tbr"Add or Create"=Add or Create
-wnd(Log|Project|Std).tbr"Clone"=Clone
 wnd(Log|Project|Std).tbr"Compact"=Compact
 wnd(Log|Project|Std).tbr"Git-Flow"=Git-Flow
 wnd(Log|Project|Std).tbr"Index Editor"=Index Editor
@@ -1307,7 +1138,6 @@ wnd(Log|Project|Std).tbr"Log Selection"=Log Selection
 wnd(Log|Project|Std).tbr"Main"=Main
 wnd(Log|Project|Std).tbr"Reset Adv."=Reset Adv.
 wnd(Log|Project|Std).tbr"Revert"=Revert
-wnd(Log|Project|Std).tbr"Search"=Search
 wnd(Log|Project|Std).tbt"Commit Message History"=Commit Message History
 wnd(Log|Project|Std).tbt"Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."=\
  Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration.
@@ -1320,6 +1150,8 @@ wnd(Log|Project|Std).tbt"Reading repository info from '$1'."=Reading repository 
 wnd(Log|Project|Std).tbt"Refresh information from GitLab."=Refresh information from GitLab.
 wnd(Log|Project|Std).tbt"Show directories tree"=Show directories tree
 wnd(Log|Project|Std).tbtAnnotate=Show a blame \(annotated\) view of the selected file.
+wnd(Log|Project|Std).tbtBranchAdd=Add a new branch for the current commit.
+wnd(Log|Project|Std).tbtBranchAddTag=Add a new tag for the current commit.
 wnd(Log|Project|Std).tbtConflictSolver=Open the Conflict Solver \(or configured external merge tool\) to resolve conflicts.
 wnd(Log|Project|Std).tbtFlowContext=Finish a Git-Flow feature.
 wnd(Log|Project|Std).tbtFlowFeatureStart=Start a new Git-Flow feature.

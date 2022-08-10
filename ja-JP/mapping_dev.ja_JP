@@ -224,6 +224,7 @@ dlgScFindAction.tle=コマンドを検索
 dlgScJiraCommitMessageSelect.btn"Refresh"=更新
 dlgScJiraCommitMessageSelect.btn"Reset to default"=デフォルトにリセット
 dlgScJiraCommitMessageSelect.btn"Select"=選択
+dlgScJiraCommitMessageSelect.chk"Query Configuration"=Query Configuration
 dlgScJiraCommitMessageSelect.col"Fix Version"=Fix Version
 dlgScJiraCommitMessageSelect.col"Key"=キー
 dlgScJiraCommitMessageSelect.col"Status"=ステータス
@@ -236,6 +237,8 @@ dlgScJiraCommitMessageSelect.lbl"Load All Issues"=すべての課題を読み込
 dlgScJiraCommitMessageSelect.lbl"Query Configuration"=クエリーの構成
 dlgScJiraCommitMessageSelect.tle=課題の選択
 dlgScJiraResolveIssue.btn"Don't Resolve"=解決しない
+dlgScJiraResolveIssue.btn"Ignore"=Ignore
+dlgScJiraResolveIssue.btn"Resolve Issue"=Resolve Issue
 dlgScJiraResolveIssue.btn"Resolve"=解決
 dlgScJiraResolveIssue.edt"Resolution"=Resolution
 dlgScJiraResolveIssue.edt"Summary"=概要
@@ -267,6 +270,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=マスターパスワード
 dlgScMasterPasswordEnter.hdl=マスターパスワードの入力
 dlgScMasterPasswordEnter.inf=保存されたパスワードまたはパスフレーズがパスワードストアから要求されました。
 dlgScMasterPasswordEnter.tle=パスワード
+dlgScPasswordMasterChangeSuccessfulChange.fur=Be sure to remember it, otherwise you won't be able to access your stored passwords anymore.
+dlgScPasswordMasterChangeSuccessfulChange.hdl=The master password has been changed.
+dlgScPasswordMasterChangeSuccessfulChange.tle=Change Master Password
 dlgScPropertiesReset.btn"Reset"=リセット
 dlgScPropertiesReset.fur=新しい値は、SmartGitを再起動すると有効になります。
 dlgScPropertiesReset.hdl%1=$1 システムのプロパティをデフォルトにリセットしますか？
@@ -326,6 +332,7 @@ dlgScTextMultiComponentGoToLine.tle=指定の行へ移動
 dlgScTextMultiComponentSyntaxHighlightingSelection.tle=シンタックスハイライトの選択
 dlgScTextReplace.btn"< Find"=< 検索
 dlgScTextReplace.btn"Find >"=検索 >
+dlgScTextReplace.btn"Replace All"=Replace All
 dlgScTextReplace.btn"Replace"=置換
 dlgScTextReplace.chk"Case-sensitive"=大文字小文字を区別する
 dlgScTextReplace.chk"Regular Expression search"=正規表現検索
@@ -401,6 +408,7 @@ dlgSgAuthenticationRemoveAllCredentials.fur=You will have to re-enter all authen
 dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削除しますか？
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
 dlgSgAuthenticationShowPassword.edt"Password"=Password
+dlgSgAuthenticationShowPassword.tle%1=Password for $1
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
 dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
 dlgSgBisectStartConfirm.fur=You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search.
@@ -422,6 +430,8 @@ dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
  ローカルブランチの名前を入力してください。
 dlgSgBranchAddCheckout.err"The name must not end with a slash or dot."=\
  The name must not end with a slash or dot.
+dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
+ This branch already exists at this commit.
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=Add branch at commit $1
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  現在のHEADコミットにブランチを追加
@@ -485,8 +495,7 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=リモートブランチをチ�
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
-dlgSgCheckoutTarget.rbt"Checkout local branch 'ja-JP'"=Checkout local branch 'ja-JP'
-dlgSgCheckoutTarget.rbt"Checkout local branch:"=Checkout local branch:
+dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=ローカルブランチを作成:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  ローカルブランチを作成しない \(読み取り専用で作業\)
@@ -650,6 +659,11 @@ dlgSgCommitSelectMessageFromLog.mni"Refresh"=更新
 dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=Regular Expressions
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
 dlgSgCommitSelectMessageFromLog.tle=Select Commit Message
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
+dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
+dlgSgCommitSingleOrAllWorkingTreeChanges.tle=Commit
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
 dlgSgCommitToDetachedHead.fur=リポジトリの HEAD は現在、ブランチを指しておらず、コミット(SHA)を直接参照しています。コミットする際に、新しく作成したコミットはSHAでしか到達できないため、簡単に見失ってしまう可能性があります。今すぐコミットするのではなく、まず現在のHEADにブランチを作成し、その後にコミットしてください。
 dlgSgCommitToDetachedHead.hdl=Do you want to commit to a detached HEAD?
@@ -711,6 +725,7 @@ dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is 
  Could not determine URL for submodule $1. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
+dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.hdl=コマンドの実行に失敗しました。
 dlgSgErrorUtilsClientException.tle=コマンドの失敗
 dlgSgExitConfirmation.btn"Exit Now"=終了する
@@ -927,6 +942,7 @@ dlgSgHistoryEditAuthor.edt"User Name"=ユーザ名
 dlgSgHistoryEditAuthor.hdl=Authorを編集
 dlgSgHistoryEditAuthor.inf=新しいコミットの作者とそのメールアドレスを入力します。
 dlgSgHistoryEditAuthor.tle=Autherを編集
+dlgSgHistoryEditMessage.btn"JIRA"=JIRA
 dlgSgHistoryEditMessage.btn"Select from Log"=ログから選択
 dlgSgHistoryEditMessage.btn"Select"=選択
 dlgSgHistoryEditMessage.btn"Set Message"=メッセージをセットする
@@ -953,6 +969,7 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=既に�
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=既にプッシュされているコミットは、他のユーザーにも知られており、そのユーザーが自分のコミットを構築する際に使用されている可能性があります。\rこのようなコミットを変更すると、後で予期せぬ衝突が起こる可能性があります。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=既にプッシュされているコミットを修正しますか?
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=Journal
+dlgSgHistorySquash.btn"JIRA"=JIRA
 dlgSgHistorySquash.btn"Select from Log"=ログから選択
 dlgSgHistorySquash.btn"Select"=選択
 dlgSgHistorySquash.btn"Squash Commits"=Squash Commits
@@ -1168,6 +1185,8 @@ dlgSgMergeHowToMerge.tle=マージ
 dlgSgOpenRepository.edt"Repository"=リポジトリ
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  Git または Mercurial リポジトリのルートディレクトリを指定してください。
+dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
+ Please specify the root directory of a Git repository.
 dlgSgOpenRepository.hdl=既存のリポジトリを追加、または新しいリポジトリを作成
 dlgSgOpenRepository.inf=既存のリポジトリを追加する場合はローカルのGitまたはMercurialリポジトリを指定します。\r新規にリポジトリを作成する場合は、空のディレクトリを指定します。
 dlgSgOpenRepository.tle=リポジトリの追加又は作成
@@ -1176,16 +1195,22 @@ dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
 dlgSgOpenRepositoryInitializeChooseVcs.fur=The specified directory does not appear to be a valid Git or Mercurial repository.
 dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
 dlgSgOpenRepositoryInitializeChooseVcs.tle=リポジトリの追加又は作成
+dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
+dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
+dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
+dlgSgOpenRepositoryInitializeGit.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  Don't show again for these $1 warnings
 dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
+dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
 dlgSgOutput.tle"Command Output"=Command Output
 dlgSgOutput.tle"Command Succeeded"=Command Succeeded
+dlgSgOutput.tle"Output"=Output
 dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPingRepositoryFailed.tle=クローン
@@ -1378,6 +1403,8 @@ dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu.
  ツールメニューに表示される外部ツールを定義します。名前の前に「\*」が付いているものは、「開く」コマンドで使用できます。
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  ここでは、あなたのアカウントの 'gitconfig' を編集することができます。この設定には、すべてのリポジトリのデフォルト値が含まれています。
+dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
+ Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually.
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
@@ -1794,6 +1821,8 @@ dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
 dlgSgResetAdv.btn"Reset"=リセット
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  .gitattributesに従い改行コードを修正する
+dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
+ Thoroughly fix line-endings according to .gitattributes
 dlgSgResetAdv.hdl%1=コミット $1 にリセット
 dlgSgResetAdv.inf=現在のブランチのHEADを選択したコミットにリセットし、オプションでインデックスと作業ツリーを更新します。
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
@@ -1825,6 +1854,10 @@ dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
 dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  Set to rebased branch '$1' \("ours", $2\)
 dlgSgResolve.tle=Resolve
+dlgSgResolveManuallyModifiedSingle.btn"Overwrite"=Overwrite
+dlgSgResolveManuallyModifiedSingle.fur%1=$1 seems to contain manual conflict resolutions. They will be lost when continuing.
+dlgSgResolveManuallyModifiedSingle.hdl=Do you want to overwrite your manual conflict resolution?
+dlgSgResolveManuallyModifiedSingle.tle=Resolve
 dlgSgResolveSubmodule.btn"Resolve"=Resolve
 dlgSgResolveSubmodule.hdl=Resolve Conflict
 dlgSgResolveSubmodule.inf=Select to which submodule commit you want to resolve.
@@ -1944,24 +1977,16 @@ dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=ユーザ名
 dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
  SmartGitのどのウィンドウを使用するかを決めます。このオプションは、後で環境設定で変更することができます。
-dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
- Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences.
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  以下のプライバシーに関するオプションをご確認ください。後で環境設定で変更することができます。
-dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
- 以下のプライバシーオプションをご確認ください。 gravatar.comは、コミッターがアップロードした画像を表示するために使用することができます。
-dlgSgSetup.inf"Please wait a few moments while searching for a Git or Hg installation."=\
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
  Please wait a few moments while searching for a Git or Hg installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGitは、お使いのシステムに互換性のあるGitがインストールされている必要があります。'git'の実行ファイルのパスを指定してください。
-dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\)."=\
- ユーザー名とメールアドレスは、コミットの一部として保存されます。ここでは、.gitconfig と .hgrc \(又は mercurial.ini\)に保存されるデフォルト値を設定することができます。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
  ユーザー名とメールアドレスは、コミットの一部として保存されます。ここでは、.gitconfig に保存されるデフォルト値を設定することができます。
-dlgSgSetup.inf"Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not."=\
- SmartGitへようこそ!使用許諾契約書に同意しているか、使用目的が商用であるかを確認してください。
 dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
  SmartGitへようこそ! 使用許諾契約に同意されることをご確認ください。
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
@@ -1984,8 +2009,6 @@ dlgSgSetup.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフ�
 dlgSgSetup.rbt"Undecided"=Undecided
 dlgSgSetup.rbt"Use SmartGit as SSH client"=SmartGitをSSHクライアントとして使用
 dlgSgSetup.rbt"Use system SSH client"=システムSSHクライアントの使用
-dlgSgSetup.rbt"Working Tree \(SmartGit 19.1 defaults\)"=作業ツリー \(SmartGit 19.1 のデフォルト\)
-dlgSgSetup.rbt"Working Tree"=ワーキングツリー
 dlgSgSetup.rbt"Working tree \(file oriented\)"=作業ツリー \(ファイル中心\)
 dlgSgSetup.tle=Setup SmartGit
 dlgSgShowLocalChanges.btn"Compare"=比較
@@ -1995,6 +2018,7 @@ dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD vs. Index
 dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD vs. Working Tree
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=Index vs. Working Tree
 dlgSgShowLocalChanges.tle=比較する
+dlgSgSplitOffFiles.btn"JIRA"=JIRA
 dlgSgSplitOffFiles.btn"Split Off"=Split Off
 dlgSgSplitOffFiles.edt"Commit Message"=コミットメッセージ
 dlgSgSplitOffFiles.hdl=Move files to a second commit
@@ -2195,11 +2219,6 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
 dlgShPushTrackingLocalSvnBranches.hdl=Do you want to push local branches as new SVN branches?
 dlgShPushTrackingLocalSvnBranches.tle=プッシュ
-dlgStdIntegrateMainConfigurePrimaryMainRef.btn"Confirm"=Confirm
-dlgStdIntegrateMainConfigurePrimaryMainRef.edt"Main Branch"=Main Branch
-dlgStdIntegrateMainConfigurePrimaryMainRef.hdl=Main branch of your repository
-dlgStdIntegrateMainConfigurePrimaryMainRef.inf=Provide the branch from which features are forked off and into which they are get merged later \(usually 'main', 'master' or 'develop'\).
-dlgStdIntegrateMainConfigurePrimaryMainRef.tle=Confirm main branch
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=削除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=ゴミ箱へ移動
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=「削除」をクリックすると、削除されたファイルを復元するためにファイル復元ツールが必要になる場合があります。
@@ -2361,14 +2380,6 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD と Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
-wndLog.btn"Mark Resolved"=Mark Resolved
-wndLog.mni"Include Merge Only if File was Changed"=\
- Include Merge Only if File was Changed
-wndLog.mni"Show Unchanged Directories"=Show Unchanged Directories
-wndLog.tbtBranchAdd=Add a new branch for the current commit.
-wndLog.tbtBranchAddTag=Add a new tag for the current commit.
-wndStd.btn"Mark Resolved"=Mark Resolved
-wndStd.btn"Show Local Changes"=Show Local Changes
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=準備完了
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=フルスクリーン
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化
@@ -2445,10 +2456,12 @@ wnd(Log|Project|Std).btn"Conflict Solver"=コンフリクトソルバー
 wnd(Log|Project|Std).btn"Continue"=続ける
 wnd(Log|Project|Std).btn"Mark HEAD as Bad"=Mark HEAD as Bad
 wnd(Log|Project|Std).btn"Mark HEAD as Good"=Mark HEAD as Good
+wnd(Log|Project|Std).btn"Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std).btn"Recreate Conflict"=Recreate Conflict
 wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
 wnd(Log|Project|Std).btn"Reset"=リセット
 wnd(Log|Project|Std).btn"Reveal"=Reveal
+wnd(Log|Project|Std).btn"Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std).btn"Stage"=ステージ
 wnd(Log|Project|Std).btn"Step"=Step
 wnd(Log|Project|Std).btn"Swap"=Swap
@@ -2563,6 +2576,8 @@ wnd(Log|Project|Std).mni"Full Name"=Full Name
 wnd(Log|Project|Std).mni"Git Config"=Git Config
 wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS Version
 wnd(Log|Project|Std).mni"ID"=ID
+wnd(Log|Project|Std).mni"Include Merge Only if File was Changed"=\
+ Include Merge Only if File was Changed
 wnd(Log|Project|Std).mni"Integrate"=Integrate
 wnd(Log|Project|Std).mni"Jump To"=Jump To
 wnd(Log|Project|Std).mni"LFS"=LFS
@@ -2627,6 +2642,7 @@ wnd(Log|Project|Std).mni"Show More Commits \(Temporarily\)"=Show More Commits \(
 wnd(Log|Project|Std).mni"Show Only Selected Branches and Tags"=\
  Show Only Selected Branches and Tags
 wnd(Log|Project|Std).mni"Show Only Selected Refs"=Show Only Selected Refs
+wnd(Log|Project|Std).mni"Show Unchanged Directories"=Show Unchanged Directories
 wnd(Log|Project|Std).mni"Show Working Tree On Demand"=Show Working Tree On Demand
 wnd(Log|Project|Std).mni"Show Working Tree Permanently"=Show Working Tree Permanently
 wnd(Log|Project|Std).mni"Sort Merge Parents First"=Sort Merge Parents First
@@ -3016,6 +3032,8 @@ wnd(Log|Project|Std).tbt"Reading repository info from '$1'."=Reading repository 
 wnd(Log|Project|Std).tbt"Refresh information from GitLab."=Refresh information from GitLab.
 wnd(Log|Project|Std).tbt"Show directories tree"=Show directories tree
 wnd(Log|Project|Std).tbtAnnotate=Show a blame \(annotated\) view of the selected file.
+wnd(Log|Project|Std).tbtBranchAdd=Add a new branch for the current commit.
+wnd(Log|Project|Std).tbtBranchAddTag=Add a new tag for the current commit.
 wnd(Log|Project|Std).tbtCheckout=既存のコミットをチェックアウトします。
 wnd(Log|Project|Std).tbtCherryPick=他のブランチからの変更をマージします。
 wnd(Log|Project|Std).tbtClearOutput=「出力」ペーンをクリアします。
