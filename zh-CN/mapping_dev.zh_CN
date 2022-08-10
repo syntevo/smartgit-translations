@@ -59,6 +59,9 @@ dlgQBugFileSendingFailed.fur%1=也许您需要配置代理才能访问我们服�
 dlgQBugFileSendingFailed.hdl%1=无法将崩溃记录发送到 $1
 dlgQBugFileSendingFailed.tle=本机崩溃记录
 dlgQBugReportSend.btn"Force Exit"=强制退出
+dlgQBugReportSend.btn"Ignore \(Dangerous\)"=Ignore \(Dangerous\)
+dlgQBugReportSend.btn"Just Exit"=Just Exit
+dlgQBugReportSend.btn"Report && Exit"=Report && Exit
 dlgQBugReportSend.btn"Report Bug"=反馈 Bug
 dlgQBugReportSend.edt"Comments or Steps to Reproduce"=重现注释或步骤
 dlgQBugReportSend.edt"Email"=电子邮箱
@@ -246,6 +249,7 @@ dlgScFindAction.tle=查找命令
 dlgScJiraCommitMessageSelect.btn"Refresh"=刷新
 dlgScJiraCommitMessageSelect.btn"Reset to default"=重置为默认
 dlgScJiraCommitMessageSelect.btn"Select"=选择
+dlgScJiraCommitMessageSelect.chk"Query Configuration"=Query Configuration
 dlgScJiraCommitMessageSelect.col"Fix Version"=修复版本
 dlgScJiraCommitMessageSelect.col"Key"=键
 dlgScJiraCommitMessageSelect.col"Status"=状态
@@ -258,6 +262,8 @@ dlgScJiraCommitMessageSelect.lbl"Load All Issues"=加载所有问题
 dlgScJiraCommitMessageSelect.lbl"Query Configuration"=配置查询
 dlgScJiraCommitMessageSelect.tle=选择问题
 dlgScJiraResolveIssue.btn"Don't Resolve"=不解决
+dlgScJiraResolveIssue.btn"Ignore"=Ignore
+dlgScJiraResolveIssue.btn"Resolve Issue"=Resolve Issue
 dlgScJiraResolveIssue.btn"Resolve"=解决
 dlgScJiraResolveIssue.edt"Resolution"=解决
 dlgScJiraResolveIssue.edt"Summary"=摘要
@@ -289,6 +295,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=主密码
 dlgScMasterPasswordEnter.hdl=输入主密码
 dlgScMasterPasswordEnter.inf=已从密码库中申请了一个存储的密码或口令。
 dlgScMasterPasswordEnter.tle=密码
+dlgScPasswordMasterChangeSuccessfulChange.fur=Be sure to remember it, otherwise you won't be able to access your stored passwords anymore.
+dlgScPasswordMasterChangeSuccessfulChange.hdl=The master password has been changed.
+dlgScPasswordMasterChangeSuccessfulChange.tle=Change Master Password
 dlgScPropertiesReset.btn"Reset"=重置
 dlgScPropertiesReset.fur=新值只有在重新启动 SmartGit 后才会激活。
 dlgScPropertiesReset.hdl%1=是否要将系统属性 $1 重置为默认值？
@@ -348,6 +357,7 @@ dlgScTextMultiComponentGoToLine.tle=转到行
 dlgScTextMultiComponentSyntaxHighlightingSelection.tle=选择语法-高亮显示
 dlgScTextReplace.btn"< Find"=查找上一个
 dlgScTextReplace.btn"Find >"=查找下一个
+dlgScTextReplace.btn"Replace All"=Replace All
 dlgScTextReplace.btn"Replace"=替换
 dlgScTextReplace.chk"Case-sensitive"=区分大小写
 dlgScTextReplace.chk"Regular Expression search"=正则表达式
@@ -422,6 +432,8 @@ dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=移除所有
 dlgSgAuthenticationRemoveAllCredentials.fur=您必须重新输入所有身份验证详细信息。
 dlgSgAuthenticationRemoveAllCredentials.hdl=您确定要删除所有已知凭据吗？
 dlgSgAuthenticationRemoveAllCredentials.tle=移除所有
+dlgSgAuthenticationShowPassword.edt"Password"=Password
+dlgSgAuthenticationShowPassword.tle%1=Password for $1
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=从坏的 HEAD 开始二分
 dlgSgBisectStartConfirm.btn"Start Bisect"=开始二分
 dlgSgBisectStartConfirm.fur=在 Git 开始二进制搜索之前，你需要将 1 个提交标记为好，1 个提交为坏。
@@ -443,6 +455,8 @@ dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
  输入本地分支的名称。
 dlgSgBranchAddCheckout.err"The name must not end with a slash or dot."=\
  名称不得以斜杠或点结尾。
+dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
+ This branch already exists at this commit.
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=在 $1 提交处创建分支
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  在当前 HEAD 提交处创建分支
@@ -479,6 +493,8 @@ dlgSgBranchTrackingSetConfirm.tle=设置跟踪分支
 dlgSgBugReportSettings.btn"Exit"=退出
 dlgSgBugReportSettings.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  发生内部错误后自动发送 “崩溃追踪”
+dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgBugReportSettings.err"Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."=\
  预览版本需要发送 “崩溃追踪”，因为它们的主要目的是尽可能多地获取在发布之前报告和修复的错误。
 dlgSgBugReportSettings.hdl=崩溃报告
@@ -504,7 +520,7 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=检出远程分支
 dlgSgCheckoutTarget.hdl"Checkout commit"=检出提交
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=检出远程分支
 dlgSgCheckoutTarget.inf=当检出一个提交而不是本地分支的时候需要小心：在该提交之后的提交很容易丢失。
-dlgSgCheckoutTarget.rbt"Checkout local branch:"=检出本地分支：
+dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=检出本地分支 '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=创建本地分支：
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  不创建本地分支 \(只是以只读方式工作\)
@@ -513,6 +529,8 @@ dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
  本地分支 “$1” 落后于检出目标 “$2”。
 dlgSgCheckoutTarget.wrn"Local branch '$1' is diverged from checkout target '$2'."=\
  本地分支 “$1” 与检出目标 “$2” 不同。
+dlgSgCheckoutTarget.wrn"Local branch is ahead of remote branch. The checkout will end up at a more recent commit."=\
+ Local branch is ahead of remote branch. The checkout will end up at a more recent commit.
 dlgSgCheckoutTargetAlreadyExistsOverwrite.btn"Overwrite"=覆盖
 dlgSgCheckoutTargetAlreadyExistsOverwrite.fur=单击 “取消” 以选择其他分支名称。
 dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=分支 “$1” 已经存在。您想覆盖它吗？
@@ -666,6 +684,11 @@ dlgSgCommitSelectMessageFromLog.mni"Refresh"=刷新
 dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=常用表达式
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=记住模式
 dlgSgCommitSelectMessageFromLog.tle=选择提交消息
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
+dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
+dlgSgCommitSingleOrAllWorkingTreeChanges.tle=Commit
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=总是提交
 dlgSgCommitToDetachedHead.fur=仓库 HEAD 当前不指向分支，而是直接参考提交 \(SHA\)。提交时，新创建的提交只能通过其 SHA 访问，因此可能很容易丢失。\n\n现在，您应该首先为当前 HEAD 创建一个分支，然后再提交。
 dlgSgCommitToDetachedHead.hdl=你想提交一个独立的 HEAD 吗？
@@ -675,6 +698,11 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=与仓库比较
 dlgSgCompareTwoFiles.fur=这些文件可以与它们的仓库内容或相互比较。
 dlgSgCompareTwoFiles.hdl=所选的两个文件是否应相互比较？
 dlgSgCompareTwoFiles.tle=比较
+dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
+dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictSolverMarkResolved.fur=To complete a conflict resolution, the file needs to be marked as resolved \(git stage\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions.
+dlgSgConflictSolverMarkResolved.hdl=Do you want to mark the file as resolved?
+dlgSgConflictSolverMarkResolved.tle=Mark Resolved
 dlgSgConflictSolverStageForCommit.btn"Don't Stage"=放弃暂存
 dlgSgConflictSolverStageForCommit.btn"Stage"=暂存
 dlgSgConflictSolverStageForCommit.fur=暂存是解决文件冲突状态所必需的。
@@ -722,6 +750,7 @@ dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is 
  无法确定子模块 $1 的URL. 确定已经正常初始化?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=仓库 “$1” 无效。
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
+dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.hdl=执行命令失败。
 dlgSgErrorUtilsClientException.tle=命令失败
 dlgSgExitConfirmation.btn"Exit Now"=立即退出
@@ -909,6 +938,7 @@ dlgSgGitHubPullRequestMerge.rbt"Mark as merged on GitHub Server"=\
 dlgSgGitHubPullRequestMerge.rbt"Merge on GitHub Server"=在 GitHub 服务器上合并
 dlgSgGitHubPullRequestMerge.rbt"Merge to Local Repository"=合并到本地仓库
 dlgSgGitHubPullRequestMerge.tle=合并拉取请求
+dlgSgGitLabGenerateToken.edt"Code"=Code
 dlgSgGitLabGenerateToken.edt"Link"=链接
 dlgSgGitLabGenerateToken.edt"Token"=令牌
 dlgSgGitLabGenerateToken.hdl=输入生成的令牌
@@ -937,6 +967,7 @@ dlgSgHistoryEditAuthor.edt"User Name"=用户名
 dlgSgHistoryEditAuthor.hdl=编辑提交作者
 dlgSgHistoryEditAuthor.inf=输入新的提交作者及其电子邮件地址。
 dlgSgHistoryEditAuthor.tle=编辑作者
+dlgSgHistoryEditMessage.btn"JIRA"=JIRA
 dlgSgHistoryEditMessage.btn"Select from Log"=从日志中选择
 dlgSgHistoryEditMessage.btn"Select"=选择
 dlgSgHistoryEditMessage.btn"Set Message"=设置消息
@@ -963,6 +994,7 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=修改�
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=已推送的提交对于其他用户是已知的，并且可能已被他们用于构建他们的提交。修改此类提交时，这些用户可能会在以后遇到意外冲突。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=你想修改已推送的提交吗？
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=日志
+dlgSgHistorySquash.btn"JIRA"=JIRA
 dlgSgHistorySquash.btn"Select from Log"=从日志中选择
 dlgSgHistorySquash.btn"Select"=选择
 dlgSgHistorySquash.btn"Squash Commits"=压缩提交
@@ -983,19 +1015,27 @@ dlgSgHostingProviderAdd.chk"Use SSH instead of HTTPS to access repositories"=\
 dlgSgHostingProviderAdd.chk"Use SSL client certificates \(usually not required\)"=\
  使用 SSL 客户端证书 \(通常不需要\)
 dlgSgHostingProviderAdd.chk"Use a GitHub Enterprise instance"=使用 GitHub 企业实例
+dlgSgHostingProviderAdd.chk"Use a custom Azure DevOps server"=\
+ Use a custom Azure DevOps server
 dlgSgHostingProviderAdd.chk"Use a custom GitLab server"=使用自定义 GitLab 服务器
 dlgSgHostingProviderAdd.edt"Account"=账户
 dlgSgHostingProviderAdd.edt"Certificate Password"=证书密码
 dlgSgHostingProviderAdd.edt"Client Certificate"=客户端证书
 dlgSgHostingProviderAdd.edt"Domain"=域名
 dlgSgHostingProviderAdd.edt"Password"=密码
+dlgSgHostingProviderAdd.edt"Server URL \(including collection\)"=Server URL \(including collection\)
 dlgSgHostingProviderAdd.edt"Server URL"=服务器地址
 dlgSgHostingProviderAdd.edt"Token"=令牌
 dlgSgHostingProviderAdd.edt"User Name"=用户名
 dlgSgHostingProviderAdd.hdl=配置新的主机提供商帐户
 dlgSgHostingProviderAdd.inf=选择要为其配置新帐户的托管服务提供商。
+dlgSgHostingProviderAdd.lbl"For example: https://azure.devops.server/DefaultCollection"=For example: https://azure.devops.server/DefaultCollection
 dlgSgHostingProviderAdd.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  \(API\) 令牌是一种特殊的自动生成凭证，SmartGit 将使用该凭证在 GitHub 进行身份验证。它增加了另一层安全性，因为您可以通过在 GitHub 网站删除令牌来轻松撤销访问权限。
+dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings.
+dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  令牌生成方式有两种：1.点击下面的 “生成令牌” 2.以在 GitLab 帐户设置中手动生成 “个人访问令牌” 。
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the assembla website."=\
@@ -1031,6 +1071,8 @@ dlgSgHostingProviderEdit.hdl%1=配置 $1 帐户
 dlgSgHostingProviderEdit.inf%1=请指定您的凭据以连接到 $1。
 dlgSgHostingProviderEdit.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  \(API\) 令牌是一种特殊的自动生成的凭证，SmartGit 将使用该凭证在 GitHub 上进行身份验证。 它增加了另一层安全性，因为您可以通过从 GitHub 前端删除令牌轻松撤消访问。
+dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  令牌生成方式有两种：1.点击下面的 “生成令牌” 2.以在 GitLab 帐户设置中手动生成 “个人访问令牌”。
 dlgSgHostingProviderEdit.tle=GitLab
@@ -1161,12 +1203,15 @@ dlgSgMerge.tle=合并
 dlgSgMergeHowToMerge.btn"Create Merge-Commit"=创建合并提交
 dlgSgMergeHowToMerge.btn"Fast-Forward"=快进
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=合并到工作树
+dlgSgMergeHowToMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMergeHowToMerge.fur=快进合并意味着只将当前分支 \(HEAD\) 向前移动到选定的提交。作为替代方法，您可以创建合并提交或合并到工作树。 在后一种情况下，您可以查看更改，然后稍后创建合并或普通 \(压缩\) 提交。
 dlgSgMergeHowToMerge.hdl%1=如何从分支 “$1” 合并？
 dlgSgMergeHowToMerge.tle=合并
 dlgSgOpenRepository.edt"Repository"=仓库
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  请指定 Git 或 Mercurial 仓库的根目录。
+dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
+ Please specify the root directory of a Git repository.
 dlgSgOpenRepository.hdl=添加现有或创建新仓库
 dlgSgOpenRepository.inf=指定要打开的本地 Git 或 Mercurial 仓库。要创建新仓库，请指定一个空目录。
 dlgSgOpenRepository.tle=添加或创建仓库
@@ -1175,16 +1220,22 @@ dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
 dlgSgOpenRepositoryInitializeChooseVcs.fur=指定的目录似乎不是有效的 Git 或 Mercurial 仓库。
 dlgSgOpenRepositoryInitializeChooseVcs.hdl=什么 VCS 应该用于初始化 “swt”？
 dlgSgOpenRepositoryInitializeChooseVcs.tle=添加或创建仓库
+dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
+dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
+dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
+dlgSgOpenRepositoryInitializeGit.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  不要再显示这些 $1 警告
 dlgSgOutput.chk"Don't show again for this warning"=\
  不要再显示此警告
+dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=需要先合并分支.
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  如果有问题，请咨询您的仓库管理员。
 dlgSgOutput.tle"Command Failed"=命令失败
 dlgSgOutput.tle"Command Output"=命令输出
 dlgSgOutput.tle"Command Succeeded"=命令成功
+dlgSgOutput.tle"Output"=输出
 dlgSgPingRepositoryFailed.fur%1=请检查仓库 URL。\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=无法连接到仓库 “$1”。
 dlgSgPingRepositoryFailed.tle=克隆
@@ -1377,6 +1428,8 @@ dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu.
  定义将显示在 “工具” 菜单中的外部工具。“打开” 命令可以使用在名称前面标有前导 \* 的那些。
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  Here you can edit your account's 'gitconfig' which contains the defaults for all repositories.
+dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
+ Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually.
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
  如果您使用SSH连接到其他 Git 仓库，请选择要使用的 SSH 客户端。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
@@ -1774,6 +1827,8 @@ dlgSgRepositorySettings.edt"Signing Key"=签名密钥
 dlgSgRepositorySettings.edt"Single Patterns"=个体模式
 dlgSgRepositorySettings.edt"Submodule handling\*"=子模块处理\*
 dlgSgRepositorySettings.edt"Text File Encoding"=文本编码
+dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
+ Please enter a valid, comma-separated list of regular expressions.
 dlgSgRepositorySettings.hdl=编辑有效的仓库设置
 dlgSgRepositorySettings.inf=在这里，您可以查看和编辑用户配置文件和仓库的有效 Git 设置。要将选项保存为用户设置，请选择 “记住默认” 。
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -1791,6 +1846,8 @@ dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
 dlgSgResetAdv.btn"Reset"=重置
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  根据 .gitattributes 彻底修复行尾
+dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
+ Thoroughly fix line-endings according to .gitattributes
 dlgSgResetAdv.hdl%1=重置提交 $1
 dlgSgResetAdv.inf=将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作树。
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
@@ -1822,6 +1879,10 @@ dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
 dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  设置为变基分支 “$1” \(“我们的”，$2\)
 dlgSgResolve.tle=解决
+dlgSgResolveManuallyModifiedSingle.btn"Overwrite"=Overwrite
+dlgSgResolveManuallyModifiedSingle.fur%1=$1 seems to contain manual conflict resolutions. They will be lost when continuing.
+dlgSgResolveManuallyModifiedSingle.hdl=Do you want to overwrite your manual conflict resolution?
+dlgSgResolveManuallyModifiedSingle.tle=Resolve
 dlgSgResolveSubmodule.btn"Resolve"=解决
 dlgSgResolveSubmodule.hdl=解决冲突
 dlgSgResolveSubmodule.inf=选择要解决的子模块提交。
@@ -1927,6 +1988,9 @@ dlgSgSetup.chk"Automatically send 'crash footprints' after an internal error has
  发生内部错误后自动发送 “崩溃追踪”
 dlgSgSetup.chk"I understand and agree to all terms and conditions of the"=\
  我理解并同意所有条款和条件
+dlgSgSetup.chk"Register existing license"=Register existing license
+dlgSgSetup.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgSetup.chk"Send usage statistics"=发送使用量统计
 dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
  使用 gravatar.com 为用户显示图像
@@ -1936,20 +2000,20 @@ dlgSgSetup.edt"Hg Executable"=Hg 可执行文件
 dlgSgSetup.edt"License File"=许可证文件
 dlgSgSetup.edt"Repository search"=仓库搜索
 dlgSgSetup.edt"User Name"=用户名
-dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
- 决定您是喜欢文件管理器还是历史日志，如 SmartGit 主窗口的样式。 您可以稍后在首选项中更改此选项。
+dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
+ Decide what SmartGit window you prefer. You can change this option later in the preferences.
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在首选项中更改它。
-dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
- 请查看以下隐私选项。gravatar.com 可用于显示他们在那里上传的提交者的图像。
-dlgSgSetup.inf"Please wait a few moments while searching for a Git or Hg installation."=\
- 在搜索 Git 或 Hg 安装时请稍等片刻。
-dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\)."=\
- 用户名和电子邮件将作为提交的一部分存储。 您可以在此处配置存储在 .gitconfig 和. hgrc 中的默认值。 \(或 mercurial.ini\).
+dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
+ Please review the following privacy options. You can change them later in the preferences.
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
+ Please wait a few moments while searching for a Git or Hg installation.
+dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
+ SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable.
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
  用户名和电子邮件将作为提交的一部分存储。 您可以在此处配置并存储在 .gitconfig。
-dlgSgSetup.inf"Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not."=\
- 欢迎来到 SmartGit！确认您是否接受许可协议以及您的使用是否属于商业用途。
+dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
+ Welcome to SmartGit! Please confirm that you are accepting the license agreement.
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  请通过自动发送不包含任何敏感信息的 “崩溃追踪” 来帮助提高 SmartGit 的质量。 您可以稍后在首选项中更改此选项。\n\n崩溃追踪包含有关您的计算机的详细信息 \(例如，操作系统的版本\)，SmartGit 的版本/内部版本号，JVM 状态以及发生内部错误的位置。 \n\n它不包含任何潜在的敏感信息，如用户名，电子邮件地址，文件内容，文件路径或服务器名称。
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
@@ -1961,15 +2025,16 @@ dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
 dlgSgSetup.rbt"Commits \(Log History\)"=日志历史
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  免费的 SmartGit 评估用于商业用途
+dlgSgSetup.rbt"Log Graph \(commit oriented\)"=Log Graph \(commit oriented\)
 dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
  仅限非商业用途 \(大多数功能, 无技术支持\)
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  注册用户，商业用途 \(所有功能, 技术支持\)
+dlgSgSetup.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
 dlgSgSetup.rbt"Undecided"=待定
 dlgSgSetup.rbt"Use SmartGit as SSH client"=使用 SmartGit 作为 SSH 客户端
 dlgSgSetup.rbt"Use system SSH client"=使用系统 SSH 客户端
-dlgSgSetup.rbt"Working Tree \(SmartGit 19.1 defaults\)"=工作树 \(SmartGit 19.1 默认\)
-dlgSgSetup.rbt"Working Tree"=工作树
+dlgSgSetup.rbt"Working tree \(file oriented\)"=工作树 \(file oriented\)
 dlgSgSetup.tle=设置 SmartGit
 dlgSgShowLocalChanges.btn"Compare"=比较
 dlgSgShowLocalChanges.hdl=在索引和工作树中修改了文件 preview.html.erb
@@ -1978,6 +2043,7 @@ dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD 与索引
 dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD 与工作树
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=索引与工作树
 dlgSgShowLocalChanges.tle=显示更改
+dlgSgSplitOffFiles.btn"JIRA"=JIRA
 dlgSgSplitOffFiles.btn"Split Off"=Split Off
 dlgSgSplitOffFiles.edt"Commit Message"=Commit Message
 dlgSgSplitOffFiles.hdl=Move files to a second commit
@@ -2251,10 +2317,16 @@ wndConflictSolver.tbr"Next Conflict"=下一处冲突
 wndConflictSolver.tbr"Prev. Conflict"=上一处冲突
 wndConflictSolver.tbr"Take Left, Right"=使用左边文件块, 使用右边文件块
 wndConflictSolver.tbr"Take Right, Left"=使用右边文件块, 使用左边文件块
+wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
+wndConflictSolver.tbtFile-save=Save file modifications.
 wndConflictSolver.tbtGoto-next-conflict=下一处冲突。
+wndConflictSolver.tbtGoto-next-diff=Go to next change.
+wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
 wndDeepgit.btn"Go Deeper"=更深入
 wndDeepgit.col"File"=文件
 wndDeepgit.col"Modifications"=修改
+wndDeepgit.mni"Open File Log"=Open File Log
+wndDeepgit.mni"Open Repository Log"=Open Repository Log
 wndDeepgit.mniAbout=关于 DeepGit
 wndDeepgit.mniBack=回退
 wndDeepgit.mniConfigureRefGroups=引用标签分组
@@ -2409,10 +2481,12 @@ wnd(Log|Project|Std).btn"Conflict Solver"=冲突解决器
 wnd(Log|Project|Std).btn"Continue"=继续
 wnd(Log|Project|Std).btn"Mark HEAD as Bad"=将 HEAD 标记为坏的
 wnd(Log|Project|Std).btn"Mark HEAD as Good"=将 HEAD 标记为好的
+wnd(Log|Project|Std).btn"Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std).btn"Recreate Conflict"=重现冲突
 wnd(Log|Project|Std).btn"Rerun Thoroughly"=完全重运行
 wnd(Log|Project|Std).btn"Reset"=重置
 wnd(Log|Project|Std).btn"Reveal"=展示
+wnd(Log|Project|Std).btn"Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std).btn"Stage"=暂存
 wnd(Log|Project|Std).btn"Step"=步骤
 wnd(Log|Project|Std).btn"Swap"=交换
@@ -2527,6 +2601,8 @@ wnd(Log|Project|Std).mni"Full Name"=全名
 wnd(Log|Project|Std).mni"Git Config"=Git 配置
 wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS 版本
 wnd(Log|Project|Std).mni"ID"=ID
+wnd(Log|Project|Std).mni"Include Merge Only if File was Changed"=\
+ Include Merge Only if File was Changed
 wnd(Log|Project|Std).mni"Integrate"=集成
 wnd(Log|Project|Std).mni"Jump To"=跳转到
 wnd(Log|Project|Std).mni"LFS"=LFS
@@ -2591,6 +2667,7 @@ wnd(Log|Project|Std).mni"Show More Commits \(Temporarily\)"=显示更多提交 \
 wnd(Log|Project|Std).mni"Show Only Selected Branches and Tags"=\
  仅显示选定的分支和标签
 wnd(Log|Project|Std).mni"Show Only Selected Refs"=仅显示选定的参考
+wnd(Log|Project|Std).mni"Show Unchanged Directories"=Show Unchanged Directories
 wnd(Log|Project|Std).mni"Show Working Tree On Demand"=按需显示工作树
 wnd(Log|Project|Std).mni"Show Working Tree Permanently"=永久显示工作树
 wnd(Log|Project|Std).mni"Sort Merge Parents First"=先排序合并父级
@@ -2980,6 +3057,8 @@ wnd(Log|Project|Std).tbt"Reading repository info from '$1'."=从 '$1' 读取仓�
 wnd(Log|Project|Std).tbt"Refresh information from GitLab."=刷新 GitLab 的信息。
 wnd(Log|Project|Std).tbt"Show directories tree"=显示目录树
 wnd(Log|Project|Std).tbtAnnotate=显示所选文件的追溯 \(注释\) 视图。
+wnd(Log|Project|Std).tbtBranchAdd=Add a new branch for the current commit.
+wnd(Log|Project|Std).tbtBranchAddTag=Add a new tag for the current commit.
 wnd(Log|Project|Std).tbtCheckout=检出一个现有提交。
 wnd(Log|Project|Std).tbtCherryPick=合并来自其他分支的修改.
 wnd(Log|Project|Std).tbtClearOutput=清除输出窗格。

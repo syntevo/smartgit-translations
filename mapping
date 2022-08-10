@@ -34,6 +34,9 @@ dlgQBugFileSendingFailed.fur%1=Maybe you need to configure a proxy or our server
 dlgQBugFileSendingFailed.hdl%1=Could not send the crash logs to $1
 dlgQBugFileSendingFailed.tle=Native Crash Logs
 dlgQBugReportSend.btn"Force Exit"=Force Exit
+dlgQBugReportSend.btn"Ignore \(Dangerous\)"=Ignore \(Dangerous\)
+dlgQBugReportSend.btn"Just Exit"=Just Exit
+dlgQBugReportSend.btn"Report && Exit"=Report && Exit
 dlgQBugReportSend.btn"Report Bug"=Report Bug
 dlgQBugReportSend.edt"Comments or Steps to Reproduce"=Comments or Steps to Reproduce
 dlgQBugReportSend.edt"Email"=Email
@@ -221,6 +224,7 @@ dlgScFindAction.tle=Find Command
 dlgScJiraCommitMessageSelect.btn"Refresh"=Refresh
 dlgScJiraCommitMessageSelect.btn"Reset to default"=Reset to default
 dlgScJiraCommitMessageSelect.btn"Select"=Select
+dlgScJiraCommitMessageSelect.chk"Query Configuration"=Query Configuration
 dlgScJiraCommitMessageSelect.col"Fix Version"=Fix Version
 dlgScJiraCommitMessageSelect.col"Key"=Key
 dlgScJiraCommitMessageSelect.col"Status"=Status
@@ -233,6 +237,8 @@ dlgScJiraCommitMessageSelect.lbl"Load All Issues"=Load All Issues
 dlgScJiraCommitMessageSelect.lbl"Query Configuration"=Query Configuration
 dlgScJiraCommitMessageSelect.tle=Select Issue
 dlgScJiraResolveIssue.btn"Don't Resolve"=Don't Resolve
+dlgScJiraResolveIssue.btn"Ignore"=Ignore
+dlgScJiraResolveIssue.btn"Resolve Issue"=Resolve Issue
 dlgScJiraResolveIssue.btn"Resolve"=Resolve
 dlgScJiraResolveIssue.edt"Resolution"=Resolution
 dlgScJiraResolveIssue.edt"Summary"=Summary
@@ -264,6 +270,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=Master Password
 dlgScMasterPasswordEnter.hdl=Enter the master password
 dlgScMasterPasswordEnter.inf=A stored password or passphrase has been requested from the password store.
 dlgScMasterPasswordEnter.tle=Passwords
+dlgScPasswordMasterChangeSuccessfulChange.fur=Be sure to remember it, otherwise you won't be able to access your stored passwords anymore.
+dlgScPasswordMasterChangeSuccessfulChange.hdl=The master password has been changed.
+dlgScPasswordMasterChangeSuccessfulChange.tle=Change Master Password
 dlgScPropertiesReset.btn"Reset"=Reset
 dlgScPropertiesReset.fur=The new values will be active after restarting SmartGit.
 dlgScPropertiesReset.hdl%1=Do you want to reset $1 system properties to their defaults?
@@ -323,6 +332,7 @@ dlgScTextMultiComponentGoToLine.tle=Go to Line
 dlgScTextMultiComponentSyntaxHighlightingSelection.tle=Select Syntax-Highlighting
 dlgScTextReplace.btn"< Find"=< Find
 dlgScTextReplace.btn"Find >"=Find >
+dlgScTextReplace.btn"Replace All"=Replace All
 dlgScTextReplace.btn"Replace"=Replace
 dlgScTextReplace.chk"Case-sensitive"=Case-sensitive
 dlgScTextReplace.chk"Regular Expression search"=Regular Expression search
@@ -397,6 +407,8 @@ dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=Remove All
 dlgSgAuthenticationRemoveAllCredentials.fur=You will have to re-enter all authentication details.
 dlgSgAuthenticationRemoveAllCredentials.hdl=Do you want to remove all known credentials?
 dlgSgAuthenticationRemoveAllCredentials.tle=Remove All
+dlgSgAuthenticationShowPassword.edt"Password"=Password
+dlgSgAuthenticationShowPassword.tle%1=Password for $1
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
 dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
 dlgSgBisectStartConfirm.fur=You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search.
@@ -418,6 +430,8 @@ dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
  Enter the name of the local branch.
 dlgSgBranchAddCheckout.err"The name must not end with a slash or dot."=\
  The name must not end with a slash or dot.
+dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
+ This branch already exists at this commit.
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=Add branch at commit $1
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  Add branch at current HEAD commit
@@ -454,6 +468,8 @@ dlgSgBranchTrackingSetConfirm.tle=Set Tracked Branch
 dlgSgBugReportSettings.btn"Exit"=Exit
 dlgSgBugReportSettings.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  Automatically send 'crash footprints' after an internal error has occurred
+dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgBugReportSettings.err"Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."=\
  Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release.
 dlgSgBugReportSettings.hdl=Crash Reporting
@@ -479,7 +495,7 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=Check out remote branch
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
-dlgSgCheckoutTarget.rbt"Checkout local branch:"=Checkout local branch:
+dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=Create local branch:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  Don't create local branch \(just work read-only\)
@@ -488,6 +504,8 @@ dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
  Local branch '$1' is behind checkout target '$2'.
 dlgSgCheckoutTarget.wrn"Local branch '$1' is diverged from checkout target '$2'."=\
  Local branch '$1' is diverged from checkout target '$2'.
+dlgSgCheckoutTarget.wrn"Local branch is ahead of remote branch. The checkout will end up at a more recent commit."=\
+ Local branch is ahead of remote branch. The checkout will end up at a more recent commit.
 dlgSgCheckoutTargetAlreadyExistsOverwrite.btn"Overwrite"=Overwrite
 dlgSgCheckoutTargetAlreadyExistsOverwrite.fur=Click 'Cancel' to choose a different branch name.
 dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=The branch '$1' already exists. Do you want to overwrite it?
@@ -641,6 +659,11 @@ dlgSgCommitSelectMessageFromLog.mni"Refresh"=Refresh
 dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=Regular Expressions
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
 dlgSgCommitSelectMessageFromLog.tle=Select Commit Message
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
+dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
+dlgSgCommitSingleOrAllWorkingTreeChanges.tle=Commit
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
 dlgSgCommitToDetachedHead.fur=The repository HEAD currently does not point to a branch, but directly refers to a commit \(SHA\). When committing, the newly created commit will only be reachable by its SHA and hence may get lost easily.\n\nInstead of committing now, you should first create a branch for your current HEAD and commit afterwards.
 dlgSgCommitToDetachedHead.hdl=Do you want to commit to a detached HEAD?
@@ -650,6 +673,11 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=Compare with Repository
 dlgSgCompareTwoFiles.fur=The files can be compared to their repository content or to each other.
 dlgSgCompareTwoFiles.hdl=Should the selected two files be compared with each other?
 dlgSgCompareTwoFiles.tle=Compare
+dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
+dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictSolverMarkResolved.fur=To complete a conflict resolution, the file needs to be marked as resolved \(git stage\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions.
+dlgSgConflictSolverMarkResolved.hdl=Do you want to mark the file as resolved?
+dlgSgConflictSolverMarkResolved.tle=Mark Resolved
 dlgSgConflictSolverStageForCommit.btn"Don't Stage"=Don't Stage
 dlgSgConflictSolverStageForCommit.btn"Stage"=Stage
 dlgSgConflictSolverStageForCommit.fur=Staging is necessary to resolve the file's conflict status.
@@ -697,6 +725,7 @@ dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is 
  Could not determine URL for submodule $1. Is it correctly initialized?
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
+dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.hdl=Executing a command has failed.
 dlgSgErrorUtilsClientException.tle=Command Failed
 dlgSgExitConfirmation.btn"Exit Now"=Exit Now
@@ -884,6 +913,7 @@ dlgSgGitHubPullRequestMerge.rbt"Mark as merged on GitHub Server"=\
 dlgSgGitHubPullRequestMerge.rbt"Merge on GitHub Server"=Merge on GitHub Server
 dlgSgGitHubPullRequestMerge.rbt"Merge to Local Repository"=Merge to Local Repository
 dlgSgGitHubPullRequestMerge.tle=Merge Pull Request
+dlgSgGitLabGenerateToken.edt"Code"=Code
 dlgSgGitLabGenerateToken.edt"Link"=Link
 dlgSgGitLabGenerateToken.edt"Token"=Token
 dlgSgGitLabGenerateToken.hdl=Enter the generated token
@@ -912,6 +942,7 @@ dlgSgHistoryEditAuthor.edt"User Name"=User Name
 dlgSgHistoryEditAuthor.hdl=Edit commit author
 dlgSgHistoryEditAuthor.inf=Enter the new commit author and its email address.
 dlgSgHistoryEditAuthor.tle=Edit Author
+dlgSgHistoryEditMessage.btn"JIRA"=JIRA
 dlgSgHistoryEditMessage.btn"Select from Log"=Select from Log
 dlgSgHistoryEditMessage.btn"Select"=Select
 dlgSgHistoryEditMessage.btn"Set Message"=Set Message
@@ -938,6 +969,7 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=Modify P
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=Commits which are already pushed are known to other users and may have been used by them to build theirs commits upon. When modifying such commits, these users may run into unexpected conflicts later.
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=Do you want to modify commits which are already pushed?
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=Journal
+dlgSgHistorySquash.btn"JIRA"=JIRA
 dlgSgHistorySquash.btn"Select from Log"=Select from Log
 dlgSgHistorySquash.btn"Select"=Select
 dlgSgHistorySquash.btn"Squash Commits"=Squash Commits
@@ -958,19 +990,27 @@ dlgSgHostingProviderAdd.chk"Use SSH instead of HTTPS to access repositories"=\
 dlgSgHostingProviderAdd.chk"Use SSL client certificates \(usually not required\)"=\
  Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderAdd.chk"Use a GitHub Enterprise instance"=Use a GitHub Enterprise instance
+dlgSgHostingProviderAdd.chk"Use a custom Azure DevOps server"=\
+ Use a custom Azure DevOps server
 dlgSgHostingProviderAdd.chk"Use a custom GitLab server"=Use a custom GitLab server
 dlgSgHostingProviderAdd.edt"Account"=Account
 dlgSgHostingProviderAdd.edt"Certificate Password"=Certificate Password
 dlgSgHostingProviderAdd.edt"Client Certificate"=Client Certificate
 dlgSgHostingProviderAdd.edt"Domain"=Domain
 dlgSgHostingProviderAdd.edt"Password"=Password
+dlgSgHostingProviderAdd.edt"Server URL \(including collection\)"=Server URL \(including collection\)
 dlgSgHostingProviderAdd.edt"Server URL"=Server URL
 dlgSgHostingProviderAdd.edt"Token"=Token
 dlgSgHostingProviderAdd.edt"User Name"=User Name
 dlgSgHostingProviderAdd.hdl=Configure a new hosting provider account
 dlgSgHostingProviderAdd.inf=Select for which hosting provider you want to configure a new account.
+dlgSgHostingProviderAdd.lbl"For example: https://azure.devops.server/DefaultCollection"=For example: https://azure.devops.server/DefaultCollection
 dlgSgHostingProviderAdd.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end.
+dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings.
+dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings.
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the assembla website."=\
@@ -1006,6 +1046,8 @@ dlgSgHostingProviderEdit.hdl%1=Configure $1 account
 dlgSgHostingProviderEdit.inf%1=Please specify your credentials to connect to $1.
 dlgSgHostingProviderEdit.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end.
+dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings.
 dlgSgHostingProviderEdit.tle=GitLab
@@ -1136,12 +1178,15 @@ dlgSgMerge.tle=Merge
 dlgSgMergeHowToMerge.btn"Create Merge-Commit"=Create Merge-Commit
 dlgSgMergeHowToMerge.btn"Fast-Forward"=Fast-Forward
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=Merge to Working Tree
+dlgSgMergeHowToMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMergeHowToMerge.fur=Fast-forward merge means to just move the current branch \(HEAD\) forward to the selected commit. As an alternative you can create a merge commit or merge to the working tree. In the latter case you can review the changes and later create a merge or normal \(squash\) commit later.
 dlgSgMergeHowToMerge.hdl%1=How to merge from branch '$1'?
 dlgSgMergeHowToMerge.tle=Merge
 dlgSgOpenRepository.edt"Repository"=Repository
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  Please specify the root directory of a Git or Mercurial repository.
+dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
+ Please specify the root directory of a Git repository.
 dlgSgOpenRepository.hdl=Add existing or create new repository
 dlgSgOpenRepository.inf=Specify the local Git or Mercurial repository to open. To create a new repository, specify an empty directory.
 dlgSgOpenRepository.tle=Add or Create Repository
@@ -1150,16 +1195,22 @@ dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
 dlgSgOpenRepositoryInitializeChooseVcs.fur=The specified directory does not appear to be a valid Git or Mercurial repository.
 dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
 dlgSgOpenRepositoryInitializeChooseVcs.tle=Add or Create Repository
+dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
+dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
+dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
+dlgSgOpenRepositoryInitializeGit.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  Don't show again for these $1 warnings
 dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
+dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
 dlgSgOutput.tle"Command Failed"=Command Failed
 dlgSgOutput.tle"Command Output"=Command Output
 dlgSgOutput.tle"Command Succeeded"=Command Succeeded
+dlgSgOutput.tle"Output"=Output
 dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPingRepositoryFailed.tle=Clone
@@ -1352,6 +1403,8 @@ dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu.
  Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command.
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  Here you can edit your account's 'gitconfig' which contains the defaults for all repositories.
+dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
+ Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually.
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
  If you are using SSH to connect to other Git repositories, select what SSH client to use.
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
@@ -1749,6 +1802,8 @@ dlgSgRepositorySettings.edt"Signing Key"=Signing Key
 dlgSgRepositorySettings.edt"Single Patterns"=Single Patterns
 dlgSgRepositorySettings.edt"Submodule handling\*"=Submodule handling\*
 dlgSgRepositorySettings.edt"Text File Encoding"=Text File Encoding
+dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
+ Please enter a valid, comma-separated list of regular expressions.
 dlgSgRepositorySettings.hdl=Edit the effective repository settings
 dlgSgRepositorySettings.inf=Here you can see and edit the effective Git settings for the user config file and the repository. To save the options as user settings, select 'Remember as default'.
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -1766,6 +1821,8 @@ dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
 dlgSgResetAdv.btn"Reset"=Reset
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  Thoroughly fix line endings according to .gitattributes
+dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
+ Thoroughly fix line-endings according to .gitattributes
 dlgSgResetAdv.hdl%1=Reset to commit $1
 dlgSgResetAdv.inf=Reset the current branch head to the selected commit and optionally update Index and working tree.
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
@@ -1797,6 +1854,10 @@ dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
 dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  Set to rebased branch '$1' \("ours", $2\)
 dlgSgResolve.tle=Resolve
+dlgSgResolveManuallyModifiedSingle.btn"Overwrite"=Overwrite
+dlgSgResolveManuallyModifiedSingle.fur%1=$1 seems to contain manual conflict resolutions. They will be lost when continuing.
+dlgSgResolveManuallyModifiedSingle.hdl=Do you want to overwrite your manual conflict resolution?
+dlgSgResolveManuallyModifiedSingle.tle=Resolve
 dlgSgResolveSubmodule.btn"Resolve"=Resolve
 dlgSgResolveSubmodule.hdl=Resolve Conflict
 dlgSgResolveSubmodule.inf=Select to which submodule commit you want to resolve.
@@ -1902,6 +1963,9 @@ dlgSgSetup.chk"Automatically send 'crash footprints' after an internal error has
  Automatically send 'crash footprints' after an internal error has occurred
 dlgSgSetup.chk"I understand and agree to all terms and conditions of the"=\
  I understand and agree to all terms and conditions of the
+dlgSgSetup.chk"Register existing license"=Register existing license
+dlgSgSetup.chk"Send 'crash footprints' after an internal error has occurred"=\
+ Send 'crash footprints' after an internal error has occurred
 dlgSgSetup.chk"Send usage statistics"=Send usage statistics
 dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
  Use gravatar.com to show images for the users
@@ -1911,20 +1975,20 @@ dlgSgSetup.edt"Hg Executable"=Hg Executable
 dlgSgSetup.edt"License File"=License File
 dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=User Name
-dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
- Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences.
+dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
+ Decide what SmartGit window you prefer. You can change this option later in the preferences.
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences.
-dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
- Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there.
-dlgSgSetup.inf"Please wait a few moments while searching for a Git or Hg installation."=\
+dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
+ Please review the following privacy options. You can change them later in the preferences.
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
  Please wait a few moments while searching for a Git or Hg installation.
-dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\)."=\
- User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\).
+dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
+ SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable.
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
  User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig.
-dlgSgSetup.inf"Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not."=\
- Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not.
+dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
+ Welcome to SmartGit! Please confirm that you are accepting the license agreement.
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
@@ -1936,15 +2000,16 @@ dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
 dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  Free SmartGit evaluation for commercial use
+dlgSgSetup.rbt"Log Graph \(commit oriented\)"=Log Graph \(commit oriented\)
 dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
  Non-commercial use only \(most features, no support\)
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  Registered user, commercial use \(all features, support\)
+dlgSgSetup.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
 dlgSgSetup.rbt"Undecided"=Undecided
 dlgSgSetup.rbt"Use SmartGit as SSH client"=Use SmartGit as SSH client
 dlgSgSetup.rbt"Use system SSH client"=Use system SSH client
-dlgSgSetup.rbt"Working Tree \(SmartGit 19.1 defaults\)"=Working Tree \(SmartGit 19.1 defaults\)
-dlgSgSetup.rbt"Working Tree"=Working Tree
+dlgSgSetup.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
 dlgSgSetup.tle=Setup SmartGit
 dlgSgShowLocalChanges.btn"Compare"=Compare
 dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
@@ -1953,6 +2018,7 @@ dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD vs. Index
 dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD vs. Working Tree
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=Index vs. Working Tree
 dlgSgShowLocalChanges.tle=Show Changes
+dlgSgSplitOffFiles.btn"JIRA"=JIRA
 dlgSgSplitOffFiles.btn"Split Off"=Split Off
 dlgSgSplitOffFiles.edt"Commit Message"=Commit Message
 dlgSgSplitOffFiles.hdl=Move files to a second commit
@@ -2226,10 +2292,16 @@ wndConflictSolver.tbr"Next Conflict"=Next Conflict
 wndConflictSolver.tbr"Prev. Conflict"=Prev. Conflict
 wndConflictSolver.tbr"Take Left, Right"=Take Left, Right
 wndConflictSolver.tbr"Take Right, Left"=Take Right, Left
+wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
+wndConflictSolver.tbtFile-save=Save file modifications.
 wndConflictSolver.tbtGoto-next-conflict=Go to next conflict.
+wndConflictSolver.tbtGoto-next-diff=Go to next change.
+wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
 wndDeepgit.btn"Go Deeper"=Go Deeper
 wndDeepgit.col"File"=File
 wndDeepgit.col"Modifications"=Modifications
+wndDeepgit.mni"Open File Log"=Open File Log
+wndDeepgit.mni"Open Repository Log"=Open Repository Log
 wndDeepgit.mniAbout=About DeepGit
 wndDeepgit.mniBack=Go Back
 wndDeepgit.mniConfigureRefGroups=Tag-Grouping
@@ -2384,10 +2456,12 @@ wnd(Log|Project|Std).btn"Conflict Solver"=Conflict Solver
 wnd(Log|Project|Std).btn"Continue"=Continue
 wnd(Log|Project|Std).btn"Mark HEAD as Bad"=Mark HEAD as Bad
 wnd(Log|Project|Std).btn"Mark HEAD as Good"=Mark HEAD as Good
+wnd(Log|Project|Std).btn"Mark Resolved"=Mark Resolved
 wnd(Log|Project|Std).btn"Recreate Conflict"=Recreate Conflict
 wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
 wnd(Log|Project|Std).btn"Reset"=Reset
 wnd(Log|Project|Std).btn"Reveal"=Reveal
+wnd(Log|Project|Std).btn"Show Local Changes"=Show Local Changes
 wnd(Log|Project|Std).btn"Stage"=Stage
 wnd(Log|Project|Std).btn"Step"=Step
 wnd(Log|Project|Std).btn"Swap"=Swap
@@ -2502,6 +2576,8 @@ wnd(Log|Project|Std).mni"Full Name"=Full Name
 wnd(Log|Project|Std).mni"Git Config"=Git Config
 wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS Version
 wnd(Log|Project|Std).mni"ID"=ID
+wnd(Log|Project|Std).mni"Include Merge Only if File was Changed"=\
+ Include Merge Only if File was Changed
 wnd(Log|Project|Std).mni"Integrate"=Integrate
 wnd(Log|Project|Std).mni"Jump To"=Jump To
 wnd(Log|Project|Std).mni"LFS"=LFS
@@ -2566,6 +2642,7 @@ wnd(Log|Project|Std).mni"Show More Commits \(Temporarily\)"=Show More Commits \(
 wnd(Log|Project|Std).mni"Show Only Selected Branches and Tags"=\
  Show Only Selected Branches and Tags
 wnd(Log|Project|Std).mni"Show Only Selected Refs"=Show Only Selected Refs
+wnd(Log|Project|Std).mni"Show Unchanged Directories"=Show Unchanged Directories
 wnd(Log|Project|Std).mni"Show Working Tree On Demand"=Show Working Tree On Demand
 wnd(Log|Project|Std).mni"Show Working Tree Permanently"=Show Working Tree Permanently
 wnd(Log|Project|Std).mni"Sort Merge Parents First"=Sort Merge Parents First
@@ -2955,6 +3032,8 @@ wnd(Log|Project|Std).tbt"Reading repository info from '$1'."=Reading repository 
 wnd(Log|Project|Std).tbt"Refresh information from GitLab."=Refresh information from GitLab.
 wnd(Log|Project|Std).tbt"Show directories tree"=Show directories tree
 wnd(Log|Project|Std).tbtAnnotate=Show a blame \(annotated\) view of the selected file.
+wnd(Log|Project|Std).tbtBranchAdd=Add a new branch for the current commit.
+wnd(Log|Project|Std).tbtBranchAddTag=Add a new tag for the current commit.
 wnd(Log|Project|Std).tbtCheckout=Check out an existing commit.
 wnd(Log|Project|Std).tbtCherryPick=Merge changes from other branches.
 wnd(Log|Project|Std).tbtClearOutput=Clear output pane.
