@@ -495,7 +495,7 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=Check out remote branch
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
-dlgSgCheckoutTarget.rbt"Checkout local branch:"=Checkout local branch:
+dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=Create local branch:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  Don't create local branch \(just work read-only\)
@@ -1975,22 +1975,20 @@ dlgSgSetup.edt"Hg Executable"=Hg Executable
 dlgSgSetup.edt"License File"=License File
 dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=User Name
-dlgSgSetup.inf"Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences."=\
- Decide whether you prefer a Commits \(Log History\) or Working Tree centric SmartGit main window. You can change this option later in the preferences.
+dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
+ Decide what SmartGit window you prefer. You can change this option later in the preferences.
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
  If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences.
-dlgSgSetup.inf"Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there."=\
- Please review the following privacy options. gravatar.com can be used to show images of committers that they have uploaded there.
-dlgSgSetup.inf"Please wait a few moments while searching for a Git or Hg installation."=\
+dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
+ Please review the following privacy options. You can change them later in the preferences.
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
  Please wait a few moments while searching for a Git or Hg installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable.
-dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\)."=\
- User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig and .hgrc \(or mercurial.ini\).
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
  User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig.
-dlgSgSetup.inf"Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not."=\
- Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not.
+dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
+ Welcome to SmartGit! Please confirm that you are accepting the license agreement.
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
@@ -2011,8 +2009,7 @@ dlgSgSetup.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
 dlgSgSetup.rbt"Undecided"=Undecided
 dlgSgSetup.rbt"Use SmartGit as SSH client"=Use SmartGit as SSH client
 dlgSgSetup.rbt"Use system SSH client"=Use system SSH client
-dlgSgSetup.rbt"Working Tree \(SmartGit 19.1 defaults\)"=Working Tree \(SmartGit 19.1 defaults\)
-dlgSgSetup.rbt"Working Tree"=Working Tree
+dlgSgSetup.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
 dlgSgSetup.tle=Setup SmartGit
 dlgSgShowLocalChanges.btn"Compare"=Compare
 dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
