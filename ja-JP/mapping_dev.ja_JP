@@ -325,7 +325,7 @@ dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから探す
 dlgScTextFinderFindFromStart.fur=ドキュメントの最後まで見つかりませんでした。
 dlgScTextFinderFindFromStart.hdl=ドキュメントの先頭から続けますか？
 dlgScTextFinderFindFromStart.tle=テキストの検索
-dlgScTextFinderNothingFound.hdl=No \(more\) occurrences have been found.
+dlgScTextFinderNothingFound.hdl=見つかりませんでした。
 dlgScTextFinderNothingFound.tle=テキストの検索
 dlgScTextMultiComponentGoToLine.edt"Line Number"=行番号
 dlgScTextMultiComponentGoToLine.tle=指定の行へ移動
@@ -359,19 +359,19 @@ dlgScTextSettings.tab"Compare"=比較
 dlgScTextSettings.tab"General"=一般
 dlgScTextSettings.tle=設定
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=今すぐアップグレード
-dlgScUpdateInstallationUpgrade.fur%1=The new version $1 has been downloaded which needs to be installed.
+dlgScUpdateInstallationUpgrade.fur%1=インストールが必要な新しいバージョン $1 がダウンロードされました。
 dlgScUpdateInstallationUpgrade.hdl=今すぐSmartGitをアップグレードしますか？
 dlgScUpdateInstallationUpgrade.tle=SmartGitのアップグレード
 dlgSelectDiff.col"Command"=コマンド
-dlgSelectDiff.hdl=Select the diff tool
-dlgSelectDiff.inf=Select which matching diff tool should be used.
+dlgSelectDiff.hdl=差分比較ツールを選択する
+dlgSelectDiff.inf=どの差分比較ツールを使用するかを選択します。
 dlgSelectDiff.tle=ファイルの比較
-dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Abort Bisect
-dlgSgAbortBisectingConfirm.fur=Your working tree is in 'bisecting' state. You may abort it to get out of this state.\n\nAborting will checkout the branch or commit before starting bisect.
+dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Bisectを中止
+dlgSgAbortBisectingConfirm.fur=作業ツリーは「bisecting」状態になっています。\n\n中断すると、bisect を開始する前にブランチまたはコミットをチェックアウトします。
 dlgSgAbortBisectingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortBisectingConfirm.tle=中断
-dlgSgAbortCherryPickingConfirm.btn"Abort Cherry-Pick"=Abort Cherry-Pick
-dlgSgAbortCherryPickingConfirm.fur=Your working tree is in 'cherry-picking' state. You may abort it to get out of this state and freshly start over with the cherry-picking afterwards.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
+dlgSgAbortCherryPickingConfirm.btn"Abort Cherry-Pick"=チェリーピックを中止する
+dlgSgAbortCherryPickingConfirm.fur=作業ツリーは'cherry-picking'状態になっています。\n\n 作業を中断してこの状態から抜け出し、新たにcherry-pickingをやり直すこともできます。\n\n中断することで、ローカルでの変更も消去されます。
 dlgSgAbortCherryPickingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortCherryPickingConfirm.tle=中断
 dlgSgAbortMergingConfirm.btn"Abort Merge"=マージを中断
@@ -392,10 +392,10 @@ dlgSgAbout.edt"Address"=アドレス
 dlgSgAbout.edt"Build Date"=ビルド日
 dlgSgAbout.edt"Email"=電子メール
 dlgSgAbout.edt"Free Updates Until"=無料アップデート期間
-dlgSgAbout.edt"Java Version"=Java Version
-dlgSgAbout.edt"Maximum Heap"=Maximum Heap
+dlgSgAbout.edt"Java Version"=Java バージョン
+dlgSgAbout.edt"Maximum Heap"=最大ヒープ
 dlgSgAbout.edt"Name"=名前
-dlgSgAbout.edt"Settings Path"=Settings Path
+dlgSgAbout.edt"Settings Path"=設定パス
 dlgSgAbout.edt"Support Until"=サポート期限
 dlgSgAbout.edt"User Count"=ユーザ数
 dlgSgAbout.edt"Version"=バージョン
@@ -404,14 +404,14 @@ dlgSgAbout.tab"Information"=情報
 dlgSgAbout.tab"Licensee"=ライセンス
 dlgSgAbout.tle=SmartGitについて
 dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=全て削除
-dlgSgAuthenticationRemoveAllCredentials.fur=You will have to re-enter all authentication details.
+dlgSgAuthenticationRemoveAllCredentials.fur=すべての認証情報を再入力する必要があります。
 dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削除しますか？
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
-dlgSgAuthenticationShowPassword.edt"Password"=Password
-dlgSgAuthenticationShowPassword.tle%1=Password for $1
+dlgSgAuthenticationShowPassword.edt"Password"=パスワード
+dlgSgAuthenticationShowPassword.tle%1=$1 のパスワード
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
 dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
-dlgSgBisectStartConfirm.fur=You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search.
+dlgSgBisectStartConfirm.fur=Gitがバイナリ検索を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。
 dlgSgBisectStartConfirm.hdl=Should the bisect be started with a bad commit?
 dlgSgBisectStartConfirm.tle=Start Bisect
 dlgSgBitbucketGenerateToken.edt"Code"=コード
@@ -425,13 +425,13 @@ dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=ブランチを追加しチ�
 dlgSgBranchAddCheckout.btn"Add Branch"=ブランチを追加
 dlgSgBranchAddCheckout.edt"Branch"=ブランチ
 dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't be used."=\
- Choose a different branch, the current branch can't be used.
+ 別のブランチを選択してください。現在のブランチは使用できません。
 dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
  ローカルブランチの名前を入力してください。
 dlgSgBranchAddCheckout.err"The name must not end with a slash or dot."=\
- The name must not end with a slash or dot.
+ 名前の末尾にスラッシュまたはドットを使用することはできません。
 dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
- This branch already exists at this commit.
+ このブランチはこのコミットで既に存在しています。
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=コミット  $1  でブランチ追加
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  現在のHEADコミットにブランチを追加
@@ -442,12 +442,12 @@ dlgSgBranchAddCheckoutOverwriteExisting.fur=「'キャンセル」をクリッ�
 dlgSgBranchAddCheckoutOverwriteExisting.hdl%1=ブランチ '$1' はすでに存在しています。上書きしますか？
 dlgSgBranchAddCheckoutOverwriteExisting.tle=ブランチを追加
 dlgSgBranchDeleteCurrentNotPossible.fur=デフォルトでは、SmartGit は現在のブランチを削除することを許可していません。この制限をスキップするには、ローレベルプロパティ 'branch.delete.allowToDeleteCurrentBranch' を設定します。
-dlgSgBranchDeleteCurrentNotPossible.hdl=You can't delete the current branch.
+dlgSgBranchDeleteCurrentNotPossible.hdl=現在のブランチを削除することはできません。
 dlgSgBranchDeleteCurrentNotPossible.tle=削除
 dlgSgBranchDeleteLocalConfirmMultiple.btn"Delete"=削除
 dlgSgBranchDeleteLocalConfirmMultiple.chk"Delete from remote repository"=リモートリポジトリから削除する
-dlgSgBranchDeleteLocalConfirmMultiple.chk"Delete tracked branches"=Delete tracked branches
-dlgSgBranchDeleteLocalConfirmMultiple.fur=It might be complicated to restore deleted branches.\n\nYou may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch.
+dlgSgBranchDeleteLocalConfirmMultiple.chk"Delete tracked branches"=追跡されたブランチを削除する
+dlgSgBranchDeleteLocalConfirmMultiple.fur=削除されたブランチを復元するのは複雑な場合があります。\n\nローカルにあるリモートブランチリストからブランチを削除するだけで、次のフェッチでブランチが復活する可能性があります。
 dlgSgBranchDeleteLocalConfirmMultiple.hdl%1=$1個のローカルブランチを削除しますか？
 dlgSgBranchDeleteLocalConfirmMultiple.tle=削除
 dlgSgBranchDeleteLocalConfirmSingle.btn"Delete"=削除
@@ -458,21 +458,21 @@ dlgSgBranchDeleteLocalConfirmSingle.hdl%1=ローカルブランチ'$1'を削除�
 dlgSgBranchDeleteLocalConfirmSingle.tle=削除
 dlgSgBranchDeleteRemoteConfirmSingle.btn"Delete"=削除
 dlgSgBranchDeleteRemoteConfirmSingle.chk%1=リモート '$1' から削除
-dlgSgBranchDeleteRemoteConfirmSingle.fur=You may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch.
+dlgSgBranchDeleteRemoteConfirmSingle.fur=ローカルにあるリモートブランチリストからブランチを削除するだけで、次のフェッチでブランチが復活する可能性があります。
 dlgSgBranchDeleteRemoteConfirmSingle.hdl%1=リモートブランチ'$1'を削除しますか？
 dlgSgBranchDeleteRemoteConfirmSingle.tle=削除
 dlgSgBranchTrackingSetConfirm.btn"Configure"=設定
-dlgSgBranchTrackingSetConfirm.fur=The necessary configuration will be performed in the .git/config file.
-dlgSgBranchTrackingSetConfirm.hdl%2=Do you want to configure '$1' to track '$2'?
+dlgSgBranchTrackingSetConfirm.fur=必要な設定は .git/config ファイルで行います。
+dlgSgBranchTrackingSetConfirm.hdl%2=$1'を'$2'に追従させるように設定しますか？
 dlgSgBranchTrackingSetConfirm.tle=追跡ブランチの設定
 dlgSgBugReportSettings.btn"Exit"=終了
 dlgSgBugReportSettings.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  内部エラー発生後、自動的に「クラッシュフットプリント」を送信
 dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has occurred"=\
- Send 'crash footprints' after an internal error has occurred
+ 内部エラー発生後の「クラッシュフットプリント」の送信
 dlgSgBugReportSettings.err"Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."=\
  プレビュービルドには「クラッシュフットプリント」を送信する必要があります。\rこれは、プレビュービルドの主な目的が、リリース前にできるだけ多くのバグを報告して修正することであるためです。
-dlgSgBugReportSettings.hdl=Crash Reporting
+dlgSgBugReportSettings.hdl=クラッシュレポート
 dlgSgBugReportSettings.inf=SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。このオプションは後から環境設定で変更することができます。
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。
@@ -480,7 +480,7 @@ dlgSgBugReportSettings.tle=SmartGit
 dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=Fast-Forward マージ
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=Just Checkout
 dlgSgCheckoutFastForwardMerge.fur=Fast-forward-merging automatically moves the branch forward to the tracked remote branch.
-dlgSgCheckoutFastForwardMerge.hdl%1=Do you want to fast-forward-merge remote changes after checking out '$1'?
+dlgSgCheckoutFastForwardMerge.hdl%1=$1'をチェックアウトした後、リモートの変更を Fast-Forward マージしますか？
 dlgSgCheckoutFastForwardMerge.tle=チェックアウト
 dlgSgCheckoutLocalBranchConfirm.btn"Checkout"=チェックアウト
 dlgSgCheckoutLocalBranchConfirm.chk=次回から表示しない
@@ -501,32 +501,32 @@ dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  ローカルブランチを作成しない \(読み取り専用で作業\)
 dlgSgCheckoutTarget.tle=チェックアウト
 dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
- Local branch '$1' is behind checkout target '$2'.
+ ローカルブランチ '$1' はチェックアウトターゲット '$2' の後ろにあります。
 dlgSgCheckoutTarget.wrn"Local branch '$1' is diverged from checkout target '$2'."=\
- Local branch '$1' is diverged from checkout target '$2'.
+ ローカルブランチ '$1' はチェックアウトターゲット '$2' から分岐しています。
 dlgSgCheckoutTarget.wrn"Local branch is ahead of remote branch. The checkout will end up at a more recent commit."=\
- Local branch is ahead of remote branch. The checkout will end up at a more recent commit.
+ ローカルブランチはリモートブランチより進んでいます。チェックアウトはより新しいコミットで終了します。
 dlgSgCheckoutTargetAlreadyExistsOverwrite.btn"Overwrite"=上書き
 dlgSgCheckoutTargetAlreadyExistsOverwrite.fur=「'キャンセル」をクリックすると、別のブランチ名を選択することができます。
 dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=ブランチ '$1' はすでに存在しています。上書きしますか？
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=チェックアウト
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=チェリーピック
-dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
-dlgSgCherryPickConfigurationFile.hdl%1=Do you want to cherry-pick changes of '$1'?
+dlgSgCherryPickConfigurationFile.fur=これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。
+dlgSgCherryPickConfigurationFile.hdl%1='$1' の変更をチェリーピックしますか?
 dlgSgCherryPickConfigurationFile.tle=チェリーピック
-dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
+dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=チェリーピック && コミット
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfirmation.chk=コミットメッセージにソースSHAを追加する
-dlgSgCherryPickConfirmation.fur=This will cherry-pick the selected commit into the Working Tree.
-dlgSgCherryPickConfirmation.hdl=Do you want to cherry-pick?
+dlgSgCherryPickConfirmation.fur=これにより、選択されたコミットが作業ツリーにチェリーピックされます。
+dlgSgCherryPickConfirmation.hdl=チェリーピックしますか？
 dlgSgCherryPickConfirmation.tle=チェリーピック
 dlgSgCherryPickFailedBecauseOfConflicts.chk=次回から表示しない
-dlgSgCherryPickFailedBecauseOfConflicts.fur=You may need to resolve the conflicts before proceeding.
-dlgSgCherryPickFailedBecauseOfConflicts.hdl=Cherry-picking failed because of conflicts.
+dlgSgCherryPickFailedBecauseOfConflicts.fur=先に進む前に、コンフリクトを解消する必要があるかもしれません。
+dlgSgCherryPickFailedBecauseOfConflicts.hdl=チェリーピッキングはコンフリクトのため失敗しました。
 dlgSgCherryPickFailedBecauseOfConflicts.tle=チェリーピック
 dlgSgCherryPickUnpushedCommits.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickUnpushedCommits.fur=At least one of the selected commits has not been pushed yet, hence cherry-pick is only local and won't be translated to SVN \(mergeinfo\).
-dlgSgCherryPickUnpushedCommits.hdl=Do you want to cherry-pick unpushed commits?
+dlgSgCherryPickUnpushedCommits.hdl=プッシュされていないコミットをチェリーピックしますか？
 dlgSgCherryPickUnpushedCommits.tle=チェリーピック
 dlgSgClean.btn"Clean Working Tree"=Clean Working Tree
 dlgSgClean.chk"Remove only ignored files"=無視されたファイルのみ削除
@@ -535,29 +535,29 @@ dlgSgClean.hdl=追跡されていないファイルを削除する
 dlgSgClean.inf=どの未追跡ファイルを削除するかを選択します。
 dlgSgClean.tle=Clean Working Tree
 dlgSgClone.chk"Create upstream remote"=Create upstream remote
-dlgSgClone.chk"Fetch all Heads and Tags"=Fetch all Heads and Tags
-dlgSgClone.chk"Fetch all commits"=Fetch all commits
-dlgSgClone.chk"Include Submodules"=Include Submodules
+dlgSgClone.chk"Fetch all Heads and Tags"=すべてのヘッドとタグを取得する
+dlgSgClone.chk"Fetch all commits"=すべてのコミットを取得する
+dlgSgClone.chk"Include Submodules"=サブモジュールを含める
 dlgSgClone.chk"Just initialize clone \(expert mode, not officially supported!\)"=\
- Just initialize clone \(expert mode, not officially supported!\)
+ クローンを初期化するだけ \(エキスパートモード、正式にはサポートされていません！\)
 dlgSgClone.chk"Map SVN trunk, tags and branches to Git"=\
- Map SVN trunk, tags and branches to Git
-dlgSgClone.chk"Skip large files \(\"partial clone\"\)"=Skip large files \("partial clone"\)
+ SVNのトランク、タグ、ブランチをGitにマップする
+dlgSgClone.chk"Skip large files \(\"partial clone\"\)"=大きなファイルをスキップする \("partial clone"\)
 dlgSgClone.edt"Check Out Branch"=ブランチをチェックアウト
 dlgSgClone.edt"Fetch Only"=フェッチのみ
 dlgSgClone.edt"Fetch only the latest"=Fetch Only the Latest
-dlgSgClone.edt"Local Directory"=Local Directory
-dlgSgClone.edt"Omit files larger than"=Omit files larger than
+dlgSgClone.edt"Local Directory"=ローカルディレクトリ
+dlgSgClone.edt"Omit files larger than"=これより大きなファイルは省略
 dlgSgClone.edt"Path"=パス
 dlgSgClone.edt"Repository URL"=リポジトリ URL
 dlgSgClone.err"Please select an empty, local directory for the new repository."=\
- Please select an empty, local directory for the new repository.
+ 新しいリポジトリ用に空のローカル ディレクトリを選択してください。
 dlgSgClone.err"Please specify the URL of the remote repository to be cloned."=\
  クローンするリモートリポジトリのURLを指定してください。
 dlgSgClone.err"Please specify the root directory of a local repository."=\
  ローカルリポジトリのルートディレクトリを指定してください。
 dlgSgClone.inf"Customize how and what to clone."=\
- Customize how and what to clone.
+ クローンする方法と内容をカスタマイズできます。
 dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
  クローンするGitまたはSVNリポジトリを指定します。
 dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
@@ -568,22 +568,22 @@ dlgSgClone.inf"Specify the repository to clone."=クローンを作成するリ�
 dlgSgClone.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=すべてのリビジョンをクローンする \(推奨\)
 dlgSgClone.rbt"Clone from revision:"=このリビジョンからクローン:
-dlgSgClone.rbt"Local Git or Mercurial repository"=Local Git or Mercurial repository
-dlgSgClone.rbt"Local Git repository"=Local Git repository
+dlgSgClone.rbt"Local Git or Mercurial repository"=Git または Mercurial のローカルリポジトリ
+dlgSgClone.rbt"Local Git repository"=ローカルGitリポジトリ
 dlgSgClone.rbt"Local repository"=ローカルリポジトリ
-dlgSgClone.rbt"Remote Git or SVN repository"=Remote Git or SVN repository
+dlgSgClone.rbt"Remote Git or SVN repository"=Git または SVN のリモートリポジトリ
 dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
- Remote Git, Mercurial or SVN repository
+ Git、Mercurial または SVN のリモートリポジトリ
 dlgSgClone.rbt"Remote repository"=リモートリポジトリ
 dlgSgClone.tle=クローン
 dlgSgCloneRepositoryType.btn"Git"=Git
 dlgSgCloneRepositoryType.btn"Mercurial"=Mercurial
 dlgSgCloneRepositoryType.btn"SVN"=SVN
-dlgSgCloneRepositoryType.fur=The specified URL protocol is ambiguous and may refer to different types of repositories.
-dlgSgCloneRepositoryType.hdl=Select the type of repository you are going to clone.
+dlgSgCloneRepositoryType.fur=指定された URL プロトコルがあいまいで、異なるタイプのリポジトリを参照している可能性があります。
+dlgSgCloneRepositoryType.hdl=クローンを作成するリポジトリの種類を選択します。
 dlgSgCloneRepositoryType.tle=クローン
-dlgSgCloneSvnDetachedHeadSuccess.fur=SmartGit now continues to fetch all other revisions in the background. You may safely start working with the repository now; only log-related operations will be affected by this intermediate state.\n\nOnce SmartGit has finished the background part of the clone, it will let you know in the notifications area \(status bar\) and you can complete the clone there.
-dlgSgCloneSvnDetachedHeadSuccess.hdl=HEAD revision has been successfully cloned.
+dlgSgCloneSvnDetachedHeadSuccess.fur=SmartGit は現在、バックグラウンドで他のすべてのリビジョンの取得を続けています。ログ関連の操作だけが、この中間状態の影響を受けます。\n\nSmartGit がバックグラウンドでのクローンを完了すると、通知領域でそれを知らせますので、そこでクローンを完了することができます。
+dlgSgCloneSvnDetachedHeadSuccess.hdl=HEADリビジョンのクローンに成功しました。
 dlgSgCloneSvnDetachedHeadSuccess.tle=クローン
 dlgSgCommit.btn"Commit && Push"=コミット&&プッシュ
 dlgSgCommit.btn"Commit"=コミット
@@ -599,7 +599,7 @@ dlgSgCommit.col"Name"=名前
 dlgSgCommit.edt"Commit Message"=コミットメッセージ
 dlgSgCommit.edt"Create"=作成
 dlgSgCommit.err"Enter a commit message describing \(the reason for\) the commit."=\
- Enter a commit message describing \(the reason for\) the commit.
+ コミットを説明する\(理由となる\)コミットメッセージを入力します。
 dlgSgCommit.hdl=ローカルまたはステージングされた変更のコミット
 dlgSgCommit.inf=コミットしたいファイルを選択し、コミットメッセージを記入します。
 dlgSgCommit.lbl"More Options"=追加のオプション
@@ -633,17 +633,17 @@ dlgSgCommitIndexAllWorkingTreeChanges.chk=次回から表示しない
 dlgSgCommitIndexAllWorkingTreeChanges.fur=まだステージングされていないファイルがあります。\r個々の変更をステージングするには、［キャンセル］をクリックしてください。\rそれ以外の場合は、作業ツリーの全ての変更がステージングされ、コミットされます。
 dlgSgCommitIndexAllWorkingTreeChanges.hdl=すべての作業ツリーの変更をコミットしますか？
 dlgSgCommitIndexAllWorkingTreeChanges.tle=コミット
-dlgSgCommitIndexNoFilesFound.fur=Neither staged files nor locally changed files were found.
-dlgSgCommitIndexNoFilesFound.hdl=There is nothing to commit.
+dlgSgCommitIndexNoFilesFound.fur=ステージングされたファイルやローカルで変更されたファイルは見つかりませんでした。
+dlgSgCommitIndexNoFilesFound.hdl=コミットするものは何もありません。
 dlgSgCommitIndexNoFilesFound.tle=コミット
-dlgSgCommitNoFilesFoundNotAllowEmpty.fur=Neither staged files nor locally changed files were found.
-dlgSgCommitNoFilesFoundNotAllowEmpty.hdl=There is nothing to commit.
+dlgSgCommitNoFilesFoundNotAllowEmpty.fur=ステージングされたファイルやローカルで変更されたファイルは見つかりませんでした。
+dlgSgCommitNoFilesFoundNotAllowEmpty.hdl=コミットするものは何もありません。
 dlgSgCommitNoFilesFoundNotAllowEmpty.tle=コミット
 dlgSgCommitSelectMessageFromLog.btn"Branches"=ブランチ
 dlgSgCommitSelectMessageFromLog.btn"Select"=選択
 dlgSgCommitSelectMessageFromLog.chk"Add 'fixup!' prefix for easier automatic squashing using Interactive Rebase"=\
  Add 'fixup!' prefix for easier automatic squashing using Interactive Rebase
-dlgSgCommitSelectMessageFromLog.hdl=Select a commit
+dlgSgCommitSelectMessageFromLog.hdl=コミットを選択する
 dlgSgCommitSelectMessageFromLog.inf=メッセージを使用するコミットを選択します。
 dlgSgCommitSelectMessageFromLog.mni"Author"=Author
 dlgSgCommitSelectMessageFromLog.mni"Branches and Tags"=ブランチとタグ
@@ -656,13 +656,13 @@ dlgSgCommitSelectMessageFromLog.mni"Forget Pattern"=Forget Pattern
 dlgSgCommitSelectMessageFromLog.mni"ID"=ID
 dlgSgCommitSelectMessageFromLog.mni"Message"=メッセージ
 dlgSgCommitSelectMessageFromLog.mni"Refresh"=更新
-dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=Regular Expressions
+dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=正規表現
 dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
 dlgSgCommitSelectMessageFromLog.tle=Select Commit Message
-dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
-dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
-dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
-dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=すべての変更をコミット
+dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=ファイルをコミット
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=選択した1つのファイルをコミットするか、変更したすべてのファイルをコミットするかを選択できます。
+dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=何をコミットしますか？
 dlgSgCommitSingleOrAllWorkingTreeChanges.tle=コミット
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
 dlgSgCommitToDetachedHead.fur=リポジトリの HEAD は現在、ブランチを指しておらず、コミット(SHA)を直接参照しています。コミットする際に、新しく作成したコミットはSHAでしか到達できないため、簡単に見失ってしまう可能性があります。今すぐコミットするのではなく、まず現在のHEADにブランチを作成し、その後にコミットしてください。
@@ -674,28 +674,28 @@ dlgSgCompareTwoFiles.fur=ファイルはリポジトリの内容と比較した�
 dlgSgCompareTwoFiles.hdl=選択された2つのファイルを比較しますか？
 dlgSgCompareTwoFiles.tle=比較
 dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
-dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=Mark Resolved
-dlgSgConflictSolverMarkResolved.fur=To complete a conflict resolution, the file needs to be marked as resolved \(git stage\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions.
-dlgSgConflictSolverMarkResolved.hdl=Do you want to mark the file as resolved?
-dlgSgConflictSolverMarkResolved.tle=Mark Resolved
+dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=解決済みとしてマーク
+dlgSgConflictSolverMarkResolved.fur=競合の解決を完了するには、そのファイルを解決済みとしてマークする必要があります。 \(git stage\)\n 解決済みとマークされるまでは、ファイルは競合状態のままであり、他の競合解決を試すことができます。
+dlgSgConflictSolverMarkResolved.hdl=ファイルを解決済みとしてマークしますか？
+dlgSgConflictSolverMarkResolved.tle=解決済みとしてマーク
 dlgSgConflictSolverStageForCommit.btn"Don't Stage"=Don't Stage
 dlgSgConflictSolverStageForCommit.btn"Stage"=ステージ
-dlgSgConflictSolverStageForCommit.fur=Staging is necessary to resolve the file's conflict status.
-dlgSgConflictSolverStageForCommit.hdl=Do you want to stage the file for commit now?
-dlgSgConflictSolverStageForCommit.tle=Stage for Commit
+dlgSgConflictSolverStageForCommit.fur=ファイルの競合状態を解消するためには、ステージングが必要です。
+dlgSgConflictSolverStageForCommit.hdl=今すぐコミットするためにファイルをステージングしますか？
+dlgSgConflictSolverStageForCommit.tle=コミットするためにステージ
 dlgSgCustomizeProjectUi.btn"Add"=追加
 dlgSgCustomizeProjectUi.btn"Assign"=割り当て
 dlgSgCustomizeProjectUi.btn"Clear"=クリア
 dlgSgCustomizeProjectUi.btn"Remove"=除去
 dlgSgCustomizeProjectUi.btn"Reset"=リセット
-dlgSgCustomizeProjectUi.chk"Show text below icon"=Show text below icon
+dlgSgCustomizeProjectUi.chk"Show text below icon"=アイコンの下にテキストを表示する
 dlgSgCustomizeProjectUi.col"Accelerator"=Accelerator
 dlgSgCustomizeProjectUi.col"Available"=利用可能
 dlgSgCustomizeProjectUi.col"Default"=デフォルト
-dlgSgCustomizeProjectUi.col"Menu Item"=Menu Item
+dlgSgCustomizeProjectUi.col"Menu Item"=メニュー項目
 dlgSgCustomizeProjectUi.col"Selected"=Selected
 dlgSgCustomizeProjectUi.edt"Accelerator"=Accelerator
-dlgSgCustomizeProjectUi.mni"Regular Expressions"=Regular Expressions
+dlgSgCustomizeProjectUi.mni"Regular Expressions"=正規表現
 dlgSgCustomizeProjectUi.tab"Accelerators"=Accelerators
 dlgSgCustomizeProjectUi.tab"Toolbar"=ツールバー
 dlgSgCustomizeProjectUi.tle=カスタマイズ
@@ -928,7 +928,7 @@ dlgSgGitLabMergeRequestCreate.hdl=マージリクエストを作成
 dlgSgGitLabMergeRequestCreate.inf=別のリポジトリやブランチにマージリクエストを送信します。
 dlgSgGitLabMergeRequestCreate.tle=マージリクエストを作成
 dlgSgGitLabSettingsInvalidToken.fur=GitLabアカウントのPersonal Access Tokenを使用します。
-dlgSgGitLabSettingsInvalidToken.hdl=Please enter a Personal Access Token for your GitLab account.
+dlgSgGitLabSettingsInvalidToken.hdl=GitLab アカウントの個人用アクセストークンを入力してください。
 dlgSgGitLabSettingsInvalidToken.tle=Input Validation
 dlgSgHeadMessageListenerReplaceMessage.btn"Don't Replace"=置換しない
 dlgSgHeadMessageListenerReplaceMessage.btn"Replace This Time"=置換する
@@ -1014,13 +1014,13 @@ dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token
 dlgSgHostingProviderAdd.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitLab のアカウント設定で自分で生成した 'personal access token' を使用します。
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the assembla website."=\
- Use the same login information as for the assembla website.
+ assemblaウェブサイトと同じログイン情報を使用してください。
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the beanstalk website and make sure that for 'My Profile' - 'Account' - 'Account Settings' - 'Developer API' is enabled."=\
- Use the same login information as for the beanstalk website and make sure that for 'My Profile' - 'Account' - 'Account Settings' - 'Developer API' is enabled.
+ beanstalkウェブサイトと同じログイン情報を使用し、'My Profile' - 'Account' - 'Account Settings' - 'Developer API' が有効であることを確認します。
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the codebasehq website."=\
- Use the same login information as for the codebasehq website.
+ ログイン情報は、codebasehqのサイトと同じものを使用してください。
 dlgSgHostingProviderAdd.lbl"Use the same login information as for the unfuddle website."=\
- Use the same login information as for the unfuddle website.
+ unfuddleのウェブサイトと同じログイン情報を使用します。
 dlgSgHostingProviderAdd.tle=ホスティングプロバイダーを追加
 dlgSgHostingProviderEdit.btn"Generate API Token"=APIトークンを生成
 dlgSgHostingProviderEdit.btn"Generate Token"=トークンを生成
@@ -1036,13 +1036,13 @@ dlgSgHostingProviderEdit.edt"Name"=名前
 dlgSgHostingProviderEdit.edt"Server URL"=サーバURL
 dlgSgHostingProviderEdit.edt"Token"=トークン
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
- Please enter a Personal Access Token for your GitLab account.
+ GitLab アカウントの個人用アクセストークンを入力してください。
 dlgSgHostingProviderEdit.err"Please enter an OAuth 'refresh' token."=\
- Please enter an OAuth 'refresh' token.
-dlgSgHostingProviderEdit.err"Please enter the API token."=Please enter the API token.
+ OAuthの'refresh'トークンを入力してください。
+dlgSgHostingProviderEdit.err"Please enter the API token."=APIトークンを入力してください。
 dlgSgHostingProviderEdit.err"Please specify the private key file."=\
  秘密鍵ファイルを指定してください。
-dlgSgHostingProviderEdit.hdl%1=Configure $1 account
+dlgSgHostingProviderEdit.hdl%1=$1 アカウントの設定
 dlgSgHostingProviderEdit.inf%1=$1 に接続するための認証情報を指定してください。
 dlgSgHostingProviderEdit.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  APIトークンとは、SmartGitがGitHubでの認証に使用する、自動生成された特別なクレデンシャルです。\rこのトークンを GitHub のフロントエンドから削除すれば、簡単にアクセスを取り消すことができるので、もうひとつのセキュリティ層となります。
@@ -1053,9 +1053,9 @@ dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-toke
 dlgSgHostingProviderEdit.tle=GitLab
 dlgSgHostingProviderSelectRepository.btn"Select"=選択
 dlgSgHostingProviderSelectRepository.col"Name"=名前
-dlgSgHostingProviderSelectRepository.col"Namespace"=Namespace
+dlgSgHostingProviderSelectRepository.col"Namespace"=名前空間
 dlgSgHostingProviderSelectRepository.col"Repository"=リポジトリ
-dlgSgHostingProviderSelectRepository.tle=GitHub Projects
+dlgSgHostingProviderSelectRepository.tle=GitHub プロジェクト
 dlgSgHttpPasswordAuthenticationFailedCause1.fur%3=The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\n\nTo resolve, recreate the $2 hosting provider in the Preferences.\n\nDetails:\n\n$3
 dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1=$1 OAuth認証に失敗しました
 dlgSgHttpPasswordAuthenticationFailedCause1.tle=HTTP authentication
@@ -1063,21 +1063,21 @@ dlgSgHttpPasswordCredentials.btn"Login"=ログイン
 dlgSgHttpPasswordCredentials.chk"Store password"=パスワードの保存
 dlgSgHttpPasswordCredentials.edt"Password"=パスワード
 dlgSgHttpPasswordCredentials.edt"User Name"=ユーザ名
-dlgSgHttpPasswordCredentials.hdl%1=Login to '$1'
+dlgSgHttpPasswordCredentials.hdl%1='$1' にログインする
 dlgSgHttpPasswordCredentials.inf=リポジトリに認証するためのユーザー名とパスワードを入力します。
 dlgSgHttpPasswordCredentials.tle=ログイン
-dlgSgIgnoreChanged.btn"Discard Changes"=Discard Changes
-dlgSgIgnoreChanged.fur=The changes will be discarded when proceeding!
+dlgSgIgnoreChanged.btn"Discard Changes"=変更を破棄
+dlgSgIgnoreChanged.fur=続行すると、変更は破棄されます。
 dlgSgIgnoreChanged.hdl=本当に変更されたファイルを削除しますか?
 dlgSgIgnoreChanged.tle=無視
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=無視
-dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignore File
+dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=無視するファイル
 dlgSgIgnoreDirectoryConfirm.fur=このディレクトリ名は、.ignore ファイルに追加されます。 .ignore ファイルが存在しない場合は、作成されます。
 dlgSgIgnoreDirectoryConfirm.hdl%1=ディレクトリ'$1'を無視しますか？
 dlgSgIgnoreDirectoryConfirm.tle=無視
 dlgSgIgnoreEdit.btn"Edit"=編集
-dlgSgIgnoreEdit.hdl=Edit Git ignore file
-dlgSgIgnoreEdit.inf=Select the Git ignore file to edit.
+dlgSgIgnoreEdit.hdl=Git ignore ファイルの編集
+dlgSgIgnoreEdit.inf=編集する Git ignore ファイルを選択します。
 dlgSgIgnoreEdit.mni"Copy Path"=パスをコピー
 dlgSgIgnoreEdit.mni"Reveal"=Reveal
 dlgSgIgnoreEdit.tle=無視リストを編集
@@ -1085,7 +1085,7 @@ dlgSgIgnoreFile.btn"Ignore"=無視
 dlgSgIgnoreFile.btn"Remove && Ignore"=Remove && Ignore
 dlgSgIgnoreFile.edt"Ignore File"=Ignore File
 dlgSgIgnoreFile.err"The pattern must match all selected file names. For instance, '$1' is not matched."=\
- The pattern must match all selected file names. For instance, '$1' is not matched.
+ パターンは、選択されたすべてのファイル名と一致する必要があります。例えば、'$1' はマッチしません。
 dlgSgIgnoreFile.hdl=無視するファイルを指定する
 dlgSgIgnoreFile.inf=選択したファイルだけを無視するか、指定したパターンに一致するすべてのファイルを無視するかを選択します。\r追跡されたファイルは以降のバージョン管理の対象から除外されます。
 dlgSgIgnoreFile.lbl"Use ? to match a single or \* to match multiple arbitrary characters. The pattern will be saved in the .gitignore file of the same directory."=\
@@ -1095,17 +1095,17 @@ dlgSgIgnoreFile.rbt"Ignore explicitly \(e.g. 'Makefile'\)"=明示的に無視す
 dlgSgIgnoreFile.tle=無視
 dlgSgIndexEditorSaveOrDiscard.btn"Discard"=破棄
 dlgSgIndexEditorSaveOrDiscard.btn"Save"=保存
-dlgSgIndexEditorSaveOrDiscard.fur=Your changes will be lost, if you don't save them now.
+dlgSgIndexEditorSaveOrDiscard.fur=今すぐ保存しないと、変更内容が失われます。
 dlgSgIndexEditorSaveOrDiscard.hdl=変更内容を保存しますか？
 dlgSgIndexEditorSaveOrDiscard.tle=閉じる
 dlgSgJournalFormCommitCantBeModified.fur=Not part of your head's primary-parent history
-dlgSgJournalFormCommitCantBeModified.hdl=At least one selected commit can't be modified.
+dlgSgJournalFormCommitCantBeModified.hdl=少なくとも1つの選択されたコミットを変更できません。
 dlgSgJournalFormCommitCantBeModified.tle=Autherを編集
 dlgSgLfsInstallConfirm.btn"Install"=インストール
 dlgSgLfsInstallConfirm.fur=This will configure hooks and filters required for LFS.
 dlgSgLfsInstallConfirm.hdl=Would you like to initialize this repository for Large File Support \(LFS\)?
 dlgSgLfsInstallConfirm.tle=LFS Install
-dlgSgLfsTrack.edt"Pattern"=Pattern
+dlgSgLfsTrack.edt"Pattern"=パターン
 dlgSgLfsTrack.err"File '$1' does not match the specified pattern."=\
  File '$1' does not match the specified pattern.
 dlgSgLfsTrack.hdl=Mark a file or pattern as tracked
@@ -1113,7 +1113,7 @@ dlgSgLfsTrack.inf=Large File Support\(LFS\)で扱うファイル名のパター�
 dlgSgLfsTrack.tle=LFS Track
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=Revert
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately.
-dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=Do you really want to revert changes in the working tree file?
+dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=作業ツリー ファイルの変更を本当に元に戻しますか?
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=Revert Working Tree File
 dlgSgLogCheckoutFileAs.btn"Save After"=Save After
 dlgSgLogCheckoutFileAs.btn"Save Before"=Save Before
@@ -1186,7 +1186,7 @@ dlgSgOpenRepository.edt"Repository"=リポジトリ
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  Git または Mercurial リポジトリのルートディレクトリを指定してください。
 dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
- Please specify the root directory of a Git repository.
+ Git リポジトリのルートディレクトリを指定してください。
 dlgSgOpenRepository.hdl=既存のリポジトリを追加、または新しいリポジトリを作成
 dlgSgOpenRepository.inf=既存のリポジトリを追加する場合はローカルのGitまたはMercurialリポジトリを指定します。\r新規にリポジトリを作成する場合は、空のディレクトリを指定します。
 dlgSgOpenRepository.tle=リポジトリの追加又は作成
@@ -1211,7 +1211,7 @@ dlgSgOutput.tle"Command Failed"=コマンドの失敗
 dlgSgOutput.tle"Command Output"=コマンド出力
 dlgSgOutput.tle"Command Succeeded"=コマンドが成功しました
 dlgSgOutput.tle"Output"=Output
-dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
+dlgSgPingRepositoryFailed.fur%1=リポジトリURLを確認してください。\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPingRepositoryFailed.tle=クローン
 dlgSgPreferences.btn"Add"=追加
@@ -1369,8 +1369,8 @@ dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
 dlgSgPreferences.edt"File Name Matches\*"=ファイル名の一致\*
-dlgSgPreferences.edt"Font Family"=Font Family
-dlgSgPreferences.edt"Font Size"=Font Size
+dlgSgPreferences.edt"Font Family"=フォント
+dlgSgPreferences.edt"Font Size"=フォントサイズ
 dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
@@ -1476,7 +1476,7 @@ dlgSgProcessKiller.btn"Exit Process"=プロセスを終了
 dlgSgProcessKiller.btn"Wait"=Wait
 dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
  This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait.
-dlgSgProcessKiller.tle=Process Not Responding
+dlgSgProcessKiller.tle=プロセスが応答していません
 dlgSgProviderPullRequestCreateNoTargetRepositories.fur=The repository is no GitHub-fork and there are no other remotes which are forks of this repository.
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=No target repositories found.
 dlgSgProviderPullRequestCreateNoTargetRepositories.tle=プルリクエストを作成
@@ -1559,12 +1559,12 @@ dlgSgPushForcedSvn.fur=You are about to replace the remote branch. Revisions of 
 dlgSgPushForcedSvn.hdl=リモートブランチを強制プッシュ（置き換え）しますか？
 dlgSgPushForcedSvn.tle=プッシュ
 dlgSgPushOverwriteRemoteBranchConfirm.btn"Push"=プッシュ
-dlgSgPushOverwriteRemoteBranchConfirm.chk=Overwrite remote changes
+dlgSgPushOverwriteRemoteBranchConfirm.chk=リモートでの変更を上書きする
 dlgSgPushOverwriteRemoteBranchConfirm.fur=You are about to replace the remote branch, which contains commits that you haven't seen at all. Maybe you want to merge/rebase onto the remote changes before?
 dlgSgPushOverwriteRemoteBranchConfirm.hdl=本当にリモートブランチを上書きしますか?
 dlgSgPushOverwriteRemoteBranchConfirm.tle=プッシュ
-dlgSgPushToNoTagsOrLocalBranches.fur=You can only push tags or local branches.
-dlgSgPushToNoTagsOrLocalBranches.hdl=No tags or local branches to push.
+dlgSgPushToNoTagsOrLocalBranches.fur=プッシュできるのはタグかローカルブランチのみです。
+dlgSgPushToNoTagsOrLocalBranches.hdl=プッシュするタグやローカル ブランチはありません。
 dlgSgPushToNoTagsOrLocalBranches.tle=プッシュ先
 dlgSgPushToRef.btn"Push"=プッシュ
 dlgSgPushToRef.chk"Force pushing \(even if it's not fast-forward\)"=\
@@ -1572,12 +1572,12 @@ dlgSgPushToRef.chk"Force pushing \(even if it's not fast-forward\)"=\
 dlgSgPushToRef.edt"Push To"=プッシュ先
 dlgSgPushToRef.edt"Target Repository"=ターゲットリポジトリ
 dlgSgPushToRef.err"Enter the remote location to which the commits of the current branch should be pushed to."=\
- Enter the remote location to which the commits of the current branch should be pushed to.
+ 現在のブランチのコミットをプッシュするリモートの場所を入力します。
 dlgSgPushToRef.err"Please specify a valid Git ref."=\
  有効なGit refを指定してください。
 dlgSgPushToRef.hdl"Push '$1' to a remote repository"=\
  リモートリポジトリに '$1' をプッシュ
-dlgSgPushToRef.hdl"Push '$1' to remote '$2'"=Push '$1' to remote '$2'
+dlgSgPushToRef.hdl"Push '$1' to remote '$2'"='$1' をリモート '$2' にプッシュする
 dlgSgPushToRef.inf=Select the target repository where to push the ref\(s\).
 dlgSgPushToRef.rbt"Custom Ref:"=指定のブランチ:
 dlgSgPushToRef.rbt"Tracked or matching branch"=追跡中または一致するブランチ
@@ -1596,13 +1596,13 @@ dlgSgPushToRemoteRemoveTargetBranches.fur=Removed branches and their commits in 
 dlgSgPushToRemoteRemoveTargetBranches.hdl=本当にターゲットのリモートブランチを削除しますか?
 dlgSgPushToRemoteRemoveTargetBranches.tle=プッシュ先
 dlgSgPushToRemoteResetTargetBranches.btn"Force Push"=強制プッシュ
-dlgSgPushToRemoteResetTargetBranches.fur=Forcing push will overwrite branches and their commits in the target remote which will be lost afterwards.
-dlgSgPushToRemoteResetTargetBranches.hdl=Do you really want to reset the target remote branches?
+dlgSgPushToRemoteResetTargetBranches.fur=強制的にプッシュすると、ターゲットリモートのブランチとそのコミットが上書きされ、失われます。
+dlgSgPushToRemoteResetTargetBranches.hdl=本当に対象のリモートブランチをリセットしますか？
 dlgSgPushToRemoteResetTargetBranches.tle=プッシュ先
 dlgSgPushTrackingConfigureSingle.btn"Configure"=設定
 dlgSgPushTrackingConfigureSingle.btn"Skip"=スキップ
-dlgSgPushTrackingConfigureSingle.fur=For your current branch tracking \(its corresponding remote branch\) has not been configured yet. Configuring tracking will keep your local branches in sync with the remote branches.
-dlgSgPushTrackingConfigureSingle.hdl%1=Do you want to configure tracking for '$1' branch?
+dlgSgPushTrackingConfigureSingle.fur=現在のブランチでは、トラッキング\(対応するリモートブランチ\)はまだ設定されていません。トラッキングを設定することで、ローカルブランチとリモートブランチの同期が保たれます。
+dlgSgPushTrackingConfigureSingle.hdl%1='$1' ブランチに対してトラッキングを設定しますか？
 dlgSgPushTrackingConfigureSingle.tle=プッシュ
 dlgSgRebase.btn"Branches"=ブランチ
 dlgSgRebase.btn"Rebase HEAD to"=Rebase HEAD to
@@ -1611,15 +1611,15 @@ dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
 dlgSgRebase.tle=リベース
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=続ける
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still is in progress and all changes of this commit have been applied.
-dlgSgRebaseContinueAfterSplittingCommit.hdl=Do you want to continue after splitting the commit?
+dlgSgRebaseContinueAfterSplittingCommit.hdl=コミットを分割した後、続行しますか？
 dlgSgRebaseContinueAfterSplittingCommit.tle=リベース
-dlgSgRebaseContinueConfirm.btn"Continue Rebase"=Continue Rebase
-dlgSgRebaseContinueConfirm.fur=Continue the rebase operation after having resolved all conflicts.
-dlgSgRebaseContinueConfirm.hdl=Do you want to continue the rebase?
+dlgSgRebaseContinueConfirm.btn"Continue Rebase"=リベースを続ける
+dlgSgRebaseContinueConfirm.fur=すべてのコンフリクトを解決した後、リベース操作を続行します。
+dlgSgRebaseContinueConfirm.hdl=リベースを続行しますか?
 dlgSgRebaseContinueConfirm.tle=リベース
-dlgSgRebaseContinueNothingToCommitContinue.btn"Continue Rebase"=Continue Rebase
+dlgSgRebaseContinueNothingToCommitContinue.btn"Continue Rebase"=リベースを続行する
 dlgSgRebaseContinueNothingToCommitContinue.fur=The repository is in 'rebasing' state, but there is nothing to commit, so you may just continue the Rebase.
-dlgSgRebaseContinueNothingToCommitContinue.hdl=Do you want to continue the rebase?
+dlgSgRebaseContinueNothingToCommitContinue.hdl=リベースを続行しますか?
 dlgSgRebaseContinueNothingToCommitContinue.tle=リベース
 dlgSgRebaseContinueNothingToCommitSkip.btn"Skip Commit"=Skip Commit
 dlgSgRebaseContinueNothingToCommitSkip.fur=The repository is in 'rebasing' state, but there is nothing to commit, so you may just skip this rebased commit.
@@ -1660,7 +1660,7 @@ dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
 dlgSgRebaseInteractive.tle=Rebase Interactive
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=コミットメッセージ
 dlgSgRebaseInteractiveMessage.hdl=コミットメッセージを編集
-dlgSgRebaseInteractiveMessage.inf=Provide the new message for the commit.
+dlgSgRebaseInteractiveMessage.inf=コミット用の新しいメッセージを指定します。
 dlgSgRebaseInteractiveMessage.tle=メッセージの編集
 dlgSgRebaseInteractiveRemoveCommit.btn"Remove"=除去
 dlgSgRebaseInteractiveRemoveCommit.fur=It might become hard or impossible to recover the commit again.
@@ -1803,7 +1803,7 @@ dlgSgRepositorySettings.edt"Single Patterns"=シングルパターン
 dlgSgRepositorySettings.edt"Submodule handling\*"=サブモジュールの取り扱い\*
 dlgSgRepositorySettings.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
- Please enter a valid, comma-separated list of regular expressions.
+ 有効なカンマ区切りの正規表現のリストを入力してください。
 dlgSgRepositorySettings.hdl=効果的なリポジトリ設定の編集
 dlgSgRepositorySettings.inf=ここでは、ユーザー設定ファイルとリポジトリに対する効果的なGit設定を確認・編集することができます。\rオプションをユーザー設定として保存するには、「デフォルトとして記憶する」を選択します。
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -1982,7 +1982,7 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  以下のプライバシーに関するオプションをご確認ください。後で環境設定で変更することができます。
 dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
- Please wait a few moments while searching for a Git or Hg installation.
+ GitまたはHgのインストールを検索している間、しばらくお待ちください。
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGitは、お使いのシステムに互換性のあるGitがインストールされている必要があります。'git'の実行ファイルのパスを指定してください。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
@@ -2085,7 +2085,7 @@ dlgSgSubmoduleAdd.edt"Local Path"=Local Path
 dlgSgSubmoduleAdd.edt"Repository URL"=リポジトリ URL
 dlgSgSubmoduleAdd.edt"URL"=URL
 dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relative to the outer repository root directory."=\
- Provide the path where the submodule should be added relative to the outer repository root directory.
+ サブモジュールを追加するパスを、外部リポジトリのルート ディレクトリからの相対パスで指定します。
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  サブモジュールとしてクローンするリポジトリを指定します。
 dlgSgSubmoduleAdd.rbt"Local repository"=ローカルリポジトリ
@@ -2093,7 +2093,7 @@ dlgSgSubmoduleAdd.rbt"Remote repository"=リモートリポジトリ
 dlgSgSubmoduleAdd.tle=サブモジュールを追加
 dlgSgSubmoduleDeinitConfirm.btn"Deinit"=Deinit
 dlgSgSubmoduleDeinitConfirm.fur=The submodule will be skipped from the working tree. To get rid from the \(remote\) repository, you have to use Unregister instead.
-dlgSgSubmoduleDeinitConfirm.hdl%1=Do you want to deinit submodule '$1'?
+dlgSgSubmoduleDeinitConfirm.hdl%1=サブモジュール'$1'をdeinitしますか？
 dlgSgSubmoduleDeinitConfirm.tle=Deinit Submodule
 dlgSgSubmoduleResetConfirm.btn"Reset"=リセット
 dlgSgSubmoduleResetConfirm.fur=The corresponding commit will be checked out, so the submodule content will match the content of the registered commit.
@@ -2147,7 +2147,7 @@ dlgSgToolAdd.mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolEdit.err"Please enter the name for this command."=\
- Please enter the name for this command.
+ このコマンドの名前を入力してください。
 dlgSgToolEdit.hdl=外部ツールの編集
 dlgSgToolEdit.tle=編集
 dlgSgTool(Add|Edit).btn"Clear"=クリア
@@ -2208,8 +2208,8 @@ dlgSgWelcome.rbt"Reopen previously used repository:"=以前使用していたリ
 dlgSgWelcome.tle=SmartGitへようこそ
 dlgSgWorktreeAdd.edt"Branch"=ブランチ
 dlgSgWorktreeAdd.edt"Directory"=ディレクトリ
-dlgSgWorktreeAdd.hdl=Create another worktree from this repository
-dlgSgWorktreeAdd.inf=Select the branch and directory to use for the new worktree.
+dlgSgWorktreeAdd.hdl=このリポジトリから別のワークツリーを作成する
+dlgSgWorktreeAdd.inf=新しいワークツリーで使用するブランチとディレクトリを選択します。
 dlgSgWorktreeAdd.tle=ワークツリーを追加
 dlgSgWorktreePruneNoWorktree.fur=All your worktrees are still available.
 dlgSgWorktreePruneNoWorktree.hdl=No worktree to prune.
@@ -2217,7 +2217,7 @@ dlgSgWorktreePruneNoWorktree.tle=廃止されたワークツリーを整理す�
 dlgShPushTrackingLocalSvnBranches.btn"Push as New"=Push as New
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
-dlgShPushTrackingLocalSvnBranches.hdl=Do you want to push local branches as new SVN branches?
+dlgShPushTrackingLocalSvnBranches.hdl=ローカルブランチを新しいSVNブランチとしてプッシュしますか？
 dlgShPushTrackingLocalSvnBranches.tle=プッシュ
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=削除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=ゴミ箱へ移動
@@ -2231,19 +2231,19 @@ pop"$1 succeeded."=$1 が成功しました。
 pop"Command $1 has been aborted."=コマンド$1が中断されました。
 pop"Modify the previous commit and commit."=\
  前回のコミットを修正し、コミットする。
-pop"No more changes."=No more changes.
+pop"No more changes."=これ以上の変更はありません。
 pop"Select the remote to fetch from."=\
- Select the remote to fetch from.
-pop"Select the remote to rename."=Select the remote to rename.
-pop"Select the stash to rename."=Select the stash to rename.
-pop"There are no obsolete repositories."=There are no obsolete repositories.
+ 取得するリモートを選択します。
+pop"Select the remote to rename."=名前を変更するリモートを選択します。
+pop"Select the stash to rename."=名前を変更するスタッシュを選択します。
+pop"There are no obsolete repositories."=廃止されたリポジトリはありません。
 pop"There is no action available for this drop operation."=\
- There is no action available for this drop operation.
+ このドロップ操作に使用できるアクションはありません。
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  1回目のコミットで不要な変更をアンステージし、コミットします。
 wndAnnotate.edt"Commit"=コミット
 wndAnnotate.edt"Highlight"=ハイライト
-wndAnnotate.edt"View Commit"=View Commit
+wndAnnotate.edt"View Commit"=コミットを表示
 wndAnnotate.mniCommit-first=Go to First Commit
 wndAnnotate.mniCommit-last=Go to Last Commit
 wndAnnotate.mniCommit-next=次のコミットに進む
@@ -2269,9 +2269,9 @@ wndAnnotate.mnu"File"=ファイル
 wndAnnotate.mnu"Go To"=移動
 wndAnnotate.mnu"View"=表示
 wndAnnotate.rbt"Commit Index"=Commit Index
-wndAnnotate.rbt"Time"=Time
-wndAnnotate.tab"Document"=Document
-wndAnnotate.tab"History of current line"=History of current line
+wndAnnotate.rbt"Time"=時間
+wndAnnotate.tab"Document"=ドキュメント
+wndAnnotate.tab"History of current line"=現在の行の履歴
 wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
 wndCompare.mniView-layout-left-over-right=上下に並べて表示\(上にLeft,下にRight\)
@@ -2365,9 +2365,9 @@ wndEditor.mniEofEnforceLineEnding=ファイル終端での改行を強制する
 wndEditor.mniReplaceTabsWithSpaces=タブをスペースに置き換える
 wndEditor.mniView-remember-as-default=デフォルトとして記憶する
 wndEditor.mniView-settings=設定
-wndGit.indexEditor.mni"Discard Inner-line Change"=Discard Inner-line Change
-wndGit.indexEditor.mni"Discard Line"=Discard Line
-wndGit.indexEditor.mni"Discard Selection"=Discard Selection
+wndGit.indexEditor.mni"Discard Inner-line Change"=行内の変更を破棄
+wndGit.indexEditor.mni"Discard Line"=行の変更を破棄
+wndGit.indexEditor.mni"Discard Selection"=選択範囲の変更を破棄
 wndGit.indexEditor.mni"Unstage Inner-line Change"=行内の変更をアンステージ
 wndGit.indexEditor.mni"Unstage Line"=行をアンステージ
 wndGit.indexEditor.mni"Unstage Selection"=選択範囲をアンステージ
@@ -2538,14 +2538,14 @@ wnd(Log|Project|Std).mni"Committer"=コミッタ
 wnd(Log|Project|Std).mni"Compact Author"=Compact Author
 wnd(Log|Project|Std).mni"Copy Full ID"=フルIDをコピー
 wnd(Log|Project|Std).mni"Copy ID"=IDをコピー
-wnd(Log|Project|Std).mni"Copy Name"=Copy Name
+wnd(Log|Project|Std).mni"Copy Name"=名前をコピー
 wnd(Log|Project|Std).mni"Copy Selection"=選択範囲をコピー
 wnd(Log|Project|Std).mni"Copy URL"=URL をコピー
 wnd(Log|Project|Std).mni"Copy"=コピー
 wnd(Log|Project|Std).mni"Create Merge Request"=マージリクエストを作成
 wnd(Log|Project|Std).mni"Create Pull Request"=プルリクエストを作成
 wnd(Log|Project|Std).mni"Cut"=切り取り
-wnd(Log|Project|Std).mni"Date"=Date
+wnd(Log|Project|Std).mni"Date"=日付
 wnd(Log|Project|Std).mni"Default Coloring"=デフォルトカラーリング
 wnd(Log|Project|Std).mni"Delete 'Comment $1'"=コメント '$1' を削除
 wnd(Log|Project|Std).mni"Delete"=削除
@@ -2614,7 +2614,7 @@ wnd(Log|Project|Std).mni"Rebase $1 commit from $2 to $3"=\
  Rebase $1 commit from $2 to $3
 wnd(Log|Project|Std).mni"Rebase $1 commits from $2 to $3"=\
  Rebase $1 commits from $2 to $3
-wnd(Log|Project|Std).mni"Regular Expressions"=Regular Expressions
+wnd(Log|Project|Std).mni"Regular Expressions"=正規表現
 wnd(Log|Project|Std).mni"Reject Pull Request"=Reject Pull Request
 wnd(Log|Project|Std).mni"Remember Pattern"=Remember Pattern
 wnd(Log|Project|Std).mni"Rename"=リネーム
