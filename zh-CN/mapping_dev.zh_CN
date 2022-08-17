@@ -577,7 +577,10 @@ dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=分支 “$1” 已经存在。�
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=检出
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=Cherry-Pick
 dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
-dlgSgCherryPickConfigurationFile.hdl%1=Do you want to cherry-pick changes of '$1'?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
+ Do you want to cherry-pick changes of $1 files?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
+ Do you want to cherry-pick changes of '$1'?
 dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=摘取并提交
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=摘取
