@@ -217,6 +217,11 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=强制退出
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit 已检测到其安装文件 \(JAR 文件\) 中的不一致，这很可能是由安装错误引起的。\n\n请完全卸载 SmartGit，确保没有剩余的安装文件 \(尤其是 JAR 文件\) ，然后重新安装。\n\n如果问题仍然存在，请将以下记录文件作为附件发送到 smartgit@syntevo.com。
 dlgScDialogAssertionHandlerLinkageError.tle=内部错误
+dlgScEvaluationReminderContinue.btn"Continue"=Continue
+dlgScEvaluationReminderContinue.btn"Register"=Register
+dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
+dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
+dlgScEvaluationReminderContinue.tle=Evaluation
 dlgScFileComparatorAdd.hdl=添加外部差异工具
 dlgScFileComparatorAdd.mni"Base Encoding"=Base Encoding
 dlgScFileComparatorAdd.mni"Base File"=Base File
@@ -454,6 +459,11 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=您确定要删除所有已知凭据
 dlgSgAuthenticationRemoveAllCredentials.tle=移除所有
 dlgSgAuthenticationShowPassword.edt"Password"=Password
 dlgSgAuthenticationShowPassword.tle%1=Password for $1
+dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
+dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
+dlgSgBisectResult.fur%1=$1
+dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
+dlgSgBisectResult.tle=Bisect Finished
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=从坏的 HEAD 开始二分
 dlgSgBisectStartConfirm.btn"Start Bisect"=开始二分
 dlgSgBisectStartConfirm.fur=在 Git 开始二进制搜索之前，你需要将 1 个提交标记为好，1 个提交为坏。
@@ -469,6 +479,8 @@ dlgSgBitbucketGenerateToken.tle=请求访问令牌
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=创建分支并检出
 dlgSgBranchAddCheckout.btn"Add Branch"=创建分支
 dlgSgBranchAddCheckout.edt"Branch"=分支
+dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a different name."=\
+ A remote branch with this name already exists. Use a different name.
 dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't be used."=\
  选择其他分支，当前分支不能使用。
 dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
@@ -1088,11 +1100,15 @@ dlgSgHostingProviderEdit.chk"Use OAuth token for repository authentication \(ins
  使用 OAuth 令牌进行仓库验证 \(而不是密码\)
 dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
  使用 SSH 替代 HTTPS 来访问仓库
+dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
+ Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=使用 GitHub Enterprise 实例
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=使用自定义 GitLab 服务器
+dlgSgHostingProviderEdit.edt"Account"=Account
 dlgSgHostingProviderEdit.edt"Certificate Password"=证书密码
 dlgSgHostingProviderEdit.edt"Client Certificate"=客户端证书
 dlgSgHostingProviderEdit.edt"Name"=用户名
+dlgSgHostingProviderEdit.edt"Password"=Password
 dlgSgHostingProviderEdit.edt"Server URL"=服务器地址
 dlgSgHostingProviderEdit.edt"Token"=令牌
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
@@ -1679,6 +1695,10 @@ dlgSgRebase.btn"Rebase HEAD to"=将 HEAD 变基到
 dlgSgRebase.hdl=将 HEAD 变基到
 dlgSgRebase.inf=选择应变基 HEAD 提交的提交。
 dlgSgRebase.tle=变基
+dlgSgRebaseConfirmUnreachable.btn"Rebase"=变基
+dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
+dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
+dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=继续
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=提交 $1 的拆分仍在进行中，并且已应用此提交的所有更改。
 dlgSgRebaseContinueAfterSplittingCommit.hdl=拆分提交后是否继续？
@@ -1956,6 +1976,11 @@ dlgSgRevertAndCommitConfirmSingle.btn"Revert"=还原
 dlgSgRevertAndCommitConfirmSingle.fur=这将撤消所选提交引入的更改。
 dlgSgRevertAndCommitConfirmSingle.hdl=是否要还原所选提交？
 dlgSgRevertAndCommitConfirmSingle.tle=还原
+dlgSgRevertConfigurationFile.btn"Revert"=Revert
+dlgSgRevertConfigurationFile.fur=Only changes of these files will be reverted \(without committing\).
+dlgSgRevertConfigurationFile.hdl"Do you want to revert changes of '$1'?"=\
+ Do you want to revert changes of '$1'?
+dlgSgRevertConfigurationFile.tle=Revert
 dlgSgRevertInProgress.fur=您必须先完成还原，然后才能继续。 要完成 “还原” 使用 “提交”，要中止使用 “丢弃”。
 dlgSgRevertInProgress.hdl=目前有一个还原正在进行中。
 dlgSgRevertInProgress.tle=还原
