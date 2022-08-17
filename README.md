@@ -48,6 +48,12 @@ All keys in `mapping_todo_new.*` need translation and every single new translati
 
 > **Note!** Please make sure that your pull request does not contain any unrelated formatting changes (like line endings) or any other unnecessary changes, like re-orderings (keys are automatically sorted by us).
 
+### Details on the syntax
+
+If the translation of a specific text should remain identical to the original English text, prefix the text by `=`. For example:
+
+> *.btn"OK"==OK
+
 ## Help to collect
 
 Due to the dynamic generation of SmartGit texts, the master mapping does not contain *all* keys, but only *all currently known* keys which have been 'collected' by our contributors and us. To help collecting keys:
