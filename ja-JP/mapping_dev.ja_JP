@@ -3,7 +3,7 @@
 *.btn"Close"=閉じる
 *.btn"Finish"=完了
 *.btn"Next >"=次へ >
-*.btn"OK"=OK
+*.btn"OK"==OK
 *.hnt"Filter"=フィルタ
 dlgCommit.replaceMessage.btn"Replace"=置換
 dlgCommit.replaceMessage.chk=常に置き換える
@@ -29,9 +29,9 @@ dlgInfo.tle=破棄
 dlgProgress.btn"Stop"=停止
 dlgProgress.tle"Checking connectivity"=接続を確認中
 dlgProgress.tle"Checking push conditions"=プッシュ条件の確認
-dlgProgress.tle"JIRA"=JIRA
+dlgProgress.tle"JIRA"==JIRA
 dlgProgress.tle"Jump To"=ジャンプ先
-dlgProgress.tle"Layouting Graph"=Layouting Graph
+dlgProgress.tle"Layouting Graph"=レイアウトグラフ
 dlgProgress.tle"Refresh"=更新
 dlgProgress.tle"Reveal Commit"=コミットを表示する
 dlgProgress.tle"SmartGit Installation Update"=SmartGit インストールの更新
@@ -171,7 +171,7 @@ dlgScDevOpsSslClientCertificate.edt"Passphrase"=パスフレーズ
 dlgScDevOpsSslClientCertificate.hdl%1=$1 用クライアント証明書を選択する
 dlgScDevOpsSslClientCertificate.inf=JIRAに認証するためのクライアント証明書ファイルを選択します。
 dlgScDevOpsSslClientCertificate.tle=JIRAクライアント証明書
-dlgScDevOpsSslClientCertificate.wrn"$1"=$1
+dlgScDevOpsSslClientCertificate.wrn"$1"==$1
 dlgScDevOpsSslFingerprintNew.btn"Accept"=承認
 dlgScDevOpsSslFingerprintNew.btn"Reject"=拒否
 dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 フィンガープリント
@@ -245,14 +245,14 @@ dlgScJiraCommitMessageSelect.btn"Refresh"=更新
 dlgScJiraCommitMessageSelect.btn"Reset to default"=デフォルトにリセット
 dlgScJiraCommitMessageSelect.btn"Select"=選択
 dlgScJiraCommitMessageSelect.chk"Query Configuration"=クエリーの構成
-dlgScJiraCommitMessageSelect.col"Fix Version"=Fix Version
+dlgScJiraCommitMessageSelect.col"Fix Version"=修正バージョン
 dlgScJiraCommitMessageSelect.col"Key"=キー
 dlgScJiraCommitMessageSelect.col"Status"=ステータス
 dlgScJiraCommitMessageSelect.col"Summary"=概要
 dlgScJiraCommitMessageSelect.hdl=コミットメッセージをJIRAの課題から選択する
 dlgScJiraCommitMessageSelect.inf=選択された課題の概要がコミットメッセージとして使用されます。
 dlgScJiraCommitMessageSelect.lbl"Enter the JQL-Queries which will be loaded in the specified order: every query on a new line, \$\{projects\} will be substituted by the JIRA project key\(s\) which is derived or explicitly specified in your .gitbugtraq file.\n\nYou can compose a JQL query directly in JIRA, using Issues\|Search and go to Advanced view there."=\
- Enter the JQL-Queries which will be loaded in the specified order: every query on a new line, \$\{projects\} will be substituted by the JIRA project key\(s\) which is derived or explicitly specified in your .gitbugtraq file.\n\nYou can compose a JQL query directly in JIRA, using Issues\|Search and go to Advanced view there.
+ 指定した順序でロードされるJQLクエリーを、クエリごとに改行して入力します。\n\$\{projects\} は、.gitbugtraq ファイルの内容に従って導出または明示的に指定されたJIRAプロジェクトキーによって置き換えられます。\n\nJIRA で直接 JQL クエリを作成するには、課題\|検索 で "JQLに切り替え"を開きます。
 dlgScJiraCommitMessageSelect.lbl"Load All Issues"=すべての課題を読み込む
 dlgScJiraCommitMessageSelect.lbl"Query Configuration"=クエリーの構成
 dlgScJiraCommitMessageSelect.tle=課題の選択
@@ -300,8 +300,8 @@ dlgScPropertiesReset.tle=プロパティのリセット
 dlgScPropertyEdit.edt"Value"=値
 dlgScPropertyEdit.hdl=ローレベルのプロパティ値を編集する
 dlgScPropertyEdit.inf%1=プロパティ '$1' の値を設定します。
-dlgScPropertyEdit.rbt"false"=false
-dlgScPropertyEdit.rbt"true"=true
+dlgScPropertyEdit.rbt"false"==false
+dlgScPropertyEdit.rbt"true"==true
 dlgScPropertyEdit.tle=プロパティの編集
 dlgScRegisterFormLicenseConfirmDetails.edt"Add-on"=アドオン
 dlgScRegisterFormLicenseConfirmDetails.edt"Address"=アドレス
@@ -363,7 +363,7 @@ dlgScTextSettings.chk"Coalesce nearby change blocks"=近くの変更ブロック
 dlgScTextSettings.chk"Split leading/trailing added or removed lines into separate blocks"=\
  追加・削除された行の先頭・末尾を別のブロックに分割する
 dlgScTextSettings.chk"Trim equal start/end of Inner-Line changes"=\
- Trim equal start/end of Inner-Line changes
+ 行内変更の開始\/終了を均等にトリム
 dlgScTextSettings.edt"Inner-Line Comparison"=行内比較
 dlgScTextSettings.edt"Show Whitespaces"=空白文字を表示
 dlgScTextSettings.edt"Tab Size"=タブサイズ(スペース文字数)
@@ -373,8 +373,8 @@ dlgScTextSettings.rbt"C identifiers"=C 識別子
 dlgScTextSettings.rbt"Character-based"=文字ベース
 dlgScTextSettings.rbt"Java identifiers"=Java 識別子
 dlgScTextSettings.rbt"None"=なし
-dlgScTextSettings.rbt"Off"=Off
-dlgScTextSettings.rbt"Trailing and changed"=Trailing and changed
+dlgScTextSettings.rbt"Off"==Off
+dlgScTextSettings.rbt"Trailing and changed"=行末と変更箇所
 dlgScTextSettings.tab"Compare"=比較
 dlgScTextSettings.tab"General"=一般
 dlgScTextSettings.tle=設定
@@ -386,8 +386,8 @@ dlgSelectDiff.col"Command"=コマンド
 dlgSelectDiff.hdl=差分比較ツールを選択する
 dlgSelectDiff.inf=どの差分比較ツールを使用するかを選択します。
 dlgSelectDiff.tle=ファイルの比較
-dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Bisectを中止
-dlgSgAbortBisectingConfirm.fur=作業ツリーは「bisecting」状態になっています。\n\n中断すると、bisect を開始する前にブランチまたはコミットをチェックアウトします。
+dlgSgAbortBisectingConfirm.btn"Abort Bisect"=問題箇所の特定('bisect')を中止
+dlgSgAbortBisectingConfirm.fur=作業ツリーは「問題箇所の特定中」の状態になっています。\n\n中断すると、問題箇所の特定\('bisect'\) を開始する前のブランチまたはコミットがチェックアウトされます。
 dlgSgAbortBisectingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortBisectingConfirm.tle=中断
 dlgSgAbortCherryPickingConfirm.btn"Abort Cherry-Pick"=チェリーピックを中止する
@@ -395,15 +395,15 @@ dlgSgAbortCherryPickingConfirm.fur=作業ツリーは'cherry-picking'状態に�
 dlgSgAbortCherryPickingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortCherryPickingConfirm.tle=中断
 dlgSgAbortMergingConfirm.btn"Abort Merge"=マージを中断
-dlgSgAbortMergingConfirm.fur=Your working tree is in 'merging' state. You may abort it to get out of this state and freshly start over with the merge afterwards.\n\nAborting will try to reconstruct the pre-merge state \(by invoking 'git merge --abort'\)!
+dlgSgAbortMergingConfirm.fur=作業ツリーは「マージ中」の状態です。中止してこの状態から抜け出し、後でマージをやり直すことができます。\n\n中止すると、マージ前の状態を再構築しようとします! \( 'git merge --abort' の実行\)
 dlgSgAbortMergingConfirm.hdl=現在のマージを中止しますか？
 dlgSgAbortMergingConfirm.tle=破棄
 dlgSgAbortRebasingConfirm.btn"Abort Rebase"=リベースを中断
-dlgSgAbortRebasingConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
+dlgSgAbortRebasingConfirm.fur=作業ツリーは「リベース」状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\[ブランチ\]→\[リベース\]→\[リベース HEAD to\] を使用してください。\n\n中止すると、ローカルの変更を消去することができます。\('git reset --hard' の実行\）
 dlgSgAbortRebasingConfirm.hdl=リベースを中止しますか？
 dlgSgAbortRebasingConfirm.tle=破棄
 dlgSgAbortRevertingConfirm.btn"Abort Revert"=リバートを中断
-dlgSgAbortRevertingConfirm.fur=Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
+dlgSgAbortRevertingConfirm.fur=作業ツリーが 「リバート中」 の状態です。この状態から抜け出すためにこの処理を中断し、その後、新たにリバートをやり直すことができます。\n\n中止すると、すべてのローカル修正が消去されます! \('git reset--hard' の実行\)
 dlgSgAbortRevertingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortRevertingConfirm.tle=破棄
 dlgSgAbout.btn"Register"=登録
@@ -429,11 +429,11 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
 dlgSgAuthenticationShowPassword.edt"Password"=パスワード
 dlgSgAuthenticationShowPassword.tle%1=$1 のパスワード
-dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
-dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
-dlgSgBisectStartConfirm.fur=Gitがバイナリ検索を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。
-dlgSgBisectStartConfirm.hdl=Should the bisect be started with a bad commit?
-dlgSgBisectStartConfirm.tle=Start Bisect
+dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=ヘッドを 'bad' とマークして問題箇所の特定\(bisect\)を開始
+dlgSgBisectStartConfirm.btn"Start Bisect"=問題箇所の特定\(bisect\)を開始
+dlgSgBisectStartConfirm.fur=Gitが二分探索で問題箇所の特定を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。
+dlgSgBisectStartConfirm.hdl=バッドコミットで問題箇所の特定'(bisect')を開始する必要がありますか?
+dlgSgBisectStartConfirm.tle=問題箇所の特定\(bisect\)を開始
 dlgSgBitbucketGenerateToken.edt"Code"=コード
 dlgSgBitbucketGenerateToken.edt"Link"=リンク
 dlgSgBitbucketGenerateToken.hdl=生成されたコードを入力する
@@ -481,13 +481,13 @@ dlgSgBranchDeleteRemoteConfirmSingle.chk"Delete from remote '$1'"=リモート '
 dlgSgBranchDeleteRemoteConfirmSingle.chk"Delete from remote repository '$1'"=リモートリポジトリ'$1'から削除
 dlgSgBranchDeleteRemoteConfirmSingle.fur=ローカルにあるリモートブランチリストからブランチを削除するだけで、次のフェッチでブランチが復活する可能性があります。
 dlgSgBranchDeleteRemoteConfirmSingle.hdl"Do you want to delete the branch '$1'?"=\
- Do you want to delete the branch '$1'?
+ ブランチ'$1'を削除しますか？
 dlgSgBranchDeleteRemoteConfirmSingle.hdl"Do you want to delete the remote branch '$1'?"=\
  リモートブランチ'$1'を削除しますか？
 dlgSgBranchDeleteRemoteConfirmSingle.tle=削除
 dlgSgBranchTrackingResetConfirm.btn"Stop Tracking"=追跡を停止
 dlgSgBranchTrackingResetConfirm.fur=必要な設定は .git/config ファイルで行います。
-dlgSgBranchTrackingResetConfirm.hdl%2=Should branch '$1' stop tracking '$2'?
+dlgSgBranchTrackingResetConfirm.hdl%2=ブランチ'$1'は'$2'の追跡を停止しますか?
 dlgSgBranchTrackingResetConfirm.tle=追跡を停止
 dlgSgBranchTrackingSetConfirm.btn"Configure"=設定
 dlgSgBranchTrackingSetConfirm.fur=必要な設定は .git/config ファイルで行います。
@@ -504,11 +504,11 @@ dlgSgBugReportSettings.hdl=クラッシュレポート
 dlgSgBugReportSettings.inf=SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。このオプションは後から環境設定で変更することができます。
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。
-dlgSgBugReportSettings.tle=SmartGit
-dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=Fast-Forward マージ
-dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=Just Checkout
-dlgSgCheckoutFastForwardMerge.fur=Fast-Forward マージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。
-dlgSgCheckoutFastForwardMerge.hdl%1=$1'をチェックアウトした後、リモートの変更を Fast-Forward マージしますか？
+dlgSgBugReportSettings.tle==SmartGit
+dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=ファストフォワードマージ
+dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=チェックアウトのみ
+dlgSgCheckoutFastForwardMerge.fur=ファストフォワードマージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。
+dlgSgCheckoutFastForwardMerge.hdl%1=$1'をチェックアウトした後、リモートの変更を ファストフォワードマージしますか？
 dlgSgCheckoutFastForwardMerge.tle=チェックアウト
 dlgSgCheckoutLocalBranchConfirm.btn"Checkout"=チェックアウト
 dlgSgCheckoutLocalBranchConfirm.chk=次回から表示しない
@@ -553,7 +553,7 @@ dlgSgCherryPickFailedBecauseOfConflicts.fur=先に進む前に、コンフリク
 dlgSgCherryPickFailedBecauseOfConflicts.hdl=チェリーピッキングはコンフリクトのため失敗しました。
 dlgSgCherryPickFailedBecauseOfConflicts.tle=チェリーピック
 dlgSgCherryPickUnpushedCommits.btn"Cherry-Pick"=チェリーピック
-dlgSgCherryPickUnpushedCommits.fur=At least one of the selected commits has not been pushed yet, hence cherry-pick is only local and won't be translated to SVN \(mergeinfo\).
+dlgSgCherryPickUnpushedCommits.fur=選択されたコミットのうち少なくとも一つはまだプッシュされていないため、チェリーピックはローカルにのみ適用され、SVN\(マージ情報\)には変換されません。
 dlgSgCherryPickUnpushedCommits.hdl=プッシュされていないコミットをチェリーピックしますか？
 dlgSgCherryPickUnpushedCommits.tle=チェリーピック
 dlgSgClean.btn"Clean Working Tree"=作業ツリーのクリーンアップ
@@ -562,7 +562,7 @@ dlgSgClean.chk"Remove untracked directories"=追跡されていないディレ�
 dlgSgClean.hdl=追跡されていないファイルを削除する
 dlgSgClean.inf=どの未追跡ファイルを削除するかを選択します。
 dlgSgClean.tle=作業ツリーのクリーンアップ
-dlgSgClone.chk"Create upstream remote"=Create upstream remote
+dlgSgClone.chk"Create upstream remote"=上流リモートの作成
 dlgSgClone.chk"Fetch all Heads and Tags"=すべてのヘッドとタグを取得する
 dlgSgClone.chk"Fetch all commits"=すべてのコミットを取得する
 dlgSgClone.chk"Include Submodules"=サブモジュールを含める
@@ -573,7 +573,7 @@ dlgSgClone.chk"Map SVN trunk, tags and branches to Git"=\
 dlgSgClone.chk"Skip large files \(\"partial clone\"\)"=大きなファイルをスキップする \("partial clone"\)
 dlgSgClone.edt"Check Out Branch"=ブランチをチェックアウト
 dlgSgClone.edt"Fetch Only"=フェッチのみ
-dlgSgClone.edt"Fetch only the latest"=Fetch Only the Latest
+dlgSgClone.edt"Fetch only the latest"=最新のものだけをフェッチする
 dlgSgClone.edt"Local Directory"=ローカルディレクトリ
 dlgSgClone.edt"Omit files larger than"=これより大きなファイルは省略
 dlgSgClone.edt"Path"=パス
@@ -604,9 +604,9 @@ dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
  Git、Mercurial または SVN のリモートリポジトリ
 dlgSgClone.rbt"Remote repository"=リモートリポジトリ
 dlgSgClone.tle=クローン
-dlgSgCloneRepositoryType.btn"Git"=Git
-dlgSgCloneRepositoryType.btn"Mercurial"=Mercurial
-dlgSgCloneRepositoryType.btn"SVN"=SVN
+dlgSgCloneRepositoryType.btn"Git"==Git
+dlgSgCloneRepositoryType.btn"Mercurial"==Mercurial
+dlgSgCloneRepositoryType.btn"SVN"==SVN
 dlgSgCloneRepositoryType.fur=指定された URL プロトコルがあいまいで、異なるタイプのリポジトリを参照している可能性があります。
 dlgSgCloneRepositoryType.hdl=クローンを作成するリポジトリの種類を選択します。
 dlgSgCloneRepositoryType.tle=クローン
@@ -632,7 +632,7 @@ dlgSgCommit.hdl=ローカルまたはステージングされた変更のコミ�
 dlgSgCommit.inf=コミットしたいファイルを選択し、コミットメッセージを記入します。
 dlgSgCommit.lbl"More Options"=追加のオプション
 dlgSgCommit.mni"Deselect All"=選択を解除
-dlgSgCommit.mni"JIRA"=JIRA
+dlgSgCommit.mni"JIRA"==JIRA
 dlgSgCommit.mni"Log"=ログ
 dlgSgCommit.mni"Select All"=全選択
 dlgSgCommit.mni"Select from Log"=ログから選択
@@ -640,20 +640,20 @@ dlgSgCommit.mni"Show Changes"=比較する
 dlgSgCommit.mni"Toggle"=トグル
 dlgSgCommit.rbt"Local Changes"=ローカルの変更
 dlgSgCommit.rbt"Merge commit \(multiple parents\)"=マージ コミット \(複数の親\)
-dlgSgCommit.rbt"Simple commit \(one parent, \"squash\"\)"=Simple commit \(one parent, "squash"\)
+dlgSgCommit.rbt"Simple commit \(one parent, \"squash\"\)"=シンプルなコミット \(一つの親 、"スカッシュ" \)
 dlgSgCommit.rbt"Staged Changes"=ステージされた変更
 dlgSgCommit.tle=コミット
 dlgSgCommit.wrn"All staged changes have been selected for commit, as this is necessary in 'Reverting' state."=\
  ステージされたすべての変更がコミット対象として選択されています。これは 'Reverting' 状態において必要なことだからです。
 dlgSgCommit.wrn"When modifying or splitting a commit, you first need to commit all local changes before being able to continue the rebase."=\
- When modifying or splitting a commit, you first need to commit all local changes before being able to continue the rebase.
+ コミットを修正または分割する場合、リベースを続行する前に、まず全てのローカルの変更をコミットする必要があります。
 dlgSgCommitAmendAlreadyPushedCommit.btn"Amend"=修正する
 dlgSgCommitAmendAlreadyPushedCommit.fur=プッシュしたコミットを修正した場合、後で強制的にプッシュする必要があります。\rこの場合、他のユーザーの変更を上書きしてしまう可能性があります。
 dlgSgCommitAmendAlreadyPushedCommit.hdl=すでにプッシュされているコミットを修正しますか？
 dlgSgCommitAmendAlreadyPushedCommit.tle=コミット
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Continue Rebase"=リベースを続行する
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=コミットを作成
-dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=The repository is in 'rebasing' state. Instead of creating an additional commit as part of your rebased commits, you will usually just want continue the rebase.
+dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=リポジトリは「リベース中」の状態です。リベース コミットの一部として追加のコミットを作成する代わりに、通常はリベースを続行するだけです。
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.hdl=リベースを続行しますか、それとも追加のコミットを作成しますか?
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.tle=リベース
 dlgSgCommitIndexAllWorkingTreeChanges.btn"Commit All Working Tree Changes"=作業ツリーの全ての変更をコミットする
@@ -670,7 +670,7 @@ dlgSgCommitNoFilesFoundNotAllowEmpty.tle=コミット
 dlgSgCommitSelectMessageFromLog.btn"Branches"=ブランチ
 dlgSgCommitSelectMessageFromLog.btn"Select"=選択
 dlgSgCommitSelectMessageFromLog.chk"Add 'fixup!' prefix for easier automatic squashing using Interactive Rebase"=\
- Add 'fixup!' prefix for easier automatic squashing using Interactive Rebase
+ インタラクティブなリベースを使用した自動スカッシュを容易にするために、'fixup!' プレフィックスを追加します。
 dlgSgCommitSelectMessageFromLog.hdl=コミットを選択する
 dlgSgCommitSelectMessageFromLog.inf=メッセージを使用するコミットを選択します。
 dlgSgCommitSelectMessageFromLog.mni"Author"=作者
@@ -678,30 +678,30 @@ dlgSgCommitSelectMessageFromLog.mni"Branches and Tags"=ブランチとタグ
 dlgSgCommitSelectMessageFromLog.mni"Committer"=コミッタ
 dlgSgCommitSelectMessageFromLog.mni"Copy ID"=IDをコピー
 dlgSgCommitSelectMessageFromLog.mni"Copy Message"=メッセージをコピー
-dlgSgCommitSelectMessageFromLog.mni"File Content \(very expensive\)"=File Content \(very expensive\)
-dlgSgCommitSelectMessageFromLog.mni"File \(expensive\)"=File \(expensive\)
-dlgSgCommitSelectMessageFromLog.mni"Forget Pattern"=Forget Pattern
-dlgSgCommitSelectMessageFromLog.mni"ID"=ID
+dlgSgCommitSelectMessageFromLog.mni"File Content \(very expensive\)"=ファイルの内容\(非常に高コストな処理\)
+dlgSgCommitSelectMessageFromLog.mni"File \(expensive\)"=ファイル\(高コスト\)
+dlgSgCommitSelectMessageFromLog.mni"Forget Pattern"=パターンを忘れる
+dlgSgCommitSelectMessageFromLog.mni"ID"==ID
 dlgSgCommitSelectMessageFromLog.mni"Message"=メッセージ
 dlgSgCommitSelectMessageFromLog.mni"Refresh"=更新
 dlgSgCommitSelectMessageFromLog.mni"Regular Expressions"=正規表現
-dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
+dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=パターンを記憶
 dlgSgCommitSelectMessageFromLog.tle=コミットメッセージを選択
 dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=すべての変更をコミット
 dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=ファイルをコミット
 dlgSgCommitSingleOrAllWorkingTreeChanges.fur=選択した1つのファイルをコミットするか、変更したすべてのファイルをコミットするかを選択できます。
 dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=何をコミットしますか？
 dlgSgCommitSingleOrAllWorkingTreeChanges.tle=コミット
-dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
+dlgSgCommitToDetachedHead.btn"Commit Anyway"=とにかくコミットする
 dlgSgCommitToDetachedHead.fur=リポジトリの HEAD は現在、ブランチを指しておらず、コミット(SHA)を直接参照しています。コミットする際に、新しく作成したコミットはSHAでしか到達できないため、簡単に見失ってしまう可能性があります。今すぐコミットするのではなく、まず現在のHEADにブランチを作成し、その後にコミットしてください。
-dlgSgCommitToDetachedHead.hdl=Do you want to commit to a detached HEAD?
+dlgSgCommitToDetachedHead.hdl=切り離されたHEADにコミットしますか?
 dlgSgCommitToDetachedHead.tle=コミット
 dlgSgCompareTwoFiles.btn"Compare with Each Other"=ファイル同士の比較
 dlgSgCompareTwoFiles.btn"Compare with Repository"=リポジトリとの比較
 dlgSgCompareTwoFiles.fur=ファイルはリポジトリの内容と比較したり、ファイル同士で比較することができます。
 dlgSgCompareTwoFiles.hdl=選択された2つのファイルを比較しますか？
 dlgSgCompareTwoFiles.tle=比較
-dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
+dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=競合したままにする
 dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=解決済みとしてマーク
 dlgSgConflictSolverMarkResolved.fur=競合の解決を完了するには、そのファイルを解決済みとしてマークする必要があります。 \(git stage\)\n 解決済みとマークされるまでは、ファイルは競合状態のままであり、他の競合解決を試すことができます。
 dlgSgConflictSolverMarkResolved.hdl=ファイルを解決済みとしてマークしますか？
@@ -729,7 +729,7 @@ dlgSgCustomizeProjectUi.tab"Toolbar"=ツールバー
 dlgSgCustomizeProjectUi.tle=カスタマイズ
 dlgSgDeleteFileTrash.hdl%1='$1'を削除しますか？
 dlgSgDeleteFilesTrash.hdl%1=選択した$1個のファイルを削除しますか？
-dlgSgDiscard.btn"Discard to Stash"=Discard to Stash
+dlgSgDiscard.btn"Discard to Stash"=スタッシュに退避する
 dlgSgDiscard.btn"Discard"=破棄
 dlgSgDiscard.col"Directory"=ディレクトリ
 dlgSgDiscard.col"Name"=名前
@@ -743,23 +743,23 @@ dlgSgDiscard.mni"Name"=名前
 dlgSgDiscard.mni"Select All"=全選択
 dlgSgDiscard.mni"Show Changes"=比較する
 dlgSgDiscard.mni"Toggle"=トグル
-dlgSgDiscard.rbt"HEAD"=HEAD
+dlgSgDiscard.rbt"HEAD"==HEAD
 dlgSgDiscard.rbt"Index"=インデックス
 dlgSgDiscard.tle=破棄
 dlgSgDiscardNoFilesFound.fur=ステージングされたファイルやローカルで変更されたファイルは見つかりませんでした。
 dlgSgDiscardNoFilesFound.hdl=破棄するものはありません。
 dlgSgDiscardNoFilesFound.tle=破棄
-dlgSgDiscardRevertToHead.hdl%1=Do you want to reset $1 files back to their HEAD state?
-dlgSgDiscardRevertToIndex.hdl%1=Do you want to reset $1 files back to their Index state?
+dlgSgDiscardRevertToHead.hdl%1=$1 個のファイルを HEAD の状態に戻しますか?
+dlgSgDiscardRevertToIndex.hdl%1=$1 個のファイルをインデックスの状態に戻しますか?
 dlgSgDiscardRevertTo(Head|Index).btn"Discard"=破棄
 dlgSgDiscardRevertTo(Head|Index).fur=内容を復元するのは難しいかもしれません。
 dlgSgDiscardRevertTo(Head|Index).tle=破棄
 dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
- Commit '$1' was not found in repository.
+ コミット '$1' がリポジトリ内に見つかりませんでした。
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
- Could not determine URL for submodule $1. Is it correctly initialized?
+ サブモジュール $1 の URL を判別できませんでした。正しく初期化されていますか？
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=リポジトリ '$1' は無効です。
-dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
+dlgSgErrorUtilsClientException.fur"svn: $1"==svn: $1
 dlgSgErrorUtilsClientException.fur%1='$1' にあるリポジトリの GIT_DIR が存在しません。
 dlgSgErrorUtilsClientException.hdl=コマンドの実行に失敗しました。
 dlgSgErrorUtilsClientException.tle=コマンドの失敗
@@ -771,22 +771,22 @@ dlgSgExitConfirmation.tle=終了
 dlgSgFileCompareNoChanges.btn"Open"=開く
 dlgSgFileCompareNoChanges.chk=次回から表示しない
 dlgSgFileCompareNoChanges.fur=ファイルの内容を確認するには、「開く」をクリックしてください。
-dlgSgFileCompareNoChanges.hdl=Open the file compare though no changes will be shown?
+dlgSgFileCompareNoChanges.hdl=変更は表示されませんが、ファイルの比較を開きますか?
 dlgSgFileCompareNoChanges.tle=ファイルの比較
 dlgSgFindObject.edt"Repository Path, Commit ID or Ref"=\
- Repository Path, Commit ID or Ref
+ リポジトリパス、コミットID、Ref
 dlgSgFindObject.tle=オブジェクトを検索
-dlgSgFlowBranchDivergedHandlerFastForward.btn"Fast-Forward"=Fast-Forward
+dlgSgFlowBranchDivergedHandlerFastForward.btn"Fast-Forward"=ファストフォワード
 dlgSgFlowBranchDivergedHandlerFastForward.fur%3=ローカル ブランチ '$1' は、追跡されているブランチ '$2' の後ろにあります。ここでファストフォワードすることも、後で手動で行うこともできます。\nたとえば、ブランチ '$3' をチェックアウトするなど、手動で行っても良いでしょう。
-dlgSgFlowBranchDivergedHandlerFastForward.hdl%2=Should branch '$1' be fast-forwarded to '$2'?
+dlgSgFlowBranchDivergedHandlerFastForward.hdl%2=ブランチ '$1' を '$2' にファストフォワードする必要がありますか?
 dlgSgFlowBranchDivergedHandlerFastForward.tle=Featureを開始
 dlgSgFlowBranchDivergedHandlerReplaceRemote.btn"Replace"=置換
 dlgSgFlowBranchDivergedHandlerReplaceRemote.fur%2=ローカルブランチ '$1' には、リモートブランチ '$2' の書き換えられたコミットよりも新しいものが含まれているようです。\n\nローカルブランチがリモートブランチよりも実際に新しいかどうかわからない場合は、この操作をキャンセルしてローカルおよびリモートでの変更をより詳細に調査することをお勧めします。
-dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl%2=Should branch '$1' replace remote branch '$2'?
+dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl%2=リモートブランチ'$2'をブランチ'$1'に置き換えますか?
 dlgSgFlowBranchDivergedHandlerReplaceRemote.tle=Featureを完了
 dlgSgFlowBranchDivergedHandlerResetToRemote.btn"Reset"=リセット
-dlgSgFlowBranchDivergedHandlerResetToRemote.fur%2=The remote branch '$1' seems to contain more recent but rewritten commits of local branch '$2'.\n\nIf you are not sure whether the remote branch is actually more recent than the local branch, you should better cancel this operation and investigate local and remote changes in more detail.
-dlgSgFlowBranchDivergedHandlerResetToRemote.hdl%2=Should branch '$1' be reset to remote branch '$2'?
+dlgSgFlowBranchDivergedHandlerResetToRemote.fur%2=リモート ブランチ '$1' には、ローカル ブランチ '$2' の最近の書き換えられたコミットが含まれているようです。\n\nリモート ブランチが実際にローカル ブランチよりも新しいかどうかわからない場合は、この操作をキャンセルして、ローカルおよびリモートの変更をより詳細に調査することをお勧めします。
+dlgSgFlowBranchDivergedHandlerResetToRemote.hdl%2=ブランチ '$1' をリモート ブランチ '$2' にリセットする必要がありますか?
 dlgSgFlowBranchDivergedHandlerResetToRemote.tle=Featureを完了
 dlgSgFlowConfigure.btn"Reset to Defaults"=デフォルトにリセット
 dlgSgFlowConfigure.edt"Develop Branch"=Develop ブランチ
@@ -807,27 +807,27 @@ dlgSgFlowConfigure.rbt"Full \(feature, release, hotfix, support branches\)"=\
 dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=ライト \(feature ブランチのみ\)
 dlgSgFlowConfigure.tle=Git-Flowの設定
 dlgSgFlowConfigureChangeOrSwitchOff.btn"Change Configuration"=構成を変更する
-dlgSgFlowConfigureChangeOrSwitchOff.btn"Switch-Off Git-Flow"=Switch-Off Git-Flow
-dlgSgFlowConfigureChangeOrSwitchOff.fur=Git-Flow is already configured for this repository. You may change the Git-Flow configuration or switch-off the Git-Flow features. In both cases, the file ~/.git/config will be modified accordingly.
-dlgSgFlowConfigureChangeOrSwitchOff.hdl=Do you want to change or switch-off the Git-Flow configuration?
+dlgSgFlowConfigureChangeOrSwitchOff.btn"Switch-Off Git-Flow"=Git-Flowの機能をオフにする
+dlgSgFlowConfigureChangeOrSwitchOff.fur=このリポジトリには、すでにGit-Flowが設定されています。Git-Flow の設定を変更するか、Git-Flow の機能をオフにすることができます。どちらの場合も、~/.git/config ファイルが適宜変更されます。
+dlgSgFlowConfigureChangeOrSwitchOff.hdl=Git-Flow の設定を変更もしくは機能をオフにしますか?
 dlgSgFlowConfigureChangeOrSwitchOff.tle=Git-Flowの設定
 dlgSgFlowFeatureFinish.btn"Finish"=完了
 dlgSgFlowFeatureFinish.btn"Select from Log"=ログから選択
 dlgSgFlowFeatureFinish.btn"Select"=選択
 dlgSgFlowFeatureFinish.chk"Delete feature branch"=feature ブランチを削除
 dlgSgFlowFeatureFinish.chk"Fetch latest commits and remove remote feature branch"=\
- Fetch latest commits and remove remote feature branch
+ 最新のコミットを取得し、リモートの feature ブランチを削除する
 dlgSgFlowFeatureFinish.edt"Commit Message"=コミットメッセージ
 dlgSgFlowFeatureFinish.hdl=現在のfeatureを完了
 dlgSgFlowFeatureFinish.inf"Choose how to finish the current feature. This operation will integrate the feature into the '$1' branch."=\
- Choose how to finish the current feature. This operation will integrate the feature into the '$1' branch.
+ 現在の feature を完了させる方法を選択します。この操作により、feature が '$1' ブランチに統合されます。
 dlgSgFlowFeatureFinish.inf"Choose how to finish the feature branch '$1'. This operation will integrate the feature into the '$2' branch."=\
- Choose how to finish the feature branch '$1'. This operation will integrate the feature into the '$2' branch.
-dlgSgFlowFeatureFinish.mni"JIRA"=JIRA
+ feature ブランチ '$1' をどのように完了させるかを選択します。この操作で、feature は '$2' ブランチに統合されます。
+dlgSgFlowFeatureFinish.mni"JIRA"==JIRA
 dlgSgFlowFeatureFinish.mni"Log"=ログ
 dlgSgFlowFeatureFinish.rbt"Create merge commit"=マージコミットを作成
-dlgSgFlowFeatureFinish.rbt"Create simple commit \(squash\)"=Create simple commit \(squash\)
-dlgSgFlowFeatureFinish.rbt"Rebase onto '$1'"=Rebase onto '$1'
+dlgSgFlowFeatureFinish.rbt"Create simple commit \(squash\)"=単純なコミット \(スカッシュ\) を作成する
+dlgSgFlowFeatureFinish.rbt"Rebase onto '$1'"='$1' にリベースする。
 dlgSgFlowFeatureFinish.tle=Featureを完了
 dlgSgFlowFeatureStart.btn"Start"=開始
 dlgSgFlowFeatureStart.edt"Base"=ベース
@@ -835,7 +835,7 @@ dlgSgFlowFeatureStart.edt"Feature Name"=Feature名
 dlgSgFlowFeatureStart.err"A feature with this name already exists. Choose a different name."=\
  この名前のfeatureはすでに存在しています。別の名前を選択してください。
 dlgSgFlowFeatureStart.err"Invalid feature name: The name must not end with a slash or dot."=\
- Invalid feature name: The name must not end with a slash or dot.
+ 無効なfeature名: 名前の末尾にスラッシュまたはドットを使用することはできません。
 dlgSgFlowFeatureStart.hdl=新しい feature を開始する
 dlgSgFlowFeatureStart.inf%1=新しいFeatureブランチの名前を入力します。この操作により、'$1' ブランチから新しいブランチがフォークされます。
 dlgSgFlowFeatureStart.lbl"Resulting Branch: $1"=作成されるブランチ名: $1
@@ -845,18 +845,18 @@ dlgSgFlowHotfixFinish.btn"Select from Log"=ログから選択
 dlgSgFlowHotfixFinish.chk"Create version tag"=バージョンタグの作成
 dlgSgFlowHotfixFinish.chk"Create version tag:"=バージョンタグの作成:
 dlgSgFlowHotfixFinish.chk"Delete hotfix branch"=hotfix ブランチを削除
-dlgSgFlowHotfixFinish.chk"Fetch latest '$1' commits"=Fetch latest '$1' commits
+dlgSgFlowHotfixFinish.chk"Fetch latest '$1' commits"=最新の '$1' コミットを取得する
 dlgSgFlowHotfixFinish.chk"Merge to develop"=develop にマージする
 dlgSgFlowHotfixFinish.chk"Push results and remove remote hotfix branch"=\
- Push results and remove remote hotfix branch
+ 結果をプッシュし、リモートHotfixブランチを削除する
 dlgSgFlowHotfixFinish.edt"Commit Message"=コミットメッセージ
 dlgSgFlowHotfixFinish.hdl=hotfixを完了
 dlgSgFlowHotfixFinish.inf"Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."=\
- Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches.
+ 現在の Hotfix を完了する方法を選択します。この操作により、Hotfix が $1 および $2 ブランチにマージされます。
 dlgSgFlowHotfixFinish.inf"Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches."=\
- Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches.
+ Hotfix ブランチ $1 を完了する方法を選択します。この操作により、Hotfix が $2 および $3 ブランチにマージされます。
 dlgSgFlowHotfixFinish.inf"Choose how to finish the hotfix branch '$1'."=\
- Choose how to finish the hotfix branch '$1'.
+ Hotfix ブランチ '$1' を完了する方法を選択します。
 dlgSgFlowHotfixFinish.tle=Hotfixを完了
 dlgSgFlowHotfixStart.btn"Start"=開始
 dlgSgFlowHotfixStart.chk"Fetch from '$1' branch"='$1' ブランチからフェッチ
@@ -867,37 +867,37 @@ dlgSgFlowHotfixStart.hdl=新しい hotfix を開始する
 dlgSgFlowHotfixStart.inf%1=新しいHotfixブランチの名前を入力します。この操作により、'$1'ブランチから新しいブランチがフォークされます。
 dlgSgFlowHotfixStart.lbl"Resulting Branch: $1"=作成されるブランチ名: $1
 dlgSgFlowHotfixStart.tle=Hotfixの開始
-dlgSgFlowIntegrateDevelop.btn"Integrate"=Integrate
+dlgSgFlowIntegrateDevelop.btn"Integrate"=統合
 dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=\
- Fetch latest '$1' commits from remote repository
-dlgSgFlowIntegrateDevelop.hdl%1=Integrate commits from '$1'
+ リモートリポジトリから最新の '$1' コミットを取得する
+dlgSgFlowIntegrateDevelop.hdl%1='$1' からコミットを統合
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
- Merge or rebase commits from the main development line to the current feature.
+ メインの開発ラインから現在の feature にコミットをマージまたはリベースします。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
- Merge or rebase commits from the main development line to the feature branch '$1'.
+ メインの development ラインから feature ブランチ '$1' にコミットをマージまたはリベースします。
 dlgSgFlowIntegrateDevelop.rbt"Merge from '$1'"='$1' からマージ
-dlgSgFlowIntegrateDevelop.rbt"Rebase current feature onto '$1'"=Rebase current feature onto '$1'
-dlgSgFlowIntegrateDevelop.tle=Integrate Develop
+dlgSgFlowIntegrateDevelop.rbt"Rebase current feature onto '$1'"=現在のfeatureを '$1' にリベースします
+dlgSgFlowIntegrateDevelop.tle=Develop を統合
 dlgSgFlowReleaseFinish.btn"Finish"=完了
 dlgSgFlowReleaseFinish.btn"Select from Log"=ログから選択
 dlgSgFlowReleaseFinish.chk"Create version tag"=バージョンタグの作成
 dlgSgFlowReleaseFinish.chk"Create version tag:"=バージョンタグの作成:
 dlgSgFlowReleaseFinish.chk"Delete release branch"=release ブランチを削除
 dlgSgFlowReleaseFinish.chk"Fetch latest '$1' and '$2' commits"=\
- Fetch latest '$1' and '$2' commits
+ 最新の $1 および $2 コミットを取得する
 dlgSgFlowReleaseFinish.chk"Push results and remove remote release branch"=\
- Push results and remove remote release branch
+ 結果をプッシュし、リモートの Release ブランチを削除します
 dlgSgFlowReleaseFinish.edt"Commit Message"=コミットメッセージ
 dlgSgFlowReleaseFinish.hdl=releaseを完了
 dlgSgFlowReleaseFinish.inf"Choose how to finish the release branch '$1'. This operation will merge the current release into the '$2' and '$3' branches."=\
- Choose how to finish the release branch '$1'. This operation will merge the current release into the '$2' and '$3' branches.
+ Release ブランチ '$1' の完了方法を選択します。この操作は、現在の Release を '$2' および '$3' ブランチにマージします。
 dlgSgFlowReleaseFinish.inf"Choose how to finish the release branch '$1'."=\
- Choose how to finish the release branch '$1'.
+ Release ブランチ '$1' の完了方法を選択します。
 dlgSgFlowReleaseFinish.tle=Releaseを完了
 dlgSgFlowReleaseStart.btn"Start"=開始
 dlgSgFlowReleaseStart.chk"Fetch from base branch"=ベースブランチからフェッチ
 dlgSgFlowReleaseStart.edt"Base"=ベース
-dlgSgFlowReleaseStart.edt"Release Name"=Release Name
+dlgSgFlowReleaseStart.edt"Release Name"=Release 名
 dlgSgFlowReleaseStart.hdl=新しい release を開始する
 dlgSgFlowReleaseStart.inf%1=新しいReleaseブランチの名前を入力してください。この操作により、'$1' ブランチから新しいブランチがフォークされます。
 dlgSgFlowReleaseStart.lbl"Resulting Branch: $1"=作成されるブランチ名: $1
@@ -911,7 +911,7 @@ dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a whi
 dlgSgGarbageCollector.hdl=ガベージコレクタ
 dlgSgGarbageCollector.inf=Gitガベージコレクタを実行すると、到達できないオブジェクトが削除され、ローカルリポジトリが最適化されます。\rディスク消費量が削減され、パフォーマンスが向上します。
 dlgSgGarbageCollector.tle=ガベージコレクタ
-dlgSgGitHubGenerateToken.btn"Authenticate"=Authenticate
+dlgSgGitHubGenerateToken.btn"Authenticate"=認証
 dlgSgGitHubGenerateToken.edt"Account"=アカウント
 dlgSgGitHubGenerateToken.edt"Code"=コード
 dlgSgGitHubGenerateToken.edt"Link"=リンク
@@ -927,7 +927,7 @@ dlgSgGitHubGenerateToken.tle=APIトークンを生成
 dlgSgGitHubPullRequestCreate.btn"Create"=作成
 dlgSgGitHubPullRequestCreate.chk"Draft \(don\'t notify code owners yet\)"=\
  ドラフト （コード所有者にはまだ通知しないでください）
-dlgSgGitHubPullRequestCreate.edt"$1 \u21d2"=$1 \u21d2
+dlgSgGitHubPullRequestCreate.edt"$1 \u21d2"==$1 \u21d2
 dlgSgGitHubPullRequestCreate.edt"Title and Description"=タイトルと説明
 dlgSgGitHubPullRequestCreate.hdl=プルリクエストを作成
 dlgSgGitHubPullRequestCreate.inf=別のリポジトリやブランチにプルリクエストを送信します。
@@ -935,16 +935,16 @@ dlgSgGitHubPullRequestCreate.tle=プルリクエストを作成
 dlgSgGitHubPullRequestMerge.btn"Merge"=マージ
 dlgSgGitHubPullRequestMerge.btn"Select from Log"=ログから選択
 dlgSgGitHubPullRequestMerge.edt"Commit Message"=コミットメッセージ
-dlgSgGitHubPullRequestMerge.hdl=Merge a Pull Request
+dlgSgGitHubPullRequestMerge.hdl=プル リクエストをマージする
 dlgSgGitHubPullRequestMerge.inf=選択したプルリクエストをどのようにマージしますか?
 dlgSgGitHubPullRequestMerge.lbl"If you have integrated the Pull Request manually, choose this option to close the Pull Request on the server."=\
- If you have integrated the Pull Request manually, choose this option to close the Pull Request on the server.
+ プル リクエストを手動で統合した場合は、このオプションを選択してサーバー上のプル リクエストを閉じます。
 dlgSgGitHubPullRequestMerge.lbl"If your are fine with the Pull Request changes, choose this option to perform the merge directly on the GitHub server."=\
- If your are fine with the Pull Request changes, choose this option to perform the merge directly on the GitHub server.
+ プル リクエストの変更に問題がない場合は、このオプションを選択して、GitHub サーバーで直接マージを実行します。
 dlgSgGitHubPullRequestMerge.lbl"To locally check how a Pull Request integrates with the latest commits, choose this option."=\
  プルリクエストが最新のコミットとどのように統合されるかをローカルで確認するには、このオプションを選択します。
 dlgSgGitHubPullRequestMerge.rbt"Mark as merged on GitHub Server"=\
- Mark as merged on GitHub Server
+ GitHub サーバーでマージ済みとしてマーク
 dlgSgGitHubPullRequestMerge.rbt"Merge on GitHub Server"=GitHub Serverでマージ
 dlgSgGitHubPullRequestMerge.rbt"Merge to Local Repository"=ローカルリポジトリにマージ
 dlgSgGitHubPullRequestMerge.tle=プルリクエストのマージ
@@ -957,7 +957,7 @@ dlgSgGitLabGenerateToken.lbl"Your browser should have opened automatically, let 
  ブラウザが自動的に起動し、GitLabのアカウントで認証され、SmartGitへのアクセスが許可されるはずです。\n認証されなかった場合は、手動で次のリンクを開いてください。
 dlgSgGitLabGenerateToken.tle=アクセストークンを要求する
 dlgSgGitLabMergeRequestCreate.btn"Create"=作成
-dlgSgGitLabMergeRequestCreate.edt"$1 \u21d2"=$1 \u21d2
+dlgSgGitLabMergeRequestCreate.edt"$1 \u21d2"==$1 \u21d2
 dlgSgGitLabMergeRequestCreate.edt"Title and Description"=タイトルと説明
 dlgSgGitLabMergeRequestCreate.hdl=マージリクエストを作成
 dlgSgGitLabMergeRequestCreate.inf=別のリポジトリやブランチにマージリクエストを送信します。
@@ -977,42 +977,42 @@ dlgSgHistoryEditAuthor.edt"User Name"=ユーザ名
 dlgSgHistoryEditAuthor.hdl=作者を編集
 dlgSgHistoryEditAuthor.inf=新しいコミットの作者とそのメールアドレスを入力します。
 dlgSgHistoryEditAuthor.tle=作者を編集
-dlgSgHistoryEditMessage.btn"JIRA"=JIRA
+dlgSgHistoryEditMessage.btn"JIRA"==JIRA
 dlgSgHistoryEditMessage.btn"Select from Log"=ログから選択
 dlgSgHistoryEditMessage.btn"Select"=選択
 dlgSgHistoryEditMessage.btn"Set Message"=メッセージをセットする
 dlgSgHistoryEditMessage.edt"Commit Message"=コミットメッセージ
 dlgSgHistoryEditMessage.hdl=コミットメッセージを編集
 dlgSgHistoryEditMessage.inf=新しいコミットメッセージを入力します。
-dlgSgHistoryEditMessage.mni"JIRA"=JIRA
+dlgSgHistoryEditMessage.mni"JIRA"==JIRA
 dlgSgHistoryEditMessage.mni"Log"=ログ
 dlgSgHistoryEditMessage.tle=コミットメッセージを編集
 dlgSgHistoryModifySplitConfirm.btn"Modify"=変更
 dlgSgHistoryModifySplitConfirm.btn"Split"=分割
-dlgSgHistoryModifySplitConfirm.fur='Modify' will stop after the commit.\n\n'Split' will put the changes into the Index. You may discard some changes that should go into the second commit.\n\nAfter you've done the changes, process the remaining commits by continuing the rebase.
+dlgSgHistoryModifySplitConfirm.fur=「変更」はコミット後に停止します。\n\n 「分割」は、変更をインデックスに格納します。 2 番目のコミットに入れる必要があるいくつかの変更を破棄することができます。\n\n変更を行った後、リベースを続行して残りのコミットを処理します。
 dlgSgHistoryModifySplitConfirm.hdl%1=コミットした $1 を修正又は分割しますか?
 dlgSgHistoryModifySplitConfirm.tle=コミットの変更または分割
 dlgSgHistoryPushCommitsReplaceRemoteBranch.btn"Force Push"=強制プッシュ
-dlgSgHistoryPushCommitsReplaceRemoteBranch.fur=リモートブランチへのプッシュは fast-forward できないので、強制的にプッシュする必要があります。リモートブランチでのコミットは失われます。
+dlgSgHistoryPushCommitsReplaceRemoteBranch.fur=リモートブランチへのプッシュは ファストフォワードできないので、強制的にプッシュする必要があります。リモートブランチでのコミットは失われます。
 dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl%1=リモートブランチをコミット $1 で置き換えますか？
-dlgSgHistoryPushCommitsReplaceRemoteBranch.tle=Push Up To
+dlgSgHistoryPushCommitsReplaceRemoteBranch.tle=プッシュアップ
 dlgSgHistoryPushCommitsUpToCommit.btn"Push"=プッシュ
 dlgSgHistoryPushCommitsUpToCommit.fur=選択したコミットまでのすべてのコミットが、リモートリポジトリにプッシュされます。
 dlgSgHistoryPushCommitsUpToCommit.hdl%1=コミット$1まで変更をプッシュしますか？
-dlgSgHistoryPushCommitsUpToCommit.tle=Push Up To
+dlgSgHistoryPushCommitsUpToCommit.tle=プッシュアップ
 dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=既にプッシュされたコミットを修正する
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=既にプッシュされているコミットは、他のユーザーにも知られており、そのユーザーが自分のコミットを構築する際に使用されている可能性があります。\rこのようなコミットを変更すると、後で予期せぬ衝突が起こる可能性があります。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=既にプッシュされているコミットを修正しますか?
-dlgSgHistoryPushedCommitsModifyPushedCommits.tle=Journal
-dlgSgHistorySquash.btn"JIRA"=JIRA
+dlgSgHistoryPushedCommitsModifyPushedCommits.tle=ジャーナル
+dlgSgHistorySquash.btn"JIRA"==JIRA
 dlgSgHistorySquash.btn"Select from Log"=ログから選択
 dlgSgHistorySquash.btn"Select"=選択
 dlgSgHistorySquash.btn"Squash Commits"=スカッシュコミット
-dlgSgHistorySquash.edt"Authorship"=Authorship
+dlgSgHistorySquash.edt"Authorship"=著作権
 dlgSgHistorySquash.edt"Commit Message"=コミットメッセージ
 dlgSgHistorySquash.hdl=複数のコミットをスカッシュする
-dlgSgHistorySquash.inf=The selected commits will be replaced by one squashed commit containing all changes of the individual commits.
-dlgSgHistorySquash.mni"JIRA"=JIRA
+dlgSgHistorySquash.inf=選択されたコミットは、個々のコミットのすべての変更を含む1つのスカッシュコミットに置き換わります。
+dlgSgHistorySquash.mni"JIRA"==JIRA
 dlgSgHistorySquash.mni"Log"=ログ
 dlgSgHistorySquash.tle=スカッシュコミット
 dlgSgHostingProviderAdd.btn"Add"=追加
@@ -1033,7 +1033,7 @@ dlgSgHostingProviderAdd.edt"Certificate Password"=証明書のパスワード
 dlgSgHostingProviderAdd.edt"Client Certificate"=クライアント証明書
 dlgSgHostingProviderAdd.edt"Domain"=ドメイン
 dlgSgHostingProviderAdd.edt"Password"=パスワード
-dlgSgHostingProviderAdd.edt"Server URL \(including collection\)"=Server URL \(including collection\)
+dlgSgHostingProviderAdd.edt"Server URL \(including collection\)"=サーバーURL \(コレクションを含む\)
 dlgSgHostingProviderAdd.edt"Server URL"=サーバURL
 dlgSgHostingProviderAdd.edt"Token"=トークン
 dlgSgHostingProviderAdd.edt"User Name"=ユーザ名
@@ -1085,8 +1085,8 @@ dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-toke
  トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitHub のアカウント設定で自分で生成した 'personal access token' を使用します。
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitLab のアカウント設定で自分で生成した 'personal access token' を使用します。
-dlgSgHostingProviderEdit.tle=GitLab
-dlgSgHostingProviderEdit.wrn"Connection to '$1' failed: $2"=Connection to '$1' failed: $2
+dlgSgHostingProviderEdit.tle==GitLab
+dlgSgHostingProviderEdit.wrn"Connection to '$1' failed: $2"='$1' への接続に失敗しました: $2
 dlgSgHostingProviderSelectRepository.btn"Select"=選択
 dlgSgHostingProviderSelectRepository.col"Name"=名前
 dlgSgHostingProviderSelectRepository.col"Namespace"=名前空間
@@ -1122,7 +1122,7 @@ dlgSgIgnoreEdit.mni"Copy Path"=パスをコピー
 dlgSgIgnoreEdit.mni"Reveal"=Reveal
 dlgSgIgnoreEdit.tle=無視リストを編集
 dlgSgIgnoreFile.btn"Ignore"=無視
-dlgSgIgnoreFile.btn"Remove && Ignore"=Remove && Ignore
+dlgSgIgnoreFile.btn"Remove && Ignore"=除去して無視する
 dlgSgIgnoreFile.edt"Ignore File"=無視するファイル
 dlgSgIgnoreFile.err"The pattern must match all selected file names. For instance, '$1' is not matched."=\
  パターンは、選択されたすべてのファイル名と一致する必要があります。例えば、'$1' はマッチしません。
@@ -1138,40 +1138,40 @@ dlgSgIndexEditorSaveOrDiscard.btn"Save"=保存
 dlgSgIndexEditorSaveOrDiscard.fur=今すぐ保存しないと、変更内容が失われます。
 dlgSgIndexEditorSaveOrDiscard.hdl=変更内容を保存しますか？
 dlgSgIndexEditorSaveOrDiscard.tle=閉じる
-dlgSgJournalFormCommitCantBeModified.fur=Not part of your head's primary-parent history
+dlgSgJournalFormCommitCantBeModified.fur=HEAD の 親を辿った履歴に含まれていません。
 dlgSgJournalFormCommitCantBeModified.hdl=少なくとも1つの選択されたコミットを変更できません。
 dlgSgJournalFormCommitCantBeModified.tle=作者を編集
 dlgSgLfsInstallConfirm.btn"Install"=インストール
-dlgSgLfsInstallConfirm.fur=This will configure hooks and filters required for LFS.
-dlgSgLfsInstallConfirm.hdl=Would you like to initialize this repository for Large File Support \(LFS\)?
-dlgSgLfsInstallConfirm.tle=LFS Install
+dlgSgLfsInstallConfirm.fur=LFSに必要なフックとフィルタを設定します。
+dlgSgLfsInstallConfirm.hdl=このリポジトリをLFS \(Large File Support\) 用に初期化しますか？
+dlgSgLfsInstallConfirm.tle=LFS インストール
 dlgSgLfsTrack.edt"Pattern"=パターン
 dlgSgLfsTrack.err"File '$1' does not match the specified pattern."=\
- File '$1' does not match the specified pattern.
-dlgSgLfsTrack.hdl=Mark a file or pattern as tracked
+ ファイル '$1' は、指定されたパターンと一致しません。
+dlgSgLfsTrack.hdl=ファイルまたはパターンを追跡済みとしてマークする
 dlgSgLfsTrack.inf=Large File Support\(LFS\)で扱うファイル名のパターンを指定します。
-dlgSgLfsTrack.tle=LFS Track
-dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=Revert
-dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately.
+dlgSgLfsTrack.tle=LFSで追跡
+dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=リバート
+dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=インデックスの行を作業ツリーのファイル '$1' に適用しようとしています。変更はすぐに保存されます。
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=作業ツリー ファイルの変更を本当に元に戻しますか?
-dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=Revert Working Tree File
-dlgSgLogCheckoutFileAs.btn"Save After"=Save After
-dlgSgLogCheckoutFileAs.btn"Save Before"=Save Before
+dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=作業ツリーのファイルを元に戻す
+dlgSgLogCheckoutFileAs.btn"Save After"=後を保存
+dlgSgLogCheckoutFileAs.btn"Save Before"=前を保存
 dlgSgLogCheckoutFileAs.edt"Target File"=ターゲットファイル
 dlgSgLogCheckoutFileAs.hdl=リポジトリファイルの保存
 dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
  Select the local file to saved to.
 dlgSgLogCheckoutFileAs.inf"Select whether to save the file state Before or After the selected commit."=\
- Select whether to save the file state Before or After the selected commit.
+ 選択したコミット後 又は コミット前のファイル状態を保存するかどうかを選択します。
 dlgSgLogCheckoutFileAs.tle=ファイルを別名で保存
 dlgSgLogCommentDeleteConfirm.hdl%1=本当にコメント'$1'を削除しますか？
 dlgSgLogComment(|s)DeleteConfirm.btn"Delete Comment"=コミットを削除
 dlgSgLogComment(|s)DeleteConfirm.fur=削除したコメントは元に戻せません。
 dlgSgLogComment(|s)DeleteConfirm.tle=コミットを削除
 dlgSgLogCommentsDeleteConfirm.hdl%1=$1のコメントを本当に削除しますか？
-dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare Separately"=Compare Separately
+dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare Separately"=個別に比較
 dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare With Each Other"=ファイル同士の比較
-dlgSgLogCompareSelectedFilesAgainstEachOther.fur=You may compare the selected files against each other or open up two separate compares for each file against its previous state.
+dlgSgLogCompareSelectedFilesAgainstEachOther.fur=選択したファイル同士を比較することも、各ファイルの以前の状態と比較するために2つの別々の比較画面を開くこともできます。
 dlgSgLogCompareSelectedFilesAgainstEachOther.hdl=選択したファイル同士を比較しますか？
 dlgSgLogCompareSelectedFilesAgainstEachOther.tle=比較
 dlgSgLogCompareWithWorkingTree.btn"Compare After"=後と比較
@@ -1181,22 +1181,22 @@ dlgSgLogCompareWithWorkingTree.hdl=リポジトリファイルとローカルフ
 dlgSgLogCompareWithWorkingTree.inf=選択したコミットの前または後の状態のリポジトリファイルと比較するかどうかを選択します。
 dlgSgLogCompareWithWorkingTree.tle=作業ツリーとの比較
 dlgSgLogGraphRootSwitch.chk"Include tracked remote branches"=追跡されたリモート ブランチを含める
-dlgSgLogGraphRootSwitch.hdl=Select shown branches
-dlgSgLogGraphRootSwitch.inf=Select the branches for which to show commits in the graph.
+dlgSgLogGraphRootSwitch.hdl=表示されたブランチを選択
+dlgSgLogGraphRootSwitch.inf=グラフにコミットを表示するブランチを選択します。
 dlgSgLogGraphRootSwitch.mni"Toggle"=トグル
 dlgSgLogGraphRootSwitch.tle=ブランチを選択
-dlgSgLogOpenFailedRepository.fur=Is the repository still valid?
-dlgSgLogOpenFailedRepository.hdl=Repository could not be opened.
+dlgSgLogOpenFailedRepository.fur=リポジトリはまだ有効ですか?
+dlgSgLogOpenFailedRepository.hdl=リポジトリを開くことができませんでした。
 dlgSgLogOpenFailedRepository.tle=ログ
-dlgSgLogOpenFailedSubmodule.fur=Is the repository still valid?
+dlgSgLogOpenFailedSubmodule.fur=リポジトリはまだ有効ですか?
 dlgSgLogOpenFailedSubmodule.hdl=サブモジュールを開くことができませんでした。
 dlgSgLogOpenFailedSubmodule.tle=ログ
 dlgSgLogOpenNewWindow.btn"Existing Window"=既存のウィンドウ
 dlgSgLogOpenNewWindow.btn"New Window"=新しいウィンドウ
-dlgSgLogOpenNewWindow.fur=There is already an existing Log window which can be revealed.
+dlgSgLogOpenNewWindow.fur=すでに既存のログウィンドウがあり、それを表示することができます。
 dlgSgLogOpenNewWindow.hdl=新しいログウィンドウを開きますか?
 dlgSgLogOpenNewWindow.tle=ログ
-dlgSgLogOpenSubmoduleLinkOrRepository.btn"History of Updates"=History of Updates
+dlgSgLogOpenSubmoduleLinkOrRepository.btn"History of Updates"=更新履歴
 dlgSgLogOpenSubmoduleLinkOrRepository.btn"Submodule Log"=サブモジュールログ
 dlgSgLogOpenSubmoduleLinkOrRepository.fur=サブモジュールの更新履歴には、親リポジトリから見たサブモジュールリンク ('GITLINK') の変更が表示されます。サブモジュールリポジトリのログには、サブモジュールリポジトリ自身で発生したすべてのコミットが表示されます。
 dlgSgLogOpenSubmoduleLinkOrRepository.hdl=サブモジュールの更新履歴またはサブモジュール リポジトリのログを表示しますか?
@@ -1217,10 +1217,10 @@ dlgSgMerge.hdl=マージ
 dlgSgMerge.inf=マージするブランチやコミットを選択し、それらをどのように作業ツリーにマージするかを決定します。
 dlgSgMerge.tle=マージ
 dlgSgMergeHowToMerge.btn"Create Merge-Commit"=マージリクエストを作成
-dlgSgMergeHowToMerge.btn"Fast-Forward"=Fast-Forward
+dlgSgMergeHowToMerge.btn"Fast-Forward"=ファストフォワード
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=作業ツリーへマージ
 dlgSgMergeHowToMerge.btn"Squash-Merge"=スカッシュマージ
-dlgSgMergeHowToMerge.fur=Fast-forward merge は、現在のブランチ (HEAD) を選択されたコミットに進めることを意味します。\r別の方法として、マージコミットを作成したり、作業ツリーにマージしたりすることもできます。\r後者の場合、変更内容を確認し、後でマージコミットや通常の\(squash\)コミットを作成することができます。
+dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブランチ (HEAD) を選択されたコミットに進めることを意味します。\r別の方法として、マージコミットを作成したり、作業ツリーにマージしたりすることもできます。\r後者の場合、変更内容を確認し、後でマージコミットや通常の\(スカッシュ\)コミットを作成することができます。
 dlgSgMergeHowToMerge.hdl%1=ブランチ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.tle=マージ
 dlgSgOpenRepository.edt"Repository"=リポジトリ
@@ -1231,10 +1231,10 @@ dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=
 dlgSgOpenRepository.hdl=既存のリポジトリを追加、または新しいリポジトリを作成
 dlgSgOpenRepository.inf=既存のリポジトリを追加する場合はローカルのGitまたはMercurialリポジトリを指定します。\r新規にリポジトリを作成する場合は、空のディレクトリを指定します。
 dlgSgOpenRepository.tle=リポジトリの追加又は作成
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"=Git
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
+dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"==Git
+dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"==Mercurial
 dlgSgOpenRepositoryInitializeChooseVcs.fur=指定されたディレクトリは、有効な Git または Mercurial リポジトリではないようです。
-dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
+dlgSgOpenRepositoryInitializeChooseVcs.hdl='swt' を初期化するには、どの VCS を使用する必要がありますか?
 dlgSgOpenRepositoryInitializeChooseVcs.tle=リポジトリの追加又は作成
 dlgSgOpenRepositoryInitializeGit.btn"Initialize"=初期化
 dlgSgOpenRepositoryInitializeGit.fur=指定されたディレクトリは、有効な Git リポジトリではないようです。
@@ -1244,16 +1244,16 @@ dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  これらの $1 警告については次回から表示しない
 dlgSgOutput.chk"Don't show again for this warning"=\
  この警告は次回から表示しない
-dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
+dlgSgOutput.chk"Show automatically for failed command"=失敗したコマンドを自動的に表示する
 dlgSgOutput.lbl"Branches need merging first."=ブランチはまずマージする必要があります。
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
- If in question, please ask your repository administrator.
+ ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
 dlgSgOutput.tle"Command Output"=コマンド出力
 dlgSgOutput.tle"Command Succeeded"=コマンドが成功しました
 dlgSgOutput.tle"Output"=出力
 dlgSgPingRepositoryFailed.fur%1=リポジトリURLを確認してください。\n\n$1
-dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
+dlgSgPingRepositoryFailed.hdl%1=リポジトリ'$1'に接続できませんでした。
 dlgSgPingRepositoryFailed.tle=クローン
 dlgSgPreferences.btn"Add"=追加
 dlgSgPreferences.btn"Assign"=割り当て
@@ -1267,7 +1267,7 @@ dlgSgPreferences.btn"I accept the risk!"=リスクを受け入れて続行する
 dlgSgPreferences.btn"Import"=インポート
 dlgSgPreferences.btn"Move Down"=下へ
 dlgSgPreferences.btn"Move Up"=上へ
-dlgSgPreferences.btn"Re-Add Defaults"=デフォルトの項目を追加し直す
+dlgSgPreferences.btn"Re-Add Defaults"=デフォルト項目を追加し直す
 dlgSgPreferences.btn"Remove All"=全て削除
 dlgSgPreferences.btn"Remove"=除去
 dlgSgPreferences.btn"Reset to Defaults"=デフォルトにリセット
@@ -1279,8 +1279,8 @@ dlgSgPreferences.cdl"Built-in Text Editors"=内蔵テキストエディタ
 dlgSgPreferences.cdl"Commands"=コマンド
 dlgSgPreferences.cdl"Conflict Solvers"=コンフリクトソルバー
 dlgSgPreferences.cdl"Diff Tools"=Diffツール
-dlgSgPreferences.cdl"Executables"=Executables
-dlgSgPreferences.cdl"Git Config"=Git Config
+dlgSgPreferences.cdl"Executables"=実行可能ファイル
+dlgSgPreferences.cdl"Git Config"==Git Config
 dlgSgPreferences.cdl"Git Executable"=Git 実行ファイル
 dlgSgPreferences.cdl"Hosting Providers"=ホスティングプロバイダ
 dlgSgPreferences.cdl"Keyboard Shortcuts"=キーボード ショートカット
@@ -1412,8 +1412,8 @@ dlgSgPreferences.edt"Fetch"=フェッチ
 dlgSgPreferences.edt"File Name Matches\*"=ファイル名の一致\*
 dlgSgPreferences.edt"Font Family"=フォント
 dlgSgPreferences.edt"Font Size"=フォントサイズ
-dlgSgPreferences.edt"Functionality\*"=Functionality\*
-dlgSgPreferences.edt"GPG Program"=GPG Program
+dlgSgPreferences.edt"Functionality\*"=機能性\*
+dlgSgPreferences.edt"GPG Program"=GPG プログラム
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
 dlgSgPreferences.edt"Group Patterns"=グループパターン
 dlgSgPreferences.edt"Hg Executable"=Hg 実行ファイル
@@ -1445,13 +1445,13 @@ dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu.
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  ここでは、あなたのアカウントの 'gitconfig' を編集することができます。この設定には、すべてのリポジトリのデフォルト値が含まれています。
 dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
- Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually.
+ ここでは、あなたのアカウントの 'gitconfig' を見ることができます。この設定には 'include' セクションが含まれているため、手動で編集する必要があります。
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
- In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable.
+ SmartGitの全ての機能を利用するためには、コマンドラインのGitまたはMercurialがシステムにインストールされている必要があります。インストールされている 'git' または 'hg' の実行ファイルへのフルパスをここに入力してください。
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
  注：パスワードは、SmartGitの設定領域にプレーンテキストで保存されます。
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
@@ -1496,7 +1496,7 @@ dlgSgPreferences.rbt"Log graph \(commit oriented\)"=ロググラフ \(コミッ�
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  ホームディレクトリに保存される軽量なアップデート
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
- Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)
+ Smart upper case  \('FoB'は'FooBar'にマッチしますが、'foobar'でも'Fob'にはマッチしません\)
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
@@ -1519,10 +1519,10 @@ dlgSgPreferences.tle=環境設定
 dlgSgProcessKiller.btn"Exit Process"=プロセスを終了
 dlgSgProcessKiller.btn"Wait"=待機
 dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
- This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait.
+ これは通常、資格情報を要求する必要があるシステム SSH クライアントを使用するように SmartGit が構成されている場合に発生します。技術的な問題により、SmartGit は SSH クライアントの入力要求を読み取ることができず、ハングします。\n\nプロセスがハングしていると思われる場合は、[プロセスの終了] ボタンをクリックします。それ以外の場合は、[待機] をクリックします。
 dlgSgProcessKiller.tle=プロセスが応答していません
-dlgSgProviderPullRequestCreateNoTargetRepositories.fur=The repository is no GitHub-fork and there are no other remotes which are forks of this repository.
-dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=No target repositories found.
+dlgSgProviderPullRequestCreateNoTargetRepositories.fur=リポジトリはGitHubフォークではなく、このリポジトリのフォークである他のリモートはありません。
+dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=ターゲットリポジトリが見つかりません。
 dlgSgProviderPullRequestCreateNoTargetRepositories.tle=プルリクエストを作成
 dlgSgProviderPullRequestDropConfirmMr.btn"Drop"=削除
 dlgSgProviderPullRequestDropConfirmMr.fur=マージリクエスト自体はサーバー上で削除されません。
@@ -1562,9 +1562,9 @@ dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
 dlgSgPull.tle=プル
 dlgSgPullConfiguration.btn"Configure"=設定
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
- Remember as default for other repositories
-dlgSgPullConfiguration.hdl=Configure how to pull
-dlgSgPullConfiguration.inf=Specify whether to merge or rebase on Pull for the current repository.
+ 他のリポジトリのデフォルトとして記憶させる
+dlgSgPullConfiguration.hdl=プル方法を設定する
+dlgSgPullConfiguration.inf=現在のリポジトリでプルするとき、マージするかリベースするかを指定します。
 dlgSgPullConfiguration.lbl"Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\)."=\
  Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\).
 dlgSgPullConfiguration.lbl"Rebasing gives a clean linear history and is recommended in general."=\
@@ -1578,15 +1578,15 @@ dlgSgPullMergeInsteadOfRebase.fur%1=リベースの対象となる変更の中�
 dlgSgPullMergeInsteadOfRebase.hdl=リベースの代わりにローカルの変更をマージしますか？
 dlgSgPullMergeInsteadOfRebase.tle=プル
 dlgSgPullNoRemoteRepository.btn"Add Remote"=リモートを追加
-dlgSgPullNoRemoteRepository.fur=You first need to add a remote repository to pull from.
-dlgSgPullNoRemoteRepository.hdl=No remote repository has been found.
+dlgSgPullNoRemoteRepository.fur=プルするためのリモートリポジトリを追加する必要があります。
+dlgSgPullNoRemoteRepository.hdl=リモート リポジトリが見つかりませんでした。
 dlgSgPullNoRemoteRepository.tle=プル
 dlgSgPullOrJustFetch.btn"Fetch"=フェッチ
 dlgSgPullOrJustFetch.btn"Pull"=プル
 dlgSgPullOrJustFetch.chk"Fetch from all remotes"=すべてのリモートからフェッチする
 dlgSgPullOrJustFetch.chk"Update existing and fetch new tags"=\
  既存のタグの更新と新しいタグの取得
-dlgSgPullOrJustFetch.fur=You can change the Pull behavior in the Repository Settings.
+dlgSgPullOrJustFetch.fur=プルの動作は、リポジトリ設定で変更することができます。
 dlgSgPullOrJustFetch.hdl%1=リポジトリ $1 をフェッチしますか?
 dlgSgPullOrJustFetch.tle=プル
 dlgSgPushConfirmSingleBranch.btn"Push"=プッシュ
@@ -1595,7 +1595,7 @@ dlgSgPushConfirmSingleBranch.fur%1=1つのブランチが'$1'にプッシュさ�
 dlgSgPushConfirmSingleBranch.hdl%1=ブランチ'$1'をプッシュしますか？
 dlgSgPushConfirmSingleBranch.tle=プッシュ
 dlgSgPushForced.btn"Force Push"=強制プッシュ
-dlgSgPushForced.fur=リモートブランチへのプッシュは fast-forward できないので、強制的にプッシュする必要があります。リモートブランチでのコミットは失われます。
+dlgSgPushForced.fur=リモートブランチへのプッシュは ファストフォワードできないので、強制的にプッシュする必要があります。リモートブランチでのコミットは失われます。
 dlgSgPushForced.hdl=リモートブランチを強制プッシュ（置き換え）しますか？
 dlgSgPushForced.tle=プッシュ
 dlgSgPushForcedSvn.btn"Force Push"=強制プッシュ
@@ -1612,7 +1612,7 @@ dlgSgPushToNoTagsOrLocalBranches.hdl=プッシュするタグやローカル ブ
 dlgSgPushToNoTagsOrLocalBranches.tle=プッシュ先
 dlgSgPushToRef.btn"Push"=プッシュ
 dlgSgPushToRef.chk"Force pushing \(even if it's not fast-forward\)"=\
- 強制プッシュ (fast-forwardでなくても)
+ 強制プッシュ \(ファストフォワードでなくても\)
 dlgSgPushToRef.edt"Push To"=プッシュ先
 dlgSgPushToRef.edt"Target Repository"=ターゲットリポジトリ
 dlgSgPushToRef.err"Enter the remote location to which the commits of the current branch should be pushed to."=\
@@ -1628,7 +1628,7 @@ dlgSgPushToRef.rbt"Tracked or matching branch"=追跡中または一致するブ
 dlgSgPushToRef.tle=プッシュ先
 dlgSgPushToRemote.btn"Push"=プッシュ
 dlgSgPushToRemote.chk"Force pushing \(even if it's not fast-forward\)"=\
- 強制プッシュ (fast-forwardでなくても)
+ 強制プッシュ \(ファストフォワードでなくても\)
 dlgSgPushToRemote.chk"Remove remote branches which don't have a local counterpart"=\
  ローカルと対応するブランチがないリモートブランチを削除する
 dlgSgPushToRemote.edt"Target Repository"=ターゲットリポジトリ
@@ -1650,8 +1650,8 @@ dlgSgPushTrackingConfigureSingle.fur=現在のブランチでは、トラッキ�
 dlgSgPushTrackingConfigureSingle.hdl%1='$1' ブランチに対してトラッキングを設定しますか？
 dlgSgPushTrackingConfigureSingle.tle=プッシュ
 dlgSgRebase.btn"Branches"=ブランチ
-dlgSgRebase.btn"Rebase HEAD to"=Rebase HEAD to
-dlgSgRebase.hdl=Rebase HEAD to
+dlgSgRebase.btn"Rebase HEAD to"=HEAD を 選択したコミットにリベース
+dlgSgRebase.hdl=HEAD を 選択したコミットにリベース
 dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
 dlgSgRebase.tle=リベース
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=続ける
@@ -1684,8 +1684,8 @@ dlgSgRebaseHeadToCommitConfirmBc.fur%1=This will apply all commits from the work
 dlgSgRebaseHeadToCommitConfirmBc.hdl%1='$1' を選択したコミットにリベースしますか？
 dlgSgRebaseHeadToCommitConfirmBr.fur%2=This will apply all commits from the working tree branch '$1' \(HEAD\) to '$2'.
 dlgSgRebaseHeadToCommitConfirmBr.hdl%2='$1' を '$2' にリベースしますか？
-dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase HEAD to"=Rebase HEAD to
-dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase Interactively"=Rebase Interactively
+dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase HEAD to"=HEAD を 選択したコミットにリベース
+dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).btn"Rebase Interactively"=対話的なリベース
 dlgSgRebaseHeadToCommitConfirm(Br|Bc|Hr|Hc).tle=Rebase HEAD to Selected Commit
 dlgSgRebaseInteractive.btn"Auto-Squash"=自動スカッシュ
 dlgSgRebaseInteractive.btn"Edit Message"=メッセージの編集
@@ -1697,12 +1697,12 @@ dlgSgRebaseInteractive.btn"Remove"=除去
 dlgSgRebaseInteractive.btn"Squash"=スカッシュ
 dlgSgRebaseInteractive.col"IDs"=IDs
 dlgSgRebaseInteractive.col"Message"=メッセージ
-dlgSgRebaseInteractive.hdl=Rewrite History
+dlgSgRebaseInteractive.hdl=履歴を書き換える
 dlgSgRebaseInteractive.inf=Reorder or squash commits according to your needs.
 dlgSgRebaseInteractive.mni"Neighboring Commits"=Neighboring Commits
 dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
-dlgSgRebaseInteractive.tle=Rebase Interactive
+dlgSgRebaseInteractive.tle=対話的なリベース
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=コミットメッセージ
 dlgSgRebaseInteractiveMessage.hdl=コミットメッセージを編集
 dlgSgRebaseInteractiveMessage.inf=コミット用の新しいメッセージを指定します。
@@ -1713,7 +1713,7 @@ dlgSgRebaseInteractiveRemoveCommit.hdl%1=選択したコミット $1 を削除�
 dlgSgRebaseInteractiveRemoveCommit.tle=コミットを削除
 dlgSgRebaseTagCommit.btn"Add Tag"=タグを追加
 dlgSgRebaseTagCommit.btn"Skip Tag"=タグをスキップ
-dlgSgRebaseTagCommit.fur=After the rebase, the remaining commit won't be reachable anymore.
+dlgSgRebaseTagCommit.fur=リベースの後、残りのコミットには到達できなくなります。
 dlgSgRebaseTagCommit.hdl%1=Should commit $1 be tagged?
 dlgSgRebaseTagCommit.tle=リベース
 dlgSgRebasingAbortConfirm.btn"Abort Rebase"=リベースを中断
@@ -1747,7 +1747,7 @@ dlgSgRemoteFetchMoreNoMoreBranches.fur=リモートリポジトリに存在す�
 dlgSgRemoteFetchMoreNoMoreBranches.hdl=There are no more remote branches to fetch.
 dlgSgRemoteFetchMoreNoMoreBranches.tle=Fetch More
 dlgSgRemoteProperties.chk"Perform background Poll or Fetch"=バックグラウンドでポールまたはフェッチを実行する
-dlgSgRemoteProperties.edt"URL or Path"=URL or Path
+dlgSgRemoteProperties.edt"URL or Path"=URL or パス
 dlgSgRemoteProperties.hdl=リモートプロパティの設定
 dlgSgRemoteProperties.inf=リモートのURLやその他のプロパティを変更します
 dlgSgRemoteProperties.tle=Remote Properties
@@ -1763,7 +1763,7 @@ dlgSgRemoteSetDepth.tle=深さの設定
 dlgSgRemotesAdd.btn"Add"=追加
 dlgSgRemotesAdd.chk"Verify repository connection"=リポジトリ接続の確認
 dlgSgRemotesAdd.edt"Name"=名前
-dlgSgRemotesAdd.edt"URL or Path"=URL or Path
+dlgSgRemotesAdd.edt"URL or Path"=URL or パス
 dlgSgRemotesAdd.hdl=リモートリポジトリの追加
 dlgSgRemotesAdd.inf=リモートリポジトリのURLと短い名前を入力します。
 dlgSgRemotesAdd.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
@@ -1850,7 +1850,7 @@ dlgSgRepositorySettings.chk"Remember as default"=デフォルトとして記憶�
 dlgSgRepositorySettings.chk"Sign all commits"=すべてのコミットに署名する
 dlgSgRepositorySettings.chk"Update registered submodules"=登録されたサブモジュールを更新する
 dlgSgRepositorySettings.edt"Email"=電子メール
-dlgSgRepositorySettings.edt"GPG Program"=GPG Program
+dlgSgRepositorySettings.edt"GPG Program"=GPG プログラム
 dlgSgRepositorySettings.edt"Group Patterns"=グループパターン
 dlgSgRepositorySettings.edt"Name"=名前
 dlgSgRepositorySettings.edt"Signing Key"=署名キー
@@ -1910,7 +1910,7 @@ dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  Set to rebased branch '$1' \("ours", $2\)
 dlgSgResolve.tle=解決
 dlgSgResolveManuallyModifiedSingle.btn"Overwrite"=上書き
-dlgSgResolveManuallyModifiedSingle.fur%1=$1 seems to contain manual conflict resolutions. They will be lost when continuing.
+dlgSgResolveManuallyModifiedSingle.fur%1=$1では、手動でコンフリクトを解決しているようです。続行すると失われます。
 dlgSgResolveManuallyModifiedSingle.hdl=手動の競合解決状態を上書きしますか?
 dlgSgResolveManuallyModifiedSingle.tle=解決
 dlgSgResolveSubmodule.btn"Resolve"=解決
@@ -1927,17 +1927,17 @@ dlgSgRevealCommitLocalOrTracked.fur%2=どちらを表示するかを選択して
 dlgSgRevealCommitLocalOrTracked.hdl=ローカルと追跡されたブランチのどちらを表示しますか？
 dlgSgRevealCommitLocalOrTracked.tle=コミットを表示する
 dlgSgRevertAndCommitConfirmSingle.btn"Revert && Commit"=Revert && Commit
-dlgSgRevertAndCommitConfirmSingle.btn"Revert"=Revert
+dlgSgRevertAndCommitConfirmSingle.btn"Revert"=リバート
 dlgSgRevertAndCommitConfirmSingle.fur=This will undo the changes introduced with the selected commit.
 dlgSgRevertAndCommitConfirmSingle.hdl=選択したコミットを取り消しますか？
-dlgSgRevertAndCommitConfirmSingle.tle=Revert
+dlgSgRevertAndCommitConfirmSingle.tle=リバート
 dlgSgRevertInProgress.fur=You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard.
 dlgSgRevertInProgress.hdl=There is currently a Revert in progress.
-dlgSgRevertInProgress.tle=Revert
+dlgSgRevertInProgress.tle=リバート
 dlgSgRevertNotAllConflictsResolved.chk=次回から表示しない
 dlgSgRevertNotAllConflictsResolved.fur=先に進む前に、コンフリクトを解消する必要があるかもしれません。
 dlgSgRevertNotAllConflictsResolved.hdl=Reverting failed because of conflicts.
-dlgSgRevertNotAllConflictsResolved.tle=Revert
+dlgSgRevertNotAllConflictsResolved.tle=リバート
 dlgSgReviewCommentAdd.btn"Add"=追加
 dlgSgReviewCommentAdd.hdl=コメントの追加
 dlgSgReviewCommentAdd.tle=コメントを追加
@@ -1972,7 +1972,7 @@ dlgSgReviewPullRequestClose.hdl=プルリクエストを閉じる
 dlgSgReviewPullRequestClose.inf=プルリクエストをクローズする際にログに記録されるコメントを入力します。
 dlgSgReviewPullRequestClose.tle=プルリクエストを閉じる
 dlgSgReviewPullRequestCreate.btn"Create"=作成
-dlgSgReviewPullRequestCreate.edt"Assignees"=Assignees
+dlgSgReviewPullRequestCreate.edt"Assignees"=担当者
 dlgSgReviewPullRequestCreate.edt"Message"=メッセージ
 dlgSgReviewPullRequestCreate.err"Unknown user '$1'."=不明なユーザー '$1'
 dlgSgReviewPullRequestCreate.hdl=プルリクエストを作成
@@ -1983,10 +1983,10 @@ dlgSgReviewPullRequestCreate.lbl"The pull request will be highlighted to those u
  プルリクエストは、担当者としてリストされているユーザーに対してハイライト表示されます。
 dlgSgReviewPullRequestCreate.tle=プルリクエストを作成
 dlgSgReviewPullRequestState.btn"Assign"=割り当て
-dlgSgReviewPullRequestState.edt"Assignees"=Assignees
+dlgSgReviewPullRequestState.edt"Assignees"=担当者
 dlgSgReviewPullRequestState.edt"Comment"=コメント
 dlgSgReviewPullRequestState.err"Unknown user '$1'."=不明なユーザー '$1'
-dlgSgReviewPullRequestState.hdl=Assign Pull Request
+dlgSgReviewPullRequestState.hdl=プルリクエストの割り当て
 dlgSgReviewPullRequestState.inf=Enter the user\(s\) to which the Pull Request should be assigned to.
 dlgSgReviewPullRequestState.tle=割り当て
 dlgSgReviewUserAddEdit.edt"Aliases"=エイリアス
@@ -2012,7 +2012,7 @@ dlgSgReviewUsersEdit.col"Name"=名前
 dlgSgReviewUsersEdit.hdl=レビューデータベースのユーザー設定
 dlgSgReviewUsersEdit.inf=ユーザーは、コメント文に使用されるエイリアスを持つことができ、オプションで連絡先情報を持つことができます。
 dlgSgReviewUsersEdit.tle=Users設定
-dlgSgSelectBranch.edt"Auxiliary Branch"=Auxiliary Branch
+dlgSgSelectBranch.edt"Auxiliary Branch"=補助ブランチ
 dlgSgSelectBranch.edt"Tracked Branch"=追跡されたブランチ
 dlgSgSelectBranch.hdl=Select tracked branch
 dlgSgSelectBranch.inf"Select the branch which should be tracked by '$1'."=\
@@ -2062,10 +2062,10 @@ dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  SmartGit は 30 日間無料でお試しいただけます。
 dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
- Free SmartGit evaluation for commercial use
+ SmartGitの無償評価版 \(商用利用可\)
 dlgSgSetup.rbt"Log Graph \(commit oriented\)"=ロググラフ \(コミット中心\)
 dlgSgSetup.rbt"Non-commercial use only \(most features, no support\)"=\
- Non-commercial use only \(most features, no support\)
+ 非商用利用のみ （ほとんどの機能、サポートなし）
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  Registered user, commercial use \(all features, support\)
 dlgSgSetup.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
@@ -2077,11 +2077,11 @@ dlgSgSetup.tle=SmartGit のセットアップ
 dlgSgShowLocalChanges.btn"Compare"=比較
 dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
 dlgSgShowLocalChanges.inf=Select the file states to compare.
-dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD vs. Index
-dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD vs. Working Tree
+dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD 対 Index
+dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD 対 作業ツリー
 dlgSgShowLocalChanges.rbt"Index vs. Working Tree"=インデックスと作業ツリー
 dlgSgShowLocalChanges.tle=比較する
-dlgSgSplitOffFiles.btn"JIRA"=JIRA
+dlgSgSplitOffFiles.btn"JIRA"==JIRA
 dlgSgSplitOffFiles.btn"Split Off"=分割する
 dlgSgSplitOffFiles.edt"Commit Message"=コミットメッセージ
 dlgSgSplitOffFiles.hdl=Move files to a second commit
@@ -2099,7 +2099,7 @@ dlgSgSshCredentials.inf=ユーザー「root」としてSSHサーバー「git」�
 dlgSgSshCredentials.rbt"Password"=パスワード
 dlgSgSshCredentials.rbt"Private Key"=秘密鍵
 dlgSgSshCredentials.tle=SSH認証
-dlgSgSshCredentials.wrn"$1"=$1
+dlgSgSshCredentials.wrn"$1"==$1
 dlgSgStageConflict.btn"Stage Anyway"=Stage Anyway
 dlgSgStageConflict.fur=このファイルには、すべての競合が解決されていないことを示す競合マーカーが含まれています。
 dlgSgStageConflict.hdl%1=Should $1 really be staged?
@@ -2151,7 +2151,7 @@ dlgSgSubmoduleAdd.edt"Branch"=ブランチ
 dlgSgSubmoduleAdd.edt"Local Directory"=ローカルディレクトリ
 dlgSgSubmoduleAdd.edt"Local Path"=ローカルパス
 dlgSgSubmoduleAdd.edt"Repository URL"=リポジトリ URL
-dlgSgSubmoduleAdd.edt"URL"=URL
+dlgSgSubmoduleAdd.edt"URL"==URL
 dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relative to the outer repository root directory."=\
  サブモジュールを追加するパスを、外部リポジトリのルート ディレクトリからの相対パスで指定します。
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
@@ -2211,7 +2211,7 @@ dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolAdd.hdl=外部ツールの追加
-dlgSgToolAdd.mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
+dlgSgToolAdd.mni"2nd Commit ID or Ref"=2番目のコミットIDまたはRef
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolEdit.err"Please enter the name for this command."=\
@@ -2254,9 +2254,9 @@ dlgSgTool(Add|Edit).mni"SmartGit Installation"=SmartGitのインストール先
 dlgSgTool(Add|Edit).rbt"Both"=両方
 dlgSgTool(Add|Edit).rbt"Directories"=ディレクトリ
 dlgSgTool(Add|Edit).rbt"Files"=ファイル
-dlgSgTool(Add|Edit).rbt"Refs"=Refs
-dlgSgTool(Add|Edit).rbt"SHAs"=SHAs
-dlgSgUndoLastCommitConfirm.btn"Undo"=取り消し\(Undo\)
+dlgSgTool(Add|Edit).rbt"Refs"==Refs
+dlgSgTool(Add|Edit).rbt"SHAs"==SHAs
+dlgSgUndoLastCommitConfirm.btn"Undo"=元に戻す
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=Message: $1
 dlgSgUndoLastCommitConfirm.fur"Undoing an already pushed commit might cause serious problems!\n\nMessage: $1"=\
  既にプッシュされたコミットを元に戻すと、深刻な問題が発生する可能性があります！\n\nメッセージ: $1
@@ -2285,7 +2285,7 @@ dlgSgWorktreeAddNoMoreLocalBranches.tle=ワークツリーを追加
 dlgSgWorktreePruneNoWorktree.fur=すべてのワークツリーは引き続き使用できます。
 dlgSgWorktreePruneNoWorktree.hdl=プルーニング\(剪定\)するワークツリーがありません。
 dlgSgWorktreePruneNoWorktree.tle=廃止されたワークツリーを整理する
-dlgShPushTrackingLocalSvnBranches.btn"Push as New"=Push as New
+dlgShPushTrackingLocalSvnBranches.btn"Push as New"=新規としてプッシュ
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
 dlgShPushTrackingLocalSvnBranches.hdl=ローカルブランチを新しいSVNブランチとしてプッシュしますか？
@@ -2355,7 +2355,7 @@ wndConflictSolver.mniView-layout-left-merge=Left and Merge
 wndConflictSolver.mniView-layout-left-right-above-merge=Left and Right Above Merge
 wndConflictSolver.mniView-layout-right-merge=Merge and Right
 wndConflictSolver.tbr"All"=全て
-wndConflictSolver.tbr"Base Changes"=Base Changes
+wndConflictSolver.tbr"Base Changes"=ベースの変更
 wndConflictSolver.tbr"Left + Merge"=Left + Merge
 wndConflictSolver.tbr"Merge + Right"=Merge + Right
 wndConflictSolver.tbr"Merge Below"=Merge Below
@@ -2368,7 +2368,7 @@ wndConflictSolver.tbtFile-save=ファイルの変更を保存します。
 wndConflictSolver.tbtGoto-next-conflict=次の競合に進む
 wndConflictSolver.tbtGoto-next-diff=次の変更点に進みます。
 wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
-wndDeepgit.btn"Go Deeper"=Go Deeper
+wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
 wndDeepgit.mni"Open File Log"=ファイルログを開く
@@ -2377,7 +2377,7 @@ wndDeepgit.mniAbout=DeepGitについて
 wndDeepgit.mniBack=戻る
 wndDeepgit.mniConfigureRefGroups=タグ-グルーピング
 wndDeepgit.mniEdit-copy=コピー
-wndDeepgit.mniExtendLineToBlock=Extend Lines To Blocks
+wndDeepgit.mniExtendLineToBlock=行をブロックに拡張
 wndDeepgit.mniFile-close=閉じる
 wndDeepgit.mniFilterAddSelection=選択フィルタを追加
 wndDeepgit.mniFilterReset=フィルターをリセット
@@ -2396,7 +2396,7 @@ wndDeepgit.mniOpenFileLog=ファイルログを開く
 wndDeepgit.mniOpenRepositoryLog=リポジトリログを開く
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniPerspectiveBlameOrigin=Blame+Origins Perspective
-wndDeepgit.mniPerspectiveBlameSimple=Blame Perspective
+wndDeepgit.mniPerspectiveBlameSimple=ブレームの視点
 wndDeepgit.mniPerspectiveCommit=Log Perspective
 wndDeepgit.mniPerspectiveHistory=Diff Perspective
 wndDeepgit.mniPerspectiveOrigins=Origins Perspective
@@ -2430,9 +2430,9 @@ wndDeepgit.tbtPerspectiveCommit=Investigate Log.
 wndDeepgit.tbtPerspectiveHistory=Investigate Diff between file's revisions.
 wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line originates from.\n\nIn order to inspect available Origins, they have to be evaluated first. First, select the file you want to investigate using File\|Open and select a line in it. Then wait until the calculation of possible Origins has finished.
 wndEditor.mni"CR \(classic macOS\)"=CR \(クラシック macOS\)
-wndEditor.mni"CR+LF \(Windows\)"=CR+LF \(Windows\)
-wndEditor.mni"LF \(Unix, macOS\)"=LF \(Unix, macOS\)
-wndEditor.mniEdit-undo=取り消し\(Undo\)
+wndEditor.mni"CR+LF \(Windows\)"==CR+LF \(Windows\)
+wndEditor.mni"LF \(Unix, macOS\)"==LF \(Unix, macOS\)
+wndEditor.mniEdit-undo=元に戻す
 wndEditor.mniEofEnforceLineEnding=ファイル終端での改行を強制する
 wndEditor.mniReplaceTabsWithSpaces=タブをスペースに置き換える
 wndEditor.mniView-remember-as-default=デフォルトとして記憶する
@@ -2465,15 +2465,15 @@ wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|S
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-minimize=最小化
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindowMaximizeRestore"Maximize View"=ビューを最大化
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindowMaximizeRestore"Restore Maximized View"=最大化したビューを元に戻す
-wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mnu"< No Windows >"=< No Windows >
+wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mnu"< No Windows >"==< No Windows >
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mnu"Window"=ウィンドウ
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left=左のブロックを採用
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left-right=Take Left, then Right Block
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right=右のブロックを採用
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=Take Right, then Left Block
-wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-undo=取り消し\(Undo\)
+wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-undo=元に戻す
 wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-export-html=HTMLファイルとしてエクスポート
-wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-open-base=Open Base File Changes
+wnd(Compare|ConflictSolver|Git.indexEditor).mniFile-open-base=ベースファイルの変更を開く
 wnd(Compare|ConflictSolver|Git.indexEditor).mniGoto-next-conflict=次の競合
 wnd(Compare|ConflictSolver|Git.indexEditor).mniGoto-next-diff=次の変更
 wnd(Compare|ConflictSolver|Git.indexEditor).mniGoto-previous-conflict=前の競合
@@ -2516,11 +2516,11 @@ wnd(Log|Project|Std)."Abort"=中断
 wnd(Log|Project|Std)."Commit"=コミット
 wnd(Log|Project|Std)."Conflict Solver"=コンフリクトソルバー
 wnd(Log|Project|Std)."Continue"=続ける
-wnd(Log|Project|Std)."Mark HEAD as Bad"=Mark HEAD as Bad
-wnd(Log|Project|Std)."Mark HEAD as Good"=Mark HEAD as Good
+wnd(Log|Project|Std)."Mark HEAD as Bad"=HEAD を Badとしてマークする
+wnd(Log|Project|Std)."Mark HEAD as Good"=HEAD を Good としてマークする
 wnd(Log|Project|Std)."Mark Resolved"=解決済みとしてマーク
 wnd(Log|Project|Std)."Recreate Conflict"=競合した状態に戻す
-wnd(Log|Project|Std)."Rerun Thoroughly"=Rerun Thoroughly
+wnd(Log|Project|Std)."Rerun Thoroughly"=徹底的な再実行
 wnd(Log|Project|Std)."Reset"=リセット
 wnd(Log|Project|Std)."Reveal"=Reveal
 wnd(Log|Project|Std)."Show Local Changes"=ローカルの変更を表示
@@ -2532,8 +2532,8 @@ wnd(Log|Project|Std).btn"Abort"=中断
 wnd(Log|Project|Std).btn"Commit"=コミット
 wnd(Log|Project|Std).btn"Conflict Solver"=コンフリクトソルバー
 wnd(Log|Project|Std).btn"Continue"=続ける
-wnd(Log|Project|Std).btn"Mark HEAD as Bad"=Mark HEAD as Bad
-wnd(Log|Project|Std).btn"Mark HEAD as Good"=Mark HEAD as Good
+wnd(Log|Project|Std).btn"Mark HEAD as Bad"=HEAD を Badとしてマークする
+wnd(Log|Project|Std).btn"Mark HEAD as Good"=HEAD を Good としてマークする
 wnd(Log|Project|Std).btn"Mark Resolved"=解決済みとしてマーク
 wnd(Log|Project|Std).btn"Recreate Conflict"=競合した状態に戻す
 wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
@@ -2552,13 +2552,13 @@ wnd(Log|Project|Std).chk"Amend last commit"=前回のコミットを修正
 wnd(Log|Project|Std).chk"Bypass commit hook"=コミットフックをバイパスする
 wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=Create simple commit \('squash'\)
 wnd(Log|Project|Std).chk"Push"=プッシュ
-wnd(Log|Project|Std).col"Assignee"=Assignee
+wnd(Log|Project|Std).col"Assignee"=担当者
 wnd(Log|Project|Std).col"Author"=作者
 wnd(Log|Project|Std).col"Branch"=ブランチ
 wnd(Log|Project|Std).col"Copied From"=コピー元
 wnd(Log|Project|Std).col"Copied from"=コピー元
 wnd(Log|Project|Std).col"Date"=日付
-wnd(Log|Project|Std).col"Entry"=Entry
+wnd(Log|Project|Std).col"Entry"=エントリ
 wnd(Log|Project|Std).col"Ext."=拡張子
 wnd(Log|Project|Std).col"Index State"=インデックスの状態
 wnd(Log|Project|Std).col"Last Changed On"=最終変更日
@@ -2575,25 +2575,25 @@ wnd(Log|Project|Std).col"Text"=テキスト
 wnd(Log|Project|Std).col"Working Tree State"=作業ツリーの状態
 wnd(Log|Project|Std).edt"Commit to"=Commit to
 wnd(Log|Project|Std).hnt"File Filter"=ファイルフィルタ
-wnd(Log|Project|Std).hnt"Filter or Tag Search"=Filter or Tag Search
-wnd(Log|Project|Std).lbl"$1 files hidden"=$1 files hidden
+wnd(Log|Project|Std).hnt"Filter or Tag Search"=フィルターまたはタグ検索
+wnd(Log|Project|Std).lbl"$1 files hidden"=$1 ファイルの非表示
 wnd(Log|Project|Std).lbl"Directories"=ディレクトリ
 wnd(Log|Project|Std).lbl"Directory"=ディレクトリ
 wnd(Log|Project|Std).lbl"File"=ファイル
 wnd(Log|Project|Std).lbl"Files"=ファイル
-wnd(Log|Project|Std).lblStatusBarMessage"$1"=$1
+wnd(Log|Project|Std).lblStatusBarMessage"$1"==$1
 wnd(Log|Project|Std).mni"  Show Rewritten Behind Commits"=\
  Show Rewritten Behind Commits
-wnd(Log|Project|Std).mni"<no entry>"=<no entry>
-wnd(Log|Project|Std).mni"<none>"=<none>
-wnd(Log|Project|Std).mni"Abbreviated"=Abbreviated
+wnd(Log|Project|Std).mni"<no entry>"==<no entry>
+wnd(Log|Project|Std).mni"<none>"==<none>
+wnd(Log|Project|Std).mni"Abbreviated"=略称
 wnd(Log|Project|Std).mni"Add GitHub Comment"=GitHubコメントの追加
 wnd(Log|Project|Std).mni"Add GitLab Comment"=GitLabコメントの追加
 wnd(Log|Project|Std).mni"Add Review Comment"=レビューコメントを追加
 wnd(Log|Project|Std).mni"All"=全て
 wnd(Log|Project|Std).mni"Apply Patch"=パッチを適用
 wnd(Log|Project|Std).mni"Assign"=割り当て
-wnd(Log|Project|Std).mni"Assignee"=Assignee
+wnd(Log|Project|Std).mni"Assignee"=担当者
 wnd(Log|Project|Std).mni"Author Abbreviated"=作者の略称
 wnd(Log|Project|Std).mni"Author Avatar"=作者のアバター
 wnd(Log|Project|Std).mni"Author with Full Name and Email"=\
@@ -2637,35 +2637,35 @@ wnd(Log|Project|Std).mni"Discard Line"=行の変更を破棄
 wnd(Log|Project|Std).mni"Discard Selection"=選択範囲の変更を破棄
 wnd(Log|Project|Std).mni"Drop Local Data"=ローカルデータの削除
 wnd(Log|Project|Std).mni"Edit 'Comment $1'"=Edit 'Comment $1'
-wnd(Log|Project|Std).mni"Edit in Index Editor"=インデックスエディタで編集する
+wnd(Log|Project|Std).mni"Edit in Index Editor"=indexエディタで編集する
 wnd(Log|Project|Std).mni"Edit"=編集
 wnd(Log|Project|Std).mni"Ext."=拡張子
-wnd(Log|Project|Std).mni"Fast-Forward Merge"=Fast-Forward マージ
+wnd(Log|Project|Std).mni"Fast-Forward Merge"=ファストフォワードマージ
 wnd(Log|Project|Std).mni"Fetch Merge Request"=Fetch Merge Request
 wnd(Log|Project|Std).mni"Fetch Pull Request"=プルリクエストをフェッチする
-wnd(Log|Project|Std).mni"File Content \(very expensive\)"=File Content \(very expensive\)
-wnd(Log|Project|Std).mni"File \(expensive\)"=File \(expensive\)
+wnd(Log|Project|Std).mni"File Content \(very expensive\)"=ファイルの内容\(非常に高コストな処理\)
+wnd(Log|Project|Std).mni"File \(expensive\)"=ファイル\(高コスト\)
 wnd(Log|Project|Std).mni"Files from Subdirectories"=サブディレクトリのファイル
 wnd(Log|Project|Std).mni"Follow All Parents"=Follow All Parents
 wnd(Log|Project|Std).mni"Follow Only First Parent"=Follow Only First Parent
-wnd(Log|Project|Std).mni"Forget Pattern"=Forget Pattern
-wnd(Log|Project|Std).mni"Forget"=Forget
+wnd(Log|Project|Std).mni"Forget Pattern"=パターンを忘れる
+wnd(Log|Project|Std).mni"Forget"=忘れる
 wnd(Log|Project|Std).mni"Format Patch"=Format Patch
 wnd(Log|Project|Std).mni"Full Author With Email"=Full Author With Email
 wnd(Log|Project|Std).mni"Full Author"=Full Author
-wnd(Log|Project|Std).mni"Full Name With Email"=Full Name With Email
-wnd(Log|Project|Std).mni"Full Name"=Full Name
-wnd(Log|Project|Std).mni"Git Config"=Git Config
-wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS Version
+wnd(Log|Project|Std).mni"Full Name With Email"=フルネームとメール
+wnd(Log|Project|Std).mni"Full Name"=フルネーム
+wnd(Log|Project|Std).mni"Git Config"==Git Config
+wnd(Log|Project|Std).mni"Git-LFS Version"=Git-LFS バージョン
 wnd(Log|Project|Std).mni"ID"=ID
 wnd(Log|Project|Std).mni"Include Merge Only if File was Changed"=\
  Include Merge Only if File was Changed
-wnd(Log|Project|Std).mni"Integrate"=Integrate
+wnd(Log|Project|Std).mni"Integrate"=統合
 wnd(Log|Project|Std).mni"Jump To"=ジャンプ先
-wnd(Log|Project|Std).mni"LFS"=LFS
+wnd(Log|Project|Std).mni"LFS"==LFS
 wnd(Log|Project|Std).mni"Last Changed On"=最終変更日
-wnd(Log|Project|Std).mni"Mark as Bad"=Mark as Bad
-wnd(Log|Project|Std).mni"Mark as Good"=Mark as Good
+wnd(Log|Project|Std).mni"Mark as Bad"=Bad マークを付ける
+wnd(Log|Project|Std).mni"Mark as Good"=Good マークを付ける
 wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
 wnd(Log|Project|Std).mni"Merge Directly To"=Merge Directly To
 wnd(Log|Project|Std).mni"Merge Merge Request"=Merge Merge Request
@@ -2700,12 +2700,12 @@ wnd(Log|Project|Std).mni"Rebase $1 commit from $2 to $3"=\
  Rebase $1 commit from $2 to $3
 wnd(Log|Project|Std).mni"Rebase $1 commits from $2 to $3"=\
  Rebase $1 commits from $2 to $3
-wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=Rebase HEAD to '$1'
+wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=HEAD を $1 にリベース
 wnd(Log|Project|Std).mni"Regular Expressions"=正規表現
 wnd(Log|Project|Std).mni"Reject Pull Request"=Reject Pull Request
 wnd(Log|Project|Std).mni"Relative Directory"=相対ディレクトリ
 wnd(Log|Project|Std).mni"Relative Path"=相対パス
-wnd(Log|Project|Std).mni"Remember Pattern"=Remember Pattern
+wnd(Log|Project|Std).mni"Remember Pattern"=パターンを記憶
 wnd(Log|Project|Std).mni"Rename"=リネーム
 wnd(Log|Project|Std).mni"Renamed Path"=名前変更したパス
 wnd(Log|Project|Std).mni"Reorder Commits"=Reorder Commits
@@ -2716,11 +2716,11 @@ wnd(Log|Project|Std).mni"Reset to Default"=デフォルトにリセット
 wnd(Log|Project|Std).mni"Resolve"=解決
 wnd(Log|Project|Std).mni"Retract Merge Request"=マージリクエストの取り消し
 wnd(Log|Project|Std).mni"Retract Pull Request"=プルリクエストの取り消し
-wnd(Log|Project|Std).mni"Revert $1"=Revert $1
+wnd(Log|Project|Std).mni"Revert $1"=リバート $1
 wnd(Log|Project|Std).mni"Review"=レビュー
 wnd(Log|Project|Std).mni"Rewrap"=Rewrap
-wnd(Log|Project|Std).mni"SHA"=SHA
-wnd(Log|Project|Std).mni"Select from JIRA"=Select from JIRA
+wnd(Log|Project|Std).mni"SHA"==SHA
+wnd(Log|Project|Std).mni"Select from JIRA"=JIRAから選択
 wnd(Log|Project|Std).mni"Select from Log"=ログから選択
 wnd(Log|Project|Std).mni"Set '$1' to $2"=Set '$1' to $2
 wnd(Log|Project|Std).mni"Show All Refs"=Show All Refs
@@ -2754,14 +2754,14 @@ wnd(Log|Project|Std).mni"Test"=テスト
 wnd(Log|Project|Std).mni"Text"=テキスト
 wnd(Log|Project|Std).mni"Toggle Hosting Provider Integration"=Toggle Hosting Provider Integration
 wnd(Log|Project|Std).mni"Toggle"=トグル
-wnd(Log|Project|Std).mni"Varying Coloring"=Varying Coloring
+wnd(Log|Project|Std).mni"Varying Coloring"=さまざまな色
 wnd(Log|Project|Std).mniAbout=SmartGitについて
 wnd(Log|Project|Std).mniAdd=追加
 wnd(Log|Project|Std).mniAnnotate=ブレーム
 wnd(Log|Project|Std).mniAssume-unchanged-toggle=Toggle 'Assume Unchanged'
-wnd(Log|Project|Std).mniBisectBad=Mark HEAD as Bad
+wnd(Log|Project|Std).mniBisectBad=HEAD を Badとしてマークする
 wnd(Log|Project|Std).mniBisectExit=リセット
-wnd(Log|Project|Std).mniBisectGood=Mark HEAD as Good
+wnd(Log|Project|Std).mniBisectGood=HEAD を Good としてマークする
 wnd(Log|Project|Std).mniBisectStart=開始
 wnd(Log|Project|Std).mniBranchAbort=中断
 wnd(Log|Project|Std).mniBranchAdd=ブランチを追加
@@ -2777,7 +2777,7 @@ wnd(Log|Project|Std).mniBranchSplitFiles=Split Off Files
 wnd(Log|Project|Std).mniBranchesGitFlowRemoteOnly=Show remote branches in their Git-Flow sections
 wnd(Log|Project|Std).mniBranchesGitFlowTracked=Show remote, tracked branches
 wnd(Log|Project|Std).mniBranchesSectionize=タグやブランチをパスのような名前でグループ化 \(foo/bar\)
-wnd(Log|Project|Std).mniBranchesSectionizeAfterLastSlash=After last slash
+wnd(Log|Project|Std).mniBranchesSectionizeAfterLastSlash=最後のスラッシュの後
 wnd(Log|Project|Std).mniBranchesSectionizeCompact=単一項目は階層化しない
 wnd(Log|Project|Std).mniBranchesSectionsBeforeRefs=グループを最初に表示する
 wnd(Log|Project|Std).mniBranchesSelectObsolete=廃止されたローカルブランチを選択
@@ -2814,7 +2814,7 @@ wnd(Log|Project|Std).mniDebugLogFileMonitorEvents=Log File Monitor Events
 wnd(Log|Project|Std).mniDebugLogFileMonitorState=Log File Monitor State
 wnd(Log|Project|Std).mniDebugLogOpenRepositories=Log Open Repositories
 wnd(Log|Project|Std).mniDebugRestart=再起動
-wnd(Log|Project|Std).mniDebugRunGc=Run GC
+wnd(Log|Project|Std).mniDebugRunGc=ガベージコレクタを実行
 wnd(Log|Project|Std).mniDelete=削除
 wnd(Log|Project|Std).mniDiscard=破棄
 wnd(Log|Project|Std).mniEdit-ignore-case-changes=行比較で大文字小文字を区別しない
@@ -2822,7 +2822,7 @@ wnd(Log|Project|Std).mniEditCommitAuthor=作者を編集
 wnd(Log|Project|Std).mniEditCommitMessage=コミットメッセージを編集
 wnd(Log|Project|Std).mniEditFile=ファイルを編集
 wnd(Log|Project|Std).mniExit=終了
-wnd(Log|Project|Std).mniFastForward=Fast-Forward マージ
+wnd(Log|Project|Std).mniFastForward=ファストフォワードマージ
 wnd(Log|Project|Std).mniFetch=プル
 wnd(Log|Project|Std).mniFile-close=閉じる
 wnd(Log|Project|Std).mniFilterCommits=コミットフィルタ
@@ -2831,16 +2831,16 @@ wnd(Log|Project|Std).mniFindAction=コマンドを検索
 wnd(Log|Project|Std).mniFindObject=オブジェクトを検索
 wnd(Log|Project|Std).mniFixup=Fixup
 wnd(Log|Project|Std).mniFlowConfigure=設定
-wnd(Log|Project|Std).mniFlowContext=Git-Flow
+wnd(Log|Project|Std).mniFlowContext==Git-Flow
 wnd(Log|Project|Std).mniFlowFeatureFinish=Featureを完了
 wnd(Log|Project|Std).mniFlowFeatureStart=Featureを開始
 wnd(Log|Project|Std).mniFlowHotfixFinish=Hotfixを完了
 wnd(Log|Project|Std).mniFlowHotfixStart=Hotfixの開始
-wnd(Log|Project|Std).mniFlowIntegrateDevelop=Integrate Develop
+wnd(Log|Project|Std).mniFlowIntegrateDevelop=Develop を統合
 wnd(Log|Project|Std).mniFlowReleaseFinish=Releaseを完了
 wnd(Log|Project|Std).mniFlowReleaseStart=Releaseを開始
 wnd(Log|Project|Std).mniFlowSupportStart=Support ブランチを開始
-wnd(Log|Project|Std).mniForgetCommit=Forget Commit
+wnd(Log|Project|Std).mniForgetCommit=コミットを忘れる
 wnd(Log|Project|Std).mniGoto-next-diff=次の変更
 wnd(Log|Project|Std).mniGoto-previous-diff=前の変更
 wnd(Log|Project|Std).mniGotoChildrenCommit=子コミットを選択
@@ -2849,7 +2849,7 @@ wnd(Log|Project|Std).mniIgnore=無視
 wnd(Log|Project|Std).mniIgnore-line-separators=改行コードの変更を無視する
 wnd(Log|Project|Std).mniIgnoreReveal=無視リストを編集
 wnd(Log|Project|Std).mniIncludeTrackedRemoteBranches=追跡されたリモート ブランチを含める
-wnd(Log|Project|Std).mniIndexEditor=インデックスエディタ
+wnd(Log|Project|Std).mniIndexEditor=indexエディタ
 wnd(Log|Project|Std).mniInvestigate=履歴調査
 wnd(Log|Project|Std).mniLfsInstall=インストール
 wnd(Log|Project|Std).mniLfsLock=ロック
@@ -2861,7 +2861,7 @@ wnd(Log|Project|Std).mniLocalGc=ガベージコレクタ
 wnd(Log|Project|Std).mniLog=ログ
 wnd(Log|Project|Std).mniLogCommitsColoringBranch=ブランチカラーリング
 wnd(Log|Project|Std).mniLogCommitsColoringDefault=デフォルトカラーリング
-wnd(Log|Project|Std).mniLogCommitsColoringLegacy=Varying Coloring
+wnd(Log|Project|Std).mniLogCommitsColoringLegacy=さまざまな色
 wnd(Log|Project|Std).mniLogCommitsColoringMerge=マージ可能なカラーリング
 wnd(Log|Project|Std).mniLogRepository=ログウィンドウを表示
 wnd(Log|Project|Std).mniLogShowAllParents=Follow All Parents
@@ -2876,26 +2876,26 @@ wnd(Log|Project|Std).mniNewStandardWindow=スタンダードウィンドウを�
 wnd(Log|Project|Std).mniNewWindow=新しいウィンドウ
 wnd(Log|Project|Std).mniOpen=ワーキングツリーから開く
 wnd(Log|Project|Std).mniOpenDocumentation=オンラインドキュメント
-wnd(Log|Project|Std).mniOpenRootLog=Open Root Log
+wnd(Log|Project|Std).mniOpenRootLog=ルートログを開く
 wnd(Log|Project|Std).mniOpenUserEcho=機能の要望を送る
-wnd(Log|Project|Std).mniOpenWorkingTree=Open Working Tree
+wnd(Log|Project|Std).mniOpenWorkingTree=作業ツリーを開く
 wnd(Log|Project|Std).mniPreferences=環境設定
 wnd(Log|Project|Std).mniPreviewCommentNext=次のコメント
 wnd(Log|Project|Std).mniPreviewCommentPrevious=前のコメント
 wnd(Log|Project|Std).mniPreviewCompareAutomatic=自動
-wnd(Log|Project|Std).mniPreviewCompareHeadVsIndex=HEAD vs. Index
+wnd(Log|Project|Std).mniPreviewCompareHeadVsIndex=HEAD 対 Index
 wnd(Log|Project|Std).mniPreviewCompareIndexVsWT=インデックスと作業ツリー
 wnd(Log|Project|Std).mniPreviewRefresh=再読込
 wnd(Log|Project|Std).mniPreviewShowCurrentLines=現在の行を長いテキストボックスで表示
-wnd(Log|Project|Std).mniPreviewUndo=取り消し\(Undo\)
+wnd(Log|Project|Std).mniPreviewUndo=元に戻す
 wnd(Log|Project|Std).mniPush=プッシュ
-wnd(Log|Project|Std).mniPushCommits=Push Up To
+wnd(Log|Project|Std).mniPushCommits=プッシュアップ
 wnd(Log|Project|Std).mniPushTo=プッシュ先
-wnd(Log|Project|Std).mniPushToGerrit=Push to Gerrit
+wnd(Log|Project|Std).mniPushToGerrit=Gerritにプッシュ
 wnd(Log|Project|Std).mniRebaseAbort=中断
 wnd(Log|Project|Std).mniRebaseContinue=続ける
-wnd(Log|Project|Std).mniRebaseHeadTo=Rebase HEAD To
-wnd(Log|Project|Std).mniRebaseInteractive=Rebase Interactive From
+wnd(Log|Project|Std).mniRebaseHeadTo=HEAD を 選択したコミットにリベース
+wnd(Log|Project|Std).mniRebaseInteractive=対話的なリベース
 wnd(Log|Project|Std).mniRebaseSkip=スキップ
 wnd(Log|Project|Std).mniRebaseStep=ステップ
 wnd(Log|Project|Std).mniRebaseToHead=Rebase to HEAD
@@ -2927,7 +2927,7 @@ wnd(Log|Project|Std).mniRepositorySearch=リポジトリの検索
 wnd(Log|Project|Std).mniRepositorySelectObsolete=廃止されたリポジトリを選択する
 wnd(Log|Project|Std).mniRepositorySettings=設定
 wnd(Log|Project|Std).mniReset=リセット
-wnd(Log|Project|Std).mniResetAdvanced=Reset Advanced
+wnd(Log|Project|Std).mniResetAdvanced=高度なリセット
 wnd(Log|Project|Std).mniResolve=解決
 wnd(Log|Project|Std).mniResolveOurs=Take Ours
 wnd(Log|Project|Std).mniResolveRecreateConflict=競合した状態に戻す
@@ -2937,7 +2937,7 @@ wnd(Log|Project|Std).mniRevealCommitExtend=選択されたコミットと比較
 wnd(Log|Project|Std).mniRevealCommitWithHead=HEAD と比較
 wnd(Log|Project|Std).mniRevealPrevCommit=前のコミットを表示する
 wnd(Log|Project|Std).mniRevealWorkingTree=Reveal Working Tree
-wnd(Log|Project|Std).mniRevert=Revert
+wnd(Log|Project|Std).mniRevert=リバート
 wnd(Log|Project|Std).mniReviewCommentCreate=コメントを追加
 wnd(Log|Project|Std).mniReviewConfigure=設定
 wnd(Log|Project|Std).mniReviewDumpDatabase=Dump Database
@@ -2996,11 +2996,11 @@ wnd(Log|Project|Std).mniViewIgnored=無視されたファイルを表示する
 wnd(Log|Project|Std).mniViewRecursive=サブディレクトリのファイル
 wnd(Log|Project|Std).mniViewRenameSource=Show Rename Source Files
 wnd(Log|Project|Std).mniViewSeparateWtAndIndex=Separate Working Tree and Index
-wnd(Log|Project|Std).mniViewSetAnchorCommit=Set Anchor Commit
+wnd(Log|Project|Std).mniViewSetAnchorCommit=アンカーコミットを設定
 wnd(Log|Project|Std).mniViewSkipped=スキップされたファイルを表示
 wnd(Log|Project|Std).mniViewStaged=ステージングされたファイルを表示
 wnd(Log|Project|Std).mniViewStyleIndex=Only Index
-wnd(Log|Project|Std).mniViewStyleMixed=Mixed
+wnd(Log|Project|Std).mniViewStyleMixed==Mixed
 wnd(Log|Project|Std).mniViewStyleWorkingTree=Only Working Tree
 wnd(Log|Project|Std).mniViewToolBar=ツールバーを表示
 wnd(Log|Project|Std).mniViewUnchanged=未変更ファイルの表示
@@ -3016,15 +3016,15 @@ wnd(Log|Project|Std).mniWindowDirectories=リポジトリ
 wnd(Log|Project|Std).mniWindowFiles=ファイル
 wnd(Log|Project|Std).mniWindowGraph=グラフ
 wnd(Log|Project|Std).mniWindowHideView=ビューを隠す
-wnd(Log|Project|Std).mniWindowJournal=Journal
-wnd(Log|Project|Std).mniWindowLayoutSetMain=Main Perspective
-wnd(Log|Project|Std).mniWindowLayoutSetReview=Review Perspective
+wnd(Log|Project|Std).mniWindowJournal=ジャーナル
+wnd(Log|Project|Std).mniWindowLayoutSetMain=メインの作業環境
+wnd(Log|Project|Std).mniWindowLayoutSetReview=レビュー用の作業環境
 wnd(Log|Project|Std).mniWindowOutput=出力
 wnd(Log|Project|Std).mniWindowWorkingTree=ワーキングツリーウィンドウを表示する
 wnd(Log|Project|Std).mniWorktreeAdd=ワークツリーを追加
 wnd(Log|Project|Std).mniWorktreePrune=廃止されたワークツリーを整理する
 wnd(Log|Project|Std).mniWorktreeRemove=廃止されたワークツリーを整理する
-wnd(Log|Project|Std).mnu"Bisect"=Bisect
+wnd(Log|Project|Std).mnu"Bisect"=問題箇所の特定\(Bisect\)
 wnd(Log|Project|Std).mnu"Branch"=ブランチ
 wnd(Log|Project|Std).mnu"Branches"=ブランチ
 wnd(Log|Project|Std).mnu"Changes"=変更点
@@ -3032,9 +3032,9 @@ wnd(Log|Project|Std).mnu"Commits"=コミット
 wnd(Log|Project|Std).mnu"Debug"=デバッグ
 wnd(Log|Project|Std).mnu"Edit Git Config"=Git Config を編集
 wnd(Log|Project|Std).mnu"Edit"=編集
-wnd(Log|Project|Std).mnu"Git-Flow"=Git-Flow
+wnd(Log|Project|Std).mnu"Git-Flow"==Git-Flow
 wnd(Log|Project|Std).mnu"Help"=ヘルプ
-wnd(Log|Project|Std).mnu"LFS"=LFS
+wnd(Log|Project|Std).mnu"LFS"==LFS
 wnd(Log|Project|Std).mnu"Local"=ローカル
 wnd(Log|Project|Std).mnu"Query"=クエリ
 wnd(Log|Project|Std).mnu"Rebase"=リベース
@@ -3062,14 +3062,14 @@ wnd(Log|Project|Std).tab"Commit"=コミット
 wnd(Log|Project|Std).tab"Debug Log"=デバッグログ
 wnd(Log|Project|Std).tab"Files \(Working Tree\)"=Files \(Working Tree\)
 wnd(Log|Project|Std).tab"Files"=ファイル
-wnd(Log|Project|Std).tab"Graph \(Initializing Log-Cache...\)"=Graph \(Initializing Log-Cache...\)
-wnd(Log|Project|Std).tab"Graph \(Initializing Subtree-Cache...\)"=Graph \(Initializing Subtree-Cache...\)
-wnd(Log|Project|Std).tab"Graph \(Initializing...\)"=Graph \(Initializing...\)
-wnd(Log|Project|Std).tab"Graph \(Loading...\)"=Graph \(Loading...\)
-wnd(Log|Project|Std).tab"Graph \(Running log...\)"=Graph \(Running log...\)
-wnd(Log|Project|Std).tab"Graph \(Scanning WT...\)"=Graph \(Scanning WT...\)
+wnd(Log|Project|Std).tab"Graph \(Initializing Log-Cache...\)"=グラフ \(ログキャッシュを初期化しています...\)
+wnd(Log|Project|Std).tab"Graph \(Initializing Subtree-Cache...\)"=グラフ \(サブツリー キャッシュを初期化しています...\)
+wnd(Log|Project|Std).tab"Graph \(Initializing...\)"=グラフ \(初期化中...\)
+wnd(Log|Project|Std).tab"Graph \(Loading...\)"=グラフ \(読み込み中...\)
+wnd(Log|Project|Std).tab"Graph \(Running log...\)"=グラフ \(実行ログ...\)
+wnd(Log|Project|Std).tab"Graph \(Scanning WT...\)"=グラフ \(作業ツリーのスキャン...\)
 wnd(Log|Project|Std).tab"Graph"=グラフ
-wnd(Log|Project|Std).tab"Journal"=Journal
+wnd(Log|Project|Std).tab"Journal"=ジャーナル
 wnd(Log|Project|Std).tab"Output"=出力
 wnd(Log|Project|Std).tab"Repositories"=リポジトリ
 wnd(Log|Project|Std).tbr"  History  "=履歴
@@ -3091,13 +3091,13 @@ wnd(Log|Project|Std).tbr"Discard"=破棄
 wnd(Log|Project|Std).tbr"Drop Stash"=スタッシュを削除
 wnd(Log|Project|Std).tbr"Fetch"=フェッチ
 wnd(Log|Project|Std).tbr"Finish"=完了
-wnd(Log|Project|Std).tbr"Git-Flow"=Git-Flow
+wnd(Log|Project|Std).tbr"Git-Flow"==Git-Flow
 wnd(Log|Project|Std).tbr"Ignore"=無視
-wnd(Log|Project|Std).tbr"Index Editor"=インデックスエディタ
-wnd(Log|Project|Std).tbr"Integrate"=Integrate
+wnd(Log|Project|Std).tbr"Index Editor"=indexエディタ
+wnd(Log|Project|Std).tbr"Integrate"=統合
 wnd(Log|Project|Std).tbr"Investigate"=履歴調査
 wnd(Log|Project|Std).tbr"Local Files"=ローカルファイル
-wnd(Log|Project|Std).tbr"Log Selection"=Log Selection
+wnd(Log|Project|Std).tbr"Log Selection"=選択項目の履歴
 wnd(Log|Project|Std).tbr"Log"=ログ
 wnd(Log|Project|Std).tbr"Main"=メイン
 wnd(Log|Project|Std).tbr"Merge"=マージ
@@ -3107,9 +3107,9 @@ wnd(Log|Project|Std).tbr"Push"=プッシュ
 wnd(Log|Project|Std).tbr"Rebase"=リベース
 wnd(Log|Project|Std).tbr"Refresh"=更新
 wnd(Log|Project|Std).tbr"Remove"=除去
-wnd(Log|Project|Std).tbr"Reset Adv."=Reset Adv.
+wnd(Log|Project|Std).tbr"Reset Adv."=高度なリセット
 wnd(Log|Project|Std).tbr"Reset"=リセット
-wnd(Log|Project|Std).tbr"Revert"=Revert
+wnd(Log|Project|Std).tbr"Revert"=リバート
 wnd(Log|Project|Std).tbr"Review"=レビュー
 wnd(Log|Project|Std).tbr"Save Stash"=スタッシュに保存
 wnd(Log|Project|Std).tbr"Search"=検索
@@ -3153,7 +3153,7 @@ wnd(Log|Project|Std).tbtFlowFeatureFinish=Git-Flow feature を完了
 wnd(Log|Project|Std).tbtFlowFeatureStart=新しい Git-Flow の feature を開始します。
 wnd(Log|Project|Std).tbtFlowHotfixFinish=Git-Flow hotfix を完了
 wnd(Log|Project|Std).tbtFlowHotfixStart=新しい Git-Flow の hotfix を開始します。
-wnd(Log|Project|Std).tbtFlowIntegrateDevelop=Integrate new base commits into a Git-Flow feature.
+wnd(Log|Project|Std).tbtFlowIntegrateDevelop=新しいベースコミットをGit-Flowのfeatureに統合する。
 wnd(Log|Project|Std).tbtGoto-next-diff=次の変更点に進みます。
 wnd(Log|Project|Std).tbtGoto-previous-diff=前の変更点に移動します。
 wnd(Log|Project|Std).tbtIgnore=Mark unversioned local files/directories to be ignored.
