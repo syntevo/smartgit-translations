@@ -773,9 +773,10 @@ dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  Commit '$1' was not found in repository.
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
  Could not determine URL for submodule $1. Is it correctly initialized?
+dlgSgErrorUtilsClientException.fur"GIT_DIR for repository at '$1' does not exist."=\
+ GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
-dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.hdl=Executing a command has failed.
 dlgSgErrorUtilsClientException.tle=Command Failed
 dlgSgExitConfirmation.btn"Exit Now"=Exit Now

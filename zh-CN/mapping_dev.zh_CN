@@ -798,9 +798,10 @@ dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  未在仓库内找到提交 '$1'.
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
  无法确定子模块 $1 的URL. 确定已经正常初始化?
+dlgSgErrorUtilsClientException.fur"GIT_DIR for repository at '$1' does not exist."=\
+ 位于 '$1' 的仓库的 GIT_DIR 不存在。
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=仓库 “$1” 无效。
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
-dlgSgErrorUtilsClientException.fur%1=位于 '$1' 的仓库的 GIT_DIR 不存在。
 dlgSgErrorUtilsClientException.hdl=执行命令失败。
 dlgSgErrorUtilsClientException.tle=命令失败
 dlgSgExitConfirmation.btn"Exit Now"=立即退出
