@@ -773,9 +773,10 @@ dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  コミット '$1' がリポジトリ内に見つかりませんでした。
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
  サブモジュール $1 の URL を判別できませんでした。正しく初期化されていますか？
+dlgSgErrorUtilsClientException.fur"GIT_DIR for repository at '$1' does not exist."=\
+ '$1' にあるリポジトリの GIT_DIR が存在しません。
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=リポジトリ '$1' は無効です。
 dlgSgErrorUtilsClientException.fur"svn: $1"==svn: $1
-dlgSgErrorUtilsClientException.fur%1='$1' にあるリポジトリの GIT_DIR が存在しません。
 dlgSgErrorUtilsClientException.hdl=コマンドの実行に失敗しました。
 dlgSgErrorUtilsClientException.tle=コマンドの失敗
 dlgSgExitConfirmation.btn"Exit Now"=終了する
