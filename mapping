@@ -192,6 +192,11 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=Force Exit
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com.
 dlgScDialogAssertionHandlerLinkageError.tle=Internal Error
+dlgScEvaluationReminderContinue.btn"Continue"=Continue
+dlgScEvaluationReminderContinue.btn"Register"=Register
+dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
+dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
+dlgScEvaluationReminderContinue.tle=Evaluation
 dlgScFileComparatorAdd.hdl=Add external diff tool
 dlgScFileComparatorAdd.mni"Base Encoding"=Base Encoding
 dlgScFileComparatorAdd.mni"Base File"=Base File
@@ -429,6 +434,11 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=Do you want to remove all known cred
 dlgSgAuthenticationRemoveAllCredentials.tle=Remove All
 dlgSgAuthenticationShowPassword.edt"Password"=Password
 dlgSgAuthenticationShowPassword.tle%1=Password for $1
+dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
+dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
+dlgSgBisectResult.fur%1=$1
+dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
+dlgSgBisectResult.tle=Bisect Finished
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=Start Bisect with Bad HEAD
 dlgSgBisectStartConfirm.btn"Start Bisect"=Start Bisect
 dlgSgBisectStartConfirm.fur=You need to mark 1 commit as good and 1 commit as bad before Git can start the binary search.
@@ -444,6 +454,8 @@ dlgSgBitbucketGenerateToken.tle=Request Access Token
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=Add Branch && Checkout
 dlgSgBranchAddCheckout.btn"Add Branch"=Add Branch
 dlgSgBranchAddCheckout.edt"Branch"=Branch
+dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a different name."=\
+ A remote branch with this name already exists. Use a different name.
 dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't be used."=\
  Choose a different branch, the current branch can't be used.
 dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
@@ -540,7 +552,10 @@ dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=The branch '$1' already exists. 
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=Check Out
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=Cherry-Pick
 dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
-dlgSgCherryPickConfigurationFile.hdl%1=Do you want to cherry-pick changes of '$1'?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
+ Do you want to cherry-pick changes of $1 files?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
+ Do you want to cherry-pick changes of '$1'?
 dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=Cherry-Pick
@@ -1063,11 +1078,15 @@ dlgSgHostingProviderEdit.chk"Use OAuth token for repository authentication \(ins
  Use OAuth token for repository authentication \(instead of password\)
 dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
  Use SSH instead of HTTPS to access repositories
+dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
+ Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=Use a GitHub Enterprise instance
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=Use a custom GitLab server
+dlgSgHostingProviderEdit.edt"Account"=Account
 dlgSgHostingProviderEdit.edt"Certificate Password"=Certificate Password
 dlgSgHostingProviderEdit.edt"Client Certificate"=Client Certificate
 dlgSgHostingProviderEdit.edt"Name"=Name
+dlgSgHostingProviderEdit.edt"Password"=Password
 dlgSgHostingProviderEdit.edt"Server URL"=Server URL
 dlgSgHostingProviderEdit.edt"Token"=Token
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
@@ -1654,6 +1673,10 @@ dlgSgRebase.btn"Rebase HEAD to"=Rebase HEAD to
 dlgSgRebase.hdl=Rebase HEAD to
 dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
 dlgSgRebase.tle=Rebase
+dlgSgRebaseConfirmUnreachable.btn"Rebase"=Rebase
+dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
+dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
+dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=Continue
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still is in progress and all changes of this commit have been applied.
 dlgSgRebaseContinueAfterSplittingCommit.hdl=Do you want to continue after splitting the commit?
@@ -1931,6 +1954,11 @@ dlgSgRevertAndCommitConfirmSingle.btn"Revert"=Revert
 dlgSgRevertAndCommitConfirmSingle.fur=This will undo the changes introduced with the selected commit.
 dlgSgRevertAndCommitConfirmSingle.hdl=Do you want to revert the selected commit?
 dlgSgRevertAndCommitConfirmSingle.tle=Revert
+dlgSgRevertConfigurationFile.btn"Revert"=Revert
+dlgSgRevertConfigurationFile.fur=Only changes of these files will be reverted \(without committing\).
+dlgSgRevertConfigurationFile.hdl"Do you want to revert changes of '$1'?"=\
+ Do you want to revert changes of '$1'?
+dlgSgRevertConfigurationFile.tle=Revert
 dlgSgRevertInProgress.fur=You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard.
 dlgSgRevertInProgress.hdl=There is currently a Revert in progress.
 dlgSgRevertInProgress.tle=Revert
