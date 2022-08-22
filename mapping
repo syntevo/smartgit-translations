@@ -25,6 +25,9 @@ dlgDgSetEncoding.edt"Text File Encoding"=Text File Encoding
 dlgDgSetEncoding.hdl=Configure Encoding
 dlgDgSetEncoding.inf=Specify the encoding which should be used for processing and viewing files. Note, that UTF-8 encoding will be auto-detected, regardless of the configuration here.
 dlgDgSetEncoding.tle=Set Encoding
+dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
+dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
+dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgInfo.tle=Discard
 dlgProgress.btn"Stop"=Stop
 dlgProgress.tle"Checking connectivity"=Checking connectivity
@@ -383,6 +386,9 @@ dlgScTextSettings.rbt"Trailing and changed"=Trailing and changed
 dlgScTextSettings.tab"Compare"=Compare
 dlgScTextSettings.tab"General"=General
 dlgScTextSettings.tle=Settings
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=Upgrade Now
 dlgScUpdateInstallationUpgrade.fur%1=The new version $1 has been downloaded which needs to be installed.
 dlgScUpdateInstallationUpgrade.hdl=Do you want to upgrade SmartGit now?
@@ -666,6 +672,9 @@ dlgSgCommitAmendAlreadyPushedCommit.btn"Amend"=Amend
 dlgSgCommitAmendAlreadyPushedCommit.fur=If you amend a pushed commit, you will need to force-push it later. This might overwrite other users' changes.
 dlgSgCommitAmendAlreadyPushedCommit.hdl=Do you want to amend an already pushed commit?
 dlgSgCommitAmendAlreadyPushedCommit.tle=Commit
+dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
+dlgSgCommitCantAmend.hdl=Can't amend commit.
+dlgSgCommitCantAmend.tle=Commit
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Continue Rebase"=Continue Rebase
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=Create Commit
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=The repository is in 'rebasing' state. Instead of creating an additional commit as part of your rebased commits, you will usually just want continue the rebase.
@@ -773,9 +782,10 @@ dlgSgErrorUtilsClientException.fur"Commit '$1' was not found in repository."=\
  Commit '$1' was not found in repository.
 dlgSgErrorUtilsClientException.fur"Could not determine URL for submodule $1. Is it correctly initialized?"=\
  Could not determine URL for submodule $1. Is it correctly initialized?
+dlgSgErrorUtilsClientException.fur"GIT_DIR for repository at '$1' does not exist."=\
+ GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.fur"Repository '$1' is not valid."=Repository '$1' is not valid.
 dlgSgErrorUtilsClientException.fur"svn: $1"=svn: $1
-dlgSgErrorUtilsClientException.fur%1=GIT_DIR for repository at '$1' does not exist.
 dlgSgErrorUtilsClientException.hdl=Executing a command has failed.
 dlgSgErrorUtilsClientException.tle=Command Failed
 dlgSgExitConfirmation.btn"Exit Now"=Exit Now
@@ -886,6 +896,8 @@ dlgSgFlowIntegrateDevelop.btn"Integrate"=Integrate
 dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=\
  Fetch latest '$1' commits from remote repository
 dlgSgFlowIntegrateDevelop.hdl%1=Integrate commits from '$1'
+dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
+ Merge or rebase commits from the base branch to the current feature.
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  Merge or rebase commits from the main development line to the current feature.
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
@@ -926,6 +938,10 @@ dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a whi
 dlgSgGarbageCollector.hdl=Run Garbage Collector
 dlgSgGarbageCollector.inf=Running the Git garbage collector will prune unreachable objects and optimize the local repository in order to reduce disk space and increase performance.
 dlgSgGarbageCollector.tle=Run Garbage Collector
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
+dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
+dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
+dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
 dlgSgGitHubGenerateToken.btn"Authenticate"=Authenticate
 dlgSgGitHubGenerateToken.edt"Account"=Account
 dlgSgGitHubGenerateToken.edt"Code"=Code
@@ -1019,6 +1035,11 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=Modify P
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=Commits which are already pushed are known to other users and may have been used by them to build theirs commits upon. When modifying such commits, these users may run into unexpected conflicts later.
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=Do you want to modify commits which are already pushed?
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=Journal
+dlgSgHistorySplitConfirm.btn"Split"=Split
+dlgSgHistorySplitConfirm.chk=Don't show again
+dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
+dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
+dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgHistorySquash.btn"JIRA"=JIRA
 dlgSgHistorySquash.btn"Select from Log"=Select from Log
 dlgSgHistorySquash.btn"Select"=Select
@@ -1489,11 +1510,22 @@ dlgSgPreferences.lbl"\*\) these options require an application restart to be app
  \*\) these options require an application restart to be applied
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) this option requires an application restart to be applied
+dlgSgPreferences.mni"Accelerator"=Accelerator
+dlgSgPreferences.mni"Account"=Account
+dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
+dlgSgPreferences.mni"Command"=Command
 dlgSgPreferences.mni"Copy Key"=Copy Key
+dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
+dlgSgPreferences.mni"Default"=Default
+dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Edit"=Edit
+dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Reset to Default"=Reset to Default
 dlgSgPreferences.mni"Reset"=Reset
 dlgSgPreferences.mni"Select"=Select
+dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPreferences.mni"Swap"=Swap
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)
@@ -1726,6 +1758,9 @@ dlgSgRebaseInteractive.mni"Neighboring Commits"=Neighboring Commits
 dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
 dlgSgRebaseInteractive.tle=Rebase Interactive
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=Commit Message
 dlgSgRebaseInteractiveMessage.hdl=Edit commit message
 dlgSgRebaseInteractiveMessage.inf=Provide the new message for the commit.
@@ -1894,8 +1929,12 @@ dlgSgRepositorySettings.tab"Tag-Grouping"=Tag-Grouping
 dlgSgRepositorySettings.tab"User & Encoding"=User & Encoding
 dlgSgRepositorySettings.tab"User"=User
 dlgSgRepositorySettings.tle=Repository Settings
+dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
+ The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  The name should not contain an email address.
+dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
+ Without setting your name, you won't be able to commit.
 dlgSgResetAdv.btn"Reset"=Reset
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  Thoroughly fix line endings according to .gitattributes
@@ -1903,6 +1942,16 @@ dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
  Thoroughly fix line-endings according to .gitattributes
 dlgSgResetAdv.hdl%1=Reset to commit $1
 dlgSgResetAdv.inf=Reset the current branch head to the selected commit and optionally update Index and working tree.
+dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
+ Current staged and local changes will be lost!
+dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
+ Current staged changes will be lost!
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
+ The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
  Don't touch the Index nor the working tree - 'soft'
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
@@ -2184,6 +2233,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  Provide the path where the submodule should be added relative to the outer repository root directory.
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  Specify the repository to clone as submodule.
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleAdd.rbt"Local repository"=Local repository
 dlgSgSubmoduleAdd.rbt"Remote repository"=Remote repository
 dlgSgSubmoduleAdd.tle=Add Submodule
@@ -2330,16 +2380,21 @@ pop"$1 succeeded."=$1 succeeded.
 pop"Command $1 has been aborted."=Command $1 has been aborted.
 pop"Modify the previous commit and commit."=\
  Modify the previous commit and commit.
+pop"No more change."=No more change.
 pop"No more changes."=No more changes.
+pop"Select the branch for which to stop tracking."=\
+ Select the branch for which to stop tracking.
 pop"Select the remote to fetch from."=\
  Select the remote to fetch from.
 pop"Select the remote to rename."=Select the remote to rename.
+pop"Select the stash to drop."=Select the stash to drop.
 pop"Select the stash to rename."=Select the stash to rename.
 pop"There are no obsolete repositories."=There are no obsolete repositories.
 pop"There is no action available for this drop operation."=\
  There is no action available for this drop operation.
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  Unstage unwanted changes for the 1st commit, and commit.
+wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=Commit
 wndAnnotate.edt"Highlight"=Highlight
 wndAnnotate.edt"View Commit"=View Commit
@@ -2399,6 +2454,7 @@ wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right 
 wndDeepgit.btn"Go Deeper"=Go Deeper
 wndDeepgit.col"File"=File
 wndDeepgit.col"Modifications"=Modifications
+wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mni"Open File Log"=Open File Log
 wndDeepgit.mni"Open Repository Log"=Open Repository Log
 wndDeepgit.mniAbout=About DeepGit
@@ -2452,6 +2508,10 @@ wndDeepgit.tbr"Diff"=Diff
 wndDeepgit.tbr"Forward"=Forward
 wndDeepgit.tbr"Log"=Log
 wndDeepgit.tbr"Origins"=Origins
+wndDeepgit.tbt"Go to next change."=Go to next change.
+wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbtBack=Go back to previous blame...
+wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
 wndDeepgit.tbtPerspectiveBlameSimple=Find where the line originates from in simple cases when there are no alternative Origins.
 wndDeepgit.tbtPerspectiveCommit=Investigate Log.
@@ -2484,8 +2544,24 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD and Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index and Working Tree
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=Go to next change.
 wndGit.indexEditor.tbtGoto-previous-diff=Go to previous change.
+wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
+wndLog.mni"Committer Abbreviated"=Committer Abbreviated
+wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Committer with Full Name and Email"=\
+ Committer with Full Name and Email
+wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Modification"=Modification
+wndLog.mni"Unstage Hunk"=Unstage Hunk
+wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
+wndLog.mni"Unstage Line"=Unstage Line
+wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
+ If selected and Index as well as Working Tree changes are available, show them separately.
+wndLog.tbt"Reading incoming pull requests from '$1'."=\
+ Reading incoming pull requests from '$1'.
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=Full Screen
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=Maximize

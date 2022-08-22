@@ -1,8 +1,83 @@
+dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
+dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
+dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
+dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
+dlgSgCommitCantAmend.hdl=Can't amend commit.
+dlgSgCommitCantAmend.tle=Commit
+dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
+ Merge or rebase commits from the base branch to the current feature.
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
+dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
+dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
+dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
 dlgSgGitLabGenerateToken.edt"Code"=Code
+dlgSgHistorySplitConfirm.btn"Split"=Split
+dlgSgHistorySplitConfirm.chk=Don't show again
+dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
+dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
+dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgPreferences.edt"Name"=Name
+dlgSgPreferences.mni"Accelerator"=Accelerator
+dlgSgPreferences.mni"Account"=Account
+dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
+dlgSgPreferences.mni"Command"=Command
+dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
+dlgSgPreferences.mni"Default"=Default
+dlgSgPreferences.mni"Details"=Details
+dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Repository"=Repository
+dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
 dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
 dlgSgRebaseConfirmUnreachable.tle=Rebase
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
+dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
+ The entered email address does not look like a valid one.
+dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
+ Without setting your name, you won't be able to commit.
+dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
+ Current staged and local changes will be lost!
+dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
+ Current staged changes will be lost!
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
+ The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgSubmoduleAdd.edt"URL"=URL
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
+pop"No more change."=No more change.
+pop"Select the branch for which to stop tracking."=\
+ Select the branch for which to stop tracking.
+pop"Select the stash to drop."=Select the stash to drop.
+wndAnnotate.edt"By"=By
+wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.tbt"Go to next change."=Go to next change.
+wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbtBack=Go back to previous blame...
+wndDeepgit.tbtForward=Go forward to next blame...
+wndGit.indexEditor.tbtFile-save=Save file modifications.
+wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
+wndLog.mni"Committer Abbreviated"=Committer Abbreviated
+wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Committer with Full Name and Email"=\
+ Committer with Full Name and Email
+wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Modification"=Modification
+wndLog.mni"Unstage Hunk"=Unstage Hunk
+wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
+wndLog.mni"Unstage Line"=Unstage Line
+wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
+ If selected and Index as well as Working Tree changes are available, show them separately.
+wndLog.tbt"Reading incoming pull requests from '$1'."=\
+ Reading incoming pull requests from '$1'.
 wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
 wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=Rebase HEAD to '$1'
