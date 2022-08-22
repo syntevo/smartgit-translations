@@ -1,8 +1,14 @@
+dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
+dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
+dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgScEvaluationReminderContinue.btn"Continue"=Continue
 dlgScEvaluationReminderContinue.btn"Register"=Register
 dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
 dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
 dlgScEvaluationReminderContinue.tle=Evaluation
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
 dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
 dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
 dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
@@ -11,6 +17,20 @@ dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a 
  A remote branch with this name already exists. Use a different name.
 dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
  Do you want to cherry-pick changes of $1 files?
+dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
+dlgSgCommitCantAmend.hdl=Can't amend commit.
+dlgSgCommitCantAmend.tle=Commit
+dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
+ Merge or rebase commits from the base branch to the current feature.
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
+dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
+dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
+dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
+dlgSgHistorySplitConfirm.btn"Split"=Split
+dlgSgHistorySplitConfirm.chk=Don't show again
+dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
+dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
+dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
  Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderEdit.edt"Account"=Account
@@ -19,6 +39,17 @@ dlgSgIgnoreEdit.mni"Reveal"=Reveal
 dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
  Select the local file to saved to.
 dlgSgPreferences.edt"Prefer"=Prefer
+dlgSgPreferences.mni"Accelerator"=Accelerator
+dlgSgPreferences.mni"Account"=Account
+dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
+dlgSgPreferences.mni"Command"=Command
+dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
+dlgSgPreferences.mni"Default"=Default
+dlgSgPreferences.mni"Details"=Details
+dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Repository"=Repository
+dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPullConfiguration.lbl"Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\)."=\
  Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\).
 dlgSgPushForcedSvn.fur=You are about to replace the remote branch. Revisions of that branch might not be \(easily\) accessible anymore.
@@ -44,6 +75,9 @@ dlgSgRebaseInteractive.inf=Reorder or squash commits according to your needs.
 dlgSgRebaseInteractive.mni"Neighboring Commits"=Neighboring Commits
 dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
 dlgSgRebaseInteractiveRemoveCommit.fur=It might become hard or impossible to recover the commit again.
 dlgSgRebaseTagCommit.hdl%1=Should commit $1 be tagged?
 dlgSgRebasingAbortConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
@@ -62,8 +96,22 @@ dlgSgRepositoryRemoveMultiRepo.fur=This will keep the repositories on disk, but 
 dlgSgRepositoryRemoveSingleRepo.fur=This will keep the repositories on disk, but just let SmartGit forget about them.
 dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2=Do you want to remove the repository "$1" and $2 groups?
 dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2=Do you want to remove the repository "$1" and the group "$2"?
+dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
+ The entered email address does not look like a valid one.
+dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
+ Without setting your name, you won't be able to commit.
 dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
  Thoroughly fix line-endings according to .gitattributes
+dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
+ Current staged and local changes will be lost!
+dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
+ Current staged changes will be lost!
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
+ The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgResolve.edt"Content"=Content
 dlgSgResolve.inf=Select which content to use for the resolved file\(s\).
 dlgSgResolve.rbt"Leave as is"=Leave as is
@@ -107,6 +155,7 @@ dlgSgStageConflict.btn"Stage Anyway"=Stage Anyway
 dlgSgStageConflict.hdl%1=Should $1 really be staged?
 dlgSgStageNoFilesFound.fur=Could not find files with modified working tree, untracked or missing files.
 dlgSgStageNoFilesFound.hdl=No files found that could be staged.
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleDeinitConfirm.fur=The submodule will be skipped from the working tree. To get rid from the \(remote\) repository, you have to use Unregister instead.
 dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=Message: $1
@@ -116,6 +165,11 @@ dlgSgWorktreeAddNoMoreLocalBranches.hdl=No \(more\) local branches available.
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
 edt"Search For"=Search For
+pop"No more change."=No more change.
+pop"Select the branch for which to stop tracking."=\
+ Select the branch for which to stop tracking.
+pop"Select the stash to drop."=Select the stash to drop.
+wndAnnotate.edt"By"=By
 wndAnnotate.mniUndo-goto=Undo Go To
 wndAnnotate.mniWindowLineHistory=Line History
 wndAnnotate.rbt"Commit Index"=Commit Index
@@ -129,6 +183,7 @@ wndConflictSolver.tbr"Take Left, Right"=Take Left, Right
 wndConflictSolver.tbr"Take Right, Left"=Take Right, Left
 wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
 wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
+wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniPerspectiveBlameOrigin=Blame+Origins Perspective
 wndDeepgit.mniPerspectiveCommit=Log Perspective
@@ -141,6 +196,10 @@ wndDeepgit.mniWindowHorizontalLayout=Horizontal Blame + Origins Layout
 wndDeepgit.mniWindowVerticalLayout=Vertical Blame + Origins Layout
 wndDeepgit.tbr"Blame+Origins"=Blame+Origins
 wndDeepgit.tbr"Origins"=Origins
+wndDeepgit.tbt"Go to next change."=Go to next change.
+wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbtBack=Go back to previous blame...
+wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
 wndDeepgit.tbtPerspectiveBlameSimple=Find where the line originates from in simple cases when there are no alternative Origins.
 wndDeepgit.tbtPerspectiveCommit=Investigate Log.
@@ -149,6 +208,22 @@ wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line orig
 wndGit.indexEditor.mniView-layout-head-wt-above-index=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndGit.indexEditor.tbtFile-save=Save file modifications.
+wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
+wndLog.mni"Committer Abbreviated"=Committer Abbreviated
+wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Committer with Full Name and Email"=\
+ Committer with Full Name and Email
+wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Modification"=Modification
+wndLog.mni"Unstage Hunk"=Unstage Hunk
+wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
+wndLog.mni"Unstage Line"=Unstage Line
+wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
+ If selected and Index as well as Working Tree changes are available, show them separately.
+wndLog.tbt"Reading incoming pull requests from '$1'."=\
+ Reading incoming pull requests from '$1'.
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-left-right=Take Left, then Right Block
 wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=Take Right, then Left Block
 wnd(Log|Project|Std)."Reveal"=Reveal

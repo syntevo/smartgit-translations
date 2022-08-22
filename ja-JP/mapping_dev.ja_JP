@@ -25,6 +25,9 @@ dlgDgSetEncoding.edt"Text File Encoding"=テキストファイルのエンコー
 dlgDgSetEncoding.hdl=エンコーディング設定
 dlgDgSetEncoding.inf=ファイルの処理と表示に使用するエンコーディングを指定します。なお、UTF-8のエンコーディングは、ここでの設定にかかわらず、自動検出されます。
 dlgDgSetEncoding.tle=エンコーディングを設定する
+dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
+dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
+dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgInfo.tle=破棄
 dlgProgress.btn"Stop"=停止
 dlgProgress.tle"Checking connectivity"=接続を確認中
@@ -383,6 +386,9 @@ dlgScTextSettings.rbt"Trailing and changed"=行末と変更箇所
 dlgScTextSettings.tab"Compare"=比較
 dlgScTextSettings.tab"General"=一般
 dlgScTextSettings.tle=設定
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=今すぐアップグレード
 dlgScUpdateInstallationUpgrade.fur%1=インストールが必要な新しいバージョン $1 がダウンロードされました。
 dlgScUpdateInstallationUpgrade.hdl=今すぐSmartGitをアップグレードしますか？
@@ -666,6 +672,9 @@ dlgSgCommitAmendAlreadyPushedCommit.btn"Amend"=修正する
 dlgSgCommitAmendAlreadyPushedCommit.fur=プッシュしたコミットを修正した場合、後で強制的にプッシュする必要があります。\rこの場合、他のユーザーの変更を上書きしてしまう可能性があります。
 dlgSgCommitAmendAlreadyPushedCommit.hdl=すでにプッシュされているコミットを修正しますか？
 dlgSgCommitAmendAlreadyPushedCommit.tle=コミット
+dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
+dlgSgCommitCantAmend.hdl=Can't amend commit.
+dlgSgCommitCantAmend.tle=Commit
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Continue Rebase"=リベースを続行する
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=コミットを作成
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=リポジトリは「リベース中」の状態です。リベース コミットの一部として追加のコミットを作成する代わりに、通常はリベースを続行するだけです。
@@ -887,6 +896,8 @@ dlgSgFlowIntegrateDevelop.btn"Integrate"=統合
 dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=\
  リモートリポジトリから最新の '$1' コミットを取得する
 dlgSgFlowIntegrateDevelop.hdl%1='$1' からコミットを統合
+dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
+ Merge or rebase commits from the base branch to the current feature.
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  メインの開発ラインから現在の feature にコミットをマージまたはリベースします。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
@@ -927,6 +938,10 @@ dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a whi
 dlgSgGarbageCollector.hdl=ガベージコレクタ
 dlgSgGarbageCollector.inf=Gitガベージコレクタを実行すると、到達できないオブジェクトが削除され、ローカルリポジトリが最適化されます。\rディスク消費量が削減され、パフォーマンスが向上します。
 dlgSgGarbageCollector.tle=ガベージコレクタ
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
+dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
+dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
+dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
 dlgSgGitHubGenerateToken.btn"Authenticate"=認証
 dlgSgGitHubGenerateToken.edt"Account"=アカウント
 dlgSgGitHubGenerateToken.edt"Code"=コード
@@ -1020,6 +1035,11 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=既に�
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=既にプッシュされているコミットは、他のユーザーにも知られており、そのユーザーが自分のコミットを構築する際に使用されている可能性があります。\rこのようなコミットを変更すると、後で予期せぬ衝突が起こる可能性があります。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=既にプッシュされているコミットを修正しますか?
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=ジャーナル
+dlgSgHistorySplitConfirm.btn"Split"=Split
+dlgSgHistorySplitConfirm.chk=Don't show again
+dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
+dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
+dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgHistorySquash.btn"JIRA"==JIRA
 dlgSgHistorySquash.btn"Select from Log"=ログから選択
 dlgSgHistorySquash.btn"Select"=選択
@@ -1490,11 +1510,22 @@ dlgSgPreferences.lbl"\*\) these options require an application restart to be app
  \*\) これらのオプションを適用するには、アプリケーションの再起動が必要です
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) このオプションを適用するには、アプリケーションの再起動が必要です
+dlgSgPreferences.mni"Accelerator"=Accelerator
+dlgSgPreferences.mni"Account"=Account
+dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
+dlgSgPreferences.mni"Command"=Command
 dlgSgPreferences.mni"Copy Key"=キーをコピー
+dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
+dlgSgPreferences.mni"Default"=Default
+dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Edit"=編集
+dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
 dlgSgPreferences.mni"Reset"=リセット
 dlgSgPreferences.mni"Select"=選択
+dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPreferences.mni"Swap"=入れ替え
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  Advanced \(マージ、リベース、無視、スタッシュ、タグ、履歴の修正\)
@@ -1727,6 +1758,9 @@ dlgSgRebaseInteractive.mni"Neighboring Commits"=Neighboring Commits
 dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
 dlgSgRebaseInteractive.tle=対話的なリベース
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=コミットメッセージ
 dlgSgRebaseInteractiveMessage.hdl=コミットメッセージを編集
 dlgSgRebaseInteractiveMessage.inf=コミット用の新しいメッセージを指定します。
@@ -1895,8 +1929,12 @@ dlgSgRepositorySettings.tab"Tag-Grouping"=タグ-グルーピング
 dlgSgRepositorySettings.tab"User & Encoding"=ユーザーとエンコーディング
 dlgSgRepositorySettings.tab"User"=ユーザー
 dlgSgRepositorySettings.tle=リポジトリの設定
+dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
+ The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  名前に電子メール アドレスを含めないでください。
+dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
+ Without setting your name, you won't be able to commit.
 dlgSgResetAdv.btn"Reset"=リセット
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  .gitattributesに従い改行コードを修正する
@@ -1904,6 +1942,16 @@ dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
  Thoroughly fix line-endings according to .gitattributes
 dlgSgResetAdv.hdl%1=コミット $1 にリセット
 dlgSgResetAdv.inf=現在のブランチのHEADを選択したコミットにリセットし、オプションでインデックスと作業ツリーを更新します。
+dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
+ Current staged and local changes will be lost!
+dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
+ Current staged changes will be lost!
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
+ The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
  インデックスにもワーキングツリーにも触れない - 'soft'
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
@@ -2185,6 +2233,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  サブモジュールを追加するパスを、外部リポジトリのルート ディレクトリからの相対パスで指定します。
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  サブモジュールとしてクローンするリポジトリを指定します。
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleAdd.rbt"Local repository"=ローカルリポジトリ
 dlgSgSubmoduleAdd.rbt"Remote repository"=リモートリポジトリ
 dlgSgSubmoduleAdd.tle=サブモジュールを追加
@@ -2331,16 +2380,21 @@ pop"$1 succeeded."=$1 が成功しました。
 pop"Command $1 has been aborted."=コマンド$1が中断されました。
 pop"Modify the previous commit and commit."=\
  前回のコミットを修正し、コミットする。
+pop"No more change."=No more change.
 pop"No more changes."=これ以上の変更はありません。
+pop"Select the branch for which to stop tracking."=\
+ Select the branch for which to stop tracking.
 pop"Select the remote to fetch from."=\
  取得するリモートを選択します。
 pop"Select the remote to rename."=名前を変更するリモートを選択します。
+pop"Select the stash to drop."=Select the stash to drop.
 pop"Select the stash to rename."=名前を変更するスタッシュを選択します。
 pop"There are no obsolete repositories."=廃止されたリポジトリはありません。
 pop"There is no action available for this drop operation."=\
  このドロップ操作に使用できるアクションはありません。
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  1回目のコミットで不要な変更をアンステージし、コミットします。
+wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=コミット
 wndAnnotate.edt"Highlight"=ハイライト
 wndAnnotate.edt"View Commit"=コミットを表示
@@ -2400,6 +2454,7 @@ wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right 
 wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
+wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mni"Open File Log"=ファイルログを開く
 wndDeepgit.mni"Open Repository Log"=リポジトリログを開く
 wndDeepgit.mniAbout=DeepGitについて
@@ -2453,6 +2508,10 @@ wndDeepgit.tbr"Diff"=差分
 wndDeepgit.tbr"Forward"=進む
 wndDeepgit.tbr"Log"=ログ
 wndDeepgit.tbr"Origins"=Origins
+wndDeepgit.tbt"Go to next change."=Go to next change.
+wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbtBack=Go back to previous blame...
+wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
 wndDeepgit.tbtPerspectiveBlameSimple=Find where the line originates from in simple cases when there are no alternative Origins.
 wndDeepgit.tbtPerspectiveCommit=Investigate Log.
@@ -2485,8 +2544,24 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD と Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=次の変更点に進みます。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
+wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
+wndLog.mni"Committer Abbreviated"=Committer Abbreviated
+wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Committer with Full Name and Email"=\
+ Committer with Full Name and Email
+wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Modification"=Modification
+wndLog.mni"Unstage Hunk"=Unstage Hunk
+wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
+wndLog.mni"Unstage Line"=Unstage Line
+wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
+ If selected and Index as well as Working Tree changes are available, show them separately.
+wndLog.tbt"Reading incoming pull requests from '$1'."=\
+ Reading incoming pull requests from '$1'.
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=準備完了
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=フルスクリーン
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化
