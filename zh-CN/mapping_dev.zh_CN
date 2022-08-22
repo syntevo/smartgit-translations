@@ -50,6 +50,9 @@ dlgDgSetEncoding.edt"Text File Encoding"=文本文件编码
 dlgDgSetEncoding.hdl=配置编码
 dlgDgSetEncoding.inf=指定应用于处理和查看文件的编码。请注意,UTF-8 编码将自动检测到,而不考虑此处的配置。
 dlgDgSetEncoding.tle=设置编码
+dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
+dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
+dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgInfo.tle=丢弃
 dlgProgress.btn"Stop"=停止
 dlgProgress.tle"Checking connectivity"=检查连接
@@ -408,6 +411,9 @@ dlgScTextSettings.rbt"Trailing and changed"=跟踪和更改
 dlgScTextSettings.tab"Compare"=比较
 dlgScTextSettings.tab"General"=常规
 dlgScTextSettings.tle=设置
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=现在升级
 dlgScUpdateInstallationUpgrade.fur%1=新版本 $1 已经下载，需要安装。
 dlgScUpdateInstallationUpgrade.hdl=是否要立即升级 SmartGit？
@@ -691,6 +697,9 @@ dlgSgCommitAmendAlreadyPushedCommit.btn"Amend"=修改
 dlgSgCommitAmendAlreadyPushedCommit.fur=如果修改已推送的提交，你需要稍后强制推送它。这可能会覆盖其他用户的更改。
 dlgSgCommitAmendAlreadyPushedCommit.hdl=你确定要修改已推送的提交吗？
 dlgSgCommitAmendAlreadyPushedCommit.tle=提交
+dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
+dlgSgCommitCantAmend.hdl=Can't amend commit.
+dlgSgCommitCantAmend.tle=Commit
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Continue Rebase"=继续变基
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=创建提交
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=仓库处于 “变基” 状态。 您通常只想继续使用变基，而不是在重新提交的提交中创建额外的提交。
@@ -912,6 +921,8 @@ dlgSgFlowIntegrateDevelop.btn"Integrate"=整合
 dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=\
  从远程仓库获取最新的 “$1” 提交
 dlgSgFlowIntegrateDevelop.hdl%1=整合来自 “$1” 的提交
+dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
+ Merge or rebase commits from the base branch to the current feature.
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  把主开发线合并或变基提交到当前 feature 分支。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
@@ -952,6 +963,10 @@ dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a whi
 dlgSgGarbageCollector.hdl=运行垃圾回收器
 dlgSgGarbageCollector.inf=运行 Git 垃圾回收器将删除不可访问的对象并优化本地仓库，以减少磁盘空间并提高性能。
 dlgSgGarbageCollector.tle=运行垃圾回收器
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
+dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
+dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
+dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
 dlgSgGitHubGenerateToken.btn"Authenticate"=认证
 dlgSgGitHubGenerateToken.edt"Account"=账号
 dlgSgGitHubGenerateToken.edt"Code"=代码
@@ -1045,6 +1060,11 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=修改�
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=已推送的提交对于其他用户是已知的，并且可能已被他们用于构建他们的提交。修改此类提交时，这些用户可能会在以后遇到意外冲突。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=你想修改已推送的提交吗？
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=日志
+dlgSgHistorySplitConfirm.btn"Split"=Split
+dlgSgHistorySplitConfirm.chk=Don't show again
+dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
+dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
+dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgHistorySquash.btn"JIRA"=JIRA
 dlgSgHistorySquash.btn"Select from Log"=从日志中选择
 dlgSgHistorySquash.btn"Select"=选择
@@ -1515,11 +1535,22 @@ dlgSgPreferences.lbl"\*\) these options require an application restart to be app
  \*\) 这些选项需要重新启动应用程序
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) 这些选项需要重新启动应用程序
+dlgSgPreferences.mni"Accelerator"=Accelerator
+dlgSgPreferences.mni"Account"=Account
+dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
+dlgSgPreferences.mni"Command"=Command
 dlgSgPreferences.mni"Copy Key"=复制键
+dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
+dlgSgPreferences.mni"Default"=Default
+dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Edit"=编辑
+dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Reset to Default"=重置为默认值
 dlgSgPreferences.mni"Reset"=重置
 dlgSgPreferences.mni"Select"=选择
+dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPreferences.mni"Swap"=交换
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  高级 \(合并、变基、忽略、隐藏、标签、历史记录修改\)
@@ -1752,6 +1783,9 @@ dlgSgRebaseInteractive.mni"Neighboring Commits"=相邻提交
 dlgSgRebaseInteractive.mni"To Bottom Commit"=转到底部提交
 dlgSgRebaseInteractive.mni"To Top Commit"=转到顶部提交
 dlgSgRebaseInteractive.tle=交互式变基
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=提交消息
 dlgSgRebaseInteractiveMessage.hdl=编辑提交消息
 dlgSgRebaseInteractiveMessage.inf=提供新的提交消息.
@@ -1920,8 +1954,12 @@ dlgSgRepositorySettings.tab"Tag-Grouping"=标签分组
 dlgSgRepositorySettings.tab"User & Encoding"=用户和编码
 dlgSgRepositorySettings.tab"User"=用户
 dlgSgRepositorySettings.tle=仓库设置
+dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
+ The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  该名称不应包含电子邮件地址。
+dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
+ Without setting your name, you won't be able to commit.
 dlgSgResetAdv.btn"Reset"=重置
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  根据 .gitattributes 彻底修复行尾
@@ -1929,6 +1967,16 @@ dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
  根据 .gitattributes 彻底修复行尾
 dlgSgResetAdv.hdl%1=重置提交 $1
 dlgSgResetAdv.inf=将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作区。
+dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
+ Current staged and local changes will be lost!
+dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
+ Current staged changes will be lost!
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
+ Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
+ The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
  不要变更索引或工作区 - “--soft”
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
@@ -2210,6 +2258,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  提供要添加的子模块相对于外部版本库根目录的相对路径.
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  指定要克隆为子模块的的版本仓库.
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleAdd.rbt"Local repository"=本地仓库
 dlgSgSubmoduleAdd.rbt"Remote repository"=远程仓库
 dlgSgSubmoduleAdd.tle=添加子模块
@@ -2356,16 +2405,21 @@ pop"$1 succeeded."=$1 成功。
 pop"Command $1 has been aborted."=命令 $1 已中止。
 pop"Modify the previous commit and commit."=\
  修改先前的提交和提交。
+pop"No more change."=No more change.
 pop"No more changes."=没有差异。
+pop"Select the branch for which to stop tracking."=\
+ Select the branch for which to stop tracking.
 pop"Select the remote to fetch from."=\
  选择要从中获取的远程仓库。
 pop"Select the remote to rename."=选择要重命名的远程。
+pop"Select the stash to drop."=Select the stash to drop.
 pop"Select the stash to rename."=选择要重命名的存储。
 pop"There are no obsolete repositories."=没有过时的仓库。
 pop"There is no action available for this drop operation."=\
  此删除操作没有可用的操作。
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  取消暂存第一次提交和提交的不需要的更改。
+wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=提交
 wndAnnotate.edt"Highlight"=高亮
 wndAnnotate.edt"View Commit"=查看提交
@@ -2425,6 +2479,7 @@ wndConflictSolver.tbtView-layout-left-right-above-merge=在合并文件上方显
 wndDeepgit.btn"Go Deeper"=更深入
 wndDeepgit.col"File"=文件
 wndDeepgit.col"Modifications"=修改
+wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mni"Open File Log"=打开文件日志
 wndDeepgit.mni"Open Repository Log"=打开仓库日志
 wndDeepgit.mniAbout=关于 DeepGit
@@ -2478,6 +2533,10 @@ wndDeepgit.tbr"Diff"=差异
 wndDeepgit.tbr"Forward"=向前
 wndDeepgit.tbr"Log"=日志
 wndDeepgit.tbr"Origins"=起源
+wndDeepgit.tbt"Go to next change."=Go to next change.
+wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbtBack=Go back to previous blame...
+wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=在需要从一个可能的起源中进行选择的情况下，查找线的起源位置。
 wndDeepgit.tbtPerspectiveBlameSimple=在没有替代起源的情况下，在简单的情况下找到线的起源。
 wndDeepgit.tbtPerspectiveCommit=调查记录。
@@ -2510,8 +2569,24 @@ wndGit.indexEditor.mniView-layout-left-merge=左合并
 wndGit.indexEditor.mniView-layout-left-right-above-merge=左右合并
 wndGit.indexEditor.mniView-layout-right-merge=右合并
 wndGit.indexEditor.tbtEdit-take-left=将左侧块移至合并结果。根据左侧块，这将在合并结果处插入，替换或删除。
+wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=下一处更改。
 wndGit.indexEditor.tbtGoto-previous-diff=上一处更改。
+wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
+wndLog.mni"Committer Abbreviated"=Committer Abbreviated
+wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Committer with Full Name and Email"=\
+ Committer with Full Name and Email
+wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Modification"=Modification
+wndLog.mni"Unstage Hunk"=Unstage Hunk
+wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
+wndLog.mni"Unstage Line"=Unstage Line
+wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
+ If selected and Index as well as Working Tree changes are available, show them separately.
+wndLog.tbt"Reading incoming pull requests from '$1'."=\
+ Reading incoming pull requests from '$1'.
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=就绪
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=全屏
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化
