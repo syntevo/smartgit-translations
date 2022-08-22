@@ -192,6 +192,11 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=強制終了
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit のインストール ファイル (JAR ファイル) に不整合があることが判明しました。\n\nSmartGit を完全にアンインストールし、インストール ファイル (特に JAR ファイル) が残っていないことを確認してから、再インストールしてください。\n\n問題が解決しない場合は、次のログ ファイルを smartgit@syntevo.com に添付して送信してください。
 dlgScDialogAssertionHandlerLinkageError.tle=内部エラー
+dlgScEvaluationReminderContinue.btn"Continue"=Continue
+dlgScEvaluationReminderContinue.btn"Register"=Register
+dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
+dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
+dlgScEvaluationReminderContinue.tle=Evaluation
 dlgScFileComparatorAdd.hdl=外部Diffツールの追加
 dlgScFileComparatorAdd.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorAdd.mni"Base File"=ベースファイル
@@ -429,6 +434,11 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
 dlgSgAuthenticationShowPassword.edt"Password"=パスワード
 dlgSgAuthenticationShowPassword.tle%1=$1 のパスワード
+dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
+dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
+dlgSgBisectResult.fur%1=$1
+dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
+dlgSgBisectResult.tle=Bisect Finished
 dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=ヘッドを 'bad' とマークして問題箇所の特定\(bisect\)を開始
 dlgSgBisectStartConfirm.btn"Start Bisect"=問題箇所の特定\(bisect\)を開始
 dlgSgBisectStartConfirm.fur=Gitが二分探索で問題箇所の特定を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。
@@ -444,6 +454,8 @@ dlgSgBitbucketGenerateToken.tle=アクセストークンを要求する
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=ブランチを追加しチェックアウト
 dlgSgBranchAddCheckout.btn"Add Branch"=ブランチを追加
 dlgSgBranchAddCheckout.edt"Branch"=ブランチ
+dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a different name."=\
+ A remote branch with this name already exists. Use a different name.
 dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't be used."=\
  別のブランチを選択してください。現在のブランチは使用できません。
 dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
@@ -540,7 +552,10 @@ dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=ブランチ '$1' はすでに�
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=チェックアウト
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfigurationFile.fur=これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。
-dlgSgCherryPickConfigurationFile.hdl%1='$1' の変更をチェリーピックしますか?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
+ Do you want to cherry-pick changes of $1 files?
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
+ '$1' の変更をチェリーピックしますか?
 dlgSgCherryPickConfigurationFile.tle=チェリーピック
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=チェリーピック && コミット
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=チェリーピック
@@ -1063,11 +1078,15 @@ dlgSgHostingProviderEdit.chk"Use OAuth token for repository authentication \(ins
  リポジトリの認証に（パスワードではなく）OAuthトークンを使用する
 dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
  リポジトリへのアクセスにHTTPSではなくSSHを使用する
+dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
+ Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=GitHub Enterpriseインスタンスの使用
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=カスタムGitLabサーバーの使用
+dlgSgHostingProviderEdit.edt"Account"=Account
 dlgSgHostingProviderEdit.edt"Certificate Password"=証明書のパスワード
 dlgSgHostingProviderEdit.edt"Client Certificate"=クライアント証明書
 dlgSgHostingProviderEdit.edt"Name"=名前
+dlgSgHostingProviderEdit.edt"Password"=Password
 dlgSgHostingProviderEdit.edt"Server URL"=サーバURL
 dlgSgHostingProviderEdit.edt"Token"=トークン
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
@@ -1654,6 +1673,10 @@ dlgSgRebase.btn"Rebase HEAD to"=HEAD を 選択したコミットにリベース
 dlgSgRebase.hdl=HEAD を 選択したコミットにリベース
 dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
 dlgSgRebase.tle=リベース
+dlgSgRebaseConfirmUnreachable.btn"Rebase"=Rebase
+dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
+dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
+dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=続ける
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still is in progress and all changes of this commit have been applied.
 dlgSgRebaseContinueAfterSplittingCommit.hdl=コミットを分割した後、続行しますか？
@@ -1931,6 +1954,11 @@ dlgSgRevertAndCommitConfirmSingle.btn"Revert"=リバート
 dlgSgRevertAndCommitConfirmSingle.fur=This will undo the changes introduced with the selected commit.
 dlgSgRevertAndCommitConfirmSingle.hdl=選択したコミットを取り消しますか？
 dlgSgRevertAndCommitConfirmSingle.tle=リバート
+dlgSgRevertConfigurationFile.btn"Revert"=Revert
+dlgSgRevertConfigurationFile.fur=Only changes of these files will be reverted \(without committing\).
+dlgSgRevertConfigurationFile.hdl"Do you want to revert changes of '$1'?"=\
+ Do you want to revert changes of '$1'?
+dlgSgRevertConfigurationFile.tle=Revert
 dlgSgRevertInProgress.fur=You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard.
 dlgSgRevertInProgress.hdl=There is currently a Revert in progress.
 dlgSgRevertInProgress.tle=リバート
