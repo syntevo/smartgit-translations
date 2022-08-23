@@ -195,11 +195,11 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=強制終了
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit のインストール ファイル (JAR ファイル) に不整合があることが判明しました。\n\nSmartGit を完全にアンインストールし、インストール ファイル (特に JAR ファイル) が残っていないことを確認してから、再インストールしてください。\n\n問題が解決しない場合は、次のログ ファイルを smartgit@syntevo.com に添付して送信してください。
 dlgScDialogAssertionHandlerLinkageError.tle=内部エラー
-dlgScEvaluationReminderContinue.btn"Continue"=Continue
-dlgScEvaluationReminderContinue.btn"Register"=Register
-dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
-dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
-dlgScEvaluationReminderContinue.tle=Evaluation
+dlgScEvaluationReminderContinue.btn"Continue"=続ける
+dlgScEvaluationReminderContinue.btn"Register"=登録
+dlgScEvaluationReminderContinue.fur%2=商用環境で SmartGit を使用するには、\[$1 ライセンスを購入\]する必要があります。\n\n \[$2 特定の用途\] については、無料のライセンスを付与します。
+dlgScEvaluationReminderContinue.hdl%1=SmartGit の評価期間は $1 日後に終了します。
+dlgScEvaluationReminderContinue.tle=評価
 dlgScFileComparatorAdd.hdl=外部Diffツールの追加
 dlgScFileComparatorAdd.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorAdd.mni"Base File"=ベースファイル
@@ -386,9 +386,9 @@ dlgScTextSettings.rbt"Trailing and changed"=行末と変更箇所
 dlgScTextSettings.tab"Compare"=比較
 dlgScTextSettings.tab"General"=一般
 dlgScTextSettings.tle=設定
-dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
-dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
-dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1='$1' を手動で削除して、アップグレードを再試行してください。
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=アップデータのディレクトリの消去に失敗しました。
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit インストールの更新
 dlgScUpdateInstallationUpgrade.btn"Upgrade Now"=今すぐアップグレード
 dlgScUpdateInstallationUpgrade.fur%1=インストールが必要な新しいバージョン $1 がダウンロードされました。
 dlgScUpdateInstallationUpgrade.hdl=今すぐSmartGitをアップグレードしますか？
@@ -440,15 +440,15 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
 dlgSgAuthenticationShowPassword.edt"Password"=パスワード
 dlgSgAuthenticationShowPassword.tle%1=$1 のパスワード
-dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
-dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
-dlgSgBisectResult.fur%1=$1
-dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
-dlgSgBisectResult.tle=Bisect Finished
-dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=ヘッドを 'bad' とマークして問題箇所の特定\(bisect\)を開始
-dlgSgBisectStartConfirm.btn"Start Bisect"=問題箇所の特定\(bisect\)を開始
+dlgSgBisectResult.btn"Continue Bisect"=問題箇所の特定を続行
+dlgSgBisectResult.btn"Leave Bisect"=問題箇所の特定をやめる
+dlgSgBisectResult.fur%1==$1
+dlgSgBisectResult.hdl=最初のバッドコミットを特定しました。
+dlgSgBisectResult.tle=問題箇所の特定を終了
+dlgSgBisectStartConfirm.btn"Start Bisect with Bad HEAD"=ヘッドを 'bad' とマークして問題箇所の特定を開始
+dlgSgBisectStartConfirm.btn"Start Bisect"=問題箇所の特定を開始
 dlgSgBisectStartConfirm.fur=Gitが二分探索で問題箇所の特定を開始する前に、1つのコミットをgood、1つのコミットをbadとしてマークする必要があります。
-dlgSgBisectStartConfirm.hdl=バッドコミットで問題箇所の特定'(bisect')を開始する必要がありますか?
+dlgSgBisectStartConfirm.hdl=バッドコミットで問題箇所の特定を開始する必要がありますか?
 dlgSgBisectStartConfirm.tle=問題箇所の特定\(bisect\)を開始
 dlgSgBitbucketGenerateToken.edt"Code"=コード
 dlgSgBitbucketGenerateToken.edt"Link"=リンク
@@ -461,7 +461,7 @@ dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=ブランチを追加しチ�
 dlgSgBranchAddCheckout.btn"Add Branch"=ブランチを追加
 dlgSgBranchAddCheckout.edt"Branch"=ブランチ
 dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a different name."=\
- A remote branch with this name already exists. Use a different name.
+ この名前のリモートブランチはすでに存在しています。別の名前を使用してください。
 dlgSgBranchAddCheckout.err"Choose a different branch, the current branch can't be used."=\
  別のブランチを選択してください。現在のブランチは使用できません。
 dlgSgBranchAddCheckout.err"Enter the name of the local branch."=\
@@ -559,7 +559,7 @@ dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=チェックアウト
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfigurationFile.fur=これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。
 dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
- Do you want to cherry-pick changes of $1 files?
+ $1 ファイルの変更をチェリーピックしますか?
 dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
  '$1' の変更をチェリーピックしますか?
 dlgSgCherryPickConfigurationFile.tle=チェリーピック
@@ -672,9 +672,9 @@ dlgSgCommitAmendAlreadyPushedCommit.btn"Amend"=修正する
 dlgSgCommitAmendAlreadyPushedCommit.fur=プッシュしたコミットを修正した場合、後で強制的にプッシュする必要があります。\rこの場合、他のユーザーの変更を上書きしてしまう可能性があります。
 dlgSgCommitAmendAlreadyPushedCommit.hdl=すでにプッシュされているコミットを修正しますか？
 dlgSgCommitAmendAlreadyPushedCommit.tle=コミット
-dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
-dlgSgCommitCantAmend.hdl=Can't amend commit.
-dlgSgCommitCantAmend.tle=Commit
+dlgSgCommitCantAmend.fur=すでにプッシュされたコミットを変更することはできません。何をしているのか分かっていて有効にしたい場合は、設定で「プッシュされたコミットの変更を許可する」オプションを選択してください。
+dlgSgCommitCantAmend.hdl=コミットを修正できません。
+dlgSgCommitCantAmend.tle=コミット
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Continue Rebase"=リベースを続行する
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=コミットを作成
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=リポジトリは「リベース中」の状態です。リベース コミットの一部として追加のコミットを作成する代わりに、通常はリベースを続行するだけです。
@@ -851,7 +851,7 @@ dlgSgFlowFeatureFinish.inf"Choose how to finish the feature branch '$1'. This op
 dlgSgFlowFeatureFinish.mni"JIRA"==JIRA
 dlgSgFlowFeatureFinish.mni"Log"=ログ
 dlgSgFlowFeatureFinish.rbt"Create merge commit"=マージコミットを作成
-dlgSgFlowFeatureFinish.rbt"Create simple commit \(squash\)"=単純なコミット \(スカッシュ\) を作成する
+dlgSgFlowFeatureFinish.rbt"Create simple commit \(squash\)"=シンプルなコミットを作成する \('squash'\)
 dlgSgFlowFeatureFinish.rbt"Rebase onto '$1'"='$1' にリベースする。
 dlgSgFlowFeatureFinish.tle=Featureを完了
 dlgSgFlowFeatureStart.btn"Start"=開始
@@ -897,7 +897,7 @@ dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=
  リモートリポジトリから最新の '$1' コミットを取得する
 dlgSgFlowIntegrateDevelop.hdl%1='$1' からコミットを統合
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- Merge or rebase commits from the base branch to the current feature.
+ ベース ブランチから現在の feature にコミットをマージまたはリベースします。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  メインの開発ラインから現在の feature にコミットをマージまたはリベースします。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
@@ -938,10 +938,10 @@ dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a whi
 dlgSgGarbageCollector.hdl=ガベージコレクタ
 dlgSgGarbageCollector.inf=Gitガベージコレクタを実行すると、到達できないオブジェクトが削除され、ローカルリポジトリが最適化されます。\rディスク消費量が削減され、パフォーマンスが向上します。
 dlgSgGarbageCollector.tle=ガベージコレクタ
-dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
-dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
-dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
-dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
+dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=スタッシュを削除
+dlgSgGarbageCollectorDeleteAllStashes.fur=今すぐ reflog を期限切れにすると、すべての スタッシュ も削除されます。
+dlgSgGarbageCollectorDeleteAllStashes.hdl=すべてのスタッシュも削除しますか？
+dlgSgGarbageCollectorDeleteAllStashes.tle=ガベージコレクタの実行
 dlgSgGitHubGenerateToken.btn"Authenticate"=認証
 dlgSgGitHubGenerateToken.edt"Account"=アカウント
 dlgSgGitHubGenerateToken.edt"Code"=コード
@@ -1035,11 +1035,11 @@ dlgSgHistoryPushedCommitsModifyPushedCommits.btn"Modify Pushed Commits"=既に�
 dlgSgHistoryPushedCommitsModifyPushedCommits.fur=既にプッシュされているコミットは、他のユーザーにも知られており、そのユーザーが自分のコミットを構築する際に使用されている可能性があります。\rこのようなコミットを変更すると、後で予期せぬ衝突が起こる可能性があります。
 dlgSgHistoryPushedCommitsModifyPushedCommits.hdl=既にプッシュされているコミットを修正しますか?
 dlgSgHistoryPushedCommitsModifyPushedCommits.tle=ジャーナル
-dlgSgHistorySplitConfirm.btn"Split"=Split
-dlgSgHistorySplitConfirm.chk=Don't show again
-dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
-dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
-dlgSgHistorySplitConfirm.tle=Split Commit
+dlgSgHistorySplitConfirm.btn"Split"=分割
+dlgSgHistorySplitConfirm.chk=次回から表示しない
+dlgSgHistorySplitConfirm.fur=これにより、コミットの変更がインデックスに格納されます。2 番目のコミットで行うべき変更をアンステージしてからステージングされた変更をコミットします。続2 回目 （または 3 回目） のコミットで残りの変更をコミットします。\n\n完了後、リベースを続行して残りのコミットを処理します。
+dlgSgHistorySplitConfirm.hdl=選択したコミットを複数のコミットに分割しますか?
+dlgSgHistorySplitConfirm.tle=コミットの分割
 dlgSgHistorySquash.btn"JIRA"==JIRA
 dlgSgHistorySquash.btn"Select from Log"=ログから選択
 dlgSgHistorySquash.btn"Select"=選択
@@ -1100,14 +1100,14 @@ dlgSgHostingProviderEdit.chk"Use OAuth token for repository authentication \(ins
 dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
  リポジトリへのアクセスにHTTPSではなくSSHを使用する
 dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
- Use SSL client certificates \(usually not required\)
+ SSLクライアント証明書の使用（通常は必要ありません）
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=GitHub Enterpriseインスタンスの使用
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=カスタムGitLabサーバーの使用
-dlgSgHostingProviderEdit.edt"Account"=Account
+dlgSgHostingProviderEdit.edt"Account"=アカウント
 dlgSgHostingProviderEdit.edt"Certificate Password"=証明書のパスワード
 dlgSgHostingProviderEdit.edt"Client Certificate"=クライアント証明書
 dlgSgHostingProviderEdit.edt"Name"=名前
-dlgSgHostingProviderEdit.edt"Password"=Password
+dlgSgHostingProviderEdit.edt"Password"=パスワード
 dlgSgHostingProviderEdit.edt"Server URL"=サーバURL
 dlgSgHostingProviderEdit.edt"Token"=トークン
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
@@ -1200,7 +1200,7 @@ dlgSgLogCheckoutFileAs.btn"Save Before"=前を保存
 dlgSgLogCheckoutFileAs.edt"Target File"=ターゲットファイル
 dlgSgLogCheckoutFileAs.hdl=リポジトリファイルの保存
 dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
- Select the local file to saved to.
+ 保存先のローカル ファイルを選択します。
 dlgSgLogCheckoutFileAs.inf"Select whether to save the file state Before or After the selected commit."=\
  選択したコミット後 又は コミット前のファイル状態を保存するかどうかを選択します。
 dlgSgLogCheckoutFileAs.tle=ファイルを別名で保存
@@ -1510,22 +1510,22 @@ dlgSgPreferences.lbl"\*\) these options require an application restart to be app
  \*\) これらのオプションを適用するには、アプリケーションの再起動が必要です
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) このオプションを適用するには、アプリケーションの再起動が必要です
-dlgSgPreferences.mni"Accelerator"=Accelerator
-dlgSgPreferences.mni"Account"=Account
-dlgSgPreferences.mni"Applies To"=Applies To
-dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
-dlgSgPreferences.mni"Command"=Command
+dlgSgPreferences.mni"Accelerator"=ショートカット
+dlgSgPreferences.mni"Account"=アカウント
+dlgSgPreferences.mni"Applies To"=適用対象
+dlgSgPreferences.mni"Command + Arguments"=コマンドと引数
+dlgSgPreferences.mni"Command"=コマンド
 dlgSgPreferences.mni"Copy Key"=キーをコピー
-dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
-dlgSgPreferences.mni"Default"=Default
-dlgSgPreferences.mni"Details"=Details
+dlgSgPreferences.mni"Copy Selection in Column"=この列の選択範囲をコピーする
+dlgSgPreferences.mni"Default"=デフォルト
+dlgSgPreferences.mni"Details"=詳細
 dlgSgPreferences.mni"Edit"=編集
-dlgSgPreferences.mni"Name"=Name
-dlgSgPreferences.mni"Repository"=Repository
+dlgSgPreferences.mni"Name"=名前
+dlgSgPreferences.mni"Repository"=リポジトリ
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
 dlgSgPreferences.mni"Reset"=リセット
 dlgSgPreferences.mni"Select"=選択
-dlgSgPreferences.mni"Shortcut"=Shortcut
+dlgSgPreferences.mni"Shortcut"=ショートカット
 dlgSgPreferences.mni"Swap"=入れ替え
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  Advanced \(マージ、リベース、無視、スタッシュ、タグ、履歴の修正\)
@@ -1705,10 +1705,10 @@ dlgSgRebase.btn"Rebase HEAD to"=HEAD を 選択したコミットにリベース
 dlgSgRebase.hdl=HEAD を 選択したコミットにリベース
 dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
 dlgSgRebase.tle=リベース
-dlgSgRebaseConfirmUnreachable.btn"Rebase"=Rebase
+dlgSgRebaseConfirmUnreachable.btn"Rebase"=リベース
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
 dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
-dlgSgRebaseConfirmUnreachable.tle=Rebase
+dlgSgRebaseConfirmUnreachable.tle=リベース
 dlgSgRebaseContinueAfterSplittingCommit.btn"Continue"=続ける
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still is in progress and all changes of this commit have been applied.
 dlgSgRebaseContinueAfterSplittingCommit.hdl=コミットを分割した後、続行しますか？
@@ -1730,7 +1730,7 @@ dlgSgRebaseContinuePreserveUntrackedFiles.btn"Preserve"=Preserve
 dlgSgRebaseContinuePreserveUntrackedFiles.fur=作業ツリーに追跡されていないファイルが含まれています。それらを作業ツリーに保存するか、リベース後のコミットに含めるかを選択することができます。
 dlgSgRebaseContinuePreserveUntrackedFiles.hdl=追跡されていないファイルを作業ツリーに保持しますか?
 dlgSgRebaseContinuePreserveUntrackedFiles.tle=リベース
-dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Continue Anyway"=Continue Anyway
+dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Continue Anyway"=とにかく続ける
 dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Put Changes into Index"=Put Changes into Index
 dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1=The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\n\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes.
 dlgSgRebaseContinueWithoutApplyingAllChanges.hdl=すべての変更を適用せずに、コミットの分割を続行しますか?
@@ -1759,8 +1759,8 @@ dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
 dlgSgRebaseInteractive.tle=対話的なリベース
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
-dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
-dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
+dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=初期コミットの変更は、対話型リベースではサポートされていません。
+dlgSgRebaseInteractiveInitialCommitNotSupported.tle=対話的なリベース
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=コミットメッセージ
 dlgSgRebaseInteractiveMessage.hdl=コミットメッセージを編集
 dlgSgRebaseInteractiveMessage.inf=コミット用の新しいメッセージを指定します。
@@ -1775,7 +1775,7 @@ dlgSgRebaseTagCommit.fur=リベースの後、残りのコミットには到達�
 dlgSgRebaseTagCommit.hdl%1=Should commit $1 be tagged?
 dlgSgRebaseTagCommit.tle=リベース
 dlgSgRebasingAbortConfirm.btn"Abort Rebase"=リベースを中断
-dlgSgRebasingAbortConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
+dlgSgRebasingAbortConfirm.fur=作業ツリーは「リベース」状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\[ブランチ\]→\[リベース\]→\[リベース HEAD to\] を使用してください。\n\n中止すると、ローカルの変更を消去することができます。\('git reset --hard' の実行\）
 dlgSgRebasingAbortConfirm.hdl=リベースを中止しますか？
 dlgSgRebasingAbortConfirm.tle=リベース
 dlgSgRecursiveStage.btn"Stage"=ステージ
@@ -1897,9 +1897,9 @@ dlgSgRepositoryRemoveSingleGroup.hdl%1=グループ'$1'を削除しますか？
 dlgSgRepositoryRemoveSingleRepo.fur=This will keep the repositories on disk, but just let SmartGit forget about them.
 dlgSgRepositoryRemoveSingleRepo.hdl%1=リポジトリ '$1' を削除しますか?
 dlgSgRepositoryRemoveSingleRepoMultiGroup.fur=これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。
-dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2=Do you want to remove the repository "$1" and $2 groups?
+dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2=リポジトリ '$1' および '$2' グループを削除しますか?
 dlgSgRepositoryRemoveSingleRepoSingleGroup.fur=これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。
-dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2=Do you want to remove the repository "$1" and the group "$2"?
+dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2=リポジトリ '$1' とグループ '$2' を削除しますか?
 dlgSgRepositorySettings.chk"Always fetch new commits, tags and branches from submodule"=\
  サブモジュールから常に新しいコミット、タグ、ブランチを取得する
 dlgSgRepositorySettings.chk"Initialize new submodules"=新しいサブモジュールを初期化
@@ -1939,19 +1939,19 @@ dlgSgResetAdv.btn"Reset"=リセット
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  .gitattributesに従い改行コードを修正する
 dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
- Thoroughly fix line-endings according to .gitattributes
+ .gitattributes に従って行末を徹底的に修正する
 dlgSgResetAdv.hdl%1=コミット $1 にリセット
 dlgSgResetAdv.inf=現在のブランチのHEADを選択したコミットにリセットし、オプションでインデックスと作業ツリーを更新します。
 dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
- Current staged and local changes will be lost!
+ 現在のステージングされた変更と、ローカルの変更は失われます!
 dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
- Current staged changes will be lost!
+ 現在のステージングされた変更は失われます!
 dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
- Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
+ 'hard' に似ています。置き換えられるファイルに作業ツリーの変更がある場合、リセットは中止されます。
 dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
- Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
+ 'hard' に似ています。置き換えられるファイルに作業ツリーまたはインデックスの変更がある場合、リセットは中止されます。
 dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
- The Index will show all changes between the previous HEAD and the selected commit.
+ インデックスには、前の HEAD と選択したコミットの間のすべての変更が表示されます。
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
  インデックスにもワーキングツリーにも触れない - 'soft'
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
@@ -1969,7 +1969,7 @@ dlgSgResetConfirm.hdl%1=HEADを コミット'$1' にリセットしますか？
 dlgSgResetConfirm.tle=リセット
 dlgSgResolve.btn"Resolve"=解決
 dlgSgResolve.chk"Stage file \(reset conflict state\)"=ファイルをステージ \(競合状態のリセット\)
-dlgSgResolve.edt"Content"=Content
+dlgSgResolve.edt"Content"=コンテンツ
 dlgSgResolve.hdl=競合を解決する
 dlgSgResolve.inf=Select which content to use for the resolved file\(s\).
 dlgSgResolve.rbt"Leave as is"=Leave as is
@@ -1989,7 +1989,7 @@ dlgSgResolveSubmodule.btn"Resolve"=解決
 dlgSgResolveSubmodule.hdl=競合を解決する
 dlgSgResolveSubmodule.inf=Select to which submodule commit you want to resolve.
 dlgSgResolveSubmodule.rbt"Check out and set submodule pointer to 'theirs' version"=\
- Check out and set submodule pointer to 'theirs' version
+ チェックアウトして、サブモジュール ポインターを 'theirs' バージョンに設定します
 dlgSgResolveSubmodule.rbt"Leave submodule pointer as is"=Leave submodule pointer as is
 dlgSgResolveSubmodule.tle=解決
 dlgSgRevealCommitLocalOrTracked.btn"Reveal Local"=ローカルを表示
@@ -2003,11 +2003,11 @@ dlgSgRevertAndCommitConfirmSingle.btn"Revert"=リバート
 dlgSgRevertAndCommitConfirmSingle.fur=This will undo the changes introduced with the selected commit.
 dlgSgRevertAndCommitConfirmSingle.hdl=選択したコミットを取り消しますか？
 dlgSgRevertAndCommitConfirmSingle.tle=リバート
-dlgSgRevertConfigurationFile.btn"Revert"=Revert
+dlgSgRevertConfigurationFile.btn"Revert"=リバート
 dlgSgRevertConfigurationFile.fur=Only changes of these files will be reverted \(without committing\).
 dlgSgRevertConfigurationFile.hdl"Do you want to revert changes of '$1'?"=\
- Do you want to revert changes of '$1'?
-dlgSgRevertConfigurationFile.tle=Revert
+ '$1' の変更を元に戻しますか?
+dlgSgRevertConfigurationFile.tle=リバート
 dlgSgRevertInProgress.fur=You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard.
 dlgSgRevertInProgress.hdl=There is currently a Revert in progress.
 dlgSgRevertInProgress.tle=リバート
@@ -2064,7 +2064,7 @@ dlgSgReviewPullRequestState.edt"Assignees"=担当者
 dlgSgReviewPullRequestState.edt"Comment"=コメント
 dlgSgReviewPullRequestState.err"Unknown user '$1'."=不明なユーザー '$1'
 dlgSgReviewPullRequestState.hdl=プルリクエストの割り当て
-dlgSgReviewPullRequestState.inf=Enter the user\(s\) to which the Pull Request should be assigned to.
+dlgSgReviewPullRequestState.inf=プルリクエストを割り当てるユーザーを入力してください。
 dlgSgReviewPullRequestState.tle=割り当て
 dlgSgReviewUserAddEdit.edt"Aliases"=エイリアス
 dlgSgReviewUserAddEdit.edt"Contact URI"=連絡先URI
@@ -2137,7 +2137,7 @@ dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use Sma
  お客様は、SmartGitのライセンスを購入し、商用・非商用を問わず、SmartGitを使用することができます。
 dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  SmartGit は 30 日間無料でお試しいただけます。
-dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
+dlgSgSetup.rbt"Commits \(Log History\)"=コミット \(ログ履歴\)
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  SmartGitの無償評価版 \(商用利用可\)
 dlgSgSetup.rbt"Log Graph \(commit oriented\)"=ロググラフ \(コミット中心\)
@@ -2181,7 +2181,7 @@ dlgSgStageConflict.btn"Stage Anyway"=Stage Anyway
 dlgSgStageConflict.fur=このファイルには、すべての競合が解決されていないことを示す競合マーカーが含まれています。
 dlgSgStageConflict.hdl%1=Should $1 really be staged?
 dlgSgStageConflict.tle=ステージ
-dlgSgStageNoFilesFound.fur=Could not find files with modified working tree, untracked or missing files.
+dlgSgStageNoFilesFound.fur=作業ツリーが変更されたファイル、追跡されていないファイル、または見つからないファイルが見つかりませんでした。
 dlgSgStageNoFilesFound.hdl=No files found that could be staged.
 dlgSgStageNoFilesFound.tle=ステージ
 dlgSgStashAll.btn"+ Keep Index"=+ インデックスを残す
@@ -2233,7 +2233,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  サブモジュールを追加するパスを、外部リポジトリのルート ディレクトリからの相対パスで指定します。
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  サブモジュールとしてクローンするリポジトリを指定します。
-dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
+dlgSgSubmoduleAdd.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgSubmoduleAdd.rbt"Local repository"=ローカルリポジトリ
 dlgSgSubmoduleAdd.rbt"Remote repository"=リモートリポジトリ
 dlgSgSubmoduleAdd.tle=サブモジュールを追加
@@ -2243,7 +2243,7 @@ dlgSgSubmoduleDeinitConfirm.hdl%1=サブモジュール'$1'をdeinitしますか
 dlgSgSubmoduleDeinitConfirm.tle=サブモジュールの削除
 dlgSgSubmoduleResetConfirm.btn"Reset"=リセット
 dlgSgSubmoduleResetConfirm.fur=対応するコミットがチェックアウトされるため、サブモジュールの内容は登録されたコミットの内容と一致します。
-dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
+dlgSgSubmoduleResetConfirm.hdl%1=サブモジュール '$1' をリポジトリに登録されているコミットの状態にリセットしますか？
 dlgSgSubmoduleResetConfirm.tle=サブモジュールのリセット
 dlgSgSvnClientCertificate.btn"Login"=ログイン
 dlgSgSvnClientCertificate.chk"Store passphrase"=パスフレーズを保存する
@@ -2340,7 +2340,7 @@ dlgSgUndoLastCommitConfirm.fur"Undoing an already pushed commit might cause seri
  既にプッシュされたコミットを元に戻すと、深刻な問題が発生する可能性があります！\n\nメッセージ: $1
 dlgSgUndoLastCommitConfirm.hdl=最後のローカルコミットを元に戻しますか？
 dlgSgUndoLastCommitConfirm.tle=直前のコミットを元に戻す
-dlgSgUnstageNoFilesFound.fur=Could not find files with staged changes.
+dlgSgUnstageNoFilesFound.fur=ステージングされた変更を含むファイルが見つかりませんでした。
 dlgSgUnstageNoFilesFound.hdl=No files found that could be unstaged.
 dlgSgUnstageNoFilesFound.tle=アンステージ
 dlgSgWelcome.chk"Show this dialog if no repository was opened"=\
@@ -2394,7 +2394,7 @@ pop"There is no action available for this drop operation."=\
  このドロップ操作に使用できるアクションはありません。
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  1回目のコミットで不要な変更をアンステージし、コミットします。
-wndAnnotate.edt"By"=By
+wndAnnotate.edt"By"==By
 wndAnnotate.edt"Commit"=コミット
 wndAnnotate.edt"Highlight"=ハイライト
 wndAnnotate.edt"View Commit"=コミットを表示
@@ -2417,12 +2417,12 @@ wndAnnotate.mniShowChanges=比較する
 wndAnnotate.mniUndo-goto=Undo Go To
 wndAnnotate.mniView-settings=設定
 wndAnnotate.mniWindowHideView=ビューを隠す
-wndAnnotate.mniWindowLineHistory=Line History
+wndAnnotate.mniWindowLineHistory=行の履歴
 wndAnnotate.mnu"Edit"=編集
 wndAnnotate.mnu"File"=ファイル
 wndAnnotate.mnu"Go To"=移動
 wndAnnotate.mnu"View"=表示
-wndAnnotate.rbt"Commit Index"=Commit Index
+wndAnnotate.rbt"Commit Index"=コミット Index
 wndAnnotate.rbt"Time"=時間
 wndAnnotate.tab"Document"=ドキュメント
 wndAnnotate.tab"History of current line"=現在の行の履歴
@@ -2454,7 +2454,7 @@ wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right 
 wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
-wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.mni"Copy Selection"=選択範囲をコピー
 wndDeepgit.mni"Open File Log"=ファイルログを開く
 wndDeepgit.mni"Open Repository Log"=リポジトリログを開く
 wndDeepgit.mniAbout=DeepGitについて
@@ -2508,8 +2508,8 @@ wndDeepgit.tbr"Diff"=差分
 wndDeepgit.tbr"Forward"=進む
 wndDeepgit.tbr"Log"=ログ
 wndDeepgit.tbr"Origins"=Origins
-wndDeepgit.tbt"Go to next change."=Go to next change.
-wndDeepgit.tbt"Go to previous change."=Go to previous change.
+wndDeepgit.tbt"Go to next change."=次の変更点に進みます。
+wndDeepgit.tbt"Go to previous change."=前の変更点に移動します。
 wndDeepgit.tbtBack=Go back to previous blame...
 wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
@@ -2544,20 +2544,20 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD と Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
-wndGit.indexEditor.tbtFile-save=Save file modifications.
+wndGit.indexEditor.tbtFile-save=ファイルの変更を保存します。
 wndGit.indexEditor.tbtGoto-next-diff=次の変更点に進みます。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
-wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
-wndLog.mni"Committer Abbreviated"=Committer Abbreviated
-wndLog.mni"Committer Avatar"=Committer Avatar
+wndLog.mni"Cherry-Pick $1 to '$2'"='$1' から '$2' へチェリーピック
+wndLog.mni"Committer Abbreviated"=コミッターの略称
+wndLog.mni"Committer Avatar"=コミッターのアバター
 wndLog.mni"Committer with Full Name and Email"=\
- Committer with Full Name and Email
-wndLog.mni"Committer with Full Name"=Committer with Full Name
-wndLog.mni"Modification"=Modification
+ コミッター \(フルネームと電子メール\)
+wndLog.mni"Committer with Full Name"=コミッター \(フルネーム\)
+wndLog.mni"Modification"=変更
 wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
-wndLog.mni"Unstage Line"=Unstage Line
-wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.mni"Unstage Line"=行をアンステージ
+wndLog.mni"Unstage Selection"=選択範囲をアンステージ
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
@@ -2640,7 +2640,7 @@ wnd(Log|Project|Std).btn"Mark HEAD as Bad"=HEAD を Badとしてマークする
 wnd(Log|Project|Std).btn"Mark HEAD as Good"=HEAD を Good としてマークする
 wnd(Log|Project|Std).btn"Mark Resolved"=解決済みとしてマーク
 wnd(Log|Project|Std).btn"Recreate Conflict"=競合した状態に戻す
-wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
+wnd(Log|Project|Std).btn"Rerun Thoroughly"=徹底的な再実行
 wnd(Log|Project|Std).btn"Reset"=リセット
 wnd(Log|Project|Std).btn"Reveal"=Reveal
 wnd(Log|Project|Std).btn"Show Local Changes"=ローカルの変更を表示
@@ -2654,7 +2654,7 @@ wnd(Log|Project|Std).chk"Amend last commit instead of creating new one"=\
  新規にコミットせず、前回のコミットを修正する
 wnd(Log|Project|Std).chk"Amend last commit"=前回のコミットを修正
 wnd(Log|Project|Std).chk"Bypass commit hook"=コミットフックをバイパスする
-wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=Create simple commit \('squash'\)
+wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=シンプルなコミットを作成する \('squash'\)
 wnd(Log|Project|Std).chk"Push"=プッシュ
 wnd(Log|Project|Std).col"Assignee"=担当者
 wnd(Log|Project|Std).col"Author"=作者
@@ -2677,7 +2677,7 @@ wnd(Log|Project|Std).col"State"=状態
 wnd(Log|Project|Std).col"Submodule"=サブモジュール
 wnd(Log|Project|Std).col"Text"=テキスト
 wnd(Log|Project|Std).col"Working Tree State"=作業ツリーの状態
-wnd(Log|Project|Std).edt"Commit to"=Commit to
+wnd(Log|Project|Std).edt"Commit to"=コミット先
 wnd(Log|Project|Std).hnt"File Filter"=ファイルフィルタ
 wnd(Log|Project|Std).hnt"Filter or Tag Search"=フィルターまたはタグ検索
 wnd(Log|Project|Std).lbl"$1 files hidden"=$1 ファイルの非表示
@@ -2710,7 +2710,7 @@ wnd(Log|Project|Std).mni"Branching:"=Branching:
 wnd(Log|Project|Std).mni"Cancel"=キャンセル
 wnd(Log|Project|Std).mni"Check Out"=チェックアウト
 wnd(Log|Project|Std).mni"Checkout"=チェックアウト
-wnd(Log|Project|Std).mni"Cherry-Pick Commits to $1"=Cherry-Pick Commits to $1
+wnd(Log|Project|Std).mni"Cherry-Pick Commits to $1"='$1' にチェリーピックコミット
 wnd(Log|Project|Std).mni"Clear History"=履歴をクリア
 wnd(Log|Project|Std).mni"Close"=閉じる
 wnd(Log|Project|Std).mni"Coloring:"=カラーリング:
@@ -2719,7 +2719,7 @@ wnd(Log|Project|Std).mni"Columns:"=列:
 wnd(Log|Project|Std).mni"Comment $1"=コメント $1
 wnd(Log|Project|Std).mni"Commit"=コミット
 wnd(Log|Project|Std).mni"Committer"=コミッタ
-wnd(Log|Project|Std).mni"Compact Author"=Compact Author
+wnd(Log|Project|Std).mni"Compact Author"=コンパクトな著者
 wnd(Log|Project|Std).mni"Copy Full ID"=フルIDをコピー
 wnd(Log|Project|Std).mni"Copy ID"=IDをコピー
 wnd(Log|Project|Std).mni"Copy Name"=名前をコピー
@@ -2740,18 +2740,18 @@ wnd(Log|Project|Std).mni"Discard Inner-line Change"=行内の変更を破棄
 wnd(Log|Project|Std).mni"Discard Line"=行の変更を破棄
 wnd(Log|Project|Std).mni"Discard Selection"=選択範囲の変更を破棄
 wnd(Log|Project|Std).mni"Drop Local Data"=ローカルデータの削除
-wnd(Log|Project|Std).mni"Edit 'Comment $1'"=Edit 'Comment $1'
+wnd(Log|Project|Std).mni"Edit 'Comment $1'"=コミット '$1' を編集
 wnd(Log|Project|Std).mni"Edit in Index Editor"=indexエディタで編集する
 wnd(Log|Project|Std).mni"Edit"=編集
 wnd(Log|Project|Std).mni"Ext."=拡張子
 wnd(Log|Project|Std).mni"Fast-Forward Merge"=ファストフォワードマージ
-wnd(Log|Project|Std).mni"Fetch Merge Request"=Fetch Merge Request
+wnd(Log|Project|Std).mni"Fetch Merge Request"=マージリクエストの取得
 wnd(Log|Project|Std).mni"Fetch Pull Request"=プルリクエストをフェッチする
 wnd(Log|Project|Std).mni"File Content \(very expensive\)"=ファイルの内容\(非常に高コストな処理\)
 wnd(Log|Project|Std).mni"File \(expensive\)"=ファイル\(高コスト\)
 wnd(Log|Project|Std).mni"Files from Subdirectories"=サブディレクトリのファイル
-wnd(Log|Project|Std).mni"Follow All Parents"=Follow All Parents
-wnd(Log|Project|Std).mni"Follow Only First Parent"=Follow Only First Parent
+wnd(Log|Project|Std).mni"Follow All Parents"=すべての親をフォロー
+wnd(Log|Project|Std).mni"Follow Only First Parent"=最初の親のみフォロー
 wnd(Log|Project|Std).mni"Forget Pattern"=パターンを忘れる
 wnd(Log|Project|Std).mni"Forget"=忘れる
 wnd(Log|Project|Std).mni"Format Patch"=Format Patch
@@ -2899,7 +2899,7 @@ wnd(Log|Project|Std).mniCherryPick=チェリーピック
 wnd(Log|Project|Std).mniClean=作業ツリーのクリーンアップ
 wnd(Log|Project|Std).mniClearOutput=出力をクリア
 wnd(Log|Project|Std).mniCommit=コミット
-wnd(Log|Project|Std).mniCompact-display=Compact Change Display
+wnd(Log|Project|Std).mniCompact-display=コンパクトな変更表示
 wnd(Log|Project|Std).mniCompareWithWorkingTree=作業ツリーとの比較
 wnd(Log|Project|Std).mniConfigureTagGrouping=タグ-グルーピング
 wnd(Log|Project|Std).mniConfigureToolbar=ツールバーの設定
@@ -2968,7 +2968,7 @@ wnd(Log|Project|Std).mniLogCommitsColoringDefault=デフォルトカラーリン
 wnd(Log|Project|Std).mniLogCommitsColoringLegacy=さまざまな色
 wnd(Log|Project|Std).mniLogCommitsColoringMerge=マージ可能なカラーリング
 wnd(Log|Project|Std).mniLogRepository=ログウィンドウを表示
-wnd(Log|Project|Std).mniLogShowAllParents=Follow All Parents
+wnd(Log|Project|Std).mniLogShowAllParents=すべての親をフォロー
 wnd(Log|Project|Std).mniLogShowOnlyFirstParents=最初の親のみを表示
 wnd(Log|Project|Std).mniLogTopoFiltering=Show Graph While Filtering
 wnd(Log|Project|Std).mniLogWorkingTreeIndexOnDemand=Show Working Tree  Index On Demand
@@ -3044,7 +3044,7 @@ wnd(Log|Project|Std).mniRevealWorkingTree=Reveal Working Tree
 wnd(Log|Project|Std).mniRevert=リバート
 wnd(Log|Project|Std).mniReviewCommentCreate=コメントを追加
 wnd(Log|Project|Std).mniReviewConfigure=設定
-wnd(Log|Project|Std).mniReviewDumpDatabase=Dump Database
+wnd(Log|Project|Std).mniReviewDumpDatabase=データベースのダンプ
 wnd(Log|Project|Std).mniReviewPullRequestCreate=プルリクエストを作成
 wnd(Log|Project|Std).mniReviewPullRequestCreate"Create Merge Request"=マージリクエストを作成
 wnd(Log|Project|Std).mniReviewPullRequestCreate"Create Pull Request"=プルリクエストを作成
@@ -3074,7 +3074,7 @@ wnd(Log|Project|Std).mniStashDrop=スタッシュを削除
 wnd(Log|Project|Std).mniStashRename=リネーム
 wnd(Log|Project|Std).mniStashSave=すべての変更を隠す
 wnd(Log|Project|Std).mniStashSaveSelection=選択した変更を隠す
-wnd(Log|Project|Std).mniSubmoduleDeactivate=Deactivate
+wnd(Log|Project|Std).mniSubmoduleDeactivate=無効にする
 wnd(Log|Project|Std).mniSubmoduleDeinit=削除\(Deinit\)
 wnd(Log|Project|Std).mniSubmoduleInit=初期化
 wnd(Log|Project|Std).mniSubmoduleRegister=追加
@@ -3164,7 +3164,7 @@ wnd(Log|Project|Std).tab"Comments"=コメント
 wnd(Log|Project|Std).tab"Commit Message"=コミットメッセージ
 wnd(Log|Project|Std).tab"Commit"=コミット
 wnd(Log|Project|Std).tab"Debug Log"=デバッグログ
-wnd(Log|Project|Std).tab"Files \(Working Tree\)"=Files \(Working Tree\)
+wnd(Log|Project|Std).tab"Files \(Working Tree\)"=ファイル \(作業ツリー\)
 wnd(Log|Project|Std).tab"Files"=ファイル
 wnd(Log|Project|Std).tab"Graph \(Initializing Log-Cache...\)"=グラフ \(ログキャッシュを初期化しています...\)
 wnd(Log|Project|Std).tab"Graph \(Initializing Subtree-Cache...\)"=グラフ \(サブツリー キャッシュを初期化しています...\)
@@ -3271,7 +3271,7 @@ wnd(Log|Project|Std).tbtPush=ローカルのコミットをリモートの origi
 wnd(Log|Project|Std).tbtPushTo=Push local commits to a remote repository, allowing to choose the target repository.
 wnd(Log|Project|Std).tbtRebaseHeadTo=選択したコミットに対して、HEADコミットを適用します。
 wnd(Log|Project|Std).tbtRefresh=Refresh the log view.
-wnd(Log|Project|Std).tbtRemoteFetch=Fetch commits from all remote repositories.
+wnd(Log|Project|Std).tbtRemoteFetch=すべてのリモート リポジトリからコミットをフェッチします。
 wnd(Log|Project|Std).tbtRemove=選択したファイルやディレクトリをリポジトリから削除します。
 wnd(Log|Project|Std).tbtRepositoryAdd=リポジトリを追加または新規作成します。
 wnd(Log|Project|Std).tbtRepositoryClone=新しいリポジトリのクローンを作成します。
