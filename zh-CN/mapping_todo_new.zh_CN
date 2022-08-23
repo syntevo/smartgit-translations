@@ -1,6 +1,30 @@
 dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
 dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
 dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
+dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverAdd.mni"Base File"=Base File
+dlgScConflictSolverAdd.mni"Encoding"=Encoding
+dlgScConflictSolverAdd.mni"Left File"=Left File
+dlgScConflictSolverAdd.mni"Left Title"=Left Title
+dlgScConflictSolverAdd.mni"Merged File"=Merged File
+dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
+dlgScConflictSolverAdd.mni"Right File"=Right File
+dlgScConflictSolverAdd.mni"Right Title"=Right Title
+dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverEdit.mni"Base File"=Base File
+dlgScConflictSolverEdit.mni"Encoding"=Encoding
+dlgScConflictSolverEdit.mni"Left File"=Left File
+dlgScConflictSolverEdit.mni"Left Title"=Left Title
+dlgScConflictSolverEdit.mni"Merged File"=Merged File
+dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
+dlgScConflictSolverEdit.mni"Right File"=Right File
+dlgScConflictSolverEdit.mni"Right Title"=Right Title
+dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
+ You must use the variable \$\{file\}.
+dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
 dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
 dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
@@ -20,14 +44,27 @@ dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. 
 dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
 dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgPreferences.edt"Name"=Name
+dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
+ Application can be updated manually in the About dialog
+dlgSgPreferences.lbl"This file will be sent as is: $1"=\
+ This file will be sent as is: $1
+dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
+dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
+ easy to set up and use, supports public key and password authentication
+dlgSgPreferences.lbl"may be harder to configure and use for new users, but is more flexible"=\
+ may be harder to configure and use for new users, but is more flexible
 dlgSgPreferences.mni"Accelerator"=Accelerator
 dlgSgPreferences.mni"Account"=Account
 dlgSgPreferences.mni"Applies To"=Applies To
+dlgSgPreferences.mni"Arguments"=Arguments
 dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
 dlgSgPreferences.mni"Command"=Command
 dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
 dlgSgPreferences.mni"Default"=Default
 dlgSgPreferences.mni"Details"=Details
+dlgSgPreferences.mni"Dictionary File"=Dictionary File
+dlgSgPreferences.mni"File Pattern"=File Pattern
 dlgSgPreferences.mni"Name"=Name
 dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Shortcut"=Shortcut
