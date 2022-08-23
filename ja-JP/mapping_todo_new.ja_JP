@@ -1,55 +1,45 @@
 dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
 dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
 dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
-dlgScEvaluationReminderContinue.btn"Continue"=Continue
-dlgScEvaluationReminderContinue.btn"Register"=Register
-dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
-dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
-dlgScEvaluationReminderContinue.tle=Evaluation
-dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
-dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
-dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
-dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
-dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
-dlgSgBisectResult.hdl=Bisect has determined the first bad commit.
-dlgSgBisectResult.tle=Bisect Finished
-dlgSgBranchAddCheckout.err"A remote branch with this name already exists. Use a different name."=\
- A remote branch with this name already exists. Use a different name.
-dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
- Do you want to cherry-pick changes of $1 files?
-dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
-dlgSgCommitCantAmend.hdl=Can't amend commit.
-dlgSgCommitCantAmend.tle=Commit
-dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- Merge or rebase commits from the base branch to the current feature.
-dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
-dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
-dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
-dlgSgGarbageCollectorDeleteAllStashes.tle=Run Garbage Collector
-dlgSgHistorySplitConfirm.btn"Split"=Split
-dlgSgHistorySplitConfirm.chk=Don't show again
-dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
-dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
-dlgSgHistorySplitConfirm.tle=Split Commit
-dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
- Use SSL client certificates \(usually not required\)
-dlgSgHostingProviderEdit.edt"Account"=Account
-dlgSgHostingProviderEdit.edt"Password"=Password
+dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverAdd.mni"Base File"=Base File
+dlgScConflictSolverAdd.mni"Encoding"=Encoding
+dlgScConflictSolverAdd.mni"Left File"=Left File
+dlgScConflictSolverAdd.mni"Left Title"=Left Title
+dlgScConflictSolverAdd.mni"Merged File"=Merged File
+dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
+dlgScConflictSolverAdd.mni"Right File"=Right File
+dlgScConflictSolverAdd.mni"Right Title"=Right Title
+dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverEdit.mni"Base File"=Base File
+dlgScConflictSolverEdit.mni"Encoding"=Encoding
+dlgScConflictSolverEdit.mni"Left File"=Left File
+dlgScConflictSolverEdit.mni"Left Title"=Left Title
+dlgScConflictSolverEdit.mni"Merged File"=Merged File
+dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
+dlgScConflictSolverEdit.mni"Right File"=Right File
+dlgScConflictSolverEdit.mni"Right Title"=Right Title
+dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
+ You must use the variable \$\{file\}.
+dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlgSgIgnoreEdit.mni"Reveal"=Reveal
-dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
- Select the local file to saved to.
 dlgSgPreferences.edt"Prefer"=Prefer
-dlgSgPreferences.mni"Accelerator"=Accelerator
-dlgSgPreferences.mni"Account"=Account
-dlgSgPreferences.mni"Applies To"=Applies To
-dlgSgPreferences.mni"Command + Arguments"=Command + Arguments
-dlgSgPreferences.mni"Command"=Command
-dlgSgPreferences.mni"Copy Selection in Column"=Copy Selection in Column
-dlgSgPreferences.mni"Default"=Default
-dlgSgPreferences.mni"Details"=Details
-dlgSgPreferences.mni"Name"=Name
-dlgSgPreferences.mni"Repository"=Repository
-dlgSgPreferences.mni"Shortcut"=Shortcut
+dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
+ Application can be updated manually in the About dialog
+dlgSgPreferences.lbl"This file will be sent as is: $1"=\
+ This file will be sent as is: $1
+dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
+dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
+ easy to set up and use, supports public key and password authentication
+dlgSgPreferences.lbl"may be harder to configure and use for new users, but is more flexible"=\
+ may be harder to configure and use for new users, but is more flexible
+dlgSgPreferences.mni"Arguments"=Arguments
+dlgSgPreferences.mni"Dictionary File"=Dictionary File
+dlgSgPreferences.mni"File Pattern"=File Pattern
 dlgSgPullConfiguration.lbl"Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\)."=\
  Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\).
 dlgSgPushForcedSvn.fur=You are about to replace the remote branch. Revisions of that branch might not be \(easily\) accessible anymore.
@@ -57,15 +47,12 @@ dlgSgPushOverwriteRemoteBranchConfirm.fur=You are about to replace the remote br
 dlgSgPushToRef.inf=Select the target repository where to push the ref\(s\).
 dlgSgPushToRemoteRemoveTargetBranches.fur=Removed branches and their commits in the target remote which will be lost afterwards.
 dlgSgRebase.inf=Select the commit to which the HEAD commits should be rebased.
-dlgSgRebaseConfirmUnreachable.btn"Rebase"=Rebase
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
 dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
-dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still is in progress and all changes of this commit have been applied.
 dlgSgRebaseContinueNothingToCommitContinue.fur=The repository is in 'rebasing' state, but there is nothing to commit, so you may just continue the Rebase.
 dlgSgRebaseContinueNothingToCommitSkip.fur=The repository is in 'rebasing' state, but there is nothing to commit, so you may just skip this rebased commit.
 dlgSgRebaseContinuePreserveUntrackedFiles.btn"Preserve"=Preserve
-dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Continue Anyway"=Continue Anyway
 dlgSgRebaseContinueWithoutApplyingAllChanges.btn"Put Changes into Index"=Put Changes into Index
 dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1=The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\n\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes.
 dlgSgRebaseHeadToCommitConfirmBc.fur%1=This will apply all commits from the working tree branch '$1' \(HEAD\) onto the selected commit.
@@ -76,11 +63,8 @@ dlgSgRebaseInteractive.mni"Neighboring Commits"=Neighboring Commits
 dlgSgRebaseInteractive.mni"To Bottom Commit"=To Bottom Commit
 dlgSgRebaseInteractive.mni"To Top Commit"=To Top Commit
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
-dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
-dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
 dlgSgRebaseInteractiveRemoveCommit.fur=It might become hard or impossible to recover the commit again.
 dlgSgRebaseTagCommit.hdl%1=Should commit $1 be tagged?
-dlgSgRebasingAbortConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
 dlgSgRecursiveStage.inf=Select the files to stage to the Index.
 dlgSgRecursiveUnstage.hdl=Revert staged changes from the Index to the working tree
 dlgSgRecursiveUnstage.inf=Select the files to unstage from the Index.
@@ -94,25 +78,10 @@ dlgSgRemoteSelect.inf=Select the remote repository for which you want to initial
 dlgSgRepositoriesSearch.edt"Search In"=Search In
 dlgSgRepositoryRemoveMultiRepo.fur=This will keep the repositories on disk, but just let SmartGit forget about them.
 dlgSgRepositoryRemoveSingleRepo.fur=This will keep the repositories on disk, but just let SmartGit forget about them.
-dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2=Do you want to remove the repository "$1" and $2 groups?
-dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2=Do you want to remove the repository "$1" and the group "$2"?
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
  The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
  Without setting your name, you won't be able to commit.
-dlgSgResetAdv.chk"Thoroughly fix line-endings according to .gitattributes"=\
- Thoroughly fix line-endings according to .gitattributes
-dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
- Current staged and local changes will be lost!
-dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
- Current staged changes will be lost!
-dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
- Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted.
-dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
- Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
-dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
- The Index will show all changes between the previous HEAD and the selected commit.
-dlgSgResolve.edt"Content"=Content
 dlgSgResolve.inf=Select which content to use for the resolved file\(s\).
 dlgSgResolve.rbt"Leave as is"=Leave as is
 dlgSgResolve.rbt"Open Conflict Solver"=Open Conflict Solver
@@ -123,43 +92,31 @@ dlgSgResolve.rbt"Set to rebase target \(\"theirs\", $1\)"=\
 dlgSgResolve.rbt"Set to rebased branch '$1' \(\"ours\", $2\)"=\
  Set to rebased branch '$1' \("ours", $2\)
 dlgSgResolveSubmodule.inf=Select to which submodule commit you want to resolve.
-dlgSgResolveSubmodule.rbt"Check out and set submodule pointer to 'theirs' version"=\
- Check out and set submodule pointer to 'theirs' version
 dlgSgResolveSubmodule.rbt"Leave submodule pointer as is"=Leave submodule pointer as is
 dlgSgRevertAndCommitConfirmSingle.btn"Revert && Commit"=Revert && Commit
 dlgSgRevertAndCommitConfirmSingle.fur=This will undo the changes introduced with the selected commit.
-dlgSgRevertConfigurationFile.btn"Revert"=Revert
 dlgSgRevertConfigurationFile.fur=Only changes of these files will be reverted \(without committing\).
-dlgSgRevertConfigurationFile.hdl"Do you want to revert changes of '$1'?"=\
- Do you want to revert changes of '$1'?
-dlgSgRevertConfigurationFile.tle=Revert
 dlgSgRevertInProgress.fur=You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard.
 dlgSgRevertInProgress.hdl=There is currently a Revert in progress.
 dlgSgRevertNotAllConflictsResolved.hdl=Reverting failed because of conflicts.
 dlgSgReviewConfigureWhat.btn"Initialize a Remote"=Initialize a Remote
-dlgSgReviewPullRequestState.inf=Enter the user\(s\) to which the Pull Request should be assigned to.
 dlgSgSelectBranch.hdl=Select tracked branch
 dlgSgSelectBranch.inf"Select which auxiliary branch should be shown in addition to the current branch."=\
  Select which auxiliary branch should be shown in addition to the current branch.
 dlgSgSetup.edt"Repository search"=Repository search
-dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
 dlgSgSetup.rbt"Registered user, commercial use \(all features, support\)"=\
  Registered user, commercial use \(all features, support\)
 dlgSgSetup.rbt"Undecided"=Undecided
-dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
+dlgSgShowLocalChanges.hdl%1=File $1 modified in Index and working tree
 dlgSgShowLocalChanges.inf=Select the file states to compare.
 dlgSgSplitOffFiles.hdl=Move files to a second commit
 dlgSgSplitOffFiles.inf=Provide the message for the second commit that should contain the changes from the selected files.
 dlgSgSplitOffFiles.tle=Split Off Files
 dlgSgStageConflict.btn"Stage Anyway"=Stage Anyway
 dlgSgStageConflict.hdl%1=Should $1 really be staged?
-dlgSgStageNoFilesFound.fur=Could not find files with modified working tree, untracked or missing files.
 dlgSgStageNoFilesFound.hdl=No files found that could be staged.
-dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleDeinitConfirm.fur=The submodule will be skipped from the working tree. To get rid from the \(remote\) repository, you have to use Unregister instead.
-dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=Message: $1
-dlgSgUnstageNoFilesFound.fur=Could not find files with staged changes.
 dlgSgUnstageNoFilesFound.hdl=No files found that could be unstaged.
 dlgSgWorktreeAddNoMoreLocalBranches.hdl=No \(more\) local branches available.
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
@@ -169,10 +126,7 @@ pop"No more change."=No more change.
 pop"Select the branch for which to stop tracking."=\
  Select the branch for which to stop tracking.
 pop"Select the stash to drop."=Select the stash to drop.
-wndAnnotate.edt"By"=By
 wndAnnotate.mniUndo-goto=Undo Go To
-wndAnnotate.mniWindowLineHistory=Line History
-wndAnnotate.rbt"Commit Index"=Commit Index
 wndConflictSolver.mniView-layout-left-merge=Left and Merge
 wndConflictSolver.mniView-layout-left-right-above-merge=Left and Right Above Merge
 wndConflictSolver.mniView-layout-right-merge=Merge and Right
@@ -183,7 +137,6 @@ wndConflictSolver.tbr"Take Left, Right"=Take Left, Right
 wndConflictSolver.tbr"Take Right, Left"=Take Right, Left
 wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
 wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
-wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniPerspectiveBlameOrigin=Blame+Origins Perspective
 wndDeepgit.mniPerspectiveCommit=Log Perspective
@@ -196,8 +149,6 @@ wndDeepgit.mniWindowHorizontalLayout=Horizontal Blame + Origins Layout
 wndDeepgit.mniWindowVerticalLayout=Vertical Blame + Origins Layout
 wndDeepgit.tbr"Blame+Origins"=Blame+Origins
 wndDeepgit.tbr"Origins"=Origins
-wndDeepgit.tbt"Go to next change."=Go to next change.
-wndDeepgit.tbt"Go to previous change."=Go to previous change.
 wndDeepgit.tbtBack=Go back to previous blame...
 wndDeepgit.tbtForward=Go forward to next blame...
 wndDeepgit.tbtPerspectiveBlameOrigin=Find where the line originates from in cases where you need to choose from one of possible Origins.
@@ -208,18 +159,8 @@ wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line orig
 wndGit.indexEditor.mniView-layout-head-wt-above-index=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
-wndGit.indexEditor.tbtFile-save=Save file modifications.
-wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
-wndLog.mni"Committer Abbreviated"=Committer Abbreviated
-wndLog.mni"Committer Avatar"=Committer Avatar
-wndLog.mni"Committer with Full Name and Email"=\
- Committer with Full Name and Email
-wndLog.mni"Committer with Full Name"=Committer with Full Name
-wndLog.mni"Modification"=Modification
 wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
-wndLog.mni"Unstage Line"=Unstage Line
-wndLog.mni"Unstage Selection"=Unstage Selection
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
@@ -229,21 +170,12 @@ wnd(Compare|ConflictSolver|Git.indexEditor).mniEdit-take-right-left=Take Right, 
 wnd(Log|Project|Std)."Reveal"=Reveal
 wnd(Log|Project|Std)."Take Ours"=Take Ours
 wnd(Log|Project|Std)."Take Theirs"=Take Theirs
-wnd(Log|Project|Std).btn"Rerun Thoroughly"=Rerun Thoroughly
 wnd(Log|Project|Std).btn"Reveal"=Reveal
 wnd(Log|Project|Std).btn"Take Ours"=Take Ours
 wnd(Log|Project|Std).btn"Take Theirs"=Take Theirs
-wnd(Log|Project|Std).chk"Create simple commit \('squash'\)"=Create simple commit \('squash'\)
-wnd(Log|Project|Std).edt"Commit to"=Commit to
 wnd(Log|Project|Std).mni"  Show Rewritten Behind Commits"=\
  Show Rewritten Behind Commits
 wnd(Log|Project|Std).mni"Branching:"=Branching:
-wnd(Log|Project|Std).mni"Cherry-Pick Commits to $1"=Cherry-Pick Commits to $1
-wnd(Log|Project|Std).mni"Compact Author"=Compact Author
-wnd(Log|Project|Std).mni"Edit 'Comment $1'"=Edit 'Comment $1'
-wnd(Log|Project|Std).mni"Fetch Merge Request"=Fetch Merge Request
-wnd(Log|Project|Std).mni"Follow All Parents"=Follow All Parents
-wnd(Log|Project|Std).mni"Follow Only First Parent"=Follow Only First Parent
 wnd(Log|Project|Std).mni"Format Patch"=Format Patch
 wnd(Log|Project|Std).mni"Full Author With Email"=Full Author With Email
 wnd(Log|Project|Std).mni"Full Author"=Full Author
@@ -286,14 +218,12 @@ wnd(Log|Project|Std).mniAssume-unchanged-toggle=Toggle 'Assume Unchanged'
 wnd(Log|Project|Std).mniBranchSplitFiles=Split Off Files
 wnd(Log|Project|Std).mniBranchesGitFlowRemoteOnly=Show remote branches in their Git-Flow sections
 wnd(Log|Project|Std).mniBranchesGitFlowTracked=Show remote, tracked branches
-wnd(Log|Project|Std).mniCompact-display=Compact Change Display
 wnd(Log|Project|Std).mniDebugEnableRefreshTraceLogging=Starting Tracing Refreshing
 wnd(Log|Project|Std).mniDebugLogFileMonitorEvents=Log File Monitor Events
 wnd(Log|Project|Std).mniDebugLogFileMonitorState=Log File Monitor State
 wnd(Log|Project|Std).mniDebugLogOpenRepositories=Log Open Repositories
 wnd(Log|Project|Std).mniFixup=Fixup
 wnd(Log|Project|Std).mniLfsPrune=Prune
-wnd(Log|Project|Std).mniLogShowAllParents=Follow All Parents
 wnd(Log|Project|Std).mniLogTopoFiltering=Show Graph While Filtering
 wnd(Log|Project|Std).mniLogWorkingTreeIndexOnDemand=Show Working Tree  Index On Demand
 wnd(Log|Project|Std).mniRebaseToHead=Rebase to HEAD
@@ -303,16 +233,13 @@ wnd(Log|Project|Std).mniRemoteFetchMore=Fetch More
 wnd(Log|Project|Std).mniResolveOurs=Take Ours
 wnd(Log|Project|Std).mniResolveTheirs=Take Theirs
 wnd(Log|Project|Std).mniRevealWorkingTree=Reveal Working Tree
-wnd(Log|Project|Std).mniReviewDumpDatabase=Dump Database
 wnd(Log|Project|Std).mniSkipWorkTree=Toggle 'Skip Worktree'
 wnd(Log|Project|Std).mniSortCommitsPrimaryParentsFirst=Sort Commits with Primary Parents first
-wnd(Log|Project|Std).mniSubmoduleDeactivate=Deactivate
 wnd(Log|Project|Std).mniViewRenameSource=Show Rename Source Files
 wnd(Log|Project|Std).mniViewSeparateWtAndIndex=Separate Working Tree and Index
 wnd(Log|Project|Std).mniViewStyleIndex=Only Index
 wnd(Log|Project|Std).mniViewStyleWorkingTree=Only Working Tree
 wnd(Log|Project|Std).mniViewUnchangedAssumed=Show Assume-Unchanged Files
-wnd(Log|Project|Std).tab"Files \(Working Tree\)"=Files \(Working Tree\)
 wnd(Log|Project|Std).tbt"Reading repository info from '$1'."=Reading repository info from '$1'.
 wnd(Log|Project|Std).tbt"Refresh information from GitLab."=Refresh information from GitLab.
 wnd(Log|Project|Std).tbt"Show directories tree"=Show directories tree
@@ -323,7 +250,6 @@ wnd(Log|Project|Std).tbtInvestigate=Investigate history line-wise with DeepGit.
 wnd(Log|Project|Std).tbtPreviewRefresh=Reload the previewed file contents.
 wnd(Log|Project|Std).tbtPushTo=Push local commits to a remote repository, allowing to choose the target repository.
 wnd(Log|Project|Std).tbtRefresh=Refresh the log view.
-wnd(Log|Project|Std).tbtRemoteFetch=Fetch commits from all remote repositories.
 wnd(Log|Project|Std).tbtResetAdvanced=Reset current HEAD to another commit and keep the difference in Index or Working Tree.
 wnd(Log|Project|Std).tbtRevealHomeCommit=Reveal HEAD/working tree in graph.
 wnd(Log|Project|Std).tbtRevealPrevCommit=Reveal selected commits before invoking Reveal Working Tree.

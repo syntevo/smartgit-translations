@@ -127,8 +127,28 @@ dlgScApplicationStarterRestart.fur=ダウンロードしたプログラムの更
 dlgScApplicationStarterRestart.hdl=SmartGitは再起動が必要です。
 dlgScApplicationStarterRestart.tle=再起動
 dlgScConflictSolverAdd.hdl=コンフリクトソルバーの追加
+dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverAdd.mni"Base File"=Base File
+dlgScConflictSolverAdd.mni"Encoding"=Encoding
+dlgScConflictSolverAdd.mni"Left File"=Left File
+dlgScConflictSolverAdd.mni"Left Title"=Left Title
+dlgScConflictSolverAdd.mni"Merged File"=Merged File
+dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
+dlgScConflictSolverAdd.mni"Right File"=Right File
+dlgScConflictSolverAdd.mni"Right Title"=Right Title
 dlgScConflictSolverAdd.tle=追加
 dlgScConflictSolverEdit.hdl=コンフリクトソルバーの編集
+dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolverEdit.mni"Base File"=Base File
+dlgScConflictSolverEdit.mni"Encoding"=Encoding
+dlgScConflictSolverEdit.mni"Left File"=Left File
+dlgScConflictSolverEdit.mni"Left Title"=Left Title
+dlgScConflictSolverEdit.mni"Merged File"=Merged File
+dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
+dlgScConflictSolverEdit.mni"Right File"=Right File
+dlgScConflictSolverEdit.mni"Right Title"=Right Title
 dlgScConflictSolverEdit.tle=編集
 dlgScConflictSolverUnresolvedConflicts.chk=次回から警告しない
 dlgScConflictSolverUnresolvedConflicts.fur=すべての競合が解決されたわけではありません。
@@ -206,6 +226,10 @@ dlgScFileComparatorAdd.mni"Base File"=ベースファイル
 dlgScFileComparatorAdd.mni"Base Title"=ベースタイトル
 dlgScFileComparatorAdd.tle=追加
 dlgScFileComparatorEdit.hdl=外部Diffツールの編集
+dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
+ You must use the variable \$\{file\}.
+dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlgScFileComparatorEdit.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorEdit.mni"Base File"=ベースファイル
 dlgScFileComparatorEdit.mni"Base Title"=ベースタイトル
@@ -1478,6 +1502,8 @@ dlgSgPreferences.edt"Theme\*"=テーマ\*
 dlgSgPreferences.edt"Time Format\*"=時間形式\*
 dlgSgPreferences.edt"Username"=ユーザ名
 dlgSgPreferences.hnt"Search"=検索
+dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
+ Application can be updated manually in the About dialog
 dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied."=\
  ローレベルのプロパティを変更すると、SmartGitの安定性や性能に悪影響を及ぼす可能性があります。\r自分が何をしているのか確信が持てる場合のみ、作業を続行するべきです。\r変更したプロパティの末尾に\*が付いている場合は、再起動が必要です。
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
@@ -1500,26 +1526,37 @@ dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  このプロキシは、主に「新しいバージョンの確認」に使用されます。\rシステムのプロキシ設定が適切でない場合には、Git HTTP\(S\)の接続にも使用されます。(詳細はドキュメントを参照してください)
+dlgSgPreferences.lbl"This file will be sent as is: $1"=\
+ This file will be sent as is: $1
 dlgSgPreferences.lbl"When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."=\
  ファイルを比較する際には、このリストを上から下に向かって検索し、一致する 比較 ツールを探します。\r見つからない場合は、テキスト ファイルの場合は内蔵のファイル比較が使用されます。
 dlgSgPreferences.lbl"When invoking the Conflict Solver feature, this list is searched from top to bottom to find a matching entry. If none is found, the built-in Conflict Solver is used for text files."=\
  コンフリクトソルバー機能を呼び出すと、このリストを上から下へ検索し、一致するエントリーを探します。\r見つからない場合は、テキストファイル用の組み込みのコンフリクトソルバーが使用されます。
 dlgSgPreferences.lbl"You may configure hosting provider accounts to simplify accessing your hosted repositories or to enable the GitHub pull request and comment features."=\
  ホスティングプロバイダーのアカウントを設定して、ホストされているリポジトリへのアクセスを簡素化したり、GitHubのプルリクエストやコメント機能を有効にしたりすることができます。
+dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
 dlgSgPreferences.lbl"\*\) these options require an application restart to be applied"=\
  \*\) これらのオプションを適用するには、アプリケーションの再起動が必要です
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) このオプションを適用するには、アプリケーションの再起動が必要です
+dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
+ easy to set up and use, supports public key and password authentication
+dlgSgPreferences.lbl"may be harder to configure and use for new users, but is more flexible"=\
+ may be harder to configure and use for new users, but is more flexible
 dlgSgPreferences.mni"Accelerator"=ショートカット
 dlgSgPreferences.mni"Account"=アカウント
 dlgSgPreferences.mni"Applies To"=適用対象
+dlgSgPreferences.mni"Arguments"=Arguments
 dlgSgPreferences.mni"Command + Arguments"=コマンドと引数
 dlgSgPreferences.mni"Command"=コマンド
 dlgSgPreferences.mni"Copy Key"=キーをコピー
 dlgSgPreferences.mni"Copy Selection in Column"=この列の選択範囲をコピーする
 dlgSgPreferences.mni"Default"=デフォルト
 dlgSgPreferences.mni"Details"=詳細
+dlgSgPreferences.mni"Dictionary File"=Dictionary File
 dlgSgPreferences.mni"Edit"=編集
+dlgSgPreferences.mni"File Pattern"=File Pattern
 dlgSgPreferences.mni"Name"=名前
 dlgSgPreferences.mni"Repository"=リポジトリ
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
@@ -2152,7 +2189,7 @@ dlgSgSetup.rbt"Use system SSH client"=システムSSHクライアントの使用
 dlgSgSetup.rbt"Working tree \(file oriented\)"=作業ツリー \(ファイル中心\)
 dlgSgSetup.tle=SmartGit のセットアップ
 dlgSgShowLocalChanges.btn"Compare"=比較
-dlgSgShowLocalChanges.hdl=File preview.html.erb modified in Index and working tree
+dlgSgShowLocalChanges.hdl%1=File $1 modified in Index and working tree
 dlgSgShowLocalChanges.inf=Select the file states to compare.
 dlgSgShowLocalChanges.rbt"HEAD vs. Index"=HEAD 対 Index
 dlgSgShowLocalChanges.rbt"HEAD vs. Working Tree"=HEAD 対 作業ツリー
