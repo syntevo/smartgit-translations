@@ -1175,7 +1175,7 @@ dlgSgIgnoreChanged.fur=続行すると、変更は破棄されます。
 dlgSgIgnoreChanged.hdl=本当に変更されたファイルを削除しますか?
 dlgSgIgnoreChanged.tle=無視
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=無視
-dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=無視するファイル
+dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignoreファイル
 dlgSgIgnoreDirectoryConfirm.fur=このディレクトリ名は、.ignore ファイルに追加されます。 .ignore ファイルが存在しない場合は、作成されます。
 dlgSgIgnoreDirectoryConfirm.hdl%1=ディレクトリ'$1'を無視しますか？
 dlgSgIgnoreDirectoryConfirm.tle=無視
@@ -1187,7 +1187,7 @@ dlgSgIgnoreEdit.mni"Reveal"=Reveal
 dlgSgIgnoreEdit.tle=無視リストを編集
 dlgSgIgnoreFile.btn"Ignore"=無視
 dlgSgIgnoreFile.btn"Remove && Ignore"=除去して無視する
-dlgSgIgnoreFile.edt"Ignore File"=無視するファイル
+dlgSgIgnoreFile.edt"Ignore File"=Ignoreファイル
 dlgSgIgnoreFile.err"The pattern must match all selected file names. For instance, '$1' is not matched."=\
  パターンは、選択されたすべてのファイル名と一致する必要があります。例えば、'$1' はマッチしません。
 dlgSgIgnoreFile.hdl=無視するファイルを指定する
