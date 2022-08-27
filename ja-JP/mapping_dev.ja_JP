@@ -2948,14 +2948,14 @@ wnd(Log|Project|Std).mniCopyName=名前をコピー
 wnd(Log|Project|Std).mniCopyPath=パスをコピー
 wnd(Log|Project|Std).mniCopyRelativePath=相対パスをコピー
 wnd(Log|Project|Std).mniCustomize=カスタマイズ
-wnd(Log|Project|Std).mniDebugCreateHeapDump=ヒープダンプの作成
-wnd(Log|Project|Std).mniDebugCreateThreadDumps=定期的なスレッドダンプの作成
-wnd(Log|Project|Std).mniDebugEnableRefreshTraceLogging=Starting Tracing Refreshing
-wnd(Log|Project|Std).mniDebugLogFileMonitorEvents=Log File Monitor Events
-wnd(Log|Project|Std).mniDebugLogFileMonitorState=Log File Monitor State
-wnd(Log|Project|Std).mniDebugLogOpenRepositories=Log Open Repositories
-wnd(Log|Project|Std).mniDebugRestart=再起動
-wnd(Log|Project|Std).mniDebugRunGc=ガベージコレクタを実行
+wnd(Log|Project|Std).mniDebugCreateHeapDump==Create Heap Dump
+wnd(Log|Project|Std).mniDebugCreateThreadDumps==Create Periodical Thread Dumps
+wnd(Log|Project|Std).mniDebugEnableRefreshTraceLogging==Starting Tracing Refreshing
+wnd(Log|Project|Std).mniDebugLogFileMonitorEvents==Log File Monitor Events
+wnd(Log|Project|Std).mniDebugLogFileMonitorState==Log File Monitor State
+wnd(Log|Project|Std).mniDebugLogOpenRepositories==Log Open Repositories
+wnd(Log|Project|Std).mniDebugRestart==Restart
+wnd(Log|Project|Std).mniDebugRunGc==Run GC
 wnd(Log|Project|Std).mniDelete=削除
 wnd(Log|Project|Std).mniDiscard=破棄
 wnd(Log|Project|Std).mniEdit-ignore-case-changes=行比較で大文字小文字を区別しない
