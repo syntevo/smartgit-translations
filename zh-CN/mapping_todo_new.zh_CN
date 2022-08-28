@@ -200,3 +200,4 @@ wndLog.tbt"Reading incoming pull requests from '$1'."=\
 wndProject.mni"Log Selection"=Log Selection
 wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
 wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=Rebase HEAD to '$1'
+wnd(Log|Project|Std).mniWorktreeRemove=Remove Worktree
