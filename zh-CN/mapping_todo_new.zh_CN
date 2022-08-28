@@ -25,14 +25,32 @@ dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
  You must use the variable \$\{file\}.
 dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
  You must use the variables \$\{leftFile\} and \$\{rightFile\}.
+dlgScUpdateInstallationUpdateManuallyFailure.fur=The process could not be started.
+dlgScUpdateInstallationUpdateManuallyFailure.hdl=Launching updater directly failed.
+dlgScUpdateInstallationUpdateManuallyFailure.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
 dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
 dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
+dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
+ Note: Pull or Fetch will not bring other refs, you will need to use Fetch More.
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgCommitCantAmend.fur=Can't modify an already pushed commit. If you know what you are doing and want to enable it, select the option 'Allow modifying pushed commits' in the preferences.
 dlgSgCommitCantAmend.hdl=Can't amend commit.
 dlgSgCommitCantAmend.tle=Commit
+dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
+dlgSgCommitDirectlyTo.fur=You have Git-Flow configured and committing to the Git-Flow master branch should not happen directly but only with the help of the Git-Flow commands and merging.\n\nIf in doubt, please contact your administrator.
+dlgSgCommitDirectlyTo.hdl=Do you want to commit directly to 'master'?
+dlgSgCommitDirectlyTo.tle=Commit
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
  Merge or rebase commits from the base branch to the current feature.
+dlgSgFlowSupportStart.btn"Start"=Start
+dlgSgFlowSupportStart.chk"Fetch from '$1' branch"=Fetch from '$1' branch
+dlgSgFlowSupportStart.edt"Support Name"=Support Name
+dlgSgFlowSupportStart.hdl=Start a new support
+dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
+dlgSgFlowSupportStart.lbl"Resulting Branch: $1"=Resulting Branch: $1
+dlgSgFlowSupportStart.tle=Start Support
 dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=Delete Stashes
 dlgSgGarbageCollectorDeleteAllStashes.fur=Expiring the reflog now will also delete all stashes.
 dlgSgGarbageCollectorDeleteAllStashes.hdl=Do you want to also delete all stashes?
@@ -43,6 +61,16 @@ dlgSgHistorySplitConfirm.chk=Don't show again
 dlgSgHistorySplitConfirm.fur=This will put the commit's changes into the Index. Unstage those changes that should go into a second commit, then commit the staged changes. Commit the remaining changes in a second \(or third\) commit.\n\nAfter you are done, process the remaining commits by continuing the rebase.
 dlgSgHistorySplitConfirm.hdl=Do you want to split the selected commit into multiple commits?
 dlgSgHistorySplitConfirm.tle=Split Commit
+dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
+dlgSgMergeConfirmNoCommit.hdl=Do you want to perform the merge?
+dlgSgMergeConfirmNoCommit.tle=Merge
+dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
+dlgSgMergeNoop.hdl=There is nothing to merge.
+dlgSgMergeNoop.tle=Merge
+dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
+dlgSgOpenRepositorySvnWorkingCopy.hdl=Can't open SVN working copy, please re-clone with SmartGit.
+dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
+dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgPreferences.edt"Name"=Name
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  Application can be updated manually in the About dialog
@@ -74,6 +102,8 @@ dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
 dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
 dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
+dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
  The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
@@ -88,18 +118,69 @@ dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree o
  Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
 dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
  The Index will show all changes between the previous HEAD and the selected commit.
+dlgSgSplitOffFilesEmptyCommit.fur=By splitting off all files, the resulting commit would become empty.
+dlgSgSplitOffFilesEmptyCommit.hdl=You can't split off all files from a commit
+dlgSgSplitOffFilesEmptyCommit.tle=Commit
+dlgSgStashOnDemandProceedWithoutStashing.btn"Proceed"=Proceed
+dlgSgStashOnDemandProceedWithoutStashing.fur=Auto-stashing changes is not possible due to technical reasons. Changes will be discarded!
+dlgSgStashOnDemandProceedWithoutStashing.hdl=Do you want to proceed without stashing changes?
+dlgSgStashOnDemandProceedWithoutStashing.tle=Reset
 dlgSgSubmoduleAdd.edt"URL"=URL
+dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
+dlgSgSubmoduleSync.btn"Synchronize"=Synchronize
+dlgSgSubmoduleSync.chk"Pull submodule repositories"=Pull submodule repositories
+dlgSgSubmoduleSync.hdl=Synchronize all submodules
+dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
+dlgSgSubmoduleSync.tle=Synchronize Submodules
+dlgSgSubtreeAdd.chk"Create local branch \(for advanced operations\)"=\
+ Create local branch \(for advanced operations\)
+dlgSgSubtreeAdd.chk"Squash subtree into single commit"=Squash subtree into single commit
+dlgSgSubtreeAdd.edt"Local Directory"=Local Directory
+dlgSgSubtreeAdd.edt"Local Path"=Local Path
+dlgSgSubtreeAdd.edt"Remote"=Remote
+dlgSgSubtreeAdd.edt"Repository URL"=Repository URL
+dlgSgSubtreeAdd.inf"Provide the path where the subtree should be added relative to the outer repository root directory."=\
+ Provide the path where the subtree should be added relative to the outer repository root directory.
+dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
+ Specify the repository to clone as subtree.
+dlgSgSubtreeAdd.lbl"Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."=\
+ Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations.
+dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgSubtreeAdd.rbt"Local repository"=Local repository
+dlgSgSubtreeAdd.rbt"Remote repository"=Remote repository
+dlgSgSubtreeAdd.tle=Add Subtree
+dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign tag
 pop"No more change."=No more change.
 pop"Select the branch for which to stop tracking."=\
  Select the branch for which to stop tracking.
 pop"Select the stash to drop."=Select the stash to drop.
 wndAnnotate.edt"By"=By
+wndAnnotate.mni"Copy Details"=Copy Details
+wndAnnotate.mni"Copy ID"=Copy ID
+wndAnnotate.mni"Copy Selection"=Copy Selection
+wndAnnotate.mni"Open Log"=Open Log
+wndAnnotate.mni"Show Changes"=Show Changes
+wndConflictSolver.tbr"Base + Right"=Base + Right
+wndConflictSolver.tbr"Base Below"=Base Below
+wndConflictSolver.tbr"Left + Base"=Left + Base
+wndConflictSolver.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-left-right=Take the left block, then the right one.
+wndConflictSolver.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-right-left=Take the right block, then the left one.
+wndConflictSolver.tbtGoto-previous-conflict=Go to previous conflict.
+wndConflictSolver.tbtGoto-previous-diff=Go to previous change.
+wndConflictSolver.tbtView-layout-all=Show the left, merge and right file.
+wndConflictSolver.tbtView-layout-left-merge=Show the left and merge file.
+wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
+wndDeepgit.mni"Copy Details"=Copy Details
+wndDeepgit.mni"Copy SHA"=Copy SHA
 wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.tbt"Go to next change."=Go to next change.
 wndDeepgit.tbt"Go to previous change."=Go to previous change.
 wndDeepgit.tbtBack=Go back to previous blame...
 wndDeepgit.tbtForward=Go forward to next blame...
+wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
 wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
 wndLog.mni"Committer Abbreviated"=Committer Abbreviated
@@ -116,5 +197,7 @@ wndLog.tbt"If selected and Index as well as Working Tree changes are available, 
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
+wndProject.mni"Log Selection"=Log Selection
 wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
 wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=Rebase HEAD to '$1'
+wnd(Log|Project|Std).mniWorktreeRemove=Remove Worktree

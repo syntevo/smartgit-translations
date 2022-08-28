@@ -410,6 +410,9 @@ dlgScTextSettings.rbt"Trailing and changed"=Trailing and changed
 dlgScTextSettings.tab"Compare"=Compare
 dlgScTextSettings.tab"General"=General
 dlgScTextSettings.tle=Settings
+dlgScUpdateInstallationUpdateManuallyFailure.fur=The process could not be started.
+dlgScUpdateInstallationUpdateManuallyFailure.hdl=Launching updater directly failed.
+dlgScUpdateInstallationUpdateManuallyFailure.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
 dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
 dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
@@ -638,6 +641,9 @@ dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  Specify the local directory for the new repository.
 dlgSgClone.inf"Specify the repository to clone."=Specify the repository to clone.
+dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
+ Note: Pull or Fetch will not bring other refs, you will need to use Fetch More.
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgClone.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=Clone all revisions \(recommended\)
 dlgSgClone.rbt"Clone from revision:"=Clone from revision:
@@ -667,6 +673,7 @@ dlgSgCommit.chk"Amend last commit instead of creating new one"=\
  Amend last commit instead of creating new one
 dlgSgCommit.chk"Amend last commit"=Amend last commit
 dlgSgCommit.chk"Bypass commit hook"=Bypass commit hook
+dlgSgCommit.chk"More Options"=More Options
 dlgSgCommit.col"Directory"=Directory
 dlgSgCommit.col"Name"=Name
 dlgSgCommit.edt"Commit Message"=Commit Message
@@ -675,7 +682,6 @@ dlgSgCommit.err"Enter a commit message describing \(the reason for\) the commit.
  Enter a commit message describing \(the reason for\) the commit.
 dlgSgCommit.hdl=Commit local or staged changes
 dlgSgCommit.inf=Select the files you want to commit and provide a commit message.
-dlgSgCommit.lbl"More Options"=More Options
 dlgSgCommit.mni"Deselect All"=Deselect All
 dlgSgCommit.mni"JIRA"=JIRA
 dlgSgCommit.mni"Log"=Log
@@ -704,6 +710,10 @@ dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=Create Comm
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=The repository is in 'rebasing' state. Instead of creating an additional commit as part of your rebased commits, you will usually just want continue the rebase.
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.hdl=Do you want to continue the rebase or create an additional commit?
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.tle=Rebase
+dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
+dlgSgCommitDirectlyTo.fur=You have Git-Flow configured and committing to the Git-Flow master branch should not happen directly but only with the help of the Git-Flow commands and merging.\n\nIf in doubt, please contact your administrator.
+dlgSgCommitDirectlyTo.hdl=Do you want to commit directly to 'master'?
+dlgSgCommitDirectlyTo.tle=Commit
 dlgSgCommitIndexAllWorkingTreeChanges.btn"Commit All Working Tree Changes"=Commit All Working Tree Changes
 dlgSgCommitIndexAllWorkingTreeChanges.chk=Don't show again
 dlgSgCommitIndexAllWorkingTreeChanges.fur=No file is staged yet. To stage individual changes, click Cancel. Otherwise all working tree changes will get staged and committed.
@@ -899,6 +909,7 @@ dlgSgFlowHotfixFinish.chk"Merge to develop"=Merge to develop
 dlgSgFlowHotfixFinish.chk"Push results and remove remote hotfix branch"=\
  Push results and remove remote hotfix branch
 dlgSgFlowHotfixFinish.edt"Commit Message"=Commit Message
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
 dlgSgFlowHotfixFinish.hdl=Finish a hotfix
 dlgSgFlowHotfixFinish.inf"Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."=\
  Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches.
@@ -953,6 +964,13 @@ dlgSgFlowReleaseStart.hdl=Start a new release
 dlgSgFlowReleaseStart.inf%1=Enter the name of the new release branch. This operation will fork a new branch from the '$1' branch.
 dlgSgFlowReleaseStart.lbl"Resulting Branch: $1"=Resulting Branch: $1
 dlgSgFlowReleaseStart.tle=Start Release
+dlgSgFlowSupportStart.btn"Start"=Start
+dlgSgFlowSupportStart.chk"Fetch from '$1' branch"=Fetch from '$1' branch
+dlgSgFlowSupportStart.edt"Support Name"=Support Name
+dlgSgFlowSupportStart.hdl=Start a new support
+dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
+dlgSgFlowSupportStart.lbl"Resulting Branch: $1"=Resulting Branch: $1
+dlgSgFlowSupportStart.tle=Start Support
 dlgSgGarbageCollector.btn"Run Garbage Collector"=Run Garbage Collector
 dlgSgGarbageCollector.chk"Also prune recently created objects"=Also prune recently created objects
 dlgSgGarbageCollector.chk"Expire reflog now \(will also delete stashes!\)"=\
@@ -1280,6 +1298,10 @@ dlgSgMerge.btn"Merge to Working Tree"=Merge to Working Tree
 dlgSgMerge.hdl=Merge
 dlgSgMerge.inf=Select the branch or commit to merge and how they should be merged into the Working Tree.
 dlgSgMerge.tle=Merge
+dlgSgMergeConfirmNoCommit.btn"Merge"=Merge
+dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
+dlgSgMergeConfirmNoCommit.hdl=Do you want to perform the merge?
+dlgSgMergeConfirmNoCommit.tle=Merge
 dlgSgMergeHowToMerge.btn"Create Merge-Commit"=Create Merge-Commit
 dlgSgMergeHowToMerge.btn"Fast-Forward"=Fast-Forward
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=Merge to Working Tree
@@ -1287,6 +1309,9 @@ dlgSgMergeHowToMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMergeHowToMerge.fur=Fast-forward merge means to just move the current branch \(HEAD\) forward to the selected commit. As an alternative you can create a merge commit or merge to the working tree. In the latter case you can review the changes and later create a merge or normal \(squash\) commit later.
 dlgSgMergeHowToMerge.hdl%1=How to merge from branch '$1'?
 dlgSgMergeHowToMerge.tle=Merge
+dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
+dlgSgMergeNoop.hdl=There is nothing to merge.
+dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepository.edt"Repository"=Repository
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  Please specify the root directory of a Git or Mercurial repository.
@@ -1304,12 +1329,16 @@ dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
 dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
 dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
 dlgSgOpenRepositoryInitializeGit.tle=Add or Create Repository
+dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
+dlgSgOpenRepositorySvnWorkingCopy.hdl=Can't open SVN working copy, please re-clone with SmartGit.
+dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  Don't show again for these $1 warnings
 dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
 dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
+dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
 dlgSgOutput.tle"Command Failed"=Command Failed
@@ -1643,7 +1672,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
-dlgSgPull.lbl"More Options"=More Options
 dlgSgPull.rbt"Merge fetched remote changes"=Merge fetched remote changes
 dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
  Rebase local branch onto fetched changes
@@ -1958,6 +1986,8 @@ dlgSgRepositorySettings.hdl=Edit the effective repository settings
 dlgSgRepositorySettings.inf=Here you can see and edit the effective Git settings for the user config file and the repository. To save the options as user settings, select 'Remember as default'.
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
+dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=Encoding
 dlgSgRepositorySettings.tab"Pull"=Pull
 dlgSgRepositorySettings.tab"Push"=Push
@@ -2201,6 +2231,9 @@ dlgSgSplitOffFiles.edt"Commit Message"=Commit Message
 dlgSgSplitOffFiles.hdl=Move files to a second commit
 dlgSgSplitOffFiles.inf=Provide the message for the second commit that should contain the changes from the selected files.
 dlgSgSplitOffFiles.tle=Split Off Files
+dlgSgSplitOffFilesEmptyCommit.fur=By splitting off all files, the resulting commit would become empty.
+dlgSgSplitOffFilesEmptyCommit.hdl=You can't split off all files from a commit
+dlgSgSplitOffFilesEmptyCommit.tle=Commit
 dlgSgSshCredentials.btn"Login"=Login
 dlgSgSshCredentials.chk"Store passphrase"=Store passphrase
 dlgSgSshCredentials.chk"Store password"=Store password
@@ -2249,6 +2282,10 @@ dlgSgStashOnDemandConfirmation.tle=Reset
 dlgSgStashOnDemandLocalChangesCantBeReapplied.fur=Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree.
 dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl=Your local changes have been stashed away, but could not be reapplied.
 dlgSgStashOnDemandLocalChangesCantBeReapplied.tle=Pull
+dlgSgStashOnDemandProceedWithoutStashing.btn"Proceed"=Proceed
+dlgSgStashOnDemandProceedWithoutStashing.fur=Auto-stashing changes is not possible due to technical reasons. Changes will be discarded!
+dlgSgStashOnDemandProceedWithoutStashing.hdl=Do you want to proceed without stashing changes?
+dlgSgStashOnDemandProceedWithoutStashing.tle=Reset
 dlgSgStashRename.btn"Rename"=Rename
 dlgSgStashRename.edt"Message"=Message
 dlgSgStashRename.hdl=Rename Stash
@@ -2270,6 +2307,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  Provide the path where the submodule should be added relative to the outer repository root directory.
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  Specify the repository to clone as submodule.
+dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleAdd.rbt"Local repository"=Local repository
 dlgSgSubmoduleAdd.rbt"Remote repository"=Remote repository
@@ -2282,6 +2320,29 @@ dlgSgSubmoduleResetConfirm.btn"Reset"=Reset
 dlgSgSubmoduleResetConfirm.fur=The corresponding commit will be checked out, so the submodule content will match the content of the registered commit.
 dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
 dlgSgSubmoduleResetConfirm.tle=Reset Submodule
+dlgSgSubmoduleSync.btn"Synchronize"=Synchronize
+dlgSgSubmoduleSync.chk"Pull submodule repositories"=Pull submodule repositories
+dlgSgSubmoduleSync.hdl=Synchronize all submodules
+dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
+dlgSgSubmoduleSync.tle=Synchronize Submodules
+dlgSgSubtreeAdd.chk"Create local branch \(for advanced operations\)"=\
+ Create local branch \(for advanced operations\)
+dlgSgSubtreeAdd.chk"Squash subtree into single commit"=Squash subtree into single commit
+dlgSgSubtreeAdd.edt"Branch"=Branch
+dlgSgSubtreeAdd.edt"Local Directory"=Local Directory
+dlgSgSubtreeAdd.edt"Local Path"=Local Path
+dlgSgSubtreeAdd.edt"Remote"=Remote
+dlgSgSubtreeAdd.edt"Repository URL"=Repository URL
+dlgSgSubtreeAdd.inf"Provide the path where the subtree should be added relative to the outer repository root directory."=\
+ Provide the path where the subtree should be added relative to the outer repository root directory.
+dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
+ Specify the repository to clone as subtree.
+dlgSgSubtreeAdd.lbl"Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."=\
+ Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations.
+dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgSubtreeAdd.rbt"Local repository"=Local repository
+dlgSgSubtreeAdd.rbt"Remote repository"=Remote repository
+dlgSgSubtreeAdd.tle=Add Subtree
 dlgSgSvnClientCertificate.btn"Login"=Login
 dlgSgSvnClientCertificate.chk"Store passphrase"=Store passphrase
 dlgSgSvnClientCertificate.edt"Certificate"=Certificate
@@ -2308,6 +2369,7 @@ dlgSgSyncConfirm.hdl=Do you want to proceed with sync?
 dlgSgSyncConfirm.tle=Synchronize
 dlgSgTagAdd.btn"Add Tag && Push"=Add Tag && Push
 dlgSgTagAdd.btn"Add Tag"=Add Tag
+dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign tag
 dlgSgTagAdd.edt"Annotated Tag Message"=Annotated Tag Message
 dlgSgTagAdd.edt"Tag"=Tag
 dlgSgTagAdd.err"The name must not end with a slash or dot."=\
@@ -2435,6 +2497,11 @@ wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=Commit
 wndAnnotate.edt"Highlight"=Highlight
 wndAnnotate.edt"View Commit"=View Commit
+wndAnnotate.mni"Copy Details"=Copy Details
+wndAnnotate.mni"Copy ID"=Copy ID
+wndAnnotate.mni"Copy Selection"=Copy Selection
+wndAnnotate.mni"Open Log"=Open Log
+wndAnnotate.mni"Show Changes"=Show Changes
 wndAnnotate.mniCommit-first=Go to First Commit
 wndAnnotate.mniCommit-last=Go to Last Commit
 wndAnnotate.mniCommit-next=Go to Next Commit
@@ -2475,7 +2542,10 @@ wndConflictSolver.mniView-layout-left-merge=Left and Merge
 wndConflictSolver.mniView-layout-left-right-above-merge=Left and Right Above Merge
 wndConflictSolver.mniView-layout-right-merge=Merge and Right
 wndConflictSolver.tbr"All"=All
+wndConflictSolver.tbr"Base + Right"=Base + Right
+wndConflictSolver.tbr"Base Below"=Base Below
 wndConflictSolver.tbr"Base Changes"=Base Changes
+wndConflictSolver.tbr"Left + Base"=Left + Base
 wndConflictSolver.tbr"Left + Merge"=Left + Merge
 wndConflictSolver.tbr"Merge + Right"=Merge + Right
 wndConflictSolver.tbr"Merge Below"=Merge Below
@@ -2483,14 +2553,25 @@ wndConflictSolver.tbr"Next Conflict"=Next Conflict
 wndConflictSolver.tbr"Prev. Conflict"=Prev. Conflict
 wndConflictSolver.tbr"Take Left, Right"=Take Left, Right
 wndConflictSolver.tbr"Take Right, Left"=Take Right, Left
+wndConflictSolver.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-left-right=Take the left block, then the right one.
+wndConflictSolver.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-right-left=Take the right block, then the left one.
 wndConflictSolver.tbtFile-open-base=Open the left and right changes from the common base file.
 wndConflictSolver.tbtFile-save=Save file modifications.
 wndConflictSolver.tbtGoto-next-conflict=Go to next conflict.
 wndConflictSolver.tbtGoto-next-diff=Go to next change.
+wndConflictSolver.tbtGoto-previous-conflict=Go to previous conflict.
+wndConflictSolver.tbtGoto-previous-diff=Go to previous change.
+wndConflictSolver.tbtView-layout-all=Show the left, merge and right file.
+wndConflictSolver.tbtView-layout-left-merge=Show the left and merge file.
 wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
+wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
 wndDeepgit.btn"Go Deeper"=Go Deeper
 wndDeepgit.col"File"=File
 wndDeepgit.col"Modifications"=Modifications
+wndDeepgit.mni"Copy Details"=Copy Details
+wndDeepgit.mni"Copy SHA"=Copy SHA
 wndDeepgit.mni"Copy Selection"=Copy Selection
 wndDeepgit.mni"Open File Log"=Open File Log
 wndDeepgit.mni"Open Repository Log"=Open Repository Log
@@ -2581,6 +2662,7 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD and Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=HEAD and Working Tree Above Index
 wndGit.indexEditor.mniView-layout-right-merge=Index and Working Tree
 wndGit.indexEditor.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
 wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=Go to next change.
 wndGit.indexEditor.tbtGoto-previous-diff=Go to previous change.
@@ -2599,6 +2681,7 @@ wndLog.tbt"If selected and Index as well as Working Tree changes are available, 
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
+wndProject.mni"Log Selection"=Log Selection
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=Full Screen
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=Maximize
@@ -3164,7 +3247,7 @@ wnd(Log|Project|Std).mniWindowOutput=Output
 wnd(Log|Project|Std).mniWindowWorkingTree=Show Working Tree Window
 wnd(Log|Project|Std).mniWorktreeAdd=Add Worktree
 wnd(Log|Project|Std).mniWorktreePrune=Prune Obsolete Worktrees
-wnd(Log|Project|Std).mniWorktreeRemove=Prune Obsolete Worktrees
+wnd(Log|Project|Std).mniWorktreeRemove=Remove Worktree
 wnd(Log|Project|Std).mnu"Bisect"=Bisect
 wnd(Log|Project|Std).mnu"Branch"=Branch
 wnd(Log|Project|Std).mnu"Branches"=Branches
