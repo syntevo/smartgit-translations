@@ -673,6 +673,7 @@ dlgSgCommit.chk"Amend last commit instead of creating new one"=\
  Amend last commit instead of creating new one
 dlgSgCommit.chk"Amend last commit"=Amend last commit
 dlgSgCommit.chk"Bypass commit hook"=Bypass commit hook
+dlgSgCommit.chk"More Options"=More Options
 dlgSgCommit.col"Directory"=Directory
 dlgSgCommit.col"Name"=Name
 dlgSgCommit.edt"Commit Message"=Commit Message
@@ -681,7 +682,6 @@ dlgSgCommit.err"Enter a commit message describing \(the reason for\) the commit.
  Enter a commit message describing \(the reason for\) the commit.
 dlgSgCommit.hdl=Commit local or staged changes
 dlgSgCommit.inf=Select the files you want to commit and provide a commit message.
-dlgSgCommit.lbl"More Options"=More Options
 dlgSgCommit.mni"Deselect All"=Deselect All
 dlgSgCommit.mni"JIRA"=JIRA
 dlgSgCommit.mni"Log"=Log
@@ -1672,7 +1672,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
-dlgSgPull.lbl"More Options"=More Options
 dlgSgPull.rbt"Merge fetched remote changes"=Merge fetched remote changes
 dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
  Rebase local branch onto fetched changes
