@@ -698,6 +698,7 @@ dlgSgCommit.chk"Amend last commit instead of creating new one"=\
  修改最后一次提交而不是创建新的提交
 dlgSgCommit.chk"Amend last commit"=修正最后一次提交
 dlgSgCommit.chk"Bypass commit hook"=绕过提交钩子
+dlgSgCommit.chk"More Options"=更多选项
 dlgSgCommit.col"Directory"=目录
 dlgSgCommit.col"Name"=名称
 dlgSgCommit.edt"Commit Message"=提交信息
@@ -706,7 +707,6 @@ dlgSgCommit.err"Enter a commit message describing \(the reason for\) the commit.
  输入一个提交消息
 dlgSgCommit.hdl=提交本地或暂存的更改
 dlgSgCommit.inf=选择要提交的文件并提供提交消息。
-dlgSgCommit.lbl"More Options"=更多选项
 dlgSgCommit.mni"Deselect All"=取消全选
 dlgSgCommit.mni"JIRA"=JIRA
 dlgSgCommit.mni"Log"=日志
@@ -1697,7 +1697,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  选择要获取的远程仓库。与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
-dlgSgPull.lbl"More Options"=更多选项
 dlgSgPull.rbt"Merge fetched remote changes"=合并获取的远程更改
 dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
  将本地分支变基为获取的更改
