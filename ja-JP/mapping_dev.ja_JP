@@ -410,6 +410,9 @@ dlgScTextSettings.rbt"Trailing and changed"=行末と変更箇所
 dlgScTextSettings.tab"Compare"=比較
 dlgScTextSettings.tab"General"=一般
 dlgScTextSettings.tle=設定
+dlgScUpdateInstallationUpdateManuallyFailure.fur=The process could not be started.
+dlgScUpdateInstallationUpdateManuallyFailure.hdl=Launching updater directly failed.
+dlgScUpdateInstallationUpdateManuallyFailure.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpdateManuallyInfo.fur%1='$1' を手動で削除して、アップグレードを再試行してください。
 dlgScUpdateInstallationUpdateManuallyInfo.hdl=アップデータのディレクトリの消去に失敗しました。
 dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit インストールの更新
@@ -638,6 +641,9 @@ dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  新しいリポジトリのローカルディレクトリを指定します。
 dlgSgClone.inf"Specify the repository to clone."=クローンを作成するリポジトリを指定します。
+dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
+ Note: Pull or Fetch will not bring other refs, you will need to use Fetch More.
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgClone.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=すべてのリビジョンをクローンする \(推奨\)
 dlgSgClone.rbt"Clone from revision:"=このリビジョンからクローン:
@@ -667,6 +673,7 @@ dlgSgCommit.chk"Amend last commit instead of creating new one"=\
  新規にコミットせず、前回のコミットを修正する
 dlgSgCommit.chk"Amend last commit"=前回のコミットを修正
 dlgSgCommit.chk"Bypass commit hook"=コミットフックをバイパスする
+dlgSgCommit.chk"More Options"=追加のオプション
 dlgSgCommit.col"Directory"=ディレクトリ
 dlgSgCommit.col"Name"=名前
 dlgSgCommit.edt"Commit Message"=コミットメッセージ
@@ -675,7 +682,6 @@ dlgSgCommit.err"Enter a commit message describing \(the reason for\) the commit.
  コミットを説明する\(理由となる\)コミットメッセージを入力します。
 dlgSgCommit.hdl=ローカルまたはステージングされた変更のコミット
 dlgSgCommit.inf=コミットしたいファイルを選択し、コミットメッセージを記入します。
-dlgSgCommit.lbl"More Options"=追加のオプション
 dlgSgCommit.mni"Deselect All"=選択を解除
 dlgSgCommit.mni"JIRA"==JIRA
 dlgSgCommit.mni"Log"=ログ
@@ -704,6 +710,10 @@ dlgSgCommitContinueRebaseOrCreateAdditionalCommit.btn"Create Commit"=コミッ�
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.fur=リポジトリは「リベース中」の状態です。リベース コミットの一部として追加のコミットを作成する代わりに、通常はリベースを続行するだけです。
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.hdl=リベースを続行しますか、それとも追加のコミットを作成しますか?
 dlgSgCommitContinueRebaseOrCreateAdditionalCommit.tle=リベース
+dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
+dlgSgCommitDirectlyTo.fur=You have Git-Flow configured and committing to the Git-Flow master branch should not happen directly but only with the help of the Git-Flow commands and merging.\n\nIf in doubt, please contact your administrator.
+dlgSgCommitDirectlyTo.hdl=Do you want to commit directly to 'master'?
+dlgSgCommitDirectlyTo.tle=Commit
 dlgSgCommitIndexAllWorkingTreeChanges.btn"Commit All Working Tree Changes"=作業ツリーの全ての変更をコミットする
 dlgSgCommitIndexAllWorkingTreeChanges.chk=次回から表示しない
 dlgSgCommitIndexAllWorkingTreeChanges.fur=まだステージングされていないファイルがあります。\r個々の変更をステージングするには、［キャンセル］をクリックしてください。\rそれ以外の場合は、作業ツリーの全ての変更がステージングされ、コミットされます。
@@ -899,6 +909,7 @@ dlgSgFlowHotfixFinish.chk"Merge to develop"=develop にマージする
 dlgSgFlowHotfixFinish.chk"Push results and remove remote hotfix branch"=\
  結果をプッシュし、リモートHotfixブランチを削除する
 dlgSgFlowHotfixFinish.edt"Commit Message"=コミットメッセージ
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
 dlgSgFlowHotfixFinish.hdl=hotfixを完了
 dlgSgFlowHotfixFinish.inf"Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."=\
  現在の Hotfix を完了する方法を選択します。この操作により、Hotfix が $1 および $2 ブランチにマージされます。
@@ -953,6 +964,13 @@ dlgSgFlowReleaseStart.hdl=新しい release を開始する
 dlgSgFlowReleaseStart.inf%1=新しいReleaseブランチの名前を入力してください。この操作により、'$1' ブランチから新しいブランチがフォークされます。
 dlgSgFlowReleaseStart.lbl"Resulting Branch: $1"=作成されるブランチ名: $1
 dlgSgFlowReleaseStart.tle=Releaseを開始
+dlgSgFlowSupportStart.btn"Start"=Start
+dlgSgFlowSupportStart.chk"Fetch from '$1' branch"=Fetch from '$1' branch
+dlgSgFlowSupportStart.edt"Support Name"=Support Name
+dlgSgFlowSupportStart.hdl=Start a new support
+dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
+dlgSgFlowSupportStart.lbl"Resulting Branch: $1"=Resulting Branch: $1
+dlgSgFlowSupportStart.tle=Start Support
 dlgSgGarbageCollector.btn"Run Garbage Collector"=ガベージコレクタ
 dlgSgGarbageCollector.chk"Also prune recently created objects"=最近作成されたオブジェクトのプルーニングも実施
 dlgSgGarbageCollector.chk"Expire reflog now \(will also delete stashes!\)"=\
@@ -1280,6 +1298,10 @@ dlgSgMerge.btn"Merge to Working Tree"=作業ツリーへマージ
 dlgSgMerge.hdl=マージ
 dlgSgMerge.inf=マージするブランチやコミットを選択し、それらをどのように作業ツリーにマージするかを決定します。
 dlgSgMerge.tle=マージ
+dlgSgMergeConfirmNoCommit.btn"Merge"=Merge
+dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
+dlgSgMergeConfirmNoCommit.hdl=Do you want to perform the merge?
+dlgSgMergeConfirmNoCommit.tle=Merge
 dlgSgMergeHowToMerge.btn"Create Merge-Commit"=マージリクエストを作成
 dlgSgMergeHowToMerge.btn"Fast-Forward"=ファストフォワード
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=作業ツリーへマージ
@@ -1287,6 +1309,9 @@ dlgSgMergeHowToMerge.btn"Squash-Merge"=スカッシュマージ
 dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブランチ (HEAD) を選択されたコミットに進めることを意味します。\r別の方法として、マージコミットを作成したり、作業ツリーにマージしたりすることもできます。\r後者の場合、変更内容を確認し、後でマージコミットや通常の\(スカッシュ\)コミットを作成することができます。
 dlgSgMergeHowToMerge.hdl%1=ブランチ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.tle=マージ
+dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
+dlgSgMergeNoop.hdl=There is nothing to merge.
+dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepository.edt"Repository"=リポジトリ
 dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
  Git または Mercurial リポジトリのルートディレクトリを指定してください。
@@ -1304,12 +1329,16 @@ dlgSgOpenRepositoryInitializeGit.btn"Initialize"=初期化
 dlgSgOpenRepositoryInitializeGit.fur=指定されたディレクトリは、有効な Git リポジトリではないようです。
 dlgSgOpenRepositoryInitializeGit.hdl%1='$1' を新しい Git リポジトリとして初期化しますか?
 dlgSgOpenRepositoryInitializeGit.tle=リポジトリの追加又は作成
+dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
+dlgSgOpenRepositorySvnWorkingCopy.hdl=Can't open SVN working copy, please re-clone with SmartGit.
+dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  これらの $1 警告については次回から表示しない
 dlgSgOutput.chk"Don't show again for this warning"=\
  この警告は次回から表示しない
 dlgSgOutput.chk"Show automatically for failed command"=失敗したコマンドを自動的に表示する
 dlgSgOutput.lbl"Branches need merging first."=ブランチはまずマージする必要があります。
+dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
@@ -1643,7 +1672,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  「フェッチのみ」と対照的に、「プル」ではフェッチされた変更点も取り込まれます。
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  プルするリモート リポジトリを選択します。フェッチのみとは対照的に、プルはフェッチされた変更も取り込みます。 （以下のオプションを展開して設定します）
-dlgSgPull.lbl"More Options"=追加のオプション
 dlgSgPull.rbt"Merge fetched remote changes"=取得したリモートの変更をマージ
 dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
  取得した変更点に合わせてローカルブランチをリベース
@@ -1958,6 +1986,8 @@ dlgSgRepositorySettings.hdl=効果的なリポジトリ設定の編集
 dlgSgRepositorySettings.inf=ここでは、ユーザー設定ファイルとリポジトリに対する効果的なGit設定を確認・編集することができます。\rオプションをユーザー設定として保存するには、「デフォルトとして記憶する」を選択します。
 dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
+dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
+ \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=エンコーディング
 dlgSgRepositorySettings.tab"Pull"=プル
 dlgSgRepositorySettings.tab"Push"=プッシュ
@@ -2201,6 +2231,9 @@ dlgSgSplitOffFiles.edt"Commit Message"=コミットメッセージ
 dlgSgSplitOffFiles.hdl=ファイルを2番目のコミットに移動する
 dlgSgSplitOffFiles.inf=選択したファイルからの変更を含める必要がある 2 番目のコミットのメッセージを入力します。
 dlgSgSplitOffFiles.tle=ファイルを分割
+dlgSgSplitOffFilesEmptyCommit.fur=By splitting off all files, the resulting commit would become empty.
+dlgSgSplitOffFilesEmptyCommit.hdl=You can't split off all files from a commit
+dlgSgSplitOffFilesEmptyCommit.tle=Commit
 dlgSgSshCredentials.btn"Login"=ログイン
 dlgSgSshCredentials.chk"Store passphrase"=パスフレーズを保存する
 dlgSgSshCredentials.chk"Store password"=パスワードの保存
@@ -2249,6 +2282,10 @@ dlgSgStashOnDemandConfirmation.tle=リセット
 dlgSgStashOnDemandLocalChangesCantBeReapplied.fur=プルが完了したら、最新のスタッシュを手動で適用し、ローカルの変更を作業ツリーに戻す必要があります。
 dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl=ローカルの変更はスタッシュに退避されましたが、再適用できませんでした。
 dlgSgStashOnDemandLocalChangesCantBeReapplied.tle=プル
+dlgSgStashOnDemandProceedWithoutStashing.btn"Proceed"=Proceed
+dlgSgStashOnDemandProceedWithoutStashing.fur=Auto-stashing changes is not possible due to technical reasons. Changes will be discarded!
+dlgSgStashOnDemandProceedWithoutStashing.hdl=Do you want to proceed without stashing changes?
+dlgSgStashOnDemandProceedWithoutStashing.tle=Reset
 dlgSgStashRename.btn"Rename"=リネーム
 dlgSgStashRename.edt"Message"=メッセージ
 dlgSgStashRename.hdl=リネーム
@@ -2270,6 +2307,7 @@ dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relat
  サブモジュールを追加するパスを、外部リポジトリのルート ディレクトリからの相対パスで指定します。
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  サブモジュールとしてクローンするリポジトリを指定します。
+dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgSubmoduleAdd.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgSubmoduleAdd.rbt"Local repository"=ローカルリポジトリ
 dlgSgSubmoduleAdd.rbt"Remote repository"=リモートリポジトリ
@@ -2282,6 +2320,29 @@ dlgSgSubmoduleResetConfirm.btn"Reset"=リセット
 dlgSgSubmoduleResetConfirm.fur=対応するコミットがチェックアウトされるため、サブモジュールの内容は登録されたコミットの内容と一致します。
 dlgSgSubmoduleResetConfirm.hdl%1=サブモジュール '$1' をリポジトリに登録されているコミットの状態にリセットしますか？
 dlgSgSubmoduleResetConfirm.tle=サブモジュールのリセット
+dlgSgSubmoduleSync.btn"Synchronize"=Synchronize
+dlgSgSubmoduleSync.chk"Pull submodule repositories"=Pull submodule repositories
+dlgSgSubmoduleSync.hdl=Synchronize all submodules
+dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
+dlgSgSubmoduleSync.tle=Synchronize Submodules
+dlgSgSubtreeAdd.chk"Create local branch \(for advanced operations\)"=\
+ Create local branch \(for advanced operations\)
+dlgSgSubtreeAdd.chk"Squash subtree into single commit"=Squash subtree into single commit
+dlgSgSubtreeAdd.edt"Branch"=Branch
+dlgSgSubtreeAdd.edt"Local Directory"=Local Directory
+dlgSgSubtreeAdd.edt"Local Path"=Local Path
+dlgSgSubtreeAdd.edt"Remote"=Remote
+dlgSgSubtreeAdd.edt"Repository URL"=Repository URL
+dlgSgSubtreeAdd.inf"Provide the path where the subtree should be added relative to the outer repository root directory."=\
+ Provide the path where the subtree should be added relative to the outer repository root directory.
+dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
+ Specify the repository to clone as subtree.
+dlgSgSubtreeAdd.lbl"Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."=\
+ Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations.
+dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgSubtreeAdd.rbt"Local repository"=Local repository
+dlgSgSubtreeAdd.rbt"Remote repository"=Remote repository
+dlgSgSubtreeAdd.tle=Add Subtree
 dlgSgSvnClientCertificate.btn"Login"=ログイン
 dlgSgSvnClientCertificate.chk"Store passphrase"=パスフレーズを保存する
 dlgSgSvnClientCertificate.edt"Certificate"=証明書
@@ -2308,6 +2369,7 @@ dlgSgSyncConfirm.hdl=同期を実行しますか？
 dlgSgSyncConfirm.tle=同期
 dlgSgTagAdd.btn"Add Tag && Push"=タグを追加してプッシュ
 dlgSgTagAdd.btn"Add Tag"=タグを追加
+dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign tag
 dlgSgTagAdd.edt"Annotated Tag Message"=注釈付きタグメッセージ
 dlgSgTagAdd.edt"Tag"=タグ
 dlgSgTagAdd.err"The name must not end with a slash or dot."=\
@@ -2435,6 +2497,11 @@ wndAnnotate.edt"By"==By
 wndAnnotate.edt"Commit"=コミット
 wndAnnotate.edt"Highlight"=ハイライト
 wndAnnotate.edt"View Commit"=コミットを表示
+wndAnnotate.mni"Copy Details"=Copy Details
+wndAnnotate.mni"Copy ID"=Copy ID
+wndAnnotate.mni"Copy Selection"=Copy Selection
+wndAnnotate.mni"Open Log"=Open Log
+wndAnnotate.mni"Show Changes"=Show Changes
 wndAnnotate.mniCommit-first=最初のコミットに移動
 wndAnnotate.mniCommit-last=最後のコミットに移動
 wndAnnotate.mniCommit-next=次のコミットに進む
@@ -2475,7 +2542,10 @@ wndConflictSolver.mniView-layout-left-merge=左とマージ
 wndConflictSolver.mniView-layout-left-right-above-merge=左と右,下にマージ
 wndConflictSolver.mniView-layout-right-merge=マージと右
 wndConflictSolver.tbr"All"=全て
+wndConflictSolver.tbr"Base + Right"=Base + Right
+wndConflictSolver.tbr"Base Below"=Base Below
 wndConflictSolver.tbr"Base Changes"=ベースの変更
+wndConflictSolver.tbr"Left + Base"=Left + Base
 wndConflictSolver.tbr"Left + Merge"=左+マージ
 wndConflictSolver.tbr"Merge + Right"=マージ+右
 wndConflictSolver.tbr"Merge Below"=下にマージ
@@ -2483,14 +2553,25 @@ wndConflictSolver.tbr"Next Conflict"=次の競合
 wndConflictSolver.tbr"Prev. Conflict"=前の競合
 wndConflictSolver.tbr"Take Left, Right"=左、右の順に取込
 wndConflictSolver.tbr"Take Right, Left"=右、左の順に取込
+wndConflictSolver.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-left-right=Take the left block, then the right one.
+wndConflictSolver.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
+wndConflictSolver.tbtEdit-take-right-left=Take the right block, then the left one.
 wndConflictSolver.tbtFile-open-base=共通のベースファイルから左右の変更点を開く。
 wndConflictSolver.tbtFile-save=ファイルの変更を保存します。
 wndConflictSolver.tbtGoto-next-conflict=次の競合に進む
 wndConflictSolver.tbtGoto-next-diff=次の変更点に進みます。
+wndConflictSolver.tbtGoto-previous-conflict=Go to previous conflict.
+wndConflictSolver.tbtGoto-previous-diff=Go to previous change.
+wndConflictSolver.tbtView-layout-all=Show the left, merge and right file.
+wndConflictSolver.tbtView-layout-left-merge=Show the left and merge file.
 wndConflictSolver.tbtView-layout-left-right-above-merge=マージ ファイルの上に左右のファイルを表示します。
+wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
 wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
+wndDeepgit.mni"Copy Details"=Copy Details
+wndDeepgit.mni"Copy SHA"=Copy SHA
 wndDeepgit.mni"Copy Selection"=選択範囲をコピー
 wndDeepgit.mni"Open File Log"=ファイルログを開く
 wndDeepgit.mni"Open Repository Log"=リポジトリログを開く
@@ -2581,6 +2662,7 @@ wndGit.indexEditor.mniView-layout-left-merge=HEAD と Index
 wndGit.indexEditor.mniView-layout-left-right-above-merge=Indexの上にHEADと作業ツリー
 wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
 wndGit.indexEditor.tbtEdit-take-left=左のブロックをマージ結果に持っていきます。左のブロックに応じて、マージ結果で挿入、置換、削除を行います。
+wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
 wndGit.indexEditor.tbtFile-save=ファイルの変更を保存します。
 wndGit.indexEditor.tbtGoto-next-diff=次の変更点に進みます。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
@@ -2599,6 +2681,7 @@ wndLog.tbt"If selected and Index as well as Working Tree changes are available, 
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  "$1" から受け取ったプルリクエストを読み込んでいます。
+wndProject.mni"Log Selection"=Log Selection
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=準備完了
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=フルスクリーン
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化
