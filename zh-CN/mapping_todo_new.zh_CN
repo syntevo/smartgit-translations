@@ -151,6 +151,7 @@ dlgSgSubtreeAdd.rbt"Local repository"=Local repository
 dlgSgSubtreeAdd.rbt"Remote repository"=Remote repository
 dlgSgSubtreeAdd.tle=Add Subtree
 dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign tag
+dlgSgTool(Add|Edit).rbt"Commits"=Commits
 pop"No more change."=No more change.
 pop"Select the branch for which to stop tracking."=\
  Select the branch for which to stop tracking.
@@ -176,6 +177,7 @@ wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
 wndDeepgit.mni"Copy Details"=Copy Details
 wndDeepgit.mni"Copy SHA"=Copy SHA
 wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.tbt"Go to next change."=Go to next change.
 wndDeepgit.tbt"Go to previous change."=Go to previous change.
 wndDeepgit.tbtBack=Go back to previous blame...

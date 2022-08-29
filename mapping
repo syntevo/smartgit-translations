@@ -592,7 +592,7 @@ dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"
 dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
 dlgSgCherryPickConfirmation.btn"Cherry-Pick"=Cherry-Pick
-dlgSgCherryPickConfirmation.chk=Append source SHA to commit message
+dlgSgCherryPickConfirmation.chk=Append source commit ID to commit message
 dlgSgCherryPickConfirmation.fur=This will cherry-pick the selected commit into the Working Tree.
 dlgSgCherryPickConfirmation.hdl=Do you want to cherry-pick?
 dlgSgCherryPickConfirmation.tle=Cherry-Pick
@@ -2388,7 +2388,6 @@ dlgSgTagDeleteConfirmSingle.hdl%1=Do you want to delete the tag '$1'?
 dlgSgTagDeleteConfirmSingle.tle=Delete
 dlgSgToolAdd.edt"Keyboard Shortcut"=Keyboard Shortcut
 dlgSgToolAdd.hdl=Add external tool
-dlgSgToolAdd.mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
 dlgSgToolAdd.tle=Add
 dlgSgToolEdit.edt"Keyboard Shortcut"=Keyboard Shortcut
 dlgSgToolEdit.err"Please enter the name for this command."=\
@@ -2412,6 +2411,7 @@ dlgSgTool(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) a
  Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html
 dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref \(optional\)"=\
  2nd Commit ID or Ref \(optional\)
+dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref"=2nd Commit ID or Ref
 dlgSgTool(Add|Edit).mni"Commit ID or Ref"=Commit ID or Ref
 dlgSgTool(Add|Edit).mni"Configured Text File Encoding"=Configured Text File Encoding
 dlgSgTool(Add|Edit).mni"File or Directory Name"=File or Directory Name
@@ -2429,10 +2429,10 @@ dlgSgTool(Add|Edit).mni"Show Open File Dialog"=Show Open File Dialog
 dlgSgTool(Add|Edit).mni"Show Save File Dialog"=Show Save File Dialog
 dlgSgTool(Add|Edit).mni"SmartGit Installation"=SmartGit Installation
 dlgSgTool(Add|Edit).rbt"Both"=Both
+dlgSgTool(Add|Edit).rbt"Commits"=Commits
 dlgSgTool(Add|Edit).rbt"Directories"=Directories
 dlgSgTool(Add|Edit).rbt"Files"=Files
 dlgSgTool(Add|Edit).rbt"Refs"=Refs
-dlgSgTool(Add|Edit).rbt"SHAs"=SHAs
 dlgSgUndoLastCommitConfirm.btn"Undo"=Undo
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=Message: $1
 dlgSgUndoLastCommitConfirm.fur"Undoing an already pushed commit might cause serious problems!\n\nMessage: $1"=\
@@ -2608,8 +2608,9 @@ wndDeepgit.mniSearch-find=Find
 wndDeepgit.mniSearch-next=Find Next
 wndDeepgit.mniSearch-previous=Find Previous
 wndDeepgit.mniSetEncoding=Encoding
+wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowLinePrefixes=Show Line Prefixes
-wndDeepgit.mniShowOnRefs=Show On Refs in Navigation
+wndDeepgit.mniShowOnRefs=Show On Refs
 wndDeepgit.mniToggleLineHistory=Line History
 wndDeepgit.mniViewToolbar=Show Toolbar
 wndDeepgit.mniWindowHorizontalLayout=Horizontal Blame + Origins Layout
