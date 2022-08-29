@@ -2413,7 +2413,6 @@ dlgSgTagDeleteConfirmSingle.hdl%1=您确定要删除 “$1” 标签吗？
 dlgSgTagDeleteConfirmSingle.tle=删除
 dlgSgToolAdd.edt"Keyboard Shortcut"=键盘快捷键
 dlgSgToolAdd.hdl=添加外部工具
-dlgSgToolAdd.mni"2nd Commit ID or Ref"=第 2 个提交 ID 或引用
 dlgSgToolAdd.tle=添加
 dlgSgToolEdit.edt"Keyboard Shortcut"=键盘快捷键
 dlgSgToolEdit.err"Please enter the name for this command."=\
@@ -2437,6 +2436,7 @@ dlgSgTool(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) a
  有效的通配符是 ?\u00a0\(一个任意字符\)和 \*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt，\u00a0\* .html。
 dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref \(optional\)"=\
  第二个提交 ID 或参考 \(可选\)
+dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref"=第 2 个提交 ID 或引用
 dlgSgTool(Add|Edit).mni"Commit ID or Ref"=提交 ID 或参考
 dlgSgTool(Add|Edit).mni"Configured Text File Encoding"=配置的文本文件编码
 dlgSgTool(Add|Edit).mni"File or Directory Name"=文件或目录名称
@@ -2454,10 +2454,10 @@ dlgSgTool(Add|Edit).mni"Show Open File Dialog"=显示打开文件对话框
 dlgSgTool(Add|Edit).mni"Show Save File Dialog"=显示保存文件对话框
 dlgSgTool(Add|Edit).mni"SmartGit Installation"=SmartGit 安装程序
 dlgSgTool(Add|Edit).rbt"Both"=都
+dlgSgTool(Add|Edit).rbt"Commits"=Commits
 dlgSgTool(Add|Edit).rbt"Directories"=目录
 dlgSgTool(Add|Edit).rbt"Files"=文件
 dlgSgTool(Add|Edit).rbt"Refs"=参考
-dlgSgTool(Add|Edit).rbt"SHAs"=SHA
 dlgSgUndoLastCommitConfirm.btn"Undo"=撤销
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=消息：$1
 dlgSgUndoLastCommitConfirm.fur"Undoing an already pushed commit might cause serious problems!\n\nMessage: $1"=\

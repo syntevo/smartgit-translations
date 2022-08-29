@@ -151,6 +151,7 @@ dlgSgSubtreeAdd.rbt"Local repository"=Local repository
 dlgSgSubtreeAdd.rbt"Remote repository"=Remote repository
 dlgSgSubtreeAdd.tle=Add Subtree
 dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign tag
+dlgSgTool(Add|Edit).rbt"Commits"=Commits
 pop"No more change."=No more change.
 pop"Select the branch for which to stop tracking."=\
  Select the branch for which to stop tracking.
