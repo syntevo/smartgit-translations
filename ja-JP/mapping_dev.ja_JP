@@ -2388,7 +2388,6 @@ dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolAdd.hdl=外部ツールの追加
-dlgSgToolAdd.mni"2nd Commit ID or Ref"=2番目のコミットIDまたはRef
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolEdit.err"Please enter the name for this command."=\
@@ -2412,6 +2411,7 @@ dlgSgTool(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) a
  有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\r例：*.txt,*.html \r ? (任意の1文字) \r * (任意の数の任意の文字)
 dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref \(optional\)"=\
  2番目のコミットIDまたはRef \(オプション\)
+dlgSgTool(Add|Edit).mni"2nd Commit ID or Ref"=2番目のコミットIDまたはRef
 dlgSgTool(Add|Edit).mni"Commit ID or Ref"=コミットIDまたはRef
 dlgSgTool(Add|Edit).mni"Configured Text File Encoding"=設定されたテキストファイルのエンコーディング
 dlgSgTool(Add|Edit).mni"File or Directory Name"=ファイル名またはディレクトリ名
@@ -2429,10 +2429,10 @@ dlgSgTool(Add|Edit).mni"Show Open File Dialog"=ファイルを開くダイアロ
 dlgSgTool(Add|Edit).mni"Show Save File Dialog"=ファイル保存ダイアログを表示する
 dlgSgTool(Add|Edit).mni"SmartGit Installation"=SmartGitのインストール先
 dlgSgTool(Add|Edit).rbt"Both"=両方
+dlgSgTool(Add|Edit).rbt"Commits"=Commits
 dlgSgTool(Add|Edit).rbt"Directories"=ディレクトリ
 dlgSgTool(Add|Edit).rbt"Files"=ファイル
 dlgSgTool(Add|Edit).rbt"Refs"==Refs
-dlgSgTool(Add|Edit).rbt"SHAs"==SHAs
 dlgSgUndoLastCommitConfirm.btn"Undo"=元に戻す
 dlgSgUndoLastCommitConfirm.fur"Message: $1"=メッセージ: $1
 dlgSgUndoLastCommitConfirm.fur"Undoing an already pushed commit might cause serious problems!\n\nMessage: $1"=\
@@ -2608,8 +2608,9 @@ wndDeepgit.mniSearch-find=検索
 wndDeepgit.mniSearch-next=次を検索
 wndDeepgit.mniSearch-previous=前を検索
 wndDeepgit.mniSetEncoding=エンコーディング
+wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowLinePrefixes=行頭に追加の情報を表示
-wndDeepgit.mniShowOnRefs=Show On Refs in Navigation
+wndDeepgit.mniShowOnRefs=Show On Refs
 wndDeepgit.mniToggleLineHistory=行の履歴
 wndDeepgit.mniViewToolbar=ツールバーを表示
 wndDeepgit.mniWindowHorizontalLayout=左右にブレームとOriginsを並べる
