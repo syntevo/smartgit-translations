@@ -2633,6 +2633,7 @@ wndDeepgit.mniSearch-find=查找
 wndDeepgit.mniSearch-next=查找下一个
 wndDeepgit.mniSearch-previous=查找上一个
 wndDeepgit.mniSetEncoding=编码
+wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowLinePrefixes=显示行前缀
 wndDeepgit.mniShowOnRefs=显示引用
 wndDeepgit.mniToggleLineHistory=行历史记录

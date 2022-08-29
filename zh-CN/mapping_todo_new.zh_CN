@@ -176,6 +176,7 @@ wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
 wndDeepgit.mni"Copy Details"=Copy Details
 wndDeepgit.mni"Copy SHA"=Copy SHA
 wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.tbt"Go to next change."=Go to next change.
 wndDeepgit.tbt"Go to previous change."=Go to previous change.
 wndDeepgit.tbtBack=Go back to previous blame...
