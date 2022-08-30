@@ -80,11 +80,15 @@ wndConflictSolver.tbtView-layout-all=Show the left, merge and right file.
 wndConflictSolver.tbtView-layout-left-merge=Show the left and merge file.
 wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
 wndDeepgit.mni"Copy Details"=Copy Details
-wndDeepgit.mni"Copy SHA"=Copy SHA
+wndDeepgit.mni"Copy ID"=Copy ID
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowOnRefs=Show On Refs
 wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
 wndProject.mni"Log Selection"=Log Selection
-wnd(Log|Project|Std).mni"Sort Primary Parents First"=Sort Primary Parents First
-wnd(Log|Project|Std).mniSortCommitsPrimaryParentsFirst=Sort Commits with Primary Parents first
+wnd(Log|Project|Std).mni"Sort First Parents before Merge Parents"=\
+ Sort First Parents before Merge Parents
+wnd(Log|Project|Std).mni"Sort Merge Parents before First Parents"=\
+ Sort Merge Parents before First Parents
+wnd(Log|Project|Std).mniSortCommitsFirstParentsBeforeMergeParents=Sort First Parents before Merge Parents
+wnd(Log|Project|Std).mniSortCommitsMergeParentsBeforeFirstParents=Sort Merge Parents before First Parents
