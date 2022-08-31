@@ -2534,9 +2534,10 @@ wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
 wndCompare.mniView-layout-left-over-right=上下に並べて表示\(上にLeft,下にRight\)
 wndCompare.tbtGoto-next-diff=次の変更点に進みます。
-wndConflictSolver.mni"Apply Inner-line Difference to Middle"=行内の差分を中央に適用
-wndConflictSolver.mni"Apply Line to Middle"=行の差分を中央に適用
-wndConflictSolver.mni"Apply Selection to Middle"=選択範囲を中央に適用
+wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
+ Apply Inner-line Difference to Working Tree
+wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
+wndConflictSolver.mni"Apply Selection to Working Tree"=Apply Selection to Working Tree
 wndConflictSolver.mniView-layout-all=全て
 wndConflictSolver.mniView-layout-left-merge=左とマージ
 wndConflictSolver.mniView-layout-left-right-above-merge=左と右,下にマージ
