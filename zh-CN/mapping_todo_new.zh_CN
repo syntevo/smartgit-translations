@@ -162,6 +162,10 @@ wndAnnotate.mni"Copy ID"=Copy ID
 wndAnnotate.mni"Copy Selection"=Copy Selection
 wndAnnotate.mni"Open Log"=Open Log
 wndAnnotate.mni"Show Changes"=Show Changes
+wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
+ Apply Inner-line Difference to Working Tree
+wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
+wndConflictSolver.mni"Apply Selection to Working Tree"=Apply Selection to Working Tree
 wndConflictSolver.tbr"Base + Right"=Base + Right
 wndConflictSolver.tbr"Base Below"=Base Below
 wndConflictSolver.tbr"Left + Base"=Left + Base

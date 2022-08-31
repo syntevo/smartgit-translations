@@ -2559,9 +2559,10 @@ wndCompare.mniRefresh=重新加载
 wndCompare.mniView-layout-left-beside-right=左边右边
 wndCompare.mniView-layout-left-over-right=左上方
 wndCompare.tbtGoto-next-diff=下一处差异。
-wndConflictSolver.mni"Apply Inner-line Difference to Middle"=将内部线条差异应用于中间
-wndConflictSolver.mni"Apply Line to Middle"=将线条应用于中间
-wndConflictSolver.mni"Apply Selection to Middle"=将所选内容应用于中间
+wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
+ Apply Inner-line Difference to Working Tree
+wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
+wndConflictSolver.mni"Apply Selection to Working Tree"=Apply Selection to Working Tree
 wndConflictSolver.mniView-layout-all=所有
 wndConflictSolver.mniView-layout-left-merge=左合并
 wndConflictSolver.mniView-layout-left-right-above-merge=左右合并

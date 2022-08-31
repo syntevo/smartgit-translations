@@ -2534,9 +2534,10 @@ wndCompare.mniRefresh=Reload
 wndCompare.mniView-layout-left-beside-right=Left Beside Right
 wndCompare.mniView-layout-left-over-right=Left Above Right
 wndCompare.tbtGoto-next-diff=Go to next change.
-wndConflictSolver.mni"Apply Inner-line Difference to Middle"=Apply Inner-line Difference to Middle
-wndConflictSolver.mni"Apply Line to Middle"=Apply Line to Middle
-wndConflictSolver.mni"Apply Selection to Middle"=Apply Selection to Middle
+wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
+ Apply Inner-line Difference to Working Tree
+wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
+wndConflictSolver.mni"Apply Selection to Working Tree"=Apply Selection to Working Tree
 wndConflictSolver.mniView-layout-all=All
 wndConflictSolver.mniView-layout-left-merge=Left and Merge
 wndConflictSolver.mniView-layout-left-right-above-merge=Left and Right Above Merge
