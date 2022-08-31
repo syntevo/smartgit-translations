@@ -1,7 +1,3 @@
-wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
- Apply Inner-line Difference to Working Tree
-wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
-wndConflictSolver.mni"Apply Selection to Working Tree"=Apply Selection to Working Tree
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowOnRefs=Show On Refs
