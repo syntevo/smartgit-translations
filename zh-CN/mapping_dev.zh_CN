@@ -1697,9 +1697,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  选择要获取的远程仓库。与 “仅获取” 相比,拉取还将包含获取的更改 \(展开下面的选项进行配置\)。
-dlgSgPull.rbt"Merge fetched remote changes"=合并获取的远程更改
-dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
- 将本地分支变基为获取的更改
 dlgSgPull.tle=拉取
 dlgSgPullConfiguration.btn"Configure"=配置
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
@@ -2487,6 +2484,9 @@ dlgSgWorktreeAddNoMoreLocalBranches.tle=添加工作区
 dlgSgWorktreePruneNoWorktree.fur=您的所有工作区仍然可用。
 dlgSgWorktreePruneNoWorktree.hdl=没有要删除的工作区。
 dlgSgWorktreePruneNoWorktree.tle=删除废弃的工作区
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Merge fetched remote changes"=合并获取的远程更改
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Rebase local branch onto fetched changes"=\
+ 将本地分支变基为获取的更改
 dlgShPushTrackingLocalSvnBranches.btn"Push as New"=推送到新的
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=推到现有的
 dlgShPushTrackingLocalSvnBranches.fur=您将把本地分支推送回 SVN 仓库。 这些分支可能作为新分支推送到现有的 SVN 对应部分 \(在大多数情况下推荐使用\)。

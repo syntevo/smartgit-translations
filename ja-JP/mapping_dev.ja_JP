@@ -1672,9 +1672,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  「フェッチのみ」と対照的に、「プル」ではフェッチされた変更点も取り込まれます。
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  プルするリモート リポジトリを選択します。フェッチのみとは対照的に、プルはフェッチされた変更も取り込みます。 （以下のオプションを展開して設定します）
-dlgSgPull.rbt"Merge fetched remote changes"=取得したリモートの変更をマージ
-dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
- 取得した変更点に合わせてローカルブランチをリベース
 dlgSgPull.tle=プル
 dlgSgPullConfiguration.btn"Configure"=設定
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
@@ -2462,6 +2459,9 @@ dlgSgWorktreeAddNoMoreLocalBranches.tle=ワークツリーを追加
 dlgSgWorktreePruneNoWorktree.fur=すべてのワークツリーは引き続き使用できます。
 dlgSgWorktreePruneNoWorktree.hdl=プルーニング\(剪定\)するワークツリーがありません。
 dlgSgWorktreePruneNoWorktree.tle=廃止されたワークツリーを整理する
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Merge fetched remote changes"=取得したリモートの変更をマージ
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Rebase local branch onto fetched changes"=\
+ 取得した変更点に合わせてローカルブランチをリベース
 dlgShPushTrackingLocalSvnBranches.btn"Push as New"=新規としてプッシュ
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=既存のものにプッシュ
 dlgShPushTrackingLocalSvnBranches.fur=ローカル ブランチを SVN リポジトリにプッシュします。これらのブランチは、新しいブランチとしてプッシュするか、既存の SVN 対応するブランチにプッシュすることができます \(ほとんどの場合に推奨\)。
