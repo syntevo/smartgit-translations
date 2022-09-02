@@ -21,9 +21,9 @@ dlgDgAbout.tab"Credits"=クレジット
 dlgDgAbout.tab"Information"=情報
 dlgDgAbout.tab"Licensee"=ライセンス
 dlgDgAbout.tle=DeepGitについて
-dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
-dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
-dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
+dlgDgRefMapperGroupConfig.hdl=このリポジトリのタグをグループ化するためのパターンを設定します。
+dlgDgRefMapperGroupConfig.inf=この設定にマッチしたタグ、ブランチ、その他の参照は、ナビゲーショングラフに表示されます。
+dlgDgRefMapperGroupConfig.tle=タグ・グルーピングの設定
 dlgDgSetEncoding.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgDgSetEncoding.hdl=エンコーディング設定
 dlgDgSetEncoding.inf=ファイルの処理と表示に使用するエンコーディングを指定します。なお、UTF-8のエンコーディングは、ここでの設定にかかわらず、自動検出されます。
@@ -362,11 +362,11 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  これは、セキュリティ上の問題を示している可能性があります。疑わしい場合は、サーバー管理者に連絡してください。
 dlgScSslFingerprint.tle=サーバーのフィンガープリント
-dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
-dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
-dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
-dlgScTextFinderFindFromEnd.tle=Find Text
-dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから探す
+dlgScTextFinderFindFromEnd.btn"Find from End"=末尾から検索
+dlgScTextFinderFindFromEnd.fur=ドキュメントの先頭まで見つかりませんでした。
+dlgScTextFinderFindFromEnd.hdl=ドキュメントの最後から続けますか？
+dlgScTextFinderFindFromEnd.tle=テキストの検索
+dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから検索
 dlgScTextFinderFindFromStart.fur=ドキュメントの最後まで見つかりませんでした。
 dlgScTextFinderFindFromStart.hdl=ドキュメントの先頭から続けますか？
 dlgScTextFinderFindFromStart.tle=テキストの検索
@@ -1303,7 +1303,7 @@ dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブ�
 dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
  ブランチ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
- How to merge from tag '$1'?
+ タグ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.tle=マージ
 dlgSgMergeNoop.fur=コミットをそれ自身にマージすることは、技術的にはGitで認められていますが、ノーオペレーション命令であり、新しいコミットやその他の意味のある変更を与えるものではありません。
 dlgSgMergeNoop.hdl=マージするものはありません。
@@ -2370,11 +2370,11 @@ dlgSgTagDeleteConfirmSingle.fur=復元できなくなります。
 dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
-dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter a confirmation message."=確認メッセージを入力してください。
 dlgSgToolAdd.err"Please enter the name for this command."=\
- Please enter the name for this command.
+ このコマンドの名前を入力してください。
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
- The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
+ 「開くコマンドで使用可能」と「出力を表示して終了まで待つ」のオプションは、同時に設定することができません。
 dlgSgToolAdd.hdl=外部ツールの追加
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
@@ -2464,19 +2464,19 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branche
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=タグ-グルーピング
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
- Please enter a file pattern \(e.g. \*.txt, \*.java\).
+ ファイル パターンを入力してください。 \(例: \*.txt、\*.java \)
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
- Select the command which should be invoked.
+ 起動するコマンドを選択します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
- Specify the necessary arguments for the command, especially the required variable.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
- Specify the necessary arguments for the command, especially the required variables.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
- The Arguments require the variable \$\{file\}.
+ 引数には、変数 \$\{file\} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
- The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+ 引数には変数 \${leftFile}, \${rightFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+ 引数には変数 \${leftFile}, \${rightFile}, \${mergedFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
  変数 \$\{file\} を使用する必要があります。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
@@ -2693,7 +2693,7 @@ wndLog.mni"Unstage Hunk"=ハンクをアンステージ
 wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
-wndLog.mniRemoteFetchAll=Fetch All
+wndLog.mniRemoteFetchAll=全てフェッチ
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
@@ -2739,7 +2739,7 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-copy=コピー
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-cut=切り取り
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-ignore-case-changes=行比較で大文字小文字を区別しない
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-paste=貼り付け
-wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-redo=やり直し\(Redo\)
+wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-redo=やり直し
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniFile-close=閉じる
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniFile-save=保存
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniGoto-line=指定の行へ移動
