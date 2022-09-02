@@ -21,6 +21,9 @@ dlgDgAbout.tab"Credits"=Credits
 dlgDgAbout.tab"Information"=Information
 dlgDgAbout.tab"Licensee"=Licensee
 dlgDgAbout.tle=About DeepGit
+dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
+dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
+dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
 dlgDgSetEncoding.edt"Text File Encoding"=Text File Encoding
 dlgDgSetEncoding.hdl=Configure Encoding
 dlgDgSetEncoding.inf=Specify the encoding which should be used for processing and viewing files. Note, that UTF-8 encoding will be auto-detected, regardless of the configuration here.
@@ -373,6 +376,10 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  This might indicate a security problem! When in doubt, contact your server administrator.
 dlgScSslFingerprint.tle=Server Fingerprint
+dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
+dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
+dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
+dlgScTextFinderFindFromEnd.tle=Find Text
 dlgScTextFinderFindFromStart.btn"Find from Beginning"=Find from Beginning
 dlgScTextFinderFindFromStart.fur=No occurrences have been found until the end of the document.
 dlgScTextFinderFindFromStart.hdl=Do you want to continue from the beginning of the document?
@@ -2377,6 +2384,11 @@ dlgSgTagDeleteConfirmSingle.fur=You will not be able to restore it.
 dlgSgTagDeleteConfirmSingle.hdl%1=Do you want to delete the tag '$1'?
 dlgSgTagDeleteConfirmSingle.tle=Delete
 dlgSgToolAdd.edt"Keyboard Shortcut"=Keyboard Shortcut
+dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter the name for this command."=\
+ Please enter the name for this command.
+dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
+ The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
 dlgSgToolAdd.hdl=Add external tool
 dlgSgToolAdd.tle=Add
 dlgSgToolEdit.edt"Keyboard Shortcut"=Keyboard Shortcut
@@ -2465,6 +2477,24 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patter
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=Tag-Grouping
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
+ Please enter a file pattern \(e.g. \*.txt, \*.java\).
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
+ Select the command which should be invoked.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
+ Specify the necessary arguments for the command, especially the required variable.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
+ Specify the necessary arguments for the command, especially the required variables.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
+ The Arguments require the variable \$\{file\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
+ You must use the variable \$\{file\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=Delete
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=Move to Trash
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=If you click Delete you may require file recovery tools to restore the deleted files!
@@ -2677,6 +2707,7 @@ wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.mniRemoteFetchAll=Fetch All
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
