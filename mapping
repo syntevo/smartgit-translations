@@ -1672,9 +1672,6 @@ dlgSgPull.inf"In contrast to Fetch Only, Pull will also incorporate the fetched 
  In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
 dlgSgPull.inf"Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\)."=\
  Select the remote repository to pull. In contrast to Fetch Only, Pull will also incorporate the fetched changes \(expand the options below to configure\).
-dlgSgPull.rbt"Merge fetched remote changes"=Merge fetched remote changes
-dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
- Rebase local branch onto fetched changes
 dlgSgPull.tle=Pull
 dlgSgPullConfiguration.btn"Configure"=Configure
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
@@ -2462,6 +2459,9 @@ dlgSgWorktreeAddNoMoreLocalBranches.tle=Add Worktree
 dlgSgWorktreePruneNoWorktree.fur=All your worktrees are still available.
 dlgSgWorktreePruneNoWorktree.hdl=No worktree to prune.
 dlgSgWorktreePruneNoWorktree.tle=Prune Obsolete Worktrees
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Merge fetched remote changes"=Merge fetched remote changes
+dlgSg(Preferences|Pull|RepositorySettings).rbt"Rebase local branch onto fetched changes"=\
+ Rebase local branch onto fetched changes
 dlgShPushTrackingLocalSvnBranches.btn"Push as New"=Push as New
 dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
