@@ -1307,7 +1307,10 @@ dlgSgMergeHowToMerge.btn"Fast-Forward"=Fast-Forward
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=Merge to Working Tree
 dlgSgMergeHowToMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMergeHowToMerge.fur=Fast-forward merge means to just move the current branch \(HEAD\) forward to the selected commit. As an alternative you can create a merge commit or merge to the working tree. In the latter case you can review the changes and later create a merge or normal \(squash\) commit later.
-dlgSgMergeHowToMerge.hdl%1=How to merge from branch '$1'?
+dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
+ How to merge from branch '$1'?
+dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
+ How to merge from tag '$1'?
 dlgSgMergeHowToMerge.tle=Merge
 dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
 dlgSgMergeNoop.hdl=There is nothing to merge.
