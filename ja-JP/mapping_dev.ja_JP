@@ -1317,7 +1317,7 @@ dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブ�
 dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
  ブランチ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
- How to merge from tag '$1'?
+ タグ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.tle=マージ
 dlgSgMergeNoop.fur=コミットをそれ自身にマージすることは、技術的にはGitで認められていますが、ノーオペレーション命令であり、新しいコミットやその他の意味のある変更を与えるものではありません。
 dlgSgMergeNoop.hdl=マージするものはありません。
@@ -2707,7 +2707,7 @@ wndLog.mni"Unstage Hunk"=ハンクをアンステージ
 wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
-wndLog.mniRemoteFetchAll=Fetch All
+wndLog.mniRemoteFetchAll=全てフェッチ
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
