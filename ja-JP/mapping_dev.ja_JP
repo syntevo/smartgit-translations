@@ -21,6 +21,9 @@ dlgDgAbout.tab"Credits"=クレジット
 dlgDgAbout.tab"Information"=情報
 dlgDgAbout.tab"Licensee"=ライセンス
 dlgDgAbout.tle=DeepGitについて
+dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
+dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
+dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
 dlgDgSetEncoding.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgDgSetEncoding.hdl=エンコーディング設定
 dlgDgSetEncoding.inf=ファイルの処理と表示に使用するエンコーディングを指定します。なお、UTF-8のエンコーディングは、ここでの設定にかかわらず、自動検出されます。
@@ -373,6 +376,10 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  これは、セキュリティ上の問題を示している可能性があります。疑わしい場合は、サーバー管理者に連絡してください。
 dlgScSslFingerprint.tle=サーバーのフィンガープリント
+dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
+dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
+dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
+dlgScTextFinderFindFromEnd.tle=Find Text
 dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから探す
 dlgScTextFinderFindFromStart.fur=ドキュメントの最後まで見つかりませんでした。
 dlgScTextFinderFindFromStart.hdl=ドキュメントの先頭から続けますか？
@@ -2377,6 +2384,11 @@ dlgSgTagDeleteConfirmSingle.fur=復元できなくなります。
 dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
+dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter the name for this command."=\
+ Please enter the name for this command.
+dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
+ The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
 dlgSgToolAdd.hdl=外部ツールの追加
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
@@ -2465,6 +2477,24 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patter
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=タグ-グルーピング
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
+ Please enter a file pattern \(e.g. \*.txt, \*.java\).
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
+ Select the command which should be invoked.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
+ Specify the necessary arguments for the command, especially the required variable.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
+ Specify the necessary arguments for the command, especially the required variables.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
+ The Arguments require the variable \$\{file\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
+ 変数 \$\{file\} を使用する必要があります。
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ 変数 \$\{leftFile\}, \$\{rightFile\} を使用する必要があります。
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=削除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=ゴミ箱へ移動
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=「削除」をクリックすると、削除されたファイルを復元するためにファイル復元ツールが必要になる場合があります。
@@ -2677,6 +2707,7 @@ wndLog.mni"Unstage Hunk"=ハンクをアンステージ
 wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
+wndLog.mniRemoteFetchAll=Fetch All
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\

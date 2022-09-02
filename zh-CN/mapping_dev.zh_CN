@@ -46,6 +46,9 @@ dlgDgAbout.tab"Credits"=基本信息
 dlgDgAbout.tab"Information"=软件信息
 dlgDgAbout.tab"Licensee"=被许可人
 dlgDgAbout.tle=关于 DeepGit
+dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
+dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
+dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
 dlgDgSetEncoding.edt"Text File Encoding"=文本文件编码
 dlgDgSetEncoding.hdl=配置编码
 dlgDgSetEncoding.inf=指定应用于处理和查看文件的编码。请注意,UTF-8 编码将自动检测到,而不考虑此处的配置。
@@ -398,6 +401,10 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  这可能表示存在安全问题！ 如有疑问，请与服务器管理员联系。
 dlgScSslFingerprint.tle=服务器指纹
+dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
+dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
+dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
+dlgScTextFinderFindFromEnd.tle=Find Text
 dlgScTextFinderFindFromStart.btn"Find from Beginning"=从头查找
 dlgScTextFinderFindFromStart.fur=直到文档底部无法查找更多文本
 dlgScTextFinderFindFromStart.hdl=您想从文档的开头继续查找吗？
@@ -2402,6 +2409,11 @@ dlgSgTagDeleteConfirmSingle.fur=你将无法恢复它。
 dlgSgTagDeleteConfirmSingle.hdl%1=您确定要删除 “$1” 标签吗？
 dlgSgTagDeleteConfirmSingle.tle=删除
 dlgSgToolAdd.edt"Keyboard Shortcut"=键盘快捷键
+dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter the name for this command."=\
+ Please enter the name for this command.
+dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
+ The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
 dlgSgToolAdd.hdl=添加外部工具
 dlgSgToolAdd.tle=添加
 dlgSgToolEdit.edt"Keyboard Shortcut"=键盘快捷键
@@ -2490,6 +2502,24 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patter
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
  与此配置匹配的标签、分支和其他引用将在文件日志中分组，并显示在提交详细信息中。它还将用于对 “分支” 视图的 “标签” 类别进行分组。
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=标签分组
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
+ Please enter a file pattern \(e.g. \*.txt, \*.java\).
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
+ Select the command which should be invoked.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
+ Specify the necessary arguments for the command, especially the required variable.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
+ Specify the necessary arguments for the command, especially the required variables.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
+ The Arguments require the variable \$\{file\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
+ You must use the variable \$\{file\}.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=删除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=移动到回收站
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=如果单击 “删除”，则可能需要文件还原工具来还原已删除的文件！
@@ -2702,6 +2732,7 @@ wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.mniRemoteFetchAll=Fetch All
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
