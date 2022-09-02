@@ -64,6 +64,8 @@ dlgSgHistorySplitConfirm.tle=Split Commit
 dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
 dlgSgMergeConfirmNoCommit.hdl=Do you want to perform the merge?
 dlgSgMergeConfirmNoCommit.tle=Merge
+dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
+ How to merge from tag '$1'?
 dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
 dlgSgMergeNoop.hdl=There is nothing to merge.
 dlgSgMergeNoop.tle=Merge

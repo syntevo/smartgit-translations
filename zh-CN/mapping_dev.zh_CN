@@ -1332,7 +1332,10 @@ dlgSgMergeHowToMerge.btn"Fast-Forward"=快进
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=合并到工作区
 dlgSgMergeHowToMerge.btn"Squash-Merge"=压缩合并
 dlgSgMergeHowToMerge.fur=快进合并意味着只将当前分支 \(HEAD\) 向前移动到选定的提交。作为替代方法，您可以创建合并提交或合并到工作区。 在后一种情况下，您可以查看更改，然后稍后创建合并或普通 \(压缩\) 提交。
-dlgSgMergeHowToMerge.hdl%1=如何从分支 “$1” 合并？
+dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
+ 如何从分支 “$1” 合并？
+dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
+ How to merge from tag '$1'?
 dlgSgMergeHowToMerge.tle=合并
 dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
 dlgSgMergeNoop.hdl=There is nothing to merge.
@@ -1533,7 +1536,6 @@ dlgSgPreferences.edt"Font Size"=字体大小
 dlgSgPreferences.edt"Functionality\*"=功能\*
 dlgSgPreferences.edt"GPG Program"=GPG 程序
 dlgSgPreferences.edt"Git Executable"=Git 可执行文件
-dlgSgPreferences.edt"Group Patterns"=分组模式
 dlgSgPreferences.edt"Hg Executable"=Hg 可执行文件
 dlgSgPreferences.edt"Host"=服务器
 dlgSgPreferences.edt"Known credentials"=已知凭据
@@ -1546,7 +1548,6 @@ dlgSgPreferences.edt"Prefer"=喜欢
 dlgSgPreferences.edt"Preview"=预览
 dlgSgPreferences.edt"Shortcut"=快捷键
 dlgSgPreferences.edt"Signing Key"=签名密钥
-dlgSgPreferences.edt"Single Patterns"=单一模式
 dlgSgPreferences.edt"Startup Window"=标准窗口
 dlgSgPreferences.edt"Submodule handling\*"=子模块处理\*
 dlgSgPreferences.edt"Suggest to"=建议
@@ -1576,8 +1577,6 @@ dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit
  注意：密码将以纯文本形式存储在 SmartGit 的配置区域中！
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  请通过自动发送不包含任何敏感信息的 “崩溃踪迹” 来帮助提高 SmartGit 的质量。您可以稍后在偏好设置中更改此选项。\n\n崩溃踪迹包含有关您的计算机\的详细信息 \(例如，操作系统的版本\)，SmartGit 的版本/内部版本号，JVM 状态以及发生内部错误的位置。\n\n它不包含任何潜在的敏感信息，如用户名，电子邮件地址，文件内容，文件路径或服务器名称。
-dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- 与此配置匹配的标签、分支和其他引用将在文件日志中分组，并显示在提交详细信息中。它还将用于对 “分支” 视图的 “标签” 类别进行分组。
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  代理主要用于检查新版本。如果似乎没有合理的系统代理配置，它也将用于 Git HTTP\(s\)连接 \(请参阅文档了解详细信息\)。
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
@@ -1655,7 +1654,6 @@ dlgSgPreferences.tab"Languages"=语言
 dlgSgPreferences.tab"Pull"=拉取
 dlgSgPreferences.tab"Push"=推送
 dlgSgPreferences.tab"Signing"=签名
-dlgSgPreferences.tab"Tag-Grouping"=标签分组
 dlgSgPreferences.tab"User"=用户
 dlgSgPreferences.tle=偏好设置
 dlgSgProcessKiller.btn"Exit Process"=退出进程
@@ -1996,25 +1994,20 @@ dlgSgRepositorySettings.chk"Sign all commits"=签名所有提交
 dlgSgRepositorySettings.chk"Update registered submodules"=更新已注册的子模块
 dlgSgRepositorySettings.edt"Email"=电子邮箱
 dlgSgRepositorySettings.edt"GPG Program"=GPG 程序
-dlgSgRepositorySettings.edt"Group Patterns"=群组模式
 dlgSgRepositorySettings.edt"Name"=用户名
 dlgSgRepositorySettings.edt"Signing Key"=签名密钥
-dlgSgRepositorySettings.edt"Single Patterns"=个体模式
 dlgSgRepositorySettings.edt"Submodule handling\*"=子模块处理\*
 dlgSgRepositorySettings.edt"Text File Encoding"=文本编码
 dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
  请输入有效的、以逗号分隔的正则表达式列表。
 dlgSgRepositorySettings.hdl=编辑有效的仓库设置
 dlgSgRepositorySettings.inf=在这里，您可以查看和编辑用户配置文件和仓库的有效 Git 设置。要将选项保存为用户设置，请选择 “记住默认” 。
-dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- 与此配置相匹配的标签、分支和其他引用将被分组到文件日志中，并显示在提交细节中。它也将被用于分组分支视图的 "标签" 类别。
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=编码
 dlgSgRepositorySettings.tab"Pull"=拉取
 dlgSgRepositorySettings.tab"Push"=推送
 dlgSgRepositorySettings.tab"Signing"=签名
-dlgSgRepositorySettings.tab"Tag-Grouping"=标签分组
 dlgSgRepositorySettings.tab"User & Encoding"=用户和编码
 dlgSgRepositorySettings.tab"User"=用户
 dlgSgRepositorySettings.tle=仓库设置
@@ -2492,6 +2485,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=推到现有的
 dlgShPushTrackingLocalSvnBranches.fur=您将把本地分支推送回 SVN 仓库。 这些分支可能作为新分支推送到现有的 SVN 对应部分 \(在大多数情况下推荐使用\)。
 dlgShPushTrackingLocalSvnBranches.hdl=你想推动本地分支作为新的 SVN 分支吗？
 dlgShPushTrackingLocalSvnBranches.tle=推送
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=分组模式
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=单一模式
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
+ 与此配置匹配的标签、分支和其他引用将在文件日志中分组，并显示在提交详细信息中。它还将用于对 “分支” 视图的 “标签” 类别进行分组。
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=标签分组
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=删除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=移动到回收站
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=如果单击 “删除”，则可能需要文件还原工具来还原已删除的文件！

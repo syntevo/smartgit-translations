@@ -1307,7 +1307,10 @@ dlgSgMergeHowToMerge.btn"Fast-Forward"=ファストフォワード
 dlgSgMergeHowToMerge.btn"Merge to Working Tree"=作業ツリーへマージ
 dlgSgMergeHowToMerge.btn"Squash-Merge"=スカッシュマージ
 dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブランチ (HEAD) を選択されたコミットに進めることを意味します。\r別の方法として、マージコミットを作成したり、作業ツリーにマージしたりすることもできます。\r後者の場合、変更内容を確認し、後でマージコミットや通常の\(スカッシュ\)コミットを作成することができます。
-dlgSgMergeHowToMerge.hdl%1=ブランチ '$1' からどのようにマージしますか?
+dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
+ ブランチ '$1' からどのようにマージしますか?
+dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
+ How to merge from tag '$1'?
 dlgSgMergeHowToMerge.tle=マージ
 dlgSgMergeNoop.fur=コミットをそれ自身にマージすることは、技術的にはGitで認められていますが、ノーオペレーション命令であり、新しいコミットやその他の意味のある変更を与えるものではありません。
 dlgSgMergeNoop.hdl=マージするものはありません。
@@ -1508,7 +1511,6 @@ dlgSgPreferences.edt"Font Size"=フォントサイズ
 dlgSgPreferences.edt"Functionality\*"=機能性\*
 dlgSgPreferences.edt"GPG Program"=GPG プログラム
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
-dlgSgPreferences.edt"Group Patterns"=グループパターン
 dlgSgPreferences.edt"Hg Executable"=Hg 実行ファイル
 dlgSgPreferences.edt"Host"=ホスト
 dlgSgPreferences.edt"Known credentials"=既知の資格情報
@@ -1521,7 +1523,6 @@ dlgSgPreferences.edt"Prefer"==Prefer
 dlgSgPreferences.edt"Preview"=プレビュー
 dlgSgPreferences.edt"Shortcut"=ショートカット
 dlgSgPreferences.edt"Signing Key"=署名キー
-dlgSgPreferences.edt"Single Patterns"=シングルパターン
 dlgSgPreferences.edt"Startup Window"=スタートアップウィンドウ
 dlgSgPreferences.edt"Submodule handling\*"=サブモジュールの取り扱い\*
 dlgSgPreferences.edt"Suggest to"=提案する
@@ -1551,8 +1552,6 @@ dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit
  注：パスワードは、SmartGitの設定領域にプレーンテキストで保存されます。
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。クラッシュフットプリント」には、お使いのマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は一切含まれません。
-dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  このプロキシは、主に「新しいバージョンの確認」に使用されます。\rシステムのプロキシ設定が適切でない場合には、Git HTTP\(S\)の接続にも使用されます。(詳細はドキュメントを参照してください)
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
@@ -1630,7 +1629,6 @@ dlgSgPreferences.tab"Languages"=言語
 dlgSgPreferences.tab"Pull"=プル
 dlgSgPreferences.tab"Push"=プッシュ
 dlgSgPreferences.tab"Signing"=署名
-dlgSgPreferences.tab"Tag-Grouping"=タグ-グルーピング
 dlgSgPreferences.tab"User"=ユーザー
 dlgSgPreferences.tle=環境設定
 dlgSgProcessKiller.btn"Exit Process"=プロセスを終了
@@ -1971,25 +1969,20 @@ dlgSgRepositorySettings.chk"Sign all commits"=すべてのコミットに署名�
 dlgSgRepositorySettings.chk"Update registered submodules"=登録されたサブモジュールを更新する
 dlgSgRepositorySettings.edt"Email"=電子メール
 dlgSgRepositorySettings.edt"GPG Program"=GPG プログラム
-dlgSgRepositorySettings.edt"Group Patterns"=グループパターン
 dlgSgRepositorySettings.edt"Name"=名前
 dlgSgRepositorySettings.edt"Signing Key"=署名キー
-dlgSgRepositorySettings.edt"Single Patterns"=シングルパターン
 dlgSgRepositorySettings.edt"Submodule handling\*"=サブモジュールの取り扱い\*
 dlgSgRepositorySettings.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
  有効なカンマ区切りの正規表現のリストを入力してください。
 dlgSgRepositorySettings.hdl=効果的なリポジトリ設定の編集
 dlgSgRepositorySettings.inf=ここでは、ユーザー設定ファイルとリポジトリに対する効果的なGit設定を確認・編集することができます。\rオプションをユーザー設定として保存するには、「デフォルトとして記憶する」を選択します。
-dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* リポジトリのコミットがプッシュされていないサブモジュールのコミットを参照している場合
 dlgSgRepositorySettings.tab"Encoding"=エンコーディング
 dlgSgRepositorySettings.tab"Pull"=プル
 dlgSgRepositorySettings.tab"Push"=プッシュ
 dlgSgRepositorySettings.tab"Signing"=署名
-dlgSgRepositorySettings.tab"Tag-Grouping"=タグ-グルーピング
 dlgSgRepositorySettings.tab"User & Encoding"=ユーザーとエンコーディング
 dlgSgRepositorySettings.tab"User"=ユーザー
 dlgSgRepositorySettings.tle=リポジトリの設定
@@ -2467,6 +2460,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=既存のものにプ�
 dlgShPushTrackingLocalSvnBranches.fur=ローカル ブランチを SVN リポジトリにプッシュします。これらのブランチは、新しいブランチとしてプッシュするか、既存の SVN 対応するブランチにプッシュすることができます \(ほとんどの場合に推奨\)。
 dlgShPushTrackingLocalSvnBranches.hdl=ローカルブランチを新しいSVNブランチとしてプッシュしますか？
 dlgShPushTrackingLocalSvnBranches.tle=プッシュ
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=グループパターン
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=シングルパターン
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
+ この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=タグ-グルーピング
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=削除
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=ゴミ箱へ移動
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=「削除」をクリックすると、削除されたファイルを復元するためにファイル復元ツールが必要になる場合があります。
