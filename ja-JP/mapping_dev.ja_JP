@@ -376,11 +376,11 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  これは、セキュリティ上の問題を示している可能性があります。疑わしい場合は、サーバー管理者に連絡してください。
 dlgScSslFingerprint.tle=サーバーのフィンガープリント
-dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
-dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
-dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
-dlgScTextFinderFindFromEnd.tle=Find Text
-dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから探す
+dlgScTextFinderFindFromEnd.btn"Find from End"=末尾から検索
+dlgScTextFinderFindFromEnd.fur=ドキュメントの先頭まで見つかりませんでした。
+dlgScTextFinderFindFromEnd.hdl=ドキュメントの最後から続けますか？
+dlgScTextFinderFindFromEnd.tle=テキストの検索
+dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから検索
 dlgScTextFinderFindFromStart.fur=ドキュメントの最後まで見つかりませんでした。
 dlgScTextFinderFindFromStart.hdl=ドキュメントの先頭から続けますか？
 dlgScTextFinderFindFromStart.tle=テキストの検索
