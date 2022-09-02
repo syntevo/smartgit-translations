@@ -130,28 +130,8 @@ dlgScApplicationStarterRestart.fur=The downloaded program update should be appli
 dlgScApplicationStarterRestart.hdl=SmartGit requires a restart.
 dlgScApplicationStarterRestart.tle=Restart
 dlgScConflictSolverAdd.hdl=Add conflict solver
-dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverAdd.mni"Base File"=Base File
-dlgScConflictSolverAdd.mni"Encoding"=Encoding
-dlgScConflictSolverAdd.mni"Left File"=Left File
-dlgScConflictSolverAdd.mni"Left Title"=Left Title
-dlgScConflictSolverAdd.mni"Merged File"=Merged File
-dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
-dlgScConflictSolverAdd.mni"Right File"=Right File
-dlgScConflictSolverAdd.mni"Right Title"=Right Title
 dlgScConflictSolverAdd.tle=Add
 dlgScConflictSolverEdit.hdl=Edit conflict solver
-dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverEdit.mni"Base File"=Base File
-dlgScConflictSolverEdit.mni"Encoding"=Encoding
-dlgScConflictSolverEdit.mni"Left File"=Left File
-dlgScConflictSolverEdit.mni"Left Title"=Left Title
-dlgScConflictSolverEdit.mni"Merged File"=Merged File
-dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
-dlgScConflictSolverEdit.mni"Right File"=Right File
-dlgScConflictSolverEdit.mni"Right Title"=Right Title
 dlgScConflictSolverEdit.tle=Edit
 dlgScConflictSolverUnresolvedConflicts.chk=Don't warn me again
 dlgScConflictSolverUnresolvedConflicts.fur=Not all conflicts have been resolved.
@@ -163,6 +143,16 @@ dlgScConflictSolver(Add|Edit).edt"File Pattern"=File Pattern
 dlgScConflictSolver(Add|Edit).inf=Define the file pattern \(e.g. \*.txt\) and select the merge tool which should be used to resolve conflicting files matching this pattern.
 dlgScConflictSolver(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolver(Add|Edit).mni"Base File"=Base File
+dlgScConflictSolver(Add|Edit).mni"Encoding"=Encoding
+dlgScConflictSolver(Add|Edit).mni"Left File"=Left File
+dlgScConflictSolver(Add|Edit).mni"Left Title"=Left Title
+dlgScConflictSolver(Add|Edit).mni"Merged File"=Merged File
+dlgScConflictSolver(Add|Edit).mni"Merged Title"=Merged Title
+dlgScConflictSolver(Add|Edit).mni"Right File"=Right File
+dlgScConflictSolver(Add|Edit).mni"Right Title"=Right Title
 dlgScConflictSolver(Add|Edit).rbt"Built-in Conflict Solver"=Built-in Conflict Solver
 dlgScConflictSolver(Add|Edit).rbt"External Conflict Solver"=External Conflict Solver
 dlgScCustomizeAccelerators.btn"Assign"=Assign
@@ -229,10 +219,6 @@ dlgScFileComparatorAdd.mni"Base File"=Base File
 dlgScFileComparatorAdd.mni"Base Title"=Base Title
 dlgScFileComparatorAdd.tle=Add
 dlgScFileComparatorEdit.hdl=Edit external diff tool
-dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
- You must use the variable \$\{file\}.
-dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
- You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlgScFileComparatorEdit.mni"Base Encoding"=Base Encoding
 dlgScFileComparatorEdit.mni"Base File"=Base File
 dlgScFileComparatorEdit.mni"Base Title"=Base Title
