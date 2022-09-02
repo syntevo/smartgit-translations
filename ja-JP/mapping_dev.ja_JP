@@ -2384,11 +2384,11 @@ dlgSgTagDeleteConfirmSingle.fur=復元できなくなります。
 dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
-dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter a confirmation message."=確認メッセージを入力してください。
 dlgSgToolAdd.err"Please enter the name for this command."=\
- Please enter the name for this command.
+ このコマンドの名前を入力してください。
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
- The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
+ 「開くコマンドで使用可能」と「出力を表示して終了まで待つ」のオプションは、同時に設定することができません。
 dlgSgToolAdd.hdl=外部ツールの追加
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
@@ -2478,19 +2478,19 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branche
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=タグ-グルーピング
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
- Please enter a file pattern \(e.g. \*.txt, \*.java\).
+ ファイル パターンを入力してください。 \(例: \*.txt、\*.java \)
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
- Select the command which should be invoked.
+ 起動するコマンドを選択します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
- Specify the necessary arguments for the command, especially the required variable.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
- Specify the necessary arguments for the command, especially the required variables.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
- The Arguments require the variable \$\{file\}.
+ 引数には、変数 \$\{file\} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
- The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+ 引数には変数 \${leftFile}, \${rightFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+ 引数には変数 \${leftFile}, \${rightFile}, \${mergedFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
  変数 \$\{file\} を使用する必要があります。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
