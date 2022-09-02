@@ -155,28 +155,8 @@ dlgScApplicationStarterRestart.fur=下载的程序更新现在应该应用。
 dlgScApplicationStarterRestart.hdl=SmartGit 需要重新启动。
 dlgScApplicationStarterRestart.tle=重新启动
 dlgScConflictSolverAdd.hdl=添加冲突解决方案
-dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverAdd.mni"Base File"=Base File
-dlgScConflictSolverAdd.mni"Encoding"=Encoding
-dlgScConflictSolverAdd.mni"Left File"=Left File
-dlgScConflictSolverAdd.mni"Left Title"=Left Title
-dlgScConflictSolverAdd.mni"Merged File"=Merged File
-dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
-dlgScConflictSolverAdd.mni"Right File"=Right File
-dlgScConflictSolverAdd.mni"Right Title"=Right Title
 dlgScConflictSolverAdd.tle=添加
 dlgScConflictSolverEdit.hdl=变基冲突解决方案
-dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverEdit.mni"Base File"=Base File
-dlgScConflictSolverEdit.mni"Encoding"=Encoding
-dlgScConflictSolverEdit.mni"Left File"=Left File
-dlgScConflictSolverEdit.mni"Left Title"=Left Title
-dlgScConflictSolverEdit.mni"Merged File"=Merged File
-dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
-dlgScConflictSolverEdit.mni"Right File"=Right File
-dlgScConflictSolverEdit.mni"Right Title"=Right Title
 dlgScConflictSolverEdit.tle=编辑
 dlgScConflictSolverUnresolvedConflicts.chk=不再显示警告
 dlgScConflictSolverUnresolvedConflicts.fur=并非所有冲突都已得到解决。
@@ -188,6 +168,16 @@ dlgScConflictSolver(Add|Edit).edt"File Pattern"=文件模式
 dlgScConflictSolver(Add|Edit).inf=定义文件模式 \(例如：\*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
 dlgScConflictSolver(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+dlgScConflictSolver(Add|Edit).mni"Base File"=Base File
+dlgScConflictSolver(Add|Edit).mni"Encoding"=Encoding
+dlgScConflictSolver(Add|Edit).mni"Left File"=Left File
+dlgScConflictSolver(Add|Edit).mni"Left Title"=Left Title
+dlgScConflictSolver(Add|Edit).mni"Merged File"=Merged File
+dlgScConflictSolver(Add|Edit).mni"Merged Title"=Merged Title
+dlgScConflictSolver(Add|Edit).mni"Right File"=Right File
+dlgScConflictSolver(Add|Edit).mni"Right Title"=Right Title
 dlgScConflictSolver(Add|Edit).rbt"Built-in Conflict Solver"=内置冲突解决器
 dlgScConflictSolver(Add|Edit).rbt"External Conflict Solver"=外部冲突解决器
 dlgScCustomizeAccelerators.btn"Assign"=分配
@@ -254,10 +244,6 @@ dlgScFileComparatorAdd.mni"Base File"=基本文件
 dlgScFileComparatorAdd.mni"Base Title"=基本标题
 dlgScFileComparatorAdd.tle=添加
 dlgScFileComparatorEdit.hdl=编辑外部差异工具
-dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
- You must use the variable \$\{file\}.
-dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
- You must use the variables \$\{leftFile\} and \$\{rightFile\}.
 dlgScFileComparatorEdit.mni"Base Encoding"=基本编码
 dlgScFileComparatorEdit.mni"Base File"=基本文件
 dlgScFileComparatorEdit.mni"Base Title"=基本标题

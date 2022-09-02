@@ -4,30 +4,16 @@ dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
 dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
 dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
 dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
-dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
  You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverAdd.mni"Base File"=Base File
-dlgScConflictSolverAdd.mni"Encoding"=Encoding
-dlgScConflictSolverAdd.mni"Left File"=Left File
-dlgScConflictSolverAdd.mni"Left Title"=Left Title
-dlgScConflictSolverAdd.mni"Merged File"=Merged File
-dlgScConflictSolverAdd.mni"Merged Title"=Merged Title
-dlgScConflictSolverAdd.mni"Right File"=Right File
-dlgScConflictSolverAdd.mni"Right Title"=Right Title
-dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
-dlgScConflictSolverEdit.mni"Base File"=Base File
-dlgScConflictSolverEdit.mni"Encoding"=Encoding
-dlgScConflictSolverEdit.mni"Left File"=Left File
-dlgScConflictSolverEdit.mni"Left Title"=Left Title
-dlgScConflictSolverEdit.mni"Merged File"=Merged File
-dlgScConflictSolverEdit.mni"Merged Title"=Merged Title
-dlgScConflictSolverEdit.mni"Right File"=Right File
-dlgScConflictSolverEdit.mni"Right Title"=Right Title
-dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
- You must use the variable \$\{file\}.
-dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
- You must use the variables \$\{leftFile\} and \$\{rightFile\}.
+dlgScConflictSolver(Add|Edit).mni"Base File"=Base File
+dlgScConflictSolver(Add|Edit).mni"Encoding"=Encoding
+dlgScConflictSolver(Add|Edit).mni"Left File"=Left File
+dlgScConflictSolver(Add|Edit).mni"Left Title"=Left Title
+dlgScConflictSolver(Add|Edit).mni"Merged File"=Merged File
+dlgScConflictSolver(Add|Edit).mni"Merged Title"=Merged Title
+dlgScConflictSolver(Add|Edit).mni"Right File"=Right File
+dlgScConflictSolver(Add|Edit).mni"Right Title"=Right Title
 dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
 dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
 dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?

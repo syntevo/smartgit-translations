@@ -130,28 +130,8 @@ dlgScApplicationStarterRestart.fur=ダウンロードしたプログラムの更
 dlgScApplicationStarterRestart.hdl=SmartGitは再起動が必要です。
 dlgScApplicationStarterRestart.tle=再起動
 dlgScConflictSolverAdd.hdl=コンフリクトソルバーの追加
-dlgScConflictSolverAdd.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- 変数 \$\{leftFile\}, \$\{rightFile\} , \$\{mergedFile\} を使用する必要があります。
-dlgScConflictSolverAdd.mni"Base File"=ベースファイル
-dlgScConflictSolverAdd.mni"Encoding"=エンコーディング
-dlgScConflictSolverAdd.mni"Left File"=左のファイル
-dlgScConflictSolverAdd.mni"Left Title"=左のタイトル
-dlgScConflictSolverAdd.mni"Merged File"=マージされたファイル
-dlgScConflictSolverAdd.mni"Merged Title"=マージされたタイトル
-dlgScConflictSolverAdd.mni"Right File"=右のファイル
-dlgScConflictSolverAdd.mni"Right Title"=右のタイトル
 dlgScConflictSolverAdd.tle=追加
 dlgScConflictSolverEdit.hdl=コンフリクトソルバーの編集
-dlgScConflictSolverEdit.lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- 変数 \$\{leftFile\}, \$\{rightFile\} , \$\{mergedFile\} を使用する必要があります。
-dlgScConflictSolverEdit.mni"Base File"=ベースファイル
-dlgScConflictSolverEdit.mni"Encoding"=エンコーディング
-dlgScConflictSolverEdit.mni"Left File"=左のファイル
-dlgScConflictSolverEdit.mni"Left Title"=左のタイトル
-dlgScConflictSolverEdit.mni"Merged File"=マージされたファイル
-dlgScConflictSolverEdit.mni"Merged Title"=マージされたタイトル
-dlgScConflictSolverEdit.mni"Right File"=右のファイル
-dlgScConflictSolverEdit.mni"Right Title"=右のタイトル
 dlgScConflictSolverEdit.tle=編集
 dlgScConflictSolverUnresolvedConflicts.chk=次回から警告しない
 dlgScConflictSolverUnresolvedConflicts.fur=すべての競合が解決されたわけではありません。
@@ -163,6 +143,16 @@ dlgScConflictSolver(Add|Edit).edt"File Pattern"=ファイルパターン
 dlgScConflictSolver(Add|Edit).inf=ファイルパターン\(例: \*.txt\)を定義し、このパターンに一致するファイルの競合を解決するために使用するマージツールを選択します。
 dlgScConflictSolver(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有効なワイルドカードは下記のとおりです。複数のパターンはコンマで区切ります。\r例：*.txt,*.html \r ? (任意の1文字) \r * (任意の数の任意の文字)
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ 変数 \$\{leftFile\}, \$\{rightFile\} , \$\{mergedFile\} を使用する必要があります。
+dlgScConflictSolver(Add|Edit).mni"Base File"=ベースファイル
+dlgScConflictSolver(Add|Edit).mni"Encoding"=エンコーディング
+dlgScConflictSolver(Add|Edit).mni"Left File"=左のファイル
+dlgScConflictSolver(Add|Edit).mni"Left Title"=左のタイトル
+dlgScConflictSolver(Add|Edit).mni"Merged File"=マージされたファイル
+dlgScConflictSolver(Add|Edit).mni"Merged Title"=マージされたタイトル
+dlgScConflictSolver(Add|Edit).mni"Right File"=右のファイル
+dlgScConflictSolver(Add|Edit).mni"Right Title"=右のタイトル
 dlgScConflictSolver(Add|Edit).rbt"Built-in Conflict Solver"=内蔵のコンフリクトソルバー
 dlgScConflictSolver(Add|Edit).rbt"External Conflict Solver"=外部コンフリクトソルバー
 dlgScCustomizeAccelerators.btn"Assign"=割り当て
@@ -229,10 +219,6 @@ dlgScFileComparatorAdd.mni"Base File"=ベースファイル
 dlgScFileComparatorAdd.mni"Base Title"=ベースタイトル
 dlgScFileComparatorAdd.tle=追加
 dlgScFileComparatorEdit.hdl=外部Diffツールの編集
-dlgScFileComparatorEdit.lbl"You must use the variable \$\{file\}."=\
- 変数 \$\{file\} を使用する必要があります。
-dlgScFileComparatorEdit.lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
- 変数 \$\{leftFile\}, \$\{rightFile\} を使用する必要があります。
 dlgScFileComparatorEdit.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorEdit.mni"Base File"=ベースファイル
 dlgScFileComparatorEdit.mni"Base Title"=ベースタイトル
