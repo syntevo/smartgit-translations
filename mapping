@@ -1511,7 +1511,6 @@ dlgSgPreferences.edt"Font Size"=Font Size
 dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
 dlgSgPreferences.edt"Git Executable"=Git Executable
-dlgSgPreferences.edt"Group Patterns"=Group Patterns
 dlgSgPreferences.edt"Hg Executable"=Hg Executable
 dlgSgPreferences.edt"Host"=Host
 dlgSgPreferences.edt"Known credentials"=Known credentials
@@ -1524,7 +1523,6 @@ dlgSgPreferences.edt"Prefer"=Prefer
 dlgSgPreferences.edt"Preview"=Preview
 dlgSgPreferences.edt"Shortcut"=Shortcut
 dlgSgPreferences.edt"Signing Key"=Signing Key
-dlgSgPreferences.edt"Single Patterns"=Single Patterns
 dlgSgPreferences.edt"Startup Window"=Startup Window
 dlgSgPreferences.edt"Submodule handling\*"=Submodule handling\*
 dlgSgPreferences.edt"Suggest to"=Suggest to
@@ -1554,8 +1552,6 @@ dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit
  Note: The password will be stored in plain text in SmartGit's configuration area!
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
-dlgSgPreferences.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\).
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
@@ -1633,7 +1629,6 @@ dlgSgPreferences.tab"Languages"=Languages
 dlgSgPreferences.tab"Pull"=Pull
 dlgSgPreferences.tab"Push"=Push
 dlgSgPreferences.tab"Signing"=Signing
-dlgSgPreferences.tab"Tag-Grouping"=Tag-Grouping
 dlgSgPreferences.tab"User"=User
 dlgSgPreferences.tle=Preferences
 dlgSgProcessKiller.btn"Exit Process"=Exit Process
@@ -1974,25 +1969,20 @@ dlgSgRepositorySettings.chk"Sign all commits"=Sign all commits
 dlgSgRepositorySettings.chk"Update registered submodules"=Update registered submodules
 dlgSgRepositorySettings.edt"Email"=Email
 dlgSgRepositorySettings.edt"GPG Program"=GPG Program
-dlgSgRepositorySettings.edt"Group Patterns"=Group Patterns
 dlgSgRepositorySettings.edt"Name"=Name
 dlgSgRepositorySettings.edt"Signing Key"=Signing Key
-dlgSgRepositorySettings.edt"Single Patterns"=Single Patterns
 dlgSgRepositorySettings.edt"Submodule handling\*"=Submodule handling\*
 dlgSgRepositorySettings.edt"Text File Encoding"=Text File Encoding
 dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
  Please enter a valid, comma-separated list of regular expressions.
 dlgSgRepositorySettings.hdl=Edit the effective repository settings
 dlgSgRepositorySettings.inf=Here you can see and edit the effective Git settings for the user config file and the repository. To save the options as user settings, select 'Remember as default'.
-dlgSgRepositorySettings.lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
- Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=Encoding
 dlgSgRepositorySettings.tab"Pull"=Pull
 dlgSgRepositorySettings.tab"Push"=Push
 dlgSgRepositorySettings.tab"Signing"=Signing
-dlgSgRepositorySettings.tab"Tag-Grouping"=Tag-Grouping
 dlgSgRepositorySettings.tab"User & Encoding"=User & Encoding
 dlgSgRepositorySettings.tab"User"=User
 dlgSgRepositorySettings.tle=Repository Settings
@@ -2470,6 +2460,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
 dlgShPushTrackingLocalSvnBranches.hdl=Do you want to push local branches as new SVN branches?
 dlgShPushTrackingLocalSvnBranches.tle=Push
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=Group Patterns
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=Single Patterns
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
+ Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view.
+dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=Tag-Grouping
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Delete"=Delete
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).btn"Move to Trash"=Move to Trash
 dlg(SgDeleteFileTrash|SgDeleteFilesTrash).fur=If you click Delete you may require file recovery tools to restore the deleted files!
