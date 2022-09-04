@@ -21,9 +21,9 @@ dlgDgAbout.tab"Credits"=クレジット
 dlgDgAbout.tab"Information"=情報
 dlgDgAbout.tab"Licensee"=ライセンス
 dlgDgAbout.tle=DeepGitについて
-dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
-dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
-dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
+dlgDgRefMapperGroupConfig.hdl=このリポジトリのタグをグループ化するためのパターンを設定します。
+dlgDgRefMapperGroupConfig.inf=この設定にマッチしたタグ、ブランチ、その他の参照は、ナビゲーショングラフに表示されます。
+dlgDgRefMapperGroupConfig.tle=タグ・グルーピングの設定
 dlgDgSetEncoding.edt"Text File Encoding"=テキストファイルのエンコーディング
 dlgDgSetEncoding.hdl=エンコーディング設定
 dlgDgSetEncoding.inf=ファイルの処理と表示に使用するエンコーディングを指定します。なお、UTF-8のエンコーディングは、ここでの設定にかかわらず、自動検出されます。
@@ -362,11 +362,11 @@ dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correc
 dlgScSslFingerprint.lbl"This might indicate a security problem! When in doubt, contact your server administrator."=\
  これは、セキュリティ上の問題を示している可能性があります。疑わしい場合は、サーバー管理者に連絡してください。
 dlgScSslFingerprint.tle=サーバーのフィンガープリント
-dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
-dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
-dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
-dlgScTextFinderFindFromEnd.tle=Find Text
-dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから探す
+dlgScTextFinderFindFromEnd.btn"Find from End"=末尾から検索
+dlgScTextFinderFindFromEnd.fur=ドキュメントの先頭まで見つかりませんでした。
+dlgScTextFinderFindFromEnd.hdl=ドキュメントの最後から続けますか？
+dlgScTextFinderFindFromEnd.tle=テキストの検索
+dlgScTextFinderFindFromStart.btn"Find from Beginning"=初めから検索
 dlgScTextFinderFindFromStart.fur=ドキュメントの最後まで見つかりませんでした。
 dlgScTextFinderFindFromStart.hdl=ドキュメントの先頭から続けますか？
 dlgScTextFinderFindFromStart.tle=テキストの検索
@@ -418,23 +418,23 @@ dlgSelectDiff.hdl=差分比較ツールを選択する
 dlgSelectDiff.inf=どの差分比較ツールを使用するかを選択します。
 dlgSelectDiff.tle=ファイルの比較
 dlgSgAbortBisectingConfirm.btn"Abort Bisect"=問題箇所の特定('bisect')を中止
-dlgSgAbortBisectingConfirm.fur=作業ツリーは「問題箇所の特定中」の状態になっています。\n\n中断すると、問題箇所の特定\('bisect'\) を開始する前のブランチまたはコミットがチェックアウトされます。
+dlgSgAbortBisectingConfirm.fur=作業ツリーは「問題箇所の特定中」の状態になっています。\n\n中止すると、問題箇所の特定\('bisect'\) を開始する前のブランチまたはコミットがチェックアウトされます。
 dlgSgAbortBisectingConfirm.hdl=作業ツリーをリセットしますか？
-dlgSgAbortBisectingConfirm.tle=中断
+dlgSgAbortBisectingConfirm.tle=中止
 dlgSgAbortCherryPickingConfirm.btn"Abort Cherry-Pick"=チェリーピックを中止する
-dlgSgAbortCherryPickingConfirm.fur=作業ツリーは「チェリーピック中」の状態になっています。\n\n 作業を中断してこの状態から抜け出し、新たにチェリーピックをやり直すこともできます。\n\n中断することで、ローカルでの変更も消去されます。
+dlgSgAbortCherryPickingConfirm.fur=作業ツリーは「チェリーピック中」の状態になっています。\n\n 作業を中止してこの状態から抜け出し、新たにチェリーピックをやり直すこともできます。\n\n中止することで、ローカルでの変更も消去されます。
 dlgSgAbortCherryPickingConfirm.hdl=作業ツリーをリセットしますか？
-dlgSgAbortCherryPickingConfirm.tle=中断
-dlgSgAbortMergingConfirm.btn"Abort Merge"=マージを中断
+dlgSgAbortCherryPickingConfirm.tle=中止
+dlgSgAbortMergingConfirm.btn"Abort Merge"=マージを中止
 dlgSgAbortMergingConfirm.fur=作業ツリーは「マージ中」の状態です。中止してこの状態から抜け出し、後でマージをやり直すことができます。\n\n中止すると、マージ前の状態を再構築しようとします! \( 'git merge --abort' の実行\)
 dlgSgAbortMergingConfirm.hdl=現在のマージを中止しますか？
 dlgSgAbortMergingConfirm.tle=破棄
-dlgSgAbortRebasingConfirm.btn"Abort Rebase"=リベースを中断
+dlgSgAbortRebasingConfirm.btn"Abort Rebase"=リベースを中止
 dlgSgAbortRebasingConfirm.fur=作業ツリーは「リベース中」の状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\[ブランチ\]→\[リベース\]→\[リベース HEAD to\] を使用してください。\n\n中止すると、ローカルの変更を消去することができます。\('git reset --hard' の実行\）
 dlgSgAbortRebasingConfirm.hdl=リベースを中止しますか？
 dlgSgAbortRebasingConfirm.tle=破棄
-dlgSgAbortRevertingConfirm.btn"Abort Revert"=リバートを中断
-dlgSgAbortRevertingConfirm.fur=作業ツリーが 「リバート中」 の状態です。この状態から抜け出すためにこの処理を中断し、その後、新たにリバートをやり直すことができます。\n\n中止すると、すべてのローカル修正が消去されます! \('git reset--hard' の実行\)
+dlgSgAbortRevertingConfirm.btn"Abort Revert"=リバートを中止
+dlgSgAbortRevertingConfirm.fur=作業ツリーが 「リバート中」 の状態です。この状態から抜け出すためにこの処理を中止し、その後、新たにリバートをやり直すことができます。\n\n中止すると、すべてのローカル修正が消去されます! \('git reset--hard' の実行\)
 dlgSgAbortRevertingConfirm.hdl=作業ツリーをリセットしますか？
 dlgSgAbortRevertingConfirm.tle=破棄
 dlgSgAbout.btn"Register"=登録
@@ -1303,7 +1303,7 @@ dlgSgMergeHowToMerge.fur=ファストフォワードマージは、現在のブ�
 dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
  ブランチ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
- How to merge from tag '$1'?
+ タグ '$1' からどのようにマージしますか?
 dlgSgMergeHowToMerge.tle=マージ
 dlgSgMergeNoop.fur=コミットをそれ自身にマージすることは、技術的にはGitで認められていますが、ノーオペレーション命令であり、新しいコミットやその他の意味のある変更を与えるものではありません。
 dlgSgMergeNoop.hdl=マージするものはありません。
@@ -1827,7 +1827,7 @@ dlgSgRebaseTagCommit.btn"Skip Tag"=タグをスキップ
 dlgSgRebaseTagCommit.fur=リベースの後、残りのコミットには到達できなくなります。
 dlgSgRebaseTagCommit.hdl%1=コミット$1 にタグを付ける必要がありますか？
 dlgSgRebaseTagCommit.tle=リベース
-dlgSgRebasingAbortConfirm.btn"Abort Rebase"=リベースを中断
+dlgSgRebasingAbortConfirm.btn"Abort Rebase"=リベースを中止
 dlgSgRebasingAbortConfirm.fur=作業ツリーは「リベース中」の状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\[ブランチ\]→\[リベース\]→\[リベース HEAD to\] を使用してください。\n\n中止すると、ローカルの変更を消去することができます。\('git reset --hard' の実行\）
 dlgSgRebasingAbortConfirm.hdl=リベースを中止しますか？
 dlgSgRebasingAbortConfirm.tle=リベース
@@ -1925,7 +1925,7 @@ dlgSgRepositoryAddGroup.hdl=グループ名を入力してください
 dlgSgRepositoryAddGroup.inf=グループ作成後は、その中でリポジトリを移動させることができます。
 dlgSgRepositoryAddGroup.tle=グループを作成
 dlgSgRepositoryClose.btn"Force Close"=強制的に閉じる
-dlgSgRepositoryClose.fur=現在実行中のGitプロセスは中断されない可能性があることに注意してください。
+dlgSgRepositoryClose.fur=現在実行中のGitプロセスは中止されない可能性があることに注意してください。
 dlgSgRepositoryClose.hdl=本当に今すぐ閉じますか？
 dlgSgRepositoryClose.tle=閉じる
 dlgSgRepositoryFrameCloseWithoutPush.btn"Close Now"=今すぐ閉じる
@@ -2370,11 +2370,11 @@ dlgSgTagDeleteConfirmSingle.fur=復元できなくなります。
 dlgSgTagDeleteConfirmSingle.hdl%1=タグ'$1'を削除しますか？
 dlgSgTagDeleteConfirmSingle.tle=削除
 dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
-dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter a confirmation message."=確認メッセージを入力してください。
 dlgSgToolAdd.err"Please enter the name for this command."=\
- Please enter the name for this command.
+ このコマンドの名前を入力してください。
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
- The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
+ 「開くコマンドで使用可能」と「出力を表示して終了まで待つ」のオプションは、同時に設定することができません。
 dlgSgToolAdd.hdl=外部ツールの追加
 dlgSgToolAdd.tle=追加
 dlgSgToolEdit.edt"Keyboard Shortcut"=キーボード ショートカット
@@ -2464,19 +2464,19 @@ dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branche
  この設定で一致したタグ、ブランチ、その他の参照は、ファイルログにまとめられ、コミットの詳細に表示されます。この設定は、ブランチ ビューの"Tags"カテゴリのグループ化にも使用されます。
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).tab"Tag-Grouping"=タグ-グルーピング
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
- Please enter a file pattern \(e.g. \*.txt, \*.java\).
+ ファイル パターンを入力してください。 \(例: \*.txt、\*.java \)
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
- Select the command which should be invoked.
+ 起動するコマンドを選択します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
- Specify the necessary arguments for the command, especially the required variable.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
- Specify the necessary arguments for the command, especially the required variables.
+ コマンドに必要な引数、特に必要な変数を指定します。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
- The Arguments require the variable \$\{file\}.
+ 引数には、変数 \$\{file\} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
- The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+ 引数には変数 \${leftFile}, \${rightFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+ 引数には変数 \${leftFile}, \${rightFile}, \${mergedFile} が必要です。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
  変数 \$\{file\} を使用する必要があります。
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
@@ -2490,7 +2490,7 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=除去
 edt"Search For"=検索対象
 pop"$1 succeeded."=$1 が成功しました。
-pop"Command $1 has been aborted."=コマンド$1が中断されました。
+pop"Command $1 has been aborted."=コマンド$1が中止されました。
 pop"Modify the previous commit and commit."=\
  前回のコミットを修正し、コミットする。
 pop"No more change."=もう変更はありません。
@@ -2518,7 +2518,7 @@ wndAnnotate.mni"Open Log"=ログを開く
 wndAnnotate.mni"Show Changes"=比較する
 wndAnnotate.mniCommit-first=最初のコミットに移動
 wndAnnotate.mniCommit-last=最後のコミットに移動
-wndAnnotate.mniCommit-next=次のコミットに進む
+wndAnnotate.mniCommit-next=次のコミットに移動
 wndAnnotate.mniCommit-preceding-line=前のコミットに移動
 wndAnnotate.mniCommit-previous=前のコミットに移動
 wndAnnotate.mniCompare=比較する
@@ -2547,7 +2547,7 @@ wndAnnotate.tab"History of current line"=現在の行の履歴
 wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
 wndCompare.mniView-layout-left-over-right=上下に並べて表示\(上にLeft,下にRight\)
-wndCompare.tbtGoto-next-diff=次の変更点に進みます。
+wndCompare.tbtGoto-next-diff=次の変更点に移動します。
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  作業ツリーに行内の差分を適用する
 wndConflictSolver.mni"Apply Line to Working Tree"=作業ツリーに行を適用
@@ -2574,8 +2574,8 @@ wndConflictSolver.tbtEdit-take-right=右のブロックをマージ結果に持�
 wndConflictSolver.tbtEdit-take-right-left=右のブロックを取り込み、次に左のブロックを取り込みます。
 wndConflictSolver.tbtFile-open-base=共通のベースファイルから左右の変更点を開く。
 wndConflictSolver.tbtFile-save=ファイルの変更を保存します。
-wndConflictSolver.tbtGoto-next-conflict=次の競合に進む
-wndConflictSolver.tbtGoto-next-diff=次の変更点に進みます。
+wndConflictSolver.tbtGoto-next-conflict=次の競合に移動
+wndConflictSolver.tbtGoto-next-diff=次の変更点に移動します。
 wndConflictSolver.tbtGoto-previous-conflict=前の競合に移動
 wndConflictSolver.tbtGoto-previous-diff=前の変更点に移動します。
 wndConflictSolver.tbtView-layout-all=左のファイル、マージファイル、右のファイルを表示します。
@@ -2642,7 +2642,7 @@ wndDeepgit.tbr"Diff"=差分
 wndDeepgit.tbr"Forward"=進む
 wndDeepgit.tbr"Log"=ログ
 wndDeepgit.tbr"Origins"==Origins
-wndDeepgit.tbt"Go to next change."=次の変更点に進みます。
+wndDeepgit.tbt"Go to next change."=次の変更点に移動します。
 wndDeepgit.tbt"Go to previous change."=前の変更点に移動します。
 wndDeepgit.tbtBack=前の変化点に戻る...
 wndDeepgit.tbtForward=次の変化点に進む...
@@ -2680,7 +2680,7 @@ wndGit.indexEditor.mniView-layout-right-merge=Index と Working Tree
 wndGit.indexEditor.tbtEdit-take-left=左のブロックをマージ結果に持っていきます。左のブロックに応じて、マージ結果で挿入、置換、削除を行います。
 wndGit.indexEditor.tbtEdit-take-right=右のブロックをマージ結果に持っていきます。右のブロックに応じて、マージ結果で挿入、置換、削除を行います。
 wndGit.indexEditor.tbtFile-save=ファイルの変更を保存します。
-wndGit.indexEditor.tbtGoto-next-diff=次の変更点に進みます。
+wndGit.indexEditor.tbtGoto-next-diff=次の変更点に移動します。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
 wndLog.mni"Cherry-Pick $1 to '$2'"='$1' から '$2' へチェリーピック
 wndLog.mni"Committer Abbreviated"=コミッターの略称
@@ -2693,7 +2693,7 @@ wndLog.mni"Unstage Hunk"=ハンクをアンステージ
 wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
-wndLog.mniRemoteFetchAll=Fetch All
+wndLog.mniRemoteFetchAll=全てフェッチ
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
@@ -2739,7 +2739,7 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-copy=コピー
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-cut=切り取り
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-ignore-case-changes=行比較で大文字小文字を区別しない
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-paste=貼り付け
-wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-redo=やり直し\(Redo\)
+wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniEdit-redo=やり直し
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniFile-close=閉じる
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniFile-save=保存
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniGoto-line=指定の行へ移動
@@ -2753,7 +2753,7 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"File"=ファイル
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Go To"=移動
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"View"=表示
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).tbr"Save"=保存
-wnd(Log|Project|Std)."Abort"=中断
+wnd(Log|Project|Std)."Abort"=中止
 wnd(Log|Project|Std)."Commit"=コミット
 wnd(Log|Project|Std)."Conflict Solver"=コンフリクトソルバー
 wnd(Log|Project|Std)."Continue"=続ける
@@ -2769,7 +2769,7 @@ wnd(Log|Project|Std)."Step"=ステップ
 wnd(Log|Project|Std)."Swap"=入れ替え
 wnd(Log|Project|Std)."Take Ours"=Ours を採用
 wnd(Log|Project|Std)."Take Theirs"=Theirs を採用
-wnd(Log|Project|Std).btn"Abort"=中断
+wnd(Log|Project|Std).btn"Abort"=中止
 wnd(Log|Project|Std).btn"Commit"=コミット
 wnd(Log|Project|Std).btn"Conflict Solver"=コンフリクトソルバー
 wnd(Log|Project|Std).btn"Continue"=続ける
@@ -3005,7 +3005,7 @@ wnd(Log|Project|Std).mniBisectBad=HEAD を Badとしてマークする
 wnd(Log|Project|Std).mniBisectExit=リセット
 wnd(Log|Project|Std).mniBisectGood=HEAD を Good としてマークする
 wnd(Log|Project|Std).mniBisectStart=開始
-wnd(Log|Project|Std).mniBranchAbort=中断
+wnd(Log|Project|Std).mniBranchAbort=中止
 wnd(Log|Project|Std).mniBranchAdd=ブランチを追加
 wnd(Log|Project|Std).mniBranchAddTag=タグを追加
 wnd(Log|Project|Std).mniBranchClose=閉じる
@@ -3134,7 +3134,7 @@ wnd(Log|Project|Std).mniPush=プッシュ
 wnd(Log|Project|Std).mniPushCommits=プッシュアップ
 wnd(Log|Project|Std).mniPushTo=プッシュ先
 wnd(Log|Project|Std).mniPushToGerrit=Gerritにプッシュ
-wnd(Log|Project|Std).mniRebaseAbort=中断
+wnd(Log|Project|Std).mniRebaseAbort=中止
 wnd(Log|Project|Std).mniRebaseContinue=続ける
 wnd(Log|Project|Std).mniRebaseHeadTo=HEAD を 選択したコミットにリベース
 wnd(Log|Project|Std).mniRebaseInteractive=対話的なリベース
@@ -3396,7 +3396,7 @@ wnd(Log|Project|Std).tbtFlowFeatureStart=新しい Git-Flow の feature を開�
 wnd(Log|Project|Std).tbtFlowHotfixFinish=Git-Flow hotfix を完了
 wnd(Log|Project|Std).tbtFlowHotfixStart=新しい Git-Flow の hotfix を開始します。
 wnd(Log|Project|Std).tbtFlowIntegrateDevelop=新しいベースコミットをGit-Flowのfeatureに統合する。
-wnd(Log|Project|Std).tbtGoto-next-diff=次の変更点に進みます。
+wnd(Log|Project|Std).tbtGoto-next-diff=次の変更点に移動します。
 wnd(Log|Project|Std).tbtGoto-previous-diff=前の変更点に移動します。
 wnd(Log|Project|Std).tbtIgnore=バージョン管理されていないローカル ファイル/ディレクトリを無視するようにマークします。
 wnd(Log|Project|Std).tbtIndexEditor=行単位のステージングなど、選択したファイルのインデックスの状態を編集することができます。
