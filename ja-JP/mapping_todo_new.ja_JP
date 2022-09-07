@@ -1,32 +1,3 @@
-dlgDgRefMapperGroupConfig.hdl=Configure patterns for grouping tags of this repository
-dlgDgRefMapperGroupConfig.inf=Tags, branches and other refs matched by this configuration will be displayed in the Navigation graph.
-dlgDgRefMapperGroupConfig.tle=Configure Tag-Grouping
-dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
-dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
-dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
-dlgScTextFinderFindFromEnd.tle=Find Text
-dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
- How to merge from tag '$1'?
-dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
-dlgSgToolAdd.err"Please enter the name for this command."=\
- Please enter the name for this command.
-dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
- The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
- Please enter a file pattern \(e.g. \*.txt, \*.java\).
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
- Select the command which should be invoked.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
- Specify the necessary arguments for the command, especially the required variable.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
- Specify the necessary arguments for the command, especially the required variables.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
- The Arguments require the variable \$\{file\}.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
- The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
-dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowOnRefs=Show On Refs
-wndLog.mniRemoteFetchAll=Fetch All
