@@ -53,6 +53,7 @@ dlgQBugReportSend.btn"Report Bug"=バグを報告
 dlgQBugReportSend.edt"Comments or Steps to Reproduce"=コメントまたは再現のための手順\(英語で記述してください\)
 dlgQBugReportSend.edt"Email"=電子メール
 dlgQBugReportSend.edt"Reply To"=返信先
+dlgQBugReportSend.lbl"Sorry for the trouble!"=Sorry for the trouble!
 dlgQBugReportSend.tle=内部エラー
 dlgQDockManagerClosedView.chk=次回から表示しない
 dlgQDockManagerClosedView.fur=再び開くには、「ウィンドウ」メニューから対応するメニューを使用します。
@@ -2373,6 +2374,8 @@ dlgSgToolAdd.edt"Keyboard Shortcut"=キーボード ショートカット
 dlgSgToolAdd.err"Please enter a confirmation message."=確認メッセージを入力してください。
 dlgSgToolAdd.err"Please enter the name for this command."=\
  このコマンドの名前を入力してください。
+dlgSgToolAdd.err"Select the command which should be invoked."=\
+ Select the command which should be invoked.
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
  「開くコマンドで使用可能」と「出力を表示して終了まで待つ」のオプションは、同時に設定することができません。
 dlgSgToolAdd.hdl=外部ツールの追加
@@ -2495,6 +2498,8 @@ pop"Modify the previous commit and commit."=\
  前回のコミットを修正し、コミットする。
 pop"No more change."=もう変更はありません。
 pop"No more changes."=これ以上の変更はありません。
+pop"Please review the files to commit."=\
+ Please review the files to commit.
 pop"Select the branch for which to stop tracking."=\
  追跡を停止するブランチを選択します。
 pop"Select the remote to fetch from."=\
@@ -2585,6 +2590,24 @@ wndConflictSolver.tbtView-layout-right-merge=マージファイルと右のフ�
 wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
+wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
+ The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view.
+wndDeepgit.ihp"This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective."=\
+ This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective.
+wndDeepgit.ihp"This view displays all changes for the selected commit from the \*Navigation\* view. The selected file will be compared in the below view."=\
+ This view displays all changes for the selected commit from the \*Navigation\* view. The selected file will be compared in the below view.
+wndDeepgit.ihp"This view displays all files which have changed as part of the selected \*Blame\* line's commit. The selected file will be compared in the below view."=\
+ This view displays all files which have changed as part of the selected \*Blame\* line's commit. The selected file will be compared in the below view.
+wndDeepgit.ihp"This view shows how the selected line from the \*Blame\* view has changed in the past."=\
+ This view shows how the selected line from the \*Blame\* view has changed in the past.
+wndDeepgit.ihp"This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view."=\
+ This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
+wndDeepgit.ihp"This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."=\
+ This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines.
+wndDeepgit.ihp"This view shows the diff for the selected file from the above \*Files\* view."=\
+ This view shows the diff for the selected file from the above \*Files\* view.
+wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
+ This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
 wndDeepgit.mni"Copy Details"=詳細をコピー
 wndDeepgit.mni"Copy ID"=IDをコピー
 wndDeepgit.mni"Copy Selection"=選択範囲をコピー
