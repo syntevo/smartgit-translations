@@ -2492,6 +2492,48 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).chk=次回から表示しない
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=除去
 edt"Search For"=検索対象
+ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
+ In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
+ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
+ In general this should be fine and is the recommended configuration when working with multiple Git clients.
+ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is configured in config file $1."=\
+ SmartGit has detected that <b>credential.helper</b> is configured in config file $1.
+ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
+ To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>
+ntmFollowUsOnTwitter"It's a great way to help shaping future versions of SmartGit!"=\
+ It's a great way to help shaping future versions of SmartGit!
+ntmFollowUsOnTwitter"We are using Twitter to:"=We are using Twitter to:
+ntmFollowUsOnTwitter"announce new versions, including previews"=announce new versions, including previews
+ntmFollowUsOnTwitter"inform about new features"=inform about new features
+ntmFollowUsOnTwitter"poll for opinions on how to implement new or change existing features"=\
+ poll for opinions on how to implement new or change existing features
+ntmHighMemoryUsage"If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance."=\
+ If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance.
+ntmHighMemoryUsage"If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it."=\
+ If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
+ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
+ SmartGit is close to the configured memory limit.
+ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
+ To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
+ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
+ You may continue to use SmartGit, just your support period expired.
+ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
+ Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
+ntmVoteForUs"share the pros and cons at"=\
+ share the pros and cons at
+ntmVoteForUs"vote at"=vote at
+nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
+nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
+nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
+nttGeneral"Don't show again"=Don't show again
+nttGeneral"Remind me later"=Remind me later
+nttHighMemoryUsage"Contact Support"=Contact Support
+nttHighMemoryUsage"High memory usage"=High memory usage
+nttSupportExpired"Purchase Update"=Purchase Update
+nttSupportExpired"Your support period has expired on $1."=\
+ Your support period has expired on $1.
+nttVoteForUs"What do you like in SmartGit?"=\
+ What do you like in SmartGit?
 pop"$1 succeeded."=$1 が成功しました。
 pop"Command $1 has been aborted."=コマンド$1が中止されました。
 pop"Modify the previous commit and commit."=\
@@ -2608,6 +2650,49 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
+wndDeepgit.lblBlameHeader"Blame for"=Blame for
+wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
+wndDeepgit.lblBlameMatchPopup"Changed in-place"=Changed in-place
+wndDeepgit.lblBlameMatchPopup"Lines first appeared at this position"=\
+ Lines first appeared at this position
+wndDeepgit.lblBlameMatchPopup"Lines have possibly been changed in-place"=\
+ Lines have possibly been changed in-place
+wndDeepgit.lblBlameMatchPopup"Lines have possibly been moved over from somewhere else"=\
+ Lines have possibly been moved over from somewhere else
+wndDeepgit.lblBlameMatchPopup"Moved"=Moved
+wndDeepgit.lblBlameMatchPopup"other possible origins"=other possible origins
+wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=single origin, high likelihood
+wndDeepgit.lblCompareHeader"New contents"=New contents
+wndDeepgit.lblCompareHeader"Old contents"=Old contents
+wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
+wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
+wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
+ Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
+ Lines have been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
+wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
+wndDeepgit.lblOriginCandidate"for the first time"=for the first time
+wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
+wndDeepgit.lblOriginCandidate"of"=of
+wndDeepgit.lblOriginCandidate"over from somewhere else"=over from somewhere else
+wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=similarity for $1 origin line
+wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=similarity for $1 origin lines
+wndDeepgit.lblOriginHeader"No file to compare"=No file to compare
+wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
+ Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents
+wndDeepgit.lblOriginHeader"Possibly moved from <b>similar lines</b> from old contents"=\
+ Possibly moved from <b>similar lines</b> from old contents
+wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since old contents"=\
+ Possibly originates from <b>in-place change</b> since old contents
+wndDeepgit.lblTextHeader"Commit"=Commit
+wndDeepgit.lblTextHeader"File"=File
+wndDeepgit.lblTextHeader"Msg"=Msg
+wndDeepgit.lblTextHeader"at"=at
+wndDeepgit.lblTextHeader"by"=by
+wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.mni"Copy Details"=詳細をコピー
 wndDeepgit.mni"Copy ID"=IDをコピー
 wndDeepgit.mni"Copy Selection"=選択範囲をコピー
@@ -2658,6 +2743,15 @@ wndDeepgit.mnu"File"=ファイル
 wndDeepgit.mnu"Go To"=移動
 wndDeepgit.mnu"Help"=ヘルプ
 wndDeepgit.mnu"View"=表示
+wndDeepgit.tab"Files \(in progress\)"=Files \(in progress\)
+wndDeepgit.tab"Files changed in commit $1"=Files changed in commit $1
+wndDeepgit.tab"Navigation \(initializing...\)"=Navigation \(initializing...\)
+wndDeepgit.tab"Navigation"=Navigation
+wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \($1 hunks processed...\)
+wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin Candidates \(in progress\)
+wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
+ Origin Candidates for line $1 of commit $2
+wndDeepgit.tab"Origin Candidates"=Origin Candidates
 wndDeepgit.tbr"Back"=戻る
 wndDeepgit.tbr"Blame"=ブレーム
 wndDeepgit.tbr"Blame+Origins"=ブレーム+Origins
