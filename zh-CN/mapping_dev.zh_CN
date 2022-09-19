@@ -159,6 +159,9 @@ dlgScConflictSolverAdd.hdl=添加冲突解决方案
 dlgScConflictSolverAdd.tle=添加
 dlgScConflictSolverEdit.hdl=变基冲突解决方案
 dlgScConflictSolverEdit.tle=编辑
+dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
+dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
 dlgScConflictSolverUnresolvedConflicts.chk=不再显示警告
 dlgScConflictSolverUnresolvedConflicts.fur=并非所有冲突都已得到解决。
 dlgScConflictSolverUnresolvedConflicts.hdl=你想关闭冲突解决器吗？
@@ -239,6 +242,8 @@ dlgScEvaluationReminderContinue.btn"Register"=注册
 dlgScEvaluationReminderContinue.fur%2=在商业环境中使用 SmartGit，您必须 \[$1 购买许可证 \]。\n\n对于 \[$2 某些用途 \]，我们授予免费许可证。
 dlgScEvaluationReminderContinue.hdl%1=您的 SmartGit 试用将在 $1 天后结束。
 dlgScEvaluationReminderContinue.tle=试用
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
 dlgScFileComparatorAdd.hdl=添加外部差异工具
 dlgScFileComparatorAdd.mni"Base Encoding"=基本编码
 dlgScFileComparatorAdd.mni"Base File"=基本文件
@@ -587,6 +592,8 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=检出远程分支
 dlgSgCheckoutTarget.hdl"Checkout commit"=检出提交
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=检出远程分支
 dlgSgCheckoutTarget.inf=当检出一个提交而不是本地分支的时候需要小心：在该提交之后的提交很容易丢失。
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ Checkout and fast-forward local branch 'dev'
 dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=检出本地分支 '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=创建本地分支：
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
@@ -778,6 +785,10 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=与仓库比较
 dlgSgCompareTwoFiles.fur=这些文件可以与它们的仓库内容或相互比较。
 dlgSgCompareTwoFiles.hdl=所选的两个文件是否应相互比较？
 dlgSgCompareTwoFiles.tle=比较
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
+dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
+dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
 dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=离开冲突
 dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=标记已解决
 dlgSgConflictSolverMarkResolved.fur=要完成冲突解决，需要将文件标记为已解决 \(Git 阶段\)。在标记为已解决之前，文件将保持冲突状态，您可以尝试其他冲突解决方案。
@@ -1360,9 +1371,14 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  不要再显示此警告
 dlgSgOutput.chk"Show automatically for failed command"=自动显示失败的命令
 dlgSgOutput.lbl"Branches need merging first."=需要先合并分支.
+dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  如果有问题，请咨询您的仓库管理员。
+dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
+ Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgOutput.tle"Command Failed"=命令失败
 dlgSgOutput.tle"Command Output"=命令输出
 dlgSgOutput.tle"Command Succeeded"=命令成功
@@ -1906,6 +1922,9 @@ dlgSgRemotesAdd.inf=输入远程仓库的 URL 和短名称。
 dlgSgRemotesAdd.mni"Add Hosting Provider"=添加主机提供商
 dlgSgRemotesAdd.mni"Select Local Repository"=选择本地仓库
 dlgSgRemotesAdd.tle=添加远程仓库
+dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
+dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
+dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgRemove.btn"Remove"=移除
 dlgSgRemove.chk"Delete local files"=删除本地文件
 dlgSgRemove.col"Directory"=目录
@@ -2675,6 +2694,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
@@ -2694,10 +2715,15 @@ wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
 wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
 wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
+ Origins from '$1' omitted: file is binary
+wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line

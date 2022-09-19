@@ -5,6 +5,9 @@ dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they ha
 dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
 dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgQBugReportSend.lbl"Sorry for the trouble!"=Sorry for the trouble!
+dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
+dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
 dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
  You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
 dlgScConflictSolver(Add|Edit).mni"Base File"=Base File
@@ -15,6 +18,8 @@ dlgScConflictSolver(Add|Edit).mni"Merged File"=Merged File
 dlgScConflictSolver(Add|Edit).mni"Merged Title"=Merged Title
 dlgScConflictSolver(Add|Edit).mni"Right File"=Right File
 dlgScConflictSolver(Add|Edit).mni"Right Title"=Right Title
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
 dlgScTextFinderFindFromEnd.btn"Find from End"=Find from End
 dlgScTextFinderFindFromEnd.fur=No occurrences have been found until the beginning of the document.
 dlgScTextFinderFindFromEnd.hdl=Do you want to continue from the end of the document?
@@ -25,6 +30,8 @@ dlgScUpdateInstallationUpdateManuallyFailure.tle=SmartGit Installation Update
 dlgScUpdateInstallationUpdateManuallyInfo.fur%1=Please get rid of '$1' manually and retry the upgrade.
 dlgScUpdateInstallationUpdateManuallyInfo.hdl=Clearing updater directory failed.
 dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit Installation Update
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ Checkout and fast-forward local branch 'dev'
 dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
  Note: Pull or Fetch will not bring other refs, you will need to use Fetch More.
 dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
@@ -35,6 +42,10 @@ dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
 dlgSgCommitDirectlyTo.fur=You have Git-Flow configured and committing to the Git-Flow master branch should not happen directly but only with the help of the Git-Flow commands and merging.\n\nIf in doubt, please contact your administrator.
 dlgSgCommitDirectlyTo.hdl=Do you want to commit directly to 'master'?
 dlgSgCommitDirectlyTo.tle=Commit
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
+dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
+dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
 dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
  Merge or rebase commits from the base branch to the current feature.
@@ -66,7 +77,12 @@ dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
 dlgSgOpenRepositorySvnWorkingCopy.hdl=Can't open SVN working copy, please re-clone with SmartGit.
 dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
+dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
+dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
+ Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgPreferences.edt"Name"=Name
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  Application can be updated manually in the About dialog
@@ -98,6 +114,9 @@ dlgSgRebaseConfirmUnreachable.tle=Rebase
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
 dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=Changing the initial commit is not supported by the interactive rebase.
 dlgSgRebaseInteractiveInitialCommitNotSupported.tle=Rebase Interactive
+dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
+dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
+dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
@@ -261,6 +280,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
@@ -280,10 +301,15 @@ wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
 wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
 wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
+ Origins from '$1' omitted: file is binary
+wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line

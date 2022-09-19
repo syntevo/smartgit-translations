@@ -134,6 +134,9 @@ dlgScConflictSolverAdd.hdl=コンフリクトソルバーの追加
 dlgScConflictSolverAdd.tle=追加
 dlgScConflictSolverEdit.hdl=コンフリクトソルバーの編集
 dlgScConflictSolverEdit.tle=編集
+dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
+dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
 dlgScConflictSolverUnresolvedConflicts.chk=次回から警告しない
 dlgScConflictSolverUnresolvedConflicts.fur=すべての競合が解決されたわけではありません。
 dlgScConflictSolverUnresolvedConflicts.hdl=コンフリクトソルバーを終了しますか？
@@ -214,6 +217,8 @@ dlgScEvaluationReminderContinue.btn"Register"=登録
 dlgScEvaluationReminderContinue.fur%2=商用環境で SmartGit を使用するには、\[$1 ライセンスを購入\]する必要があります。\n\n \[$2 特定の用途\] については、無料のライセンスを付与します。
 dlgScEvaluationReminderContinue.hdl%1=SmartGit の評価期間は $1 日後に終了します。
 dlgScEvaluationReminderContinue.tle=評価
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
 dlgScFileComparatorAdd.hdl=外部Diffツールの追加
 dlgScFileComparatorAdd.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorAdd.mni"Base File"=ベースファイル
@@ -562,6 +567,8 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=リモートブランチをチ�
 dlgSgCheckoutTarget.hdl"Checkout commit"=コミットをチェックアウト
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=リモートブランチのチェックアウト
 dlgSgCheckoutTarget.inf=ローカルブランチではなくコミットをチェックアウトする場合は注意してください。コミットの上にあるコミットは簡単に失われてしまう可能性があります。
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ Checkout and fast-forward local branch 'dev'
 dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=ローカルブランチ'$1'のチェックアウト
 dlgSgCheckoutTarget.rbt"Create local branch:"=ローカルブランチを作成:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
@@ -753,6 +760,10 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=リポジトリとの比較
 dlgSgCompareTwoFiles.fur=ファイルはリポジトリの内容と比較したり、ファイル同士で比較することができます。
 dlgSgCompareTwoFiles.hdl=選択された2つのファイルを比較しますか？
 dlgSgCompareTwoFiles.tle=比較
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
+dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
+dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
 dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=競合したままにする
 dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=解決済みとしてマーク
 dlgSgConflictSolverMarkResolved.fur=競合の解決を完了するには、そのファイルを解決済みとしてマークする必要があります。 \(git stage\)\n 解決済みとマークされるまでは、ファイルは競合状態のままであり、他の競合解決を試すことができます。
@@ -1335,9 +1346,14 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  この警告は次回から表示しない
 dlgSgOutput.chk"Show automatically for failed command"=失敗したコマンドを自動的に表示する
 dlgSgOutput.lbl"Branches need merging first."=ブランチはまずマージする必要があります。
+dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=コマンド 「サポートブランチを開始」 に失敗しました!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
+dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
+ Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
 dlgSgOutput.tle"Command Output"=コマンド出力
 dlgSgOutput.tle"Command Succeeded"=コマンドが成功しました
@@ -1881,6 +1897,9 @@ dlgSgRemotesAdd.inf=リモートリポジトリのURLと短い名前を入力し
 dlgSgRemotesAdd.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgRemotesAdd.mni"Select Local Repository"=ローカルリポジトリを選択
 dlgSgRemotesAdd.tle=リモートリポジトリを追加
+dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
+dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
+dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgRemove.btn"Remove"=除去
 dlgSgRemove.chk"Delete local files"=ローカルファイルの削除(消去)
 dlgSgRemove.col"Directory"=ディレクトリ
@@ -2650,6 +2669,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
@@ -2669,10 +2690,15 @@ wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
 wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
 wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
+ Origins from '$1' omitted: file is binary
+wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line

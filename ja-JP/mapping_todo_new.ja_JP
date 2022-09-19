@@ -1,4 +1,23 @@
 dlgQBugReportSend.lbl"Sorry for the trouble!"=Sorry for the trouble!
+dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
+dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ Checkout and fast-forward local branch 'dev'
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
+dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
+dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
+dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
+dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
+ Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
+dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
+dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
+dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgToolAdd.err"Select the command which should be invoked."=\
  Select the command which should be invoked.
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
@@ -63,6 +82,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
@@ -82,10 +103,15 @@ wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
 wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
 wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
+ Origins from '$1' omitted: file is binary
+wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
