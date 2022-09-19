@@ -134,6 +134,9 @@ dlgScConflictSolverAdd.hdl=Add conflict solver
 dlgScConflictSolverAdd.tle=Add
 dlgScConflictSolverEdit.hdl=Edit conflict solver
 dlgScConflictSolverEdit.tle=Edit
+dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
+dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
 dlgScConflictSolverUnresolvedConflicts.chk=Don't warn me again
 dlgScConflictSolverUnresolvedConflicts.fur=Not all conflicts have been resolved.
 dlgScConflictSolverUnresolvedConflicts.hdl=Do you want to close the Conflict Solver?
@@ -214,6 +217,8 @@ dlgScEvaluationReminderContinue.btn"Register"=Register
 dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
 dlgScEvaluationReminderContinue.hdl%1=Your SmartGit evaluation ends in $1 days.
 dlgScEvaluationReminderContinue.tle=Evaluation
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
 dlgScFileComparatorAdd.hdl=Add external diff tool
 dlgScFileComparatorAdd.mni"Base Encoding"=Base Encoding
 dlgScFileComparatorAdd.mni"Base File"=Base File
@@ -562,6 +567,8 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=Check out remote branch
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ Checkout and fast-forward local branch 'dev'
 dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=Create local branch:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
@@ -753,6 +760,10 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=Compare with Repository
 dlgSgCompareTwoFiles.fur=The files can be compared to their repository content or to each other.
 dlgSgCompareTwoFiles.hdl=Should the selected two files be compared with each other?
 dlgSgCompareTwoFiles.tle=Compare
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
+dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
+dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
+dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
 dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=Leave Conflicted
 dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=Mark Resolved
 dlgSgConflictSolverMarkResolved.fur=To complete a conflict resolution, the file needs to be marked as resolved \(git stage\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions.
@@ -1335,9 +1346,14 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
 dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
+dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
+dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
+ Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgOutput.tle"Command Failed"=Command Failed
 dlgSgOutput.tle"Command Output"=Command Output
 dlgSgOutput.tle"Command Succeeded"=Command Succeeded
@@ -1881,6 +1897,9 @@ dlgSgRemotesAdd.inf=Enter the URL and a short name for the remote repository.
 dlgSgRemotesAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgRemotesAdd.mni"Select Local Repository"=Select Local Repository
 dlgSgRemotesAdd.tle=Add Remote Repository
+dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
+dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
+dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgRemove.btn"Remove"=Remove
 dlgSgRemove.chk"Delete local files"=Delete local files
 dlgSgRemove.col"Directory"=Directory
@@ -2650,6 +2669,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
@@ -2669,10 +2690,15 @@ wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
 wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
+wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
 wndDeepgit.lblOriginCandidate"Moved"=Moved
+wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
+ Origins from '$1' omitted: file is binary
+wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
+ Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
