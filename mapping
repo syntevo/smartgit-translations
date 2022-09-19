@@ -588,7 +588,7 @@ dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=Cherry-Pick
 dlgSgCherryPickConfigurationFile.fur=Only changes of these files will be cherry-picked \(without committing\).
 dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
  Do you want to cherry-pick changes of $1 files?
-dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'?"=\
  Do you want to cherry-pick changes of '$1'?
 dlgSgCherryPickConfigurationFile.tle=Cherry-Pick
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=Cherry-Pick && Commit
@@ -2161,7 +2161,7 @@ dlgSgReviewUsersEdit.inf=Users can have aliases which are used in comment texts 
 dlgSgReviewUsersEdit.tle=Configure Users
 dlgSgSelectBranch.edt"Auxiliary Branch"=Auxiliary Branch
 dlgSgSelectBranch.edt"Tracked Branch"=Tracked Branch
-dlgSgSelectBranch.hdl=Select tracked branch
+dlgSgSelectBranch.hdl"Select tracked branch"=Select tracked branch
 dlgSgSelectBranch.inf"Select the branch which should be tracked by '$1'."=\
  Select the branch which should be tracked by '$1'.
 dlgSgSelectBranch.inf"Select which auxiliary branch should be shown in addition to the current branch."=\
@@ -2538,9 +2538,9 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  You may continue to use SmartGit, just your support period expired.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
-ntmVoteForUs"share the pros and cons at"=\
- share the pros and cons at
-ntmVoteForUs"vote at"=vote at
+ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
+ share the pros and cons at <link1>slant.co</link1>
+ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativeto.net</link1>
 nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
 nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
 nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
