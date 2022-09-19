@@ -588,7 +588,7 @@ dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=チェリーピック
 dlgSgCherryPickConfigurationFile.fur=これらのファイルの変更点のみが（コミットせずに）チェリーピックされます。
 dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of $1 files?"=\
  $1 ファイルの変更をチェリーピックしますか?
-dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'"=\
+dlgSgCherryPickConfigurationFile.hdl"Do you want to cherry-pick changes of '$1'?"=\
  '$1' の変更をチェリーピックしますか?
 dlgSgCherryPickConfigurationFile.tle=チェリーピック
 dlgSgCherryPickConfirmation.btn"Cherry-Pick && Commit"=チェリーピック && コミット
@@ -2161,7 +2161,7 @@ dlgSgReviewUsersEdit.inf=ユーザーは、コメント文に使用されるエ�
 dlgSgReviewUsersEdit.tle=Users設定
 dlgSgSelectBranch.edt"Auxiliary Branch"=補助ブランチ
 dlgSgSelectBranch.edt"Tracked Branch"=追跡されたブランチ
-dlgSgSelectBranch.hdl=追跡されたブランチを選択
+dlgSgSelectBranch.hdl"Select tracked branch"=追跡されたブランチを選択
 dlgSgSelectBranch.inf"Select the branch which should be tracked by '$1'."=\
  '$1' で追跡するブランチを選択します。
 dlgSgSelectBranch.inf"Select which auxiliary branch should be shown in addition to the current branch."=\
@@ -2538,9 +2538,9 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  You may continue to use SmartGit, just your support period expired.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
-ntmVoteForUs"share the pros and cons at"=\
- share the pros and cons at
-ntmVoteForUs"vote at"=vote at
+ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
+ share the pros and cons at <link1>slant.co</link1>
+ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativeto.net</link1>
 nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
 nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
 nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter

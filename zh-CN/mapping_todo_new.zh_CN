@@ -219,9 +219,9 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  You may continue to use SmartGit, just your support period expired.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
-ntmVoteForUs"share the pros and cons at"=\
- share the pros and cons at
-ntmVoteForUs"vote at"=vote at
+ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
+ share the pros and cons at <link1>slant.co</link1>
+ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativeto.net</link1>
 nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
 nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
 nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
