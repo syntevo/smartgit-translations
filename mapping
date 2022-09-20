@@ -1641,10 +1641,10 @@ dlgSgPreferences.tab"Push"=Push
 dlgSgPreferences.tab"Signing"=Signing
 dlgSgPreferences.tab"User"=User
 dlgSgPreferences.tle=Preferences
-dlgSgProcessKiller.btn"Exit Process"=Exit Process
+dlgSgProcessKiller.btn"Kill Process"=Kill Process
 dlgSgProcessKiller.btn"Wait"=Wait
-dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
- This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait.
+dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
+ If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
 dlgSgProcessKiller.tle=Process Not Responding
 dlgSgProviderPullRequestCreateNoTargetRepositories.fur=The repository is no GitHub-fork and there are no other remotes which are forks of this repository.
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=No target repositories found.
