@@ -108,6 +108,9 @@ dlgSgPreferences.mni"File Pattern"=File Pattern
 dlgSgPreferences.mni"Name"=Name
 dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Shortcut"=Shortcut
+dlgSgProcessKiller.btn"Kill Process"=Kill Process
+dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
+ If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
 dlgSgRebaseConfirmUnreachable.hdl%1=The Commit $1 would become unreachable by refs.
 dlgSgRebaseConfirmUnreachable.tle=Rebase

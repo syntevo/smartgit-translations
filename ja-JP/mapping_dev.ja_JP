@@ -1641,10 +1641,10 @@ dlgSgPreferences.tab"Push"=プッシュ
 dlgSgPreferences.tab"Signing"=署名
 dlgSgPreferences.tab"User"=ユーザー
 dlgSgPreferences.tle=環境設定
-dlgSgProcessKiller.btn"Exit Process"=プロセスを終了
+dlgSgProcessKiller.btn"Kill Process"=Kill Process
 dlgSgProcessKiller.btn"Wait"=待機
-dlgSgProcessKiller.lbl"This usually happens when SmartGit is configured to use the system SSH client, which needs to ask for credentials. Due to technical issues, SmartGit can't read the SSH client's input request and hence hangs.\n\nIf you think the process is hanging, click the Exit Process button, otherwise Wait."=\
- これは通常、資格情報を要求する必要があるシステム SSH クライアントを使用するように SmartGit が構成されている場合に発生します。技術的な問題により、SmartGit は SSH クライアントの入力要求を読み取ることができず、ハングします。\n\nプロセスがハングしていると思われる場合は、[プロセスの終了] ボタンをクリックします。それ以外の場合は、[待機] をクリックします。
+dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
+ If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
 dlgSgProcessKiller.tle=プロセスが応答していません
 dlgSgProviderPullRequestCreateNoTargetRepositories.fur=リポジトリはGitHubフォークではなく、このリポジトリのフォークである他のリモートはありません。
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=ターゲットリポジトリが見つかりません。

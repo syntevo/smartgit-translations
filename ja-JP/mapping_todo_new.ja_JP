@@ -15,6 +15,9 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick prod
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
+dlgSgProcessKiller.btn"Kill Process"=Kill Process
+dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
+ If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
 dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
 dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
 dlgSgRemotesNoRemoteDetected.tle=Push Up To
