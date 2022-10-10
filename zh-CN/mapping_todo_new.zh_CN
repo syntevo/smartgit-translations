@@ -71,7 +71,7 @@ dlgSgMergeConfirmNoCommit.hdl=Do you want to perform the merge?
 dlgSgMergeConfirmNoCommit.tle=Merge
 dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
  How to merge from tag '$1'?
-dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
+dlgSgMergeNoop.fur=Merging a commit's own history into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
 dlgSgMergeNoop.hdl=There is nothing to merge.
 dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).

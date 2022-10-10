@@ -1342,7 +1342,7 @@ dlgSgMergeHowToMerge.hdl"How to merge from branch '$1'?"=\
 dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
  How to merge from tag '$1'?
 dlgSgMergeHowToMerge.tle=合并
-dlgSgMergeNoop.fur=Merging a commit into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
+dlgSgMergeNoop.fur=Merging a commit's own history into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes.
 dlgSgMergeNoop.hdl=There is nothing to merge.
 dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepository.edt"Repository"=仓库
