@@ -342,6 +342,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=主密码
 dlgScMasterPasswordEnter.hdl=输入主密码
 dlgScMasterPasswordEnter.inf=已从密码库中申请了一个存储的密码或口令。
 dlgScMasterPasswordEnter.tle=密码
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
 dlgScPasswordMasterChangeSuccessfulChange.fur=请务必记住它，否则您将无法再访问您存储的密码。
 dlgScPasswordMasterChangeSuccessfulChange.hdl=主密码已更改。
 dlgScPasswordMasterChangeSuccessfulChange.tle=更改主密码
@@ -485,6 +488,9 @@ dlgSgAbout.tab"Credits"=基本信息
 dlgSgAbout.tab"Information"=软件信息
 dlgSgAbout.tab"Licensee"=被许可人
 dlgSgAbout.tle=关于 SmartGit
+dlgSgApplicationUpgradeError.fur=The process could not be started.
+dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
+dlgSgApplicationUpgradeError.tle=Upgrade
 dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=移除所有
 dlgSgAuthenticationRemoveAllCredentials.fur=您必须重新输入所有身份验证详细信息。
 dlgSgAuthenticationRemoveAllCredentials.hdl=您确定要删除所有已知凭据吗？
@@ -574,6 +580,11 @@ dlgSgBugReportSettings.inf=请通过自动发送不包含任何敏感信息的 �
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  “崩溃追踪” 包含有关您的计算机的详细信息 \(例如，操作系统的版本\)，SmartGit 的版本/内部版本号，JVM 状态以及发生内部错误的位置。\n\n它不包含任何潜在的敏感信息，如用户名，电子邮件地址，文件内容，文件路径或服务器名称。
 dlgSgBugReportSettings.tle=SmartGit
+dlgSgCheckout.btn"Branches"=Branches
+dlgSgCheckout.btn"Check Out"=检出
+dlgSgCheckout.hdl=Check out a commit
+dlgSgCheckout.inf=Select the commit to check out. This allows to switch \(back\) the working tree to any commit.
+dlgSgCheckout.tle=Check Out
 dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=快进合并
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=仅检出
 dlgSgCheckoutFastForwardMerge.fur=快进合并会自动将分支向前移动到跟踪的远程分支。
@@ -1250,6 +1261,11 @@ dlgSgIndexEditorSaveOrDiscard.btn"Save"=保存
 dlgSgIndexEditorSaveOrDiscard.fur=如果您现在不保存更改，则更改将丢失。
 dlgSgIndexEditorSaveOrDiscard.hdl=要保存更改吗？
 dlgSgIndexEditorSaveOrDiscard.tle=关闭
+dlgSgJournalDoubleClick.btn"Check Out '$1'"=Check Out '$1'
+dlgSgJournalDoubleClick.btn"Open Log"=Open Log
+dlgSgJournalDoubleClick.fur%1=Select either to check out '$1' or to open the Log for the selected commit.
+dlgSgJournalDoubleClick.hdl%1=Do you want to check out '$1'?
+dlgSgJournalDoubleClick.tle=Journal
 dlgSgJournalFormCommitCantBeModified.fur=不是您 HEAD 主要父系历史的一部分
 dlgSgJournalFormCommitCantBeModified.hdl=至少有一个选定的提交无法修改。
 dlgSgJournalFormCommitCantBeModified.tle=编辑作者
@@ -1267,6 +1283,9 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=还原
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=您将要将索引中的行应用到工作区文件 “$1”。修改将立即保存。
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=您真的想要还原工作区中文件的更改吗？
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=还原工作区文件
+dlgSgLocalCommandRepositoryEmpty.fur=It's not possible to perform the requested operation on an empty repository.
+dlgSgLocalCommandRepositoryEmpty.hdl=The repository is empty.
+dlgSgLocalCommandRepositoryEmpty.tle=Save Stash
 dlgSgLogCheckoutFileAs.btn"Save After"=保存之后
 dlgSgLogCheckoutFileAs.btn"Save Before"=保存之前
 dlgSgLogCheckoutFileAs.edt"Target File"=目标文件
@@ -1325,8 +1344,12 @@ dlgSgLogRefreshRepositoryInvalid.tle=刷新
 dlgSgMerge.btn"Branches"=分支
 dlgSgMerge.btn"Create Merge-Commit"=创建合并提交
 dlgSgMerge.btn"Merge to Working Tree"=合并到工作区
+dlgSgMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMerge.hdl=合并
 dlgSgMerge.inf=选择要合并的分支或提交以及如何将它们合并到工作区中。
+dlgSgMerge.mni"Copy ID"=Copy ID
+dlgSgMerge.mni"Copy Message"=Copy Message
+dlgSgMerge.mni"Refresh"=刷新
 dlgSgMerge.tle=合并
 dlgSgMergeConfirmNoCommit.btn"Merge"=合并
 dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
@@ -1371,8 +1394,12 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  不要再显示此警告
 dlgSgOutput.chk"Show automatically for failed command"=自动显示失败的命令
 dlgSgOutput.lbl"Branches need merging first."=需要先合并分支.
+dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
+dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
@@ -1540,6 +1567,7 @@ dlgSgPreferences.edt"Date Format\*"=日期格式\*
 dlgSgPreferences.edt"Email"=电子邮箱
 dlgSgPreferences.edt"Example"=例如
 dlgSgPreferences.edt"Fetch"=获取
+dlgSgPreferences.edt"File Double-Click"=File Double-Click
 dlgSgPreferences.edt"File Name Matches\*"=文件名匹配\*
 dlgSgPreferences.edt"Font Family"=字体系列
 dlgSgPreferences.edt"Font Size"=字体大小
@@ -1646,8 +1674,10 @@ dlgSgPreferences.rbt"Log Graph"=日志图
 dlgSgPreferences.rbt"Log graph \(commit oriented\)"=日志图 \(面向提交\)
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  首选存储在主目录中的轻量级更新
+dlgSgPreferences.rbt"Show changes or open"=Show changes or open
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  智能大写 \(“FoB” 将匹配 “FooBar”，但既不 “foobar” 也不 “Fob”\)
+dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=标准 \(面向工作流\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  就地更新 SmartGit 应用程序 \(可能需要管理员权限\)
@@ -1882,6 +1912,7 @@ dlgSgRecursiveStage.mni"Select All"=全选
 dlgSgRecursiveStage.mni"Toggle"=切换
 dlgSgRecursiveStage.tle=暂存
 dlgSgRecursiveUnstage.btn"Unstage"=取消暂存
+dlgSgRecursiveUnstage.chk"Don't show again"=Don't show again
 dlgSgRecursiveUnstage.hdl=将暂存更改从索引还原到工作区
 dlgSgRecursiveUnstage.inf=从索引中选择要取消暂存的文件。
 dlgSgRecursiveUnstage.tle=取消暂存
@@ -2505,6 +2536,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=推到现有的
 dlgShPushTrackingLocalSvnBranches.fur=您将把本地分支推送回 SVN 仓库。 这些分支可能作为新分支推送到现有的 SVN 对应部分 \(在大多数情况下推荐使用\)。
 dlgShPushTrackingLocalSvnBranches.hdl=你想推动本地分支作为新的 SVN 分支吗？
 dlgShPushTrackingLocalSvnBranches.tle=推送
+dlgTxtEditor.fileModified.btn"Keep Content"=Keep Content
+dlgTxtEditor.fileModified.btn"Reload"=Reload
+dlgTxtEditor.fileModified.fur=Unless you want to see the old file state, it is recommended to reload.
+dlgTxtEditor.fileModified.hdl=The file config was changed. Reload it?
+dlgTxtEditor.fileModified.tle=Editor
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=分组模式
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=单一模式
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -2557,6 +2593,14 @@ ntmHighMemoryUsage"If you think that the configured memory limit is already quit
  If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
  SmartGit is close to the configured memory limit.
+ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
+ SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
+ Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
+ To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
+ Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
@@ -2573,6 +2617,12 @@ nttGeneral"Don't show again"=Don't show again
 nttGeneral"Remind me later"=Remind me later
 nttHighMemoryUsage"Contact Support"=Contact Support
 nttHighMemoryUsage"High memory usage"=High memory usage
+nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
+nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
+nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
+ Mark repositories as 'favorite' for automatic background refresh.
+nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
@@ -2862,11 +2912,14 @@ wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
 wndLog.mniRemoteFetchAll=Fetch All
+wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
+wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
 wndProject.mni"Log Selection"=Log Selection
+wndProject.mniRemoteFetchAll=Fetch All
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=就绪
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=全屏
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化

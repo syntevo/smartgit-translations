@@ -317,6 +317,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=マスターパスワード
 dlgScMasterPasswordEnter.hdl=マスターパスワードの入力
 dlgScMasterPasswordEnter.inf=保存されたパスワードまたはパスフレーズがパスワードストアから要求されました。
 dlgScMasterPasswordEnter.tle=パスワード
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
 dlgScPasswordMasterChangeSuccessfulChange.fur=忘れないようにしてください。忘れた場合、保存したパスワードにアクセスできなくなります。
 dlgScPasswordMasterChangeSuccessfulChange.hdl=マスターパスワードが変更されました。
 dlgScPasswordMasterChangeSuccessfulChange.tle=マスターパスワードを変更
@@ -460,6 +463,9 @@ dlgSgAbout.tab"Credits"=クレジット
 dlgSgAbout.tab"Information"=情報
 dlgSgAbout.tab"Licensee"=ライセンス
 dlgSgAbout.tle=SmartGitについて
+dlgSgApplicationUpgradeError.fur=The process could not be started.
+dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
+dlgSgApplicationUpgradeError.tle=Upgrade
 dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=全て削除
 dlgSgAuthenticationRemoveAllCredentials.fur=すべての認証情報を再入力する必要があります。
 dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削除しますか？
@@ -549,6 +555,11 @@ dlgSgBugReportSettings.inf=SmartGitの品質向上のために、機密情報を
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。
 dlgSgBugReportSettings.tle==SmartGit
+dlgSgCheckout.btn"Branches"=Branches
+dlgSgCheckout.btn"Check Out"=Check Out
+dlgSgCheckout.hdl=Check out a commit
+dlgSgCheckout.inf=Select the commit to check out. This allows to switch \(back\) the working tree to any commit.
+dlgSgCheckout.tle=Check Out
 dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=ファストフォワードマージ
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=チェックアウトのみ
 dlgSgCheckoutFastForwardMerge.fur=ファストフォワードマージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。
@@ -1225,6 +1236,11 @@ dlgSgIndexEditorSaveOrDiscard.btn"Save"=保存
 dlgSgIndexEditorSaveOrDiscard.fur=今すぐ保存しないと、変更内容が失われます。
 dlgSgIndexEditorSaveOrDiscard.hdl=変更内容を保存しますか？
 dlgSgIndexEditorSaveOrDiscard.tle=閉じる
+dlgSgJournalDoubleClick.btn"Check Out '$1'"=Check Out '$1'
+dlgSgJournalDoubleClick.btn"Open Log"=Open Log
+dlgSgJournalDoubleClick.fur%1=Select either to check out '$1' or to open the Log for the selected commit.
+dlgSgJournalDoubleClick.hdl%1=Do you want to check out '$1'?
+dlgSgJournalDoubleClick.tle=Journal
 dlgSgJournalFormCommitCantBeModified.fur=HEAD の 親を辿った履歴に含まれていません。
 dlgSgJournalFormCommitCantBeModified.hdl=少なくとも1つの選択されたコミットを変更できません。
 dlgSgJournalFormCommitCantBeModified.tle=作者を編集
@@ -1242,6 +1258,9 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=リバ�
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=インデックスの行を作業ツリーのファイル '$1' に適用しようとしています。変更はすぐに保存されます。
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=作業ツリー ファイルの変更を本当に元に戻しますか?
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=作業ツリーのファイルを元に戻す
+dlgSgLocalCommandRepositoryEmpty.fur=It's not possible to perform the requested operation on an empty repository.
+dlgSgLocalCommandRepositoryEmpty.hdl=The repository is empty.
+dlgSgLocalCommandRepositoryEmpty.tle=Save Stash
 dlgSgLogCheckoutFileAs.btn"Save After"=後を保存
 dlgSgLogCheckoutFileAs.btn"Save Before"=前を保存
 dlgSgLogCheckoutFileAs.edt"Target File"=ターゲットファイル
@@ -1300,8 +1319,12 @@ dlgSgLogRefreshRepositoryInvalid.tle=更新
 dlgSgMerge.btn"Branches"=ブランチ
 dlgSgMerge.btn"Create Merge-Commit"=マージリクエストを作成
 dlgSgMerge.btn"Merge to Working Tree"=作業ツリーへマージ
+dlgSgMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMerge.hdl=マージ
 dlgSgMerge.inf=マージするブランチやコミットを選択し、それらをどのように作業ツリーにマージするかを決定します。
+dlgSgMerge.mni"Copy ID"=Copy ID
+dlgSgMerge.mni"Copy Message"=Copy Message
+dlgSgMerge.mni"Refresh"=Refresh
 dlgSgMerge.tle=マージ
 dlgSgMergeConfirmNoCommit.btn"Merge"=マージ
 dlgSgMergeConfirmNoCommit.fur=選択したリビジョンが作業ツリーにマージされます。\n\nGitFlow-master ブランチに直接マージすることは推奨されないことに注意してください。代わりに、hotfix を開始する必要があります。
@@ -1346,8 +1369,12 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  この警告は次回から表示しない
 dlgSgOutput.chk"Show automatically for failed command"=失敗したコマンドを自動的に表示する
 dlgSgOutput.lbl"Branches need merging first."=ブランチはまずマージする必要があります。
+dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
+dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=コマンド 「サポートブランチを開始」 に失敗しました!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
@@ -1515,6 +1542,7 @@ dlgSgPreferences.edt"Date Format\*"=日付形式\*
 dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
+dlgSgPreferences.edt"File Double-Click"=File Double-Click
 dlgSgPreferences.edt"File Name Matches\*"=ファイル名の一致\*
 dlgSgPreferences.edt"Font Family"=フォント
 dlgSgPreferences.edt"Font Size"=フォントサイズ
@@ -1621,8 +1649,10 @@ dlgSgPreferences.rbt"Log Graph"=ロググラフ
 dlgSgPreferences.rbt"Log graph \(commit oriented\)"=ロググラフ \(コミット中心\)
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  ホームディレクトリに保存される軽量なアップデート
+dlgSgPreferences.rbt"Show changes or open"=Show changes or open
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case  \('FoB'は'FooBar'にマッチしますが、'foobar'でも'Fob'にはマッチしません\)
+dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
@@ -1857,6 +1887,7 @@ dlgSgRecursiveStage.mni"Select All"=全選択
 dlgSgRecursiveStage.mni"Toggle"=トグル
 dlgSgRecursiveStage.tle=ステージ
 dlgSgRecursiveUnstage.btn"Unstage"=アンステージ
+dlgSgRecursiveUnstage.chk"Don't show again"=Don't show again
 dlgSgRecursiveUnstage.hdl=ステージングされた変更をIndexから作業ツリーに戻す
 dlgSgRecursiveUnstage.inf=アンステージするファイルをIndexから選択します。
 dlgSgRecursiveUnstage.tle=アンステージ
@@ -2480,6 +2511,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=既存のものにプ�
 dlgShPushTrackingLocalSvnBranches.fur=ローカル ブランチを SVN リポジトリにプッシュします。これらのブランチは、新しいブランチとしてプッシュするか、既存の SVN 対応するブランチにプッシュすることができます \(ほとんどの場合に推奨\)。
 dlgShPushTrackingLocalSvnBranches.hdl=ローカルブランチを新しいSVNブランチとしてプッシュしますか？
 dlgShPushTrackingLocalSvnBranches.tle=プッシュ
+dlgTxtEditor.fileModified.btn"Keep Content"=Keep Content
+dlgTxtEditor.fileModified.btn"Reload"=Reload
+dlgTxtEditor.fileModified.fur=Unless you want to see the old file state, it is recommended to reload.
+dlgTxtEditor.fileModified.hdl=The file config was changed. Reload it?
+dlgTxtEditor.fileModified.tle=Editor
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=グループパターン
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=シングルパターン
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -2532,6 +2568,14 @@ ntmHighMemoryUsage"If you think that the configured memory limit is already quit
  If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
  SmartGit is close to the configured memory limit.
+ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
+ SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
+ Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
+ To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
+ Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
@@ -2548,6 +2592,12 @@ nttGeneral"Don't show again"=Don't show again
 nttGeneral"Remind me later"=Remind me later
 nttHighMemoryUsage"Contact Support"=Contact Support
 nttHighMemoryUsage"High memory usage"=High memory usage
+nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
+nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
+nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
+ Mark repositories as 'favorite' for automatic background refresh.
+nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
@@ -2837,11 +2887,14 @@ wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
 wndLog.mniRemoteFetchAll=全てフェッチ
+wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  "$1" から受け取ったプルリクエストを読み込んでいます。
+wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
 wndProject.mni"Log Selection"=選択項目の履歴
+wndProject.mniRemoteFetchAll=Fetch All
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=準備完了
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=フルスクリーン
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化

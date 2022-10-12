@@ -4,25 +4,61 @@ dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsi
 dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
 dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
 dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
+dlgSgApplicationUpgradeError.fur=The process could not be started.
+dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
+dlgSgApplicationUpgradeError.tle=Upgrade
+dlgSgCheckout.btn"Branches"=Branches
+dlgSgCheckout.btn"Check Out"=Check Out
+dlgSgCheckout.hdl=Check out a commit
+dlgSgCheckout.inf=Select the commit to check out. This allows to switch \(back\) the working tree to any commit.
+dlgSgCheckout.tle=Check Out
 dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
  Checkout and fast-forward local branch 'dev'
 dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
 dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
 dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
 dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
+dlgSgJournalDoubleClick.btn"Check Out '$1'"=Check Out '$1'
+dlgSgJournalDoubleClick.btn"Open Log"=Open Log
+dlgSgJournalDoubleClick.fur%1=Select either to check out '$1' or to open the Log for the selected commit.
+dlgSgJournalDoubleClick.hdl%1=Do you want to check out '$1'?
+dlgSgJournalDoubleClick.tle=Journal
+dlgSgLocalCommandRepositoryEmpty.fur=It's not possible to perform the requested operation on an empty repository.
+dlgSgLocalCommandRepositoryEmpty.hdl=The repository is empty.
+dlgSgLocalCommandRepositoryEmpty.tle=Save Stash
+dlgSgMerge.btn"Squash-Merge"=Squash-Merge
+dlgSgMerge.mni"Copy ID"=Copy ID
+dlgSgMerge.mni"Copy Message"=Copy Message
+dlgSgMerge.mni"Refresh"=Refresh
+dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
+dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
+dlgSgPreferences.edt"File Double-Click"=File Double-Click
+dlgSgPreferences.rbt"Show changes or open"=Show changes or open
+dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
 dlgSgProcessKiller.btn"Kill Process"=Kill Process
 dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
  If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
+dlgSgRecursiveUnstage.chk"Don't show again"=Don't show again
 dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
 dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
 dlgSgRemotesNoRemoteDetected.tle=Push Up To
 dlgSgToolAdd.err"Select the command which should be invoked."=\
  Select the command which should be invoked.
+dlgTxtEditor.fileModified.btn"Keep Content"=Keep Content
+dlgTxtEditor.fileModified.btn"Reload"=Reload
+dlgTxtEditor.fileModified.fur=Unless you want to see the old file state, it is recommended to reload.
+dlgTxtEditor.fileModified.hdl=The file config was changed. Reload it?
+dlgTxtEditor.fileModified.tle=Editor
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
@@ -44,6 +80,14 @@ ntmHighMemoryUsage"If you think that the configured memory limit is already quit
  If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
  SmartGit is close to the configured memory limit.
+ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
+ SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
+ Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
+ To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
+ Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
@@ -60,6 +104,12 @@ nttGeneral"Don't show again"=Don't show again
 nttGeneral"Remind me later"=Remind me later
 nttHighMemoryUsage"Contact Support"=Contact Support
 nttHighMemoryUsage"High memory usage"=High memory usage
+nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
+nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
+nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
+ Mark repositories as 'favorite' for automatic background refresh.
+nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
@@ -147,3 +197,6 @@ wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin Candidates \(in progres
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
  Origin Candidates for line $1 of commit $2
 wndDeepgit.tab"Origin Candidates"=Origin Candidates
+wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
+wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
+wndProject.mniRemoteFetchAll=Fetch All
