@@ -317,6 +317,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=Master Password
 dlgScMasterPasswordEnter.hdl=Enter the master password
 dlgScMasterPasswordEnter.inf=A stored password or passphrase has been requested from the password store.
 dlgScMasterPasswordEnter.tle=Passwords
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
 dlgScPasswordMasterChangeSuccessfulChange.fur=Be sure to remember it, otherwise you won't be able to access your stored passwords anymore.
 dlgScPasswordMasterChangeSuccessfulChange.hdl=The master password has been changed.
 dlgScPasswordMasterChangeSuccessfulChange.tle=Change Master Password
@@ -460,6 +463,9 @@ dlgSgAbout.tab"Credits"=Credits
 dlgSgAbout.tab"Information"=Information
 dlgSgAbout.tab"Licensee"=Licensee
 dlgSgAbout.tle=About SmartGit
+dlgSgApplicationUpgradeError.fur=The process could not be started.
+dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
+dlgSgApplicationUpgradeError.tle=Upgrade
 dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=Remove All
 dlgSgAuthenticationRemoveAllCredentials.fur=You will have to re-enter all authentication details.
 dlgSgAuthenticationRemoveAllCredentials.hdl=Do you want to remove all known credentials?
@@ -549,6 +555,11 @@ dlgSgBugReportSettings.inf=Please help to improve SmartGit's quality by automati
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
 dlgSgBugReportSettings.tle=SmartGit
+dlgSgCheckout.btn"Branches"=Branches
+dlgSgCheckout.btn"Check Out"=Check Out
+dlgSgCheckout.hdl=Check out a commit
+dlgSgCheckout.inf=Select the commit to check out. This allows to switch \(back\) the working tree to any commit.
+dlgSgCheckout.tle=Check Out
 dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=Fast-Forward-Merge
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=Just Checkout
 dlgSgCheckoutFastForwardMerge.fur=Fast-forward-merging automatically moves the branch forward to the tracked remote branch.
@@ -1225,6 +1236,11 @@ dlgSgIndexEditorSaveOrDiscard.btn"Save"=Save
 dlgSgIndexEditorSaveOrDiscard.fur=Your changes will be lost, if you don't save them now.
 dlgSgIndexEditorSaveOrDiscard.hdl=Do you want to save your changes?
 dlgSgIndexEditorSaveOrDiscard.tle=Close
+dlgSgJournalDoubleClick.btn"Check Out '$1'"=Check Out '$1'
+dlgSgJournalDoubleClick.btn"Open Log"=Open Log
+dlgSgJournalDoubleClick.fur%1=Select either to check out '$1' or to open the Log for the selected commit.
+dlgSgJournalDoubleClick.hdl%1=Do you want to check out '$1'?
+dlgSgJournalDoubleClick.tle=Journal
 dlgSgJournalFormCommitCantBeModified.fur=Not part of your head's first-parent history
 dlgSgJournalFormCommitCantBeModified.hdl=At least one selected commit can't be modified.
 dlgSgJournalFormCommitCantBeModified.tle=Edit Author
@@ -1242,6 +1258,9 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=Revert
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately.
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=Do you really want to revert changes in the working tree file?
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=Revert Working Tree File
+dlgSgLocalCommandRepositoryEmpty.fur=It's not possible to perform the requested operation on an empty repository.
+dlgSgLocalCommandRepositoryEmpty.hdl=The repository is empty.
+dlgSgLocalCommandRepositoryEmpty.tle=Save Stash
 dlgSgLogCheckoutFileAs.btn"Save After"=Save After
 dlgSgLogCheckoutFileAs.btn"Save Before"=Save Before
 dlgSgLogCheckoutFileAs.edt"Target File"=Target File
@@ -1300,8 +1319,12 @@ dlgSgLogRefreshRepositoryInvalid.tle=Refresh
 dlgSgMerge.btn"Branches"=Branches
 dlgSgMerge.btn"Create Merge-Commit"=Create Merge-Commit
 dlgSgMerge.btn"Merge to Working Tree"=Merge to Working Tree
+dlgSgMerge.btn"Squash-Merge"=Squash-Merge
 dlgSgMerge.hdl=Merge
 dlgSgMerge.inf=Select the branch or commit to merge and how they should be merged into the Working Tree.
+dlgSgMerge.mni"Copy ID"=Copy ID
+dlgSgMerge.mni"Copy Message"=Copy Message
+dlgSgMerge.mni"Refresh"=Refresh
 dlgSgMerge.tle=Merge
 dlgSgMergeConfirmNoCommit.btn"Merge"=Merge
 dlgSgMergeConfirmNoCommit.fur=The selected revisions\(s\) will be merged to the working tree.\n\nNote that merging directly to the GitFlow-master branch is not recommended. Instead, you should start a hotfix.
@@ -1346,8 +1369,12 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  Don't show again for this warning
 dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
+dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
+dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
+dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
@@ -1515,6 +1542,7 @@ dlgSgPreferences.edt"Date Format\*"=Date Format\*
 dlgSgPreferences.edt"Email"=Email
 dlgSgPreferences.edt"Example"=Example
 dlgSgPreferences.edt"Fetch"=Fetch
+dlgSgPreferences.edt"File Double-Click"=File Double-Click
 dlgSgPreferences.edt"File Name Matches\*"=File Name Matches\*
 dlgSgPreferences.edt"Font Family"=Font Family
 dlgSgPreferences.edt"Font Size"=Font Size
@@ -1621,8 +1649,10 @@ dlgSgPreferences.rbt"Log Graph"=Log Graph
 dlgSgPreferences.rbt"Log graph \(commit oriented\)"=Log graph \(commit oriented\)
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  Prefer light-weight updates stored in home directory
+dlgSgPreferences.rbt"Show changes or open"=Show changes or open
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)
+dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  Update SmartGit application in-place \(may require administrator permissions\)
@@ -1857,6 +1887,7 @@ dlgSgRecursiveStage.mni"Select All"=Select All
 dlgSgRecursiveStage.mni"Toggle"=Toggle
 dlgSgRecursiveStage.tle=Stage
 dlgSgRecursiveUnstage.btn"Unstage"=Unstage
+dlgSgRecursiveUnstage.chk"Don't show again"=Don't show again
 dlgSgRecursiveUnstage.hdl=Revert staged changes from the Index to the working tree
 dlgSgRecursiveUnstage.inf=Select the files to unstage from the Index.
 dlgSgRecursiveUnstage.tle=Unstage
@@ -2480,6 +2511,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=Push onto Existing
 dlgShPushTrackingLocalSvnBranches.fur=You are going to push local branches back to the SVN repository. These branches may either be pushed as new branches or onto their existing SVN counterparts \(recommended in most cases\).
 dlgShPushTrackingLocalSvnBranches.hdl=Do you want to push local branches as new SVN branches?
 dlgShPushTrackingLocalSvnBranches.tle=Push
+dlgTxtEditor.fileModified.btn"Keep Content"=Keep Content
+dlgTxtEditor.fileModified.btn"Reload"=Reload
+dlgTxtEditor.fileModified.fur=Unless you want to see the old file state, it is recommended to reload.
+dlgTxtEditor.fileModified.hdl=The file config was changed. Reload it?
+dlgTxtEditor.fileModified.tle=Editor
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=Group Patterns
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=Single Patterns
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -2532,6 +2568,14 @@ ntmHighMemoryUsage"If you think that the configured memory limit is already quit
  If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
  SmartGit is close to the configured memory limit.
+ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
+ SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
+ Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
+ To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
+ Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
@@ -2548,6 +2592,12 @@ nttGeneral"Don't show again"=Don't show again
 nttGeneral"Remind me later"=Remind me later
 nttHighMemoryUsage"Contact Support"=Contact Support
 nttHighMemoryUsage"High memory usage"=High memory usage
+nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
+nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
+nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
+ Mark repositories as 'favorite' for automatic background refresh.
+nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
@@ -2837,11 +2887,14 @@ wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
 wndLog.mniRemoteFetchAll=Fetch All
+wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
+wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
 wndProject.mni"Log Selection"=Log Selection
+wndProject.mniRemoteFetchAll=Fetch All
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=Full Screen
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=Maximize
