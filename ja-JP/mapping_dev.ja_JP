@@ -2702,73 +2702,73 @@ wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
 wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
- The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view.
+ \*Origin ビュー\*: 選択されたOrigin候補を強調表示します。 \*Blame \(go deeper\)\* を呼び出すと、DeepGit はその /フォーカス/ を表示されているファイル\\/コミット に移動し、\*ナビゲーション\* ビューで対応するコミットを選択します。
 wndDeepgit.ihp"This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective."=\
- This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective.
+ このビューには、\*ブレーム\* ビューで選択された行のすべての/Origin候補/が表示されます。選択した行が\*ブレーム\*ビューのコミットで変更\\/追加されていない場合、\*Appeared here\* origin はこのコミットに移動します。 そうでない場合は、\*Changed in-place\*の項目に実際の変更が表示されます。\*移動した項目\*は、移動の可能性を示します。選択されたOrigin候補は、\*Origin\*ビューと同様に\*ブレーム\*ビューでもハイライト表示されます。Origin候補の変更をより詳細に調べるには、\*Origin\*パースペクティブに切り替えてください。
 wndDeepgit.ihp"This view displays all changes for the selected commit from the \*Navigation\* view. The selected file will be compared in the below view."=\
- This view displays all changes for the selected commit from the \*Navigation\* view. The selected file will be compared in the below view.
+ このビューは、\*ナビゲーション\* ビューから選択したコミットのすべての変更点を表示します。選択されたファイルは、下のビューで比較されます。
 wndDeepgit.ihp"This view displays all files which have changed as part of the selected \*Blame\* line's commit. The selected file will be compared in the below view."=\
- This view displays all files which have changed as part of the selected \*Blame\* line's commit. The selected file will be compared in the below view.
+ このビューには、選択した \*ブレーム\* 行のコミットの一部として変更されたすべてのファイルが表示されます。選択したファイルが下のビューで比較されます。
 wndDeepgit.ihp"This view shows how the selected line from the \*Blame\* view has changed in the past."=\
- This view shows how the selected line from the \*Blame\* view has changed in the past.
+ このビューは、\*ブレーム\* ビューで選択された行が、過去にどのように変更されたかを表示します。
 wndDeepgit.ihp"This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view."=\
- This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
+ このビューには、調査対象のファイルと、そこに至るまでの全てのファイルのログが表示されます。選択したコミットについて、現在のパースペクティブに応じて詳細が表示されます。\n # \*ブレーム\* パースペクティブでは、ファイルの内容は \*ブレーム\* ビューに表示されます。\n # \*差分\* パースペクティブでは、ファイルの変更が表示されます。\n # \*ログ\* パースペクティブでは、変更されたすべてのファイルの概要が \*Files\* ビューに表示されます。
 wndDeepgit.ihp"This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."=\
- This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines.
+ このビューには、\*ナビゲーション\* ツリーから選択したファイル\\/コミットに対するブレーム結果が表示されます。行を選択すると、DeepGit はこの行の起源の検索を開始し、\*Origin候補\* ビューに結果を表示します \(\*ブレーム+Origins\* パースペクティブでのみ使用できます\)。最適なOrigin候補が選択され、ハイライトされます。DeepGit は、行の移動とファイル名の変更を追跡し、行の周辺を考慮するため、Origin候補は通常、1 行だけでなくブロックになります。
 wndDeepgit.ihp"This view shows the diff for the selected file from the above \*Files\* view."=\
- This view shows the diff for the selected file from the above \*Files\* view.
+ このビュー\(差分ビュー\)は、上記の \*Files\* ビューから選択したファイルの差分を表示します。
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
- This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+ このビューは、上の \*Origin候補\*\\/\*ファイル\* ビューから選択されたOrigin候補\\/ファイルの差分を表示します。
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
- Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
-wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
-wndDeepgit.lblBlameHeader"Blame for"=Blame for
-wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
-wndDeepgit.lblBlameMatchPopup"Changed in-place"=Changed in-place
+ 類似性検出は単一行に対してのみ実行されました。一部の結果は省略される場合があります \(表示\|行をブロックに拡張\)
+wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=ブレーム\(処理中…\)
+wndDeepgit.lblBlameHeader"Blame for"=ブレーム
+wndDeepgit.lblBlameMatchPopup"Appeared here"=ここで登場
+wndDeepgit.lblBlameMatchPopup"Changed in-place"=その場で変更された
 wndDeepgit.lblBlameMatchPopup"Lines first appeared at this position"=\
- Lines first appeared at this position
+ 行はこの位置で初めて現れました
 wndDeepgit.lblBlameMatchPopup"Lines have possibly been changed in-place"=\
- Lines have possibly been changed in-place
+ 行がその場で変更された可能性があります
 wndDeepgit.lblBlameMatchPopup"Lines have possibly been moved over from somewhere else"=\
- Lines have possibly been moved over from somewhere else
-wndDeepgit.lblBlameMatchPopup"Moved"=Moved
-wndDeepgit.lblBlameMatchPopup"other possible origins"=other possible origins
-wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=single origin, high likelihood
-wndDeepgit.lblCompareHeader"New contents"=New contents
-wndDeepgit.lblCompareHeader"Old contents"=Old contents
-wndDeepgit.lblOriginCandidate"Appeared here"=Appeared here
-wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
+ 行が別の場所から移動された可能性があります
+wndDeepgit.lblBlameMatchPopup"Moved"=移動された
+wndDeepgit.lblBlameMatchPopup"other possible origins"=複数のOriginの可能性
+wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=単一Origin,可能性が高い
+wndDeepgit.lblCompareHeader"New contents"=新しいコンテンツ
+wndDeepgit.lblCompareHeader"Old contents"=古いコンテンツ
+wndDeepgit.lblOriginCandidate"Appeared here"=ここで登場
+wndDeepgit.lblOriginCandidate"Changed in-place"=その場で変更された
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
- Line has been introduced in this commit
-wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
+ このコミットで行が追加されました
+wndDeepgit.lblOriginCandidate"Lines have been added"=行が追加されました
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
- Lines have been introduced in this commit
-wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
-wndDeepgit.lblOriginCandidate"Moved"=Moved
+ このコミットで行が追加されました
+wndDeepgit.lblOriginCandidate"Lines have been modified"=行が変更されました
+wndDeepgit.lblOriginCandidate"Moved"=移動された
 wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
- Origins from '$1' omitted: file is binary
+ '$1' からのOriginは省略されました: ファイルはバイナリです。
 wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
- Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
-wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
-wndDeepgit.lblOriginCandidate"for the first time"=for the first time
-wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
-wndDeepgit.lblOriginCandidate"of"=of
-wndDeepgit.lblOriginCandidate"over from somewhere else"=over from somewhere else
-wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=similarity for $1 origin line
-wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=similarity for $1 origin lines
-wndDeepgit.lblOriginHeader"No file to compare"=No file to compare
+ 類似性検出は単一行に対してのみ実行されました。一部の結果は省略される場合があります \(表示\|行をブロックに拡張\)
+wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=\(git diff が見ているように\)
+wndDeepgit.lblOriginCandidate"for the first time"=(初めて)
+wndDeepgit.lblOriginCandidate"from $1 previous line"=以前の $1 行から
+wndDeepgit.lblOriginCandidate"of"==of
+wndDeepgit.lblOriginCandidate"over from somewhere else"=\(別の場所から\)
+wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=の類似度,$1行のOrigin
+wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=の類似度,$1行のOrigin
+wndDeepgit.lblOriginHeader"No file to compare"=比較するファイルがありません
 wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
- Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents
+ 古いコンテンツの<b>周囲のブロック</b>の一部として変更 \(または追加\) された可能性があります
 wndDeepgit.lblOriginHeader"Possibly moved from <b>similar lines</b> from old contents"=\
- Possibly moved from <b>similar lines</b> from old contents
+ 古いコンテンツの<b>類似の行</b>から移動された可能性があります。
 wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since old contents"=\
- Possibly originates from <b>in-place change</b> since old contents
-wndDeepgit.lblTextHeader"Commit"=Commit
-wndDeepgit.lblTextHeader"File"=File
-wndDeepgit.lblTextHeader"Msg"=Msg
-wndDeepgit.lblTextHeader"at"=at
-wndDeepgit.lblTextHeader"by"=by
-wndDeepgit.lblTextHeader"on"=on
+ 古いコンテンツからの<b>その場での変更</b>に起因する可能性があります
+wndDeepgit.lblTextHeader"Commit"=コミット
+wndDeepgit.lblTextHeader"File"=ファイル
+wndDeepgit.lblTextHeader"Msg"=メッセージ
+wndDeepgit.lblTextHeader"at"==at
+wndDeepgit.lblTextHeader"by"==by
+wndDeepgit.lblTextHeader"on"==on
 wndDeepgit.mni"Copy Details"=詳細をコピー
 wndDeepgit.mni"Copy ID"=IDをコピー
 wndDeepgit.mni"Copy Selection"=選択範囲をコピー
@@ -2819,15 +2819,15 @@ wndDeepgit.mnu"File"=ファイル
 wndDeepgit.mnu"Go To"=移動
 wndDeepgit.mnu"Help"=ヘルプ
 wndDeepgit.mnu"View"=表示
-wndDeepgit.tab"Files \(in progress\)"=Files \(in progress\)
-wndDeepgit.tab"Files changed in commit $1"=Files changed in commit $1
-wndDeepgit.tab"Navigation \(initializing...\)"=Navigation \(initializing...\)
-wndDeepgit.tab"Navigation"=Navigation
-wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \($1 hunks processed...\)
-wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin Candidates \(in progress\)
+wndDeepgit.tab"Files \(in progress\)"=ファイル\(処理中\)
+wndDeepgit.tab"Files changed in commit $1"=コミット $1 で変更されたファイル
+wndDeepgit.tab"Navigation \(initializing...\)"=ナビゲーション \(初期化中...\)
+wndDeepgit.tab"Navigation"=ナビゲーション
+wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin候補\($1 のハンクを処理...\)
+wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin候補 \(処理中\)
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
- Origin Candidates for line $1 of commit $2
-wndDeepgit.tab"Origin Candidates"=Origin Candidates
+ コミット$2 , 行番号$1 のOrigin候補
+wndDeepgit.tab"Origin Candidates"=Origin候補
 wndDeepgit.tbr"Back"=戻る
 wndDeepgit.tbr"Blame"=ブレーム
 wndDeepgit.tbr"Blame+Origins"=ブレーム+Origins
@@ -2837,13 +2837,13 @@ wndDeepgit.tbr"Log"=ログ
 wndDeepgit.tbr"Origins"==Origins
 wndDeepgit.tbt"Go to next change."=次の変更点に移動します。
 wndDeepgit.tbt"Go to previous change."=前の変更点に移動します。
-wndDeepgit.tbtBack=前の変化点に戻る...
-wndDeepgit.tbtForward=次の変化点に進む...
-wndDeepgit.tbtPerspectiveBlameOrigin=行の起源を探すには、考えられる候補から一つを選ぶ必要があります。
-wndDeepgit.tbtPerspectiveBlameSimple=他の起源がない単純なケースでは、その行の起源を見つけることができます。
+wndDeepgit.tbtBack=前のブレームに戻る...
+wndDeepgit.tbtForward=次のブレームに進む...
+wndDeepgit.tbtPerspectiveBlameOrigin=行のOriginを探すには、考えられる候補から一つを選ぶ必要があります。
+wndDeepgit.tbtPerspectiveBlameSimple=他のOriginがない単純なケースでは、その行のOriginを見つけることができます。
 wndDeepgit.tbtPerspectiveCommit=ログを調査します。
 wndDeepgit.tbtPerspectiveHistory=ファイルのリビジョン間の差分を調査します。
-wndDeepgit.tbtPerspectiveOrigins=その行が発生した場所で他に何が起こったのかを調査します。\n\n利用可能な起源を検査するには、まずそれらを評価する必要があります。まず、\[ファイル\]→\[開く\] で調査対象のファイルを選択し、その中の行を選択します。そして、可能性のある起源の計算が完了するまで待ちます。
+wndDeepgit.tbtPerspectiveOrigins=その行が発生した場所で他に何が起こったのかを調査します。\n\n候補となるOriginを調べるには、まずそれらを評価する必要があります。まず、\[ファイル\]→\[開く\] で調査対象のファイルを選択し、その中の行を選択します。そして、可能性のあるOriginの計算が完了するまで待ちます。
 wndEditor.mni"CR \(classic macOS\)"=CR \(クラシック macOS\)
 wndEditor.mni"CR+LF \(Windows\)"==CR+LF \(Windows\)
 wndEditor.mni"LF \(Unix, macOS\)"==LF \(Unix, macOS\)
