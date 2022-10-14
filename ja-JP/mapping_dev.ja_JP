@@ -53,7 +53,7 @@ dlgQBugReportSend.btn"Report Bug"=バグを報告
 dlgQBugReportSend.edt"Comments or Steps to Reproduce"=コメントまたは再現のための手順\(英語で記述してください\)
 dlgQBugReportSend.edt"Email"=電子メール
 dlgQBugReportSend.edt"Reply To"=返信先
-dlgQBugReportSend.lbl"Sorry for the trouble!"=Sorry for the trouble!
+dlgQBugReportSend.lbl"Sorry for the trouble!"=ご迷惑おかけして申し訳ありません！
 dlgQBugReportSend.tle=内部エラー
 dlgQDockManagerClosedView.chk=次回から表示しない
 dlgQDockManagerClosedView.fur=再び開くには、「ウィンドウ」メニューから対応するメニューを使用します。
@@ -134,9 +134,9 @@ dlgScConflictSolverAdd.hdl=コンフリクトソルバーの追加
 dlgScConflictSolverAdd.tle=追加
 dlgScConflictSolverEdit.hdl=コンフリクトソルバーの編集
 dlgScConflictSolverEdit.tle=編集
-dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains mixed \(inconsistent\) line-endings. If these line-endings are intentionally mixed, be sure to not overwrite them while saving this file.
-dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
-dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - Conflict Solver
+dlgScConflictSolverInconsistentLineEndings.fur=マージ ファイルの内容に、混在した \(一貫性のない\) 改行文字が含まれています。これらの改行文字の混在が意図的なものである場合は、このファイルを保存するときに上書きしないように注意してください。
+dlgScConflictSolverInconsistentLineEndings.hdl=ファイルには、混在した \(一貫性のない\) 改行文字が含まれています。
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - コンフリクトソルバー
 dlgScConflictSolverUnresolvedConflicts.chk=次回から警告しない
 dlgScConflictSolverUnresolvedConflicts.fur=すべての競合が解決されたわけではありません。
 dlgScConflictSolverUnresolvedConflicts.hdl=コンフリクトソルバーを終了しますか？
@@ -217,8 +217,8 @@ dlgScEvaluationReminderContinue.btn"Register"=登録
 dlgScEvaluationReminderContinue.fur%2=商用環境で SmartGit を使用するには、\[$1 ライセンスを購入\]する必要があります。\n\n \[$2 特定の用途\] については、無料のライセンスを付与します。
 dlgScEvaluationReminderContinue.hdl%1=SmartGit の評価期間は $1 日後に終了します。
 dlgScEvaluationReminderContinue.tle=評価
-dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
-dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=プログラム「"$1": $2」を実行できません
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - コンフリクトソルバー
 dlgScFileComparatorAdd.hdl=外部Diffツールの追加
 dlgScFileComparatorAdd.mni"Base Encoding"=ベースエンコーディング
 dlgScFileComparatorAdd.mni"Base File"=ベースファイル
@@ -317,9 +317,9 @@ dlgScMasterPasswordEnter.edt"Master Password"=マスターパスワード
 dlgScMasterPasswordEnter.hdl=マスターパスワードの入力
 dlgScMasterPasswordEnter.inf=保存されたパスワードまたはパスフレーズがパスワードストアから要求されました。
 dlgScMasterPasswordEnter.tle=パスワード
-dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
-dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
-dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=プロセスを開始できませんでした。
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=アップデータの直接起動に失敗しました。
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit インストールの更新
 dlgScPasswordMasterChangeSuccessfulChange.fur=忘れないようにしてください。忘れた場合、保存したパスワードにアクセスできなくなります。
 dlgScPasswordMasterChangeSuccessfulChange.hdl=マスターパスワードが変更されました。
 dlgScPasswordMasterChangeSuccessfulChange.tle=マスターパスワードを変更
@@ -463,9 +463,9 @@ dlgSgAbout.tab"Credits"=クレジット
 dlgSgAbout.tab"Information"=情報
 dlgSgAbout.tab"Licensee"=ライセンス
 dlgSgAbout.tle=SmartGitについて
-dlgSgApplicationUpgradeError.fur=The process could not be started.
-dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
-dlgSgApplicationUpgradeError.tle=Upgrade
+dlgSgApplicationUpgradeError.fur=プロセスを開始できませんでした。
+dlgSgApplicationUpgradeError.hdl=アップデータの直接起動に失敗しました。
+dlgSgApplicationUpgradeError.tle=アップグレード
 dlgSgAuthenticationRemoveAllCredentials.btn"Remove All"=全て削除
 dlgSgAuthenticationRemoveAllCredentials.fur=すべての認証情報を再入力する必要があります。
 dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削除しますか？
@@ -555,11 +555,11 @@ dlgSgBugReportSettings.inf=SmartGitの品質向上のために、機密情報を
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。
 dlgSgBugReportSettings.tle==SmartGit
-dlgSgCheckout.btn"Branches"=Branches
-dlgSgCheckout.btn"Check Out"=Check Out
-dlgSgCheckout.hdl=Check out a commit
-dlgSgCheckout.inf=Select the commit to check out. This allows to switch \(back\) the working tree to any commit.
-dlgSgCheckout.tle=Check Out
+dlgSgCheckout.btn"Branches"=ブランチ
+dlgSgCheckout.btn"Check Out"=チェックアウト
+dlgSgCheckout.hdl=コミットをチェックアウトする
+dlgSgCheckout.inf=チェックアウトするコミットを選択します。これにより、作業ツリーを任意のコミットに切り替える\(戻す\)ことができます。
+dlgSgCheckout.tle=チェックアウト
 dlgSgCheckoutFastForwardMerge.btn"Fast-Forward-Merge"=ファストフォワードマージ
 dlgSgCheckoutFastForwardMerge.btn"Just Checkout"=チェックアウトのみ
 dlgSgCheckoutFastForwardMerge.fur=ファストフォワードマージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。
@@ -572,14 +572,14 @@ dlgSgCheckoutLocalBranchConfirm.hdl%1=ブランチ '$1' をチェックアウト
 dlgSgCheckoutLocalBranchConfirm.tle=チェックアウト
 dlgSgCheckoutTarget.btn"Checkout"=チェックアウト
 dlgSgCheckoutTarget.chk"Track remote branch '$1'"=リモートブランチ '$1' を追跡
-dlgSgCheckoutTarget.chk"Track remote branch"=追跡するリモートブランチ
+dlgSgCheckoutTarget.chk"Track remote branch"=リモート ブランチの追跡
 dlgSgCheckoutTarget.hdl"Check out commit"=コミットをチェックアウト
 dlgSgCheckoutTarget.hdl"Check out remote branch"=リモートブランチをチェックアウト
 dlgSgCheckoutTarget.hdl"Checkout commit"=コミットをチェックアウト
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=リモートブランチのチェックアウト
 dlgSgCheckoutTarget.inf=ローカルブランチではなくコミットをチェックアウトする場合は注意してください。コミットの上にあるコミットは簡単に失われてしまう可能性があります。
 dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
- Checkout and fast-forward local branch 'dev'
+ ローカルブランチ「dev」をチェックアウトしてファストフォワード
 dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=ローカルブランチ'$1'のチェックアウト
 dlgSgCheckoutTarget.rbt"Create local branch:"=ローカルブランチを作成:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
@@ -771,10 +771,10 @@ dlgSgCompareTwoFiles.btn"Compare with Repository"=リポジトリとの比較
 dlgSgCompareTwoFiles.fur=ファイルはリポジトリの内容と比較したり、ファイル同士で比較することができます。
 dlgSgCompareTwoFiles.hdl=選択された2つのファイルを比較しますか？
 dlgSgCompareTwoFiles.tle=比較
-dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=Mark Resolved
-dlgSgConflictResolverExternalStarted.fur=The external conflict solver has been started. After you have resolved the conflict, you may now mark the file as resolved.
-dlgSgConflictResolverExternalStarted.hdl=Do you want to mark the file as resolved?
-dlgSgConflictResolverExternalStarted.tle=External Conflict Solver
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=解決済みとしてマーク
+dlgSgConflictResolverExternalStarted.fur=外部コンフリクトソルバーが開始されました。競合を解決した後、ファイルを解決済みとしてマークすることができます。
+dlgSgConflictResolverExternalStarted.hdl=ファイルを解決済みとしてマークしますか？
+dlgSgConflictResolverExternalStarted.tle=外部コンフリクトソルバー
 dlgSgConflictSolverMarkResolved.btn"Leave Conflicted"=競合したままにする
 dlgSgConflictSolverMarkResolved.btn"Mark Resolved"=解決済みとしてマーク
 dlgSgConflictSolverMarkResolved.fur=競合の解決を完了するには、そのファイルを解決済みとしてマークする必要があります。 \(git stage\)\n 解決済みとマークされるまでは、ファイルは競合状態のままであり、他の競合解決を試すことができます。
@@ -1236,11 +1236,11 @@ dlgSgIndexEditorSaveOrDiscard.btn"Save"=保存
 dlgSgIndexEditorSaveOrDiscard.fur=今すぐ保存しないと、変更内容が失われます。
 dlgSgIndexEditorSaveOrDiscard.hdl=変更内容を保存しますか？
 dlgSgIndexEditorSaveOrDiscard.tle=閉じる
-dlgSgJournalDoubleClick.btn"Check Out '$1'"=Check Out '$1'
-dlgSgJournalDoubleClick.btn"Open Log"=Open Log
-dlgSgJournalDoubleClick.fur%1=Select either to check out '$1' or to open the Log for the selected commit.
-dlgSgJournalDoubleClick.hdl%1=Do you want to check out '$1'?
-dlgSgJournalDoubleClick.tle=Journal
+dlgSgJournalDoubleClick.btn"Check Out '$1'"='$1' をチェックアウト
+dlgSgJournalDoubleClick.btn"Open Log"=ログを開く
+dlgSgJournalDoubleClick.fur%1='$1' をチェックアウトするか、選択したコミットのログを開くかを選択します。
+dlgSgJournalDoubleClick.hdl%1='$1' をチェックアウトしますか？
+dlgSgJournalDoubleClick.tle=ジャーナル
 dlgSgJournalFormCommitCantBeModified.fur=HEAD の 親を辿った履歴に含まれていません。
 dlgSgJournalFormCommitCantBeModified.hdl=少なくとも1つの選択されたコミットを変更できません。
 dlgSgJournalFormCommitCantBeModified.tle=作者を編集
@@ -1258,9 +1258,9 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn"Revert"=リバ�
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1=インデックスの行を作業ツリーのファイル '$1' に適用しようとしています。変更はすぐに保存されます。
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.hdl=作業ツリー ファイルの変更を本当に元に戻しますか?
 dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=作業ツリーのファイルを元に戻す
-dlgSgLocalCommandRepositoryEmpty.fur=It's not possible to perform the requested operation on an empty repository.
-dlgSgLocalCommandRepositoryEmpty.hdl=The repository is empty.
-dlgSgLocalCommandRepositoryEmpty.tle=Save Stash
+dlgSgLocalCommandRepositoryEmpty.fur=空のリポジトリに対して要求された操作を実行することはできません。
+dlgSgLocalCommandRepositoryEmpty.hdl=リポジトリが空です。
+dlgSgLocalCommandRepositoryEmpty.tle=スタッシュに保存
 dlgSgLogCheckoutFileAs.btn"Save After"=後を保存
 dlgSgLogCheckoutFileAs.btn"Save Before"=前を保存
 dlgSgLogCheckoutFileAs.edt"Target File"=ターゲットファイル
@@ -1319,12 +1319,12 @@ dlgSgLogRefreshRepositoryInvalid.tle=更新
 dlgSgMerge.btn"Branches"=ブランチ
 dlgSgMerge.btn"Create Merge-Commit"=マージリクエストを作成
 dlgSgMerge.btn"Merge to Working Tree"=作業ツリーへマージ
-dlgSgMerge.btn"Squash-Merge"=Squash-Merge
+dlgSgMerge.btn"Squash-Merge"=スカッシュマージ
 dlgSgMerge.hdl=マージ
 dlgSgMerge.inf=マージするブランチやコミットを選択し、それらをどのように作業ツリーにマージするかを決定します。
-dlgSgMerge.mni"Copy ID"=Copy ID
-dlgSgMerge.mni"Copy Message"=Copy Message
-dlgSgMerge.mni"Refresh"=Refresh
+dlgSgMerge.mni"Copy ID"=IDをコピー
+dlgSgMerge.mni"Copy Message"=メッセージをコピー
+dlgSgMerge.mni"Refresh"=更新
 dlgSgMerge.tle=マージ
 dlgSgMergeConfirmNoCommit.btn"Merge"=マージ
 dlgSgMergeConfirmNoCommit.fur=選択したリビジョンが作業ツリーにマージされます。\n\nGitFlow-master ブランチに直接マージすることは推奨されないことに注意してください。代わりに、hotfix を開始する必要があります。
@@ -1369,18 +1369,18 @@ dlgSgOutput.chk"Don't show again for this warning"=\
  この警告は次回から表示しない
 dlgSgOutput.chk"Show automatically for failed command"=失敗したコマンドを自動的に表示する
 dlgSgOutput.lbl"Branches need merging first."=ブランチはまずマージする必要があります。
-dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
-dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
-dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
-dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
-dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
-dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
-dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
+dlgSgOutput.lbl"Command Abort failed!"=コマンド「中止」に失敗しました!
+dlgSgOutput.lbl"Command Check Out Branch failed!"=コマンド 「ブランチのチェックアウト」に失敗しました!
+dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=コマンド 「チェリーピック」 が警告を発しました。
+dlgSgOutput.lbl"Command Commit failed!"=コマンド 「コミット」に失敗しました!
+dlgSgOutput.lbl"Command Discard failed!"=コマンド「破棄」に失敗しました!
+dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=コマンド 「プル \(リベース\)」 に失敗しました!
+dlgSgOutput.lbl"Command Reset failed!"=コマンド 'Reset' に失敗しました!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=コマンド 「サポートブランチを開始」 に失敗しました!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
- Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
+ 次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\n HEAD をデタッチできませんでした
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
 dlgSgOutput.tle"Command Output"=コマンド出力
 dlgSgOutput.tle"Command Succeeded"=コマンドが成功しました
@@ -1478,7 +1478,7 @@ dlgSgPreferences.chk"Include untracked files"=追跡されていないファイ�
 dlgSgPreferences.chk"Initialize new submodules"=新しいサブモジュールを初期化
 dlgSgPreferences.chk"Left and right cursor moves: limit to current line"=\
  左右のカーソル移動：現在の行に制限
-dlgSgPreferences.chk"Open repositories when idle"=アイドル時にリポジトリを開く \(Open repositories when idle\)
+dlgSgPreferences.chk"Open repositories when idle"=アイドル時にリポジトリを開く
 dlgSgPreferences.chk"Open the last used repositories"=最後に使ったリポジトリを開く
 dlgSgPreferences.chk"Periodically invoke Git's garbage collection when idle"=\
  アイドル時にGitのガベージコレクションを定期的に呼び出す
@@ -1542,7 +1542,7 @@ dlgSgPreferences.edt"Date Format\*"=日付形式\*
 dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
-dlgSgPreferences.edt"File Double-Click"=File Double-Click
+dlgSgPreferences.edt"File Double-Click"=ファイルのダブルクリック
 dlgSgPreferences.edt"File Name Matches\*"=ファイル名の一致\*
 dlgSgPreferences.edt"Font Family"=フォント
 dlgSgPreferences.edt"Font Size"=フォントサイズ
@@ -1649,10 +1649,10 @@ dlgSgPreferences.rbt"Log Graph"=ロググラフ
 dlgSgPreferences.rbt"Log graph \(commit oriented\)"=ロググラフ \(コミット中心\)
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  ホームディレクトリに保存される軽量なアップデート
-dlgSgPreferences.rbt"Show changes or open"=Show changes or open
+dlgSgPreferences.rbt"Show changes or open"=変更を表示または開く
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case  \('FoB'は'FooBar'にマッチしますが、'foobar'でも'Fob'にはマッチしません\)
-dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
+dlgSgPreferences.rbt"Stage or unstage"=ステージまたはアンステージ
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
@@ -1671,10 +1671,10 @@ dlgSgPreferences.tab"Push"=プッシュ
 dlgSgPreferences.tab"Signing"=署名
 dlgSgPreferences.tab"User"=ユーザー
 dlgSgPreferences.tle=環境設定
-dlgSgProcessKiller.btn"Kill Process"=Kill Process
+dlgSgProcessKiller.btn"Kill Process"=強制終了
 dlgSgProcessKiller.btn"Wait"=待機
 dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
- If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
+ プロセスがハングしていると思われる場合は、[強制終了] ボタンをクリックします。それ以外の場合は [待機] ボタンをクリックします。
 dlgSgProcessKiller.tle=プロセスが応答していません
 dlgSgProviderPullRequestCreateNoTargetRepositories.fur=リポジトリはGitHubフォークではなく、このリポジトリのフォークである他のリモートはありません。
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=ターゲットリポジトリが見つかりません。
@@ -1887,7 +1887,7 @@ dlgSgRecursiveStage.mni"Select All"=全選択
 dlgSgRecursiveStage.mni"Toggle"=トグル
 dlgSgRecursiveStage.tle=ステージ
 dlgSgRecursiveUnstage.btn"Unstage"=アンステージ
-dlgSgRecursiveUnstage.chk"Don't show again"=Don't show again
+dlgSgRecursiveUnstage.chk"Don't show again"=次回から表示しない
 dlgSgRecursiveUnstage.hdl=ステージングされた変更をIndexから作業ツリーに戻す
 dlgSgRecursiveUnstage.inf=アンステージするファイルをIndexから選択します。
 dlgSgRecursiveUnstage.tle=アンステージ
@@ -1928,9 +1928,9 @@ dlgSgRemotesAdd.inf=リモートリポジトリのURLと短い名前を入力し
 dlgSgRemotesAdd.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgRemotesAdd.mni"Select Local Repository"=ローカルリポジトリを選択
 dlgSgRemotesAdd.tle=リモートリポジトリを追加
-dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
-dlgSgRemotesNoRemoteDetected.hdl=No remote detected.
-dlgSgRemotesNoRemoteDetected.tle=Push Up To
+dlgSgRemotesNoRemoteDetected.fur%1=このこの操作を行うには、$1 のリポジトリ構成に、一意に決定された 1 つのリモートが含まれている必要があります。
+dlgSgRemotesNoRemoteDetected.hdl=リモートが検出されませんでした。
+dlgSgRemotesNoRemoteDetected.tle=プッシュアップ
 dlgSgRemove.btn"Remove"=除去
 dlgSgRemove.chk"Delete local files"=ローカルファイルの削除(消去)
 dlgSgRemove.col"Directory"=ディレクトリ
@@ -2425,7 +2425,7 @@ dlgSgToolAdd.err"Please enter a confirmation message."=確認メッセージを�
 dlgSgToolAdd.err"Please enter the name for this command."=\
  このコマンドの名前を入力してください。
 dlgSgToolAdd.err"Select the command which should be invoked."=\
- Select the command which should be invoked.
+ 起動するコマンドを選択します。
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
  「開くコマンドで使用可能」と「出力を表示して終了まで待つ」のオプションは、同時に設定することができません。
 dlgSgToolAdd.hdl=外部ツールの追加
@@ -2511,11 +2511,11 @@ dlgShPushTrackingLocalSvnBranches.btn"Push onto Existing"=既存のものにプ�
 dlgShPushTrackingLocalSvnBranches.fur=ローカル ブランチを SVN リポジトリにプッシュします。これらのブランチは、新しいブランチとしてプッシュするか、既存の SVN 対応するブランチにプッシュすることができます \(ほとんどの場合に推奨\)。
 dlgShPushTrackingLocalSvnBranches.hdl=ローカルブランチを新しいSVNブランチとしてプッシュしますか？
 dlgShPushTrackingLocalSvnBranches.tle=プッシュ
-dlgTxtEditor.fileModified.btn"Keep Content"=Keep Content
-dlgTxtEditor.fileModified.btn"Reload"=Reload
-dlgTxtEditor.fileModified.fur=Unless you want to see the old file state, it is recommended to reload.
-dlgTxtEditor.fileModified.hdl=The file config was changed. Reload it?
-dlgTxtEditor.fileModified.tle=Editor
+dlgTxtEditor.fileModified.btn"Keep Content"=コンテンツを保持
+dlgTxtEditor.fileModified.btn"Reload"=再読込
+dlgTxtEditor.fileModified.fur=古いファイルの状態を見たいのでなければ、再読み込みすることをお勧めします。
+dlgTxtEditor.fileModified.hdl=ファイル構成が変更されました。再読み込みしますか？
+dlgTxtEditor.fileModified.tle=エディタ
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Group Patterns"=グループパターン
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt"Single Patterns"=シングルパターン
 dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl"Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."=\
@@ -2548,69 +2548,69 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=除去
 edt"Search For"=検索対象
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
- In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
+ 奇妙なエラーや予期せぬダイアログのポップアップが表示される場合は、この設定を無効にして、SmartGitに認証処理を任せてみてください。
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
- In general this should be fine and is the recommended configuration when working with multiple Git clients.
+ 一般的にはこれで問題なく、複数のGitクライアントで作業する場合はこの設定を推奨します。
 ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is configured in config file $1."=\
- SmartGit has detected that <b>credential.helper</b> is configured in config file $1.
+ SmartGit は、設定ファイル $1 で<b>credential.helper</b>が設定されていることを検出しました。
 ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
- To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>
+ この設定を無効にするには、上記の設定ファイルを開き、 <b>\[credential\]</b>セクションの<b>helper\=</b>の行頭に<b>#</b>を付加してコメントアウトしてください。
 ntmFollowUsOnTwitter"It's a great way to help shaping future versions of SmartGit!"=\
- It's a great way to help shaping future versions of SmartGit!
-ntmFollowUsOnTwitter"We are using Twitter to:"=We are using Twitter to:
-ntmFollowUsOnTwitter"announce new versions, including previews"=announce new versions, including previews
-ntmFollowUsOnTwitter"inform about new features"=inform about new features
+ これは、SmartGit の将来のバージョンの形成を助ける素晴らしい方法です!
+ntmFollowUsOnTwitter"We are using Twitter to:"=私たちは Twitter を使用して次のことを行います。
+ntmFollowUsOnTwitter"announce new versions, including previews"=プレビューを含む新バージョンの発表
+ntmFollowUsOnTwitter"inform about new features"=新機能についてのお知らせ
 ntmFollowUsOnTwitter"poll for opinions on how to implement new or change existing features"=\
- poll for opinions on how to implement new or change existing features
+ 機能追加・変更に関する意見募集
 ntmHighMemoryUsage"If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance."=\
- If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance.
+ 巨大なリポジトリで作業している場合は、これで問題ないかもしれません。この場合、$1を編集し、-Xmxオプションの値を、例えば-Xmx1024mに増やす\(まだ存在しない場合は追加する\)ことで、より良いパフォーマンスを得ることができます。
 ntmHighMemoryUsage"If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it."=\
- If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
+ 構成されたメモリ制限がすでに非常に多いと思われる場合、または巨大なリポジトリで作業していない場合、これは問題を示している可能性があります。その場合は、私たちにお知らせください。
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
- SmartGit is close to the configured memory limit.
+ SmartGit に対して設定されたメモリ制限に近づいています。
 ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
- SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ SmartGit は、$1 との連携に対応しています。連携機能は「環境設定」で設定することができます。
 ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
- Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ 「お気に入り」としてマークされた Git リポジトリは、バックグラウンドで自動的に更新およびフェッチされます。
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
- To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ リポジトリを「お気に入り」としてマークするには、[リポジトリ] ビューでリポジトリを右クリックし、[お気に入りとしてマーク] を選択します。
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
- Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
+ Gitのガベージコレクションは、\(デフォルトでは\) バックグラウンドで実行するように設定されています。\(.gitconfig 内の gc.autoDetach\)\nこの設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
- To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
+ サポートを延長するには、更新ライセンスを購入し、SmartGit の最新バージョンにアップグレードしてください。
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
- You may continue to use SmartGit, just your support period expired.
+ サポート期間が終了しましたが、引き続きSmartGitを使用することができます。
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
- Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
+ 他のGitクライアントよりSmartGitを好む理由や、SmartGitのどの部分にまだ改善が必要なのかを、私たちや他のユーザに教えてください。
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
- share the pros and cons at <link1>slant.co</link1>
-ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativeto.net</link1>
-nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
-nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
-nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
-nttGeneral"Don't show again"=Don't show again
-nttGeneral"Remind me later"=Remind me later
-nttHighMemoryUsage"Contact Support"=Contact Support
-nttHighMemoryUsage"High memory usage"=High memory usage
-nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
-nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
+ <link1>slant.co</link1>で長所と短所を共有
+ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=<link1>alternativeto.net</link1>で投票
+nttCredentialHelper"External Credentials Helper detected"=外部の認証情報ヘルパーが検出されました
+nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Twitter で SmartGit をフォローしてください !
+nttFollowUsOnTwitter"Follow on Twitter"=Twitterでフォロー
+nttGeneral"Don't show again"=次回から表示しない
+nttGeneral"Remind me later"=後で通知する
+nttHighMemoryUsage"Contact Support"=サポートに連絡
+nttHighMemoryUsage"High memory usage"=高メモリ使用量
+nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1との連携はまだ設定されていません。
+nttHostingProviderIntegrationNotYetConfigured"Configure Now"=今すぐ設定する
 nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
- Mark repositories as 'favorite' for automatic background refresh.
-nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
-nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
-nttSupportExpired"Purchase Update"=Purchase Update
+ リポジトリを「お気に入り」としてマークし、自動的にバックグラウンドで更新します。
+nttProblematicGcConfiguration"Disable Background GC"=バックグラウンドでのGCを無効にする
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git GC の設定に問題がある可能性があります。
+nttSupportExpired"Purchase Update"=アップデートを購入
 nttSupportExpired"Your support period has expired on $1."=\
- Your support period has expired on $1.
+ $1 にサポート期間が終了しました。
 nttVoteForUs"What do you like in SmartGit?"=\
- What do you like in SmartGit?
+ SmartGitのどこが好きですか？
 pop"$1 succeeded."=$1 が成功しました。
 pop"Command $1 has been aborted."=コマンド$1が中止されました。
 pop"Modify the previous commit and commit."=\
  前回のコミットを修正し、コミットする。
-pop"No more change."=もう変更はありません。
+pop"No more change."=これ以上の変更はありません。
 pop"No more changes."=これ以上の変更はありません。
 pop"Please review the files to commit."=\
- Please review the files to commit.
+ コミットするファイルを確認してください。
 pop"Select the branch for which to stop tracking."=\
  追跡を停止するブランチを選択します。
 pop"Select the remote to fetch from."=\
@@ -2887,14 +2887,14 @@ wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
 wndLog.mniRemoteFetchAll=全てフェッチ
-wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
+wndLog.tab"Changes \(EOL: Windows\)"=変更点 \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  "$1" から受け取ったプルリクエストを読み込んでいます。
-wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
+wndLog.tbt"Refresh information from Bitbucket."=Bitbucket からの情報を更新します。
 wndProject.mni"Log Selection"=選択項目の履歴
-wndProject.mniRemoteFetchAll=Fetch All
+wndProject.mniRemoteFetchAll=全てフェッチ
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).lblStatusBarMessage"Ready"=準備完了
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-fullScreen=フルスクリーン
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std).mniWindow-maximizeMaximize=最大化
