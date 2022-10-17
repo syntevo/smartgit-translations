@@ -168,6 +168,13 @@ dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and 
 dlgSgSplitOffFilesEmptyCommit.fur=By splitting off all files, the resulting commit would become empty.
 dlgSgSplitOffFilesEmptyCommit.hdl=You can't split off all files from a commit
 dlgSgSplitOffFilesEmptyCommit.tle=Commit
+dlgSgStartupExpired.btn"&Continue \($1\)"=&Continue \($1\)
+dlgSgStartupExpired.btn"Continue \($1\)"=Continue \($1\)
+dlgSgStartupExpired.btn"Download New Version"=Download New Version
+dlgSgStartupExpired.btn"Exit"=Exit
+dlgSgStartupExpired.fur=Please download and install a new one or a release version.
+dlgSgStartupExpired.hdl=This beta version expired.
+dlgSgStartupExpired.tle=Beta Version Expired
 dlgSgStashOnDemandProceedWithoutStashing.btn"Proceed"=Proceed
 dlgSgStashOnDemandProceedWithoutStashing.fur=Auto-stashing changes is not possible due to technical reasons. Changes will be discarded!
 dlgSgStashOnDemandProceedWithoutStashing.hdl=Do you want to proceed without stashing changes?
@@ -256,12 +263,18 @@ ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be ref
  Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
  To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
+ Some preferences options have been changed which will only be applied after restarting SmartGit.
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
  Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
  You may continue to use SmartGit, just your support period expired.
+ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
+ After the new version has been downloaded successfully, you will be notified again.
+ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
+ Your SmartGit installation needs to be upgraded now.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
@@ -278,11 +291,17 @@ nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configur
 nttHostingProviderIntegrationNotYetConfigured"Configure Now"=Configure Now
 nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
  Mark repositories as 'favorite' for automatic background refresh.
+nttPreferencesChangesRestartRequired"Exit SmartGit"=Exit SmartGit
+nttPreferencesChangesRestartRequired"Restart Required"=Restart Required
 nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Show Changelog"=Show Changelog
+nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=Successfully downloaded version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=Upgrade SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
  What do you like in SmartGit?
 pop"No more change."=No more change.
@@ -291,6 +310,12 @@ pop"Please review the files to commit."=\
 pop"Select the branch for which to stop tracking."=\
  Select the branch for which to stop tracking.
 pop"Select the stash to drop."=Select the stash to drop.
+ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
+ <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
+ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
+ Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
+ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
+ In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
 wndAnnotate.edt"By"=By
 wndAnnotate.mni"Copy Details"=Copy Details
 wndAnnotate.mni"Copy ID"=Copy ID
@@ -364,6 +389,7 @@ wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
 wndDeepgit.lblOriginCandidate"for the first time"=for the first time
 wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
+wndDeepgit.lblOriginCandidate"from $1 previous lines"=from $1 previous lines
 wndDeepgit.lblOriginCandidate"of"=of
 wndDeepgit.lblOriginCandidate"over from somewhere else"=over from somewhere else
 wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=similarity for $1 origin line
@@ -382,7 +408,11 @@ wndDeepgit.lblTextHeader"by"=by
 wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.mni"Copy Details"=Copy Details
 wndDeepgit.mni"Copy ID"=Copy ID
+wndDeepgit.mni"Copy Selection in Column"=Copy Selection in Column
 wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.mni"Copy"=Copy
+wndDeepgit.mni"File"=File
+wndDeepgit.mni"Modifications"=Modifications
 wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.tab"Files \(in progress\)"=Files \(in progress\)
 wndDeepgit.tab"Files changed in commit $1"=Files changed in commit $1
@@ -405,12 +435,19 @@ wndLog.mni"Committer Avatar"=Committer Avatar
 wndLog.mni"Committer with Full Name and Email"=\
  Committer with Full Name and Email
 wndLog.mni"Committer with Full Name"=Committer with Full Name
+wndLog.mni"Copy Branch"=Copy Branch
+wndLog.mni"Copy Email Address"=Copy Email Address
 wndLog.mni"Modification"=Modification
+wndLog.mni"Select Branch"=Select Branch
+wndLog.mni"Select Commit"=Select Commit
+wndLog.mni"Send Mail"=Send Mail
 wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
 wndLog.mniRemoteFetchAll=Fetch All
+wndLog.mniRepositoryFavorite"Mark as Favorite"=Mark as Favorite
+wndLog.mniRepositoryFavorite"Unmark as Favorite"=Unmark as Favorite
 wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
