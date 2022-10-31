@@ -18,8 +18,19 @@ dlgScConflictSolver(Add|Edit).mni"Merged File"=Merged File
 dlgScConflictSolver(Add|Edit).mni"Merged Title"=Merged Title
 dlgScConflictSolver(Add|Edit).mni"Right File"=Right File
 dlgScConflictSolver(Add|Edit).mni"Right Title"=Right Title
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ Details on frequency of the problem \(or steps to reproduce\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit has crashed due to insufficient system memory
 dlgScExternalFileStarterCommandInvocationFailed.hdl%2=Cannot run program "$1": $2
 dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - Conflict Solver
+dlgScFileCompareSaveAll.btn"Discard Changes"=Discard Changes
+dlgScFileCompareSaveAll.btn"Save"=Save
+dlgScFileCompareSaveAll.chk"Left file"=Left file
+dlgScFileCompareSaveAll.chk"Right file"=Right file
+dlgScFileCompareSaveAll.hdl=Save file changes
+dlgScFileCompareSaveAll.inf=Decide which file content to save.
+dlgScFileCompareSaveAll.tle=Save Changes
 dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=The process could not be started.
 dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=Launching updater directly failed.
 dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit Installation Update
@@ -104,10 +115,14 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick prod
 dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
 dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
+dlgSgOutput.lbl"Not all refs have been pushed."=\
+ Not all refs have been pushed.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
+dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
 dlgSgPreferences.edt"File Double-Click"=File Double-Click
 dlgSgPreferences.edt"Name"=Name
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
@@ -131,11 +146,16 @@ dlgSgPreferences.mni"Default"=Default
 dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Dictionary File"=Dictionary File
 dlgSgPreferences.mni"File Pattern"=File Pattern
+dlgSgPreferences.mni"Language"=Language
 dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Patterns"=Patterns
 dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPreferences.rbt"Show changes or open"=Show changes or open
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ Shows changes or opens the file
 dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
+dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
 dlgSgProcessKiller.btn"Kill Process"=Kill Process
 dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
  If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'.
@@ -273,6 +293,8 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  You may continue to use SmartGit, just your support period expired.
 ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
  After the new version has been downloaded successfully, you will be notified again.
+ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
+ SmartGit needs to be restarted now for the changes to take effect.
 ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
  Your SmartGit installation needs to be upgraded now.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
@@ -293,12 +315,14 @@ nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic back
  Mark repositories as 'favorite' for automatic background refresh.
 nttPreferencesChangesRestartRequired"Exit SmartGit"=Exit SmartGit
 nttPreferencesChangesRestartRequired"Restart Required"=Restart Required
+nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
 nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
 nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttUpdateCheckFetchVersionSuccess"Show Changelog"=Show Changelog
 nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=Successfully downloaded version $1 \($2\).
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=Upgrade SmartGit
@@ -322,6 +346,11 @@ wndAnnotate.mni"Copy ID"=Copy ID
 wndAnnotate.mni"Copy Selection"=Copy Selection
 wndAnnotate.mni"Open Log"=Open Log
 wndAnnotate.mni"Show Changes"=Show Changes
+wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
+wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndCompare.tbtFile-save=Save file modifications.
+wndCompare.tbtGoto-previous-diff=Go to previous change.
+wndCompare.tbtRefresh=Reload content from file system and recompare.
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  Apply Inner-line Difference to Working Tree
 wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree

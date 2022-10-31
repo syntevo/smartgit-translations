@@ -203,9 +203,13 @@ dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrato
  不明な点がある場合は、サーバー管理者に問い合わせてください。
 dlgScDevOpsSslFingerprintNew.tle=SSL認証
 dlgScDialogAssertionHandler.btn"Send Logs"=ログの送信
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ Details on frequency of the problem \(or steps to reproduce\)
 dlgScDialogAssertionHandler.edt"Email"=電子メール
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
  オプションのコメントまたは再現手順\(まだ覚えている場合のみ\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit has crashed due to insufficient system memory
 dlgScDialogAssertionHandler.tle=ネイティブクラッシュログ
 dlgScDialogAssertionHandlerLinkageError.btn"Copy"=コピー
 dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=強制終了
@@ -253,6 +257,13 @@ dlgScFileCompareFileChanged.btn"Save"=保存
 dlgScFileCompareFileChanged.fur=保存しない場合、変更内容が失われます。
 dlgScFileCompareFileChanged.hdl=変更内容を保存しますか？
 dlgScFileCompareFileChanged.tle=ファイルが変更されています
+dlgScFileCompareSaveAll.btn"Discard Changes"=Discard Changes
+dlgScFileCompareSaveAll.btn"Save"=Save
+dlgScFileCompareSaveAll.chk"Left file"=Left file
+dlgScFileCompareSaveAll.chk"Right file"=Right file
+dlgScFileCompareSaveAll.hdl=Save file changes
+dlgScFileCompareSaveAll.inf=Decide which file content to save.
+dlgScFileCompareSaveAll.tle=Save Changes
 dlgScFilePatternsEdit.edt"File Pattern"=ファイルパターン
 dlgScFilePatternsEdit.hdl%1=言語: $1
 dlgScFilePatternsEdit.inf=ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。
@@ -1375,10 +1386,13 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=コマンド 「チェ�
 dlgSgOutput.lbl"Command Commit failed!"=コマンド 「コミット」に失敗しました!
 dlgSgOutput.lbl"Command Discard failed!"=コマンド「破棄」に失敗しました!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=コマンド 「プル \(リベース\)」 に失敗しました!
+dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=コマンド 'Reset' に失敗しました!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=コマンド 「サポートブランチを開始」 に失敗しました!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
+dlgSgOutput.lbl"Not all refs have been pushed."=\
+ Not all refs have been pushed.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\n HEAD をデタッチできませんでした
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
@@ -1539,6 +1553,7 @@ dlgSgPreferences.col"Repository"=リポジトリ
 dlgSgPreferences.col"Shortcut"=ショートカット
 dlgSgPreferences.col"Value"=値
 dlgSgPreferences.edt"Date Format\*"=日付形式\*
+dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
 dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
@@ -1623,7 +1638,9 @@ dlgSgPreferences.mni"Details"=詳細
 dlgSgPreferences.mni"Dictionary File"=辞書ファイル
 dlgSgPreferences.mni"Edit"=編集
 dlgSgPreferences.mni"File Pattern"=ファイルパターン
+dlgSgPreferences.mni"Language"=Language
 dlgSgPreferences.mni"Name"=名前
+dlgSgPreferences.mni"Patterns"=Patterns
 dlgSgPreferences.mni"Repository"=リポジトリ
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
 dlgSgPreferences.mni"Reset"=リセット
@@ -1650,9 +1667,12 @@ dlgSgPreferences.rbt"Log graph \(commit oriented\)"=ロググラフ \(コミッ�
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  ホームディレクトリに保存される軽量なアップデート
 dlgSgPreferences.rbt"Show changes or open"=変更を表示または開く
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ Shows changes or opens the file
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case  \('FoB'は'FooBar'にマッチしますが、'foobar'でも'Fob'にはマッチしません\)
 dlgSgPreferences.rbt"Stage or unstage"=ステージまたはアンステージ
+dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
@@ -2591,6 +2611,8 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  サポート期間が終了しましたが、引き続きSmartGitを使用することができます。
 ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
  新しいバージョンが正常にダウンロードされると、再度通知されます。
+ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
+ SmartGit needs to be restarted now for the changes to take effect.
 ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
  SmartGit インストールを今すぐアップグレードする必要があります。
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
@@ -2611,12 +2633,14 @@ nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic back
  リポジトリを「お気に入り」としてマークし、自動的にバックグラウンドで更新します。
 nttPreferencesChangesRestartRequired"Exit SmartGit"=SmartGit を終了する
 nttPreferencesChangesRestartRequired"Restart Required"=再起動が必要
+nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
 nttProblematicGcConfiguration"Disable Background GC"=バックグラウンドでのGCを無効にする
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git GC の設定に問題がある可能性があります。
 nttSupportExpired"Purchase Update"=アップデートを購入
 nttSupportExpired"Your support period has expired on $1."=\
  $1 にサポート期間が終了しました。
 nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=バージョン $1 \($2\) のダウンロードを開始しました。
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttUpdateCheckFetchVersionSuccess"Show Changelog"=変更履歴を表示
 nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=バージョン $1 \($2\) が正常にダウンロードされました。
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=SmartGit のアップグレード
@@ -2688,7 +2712,12 @@ wndAnnotate.tab"History of current line"=現在の行の履歴
 wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
 wndCompare.mniView-layout-left-over-right=上下に並べて表示\(上にLeft,下にRight\)
+wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
+wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndCompare.tbtFile-save=Save file modifications.
 wndCompare.tbtGoto-next-diff=次の変更点に移動します。
+wndCompare.tbtGoto-previous-diff=Go to previous change.
+wndCompare.tbtRefresh=Reload content from file system and recompare.
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  作業ツリーに行内の差分を適用する
 wndConflictSolver.mni"Apply Line to Working Tree"=作業ツリーに行を適用

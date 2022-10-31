@@ -228,9 +228,13 @@ dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrato
  如有疑问，请与你的服务器管理员联系。
 dlgScDevOpsSslFingerprintNew.tle=SSL 身份验证
 dlgScDialogAssertionHandler.btn"Send Logs"=发送记录
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ Details on frequency of the problem \(or steps to reproduce\)
 dlgScDialogAssertionHandler.edt"Email"=电子邮箱
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
  可选的评论注释或重现步骤 \(如果您还记得\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit has crashed due to insufficient system memory
 dlgScDialogAssertionHandler.tle=本机崩溃记录
 dlgScDialogAssertionHandlerLinkageError.btn"Copy"=复制
 dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=强制退出
@@ -278,6 +282,13 @@ dlgScFileCompareFileChanged.btn"Save"=保存
 dlgScFileCompareFileChanged.fur=如果您不保存更改，您的更改将会丢失。
 dlgScFileCompareFileChanged.hdl=你确定要保存更改吗？
 dlgScFileCompareFileChanged.tle=文件已更改
+dlgScFileCompareSaveAll.btn"Discard Changes"=Discard Changes
+dlgScFileCompareSaveAll.btn"Save"=Save
+dlgScFileCompareSaveAll.chk"Left file"=Left file
+dlgScFileCompareSaveAll.chk"Right file"=Right file
+dlgScFileCompareSaveAll.hdl=Save file changes
+dlgScFileCompareSaveAll.inf=Decide which file content to save.
+dlgScFileCompareSaveAll.tle=Save Changes
 dlgScFilePatternsEdit.edt"File Pattern"=文件模式
 dlgScFilePatternsEdit.hdl%1=语言：$1
 dlgScFilePatternsEdit.inf=文件模式用于确定文件语言，该文件用于语法着色。
@@ -1400,10 +1411,13 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick prod
 dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
 dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
+dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  如果有问题，请咨询您的仓库管理员。
+dlgSgOutput.lbl"Not all refs have been pushed."=\
+ Not all refs have been pushed.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgOutput.tle"Command Failed"=命令失败
@@ -1564,6 +1578,7 @@ dlgSgPreferences.col"Repository"=仓库
 dlgSgPreferences.col"Shortcut"=快捷键
 dlgSgPreferences.col"Value"=值
 dlgSgPreferences.edt"Date Format\*"=日期格式\*
+dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
 dlgSgPreferences.edt"Email"=电子邮箱
 dlgSgPreferences.edt"Example"=例如
 dlgSgPreferences.edt"Fetch"=获取
@@ -1648,7 +1663,9 @@ dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Dictionary File"=Dictionary File
 dlgSgPreferences.mni"Edit"=编辑
 dlgSgPreferences.mni"File Pattern"=File Pattern
+dlgSgPreferences.mni"Language"=Language
 dlgSgPreferences.mni"Name"=Name
+dlgSgPreferences.mni"Patterns"=Patterns
 dlgSgPreferences.mni"Repository"=Repository
 dlgSgPreferences.mni"Reset to Default"=重置为默认值
 dlgSgPreferences.mni"Reset"=重置
@@ -1675,9 +1692,12 @@ dlgSgPreferences.rbt"Log graph \(commit oriented\)"=日志图 \(面向提交\)
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  首选存储在主目录中的轻量级更新
 dlgSgPreferences.rbt"Show changes or open"=Show changes or open
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ Shows changes or opens the file
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  智能大写 \(“FoB” 将匹配 “FooBar”，但既不 “foobar” 也不 “Fob”\)
 dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
+dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=标准 \(面向工作流\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  就地更新 SmartGit 应用程序 \(可能需要管理员权限\)
@@ -2616,6 +2636,8 @@ ntmSupportExpired"You may continue to use SmartGit, just your support period exp
  You may continue to use SmartGit, just your support period expired.
 ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
  After the new version has been downloaded successfully, you will be notified again.
+ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
+ SmartGit needs to be restarted now for the changes to take effect.
 ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
  Your SmartGit installation needs to be upgraded now.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
@@ -2636,12 +2658,14 @@ nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic back
  Mark repositories as 'favorite' for automatic background refresh.
 nttPreferencesChangesRestartRequired"Exit SmartGit"=Exit SmartGit
 nttPreferencesChangesRestartRequired"Restart Required"=Restart Required
+nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
 nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
 nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttUpdateCheckFetchVersionSuccess"Show Changelog"=Show Changelog
 nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=Successfully downloaded version $1 \($2\).
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=Upgrade SmartGit
@@ -2713,7 +2737,12 @@ wndAnnotate.tab"History of current line"=当前行的历史记录
 wndCompare.mniRefresh=重新加载
 wndCompare.mniView-layout-left-beside-right=左边右边
 wndCompare.mniView-layout-left-over-right=左上方
+wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
+wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndCompare.tbtFile-save=Save file modifications.
 wndCompare.tbtGoto-next-diff=下一处差异。
+wndCompare.tbtGoto-previous-diff=Go to previous change.
+wndCompare.tbtRefresh=Reload content from file system and recompare.
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  Apply Inner-line Difference to Working Tree
 wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree

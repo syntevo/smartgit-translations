@@ -1,3 +1,32 @@
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ Details on frequency of the problem \(or steps to reproduce\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit has crashed due to insufficient system memory
+dlgScFileCompareSaveAll.btn"Discard Changes"=Discard Changes
+dlgScFileCompareSaveAll.btn"Save"=Save
+dlgScFileCompareSaveAll.chk"Left file"=Left file
+dlgScFileCompareSaveAll.chk"Right file"=Right file
+dlgScFileCompareSaveAll.hdl=Save file changes
+dlgScFileCompareSaveAll.inf=Decide which file content to save.
+dlgScFileCompareSaveAll.tle=Save Changes
+dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
+dlgSgOutput.lbl"Not all refs have been pushed."=\
+ Not all refs have been pushed.
+dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
+dlgSgPreferences.mni"Language"=Language
+dlgSgPreferences.mni"Patterns"=Patterns
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ Shows changes or opens the file
+dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
+ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
+ SmartGit needs to be restarted now for the changes to take effect.
+nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
+wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
+wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndCompare.tbtFile-save=Save file modifications.
+wndCompare.tbtGoto-previous-diff=Go to previous change.
+wndCompare.tbtRefresh=Reload content from file system and recompare.
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniShowAtRefs=Show At Refs
 wndDeepgit.mniShowOnRefs=Show On Refs
