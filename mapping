@@ -2642,7 +2642,7 @@ nttSupportExpired"Your support period has expired on $1."=\
 nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
 nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttUpdateCheckFetchVersionSuccess"Show Changelog"=Show Changelog
-nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=Successfully downloaded version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1."=Successfully downloaded version $1.
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=Upgrade SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
  What do you like in SmartGit?
