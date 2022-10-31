@@ -2642,7 +2642,7 @@ nttSupportExpired"Your support period has expired on $1."=\
 nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=バージョン $1 \($2\) のダウンロードを開始しました。
 nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttUpdateCheckFetchVersionSuccess"Show Changelog"=変更履歴を表示
-nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=バージョン $1 \($2\) が正常にダウンロードされました。
+nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1."=バージョン $1 が正常にダウンロードされました。
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=SmartGit のアップグレード
 nttVoteForUs"What do you like in SmartGit?"=\
  SmartGitのどこが好きですか？
