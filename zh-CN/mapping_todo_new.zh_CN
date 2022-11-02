@@ -9,7 +9,7 @@ dlgScConflictSolverInconsistentLineEndings.fur=The merge file content contains m
 dlgScConflictSolverInconsistentLineEndings.hdl=The file contains mixed \(inconsistent\) line-endings.
 dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - 冲突解决工具
 dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- 你只能使用这些变量: \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+ 你只能使用这些变量: \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\}.
 dlgScConflictSolver(Add|Edit).mni"Base File"=基准文件
 dlgScConflictSolver(Add|Edit).mni"Encoding"=编码
 dlgScConflictSolver(Add|Edit).mni"Left File"=左侧文件
@@ -128,7 +128,7 @@ dlgSgPreferences.edt"Name"=名称
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  可以在“关于”对话框中手动更新应用程序
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
- 此文件将按原样发送: $1
+ 将发送文件: $1
 dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
@@ -139,9 +139,9 @@ dlgSgPreferences.mni"Accelerator"=快捷键
 dlgSgPreferences.mni"Account"=账户
 dlgSgPreferences.mni"Applies To"=适用于
 dlgSgPreferences.mni"Arguments"=参数
-dlgSgPreferences.mni"Command + Arguments"=命令 + 参数
+dlgSgPreferences.mni"Command + Arguments"=命令和参数
 dlgSgPreferences.mni"Command"=命令
-dlgSgPreferences.mni"Copy Selection in Column"=复制列中的选定内容
+dlgSgPreferences.mni"Copy Selection in Column"=按列复制
 dlgSgPreferences.mni"Default"=默认
 dlgSgPreferences.mni"Details"=详情
 dlgSgPreferences.mni"Dictionary File"=字典文件
@@ -247,15 +247,15 @@ dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparato
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
  Specify the necessary arguments for the command, especially the required variables.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
- The Arguments require the variable \$\{file\}.
+ 只能接受 \$\{file\} 作为变量.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
- The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}.
+ 只能接受 \$\{leftFile\} 和 \$\{rightFile\} 作为变量.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
- The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}.
+ 只能接受 \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\} 作为变量.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
- You must use the variable \$\{file\}.
+ 你只能使用 \$\{file\} 作为变量.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
- You must use the variables \$\{leftFile\} and \$\{rightFile\}.
+ 你只能使用 \$\{leftFile\} 和 \$\{rightFile\} 作为变量.
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
@@ -348,9 +348,9 @@ wndAnnotate.mni"Open Log"=打开日志
 wndAnnotate.mni"Show Changes"=显示变更
 wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
 wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
-wndCompare.tbtFile-save=保存文件变更.
-wndCompare.tbtGoto-previous-diff=上一处变更.
-wndCompare.tbtRefresh=从文件系统中重新加载文件内容进行对比.
+wndCompare.tbtFile-save=保存文件变更
+wndCompare.tbtGoto-previous-diff=上一处差异
+wndCompare.tbtRefresh=从文件系统中重新加载文件内容进行对比
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  将行内差异应用于工作树
 wndConflictSolver.mni"Apply Line to Working Tree"=应用行到工作树
@@ -358,10 +358,10 @@ wndConflictSolver.mni"Apply Selection to Working Tree"=应用选定内容到工�
 wndConflictSolver.tbr"Base + Right"=基准 + 右侧
 wndConflictSolver.tbr"Base Below"=基准以下
 wndConflictSolver.tbr"Left + Base"=左侧 + 基准
-wndConflictSolver.tbtEdit-take-left=Take the left block to the merge result. Depending on the left block, this will insert, replace or delete at the merge result.
-wndConflictSolver.tbtEdit-take-left-right=Take the left block, then the right one.
-wndConflictSolver.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
-wndConflictSolver.tbtEdit-take-right-left=Take the right block, then the left one.
+wndConflictSolver.tbtEdit-take-left=采用左侧代码块. 取决于左侧代码块, 这将在合并结果中插入、替换或删除.
+wndConflictSolver.tbtEdit-take-left-right=先采用左侧代码块, 再采用右侧文件块
+wndConflictSolver.tbtEdit-take-right=采用右侧代码块. 取决于右侧代码块, 这将在合并结果中插入、替换或删除.
+wndConflictSolver.tbtEdit-take-right-left=先采用右侧文件块, 再采用左侧文件块
 wndConflictSolver.tbtGoto-previous-conflict=上一处冲突.
 wndConflictSolver.tbtGoto-previous-diff=上一处变更.
 wndConflictSolver.tbtView-layout-all=显示左侧, 合并和右侧文件.
@@ -378,7 +378,7 @@ wndDeepgit.ihp"This view displays all files which have changed as part of the se
 wndDeepgit.ihp"This view shows how the selected line from the \*Blame\* view has changed in the past."=\
  This view shows how the selected line from the \*Blame\* view has changed in the past.
 wndDeepgit.ihp"This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view."=\
- This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
+ 此视图显示所审查的文件, 并可以导航到的所有以前的文件. 对于所选提交, 当前视图的可以显示更多详细信息: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
 wndDeepgit.ihp"This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."=\
  This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines.
 wndDeepgit.ihp"This view shows the diff for the selected file from the above \*Files\* view."=\
@@ -387,29 +387,29 @@ wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
-wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
-wndDeepgit.lblBlameHeader"Blame for"=Blame for
+wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=提交 \(处理中...\)
+wndDeepgit.lblBlameHeader"Blame for"=提交
 wndDeepgit.lblBlameMatchPopup"Appeared here"=出现在此处
-wndDeepgit.lblBlameMatchPopup"Changed in-place"=Changed in-place
+wndDeepgit.lblBlameMatchPopup"Changed in-place"=此处变更
 wndDeepgit.lblBlameMatchPopup"Lines first appeared at this position"=\
- Lines first appeared at this position
+ 这里可能是最初添加的地方
 wndDeepgit.lblBlameMatchPopup"Lines have possibly been changed in-place"=\
- Lines have possibly been changed in-place
+ 这里可能被修改过
 wndDeepgit.lblBlameMatchPopup"Lines have possibly been moved over from somewhere else"=\
- Lines have possibly been moved over from somewhere else
+ 这里可能是从其他地方移动过来的
 wndDeepgit.lblBlameMatchPopup"Moved"=已移动
-wndDeepgit.lblBlameMatchPopup"other possible origins"=其他可能的源
+wndDeepgit.lblBlameMatchPopup"other possible origins"=可能是其他来源
 wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=single origin, high likelihood
 wndDeepgit.lblCompareHeader"New contents"=新内容
 wndDeepgit.lblCompareHeader"Old contents"=旧内容
 wndDeepgit.lblOriginCandidate"Appeared here"=出现在此处
-wndDeepgit.lblOriginCandidate"Changed in-place"=Changed in-place
+wndDeepgit.lblOriginCandidate"Changed in-place"=此处变更
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
 wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
  Lines have been introduced in this commit
-wndDeepgit.lblOriginCandidate"Lines have been modified"=Lines have been modified
+wndDeepgit.lblOriginCandidate"Lines have been modified"=此处有修改
 wndDeepgit.lblOriginCandidate"Moved"=已移动
 wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
  Origins from '$1' omitted: file is binary
@@ -432,19 +432,19 @@ wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since
  Possibly originates from <b>in-place change</b> since old contents
 wndDeepgit.lblTextHeader"File"=文件
 wndDeepgit.lblTextHeader"Msg"=信息
-wndDeepgit.lblTextHeader"at"=at
-wndDeepgit.lblTextHeader"by"=by
+wndDeepgit.lblTextHeader"at"=提交于
+wndDeepgit.lblTextHeader"by"=
 wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.mni"Copy Details"=复制详情
 wndDeepgit.mni"Copy ID"=复制 ID
-wndDeepgit.mni"Copy Selection in Column"=Copy Selection in Column
-wndDeepgit.mni"Copy Selection"=Copy Selection
+wndDeepgit.mni"Copy Selection in Column"=按列复制
+wndDeepgit.mni"Copy Selection"=复制所选
 wndDeepgit.mni"Copy"=复制
 wndDeepgit.mni"File"=文件
 wndDeepgit.mni"Modifications"=修改
 wndDeepgit.mniShowAtRefs=在引用处显示
 wndDeepgit.tab"Files \(in progress\)"=文件 \(处理中\)
-wndDeepgit.tab"Files changed in commit $1"=文件变更已提交到 $1
+wndDeepgit.tab"Files changed in commit $1"=在 $1 提交中变更的文件
 wndDeepgit.tab"Navigation \(initializing...\)"=导航 \(初始化...\)
 wndDeepgit.tab"Navigation"=导航
 wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \($1 hunks processed...\)
@@ -454,24 +454,24 @@ wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
 wndDeepgit.tab"Origin Candidates"=Origin Candidates
 wndDeepgit.tbt"Go to next change."=下一处变更.
 wndDeepgit.tbt"Go to previous change."=上一处变更.
-wndDeepgit.tbtBack=Go back to previous blame...
-wndDeepgit.tbtForward=Go forward to next blame...
-wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. Depending on the right block, this will insert, replace or delete at the merge result.
+wndDeepgit.tbtBack=上一个提交...
+wndDeepgit.tbtForward=下一个提交...
+wndGit.indexEditor.tbtEdit-take-right=采用右侧代码块到合并结果. 取决于右侧代码块, 这将在合并结果中插入、替换或删除.
 wndGit.indexEditor.tbtFile-save=保存文件变更
-wndLog.mni"Cherry-Pick $1 to '$2'"=摘取 $1 到 '$2'
-wndLog.mni"Committer Abbreviated"=提交人缩写
-wndLog.mni"Committer Avatar"=提交人头像
+wndLog.mni"Cherry-Pick $1 to '$2'"=将 $1 摘取至 '$2'
+wndLog.mni"Committer Abbreviated"=修订者缩写
+wndLog.mni"Committer Avatar"=修订者头像
 wndLog.mni"Committer with Full Name and Email"=\
- 提交人完整姓名和邮件
-wndLog.mni"Committer with Full Name"=提交人完整姓名
+ 修订者完整姓名和邮件
+wndLog.mni"Committer with Full Name"=修订者完整姓名
 wndLog.mni"Copy Branch"=复制分支
 wndLog.mni"Copy Email Address"=复制邮件地址
 wndLog.mni"Modification"=修改
 wndLog.mni"Select Branch"=选择分支
 wndLog.mni"Select Commit"=选择提交
 wndLog.mni"Send Mail"=发送邮件
-wndLog.mni"Unstage Hunk"=取消暂存 Hunk
-wndLog.mni"Unstage Innerline Change"=取消暂存内线变更
+wndLog.mni"Unstage Hunk"=取消大量暂存暂存
+wndLog.mni"Unstage Innerline Change"=取消暂存行内变更
 wndLog.mni"Unstage Line"=取消暂存行
 wndLog.mni"Unstage Selection"=取消暂存所选
 wndLog.mniRemoteFetchAll=获取所有
@@ -483,10 +483,10 @@ wndLog.tbt"If selected and Index as well as Working Tree changes are available, 
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
 wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
-wndProject.mni"Log Selection"=Log Selection
+wndProject.mni"Log Selection"=选择日志
 wndProject.mniRemoteFetchAll=获取所有
 wnd(Log|Project|Std).mni"Merge '$1'"=合并 '$1'
-wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=将 HEAD 变基到 '$1'
+wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=将 HEAD 变基至 '$1'
 wnd(Log|Project|Std).mni"Sort First Parents before Merge Parents"=\
  Sort First Parents before Merge Parents
 wnd(Log|Project|Std).mni"Sort Merge Parents before First Parents"=\
