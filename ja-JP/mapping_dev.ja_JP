@@ -203,9 +203,13 @@ dlgScDevOpsSslFingerprintNew.lbl"When in doubt, contact your server administrato
  不明な点がある場合は、サーバー管理者に問い合わせてください。
 dlgScDevOpsSslFingerprintNew.tle=SSL認証
 dlgScDialogAssertionHandler.btn"Send Logs"=ログの送信
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ Details on frequency of the problem \(or steps to reproduce\)
 dlgScDialogAssertionHandler.edt"Email"=電子メール
 dlgScDialogAssertionHandler.edt"Optional comments or steps to reproduce \(in case you still recall\)"=\
  オプションのコメントまたは再現手順\(まだ覚えている場合のみ\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit has crashed due to insufficient system memory
 dlgScDialogAssertionHandler.tle=ネイティブクラッシュログ
 dlgScDialogAssertionHandlerLinkageError.btn"Copy"=コピー
 dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=強制終了
@@ -253,6 +257,13 @@ dlgScFileCompareFileChanged.btn"Save"=保存
 dlgScFileCompareFileChanged.fur=保存しない場合、変更内容が失われます。
 dlgScFileCompareFileChanged.hdl=変更内容を保存しますか？
 dlgScFileCompareFileChanged.tle=ファイルが変更されています
+dlgScFileCompareSaveAll.btn"Discard Changes"=Discard Changes
+dlgScFileCompareSaveAll.btn"Save"=Save
+dlgScFileCompareSaveAll.chk"Left file"=Left file
+dlgScFileCompareSaveAll.chk"Right file"=Right file
+dlgScFileCompareSaveAll.hdl=Save file changes
+dlgScFileCompareSaveAll.inf=Decide which file content to save.
+dlgScFileCompareSaveAll.tle=Save Changes
 dlgScFilePatternsEdit.edt"File Pattern"=ファイルパターン
 dlgScFilePatternsEdit.hdl%1=言語: $1
 dlgScFilePatternsEdit.inf=ファイルパターンは、ファイル言語を決定するために使用され、シンタックスカラーリングに使用されます。
@@ -1375,10 +1386,13 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=コマンド 「チェ�
 dlgSgOutput.lbl"Command Commit failed!"=コマンド 「コミット」に失敗しました!
 dlgSgOutput.lbl"Command Discard failed!"=コマンド「破棄」に失敗しました!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=コマンド 「プル \(リベース\)」 に失敗しました!
+dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=コマンド 'Reset' に失敗しました!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=コマンド 「サポートブランチを開始」 に失敗しました!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  ご不明な点がありましたら、リポジトリ管理者にお問い合わせください。
+dlgSgOutput.lbl"Not all refs have been pushed."=\
+ Not all refs have been pushed.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\n HEAD をデタッチできませんでした
 dlgSgOutput.tle"Command Failed"=コマンドの失敗
@@ -1539,6 +1553,7 @@ dlgSgPreferences.col"Repository"=リポジトリ
 dlgSgPreferences.col"Shortcut"=ショートカット
 dlgSgPreferences.col"Value"=値
 dlgSgPreferences.edt"Date Format\*"=日付形式\*
+dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
 dlgSgPreferences.edt"Email"=電子メール
 dlgSgPreferences.edt"Example"=例
 dlgSgPreferences.edt"Fetch"=フェッチ
@@ -1623,7 +1638,9 @@ dlgSgPreferences.mni"Details"=詳細
 dlgSgPreferences.mni"Dictionary File"=辞書ファイル
 dlgSgPreferences.mni"Edit"=編集
 dlgSgPreferences.mni"File Pattern"=ファイルパターン
+dlgSgPreferences.mni"Language"=Language
 dlgSgPreferences.mni"Name"=名前
+dlgSgPreferences.mni"Patterns"=Patterns
 dlgSgPreferences.mni"Repository"=リポジトリ
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
 dlgSgPreferences.mni"Reset"=リセット
@@ -1650,9 +1667,12 @@ dlgSgPreferences.rbt"Log graph \(commit oriented\)"=ロググラフ \(コミッ�
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
  ホームディレクトリに保存される軽量なアップデート
 dlgSgPreferences.rbt"Show changes or open"=変更を表示または開く
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ Shows changes or opens the file
 dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither 'foobar' nor 'Fob'\)"=\
  Smart upper case  \('FoB'は'FooBar'にマッチしますが、'foobar'でも'Fob'にはマッチしません\)
 dlgSgPreferences.rbt"Stage or unstage"=ステージまたはアンステージ
+dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
@@ -2288,13 +2308,13 @@ dlgSgStageConflict.tle=ステージ
 dlgSgStageNoFilesFound.fur=作業ツリーが変更されたファイル、追跡されていないファイル、または見つからないファイルが見つかりませんでした。
 dlgSgStageNoFilesFound.hdl=ステージングできるファイルが見つかりませんでした。
 dlgSgStageNoFilesFound.tle=ステージ
-dlgSgStartupExpired.btn"&Continue \($1\)"=&Continue \($1\)
-dlgSgStartupExpired.btn"Continue \($1\)"=Continue \($1\)
-dlgSgStartupExpired.btn"Download New Version"=Download New Version
-dlgSgStartupExpired.btn"Exit"=Exit
-dlgSgStartupExpired.fur=Please download and install a new one or a release version.
-dlgSgStartupExpired.hdl=This beta version expired.
-dlgSgStartupExpired.tle=Beta Version Expired
+dlgSgStartupExpired.btn"&Continue \($1\)"=&続行 \($1\)
+dlgSgStartupExpired.btn"Continue \($1\)"=続行 \($1\)
+dlgSgStartupExpired.btn"Download New Version"=新バージョンのダウンロード
+dlgSgStartupExpired.btn"Exit"=終了
+dlgSgStartupExpired.fur=新しいバージョンまたはリリース バージョンをダウンロードしてインストールしてください。
+dlgSgStartupExpired.hdl=このベータ版は有効期限切れです。
+dlgSgStartupExpired.tle=ベータ版終了のお知らせ
 dlgSgStashAll.btn"+ Keep Index"=+ インデックスを残す
 dlgSgStashAll.btn"+ Keep Working Tree"=+ ワーキングツリーを残す
 dlgSgStashAll.btn"Stash All"=すべての変更を隠す
@@ -2582,7 +2602,7 @@ ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be ref
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
  リポジトリを「お気に入り」としてマークするには、[リポジトリ] ビューでリポジトリを右クリックし、[お気に入りとしてマーク] を選択します。
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
- Some preferences options have been changed which will only be applied after restarting SmartGit.
+ SmartGit の再起動後にのみ適用される一部の設定オプションが変更されました。
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
  Gitのガベージコレクションは、\(デフォルトでは\) バックグラウンドで実行するように設定されています。\(.gitconfig 内の gc.autoDetach\)\nこの設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
@@ -2590,9 +2610,11 @@ ntmSupportExpired"To extend your support, please purchase an update license and 
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
  サポート期間が終了しましたが、引き続きSmartGitを使用することができます。
 ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
- After the new version has been downloaded successfully, you will be notified again.
+ 新しいバージョンが正常にダウンロードされると、再度通知されます。
+ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
+ SmartGit needs to be restarted now for the changes to take effect.
 ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
- Your SmartGit installation needs to be upgraded now.
+ SmartGit インストールを今すぐアップグレードする必要があります。
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  他のGitクライアントよりSmartGitを好む理由や、SmartGitのどの部分にまだ改善が必要なのかを、私たちや他のユーザに教えてください。
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
@@ -2609,17 +2631,19 @@ nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configur
 nttHostingProviderIntegrationNotYetConfigured"Configure Now"=今すぐ設定する
 nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
  リポジトリを「お気に入り」としてマークし、自動的にバックグラウンドで更新します。
-nttPreferencesChangesRestartRequired"Exit SmartGit"=Exit SmartGit
-nttPreferencesChangesRestartRequired"Restart Required"=Restart Required
+nttPreferencesChangesRestartRequired"Exit SmartGit"=SmartGit を終了する
+nttPreferencesChangesRestartRequired"Restart Required"=再起動が必要
+nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
 nttProblematicGcConfiguration"Disable Background GC"=バックグラウンドでのGCを無効にする
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git GC の設定に問題がある可能性があります。
 nttSupportExpired"Purchase Update"=アップデートを購入
 nttSupportExpired"Your support period has expired on $1."=\
  $1 にサポート期間が終了しました。
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Show Changelog"=Show Changelog
-nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=Successfully downloaded version $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=Upgrade SmartGit
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=バージョン $1 \($2\) のダウンロードを開始しました。
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
+nttUpdateCheckFetchVersionSuccess"Show Changelog"=変更履歴を表示
+nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1."=バージョン $1 が正常にダウンロードされました。
+nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=SmartGit のアップグレード
 nttVoteForUs"What do you like in SmartGit?"=\
  SmartGitのどこが好きですか？
 pop"$1 succeeded."=$1 が成功しました。
@@ -2643,11 +2667,11 @@ pop"There is no action available for this drop operation."=\
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  1回目のコミットで不要な変更をアンステージし、コミットします。
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
- <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
+ <b>警告!</b>\n\nこの機能は、お使いのサーバーの機能に依存しています。\nクローンが完了したら、出力ビューに警告が出力されていないか確認してください。
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
- Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
+ 参照(Refs)はグループに分類されます。リポジトリのルートログを走査するとき、参照は最初にマッチするグループに割り当てられます。つまり、新しい参照が発生すると、現在のグループ内の既存の参照をすべて置き換えます。\n\n次に、グループ内に残っている参照は、子から親へのコミットメントに渡されます。ここで再び、それらはマッチするグループに割り当てられ、他の参照を置き換えたり、より新しい参照に置き換わったりする可能性があります。\n\nパターンは <tt>refs</tt>接頭辞を含む完全な参照名に対してマッチングされます。マッチした参照の名前は最後のパスセグメント \('\\/'\) に短縮されます。例えば、 <tt>refs/tags/build-.\*</tt> は <tt>refs/tags/build-123</tt> というタグにマッチし、その名前は <tt>build-123</tt> に短縮されます。<tt>name</tt> という<i>名前付き正規表現捕捉グループ</i>を追加して、名前の抽出をさらにカスタマイズすることができます。例えば、 <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> は <tt>refs/tags/build-123</tt> にマッチし、その名前は <tt>123</tt> に短縮されます。\n\n<tt>title:</tt> を前につけることで、パターンにタイトルを割り当てることができます。このタイトルには、文字、数字、'_' のみを含めることができます。\n\nカンマ\(<tt>,</tt>\)で区切って複数のグループパターンを指定することができ、指定した順番で処理されます。もし、あるrefのセットにマッチする2つのグループを定義した場合、そのrefは最初のグループに割り当てられます。\n\n例: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
 ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
- In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
+ グループ化ロジックに加えて、<b>シングルパターン</b>に一致する参照が単独でグループに割り当てられます。これは、これらの各参照を<b>グループパターン</b>で明示的なパターンとして列挙するためのショートカットです。\n\nたとえば、リリース ブランチのそれぞれが独自のグループと見なされ、ログ グラフに表示されるか、'on-refs' の計算によって個別に処理されるようにする必要があります。\n\n例: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
 wndAnnotate.edt"By"==By
 wndAnnotate.edt"Commit"=コミット
 wndAnnotate.edt"Highlight"=ハイライト
@@ -2688,7 +2712,12 @@ wndAnnotate.tab"History of current line"=現在の行の履歴
 wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
 wndCompare.mniView-layout-left-over-right=上下に並べて表示\(上にLeft,下にRight\)
+wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
+wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndCompare.tbtFile-save=Save file modifications.
 wndCompare.tbtGoto-next-diff=次の変更点に移動します。
+wndCompare.tbtGoto-previous-diff=Go to previous change.
+wndCompare.tbtRefresh=Reload content from file system and recompare.
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  作業ツリーに行内の差分を適用する
 wndConflictSolver.mni"Apply Line to Working Tree"=作業ツリーに行を適用
@@ -2777,7 +2806,7 @@ wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=\(git diff が見ているように\)
 wndDeepgit.lblOriginCandidate"for the first time"=(初めて)
 wndDeepgit.lblOriginCandidate"from $1 previous line"=以前の $1 行から
-wndDeepgit.lblOriginCandidate"from $1 previous lines"=from $1 previous lines
+wndDeepgit.lblOriginCandidate"from $1 previous lines"=以前の $1 行から
 wndDeepgit.lblOriginCandidate"of"==of
 wndDeepgit.lblOriginCandidate"over from somewhere else"=\(別の場所から\)
 wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=の類似度,$1行のOrigin
@@ -2797,11 +2826,11 @@ wndDeepgit.lblTextHeader"by"==by
 wndDeepgit.lblTextHeader"on"==on
 wndDeepgit.mni"Copy Details"=詳細をコピー
 wndDeepgit.mni"Copy ID"=IDをコピー
-wndDeepgit.mni"Copy Selection in Column"=Copy Selection in Column
+wndDeepgit.mni"Copy Selection in Column"=この列の選択範囲をコピーする
 wndDeepgit.mni"Copy Selection"=選択範囲をコピー
-wndDeepgit.mni"Copy"=Copy
-wndDeepgit.mni"File"=File
-wndDeepgit.mni"Modifications"=Modifications
+wndDeepgit.mni"Copy"=コピー
+wndDeepgit.mni"File"=ファイル
+wndDeepgit.mni"Modifications"=変更点
 wndDeepgit.mni"Open File Log"=ファイルログを開く
 wndDeepgit.mni"Open Repository Log"=リポジトリログを開く
 wndDeepgit.mniAbout=DeepGitについて
@@ -2905,26 +2934,26 @@ wndGit.indexEditor.tbtEdit-take-right=右のブロックをマージ結果に持
 wndGit.indexEditor.tbtFile-save=ファイルの変更を保存します。
 wndGit.indexEditor.tbtGoto-next-diff=次の変更点に移動します。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
-wndLog.col"LFS"=LFS
+wndLog.col"LFS"==LFS
 wndLog.mni"Cherry-Pick $1 to '$2'"='$1' から '$2' へチェリーピック
 wndLog.mni"Committer Abbreviated"=コミッターの略称
 wndLog.mni"Committer Avatar"=コミッターのアバター
 wndLog.mni"Committer with Full Name and Email"=\
  コミッター \(フルネームと電子メール\)
 wndLog.mni"Committer with Full Name"=コミッター \(フルネーム\)
-wndLog.mni"Copy Branch"=Copy Branch
-wndLog.mni"Copy Email Address"=Copy Email Address
+wndLog.mni"Copy Branch"=ブランチをコピー
+wndLog.mni"Copy Email Address"=メールアドレスをコピー
 wndLog.mni"Modification"=変更
-wndLog.mni"Select Branch"=Select Branch
-wndLog.mni"Select Commit"=Select Commit
-wndLog.mni"Send Mail"=Send Mail
+wndLog.mni"Select Branch"=ブランチを選択
+wndLog.mni"Select Commit"=コミットを選択
+wndLog.mni"Send Mail"=メールを送る
 wndLog.mni"Unstage Hunk"=ハンクをアンステージ
 wndLog.mni"Unstage Innerline Change"=行内の変更をアンステージ
 wndLog.mni"Unstage Line"=行をアンステージ
 wndLog.mni"Unstage Selection"=選択範囲をアンステージ
 wndLog.mniRemoteFetchAll=全てフェッチ
-wndLog.mniRepositoryFavorite"Mark as Favorite"=Mark as Favorite
-wndLog.mniRepositoryFavorite"Unmark as Favorite"=Unmark as Favorite
+wndLog.mniRepositoryFavorite"Mark as Favorite"=お気に入りとしてマーク
+wndLog.mniRepositoryFavorite"Unmark as Favorite"=お気に入りのマークを外す
 wndLog.tab"Changes \(EOL: Windows\)"=変更点 \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。
