@@ -839,7 +839,7 @@ dlgSgCustomizeProjectUi.tab"Toolbar"=工具栏
 dlgSgCustomizeProjectUi.tle=自定义
 dlgSgDeleteFileTrash.hdl%1=确定要删除 “$1” 吗？
 dlgSgDeleteFilesTrash.hdl%1=您确定要删除所选的 $1 文件吗？
-dlgSgDiscard.btn"Discard to Stash"=丢弃到回收站
+dlgSgDiscard.btn"Discard to Stash"=丢弃到暂存
 dlgSgDiscard.btn"Discard"=丢弃
 dlgSgDiscard.col"Directory"=目录
 dlgSgDiscard.col"Name"=名称
@@ -984,7 +984,7 @@ dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=
  从远程仓库获取最新的 “$1” 提交
 dlgSgFlowIntegrateDevelop.hdl%1=整合来自 “$1” 的提交
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- Merge or rebase commits from the base branch to the current feature.
+ 把基础分支合并或变基提交到当前 feature 分支。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  把主开发线合并或变基提交到当前 feature 分支。
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the feature branch '$1'."=\
@@ -1398,7 +1398,7 @@ dlgSgOpenRepositoryInitializeGit.hdl%1=是否应该将 '$1' 初始化为新的 G
 dlgSgOpenRepositoryInitializeGit.tle=添加或创建仓库
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
 dlgSgOpenRepositorySvnWorkingCopy.hdl=无法打开 SVN 工作副本, 请使用 SmartGit 重新克隆.
-dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
+dlgSgOpenRepositorySvnWorkingCopy.tle=添加或创建仓库
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  不要再显示这些 $1 警告
 dlgSgOutput.chk"Don't show again for this warning"=\
@@ -1578,7 +1578,7 @@ dlgSgPreferences.col"Repository"=仓库
 dlgSgPreferences.col"Shortcut"=快捷键
 dlgSgPreferences.col"Value"=值
 dlgSgPreferences.edt"Date Format\*"=日期格式\*
-dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
+dlgSgPreferences.edt"Double-Clicking Local File"=双击本地文件
 dlgSgPreferences.edt"Email"=电子邮箱
 dlgSgPreferences.edt"Example"=例如
 dlgSgPreferences.edt"Fetch"=获取
@@ -2409,10 +2409,10 @@ dlgSgSubmoduleResetConfirm.tle=重置子模块
 dlgSgSubmoduleSync.btn"Synchronize"=同步
 dlgSgSubmoduleSync.chk"Pull submodule repositories"=拉取子模块
 dlgSgSubmoduleSync.hdl=同步所有子模块
-dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
+dlgSgSubmoduleSync.inf=子模块条目将在 .git/config 文件夹中更新. 您可以稍后自定义URL或立即拉取.
 dlgSgSubmoduleSync.tle=同步子模块
 dlgSgSubtreeAdd.chk"Create local branch \(for advanced operations\)"=\
- Create local branch \(for advanced operations\)
+ 创建本地分支 \(高级操作\)
 dlgSgSubtreeAdd.chk"Squash subtree into single commit"=将子树压缩为单个提交
 dlgSgSubtreeAdd.edt"Branch"=分支
 dlgSgSubtreeAdd.edt"Local Directory"=本地目录
@@ -2473,11 +2473,11 @@ dlgSgTagDeleteConfirmSingle.fur=你将无法恢复它。
 dlgSgTagDeleteConfirmSingle.hdl%1=您确定要删除 “$1” 标签吗？
 dlgSgTagDeleteConfirmSingle.tle=删除
 dlgSgToolAdd.edt"Keyboard Shortcut"=键盘快捷键
-dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
+dlgSgToolAdd.err"Please enter a confirmation message."=请输入确认信息.
 dlgSgToolAdd.err"Please enter the name for this command."=\
- Please enter the name for this command.
+ 请输入姓名.
 dlgSgToolAdd.err"Select the command which should be invoked."=\
- Select the command which should be invoked.
+ 选择要调用的命令.
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
  The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
 dlgSgToolAdd.hdl=添加外部工具
@@ -2623,7 +2623,7 @@ ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
 ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
  SmartGit provides special support for $1. The integration can be configured in the Preferences.
 ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
- 标记为收藏的仓库后后台自动刷新
+ 标记为收藏的仓库会后台自动刷新
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
  要想将仓库添加到 '收藏夹', 请在 '仓库' 视图中右击仓库并选择 '标记为收藏'.
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
@@ -2650,12 +2650,12 @@ nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=在Twitter上关注SmartGit!
 nttFollowUsOnTwitter"Follow on Twitter"=关注 Twitter
 nttGeneral"Don't show again"=不再提醒
 nttGeneral"Remind me later"=以后再说
-nttHighMemoryUsage"Contact Support"=联系 Support
+nttHighMemoryUsage"Contact Support"=联系支持
 nttHighMemoryUsage"High memory usage"=高内存使用率
 nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
 nttHostingProviderIntegrationNotYetConfigured"Configure Now"=立即配置
 nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
- 标记为收藏的仓库后后台自动刷新.
+ 标记为收藏的仓库会后台自动刷新.
 nttPreferencesChangesRestartRequired"Exit SmartGit"=退出 SmartGit
 nttPreferencesChangesRestartRequired"Restart Required"=需要重启
 nttPreferencesChangesRestartRequired"Restart SmartGit"=重启 SmartGit
@@ -2777,7 +2777,7 @@ wndConflictSolver.tbtView-layout-all=显示左侧, 合并和右侧文件.
 wndConflictSolver.tbtView-layout-left-merge=显示左侧和合并文件.
 wndConflictSolver.tbtView-layout-left-right-above-merge=在合并文件上方显示左右文件。
 wndConflictSolver.tbtView-layout-right-merge=显示合并和右侧文件
-wndDeepgit.btn"Go Deeper"=继续深入
+wndDeepgit.btn"Go Deeper"=深入
 wndDeepgit.col"File"=文件
 wndDeepgit.col"Modifications"=修改
 wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
@@ -2818,14 +2818,14 @@ wndDeepgit.lblCompareHeader"Old contents"=旧内容
 wndDeepgit.lblOriginCandidate"Appeared here"=出现在此处:
 wndDeepgit.lblOriginCandidate"Changed in-place"=就地更改
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
- Line has been introduced in this commit
+ 在此提交中被引入
 wndDeepgit.lblOriginCandidate"Lines have been added"=被添加
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
- 此提交中被引入
+ 在此提交中被引入
 wndDeepgit.lblOriginCandidate"Lines have been modified"=就地更改
 wndDeepgit.lblOriginCandidate"Moved"=已移动
 wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
- Origins from '$1' omitted: file is binary
+ 来自 '$1' 的起源被省略: 二进制文件
 wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  仅对单行进行相似性检测, 某些结果可能会被省略 \(视图\|单行/代码块\)
 wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=使用 'git diff' 查看
@@ -2847,7 +2847,7 @@ wndDeepgit.lblTextHeader"Commit"=提交
 wndDeepgit.lblTextHeader"File"=文件
 wndDeepgit.lblTextHeader"Msg"=信息
 wndDeepgit.lblTextHeader"at"=提交于
-wndDeepgit.lblTextHeader"by"=
+wndDeepgit.lblTextHeader"by"=by
 wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.mni"Copy Details"=复制详情
 wndDeepgit.mni"Copy ID"=复制 ID
@@ -3317,7 +3317,7 @@ wnd(Log|Project|Std).mniBranchesSortByTime=按提交时间排序引用
 wnd(Log|Project|Std).mniChangesView.compact=压缩
 wnd(Log|Project|Std).mniChangesView.ignoreLineSeparators=忽略行尾序列变更
 wnd(Log|Project|Std).mniChangesView.sideBySide=并排
-wnd(Log|Project|Std).mniChangesView.unified=统一
+wnd(Log|Project|Std).mniChangesView.unified=合并
 wnd(Log|Project|Std).mniCheckForLatestBuild=检查更新 \(编译版本\)
 wnd(Log|Project|Std).mniCheckForNewVersion=检查更新
 wnd(Log|Project|Std).mniCheckout=检出
@@ -3415,7 +3415,7 @@ wnd(Log|Project|Std).mniPreviewCommentPrevious=上一条注释
 wnd(Log|Project|Std).mniPreviewCompareAutomatic=自动
 wnd(Log|Project|Std).mniPreviewCompareHeadVsIndex=HEAD 与索引
 wnd(Log|Project|Std).mniPreviewCompareIndexVsWT=索引与工作区
-wnd(Log|Project|Std).mniPreviewRefresh=重载
+wnd(Log|Project|Std).mniPreviewRefresh=刷新
 wnd(Log|Project|Std).mniPreviewShowCurrentLines=显示长的当前行
 wnd(Log|Project|Std).mniPreviewUndo=撤销
 wnd(Log|Project|Std).mniPush=推送

@@ -55,7 +55,7 @@ dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
  检出并快进本地分支 'dev'
 dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
  注意: 拉取和推送不会加载其他引用, 你可能需要使用获取更多来加载其他引用.
-dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=例如 https://user@server:port/path/to/repository
 dlgSgCommitCantAmend.fur=无法修订已推送的提交. 如果你了解风险并想要启用, 请在设置中选择 '允许修改推送的提交'.
 dlgSgCommitCantAmend.hdl=无法修改提交.
 dlgSgCommitCantAmend.tle=提交
@@ -69,12 +69,12 @@ dlgSgConflictResolverExternalStarted.hdl=是否标记为已解决?
 dlgSgConflictResolverExternalStarted.tle=外部冲突解决工具
 dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=提交/标签信息
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- Merge or rebase commits from the base branch to the current feature.
+ 把基础分支合并或变基提交到当前 feature 分支。
 dlgSgFlowSupportStart.hdl=Start a new support
 dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
 dlgSgFlowSupportStart.tle=Start Support
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
-dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
+dlgSgOpenRepositorySvnWorkingCopy.tle=添加或创建仓库
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"Not all refs have been pushed."=\
  有些引用未被推送.
@@ -210,7 +210,7 @@ ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
 ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
  SmartGit provides special support for $1. The integration can be configured in the Preferences.
 ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
- 标记为收藏的仓库后后台自动刷新
+ 标记为收藏的仓库会后台自动刷新
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
  要想将仓库添加到 '收藏夹', 请在 '仓库' 视图中右击仓库并选择 '标记为收藏'.
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
@@ -241,10 +241,10 @@ nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configur
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=开始下载版本 $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=重启 SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
- What do you like in SmartGit?
+ 您喜欢 SmartGit 哪些功能?
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
  <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
@@ -338,7 +338,7 @@ wndDeepgit.lblOriginHeader"No file to compare"=没有文件要对比
 wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
  可能来自于旧内容的 <b>附近的代码块</b>
 wndDeepgit.lblOriginHeader"Possibly moved from <b>similar lines</b> from old contents"=\
- Possibly moved from <b>similar lines</b> from old contents
+ 可能来自于旧内容的 <b>相似行</b>
 wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since old contents"=\
  可能来自于旧内容的 <b>就地更改</b>
 wndDeepgit.lblTextHeader"File"=文件
@@ -362,7 +362,7 @@ wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \(
 wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin Candidates \(in progress\)
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
  Origin Candidates for line $1 of commit $2
-wndDeepgit.tab"Origin Candidates"=Origin Candidates
+wndDeepgit.tab"Origin Candidates"=起源
 wndDeepgit.tbt"Go to next change."=下一处变更.
 wndDeepgit.tbt"Go to previous change."=上一处变更.
 wndDeepgit.tbtBack=上一个提交...
@@ -392,8 +392,8 @@ wndLog.tab"Changes \(EOL: Windows\)"=变更 \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
- Reading incoming pull requests from '$1'.
-wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
+ 正在读取来自'$1'的拉取请求.
+wndLog.tbt"Refresh information from Bitbucket."=刷新 Bitbucket 信息.
 wndProject.mni"Log Selection"=选择日志
 wndProject.mniRemoteFetchAll=获取所有
 wnd(Log|Project|Std).mni"Merge '$1'"=合并 '$1'
