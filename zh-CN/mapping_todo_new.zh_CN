@@ -69,54 +69,12 @@ dlgSgConflictResolverExternalStarted.hdl=是否标记为已解决?
 dlgSgConflictResolverExternalStarted.tle=外部冲突解决工具
 dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=提交/标签信息
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- 把主开发线合并或变基提交到当前 feature 分支。
-dlgSgFlowSupportStart.btn"Start"=开始
-dlgSgFlowSupportStart.chk"Fetch from '$1' branch"=从 '$1' 分支获取
-dlgSgFlowSupportStart.edt"Support Name"=支持名称
+ Merge or rebase commits from the base branch to the current feature.
 dlgSgFlowSupportStart.hdl=Start a new support
 dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
-dlgSgFlowSupportStart.lbl"Resulting Branch: $1"=正在生成分支: $1
 dlgSgFlowSupportStart.tle=Start Support
-dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=删除贮藏
-dlgSgGarbageCollectorDeleteAllStashes.fur=立即失效 reflog 并删除所有的贮藏.
-dlgSgGarbageCollectorDeleteAllStashes.hdl=确定要删除所有贮藏吗?
-dlgSgGarbageCollectorDeleteAllStashes.tle=运行垃圾回收
-dlgSgGitLabGenerateToken.edt"Code"=代码
-dlgSgHistorySplitConfirm.btn"Split"=拆分
-dlgSgHistorySplitConfirm.chk=不再显示
-dlgSgHistorySplitConfirm.fur=这会将提交的变更添加到索引中. 取消应进行第二次提交的变更, 然后提交阶段性的变更. 在第二（或第三）次提交中提交其余变更.\n\n完成后, 通过继续重新变基来处理剩余的提交.
-dlgSgHistorySplitConfirm.hdl=是否要将所选提交拆分为多个提交?
-dlgSgHistorySplitConfirm.tle=拆分提交
-dlgSgJournalDoubleClick.btn"Check Out '$1'"=检出 '$1'
-dlgSgJournalDoubleClick.btn"Open Log"=打开日志
-dlgSgJournalDoubleClick.fur%1=选择以检出 '$1' 或打开所选提交的日志.
-dlgSgJournalDoubleClick.hdl%1=确定要检出 '$1' 吗?
-dlgSgJournalDoubleClick.tle=日志视图
-dlgSgLocalCommandRepositoryEmpty.fur=无法在空仓库上执行请求的操作.
-dlgSgLocalCommandRepositoryEmpty.hdl=该仓库为空.
-dlgSgLocalCommandRepositoryEmpty.tle=保存贮藏
-dlgSgMerge.btn"Squash-Merge"=压缩合并
-dlgSgMerge.mni"Copy ID"=复制 ID
-dlgSgMerge.mni"Copy Message"=复制信息
-dlgSgMergeConfirmNoCommit.fur=所选修订将合并到工作树.\n\n请注意, 不推荐直接合并到 GitFlow-master 分支. 相反, 你应该先进行 hotfix.
-dlgSgMergeConfirmNoCommit.hdl=是否要执行合并?
-dlgSgMergeConfirmNoCommit.tle=合并
-dlgSgMergeHowToMerge.hdl"How to merge from tag '$1'?"=\
- 如何从标签 '$1' 合并?
-dlgSgMergeNoop.fur=虽然 Git 在技术上允许将提交的历史记录合并到其自身中, 但这是禁止的操作，因为不会给出新的提交或任何其他有意义的更改.
-dlgSgMergeNoop.hdl=没有内容需要合并.
-dlgSgMergeNoop.tle=合并
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
-dlgSgOpenRepositorySvnWorkingCopy.hdl=无法打开 SVN 工作副本, 请使用 SmartGit 重新克隆.
-dlgSgOpenRepositorySvnWorkingCopy.tle=添加或创建新的仓库
-dlgSgOutput.lbl"Command Abort failed!"=终止命令失败!
-dlgSgOutput.lbl"Command Check Out Branch failed!"=检出分支命令失败!
-dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=摘取命令产生了警告.
-dlgSgOutput.lbl"Command Commit failed!"=提交失败!
-dlgSgOutput.lbl"Command Discard failed!"=丢弃失败!
-dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=拉取 \(变基\) 失败!
-dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=拉取 \(变基\) 命令产生了警告.
-dlgSgOutput.lbl"Command Reset failed!"=重置失败!
+dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"Not all refs have been pushed."=\
  有些引用未被推送.
@@ -160,15 +118,7 @@ dlgSgProcessKiller.btn"Kill Process"=终止进程
 dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
  如果进程卡住了, 可以终止进程或等待.
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
-dlgSgRebaseConfirmUnreachable.hdl%1=该提交 $1 将会被引用变为不可访问.
-dlgSgRebaseConfirmUnreachable.tle=变基
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
-dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=交互式变基不支持变更初始提交.
-dlgSgRebaseInteractiveInitialCommitNotSupported.tle=交互式变基
-dlgSgRecursiveUnstage.chk"Don't show again"=不再显示
-dlgSgRemotesNoRemoteDetected.fur%1=To perform the operation the repository configuration for $1 must contain one uniquely determined remote.
-dlgSgRemotesNoRemoteDetected.hdl=未检测到远程.
-dlgSgRemotesNoRemoteDetected.tle=推送到
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
@@ -201,19 +151,9 @@ dlgSgStashOnDemandProceedWithoutStashing.hdl=是否继续并排除贮藏?
 dlgSgStashOnDemandProceedWithoutStashing.tle=重置
 dlgSgSubmoduleAdd.edt"URL"=URL
 dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
-dlgSgSubmoduleAdd.mni"Add Hosting Provider"=添加托管提供商
-dlgSgSubmoduleSync.btn"Synchronize"=同步
-dlgSgSubmoduleSync.chk"Pull submodule repositories"=拉取子模块
-dlgSgSubmoduleSync.hdl=同步所有子模块
-dlgSgSubmoduleSync.inf=子模块条目将在 .git/config 文件夹中更新. 您可以稍后自定义URL或立即拉取.
-dlgSgSubmoduleSync.tle=同步子模块
+dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
 dlgSgSubtreeAdd.chk"Create local branch \(for advanced operations\)"=\
  Create local branch \(for advanced operations\)
-dlgSgSubtreeAdd.chk"Squash subtree into single commit"=将子树压缩为单个提交
-dlgSgSubtreeAdd.edt"Local Directory"=本地目录
-dlgSgSubtreeAdd.edt"Local Path"=本地路径
-dlgSgSubtreeAdd.edt"Remote"=远程
-dlgSgSubtreeAdd.edt"Repository URL"=仓库 URL
 dlgSgSubtreeAdd.inf"Provide the path where the subtree should be added relative to the outer repository root directory."=\
  Provide the path where the subtree should be added relative to the outer repository root directory.
 dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
@@ -221,10 +161,6 @@ dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
 dlgSgSubtreeAdd.lbl"Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."=\
  Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations.
 dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
-dlgSgSubtreeAdd.rbt"Local repository"=本地仓库
-dlgSgSubtreeAdd.rbt"Remote repository"=远程仓库
-dlgSgSubtreeAdd.tle=添加子树
-dlgSgTagAdd.chk"GPG-sign tag"=GPG-sign 标签
 dlgSgToolAdd.err"Please enter a confirmation message."=Please enter a confirmation message.
 dlgSgToolAdd.err"Please enter the name for this command."=\
  Please enter the name for this command.
@@ -232,12 +168,6 @@ dlgSgToolAdd.err"Select the command which should be invoked."=\
  Select the command which should be invoked.
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
  The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
-dlgSgTool(Add|Edit).rbt"Commits"=提交
-dlgTxtEditor.fileModified.btn"Keep Content"=保留内容
-dlgTxtEditor.fileModified.btn"Reload"=重新加载
-dlgTxtEditor.fileModified.fur=重新加载将显示最新的文件状态.
-dlgTxtEditor.fileModified.hdl=该文件配置已变更. 是否重新加载?
-dlgTxtEditor.fileModified.tle=编辑器
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
  Please enter a file pattern \(e.g. \*.txt, \*.java\).
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
@@ -295,8 +225,6 @@ ntmUpdateCheckFetchVersionStart"After the new version has been downloaded succes
  After the new version has been downloaded successfully, you will be notified again.
 ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
  SmartGit needs to be restarted now for the changes to take effect.
-ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
- 你的 SmartGit 安装程序需要更新了.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
@@ -307,35 +235,18 @@ nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=在Twitter上关注SmartGit!
 nttFollowUsOnTwitter"Follow on Twitter"=关注 Twitter
 nttGeneral"Don't show again"=不再提醒
 nttGeneral"Remind me later"=以后再说
-nttHighMemoryUsage"Contact Support"=联系 Support
+nttHighMemoryUsage"Contact Support"=联系支持
 nttHighMemoryUsage"High memory usage"=高内存使用率
 nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
-nttHostingProviderIntegrationNotYetConfigured"Configure Now"=立即配置
-nttMarkRepositoriesAsFavorite"Mark repositories as 'favorite' for automatic background refresh."=\
- 标记为收藏的仓库后后台自动刷新.
-nttPreferencesChangesRestartRequired"Exit SmartGit"=退出 SmartGit
-nttPreferencesChangesRestartRequired"Restart Required"=需要重启
-nttPreferencesChangesRestartRequired"Restart SmartGit"=重启 SmartGit
-nttProblematicGcConfiguration"Disable Background GC"=禁用后台垃圾回收
-nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git 垃圾回收配置可能存在问题
-nttSupportExpired"Purchase Update"=购买升级
+nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Your support period has expired on $1."=\
- 您的官方支持将于 $1 过期.
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=开始下载 $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=重启 SmartGit
-nttUpdateCheckFetchVersionSuccess"Show Changelog"=显示更新日志
-nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1 \($2\)."=已成功下载 $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=升级 SmartGit
+ Your support period has expired on $1.
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
- 您喜欢 SmartGit 哪些功能?
-pop"No more change."=没有更多变更.
-pop"Please review the files to commit."=\
- 请审阅要提交的文件.
-pop"Select the branch for which to stop tracking."=\
- 选择需要停止跟踪的分支.
-pop"Select the stash to drop."=选择要丢弃的贮藏.
+ What do you like in SmartGit?
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
- <b>注意!</b>\n\n此功能取决于服务器是否支持.\n克隆完成后, 请前往输出面板查看信息.
+ <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
  Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
 ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
@@ -427,7 +338,7 @@ wndDeepgit.lblOriginHeader"No file to compare"=没有文件要对比
 wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
  可能来自于旧内容的 <b>附近的代码块</b>
 wndDeepgit.lblOriginHeader"Possibly moved from <b>similar lines</b> from old contents"=\
- 可能来自于旧内容的 <b>相似行</b>
+ Possibly moved from <b>similar lines</b> from old contents
 wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since old contents"=\
  可能来自于旧内容的 <b>就地更改</b>
 wndDeepgit.lblTextHeader"File"=文件
@@ -493,4 +404,3 @@ wnd(Log|Project|Std).mni"Sort Merge Parents before First Parents"=\
  Sort Merge Parents before First Parents
 wnd(Log|Project|Std).mniSortCommitsFirstParentsBeforeMergeParents=Sort First Parents before Merge Parents
 wnd(Log|Project|Std).mniSortCommitsMergeParentsBeforeFirstParents=Sort Merge Parents before First Parents
-wnd(Log|Project|Std).mniWorktreeRemove=远程工作树

@@ -172,7 +172,7 @@ dlgScConflictSolver(Add|Edit).edt"File Pattern"=文件模式
 dlgScConflictSolver(Add|Edit).inf=定义文件模式 \(例如：\*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
 dlgScConflictSolver(Add|Edit).lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
  有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
-dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\}."=\
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
  必须使用 \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\} 变量.
 dlgScConflictSolver(Add|Edit).mni"Base File"=基准文件
 dlgScConflictSolver(Add|Edit).mni"Encoding"=编码
@@ -1411,8 +1411,8 @@ dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=摘取命令产生了警
 dlgSgOutput.lbl"Command Commit failed!"=提交失败!
 dlgSgOutput.lbl"Command Discard failed!"=丢弃失败!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=拉取 \(变基\) 失败!
-dlgSgOutput.lbl"Command Reset failed!"=重置失败!
 dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=拉取 \(变基\) 命令产生了警告.
+dlgSgOutput.lbl"Command Reset failed!"=重置失败!
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  如果有问题，请咨询您的仓库管理员。
@@ -2735,7 +2735,7 @@ wndAnnotate.rbt"Time"=时间
 wndAnnotate.tab"Document"=文档
 wndAnnotate.tab"History of current line"=当前行的历史记录
 wndCompare.mniRefresh=重新加载
-wndCompare.mniView-layout-left-beside-right=左边右边
+wndCompare.mniView-layout-left-beside-right=左侧右侧
 wndCompare.mniView-layout-left-over-right=左上方
 wndCompare.tbtEdit-take-left=采用左侧代码块到右侧文件. 取决于左侧代码块, 这将在右侧文件中插入、替换或删除.
 wndCompare.tbtEdit-take-right=采用右侧代码块到左侧文件. 取决于右侧代码块, 这将在左侧文件中插入、替换或删除.
