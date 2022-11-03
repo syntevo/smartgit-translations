@@ -1,27 +1,122 @@
-dlgDgSetPerspectiveCantSwitch.fur=In order to inspect available Origins, they have to be evaluated first. Select a line in the Blame view. Then wait until the calculation of possible Origins has finished.
-dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
-dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
-dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
+dlgDgRefMapperGroupConfig.hdl=配置此仓库的标记分组模式
+dlgDgRefMapperGroupConfig.inf=标签, 分支以及与此配置匹配的其他引用将显示在导航图中.
+dlgDgRefMapperGroupConfig.tle=配置标记分组
+dlgDgSetPerspectiveCantSwitch.fur=为审查可能的起源, 必须先对它们进行评估. 先在提交视图中选择1行. 然后等待完成查找可能的起源.
+dlgDgSetPerspectiveCantSwitch.hdl=无法切换视角.
+dlgDgSetPerspectiveCantSwitch.tle=原始视角
+dlgQBugReportSend.lbl"Sorry for the trouble!"=我们对此感到抱歉!
+dlgScConflictSolverInconsistentLineEndings.fur=合并文件内容包含混合不一致的行尾序列. 如果这些行尾序列有意混合, 保存此文件时请确保不要覆盖它们.
+dlgScConflictSolverInconsistentLineEndings.hdl=该文件包含混合的 \(不一致的\) 行尾序列.
+dlgScConflictSolverInconsistentLineEndings.tle%1=\[$1\] - 冲突解决工具
+dlgScConflictSolver(Add|Edit).lbl"You must use the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ 你只能使用这些变量: \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\}.
+dlgScConflictSolver(Add|Edit).mni"Base File"=基准文件
+dlgScConflictSolver(Add|Edit).mni"Encoding"=编码
+dlgScConflictSolver(Add|Edit).mni"Left File"=左侧文件
+dlgScConflictSolver(Add|Edit).mni"Left Title"=左侧文件标题
+dlgScConflictSolver(Add|Edit).mni"Merged File"=已合并文件
+dlgScConflictSolver(Add|Edit).mni"Merged Title"=已合并文件标题
+dlgScConflictSolver(Add|Edit).mni"Right File"=右侧文件
+dlgScConflictSolver(Add|Edit).mni"Right Title"=右侧文件标题
+dlgScDialogAssertionHandler.edt"Details on frequency of the problem \(or steps to reproduce\)"=\
+ 问题详细描述 \(或复现步骤\)
+dlgScDialogAssertionHandler.lbl"SmartGit has crashed due to insufficient system memory"=\
+ SmartGit 由于系统内存不足而崩溃
+dlgScExternalFileStarterCommandInvocationFailed.hdl%2=无法运行 "$1": $2
+dlgScExternalFileStarterCommandInvocationFailed.tle%1=\[$1\] - 冲突解决工具
+dlgScFileCompareSaveAll.btn"Discard Changes"=丢弃变更
+dlgScFileCompareSaveAll.btn"Save"=保存
+dlgScFileCompareSaveAll.chk"Left file"=左侧文件
+dlgScFileCompareSaveAll.chk"Right file"=右侧文件
+dlgScFileCompareSaveAll.hdl=保存文件变更
+dlgScFileCompareSaveAll.inf=确定要保存的文件内容
+dlgScFileCompareSaveAll.tle=保存变更
+dlgScNotificationUpdateCheckHandlerUpdateFailure.fur=无法启动进程.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.hdl=更新程序启动失败.
+dlgScNotificationUpdateCheckHandlerUpdateFailure.tle=SmartGit 安装更新
+dlgScTextFinderFindFromEnd.btn"Find from End"=从后向前查找
+dlgScTextFinderFindFromEnd.fur=从文档开头未找到结果
+dlgScTextFinderFindFromEnd.hdl=是否从文档末尾继续?
+dlgScTextFinderFindFromEnd.tle=查找文件
+dlgScUpdateInstallationUpdateManuallyFailure.fur=进程无法启动
+dlgScUpdateInstallationUpdateManuallyFailure.hdl=更新程序启动失败
+dlgScUpdateInstallationUpdateManuallyFailure.tle=SmartGit 安装更新
+dlgScUpdateInstallationUpdateManuallyInfo.fur%1=请手动删除 '$1' 并重试.
+dlgScUpdateInstallationUpdateManuallyInfo.hdl=清除更新程序目录失败
+dlgScUpdateInstallationUpdateManuallyInfo.tle=SmartGit 安装更新
+dlgSgApplicationUpgradeError.fur=进程无法启动
+dlgSgApplicationUpgradeError.hdl=更新程序启动失败
+dlgSgApplicationUpgradeError.tle=升级
+dlgSgCheckout.btn"Branches"=分支
+dlgSgCheckout.hdl=检出提交
+dlgSgCheckout.inf=选择要检出的提交. 允许将工作树切换到任何提交.
+dlgSgCheckout.tle=检出
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
+ 检出并快进本地分支 'dev'
+dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
+ 注意: 拉取和推送不会加载其他引用, 你可能需要使用获取更多来加载其他引用.
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=例如 https://user@server:port/path/to/repository
+dlgSgCommitCantAmend.fur=无法修订已推送的提交. 如果你了解风险并想要启用, 请在设置中选择 '允许修改推送的提交'.
+dlgSgCommitCantAmend.hdl=无法修改提交.
+dlgSgCommitCantAmend.tle=提交
+dlgSgCommitDirectlyTo.btn"Commit Anyway"=强行提交
+dlgSgCommitDirectlyTo.fur=你配置了 Git-Flow, 不应该直接提交到 Git-Flow master 分支, 只能通过 Git-Flow 命令和合并操作.\n\n如有疑问, 请联系仓库管理员.
+dlgSgCommitDirectlyTo.hdl=确定要直接提交到 'master'?
+dlgSgCommitDirectlyTo.tle=提交
+dlgSgConflictResolverExternalStarted.btn"Mark Resolved"=标记为已解决
+dlgSgConflictResolverExternalStarted.fur=外部冲突解决工具已启动. 解决完冲突, 就可以将文件标记为已解决了.
+dlgSgConflictResolverExternalStarted.hdl=是否标记为已解决?
+dlgSgConflictResolverExternalStarted.tle=外部冲突解决工具
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=提交/标签信息
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the base branch to the current feature."=\
- Merge or rebase commits from the base branch to the current feature.
+ 把基础分支合并或变基提交到当前 feature 分支。
 dlgSgFlowSupportStart.hdl=Start a new support
 dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
 dlgSgFlowSupportStart.tle=Start Support
 dlgSgOpenRepositorySvnWorkingCopy.fur%1=You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \(i.e. a working copy based on Git instead of SVN\).
-dlgSgOpenRepositorySvnWorkingCopy.tle=Add or Create Repository
+dlgSgOpenRepositorySvnWorkingCopy.tle=添加或创建仓库
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"Not all refs have been pushed."=\
- Not all refs have been pushed.
+ 有些引用未被推送.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
- Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
-dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
-dlgSgPreferences.edt"Name"=Name
+ 您对以下文件的本地更改将被签出覆盖:\n无法分离 HEAD
+dlgSgPreferences.edt"Double-Clicking Local File"=双击本地文件
+dlgSgPreferences.edt"File Double-Click"=双击文件
+dlgSgPreferences.edt"Name"=名称
+dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
+ 可以在“关于”对话框中手动更新应用程序
+dlgSgPreferences.lbl"This file will be sent as is: $1"=\
+ 将发送文件: $1
 dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
- easy to set up and use, supports public key and password authentication
+ 轻松设置和使用, 支持公钥和密码身份验证
 dlgSgPreferences.lbl"may be harder to configure and use for new users, but is more flexible"=\
- may be harder to configure and use for new users, but is more flexible
+ 对新手来说稍微复杂, 但更灵活
+dlgSgPreferences.mni"Accelerator"=快捷键
+dlgSgPreferences.mni"Account"=账户
+dlgSgPreferences.mni"Applies To"=适用于
+dlgSgPreferences.mni"Arguments"=参数
+dlgSgPreferences.mni"Command + Arguments"=命令和参数
+dlgSgPreferences.mni"Command"=命令
+dlgSgPreferences.mni"Copy Selection in Column"=按列复制
+dlgSgPreferences.mni"Default"=默认
+dlgSgPreferences.mni"Details"=详情
+dlgSgPreferences.mni"Dictionary File"=字典文件
+dlgSgPreferences.mni"File Pattern"=文件模式
+dlgSgPreferences.mni"Language"=语言
+dlgSgPreferences.mni"Name"=名称
+dlgSgPreferences.mni"Patterns"=模式
+dlgSgPreferences.mni"Repository"=仓库
+dlgSgPreferences.mni"Shortcut"=快捷键
+dlgSgPreferences.rbt"Show changes or open"=显示变更或打开
+dlgSgPreferences.rbt"Shows changes or opens the file"=\
+ 显示变更或打开文件
+dlgSgPreferences.rbt"Stage or unstage"=暂存或取消暂存
+dlgSgPreferences.rbt"Stages or unstages changes"=暂存或取消暂存变更
+dlgSgProcessKiller.btn"Kill Process"=终止进程
+dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
+ 如果进程卡住了, 可以终止进程或等待.
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
@@ -40,7 +135,20 @@ dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree o
  Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted.
 dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
  The Index will show all changes between the previous HEAD and the selected commit.
-dlgSgSplitOffFilesEmptyCommit.fur=By splitting off all files, the resulting commit would become empty.
+dlgSgSplitOffFilesEmptyCommit.fur=通过拆分所有文件，结果提交将变为空
+dlgSgSplitOffFilesEmptyCommit.hdl=不能从1个提交中拆分所有文件
+dlgSgSplitOffFilesEmptyCommit.tle=提交
+dlgSgStartupExpired.btn"&Continue \($1\)"=&继续 \($1\)
+dlgSgStartupExpired.btn"Continue \($1\)"=继续 \($1\)
+dlgSgStartupExpired.btn"Download New Version"=下载新版本
+dlgSgStartupExpired.btn"Exit"=退出
+dlgSgStartupExpired.fur=请下载安装新版本
+dlgSgStartupExpired.hdl=该 beta 版本已过期.
+dlgSgStartupExpired.tle=Beta 版本已过期
+dlgSgStashOnDemandProceedWithoutStashing.btn"Proceed"=继续
+dlgSgStashOnDemandProceedWithoutStashing.fur=由于技术原因，无法自动贮藏变更. 变更将会被丢弃!
+dlgSgStashOnDemandProceedWithoutStashing.hdl=是否继续并排除贮藏?
+dlgSgStashOnDemandProceedWithoutStashing.tle=重置
 dlgSgSubmoduleAdd.edt"URL"=URL
 dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgSubmoduleSync.inf=Submodule entries will be updated in .git/config. You may customize the URLs afterwards or pull immediately.
@@ -68,6 +176,16 @@ dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparato
  Specify the necessary arguments for the command, especially the required variable.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variables."=\
  Specify the necessary arguments for the command, especially the required variables.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variable \$\{file\}."=\
+ 只能接受 \$\{file\} 作为变量.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ 只能接受 \$\{leftFile\} 和 \$\{rightFile\} 作为变量.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"The Arguments require the variables \$\{leftFile\}, \$\{rightFile\} and \$\{mergedFile\}."=\
+ 只能接受 \$\{leftFile\}, \$\{rightFile\} 和 \$\{mergedFile\} 作为变量.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variable \$\{file\}."=\
+ 你只能使用 \$\{file\} 作为变量.
+dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).lbl"You must use the variables \$\{leftFile\} and \$\{rightFile\}."=\
+ 你只能使用 \$\{leftFile\} 和 \$\{rightFile\} 作为变量.
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
@@ -92,9 +210,9 @@ ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
 ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
  SmartGit provides special support for $1. The integration can be configured in the Preferences.
 ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
- Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background.
+ 标记为收藏的仓库会后台自动刷新
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
- To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'.
+ 要想将仓库添加到 '收藏夹', 请在 '仓库' 视图中右击仓库并选择 '标记为收藏'.
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
  Some preferences options have been changed which will only be applied after restarting SmartGit.
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
@@ -112,18 +230,21 @@ ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git 
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
  share the pros and cons at <link1>slant.co</link1>
 ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativeto.net</link1>
-nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
-nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
-nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
-nttHighMemoryUsage"Contact Support"=Contact Support
+nttCredentialHelper"External Credentials Helper detected"=检测到外部凭据帮助程序
+nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=在Twitter上关注SmartGit!
+nttFollowUsOnTwitter"Follow on Twitter"=关注 Twitter
+nttGeneral"Don't show again"=不再提醒
+nttGeneral"Remind me later"=以后再说
+nttHighMemoryUsage"Contact Support"=联系支持
+nttHighMemoryUsage"High memory usage"=高内存使用率
 nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
-nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=Restart SmartGit
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=开始下载版本 $1 \($2\).
+nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=重启 SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
- What do you like in SmartGit?
+ 您喜欢 SmartGit 哪些功能?
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
  <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
@@ -131,8 +252,32 @@ ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversin
 ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
  In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
 wndAnnotate.edt"By"=By
-wndCompare.tbtEdit-take-left=Take the left block to the right. Depending on the left block, this will insert, replace or delete at the right.
-wndCompare.tbtEdit-take-right=Take the right block to the left. Depending on the right block, this will insert, replace or delete at the left.
+wndAnnotate.mni"Copy Details"=复制详情
+wndAnnotate.mni"Copy ID"=复制 ID
+wndAnnotate.mni"Copy Selection"=复制选定内容
+wndAnnotate.mni"Open Log"=打开日志
+wndAnnotate.mni"Show Changes"=显示变更
+wndCompare.tbtEdit-take-left=采用左侧代码块到右侧文件. 取决于左侧代码块, 这将在右侧文件中插入、替换或删除.
+wndCompare.tbtEdit-take-right=采用右侧代码块到左侧文件. 取决于右侧代码块, 这将在左侧文件中插入、替换或删除.
+wndCompare.tbtFile-save=保存文件变更
+wndCompare.tbtGoto-previous-diff=上一处差异
+wndCompare.tbtRefresh=从文件系统中重新加载文件内容进行对比
+wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
+ 将行内差异应用于工作树
+wndConflictSolver.mni"Apply Line to Working Tree"=应用行到工作树
+wndConflictSolver.mni"Apply Selection to Working Tree"=应用选定内容到工作树
+wndConflictSolver.tbr"Base + Right"=基准 + 右侧
+wndConflictSolver.tbr"Base Below"=基准以下
+wndConflictSolver.tbr"Left + Base"=左侧 + 基准
+wndConflictSolver.tbtEdit-take-left=采用左侧代码块. 取决于左侧代码块, 这将在合并结果中插入、替换或删除.
+wndConflictSolver.tbtEdit-take-left-right=先采用左侧代码块, 再采用右侧文件块
+wndConflictSolver.tbtEdit-take-right=采用右侧代码块. 取决于右侧代码块, 这将在合并结果中插入、替换或删除.
+wndConflictSolver.tbtEdit-take-right-left=先采用右侧文件块, 再采用左侧文件块
+wndConflictSolver.tbtGoto-previous-conflict=上一处冲突.
+wndConflictSolver.tbtGoto-previous-diff=上一处变更.
+wndConflictSolver.tbtView-layout-all=显示左侧, 合并和右侧文件.
+wndConflictSolver.tbtView-layout-left-merge=显示左侧和合并文件.
+wndConflictSolver.tbtView-layout-right-merge=显示合并和右侧文件.
 wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
  The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view.
 wndDeepgit.ihp"This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective."=\
@@ -144,7 +289,7 @@ wndDeepgit.ihp"This view displays all files which have changed as part of the se
 wndDeepgit.ihp"This view shows how the selected line from the \*Blame\* view has changed in the past."=\
  This view shows how the selected line from the \*Blame\* view has changed in the past.
 wndDeepgit.ihp"This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view."=\
- This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
+ 此视图显示所审查的文件, 并可以导航到的所有以前的文件. 对于所选提交, 当前视图的可以显示更多详细信息: \n# in the \*Blame\* perspective the file's content will be displayed in the \*Blame\* view, \n# in the \*Diff\* perspective the file's modifications will be displayed, \n# in the \*Log\* perspective a summary of all modified files will be displayed in the \*Files\* view.
 wndDeepgit.ihp"This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."=\
  This view shows the blame for the selected file\\/commit from the \*Navigation\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \*Origin Candidates\* view \(only available in the \*Blame+Origins\* perspective\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines.
 wndDeepgit.ihp"This view shows the diff for the selected file from the above \*Files\* view."=\
@@ -153,43 +298,106 @@ wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
-wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=single origin, high likelihood
+wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=提交 \(处理中...\)
+wndDeepgit.lblBlameHeader"Blame for"=提交
+wndDeepgit.lblBlameMatchPopup"Appeared here"=出现在此处
+wndDeepgit.lblBlameMatchPopup"Changed in-place"=就地更改
+wndDeepgit.lblBlameMatchPopup"Lines first appeared at this position"=\
+ 这里可能是最初添加的地方
+wndDeepgit.lblBlameMatchPopup"Lines have possibly been changed in-place"=\
+ 这里可能被修改过
+wndDeepgit.lblBlameMatchPopup"Lines have possibly been moved over from somewhere else"=\
+ 这里可能是从其他地方移动过来的
+wndDeepgit.lblBlameMatchPopup"Moved"=已移动
+wndDeepgit.lblBlameMatchPopup"other possible origins"=可能是其他来源
+wndDeepgit.lblBlameMatchPopup"single origin, high likelihood"=很可能是单一来源
+wndDeepgit.lblCompareHeader"New contents"=新内容
+wndDeepgit.lblCompareHeader"Old contents"=旧内容
+wndDeepgit.lblOriginCandidate"Appeared here"=出现在此处:
+wndDeepgit.lblOriginCandidate"Changed in-place"=就地更改
 wndDeepgit.lblOriginCandidate"Line has been introduced in this commit"=\
  Line has been introduced in this commit
-wndDeepgit.lblOriginCandidate"Lines have been added"=Lines have been added
+wndDeepgit.lblOriginCandidate"Lines have been added"=被添加
 wndDeepgit.lblOriginCandidate"Lines have been introduced in this commit"=\
- Lines have been introduced in this commit
+ 此提交中被引入
+wndDeepgit.lblOriginCandidate"Lines have been modified"=此处有修改
+wndDeepgit.lblOriginCandidate"Moved"=已移动
 wndDeepgit.lblOriginCandidate"Origins from '$1' omitted: file is binary"=\
- Origins from '$1' omitted: file is binary
+ 来自 '$1' 的起源被省略: 二进制文件
 wndDeepgit.lblOriginCandidate"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
- Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
-wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=as 'git diff' sees it
-wndDeepgit.lblOriginCandidate"for the first time"=for the first time
-wndDeepgit.lblOriginCandidate"from $1 previous line"=from $1 previous line
-wndDeepgit.lblOriginCandidate"from $1 previous lines"=from $1 previous lines
+ 仅对单行进行相似性检测, 某些结果可能会被省略 \(视图\|单行/代码块\)
+wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=使用 'git diff' 查看
+wndDeepgit.lblOriginCandidate"for the first time"=首次
+wndDeepgit.lblOriginCandidate"from $1 previous line"=来自于 $1 上一行
+wndDeepgit.lblOriginCandidate"from $1 previous lines"=来自于 $1 前几行
 wndDeepgit.lblOriginCandidate"of"=of
-wndDeepgit.lblOriginCandidate"over from somewhere else"=over from somewhere else
-wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=similarity for $1 origin line
-wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=similarity for $1 origin lines
-wndDeepgit.lblOriginHeader"No file to compare"=No file to compare
+wndDeepgit.lblOriginCandidate"over from somewhere else"=来自于其他地方
+wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=与 $1 起源行相似
+wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=与 $1 起源行相似
+wndDeepgit.lblOriginHeader"No file to compare"=没有文件要对比
 wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
- Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents
+ 可能来自于旧内容的 <b>附近的代码块</b>
 wndDeepgit.lblOriginHeader"Possibly moved from <b>similar lines</b> from old contents"=\
- Possibly moved from <b>similar lines</b> from old contents
+ 可能来自于旧内容的 <b>相似行</b>
 wndDeepgit.lblOriginHeader"Possibly originates from <b>in-place change</b> since old contents"=\
- Possibly originates from <b>in-place change</b> since old contents
+ 可能来自于旧内容的 <b>就地更改</b>
+wndDeepgit.lblTextHeader"File"=文件
+wndDeepgit.lblTextHeader"Msg"=信息
+wndDeepgit.lblTextHeader"at"=提交于
+wndDeepgit.lblTextHeader"by"=
 wndDeepgit.lblTextHeader"on"=on
+wndDeepgit.mni"Copy Details"=复制详情
+wndDeepgit.mni"Copy ID"=复制 ID
+wndDeepgit.mni"Copy Selection in Column"=按列复制
+wndDeepgit.mni"Copy Selection"=复制所选
+wndDeepgit.mni"Copy"=复制
+wndDeepgit.mni"File"=文件
+wndDeepgit.mni"Modifications"=修改
+wndDeepgit.mniShowAtRefs=在引用处显示
+wndDeepgit.tab"Files \(in progress\)"=文件 \(处理中\)
+wndDeepgit.tab"Files changed in commit $1"=在 $1 提交中变更的文件
+wndDeepgit.tab"Navigation \(initializing...\)"=导航 \(初始化...\)
+wndDeepgit.tab"Navigation"=导航
 wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \($1 hunks processed...\)
 wndDeepgit.tab"Origin Candidates \(in progress\)"=Origin Candidates \(in progress\)
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
  Origin Candidates for line $1 of commit $2
-wndDeepgit.tab"Origin Candidates"=Origin Candidates
+wndDeepgit.tab"Origin Candidates"=起源
+wndDeepgit.tbt"Go to next change."=下一处变更.
+wndDeepgit.tbt"Go to previous change."=上一处变更.
+wndDeepgit.tbtBack=上一个提交...
+wndDeepgit.tbtForward=下一个提交...
+wndGit.indexEditor.tbtEdit-take-right=采用右侧代码块到合并结果. 取决于右侧代码块, 这将在合并结果中插入、替换或删除.
+wndGit.indexEditor.tbtFile-save=保存文件变更
+wndLog.mni"Cherry-Pick $1 to '$2'"=将 $1 摘取至 '$2'
+wndLog.mni"Committer Abbreviated"=修订者缩写
+wndLog.mni"Committer Avatar"=修订者头像
+wndLog.mni"Committer with Full Name and Email"=\
+ 修订者完整姓名和邮件
+wndLog.mni"Committer with Full Name"=修订者完整姓名
+wndLog.mni"Copy Branch"=复制分支
+wndLog.mni"Copy Email Address"=复制邮件地址
+wndLog.mni"Modification"=修改
+wndLog.mni"Select Branch"=选择分支
+wndLog.mni"Select Commit"=选择提交
+wndLog.mni"Send Mail"=发送邮件
+wndLog.mni"Unstage Hunk"=取消大量暂存暂存
+wndLog.mni"Unstage Innerline Change"=取消暂存行内变更
+wndLog.mni"Unstage Line"=取消暂存行
+wndLog.mni"Unstage Selection"=取消暂存所选
+wndLog.mniRemoteFetchAll=获取所有
+wndLog.mniRepositoryFavorite"Mark as Favorite"=标记为收藏
+wndLog.mniRepositoryFavorite"Unmark as Favorite"=取消标记收藏
+wndLog.tab"Changes \(EOL: Windows\)"=变更 \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
- Reading incoming pull requests from '$1'.
-wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
-wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
+ 正在读取来自'$1'的拉取请求.
+wndLog.tbt"Refresh information from Bitbucket."=刷新 Bitbucket 信息.
+wndProject.mni"Log Selection"=选择日志
+wndProject.mniRemoteFetchAll=获取所有
+wnd(Log|Project|Std).mni"Merge '$1'"=合并 '$1'
+wnd(Log|Project|Std).mni"Rebase HEAD to '$1'"=将 HEAD 变基至 '$1'
 wnd(Log|Project|Std).mni"Sort First Parents before Merge Parents"=\
  Sort First Parents before Merge Parents
 wnd(Log|Project|Std).mni"Sort Merge Parents before First Parents"=\
