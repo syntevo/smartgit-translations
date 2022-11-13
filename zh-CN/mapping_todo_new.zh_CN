@@ -113,10 +113,10 @@ wndLog.tbt"If selected and Index as well as Working Tree changes are available, 
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
 wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
-wnd(Log|Project|Std).mni"Merge '$1'"=Merge '$1'
-wnd(Log|Project|Std).mni"Sort First Parents before Merge Parents"=\
+wnd(Log|Project|Std|).mni"Merge '$1'"=Merge '$1'
+wnd(Log|Project|Std|).mni"Sort First Parents before Merge Parents"=\
  Sort First Parents before Merge Parents
-wnd(Log|Project|Std).mni"Sort Merge Parents before First Parents"=\
+wnd(Log|Project|Std|).mni"Sort Merge Parents before First Parents"=\
  Sort Merge Parents before First Parents
-wnd(Log|Project|Std).mniSortCommitsFirstParentsBeforeMergeParents=Sort First Parents before Merge Parents
-wnd(Log|Project|Std).mniSortCommitsMergeParentsBeforeFirstParents=Sort Merge Parents before First Parents
+wnd(Log|Project|Std|).mniSortCommitsFirstParentsBeforeMergeParents=Sort First Parents before Merge Parents
+wnd(Log|Project|Std|).mniSortCommitsMergeParentsBeforeFirstParents=Sort Merge Parents before First Parents
