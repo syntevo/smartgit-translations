@@ -2776,6 +2776,7 @@ wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
+wndDeepgit.lblBlameHeader"Blame \(in progress\u2026\)"=Blame \(in progress\u2026\)
 wndDeepgit.lblBlameHeader"Blame for"=Blame for
 wndDeepgit.lblBlameMatchPopup"Appeared here"=Appeared here
 wndDeepgit.lblBlameMatchPopup"Changed in-place"=Changed in-place
@@ -2880,6 +2881,7 @@ wndDeepgit.mnu"Help"=Help
 wndDeepgit.mnu"View"=View
 wndDeepgit.tab"Files \(in progress\)"=Files \(in progress\)
 wndDeepgit.tab"Files changed in commit $1"=Files changed in commit $1
+wndDeepgit.tab"Files"=Files
 wndDeepgit.tab"Navigation \(initializing...\)"=Navigation \(initializing...\)
 wndDeepgit.tab"Navigation"=Navigation
 wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=Origin Candidates \($1 hunks processed...\)
@@ -2935,6 +2937,9 @@ wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=Go to next change.
 wndGit.indexEditor.tbtGoto-previous-diff=Go to previous change.
 wndLog.col"LFS"=LFS
+wndLog.hnt"Filter"=Filter
+wndLog.lbl"$1 files hidden"=$1 files hidden
+wndLog.lblStatusBarMessage"Please wait \u2026"=Please wait \u2026
 wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
 wndLog.mni"Committer Abbreviated"=Committer Abbreviated
 wndLog.mni"Committer Avatar"=Committer Avatar
@@ -2951,12 +2956,13 @@ wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
-wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
+wndLog.tab"Graph \(Loading\u2026\)"=Graph \(Loading\u2026\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
 wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
+wndProject.lbl"$1 files hidden"=$1 files hidden
 wndProject.mni"Log Selection"=Log Selection
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen=Full Screen
@@ -3012,6 +3018,11 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"File"=File
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Go To"=Go To
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"View"=View
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).tbr"Save"=Save
+wnd(Log|Project).tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
+wnd(Log|Project).tab"Changes of $1 - Index vs. Working Tree \(EOL: Unix\)"=\
+ Changes of $1 - Index vs. Working Tree \(EOL: Unix\)
+wnd(Log|Project).tab"Changes of $1 \(Added\)"=Changes of $1 \(Added\)
+wnd(Log|Project).tab"Changes of $1 \(Modified\)"=Changes of $1 \(Modified\)
 wnd(Log|Project|Std|)."Abort"=Abort
 wnd(Log|Project|Std|)."Commit"=Commit
 wnd(Log|Project|Std|)."Conflict Solver"=Conflict Solver
