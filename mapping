@@ -3081,7 +3081,6 @@ wnd(Log|Project|Std|).lbl"Directories"=Directories
 wnd(Log|Project|Std|).lbl"Directory"=Directory
 wnd(Log|Project|Std|).lbl"File"=File
 wnd(Log|Project|Std|).lbl"Files"=Files
-wnd(Log|Project|Std|).lblStatusBarMessage"$1"=$1
 wnd(Log|Project|Std|).mni"  Show Rewritten Behind Commits"=\
  Show Rewritten Behind Commits
 wnd(Log|Project|Std|).mni"<no entry>"=<no entry>
