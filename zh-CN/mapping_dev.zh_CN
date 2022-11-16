@@ -3106,7 +3106,6 @@ wnd(Log|Project|Std|).lbl"Directories"=个目录
 wnd(Log|Project|Std|).lbl"Directory"=个目录
 wnd(Log|Project|Std|).lbl"File"=个文件
 wnd(Log|Project|Std|).lbl"Files"=个文件
-wnd(Log|Project|Std|).lblStatusBarMessage"$1"=$1
 wnd(Log|Project|Std|).mni"  Show Rewritten Behind Commits"=\
  在提交后显示重写
 wnd(Log|Project|Std|).mni"<no entry>"=< 禁止输入 >

@@ -3081,7 +3081,6 @@ wnd(Log|Project|Std|).lbl"Directories"=ディレクトリ
 wnd(Log|Project|Std|).lbl"Directory"=ディレクトリ
 wnd(Log|Project|Std|).lbl"File"=ファイル
 wnd(Log|Project|Std|).lbl"Files"=ファイル
-wnd(Log|Project|Std|).lblStatusBarMessage"$1"==$1
 wnd(Log|Project|Std|).mni"  Show Rewritten Behind Commits"=\
  コミット後に書き換えられたものを表示
 wnd(Log|Project|Std|).mni"<no entry>"==<no entry>
