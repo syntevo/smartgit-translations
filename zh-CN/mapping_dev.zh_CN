@@ -38,13 +38,13 @@ dlgCommit.replaceMessage.tle=替换消息
 dlgDgAbout.edt"Build Date"=编译日期
 dlgDgAbout.edt"Email"=电子邮箱
 dlgDgAbout.edt"Java Version"=Java 版本
-dlgDgAbout.edt"Maximum Heap"=最大堆
+dlgDgAbout.edt"Maximum Heap"=最大内存
 dlgDgAbout.edt"Name"=用户名
 dlgDgAbout.edt"Settings Path"=设置路径
 dlgDgAbout.edt"Version"=版本
 dlgDgAbout.tab"Credits"=基本信息
 dlgDgAbout.tab"Information"=软件信息
-dlgDgAbout.tab"Licensee"=被许可人
+dlgDgAbout.tab"Licensee"=授权信息
 dlgDgAbout.tle=关于 DeepGit
 dlgDgRefMapperGroupConfig.hdl=配置此仓库的标记分组模式
 dlgDgRefMapperGroupConfig.inf=标签, 分支以及与此配置匹配的其他引用将显示在导航图中.
@@ -81,12 +81,12 @@ dlgQBugReportSend.edt"Reply To"=回复
 dlgQBugReportSend.lbl"Sorry for the trouble!"=我们对此感到抱歉!
 dlgQBugReportSend.tle=内部错误
 dlgQDockManagerClosedView.chk=不再显示
-dlgQDockManagerClosedView.fur=要再次重新打开它，请使用窗口菜单中的相应菜单项。
+dlgQDockManagerClosedView.fur=要再次重新打开，请使用窗口菜单中的相应菜单项。
 dlgQDockManagerClosedView.hdl%1=您已经关闭了视图 $1。
 dlgQDockManagerClosedView.tle=关闭视图
 dlgQFileSaveAcceptFilterOverwrite.btn"Overwrite"=覆盖
 dlgQFileSaveAcceptFilterOverwrite.fur=要保存到其他文件，请单击 “取消”。
-dlgQFileSaveAcceptFilterOverwrite.hdl%1=文件 $1 已存在。你确定覆盖它吗？
+dlgQFileSaveAcceptFilterOverwrite.hdl%1=文件 $1 已存在。你确定覆盖吗？
 dlgQFileSaveAcceptFilterOverwrite.tle=覆盖文件
 dlgQFrameManagerExit.btn"Discard Changes && Exit"=放弃变更并退出
 dlgQFrameManagerExit.fur=存在未保存的变更，这些变更将在退出时丢失!
@@ -145,14 +145,14 @@ dlgRewriteTextFiles.edt"Line-Endings"=行尾序列
 dlgRewriteTextFiles.hdl=用选定的行尾序列重写文本文件
 dlgRewriteTextFiles.inf=选择应用于写入文本文件的行尾序列。
 dlgRewriteTextFiles.tle=修复行尾序列
-dlgScAboutUpdateInstallation.btn"Upgrade Installation"=升级安装
+dlgScAboutUpdateInstallation.btn"Upgrade Installation"=安装升级
 dlgScAboutUpdateInstallation.fur=这将需要些时间，必须重新启动 SmartGit。
 dlgScAboutUpdateInstallation.hdl%1=是否要将安装目录升级到版本 $1？
 dlgScAboutUpdateInstallation.tle=升级安装
 dlgScApplicationStarterRestart.btn"Exit"=退出
 dlgScApplicationStarterRestart.btn"Remind Later"=稍后提醒
 dlgScApplicationStarterRestart.btn"Restart"=重新启动
-dlgScApplicationStarterRestart.fur=下载的程序更新现在应该应用。
+dlgScApplicationStarterRestart.fur=下载的程序在重启后生效。
 dlgScApplicationStarterRestart.hdl=SmartGit 需要重新启动。
 dlgScApplicationStarterRestart.tle=重新启动
 dlgScConflictSolverAdd.hdl=添加冲突解决方案
@@ -489,7 +489,7 @@ dlgSgAbout.edt"Build Date"=编译日期
 dlgSgAbout.edt"Email"=电子邮箱
 dlgSgAbout.edt"Free Updates Until"=免费更新有效期
 dlgSgAbout.edt"Java Version"=Java 版本
-dlgSgAbout.edt"Maximum Heap"=最大堆
+dlgSgAbout.edt"Maximum Heap"=最大内存
 dlgSgAbout.edt"Name"=用户名
 dlgSgAbout.edt"Settings Path"=设置路径
 dlgSgAbout.edt"Support Until"=技术支持有效期
@@ -497,7 +497,7 @@ dlgSgAbout.edt"User Count"=用户数量
 dlgSgAbout.edt"Version"=版本
 dlgSgAbout.tab"Credits"=基本信息
 dlgSgAbout.tab"Information"=软件信息
-dlgSgAbout.tab"Licensee"=被许可人
+dlgSgAbout.tab"Licensee"=授权信息
 dlgSgAbout.tle=关于 SmartGit
 dlgSgApplicationUpgradeError.fur=进程无法启动.
 dlgSgApplicationUpgradeError.hdl=更新程序启动失败.
@@ -523,7 +523,7 @@ dlgSgBitbucketGenerateToken.edt"Link"=链接
 dlgSgBitbucketGenerateToken.hdl=输入生成的代码
 dlgSgBitbucketGenerateToken.inf=在 Bitbucket 进行身份验证并输入生成的令牌
 dlgSgBitbucketGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Bitbucket and grant access to SmartGit. If this didn't happen, manually open following link:"=\
- 您的浏览器应该已自动打开，让您使用 Bitbucket 上的首选账户进行身份验证并授予对 SmartGit 的访问权限。如果没有发生这种情况，请手动打开以下链接：
+ 您的浏览器应该已自动打开，请使用 Bitbucket 上的首选账户进行身份验证并授予对 SmartGit 的访问权限。如果没有发生这种情况，请手动打开以下链接：
 dlgSgBitbucketGenerateToken.tle=请求访问令牌
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=创建分支并检出
 dlgSgBranchAddCheckout.btn"Add Branch"=创建分支
@@ -545,7 +545,7 @@ dlgSgBranchAddCheckout.inf=输入要创建的本地分支的名称。
 dlgSgBranchAddCheckout.tle=创建分支
 dlgSgBranchAddCheckoutOverwriteExisting.btn"Overwrite"=覆盖
 dlgSgBranchAddCheckoutOverwriteExisting.fur=单击 “取消” 以选择其他分支名称。
-dlgSgBranchAddCheckoutOverwriteExisting.hdl%1=分支 “$1” 已经存在。你想覆盖它吗？
+dlgSgBranchAddCheckoutOverwriteExisting.hdl%1=分支 “$1” 已经存在。你想覆盖吗？
 dlgSgBranchAddCheckoutOverwriteExisting.tle=创建分支
 dlgSgBranchDeleteCurrentNotPossible.fur=默认情况下，SmartGit 不允许删除当前分支。 要跳过此限制，请设置低级属性 “branch.delete.allowToDeleteCurrentBranch”。
 dlgSgBranchDeleteCurrentNotPossible.hdl=您无法删除当前分支。
@@ -629,7 +629,7 @@ dlgSgCheckoutTarget.wrn"Local branch is ahead of remote branch. The checkout wil
  本地分支位于远程分支之前。检出将在最近的提交时结束。
 dlgSgCheckoutTargetAlreadyExistsOverwrite.btn"Overwrite"=覆盖
 dlgSgCheckoutTargetAlreadyExistsOverwrite.fur=单击 “取消” 以选择其他分支名称。
-dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=分支 “$1” 已经存在。您想覆盖它吗？
+dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1=分支 “$1” 已经存在。您想覆盖吗？
 dlgSgCheckoutTargetAlreadyExistsOverwrite.tle=检出
 dlgSgCherryPickConfigurationFile.btn"Cherry-Pick"=摘取
 dlgSgCherryPickConfigurationFile.fur=只有这些文件的变更才会被摘取 \(不提交\)。
@@ -828,7 +828,7 @@ dlgSgCustomizeProjectUi.btn"Remove"=移除
 dlgSgCustomizeProjectUi.btn"Reset"=重置
 dlgSgCustomizeProjectUi.chk"Show text below icon"=在图标下方显示文字
 dlgSgCustomizeProjectUi.col"Accelerator"=快捷键
-dlgSgCustomizeProjectUi.col"Available"=可选的
+dlgSgCustomizeProjectUi.col"Available"=可选
 dlgSgCustomizeProjectUi.col"Default"=默认
 dlgSgCustomizeProjectUi.col"Menu Item"=菜单项
 dlgSgCustomizeProjectUi.col"Selected"=已选择
@@ -904,7 +904,7 @@ dlgSgFlowConfigure.edt"Develop Branch"=Develop 分支
 dlgSgFlowConfigure.edt"Feature Branches"=Feature 分支
 dlgSgFlowConfigure.edt"Git-Flow Type"=Git 工作流类型
 dlgSgFlowConfigure.edt"Hot-Fix Branches"=Hot-Fix 分支
-dlgSgFlowConfigure.edt"Main Development Branch"=主 Development 分支
+dlgSgFlowConfigure.edt"Main Development Branch"=主开发分支
 dlgSgFlowConfigure.edt"Master Branch"=Master 分支
 dlgSgFlowConfigure.edt"Prefix for Feature Branches"=Feature 分支的前缀
 dlgSgFlowConfigure.edt"Release Branches"=Release 分支
@@ -915,7 +915,7 @@ dlgSgFlowConfigure.hdl=配置分支命名方案
 dlgSgFlowConfigure.inf=配置应如何命名 feature、release 和 hotfix 分支。
 dlgSgFlowConfigure.rbt"Full \(feature, release, hotfix, support branches\)"=\
  所有 \(feature, release, hotfix, support 分支\)
-dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=轻量 \(只是 feature 分支\)
+dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=轻量 \(只有 feature 分支\)
 dlgSgFlowConfigure.tle=配置 Git 工作流
 dlgSgFlowConfigureChangeOrSwitchOff.btn"Change Configuration"=更改配置
 dlgSgFlowConfigureChangeOrSwitchOff.btn"Switch-Off Git-Flow"=关闭 Git 工作流
@@ -961,7 +961,7 @@ dlgSgFlowHotfixFinish.chk"Merge to develop"=合并到开发
 dlgSgFlowHotfixFinish.chk"Push results and remove remote hotfix branch"=\
  推送结果并删除远程 hotfix 分支
 dlgSgFlowHotfixFinish.edt"Commit Message"=提交消息
-dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=提交/标签信息
 dlgSgFlowHotfixFinish.hdl=完成 hotfix
 dlgSgFlowHotfixFinish.inf"Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."=\
  选择如何完成当前的修补程序。 此操作将修补程序合并到 “$1” 和 “$2” 分支中。
@@ -1022,16 +1022,16 @@ dlgSgFlowSupportStart.edt"Support Name"=支持名称
 dlgSgFlowSupportStart.hdl=Start a new support
 dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
 dlgSgFlowSupportStart.lbl"Resulting Branch: $1"=正在生成分支: $1
-dlgSgFlowSupportStart.tle=Start Support
-dlgSgGarbageCollector.btn"Run Garbage Collector"=运行垃圾回收器
+dlgSgFlowSupportStart.tle=开始支持服务
+dlgSgGarbageCollector.btn"Run Garbage Collector"=运行垃圾回收
 dlgSgGarbageCollector.chk"Also prune recently created objects"=同时删除最近创建的对象
 dlgSgGarbageCollector.chk"Expire reflog now \(will also delete stashes!\)"=\
  立即过期操作记录 \(也会删除贮藏\)
 dlgSgGarbageCollector.chk"Optimize repository more aggressively \(may take a while\)"=\
- 更积极地优化仓库 \(可能需要一段时间\)
-dlgSgGarbageCollector.hdl=运行垃圾回收器
+ 更积极地优化仓库 \(可能需要点时间\)
+dlgSgGarbageCollector.hdl=运行垃圾回收
 dlgSgGarbageCollector.inf=运行 Git 垃圾回收器将删除不可访问的对象并优化本地仓库，以减少磁盘空间并提高性能。
-dlgSgGarbageCollector.tle=运行垃圾回收器
+dlgSgGarbageCollector.tle=运行垃圾回收
 dlgSgGarbageCollectorDeleteAllStashes.btn"Delete Stashes"=删除贮藏
 dlgSgGarbageCollectorDeleteAllStashes.fur=立即失效 reflog 并删除所有的贮藏.
 dlgSgGarbageCollectorDeleteAllStashes.hdl=确定要删除所有贮藏吗?
@@ -1246,7 +1246,7 @@ dlgSgIgnoreChanged.hdl=您确定要删除已变更的文档？
 dlgSgIgnoreChanged.tle=忽略
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=忽略
 dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=忽略文件
-dlgSgIgnoreDirectoryConfirm.fur=目录名称将添加到忽略文件中。如果忽略文件不存在，则将创建它。
+dlgSgIgnoreDirectoryConfirm.fur=目录名称将添加到忽略文件中。如果忽略文件不存在，则将自动创建。
 dlgSgIgnoreDirectoryConfirm.hdl%1=你想忽略目录 “$1” 吗？
 dlgSgIgnoreDirectoryConfirm.tle=忽略
 dlgSgIgnoreEdit.btn"Edit"=修改
@@ -1297,14 +1297,14 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=还原工作区�
 dlgSgLocalCommandRepositoryEmpty.fur=无法在空仓库上执行请求的操作.
 dlgSgLocalCommandRepositoryEmpty.hdl=该仓库为空.
 dlgSgLocalCommandRepositoryEmpty.tle=保存贮藏
-dlgSgLogCheckoutFileAs.btn"Save After"=保存之后
-dlgSgLogCheckoutFileAs.btn"Save Before"=保存之前
+dlgSgLogCheckoutFileAs.btn"Save After"=保存提交之后的结果
+dlgSgLogCheckoutFileAs.btn"Save Before"=保存提交之前的结果
 dlgSgLogCheckoutFileAs.edt"Target File"=目标文件
 dlgSgLogCheckoutFileAs.hdl=保存仓库文件
 dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
  选择要保存到的本地文件。
 dlgSgLogCheckoutFileAs.inf"Select whether to save the file state Before or After the selected commit."=\
- 选择是在所选提交之前还是之后保存文件状态。
+ 选择保存在所选提交之前还是之后的文件状态。
 dlgSgLogCheckoutFileAs.tle=文件另存为
 dlgSgLogCommentDeleteConfirm.hdl%1=您真的想删除 “$1” 注释吗？
 dlgSgLogComment(|s)DeleteConfirm.btn"Delete Comment"=删除注释
@@ -1848,7 +1848,7 @@ dlgSgPushTrackingConfigureSingle.tle=推送
 dlgSgRebase.btn"Branches"=分支
 dlgSgRebase.btn"Rebase HEAD to"=将 HEAD 变基至
 dlgSgRebase.hdl=将 HEAD 变基至
-dlgSgRebase.inf=选择应变基 HEAD 提交的提交。
+dlgSgRebase.inf=选择应变基 HEAD 的提交。
 dlgSgRebase.tle=变基
 dlgSgRebaseConfirmUnreachable.btn"Rebase"=变基
 dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
@@ -1903,7 +1903,7 @@ dlgSgRebaseInteractive.mni"Neighboring Commits"=相邻提交
 dlgSgRebaseInteractive.mni"To Bottom Commit"=转到底部提交
 dlgSgRebaseInteractive.mni"To Top Commit"=转到顶部提交
 dlgSgRebaseInteractive.tle=交互式变基
-dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
+dlgSgRebaseInteractiveInitialCommitNotSupported.fur=你需要选择当前分支历史中想要被修改的第1个提交. 在此提交与 HEAD 中间的提交必须是1个父系.
 dlgSgRebaseInteractiveInitialCommitNotSupported.hdl=交互式变基不支持变更初始提交.
 dlgSgRebaseInteractiveInitialCommitNotSupported.tle=交互式变基
 dlgSgRebaseInteractiveMessage.edt"Commit Message"=提交消息
@@ -1948,7 +1948,7 @@ dlgSgRemoteFetchMore.hdl=获取远程分支
 dlgSgRemoteFetchMore.inf=选择要从远程仓库获取的分支。
 dlgSgRemoteFetchMore.tle=获取更多
 dlgSgRemoteFetchMoreNoMoreBranches.fur=远程仓库中存在的所有分支也都已在本地存在。
-dlgSgRemoteFetchMoreNoMoreBranches.hdl=没有更多的远程分支来获取。
+dlgSgRemoteFetchMoreNoMoreBranches.hdl=没有更多的远程分支。
 dlgSgRemoteFetchMoreNoMoreBranches.tle=获取更多
 dlgSgRemoteProperties.chk"Perform background Poll or Fetch"=执行后台轮询或获取
 dlgSgRemoteProperties.edt"URL or Path"=URL 或路径
@@ -2264,7 +2264,7 @@ dlgSgSetup.edt"User Name"=用户名
 dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
  决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。
 dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."=\
- 如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中更改它。
+ 如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中进行更改。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  请查看以下隐私选项。您可以稍后在偏好设置中更改它们。
 dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
@@ -2465,7 +2465,7 @@ dlgSgTagAdd.inf=输入要创建的标签名称。如果输入消息，则会创�
 dlgSgTagAdd.tle=创建标签
 dlgSgTagAddOverwrite.btn"Overwrite"=覆盖
 dlgSgTagAddOverwrite.fur=单击 “取消” 以选择其他标签名称。
-dlgSgTagAddOverwrite.hdl%1=标签 '$1' 已经存在。 你想覆盖它吗？
+dlgSgTagAddOverwrite.hdl%1=标签 '$1' 已经存在。 你想覆盖吗？
 dlgSgTagAddOverwrite.tle=创建标签
 dlgSgTagDeleteConfirmSingle.btn"Delete"=删除
 dlgSgTagDeleteConfirmSingle.chk%1=从远程 “$1” 删除
@@ -2475,7 +2475,7 @@ dlgSgTagDeleteConfirmSingle.tle=删除
 dlgSgToolAdd.edt"Keyboard Shortcut"=键盘快捷键
 dlgSgToolAdd.err"Please enter a confirmation message."=请输入确认信息.
 dlgSgToolAdd.err"Please enter the name for this command."=\
- 请输入姓名.
+ 请输入名称.
 dlgSgToolAdd.err"Select the command which should be invoked."=\
  选择要调用的命令.
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
@@ -2600,46 +2600,46 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=删除
 edt"Search For"=搜索
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
- In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
+ 万一您遇到奇怪的错误或意外的对话框弹出, 可以尝试禁用此配置改由 SmartGit 处理身份验证.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
- In general this should be fine and is the recommended configuration when working with multiple Git clients.
+ 通常来说这是使用多个Git客户端时的推荐配置.
 ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is configured in config file $1."=\
- SmartGit has detected that <b>credential.helper</b> is configured in config file $1.
+ SmartGit 检测到 <b>credential.helper</b> 被配置到了 $1 文件中.
 ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
- To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>
+ 要想禁用此配置项, 请打开以上配置文件, 定位到 <b>\[credential\]</b>-选项并使用<b>#</b>注释掉 <b>helper\=</b>
 ntmFollowUsOnTwitter"It's a great way to help shaping future versions of SmartGit!"=\
- It's a great way to help shaping future versions of SmartGit!
-ntmFollowUsOnTwitter"We are using Twitter to:"=We are using Twitter to:
-ntmFollowUsOnTwitter"announce new versions, including previews"=announce new versions, including previews
-ntmFollowUsOnTwitter"inform about new features"=inform about new features
+ 帮助我们塑造更好的未来版本!
+ntmFollowUsOnTwitter"We are using Twitter to:"=我们在 Twitter 上:
+ntmFollowUsOnTwitter"announce new versions, including previews"=发布新版本, 以及预览版
+ntmFollowUsOnTwitter"inform about new features"=告知新功能
 ntmFollowUsOnTwitter"poll for opinions on how to implement new or change existing features"=\
- poll for opinions on how to implement new or change existing features
+ 关于如何实施新功能或更改现有功能的意见调查
 ntmHighMemoryUsage"If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance."=\
- If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) for better performance.
+ 如果您正在使用大型仓库, 这可能是正常的. 在这种情况下, 编辑 $1, 增加 -Xmx 选项, 例如 -Xmx1024m 可以获得更好的性能.
 ntmHighMemoryUsage"If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it."=\
- If you think that the configured memory limit is already quite high or you are not working with huge repositories, this may indicate a problem. Please let us know about it.
+ 如果您认为配置的内存限制过高或者您没有使用大型仓库, 这可能存在某些问题. 请联系我们.
 ntmHighMemoryUsage"SmartGit is close to the configured memory limit."=\
- SmartGit is close to the configured memory limit.
+ SmartGit 已接近配置的内存限制.
 ntmHostingProviderIntegrationNotYetConfigured"SmartGit provides special support for $1. The integration can be configured in the Preferences."=\
- SmartGit provides special support for $1. The integration can be configured in the Preferences.
+ SmartGit 为 $1 提供特殊支持服务. 可在首选项中配置集成.
 ntmMarkRepositoriesAsFavorite"Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."=\
  标记为收藏的仓库会后台自动刷新
 ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on it in the 'Repositories' view and select 'Mark as Favorite'."=\
  要想将仓库添加到 '收藏夹', 请在 '仓库' 视图中右击仓库并选择 '标记为收藏'.
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
- Some preferences options have been changed which will only be applied after restarting SmartGit.
+ 某些首选项设置已发生变更, 将会在重启 SmartGit 后生效.
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
- Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
+ .gitconfig 文件中的 Git 垃圾回收 \(默认\) 被配置为后台运行 \(gc.autoDetach\). 此配置适用于命令行客户端, 但在GUI客户端(如 SmartGit)配合使用可能会导致问题.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
- To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
+ 想要使用支持服务, 请购买升级授权许可并更新到最新版本.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
- You may continue to use SmartGit, just your support period expired.
+ 您可以继续使用 SmartGit, 只是支持服务已过期.
 ntmUpdateCheckFetchVersionStart"After the new version has been downloaded successfully, you will be notified again."=\
  After the new version has been downloaded successfully, you will be notified again.
 ntmUpdateCheckFetchVersionSuccess"SmartGit needs to be restarted now for the changes to take effect."=\
- SmartGit needs to be restarted now for the changes to take effect.
+ SmartGit 需要重新启动以使更新生效.
 ntmUpdateCheckFetchVersionSuccess"Your SmartGit installation needs to be upgraded now."=\
- 你的 SmartGit 安装程序需要更新了.
+ 您的 SmartGit 安装程序需要立即更新.
 ntmVoteForUs"Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!"=\
  Let us and other users know why you prefer SmartGit over other Git clients or what parts of SmartGit still need work!
 ntmVoteForUs"share the pros and cons at <link1>slant.co</link1>"=\
@@ -2663,10 +2663,10 @@ nttProblematicGcConfiguration"Disable Background GC"=禁用后台垃圾回收
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git 垃圾回收配置可能存在问题
 nttSupportExpired"Purchase Update"=购买更新
 nttSupportExpired"Your support period has expired on $1."=\
- Your support period has expired on $1.
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+ 您的支持服务将于 $1 过期.
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=正在下载版本 $1 \($2\).
 nttUpdateCheckFetchVersionSuccess"Restart SmartGit"=重启 SmartGit
-nttUpdateCheckFetchVersionSuccess"Show Changelog"=显示更新日志
+nttUpdateCheckFetchVersionSuccess"Show Changelog"=更新日志
 nttUpdateCheckFetchVersionSuccess"Successfully downloaded version $1."=成功下载版本 $1.
 nttUpdateCheckFetchVersionSuccess"Upgrade SmartGit"=升级 SmartGit
 nttVoteForUs"What do you like in SmartGit?"=\
@@ -2692,9 +2692,9 @@ pop"There is no action available for this drop operation."=\
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  取消暂存第一次提交和提交的不需要的变更。
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
- <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
+ <b>警告!</b>\n\n此功能取决于服务器的功能.\n克隆完成后, 前往输出面板查看可能出现的警告信息.
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
- Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
+ 引用将会按组分类: 遍历存储库根日志时, 引用将首先分配给匹配的组. 每个组将只存储最近的引用, 例如如果出现了新的引用, 将会被当前组中的引用替换.\n\n然后, 组中剩余的引用将从子提交传递到父提交. 他们将再次被分配到匹配的组, 可能取代其他引用，或可能被更新的引用取代.\n\n模式将与完整的引用名称匹配, 包括 <tt>引用</tt>-前缀. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
 ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
  In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
 wndAnnotate.edt"By"=By
@@ -2720,7 +2720,7 @@ wndAnnotate.mniLog=打开日志
 wndAnnotate.mniSearch-find=查找
 wndAnnotate.mniSearch-next=向下查找
 wndAnnotate.mniSearch-previous=向上查找
-wndAnnotate.mniSet-syntax=语法语言
+wndAnnotate.mniSet-syntax=语言模式
 wndAnnotate.mniShowChanges=显示修改
 wndAnnotate.mniUndo-goto=撤消转到
 wndAnnotate.mniView-settings=设置
@@ -2781,7 +2781,7 @@ wndDeepgit.btn"Go Deeper"=深入
 wndDeepgit.col"File"=文件
 wndDeepgit.col"Modifications"=修改
 wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
- The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view.
+ \*起源视图\*: 这里会高亮显示已选的起源. 通过点击 \*Blame \(go deeper\)\* DeepGit 会移动起源 /聚焦/ 已显示的文件\\/提交, 并选择 \*导航视图\* 相应的提交.
 wndDeepgit.ihp"This view displays all /origin candidates/ for the selected line from the \*Blame\* view: If the selected line has not been modified\\/added in the \*Blame\* view commit itself, the \*Appeared here\* origin takes you to this commit. Otherwise, the \*Changed in-place\* entry shows the actual change. \*Moved\* entries denote possible moves. The selected origin candidate will be highlighted in the \*Blame\* view as well as the \*Origin\* view. To inspect changes of the origin candidate in greater detail, switch to the \*Origins\* perspective."=\
  此视图是显示来自\*提交\视图中所选行的*/起源/: 如果所选行在\*提交\*视图提交中被修改, \*出现在此处\*会引导你到此次提交. 否则, 会显示\*就地更改\*的入口. \*已移动\*表示可能的移动. 被选中的起源会在\*提交\*视图和\*起源\*视图中高亮显示. 要想更详细地审查起源的更改, 可以切换到\*起源\*视角.
 wndDeepgit.ihp"This view displays all changes for the selected commit from the \*Navigation\* view. The selected file will be compared in the below view."=\
@@ -2832,10 +2832,10 @@ wndDeepgit.lblOriginCandidate"as 'git diff' sees it"=使用 'git diff' 查看
 wndDeepgit.lblOriginCandidate"for the first time"=首次
 wndDeepgit.lblOriginCandidate"from $1 previous line"=来自于 $1 上一行
 wndDeepgit.lblOriginCandidate"from $1 previous lines"=来自于 $1 前几行
-wndDeepgit.lblOriginCandidate"of"=of
+wndDeepgit.lblOriginCandidate"of"=:
 wndDeepgit.lblOriginCandidate"over from somewhere else"=来自于其他地方
-wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=与 $1 起源行相似
-wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=与 $1 起源行相似
+wndDeepgit.lblOriginCandidate"similarity for $1 origin line"=与 $1 个起源行相似
+wndDeepgit.lblOriginCandidate"similarity for $1 origin lines"=与 $1 个起源行相似
 wndDeepgit.lblOriginHeader"No file to compare"=没有文件要对比
 wndDeepgit.lblOriginHeader"Possibly modified \(or added\) as part of <b>surrounding block</b> in old contents"=\
  可能来自于旧内容的 <b>附近的代码块</b>
@@ -2910,7 +2910,7 @@ wndDeepgit.tab"Navigation"=导航
 wndDeepgit.tab"Origin Candidates \($1 hunks processed...\)"=起源 \($1 个已处理...\)
 wndDeepgit.tab"Origin Candidates \(in progress\)"=起源 \(处理中\)
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
- Origin Candidates for line $1 of commit $2
+ 提交ID $2 第 $1 行起源
 wndDeepgit.tab"Origin Candidates"=起源
 wndDeepgit.tbr"Back"=后退
 wndDeepgit.tbr"Blame"=追溯
@@ -3031,7 +3031,7 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSearch-find=查找
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSearch-next=向下查找
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSearch-previous=向上查找
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSearch-replace=查找并替换
-wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSet-syntax=语法语言
+wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSet-syntax=语言模式
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Edit"=编辑
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"File"=文件
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Go To"=转到
@@ -3203,7 +3203,7 @@ wnd(Log|Project|Std|).mni"Move and Squash Commit"=移动和压缩提交
 wnd(Log|Project|Std|).mni"Name"=名称
 wnd(Log|Project|Std|).mni"Neither"=两者都不是
 wnd(Log|Project|Std|).mni"New Group"=创建分组
-wnd(Log|Project|Std|).mni"No Group"=没有分组
+wnd(Log|Project|Std|).mni"No Group"=不分组
 wnd(Log|Project|Std|).mni"Only If Changed"=仅当变更时
 wnd(Log|Project|Std|).mni"Only Selected"=仅选中
 wnd(Log|Project|Std|).mni"Open in Browser"=在浏览器中打开
@@ -3482,7 +3482,7 @@ wnd(Log|Project|Std|).mniSearch-previous=查找上一处
 wnd(Log|Project|Std|).mniSelectCommittableFiles=选择可提交文件
 wnd(Log|Project|Std|).mniSelectDirectory=选择目录
 wnd(Log|Project|Std|).mniSelectRoot=选择仓库根目录
-wnd(Log|Project|Std|).mniSet-syntax=语法语言
+wnd(Log|Project|Std|).mniSet-syntax=语言模式
 wnd(Log|Project|Std|).mniSetDepth=设置深度
 wnd(Log|Project|Std|).mniShow-line-numbers=显示行号
 wnd(Log|Project|Std|).mniShowChanges=显示变更
@@ -3577,11 +3577,11 @@ wnd(Log|Project|Std|).mnu"Tools"=工具
 wnd(Log|Project|Std|).mnu"View"=视图
 wnd(Log|Project|Std|).tab"Branches"=分支
 wnd(Log|Project|Std|).tab"Changes of $1 - $2 \($3\)"=\
- $1 的变更 - $2 \($3\)
-wnd(Log|Project|Std|).tab"Changes of $1 - $2"=$1 的变更 - $2
+ $1 - $2 \($3\)
+wnd(Log|Project|Std|).tab"Changes of $1 - $2"=$1 - $2
 wnd(Log|Project|Std|).tab"Changes of $1 \($2\) - $3"=\
- $1 的变更 \($2\) - $3
-wnd(Log|Project|Std|).tab"Changes of $1 \($2\)"=$1 的变更 \($2\)
+ $1 \($2\) - $3
+wnd(Log|Project|Std|).tab"Changes of $1 \($2\)"=$1 \($2\)
 wnd(Log|Project|Std|).tab"Changes"=变更
 wnd(Log|Project|Std|).tab"Comments \($1\)"=备注 \($1\)
 wnd(Log|Project|Std|).tab"Comments"=注释

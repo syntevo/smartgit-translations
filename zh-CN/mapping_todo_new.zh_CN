@@ -1,6 +1,6 @@
-dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
-dlgSgCommitDirectlyTo.btn"Commit Anyway"=Commit Anyway
-dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=Commit/Tag Message
+dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=例如 https://user@server:port/path/to/repository
+dlgSgCommitDirectlyTo.btn"Commit Anyway"=强制提交
+dlgSgFlowHotfixFinish.edt"Commit/Tag Message"=提交/标签信息
 dlgSgFlowSupportStart.hdl=Start a new support
 dlgSgFlowSupportStart.inf%1=Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch.
 dlgSgFlowSupportStart.tle=Start Support
@@ -9,7 +9,7 @@ dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Bran
 dlgSgPreferences.edt"Name"=Name
 dlgSgPreferences.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
-dlgSgRebaseConfirmUnreachable.fur=You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view.
+dlgSgRebaseConfirmUnreachable.fur=你只能使用分支视图中的'可循环提交'选项才能访问该提交.
 dlgSgRebaseInteractiveInitialCommitNotSupported.fur=You need to select the first commit in the current branch's history that should be modified. All commits between this commit and HEAD must have exactly one parent.
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
@@ -28,18 +28,18 @@ dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree o
 dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
  The Index will show all changes between the previous HEAD and the selected commit.
 dlgSgSubmoduleAdd.edt"URL"=URL
-dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=例如 https://user@server:port/path/to/repository
 dlgSgSubtreeAdd.inf"Provide the path where the subtree should be added relative to the outer repository root directory."=\
  Provide the path where the subtree should be added relative to the outer repository root directory.
 dlgSgSubtreeAdd.inf"Specify the repository to clone as subtree."=\
  Specify the repository to clone as subtree.
 dlgSgSubtreeAdd.lbl"Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."=\
  Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations.
-dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
+dlgSgSubtreeAdd.lbl"e.g. https://user@server:port/path/to/repository"=例如 https://user@server:port/path/to/repository
 dlgSgToolAdd.err"The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set."=\
  The options 'Can be used by the Open command' and 'Show output and wait until finished' cannot both be set.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Please enter a file pattern \(e.g. \*.txt, \*.java\)."=\
- Please enter a file pattern \(e.g. \*.txt, \*.java\).
+ 请输入文件模式 \(例如 \*.txt, \*.java\).
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Select the command which should be invoked."=\
  Select the command which should be invoked.
 dlg(ScConflictSolverAdd|ScConflictSolverEdit|ScFileComparatorAdd|ScFileComparatorEdit).err"Specify the necessary arguments for the command, especially the required variable."=\
@@ -89,7 +89,7 @@ ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativ
 nttHostingProviderIntegrationNotYetConfigured"$1-integration is not yet configured."=$1-integration is not yet configured.
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
-nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=Started downloading version $1 \($2\).
+nttUpdateCheckFetchVersionStart"Started downloading version $1 \($2\)."=正在下载版本 $1 \($2\).
 ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
  <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
 ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
@@ -107,13 +107,13 @@ wndDeepgit.lblOriginCandidate"of"=of
 wndDeepgit.lblTextHeader"by"=by
 wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.tab"Origin Candidates for line $1 of commit $2"=\
- Origin Candidates for line $1 of commit $2
+ 这是在$2提交中第$1行的起源
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
- Reading incoming pull requests from '$1'.
-wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
-wnd(Log|Project|Std|).mni"Merge '$1'"=Merge '$1'
+ 正在读取来自'$1'的拉取请求.
+wndLog.tbt"Refresh information from Bitbucket."=刷新 Bitbucket 信息
+wnd(Log|Project|Std|).mni"Merge '$1'"=合并 '$1'
 wnd(Log|Project|Std|).mni"Sort First Parents before Merge Parents"=\
  Sort First Parents before Merge Parents
 wnd(Log|Project|Std|).mni"Sort Merge Parents before First Parents"=\
