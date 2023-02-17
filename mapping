@@ -5,6 +5,29 @@
 *.btn"Next >"=Next >
 *.btn"OK"=OK
 *.hnt"Filter"=Filter
+(dlgSgPreferences|dlgSgRepositorySettings).lbl"Enter regular expressions defining the grouping. Example: `refs\\/tags\\/build\(?<name>.\\\*\)`"=\
+ Enter regular expressions defining the grouping. Example: `refs\\/tags\\/build\(?<name>.\\\*\)`
+(dlgSgPreferences|dlgSgRepositorySettings).lbl"Optionally, enter regular expressions defining additional refs to preserve."=\
+ Optionally, enter regular expressions defining additional refs to preserve.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Example: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=Example: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs."=\
+ Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."=\
+ Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."=\
+ Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'."=\
+ You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group."=\
+ You can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"Example: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=Example: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"For example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation."=\
+ For example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>."=\
+ In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.
+(wndLog|wndProject).btn"Compare"=Compare
+(wndLog|wndProject).lbl"Force Compare"=Force Compare
+(wndLog|wndProject).lblStatusBarMessage"Please wait ..."=Please wait ...
 dlgCommit.replaceMessage.btn"Replace"=Replace
 dlgCommit.replaceMessage.chk=Always replace
 dlgCommit.replaceMessage.fur=After replacing you can find the previous message when clicking the history button.
@@ -33,6 +56,7 @@ dlgDgSetPerspectiveCantSwitch.hdl=Can't switch perspective.
 dlgDgSetPerspectiveCantSwitch.tle=Origins Perspective
 dlgInfo.tle=Discard
 dlgProgress.btn"Stop"=Stop
+dlgProgress.lbl"Please wait ..."=Please wait ...
 dlgProgress.tle"Checking connectivity"=Checking connectivity
 dlgProgress.tle"Checking push conditions"=Checking push conditions
 dlgProgress.tle"JIRA"=JIRA
@@ -54,6 +78,10 @@ dlgQBugReportSend.edt"Comments or Steps to Reproduce"=Comments or Steps to Repro
 dlgQBugReportSend.edt"Email"=Email
 dlgQBugReportSend.edt"Reply To"=Reply To
 dlgQBugReportSend.lbl"Sorry for the trouble!"=Sorry for the trouble!
+dlgQBugReportSend.lbl"The \[file log-file\] will be sent with this bug report. Alternatively, you may send it to \[email smartgit@syntevo.com\]."=\
+ The \[file log-file\] will be sent with this bug report. Alternatively, you may send it to \[email smartgit@syntevo.com\].
+dlgQBugReportSend.lbl"What did you do? We often solve a difficult bug after receiving just one good hint!"=\
+ What did you do? We often solve a difficult bug after receiving just one good hint!
 dlgQBugReportSend.tle=Internal Error
 dlgQDockManagerClosedView.chk=Don't show again
 dlgQDockManagerClosedView.fur=To reopen it again, use the corresponding menu item from the Window menu.
@@ -64,6 +92,7 @@ dlgQFileSaveAcceptFilterOverwrite.fur=To save to a different file, click 'Cancel
 dlgQFileSaveAcceptFilterOverwrite.hdl%1=The file $1 already exists. Do you want to overwrite it?
 dlgQFileSaveAcceptFilterOverwrite.tle=Overwrite File
 dlgQFrameManagerExit.btn"Discard Changes && Exit"=Discard Changes && Exit
+dlgQFrameManagerExit.btn"Force Exit"=Force Exit
 dlgQFrameManagerExit.fur=There are unsaved changes which would be lost when exiting now!
 dlgQFrameManagerExit.hdl=Do you really want to exit SmartGit?
 dlgQFrameManagerExit.tle=Exit
@@ -216,6 +245,10 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=Force Exit
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com.
 dlgScDialogAssertionHandlerLinkageError.tle=Internal Error
+dlgScDialogAssertionHandlerOutOfMemory.btn"Force Exit"=Force Exit
+dlgScDialogAssertionHandlerOutOfMemory.fur%1=It is strongly recommended to restart SmartGit.\n\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) and restart SmartGit.
+dlgScDialogAssertionHandlerOutOfMemory.hdl=SmartGit ran out of memory!
+dlgScDialogAssertionHandlerOutOfMemory.tle=Out Of Memory
 dlgScEvaluationReminderContinue.btn"Continue"=Continue
 dlgScEvaluationReminderContinue.btn"Register"=Register
 dlgScEvaluationReminderContinue.fur%2=To use SmartGit in a commercial environment, you will have to \[$1 purchase a license\].\n\nFor \[$2 certain uses\] we grant free licenses.
@@ -474,6 +507,9 @@ dlgSgAbout.tab"Credits"=Credits
 dlgSgAbout.tab"Information"=Information
 dlgSgAbout.tab"Licensee"=Licensee
 dlgSgAbout.tle=About SmartGit
+dlgSgApplicationAlreadyRunning.fur%1=Instead of running separate instances you can open multiple project windows in SmartGit.\n\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\n$1
+dlgSgApplicationAlreadyRunning.hdl=It seems that SmartGit is already running.
+dlgSgApplicationAlreadyRunning.tle=SmartGit
 dlgSgApplicationUpgradeError.fur=The process could not be started.
 dlgSgApplicationUpgradeError.hdl=Launching updater directly failed.
 dlgSgApplicationUpgradeError.tle=Upgrade
@@ -483,6 +519,15 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=Do you want to remove all known cred
 dlgSgAuthenticationRemoveAllCredentials.tle=Remove All
 dlgSgAuthenticationShowPassword.edt"Password"=Password
 dlgSgAuthenticationShowPassword.tle%1=Password for $1
+dlgSgAzureGenerateToken.edt"Code"=Code
+dlgSgAzureGenerateToken.edt"Link"=Link
+dlgSgAzureGenerateToken.hdl=Enter the generated code
+dlgSgAzureGenerateToken.inf=Authenticate at Azure DevOps and enter the generated token.
+dlgSgAzureGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:"=\
+ Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:
+dlgSgAzureGenerateToken.tle=Request Access Token
+dlgSgAzureRefreshFailed.hdl=Refresh failed.
+dlgSgAzureRefreshFailed.tle=Azure DevOps
 dlgSgBisectResult.btn"Continue Bisect"=Continue Bisect
 dlgSgBisectResult.btn"Leave Bisect"=Leave Bisect
 dlgSgBisectResult.fur%1=$1
@@ -500,6 +545,8 @@ dlgSgBitbucketGenerateToken.inf=Authenticate at Bitbucket and enter the generate
 dlgSgBitbucketGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Bitbucket and grant access to SmartGit. If this didn't happen, manually open following link:"=\
  Your browser should have opened automatically, let you authenticate with your preferred account at Bitbucket and grant access to SmartGit. If this didn't happen, manually open following link:
 dlgSgBitbucketGenerateToken.tle=Request Access Token
+dlgSgBitbucketRefreshFailed.hdl=Refresh failed.
+dlgSgBitbucketRefreshFailed.tle=Bitbucket
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=Add Branch && Checkout
 dlgSgBranchAddCheckout.btn"Add Branch"=Add Branch
 dlgSgBranchAddCheckout.edt"Branch"=Branch
@@ -565,6 +612,8 @@ dlgSgBugReportSettings.hdl=Crash Reporting
 dlgSgBugReportSettings.inf=Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
+dlgSgBugReportSettings.lbl"Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=\
+ Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
 dlgSgBugReportSettings.tle=SmartGit
 dlgSgCheckout.btn"Branches"=Branches
 dlgSgCheckout.btn"Check Out"=Check Out
@@ -596,6 +645,8 @@ dlgSgCheckoutTarget.rbt"Create local branch:"=Create local branch:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  Don't create local branch \(just work read-only\)
 dlgSgCheckoutTarget.tle=Check Out
+dlgSgCheckoutTarget.wrn"Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily."=\
+ Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
 dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
  Local branch '$1' is behind checkout target '$2'.
 dlgSgCheckoutTarget.wrn"Local branch '$1' is diverged from checkout target '$2'."=\
@@ -633,6 +684,10 @@ dlgSgClean.chk"Remove untracked directories"=Remove untracked directories
 dlgSgClean.hdl=Remove untracked files
 dlgSgClean.inf=Select which untracked files should be removed.
 dlgSgClean.tle=Clean Working Tree
+dlgSgCleanDeleteFiles.btn"Delete Files"=Delete Files
+dlgSgCleanDeleteFiles.fur=Git reported following files and directories to be deleted:
+dlgSgCleanDeleteFiles.hdl=Do you want to delete these files?
+dlgSgCleanDeleteFiles.tle=Clean Working Tree
 dlgSgClone.chk"Create upstream remote"=Create upstream remote
 dlgSgClone.chk"Fetch all Heads and Tags"=Fetch all Heads and Tags
 dlgSgClone.chk"Fetch all commits"=Fetch all commits
@@ -666,6 +721,8 @@ dlgSgClone.inf"Specify the local directory for the new repository."=\
 dlgSgClone.inf"Specify the repository to clone."=Specify the repository to clone.
 dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
  Note: Pull or Fetch will not bring other refs, you will need to use Fetch More.
+dlgSgClone.lbl"Please wait ..."=Please wait ...
+dlgSgClone.lbl"Steps"=Steps
 dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgClone.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=Clone all revisions \(recommended\)
@@ -678,6 +735,11 @@ dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
  Remote Git, Mercurial or SVN repository
 dlgSgClone.rbt"Remote repository"=Remote repository
 dlgSgClone.tle=Clone
+dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=<b>Warning!</b>
+dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view for possible warnings."=\
+ Once the clone has finished, check the Output view for possible warnings.
+dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=\
+ This functionality depends on the capabilities of your server.
 dlgSgCloneRepositoryType.btn"Git"=Git
 dlgSgCloneRepositoryType.btn"Mercurial"=Mercurial
 dlgSgCloneRepositoryType.btn"SVN"=SVN
@@ -812,6 +874,11 @@ dlgSgCustomizeProjectUi.mni"Regular Expressions"=Regular Expressions
 dlgSgCustomizeProjectUi.tab"Accelerators"=Accelerators
 dlgSgCustomizeProjectUi.tab"Toolbar"=Toolbar
 dlgSgCustomizeProjectUi.tle=Customize
+dlgSgDeleteDirTrash.btn"Delete"=Delete
+dlgSgDeleteDirTrash.btn"Move to Trash"=Move to Trash
+dlgSgDeleteDirTrash.fur=If you click Delete you may require file recovery tools to restore the deleted files!
+dlgSgDeleteDirTrash.hdl%1=Do you want to delete '$1' recursively?
+dlgSgDeleteDirTrash.tle=Delete
 dlgSgDeleteFileTrash.hdl%1=Do you want to delete '$1'?
 dlgSgDeleteFilesTrash.hdl%1=Do you want to delete the $1 selected files?
 dlgSgDiscard.btn"Discard to Stash"=Discard to Stash
@@ -854,6 +921,8 @@ dlgSgExitConfirmation.chk=Don't show again
 dlgSgExitConfirmation.fur=By closing the last window you will exit SmartGit.
 dlgSgExitConfirmation.hdl=Do you want to exit SmartGit now?
 dlgSgExitConfirmation.tle=Exit
+dlgSgFileCompareInvokerFailedIO.hdl%1='$1' could not be invoked.
+dlgSgFileCompareInvokerFailedIO.tle=Open
 dlgSgFileCompareNoChanges.btn"Open"=Open
 dlgSgFileCompareNoChanges.chk=Don't show again
 dlgSgFileCompareNoChanges.fur=Both file contents are byte-wise equal.\nTo see the file contents anyway, click 'Open'.
@@ -888,6 +957,7 @@ dlgSgFlowConfigure.edt"Support Branches"=Support Branches
 dlgSgFlowConfigure.edt"Version Tags"=Version Tags
 dlgSgFlowConfigure.hdl=Configure the branch naming scheme
 dlgSgFlowConfigure.inf=Configure how your feature, release and hotfix branches should be named.
+dlgSgFlowConfigure.lbl"Prefixes"=Prefixes
 dlgSgFlowConfigure.rbt"Full \(feature, release, hotfix, support branches\)"=\
  Full \(feature, release, hotfix, support branches\)
 dlgSgFlowConfigure.rbt"Light \(just feature branches\)"=Light \(just feature branches\)
@@ -1071,6 +1141,13 @@ dlgSgHeadMessageListenerReplaceMessage.chk=Never replace if a message is already
 dlgSgHeadMessageListenerReplaceMessage.fur=If the commit message input field is empty, the HEAD commit's message will be re-used automatically.
 dlgSgHeadMessageListenerReplaceMessage.hdl=Replace entered commit message with the HEAD commit's message?
 dlgSgHeadMessageListenerReplaceMessage.tle=Commit
+dlgSgHistoryCommitCantBeModified.fur=At least one of the affected commits is not part of your HEAD's first-parent history.
+dlgSgHistoryCommitCantBeModified.hdl=At least one selected commit can't be modified.
+dlgSgHistoryCommitCantBeModified.tle=Modify Commit
+dlgSgHistoryCommitCantBeModified.ttp"In the Preferences, you can configure Low-Level Property 'history.disableOperationsForUnmodifiableCommits' to have inapplicable operations showing up as disabled menu items immediately."=\
+ In the Preferences, you can configure Low-Level Property 'history.disableOperationsForUnmodifiableCommits' to have inapplicable operations showing up as disabled menu items immediately.
+dlgSgHistoryCommitCantBeModified.ttpSgHistoryCommitCantBeModifiedInfo"In the Preferences, you can configure Low-Level Property 'history.disableOperationsForUnmodifiableCommits' to have inapplicable operations showing up as disabled menu items immediately."=\
+ In the Preferences, you can configure Low-Level Property 'history.disableOperationsForUnmodifiableCommits' to have inapplicable operations showing up as disabled menu items immediately.
 dlgSgHistoryEditAuthor.btn"Set Author"=Set Author
 dlgSgHistoryEditAuthor.edt"Email"=Email
 dlgSgHistoryEditAuthor.edt"User Name"=User Name
@@ -1171,12 +1248,15 @@ dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
 dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
  Use SSL client certificates \(usually not required\)
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=Use a GitHub Enterprise instance
+dlgSgHostingProviderEdit.chk"Use a custom Azure DevOps server"=\
+ Use a custom Azure DevOps server
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=Use a custom GitLab server
 dlgSgHostingProviderEdit.edt"Account"=Account
 dlgSgHostingProviderEdit.edt"Certificate Password"=Certificate Password
 dlgSgHostingProviderEdit.edt"Client Certificate"=Client Certificate
 dlgSgHostingProviderEdit.edt"Name"=Name
 dlgSgHostingProviderEdit.edt"Password"=Password
+dlgSgHostingProviderEdit.edt"Server URL \(including collection\)"=Server URL \(including collection\)
 dlgSgHostingProviderEdit.edt"Server URL"=Server URL
 dlgSgHostingProviderEdit.edt"Token"=Token
 dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLab account."=\
@@ -1188,13 +1268,22 @@ dlgSgHostingProviderEdit.err"Please specify the private key file."=\
  Please specify the private key file.
 dlgSgHostingProviderEdit.hdl%1=Configure $1 account
 dlgSgHostingProviderEdit.inf%1=Please specify your credentials to connect to $1.
+dlgSgHostingProviderEdit.lbl"For example: https://azure.devops.server/DefaultCollection"=For example: https://azure.devops.server/DefaultCollection
 dlgSgHostingProviderEdit.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end.
+dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."=\
+ The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings.
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
  The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings.
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings.
-dlgSgHostingProviderEdit.tle=GitLab
+dlgSgHostingProviderEdit.lbl"You can review the GitHub application settings \[$1 here\]."=\
+ You can review the GitHub application settings \[$1 here\].
+dlgSgHostingProviderEdit.tle"Azure DevOps"=Azure DevOps
+dlgSgHostingProviderEdit.tle"Bitbucket Server"=Bitbucket Server
+dlgSgHostingProviderEdit.tle"Bitbucket"=Bitbucket
+dlgSgHostingProviderEdit.tle"GitHub"=GitHub
+dlgSgHostingProviderEdit.tle"GitLab"=GitLab
 dlgSgHostingProviderEdit.wrn"Connection to '$1' failed: $2"=Connection to '$1' failed: $2
 dlgSgHostingProviderSelectRepository.btn"Select"=Select
 dlgSgHostingProviderSelectRepository.col"Name"=Name
@@ -1205,6 +1294,7 @@ dlgSgHostingProviderSelectRepository.mni"Name"=Name
 dlgSgHostingProviderSelectRepository.mni"Owner"=Owner
 dlgSgHostingProviderSelectRepository.mni"Repository"=Repository
 dlgSgHostingProviderSelectRepository.tle=GitHub Projects
+dlgSgHostingProvider(Add|Edit).lbl"Optional SSL configuration"=Optional SSL configuration
 dlgSgHttpPasswordAuthenticationFailedCause1.fur%3=The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\n\nTo resolve, recreate the $2 hosting provider in the Preferences.\n\nDetails:\n\n$3
 dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1=$1 OAuth-authentication failed
 dlgSgHttpPasswordAuthenticationFailedCause1.tle=HTTP authentication
@@ -1535,6 +1625,9 @@ dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
  Use indentation from previous non-empty line
 dlgSgPreferences.chk"Use pre-installed \(\"system\"\) Git-Flow\*"=Use pre-installed \("system"\) Git-Flow\*
 dlgSgPreferences.chk"Warn for slow rename detection"=Warn for slow rename detection
+dlgSgPreferences.cmb"Automatically select light/dark"=Automatically select light/dark
+dlgSgPreferences.cmb"Dark \(independent of system\)"=Dark \(independent of system\)
+dlgSgPreferences.cmb"Light \(independent of system\)"=Light \(independent of system\)
 dlgSgPreferences.col"Accelerator"=Accelerator
 dlgSgPreferences.col"Account"=Account
 dlgSgPreferences.col"Applies To"=Applies To
@@ -1552,6 +1645,7 @@ dlgSgPreferences.col"Patterns"=Patterns
 dlgSgPreferences.col"Repository"=Repository
 dlgSgPreferences.col"Shortcut"=Shortcut
 dlgSgPreferences.col"Value"=Value
+dlgSgPreferences.edt"Comments in Message"=Comments in Message
 dlgSgPreferences.edt"Date Format\*"=Date Format\*
 dlgSgPreferences.edt"Double-Clicking Local File"=Double-Clicking Local File
 dlgSgPreferences.edt"Email"=Email
@@ -1585,12 +1679,23 @@ dlgSgPreferences.edt"Theme\*"=Theme\*
 dlgSgPreferences.edt"Time Format\*"=Time Format\*
 dlgSgPreferences.edt"Username"=Username
 dlgSgPreferences.hnt"Search"=Search
+dlgSgPreferences.lbl"A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\]."=\
+ A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\].
+dlgSgPreferences.lbl"All directories"=All directories
+dlgSgPreferences.lbl"All files"=All files
+dlgSgPreferences.lbl"All files/directories"=All files/directories
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  Application can be updated manually in the About dialog
+dlgSgPreferences.lbl"Built-in Conflict Solver"=Built-in Conflict Solver
+dlgSgPreferences.lbl"Built-in file compare"=Built-in file compare
 dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied."=\
  Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied.
+dlgSgPreferences.lbl"Clone"=Clone
+dlgSgPreferences.lbl"Commit"=Commit
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
  Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command.
+dlgSgPreferences.lbl"External tool:"=External tool:
+dlgSgPreferences.lbl"Garbage Collector"=Garbage Collector
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  Here you can edit your account's 'gitconfig' which contains the defaults for all repositories.
 dlgSgPreferences.lbl"Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."=\
@@ -1601,10 +1706,18 @@ dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to hav
  In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable.
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
  In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable.
+dlgSgPreferences.lbl"Local and Remote Changes"=Local and Remote Changes
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
  Note: The password will be stored in plain text in SmartGit's configuration area!
+dlgSgPreferences.lbl"Page title"=Page title
+dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=\
+ Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
+dlgSgPreferences.lbl"Push"=Push
+dlgSgPreferences.lbl"Stash"=Stash
+dlgSgPreferences.lbl"The last check was performed on $1."=\
+ The last check was performed on $1.
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\).
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
@@ -1649,6 +1762,8 @@ dlgSgPreferences.mni"Shortcut"=Shortcut
 dlgSgPreferences.mni"Swap"=Swap
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)
+dlgSgPreferences.rbt"Ask if potential comments are detected"=\
+ Ask if potential comments are detected
 dlgSgPreferences.rbt"Auto-detect the system proxy"=Auto-detect the system proxy
 dlgSgPreferences.rbt"Automatically download and install updates"=Automatically download and install updates
 dlgSgPreferences.rbt"Basic \(for simple workflows\)"=Basic \(for simple workflows\)
@@ -1674,10 +1789,14 @@ dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither '
 dlgSgPreferences.rbt"Stage or unstage"=Stage or unstage
 dlgSgPreferences.rbt"Stages or unstages changes"=Stages or unstages changes
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=Standard \(workflow oriented\)
+dlgSgPreferences.rbt"Strip comments \(lines starting with 'core.commentChar'\)"=\
+ Strip comments \(lines starting with 'core.commentChar'\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  Update SmartGit application in-place \(may require administrator permissions\)
 dlgSgPreferences.rbt"Use SmartGit as SSH client"=Use SmartGit as SSH client
 dlgSgPreferences.rbt"Use following proxy"=Use following proxy
+dlgSgPreferences.rbt"Use message as-is \(don't strip comments\)"=\
+ Use message as-is \(don't strip comments\)
 dlgSgPreferences.rbt"Use system SSH client"=Use system SSH client
 dlgSgPreferences.rbt"Working Tree"=Working Tree
 dlgSgPreferences.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
@@ -1699,6 +1818,11 @@ dlgSgProcessKiller.tle=Process Not Responding
 dlgSgProviderPullRequestCreateNoTargetRepositories.fur=The repository is no GitHub-fork and there are no other remotes which are forks of this repository.
 dlgSgProviderPullRequestCreateNoTargetRepositories.hdl=No target repositories found.
 dlgSgProviderPullRequestCreateNoTargetRepositories.tle=Create Pull Request
+dlgSgProviderPullRequestCreatePushLocalCommits.btn"Push"=Push
+dlgSgProviderPullRequestCreatePushLocalCommits.btn"Skip"=Skip
+dlgSgProviderPullRequestCreatePushLocalCommits.fur=You have local commits which are not yet present in the server-side Provider repository. Unless you push them now, these local commits will not be included in the merge request.
+dlgSgProviderPullRequestCreatePushLocalCommits.hdl=Do you want to push your local commits first?
+dlgSgProviderPullRequestCreatePushLocalCommits.tle=Create Merge Request
 dlgSgProviderPullRequestDropConfirmMr.btn"Drop"=Drop
 dlgSgProviderPullRequestDropConfirmMr.fur=The merge request itself will not be deleted on the server.
 dlgSgProviderPullRequestDropConfirmMr.hdl%1=Do you really want to drop the local commits of merge request $1?
@@ -2207,9 +2331,11 @@ dlgSgReviewUsersEdit.btn"Remove"=Remove
 dlgSgReviewUsersEdit.col"Aliases"=Aliases
 dlgSgReviewUsersEdit.col"Email"=Email
 dlgSgReviewUsersEdit.col"Name"=Name
-dlgSgReviewUsersEdit.hdl=Configure review database users
+dlgSgReviewUsersEdit.hdl"Configure review database users"=Configure review database users
+dlgSgReviewUsersEdit.hdl"Edit review database users"=Edit review database users
 dlgSgReviewUsersEdit.inf=Users can have aliases which are used in comment texts and they have optional contact details.
-dlgSgReviewUsersEdit.tle=Configure Users
+dlgSgReviewUsersEdit.tle"Configure Users"=Configure Users
+dlgSgReviewUsersEdit.tle"Edit Users"=Edit Users
 dlgSgSelectBranch.edt"Auxiliary Branch"=Auxiliary Branch
 dlgSgSelectBranch.edt"Tracked Branch"=Tracked Branch
 dlgSgSelectBranch.hdl"Select tracked branch"=Select tracked branch
@@ -2576,6 +2702,8 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 edt"Search For"=Search For
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
+ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
+ In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
  In general this should be fine and is the recommended configuration when working with multiple Git clients.
 ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is configured in config file $1."=\
@@ -2605,6 +2733,8 @@ ntmPreferencesChangesRestartRequired"Some preferences options have been changed 
  Some preferences options have been changed which will only be applied after restarting SmartGit.
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
  Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit.
+ntmRepositoryGitCleanup"The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."=\
+ The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  To extend your support, please purchase an update license and upgrade to the latest SmartGit version.
 ntmSupportExpired"You may continue to use SmartGit, just your support period expired."=\
@@ -2636,6 +2766,8 @@ nttPreferencesChangesRestartRequired"Restart Required"=Restart Required
 nttPreferencesChangesRestartRequired"Restart SmartGit"=Restart SmartGit
 nttProblematicGcConfiguration"Disable Background GC"=Disable Background GC
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Possibly problematic Git GC configuration
+nttRepositoryGitCleanup"Repository needs cleanup."=Repository needs cleanup.
+nttRepositoryGitCleanup"Run Garbage Collector Now"=Run Garbage Collector Now
 nttSupportExpired"Purchase Update"=Purchase Update
 nttSupportExpired"Your support period has expired on $1."=\
  Your support period has expired on $1.
@@ -2666,12 +2798,65 @@ pop"There is no action available for this drop operation."=\
  There is no action available for this drop operation.
 pop"Unstage unwanted changes for the 1st commit, and commit."=\
  Unstage unwanted changes for the 1st commit, and commit.
-ttpClonePartialWarning"<b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings."=\
- <b>Warning!</b>\n\nThis functionality depends on the capabilities of your server.\nOnce the clone has finished, check the Output view for possible warnings.
-ttpTagGroupingGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=\
- Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.\n\nNext, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.\n\nPatterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.\n\nYou can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.\n\nYou can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.\n\nExample: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
-ttpTagGroupingSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=\
- In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.\n\nFor example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.\n\nExample: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
+ttpBranches"<b>$1</b> <col1>approved</col1> on <b>$2</b>:"=<b>$1</b> <col1>approved</col1> on <b>$2</b>:
+ttpBranches"<b>Author:\t</b>$1"=<b>Author:\t</b>$1
+ttpBranches"<b>Commit Date:\t</b>$1"=<b>Commit Date:\t</b>$1
+ttpBranches"<b>Commit Message:\t</b>$1"=<b>Commit Message:\t</b>$1
+ttpBranches"<b>Committer:\t</b>$1"=<b>Committer:\t</b>$1
+ttpBranches"<b>Date:\t</b>$1"=<b>Date: </b>$1
+ttpBranches"<b>ID:\t</b>$1"=<b>ID:\t</b>$1
+ttpBranches"<b>Last Updated By:\t</b>$1"=<b>Last Updated By: </b>$1
+ttpBranches"<b>Local Branch:\t</b>$1"=<b>Local Branch:\t</b>$1
+ttpBranches"<b>On:\t</b>$1"=<b>On: </b>$1
+ttpBranches"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>"=\
+ <b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>
+ttpBranches"<b>Push Target:\t</b>$1<col1>$2</col1>"=<b>Push Target:\t</b>$1<col1>$2</col1>
+ttpBranches"<b>Remote Branch:\t</b>$1"=<b>Remote Branch:\t</b>$1
+ttpBranches"<b>Repository-internal</b> from branch <b>$1</b> to branch <b>$2</b>"=\
+ <b>Repository-internal</b> from branch <b>$1</b> to branch <b>$2</b>
+ttpBranches"<b>SVN Revision:\t</b>$1"=<b>SVN Revision:\t</b>$1
+ttpBranches"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
+ttpBranches"<b>Tracked Branch:\t</b><s>$1</s><col1> \(just configured\)</col1>"=<b>Tracked Branch:\t</b><s>$1</s><col1> \(just configured\)</col1>
+ttpBranches"<b>Tracking State:\t</b>$1 commit behind"=<b>Tracking State:\t</b>$1 commit behind
+ttpBranches"<b>Tracking State:\t</b>$1 commit pushable, $2 commit behind"=\
+ <b>Tracking State:\t</b>$1 commit pushable, $2 commit behind
+ttpBranches"<b>Tracking State:\t</b>$1 commits pushable"=<b>Tracking State:\t</b>$1 commits pushable
+ttpBranches"<b>Tracking State:\t</b>$1 commits pushable, $2 commits behind"=\
+ <b>Tracking State:\t</b>$1 commits pushable, $2 commits behind
+ttpBranches"<b>Tracking State:\t</b>identical"=<b>Tracking State:\t</b>identical
+ttpBranches"<b>\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \(any more\)."=\
+ <b>\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \(any more\).
+ttpBranches"<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"=\
+ <col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>
+ttpBranches"Not yet loaded or not present on the Provider server anymore."=\
+ Not yet loaded or not present on the Provider server anymore.
+ttpBranches"Pull from <b>$1</b> to <b>$2</b>"=Pull from <b>$1</b> to <b>$2</b>
+ttpClonePartialWarning"<b>Warning!</b>"=<b>Warning!</b>
+ttpClonePartialWarning"Once the clone has finished, check the Output view for possible warnings."=\
+ Once the clone has finished, check the Output view for possible warnings.
+ttpClonePartialWarning"This functionality depends on the capabilities of your server."=\
+ This functionality depends on the capabilities of your server.
+ttpRepositories"<b> with Refs:\t</b>$1"=<b> with Refs:\t</b>$1
+ttpRepositories"<b>Branch:\t</b>$1"=<b>Branch:\t</b>$1
+ttpRepositories"<b>Changed locally</b>, open repository for details"=\
+ <b>Changed locally</b>, open repository for details
+ttpRepositories"<b>Commit:\t</b>$1"=<b>Commit:\t</b>$1
+ttpRepositories"<b>Git Repository:\t</b>$1"=<b>Git Repository:\t$1
+ttpRepositories"<b>Incoming Changes:\t</b>$1 commits to merge/rebase"=<b>Incoming Changes:\t</b>$1 commits to merge/rebase
+ttpRepositories"<b>Local Branch:\t</b>$1"=<b>Local Branch:\t</b>$1
+ttpRepositories"<b>Location:\t</b>$1"=<b>Location:\t</b>$1
+ttpRepositories"<b>Modified files or subdirectories</b>"=<b>Modified files or subdirectories</b>
+ttpRepositories"<b>Outgoing Changes:\t</b>$1 commit to push"=<b>Outgoing Changes:\t</b>$1 commit to push
+ttpRepositories"<b>Outgoing Changes:\t</b>$1 commits to push"=<b>Outgoing Changes:\t</b>$1 commits to push
+ttpRepositories"<b>Remote:\t</b>$1"=<b>Remote:\t</b>$1
+ttpRepositories"<b>Remotes:\t</b>"=<b>Remotes:\t</b>
+ttpRepositories"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
+ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable, $2 commits behind"=\
+ <b>Tracking State:\t</b>$1 commits pushable, $2 commits behind
+ttpRepositories"<b>Tracking State:\t</b>identical"=<b>Tracking State:\t</b>identical
+ttpRepositories"<b>Unchanged</b>"=<b>Unchanged</b>
+ttpRepositories"<col1>Remote </col1>$1<b>\t</b>$2"=<col1>Remote </col1>$1<b>\t</b>$2
+ttpRepositories"Bisecting"=Bisecting
 wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=Commit
 wndAnnotate.edt"Highlight"=Highlight
@@ -2709,6 +2894,7 @@ wndAnnotate.rbt"Commit Index"=Commit Index
 wndAnnotate.rbt"Time"=Time
 wndAnnotate.tab"Document"=Document
 wndAnnotate.tab"History of current line"=History of current line
+wndCompare.lbl"Force Compare"=Force Compare
 wndCompare.mniRefresh=Reload
 wndCompare.mniView-layout-left-beside-right=Left Beside Right
 wndCompare.mniView-layout-left-over-right=Left Above Right
@@ -2718,6 +2904,7 @@ wndCompare.tbtFile-save=Save file modifications.
 wndCompare.tbtGoto-next-diff=Go to next change.
 wndCompare.tbtGoto-previous-diff=Go to previous change.
 wndCompare.tbtRefresh=Reload content from file system and recompare.
+wndCompare.tle"$1 - File Compare"=$1 - File Compare
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  Apply Inner-line Difference to Working Tree
 wndConflictSolver.mni"Apply Line to Working Tree"=Apply Line to Working Tree
@@ -2752,7 +2939,9 @@ wndConflictSolver.tbtView-layout-all=Show the left, merge and right file.
 wndConflictSolver.tbtView-layout-left-merge=Show the left and merge file.
 wndConflictSolver.tbtView-layout-left-right-above-merge=Show the left and right files above the merge file.
 wndConflictSolver.tbtView-layout-right-merge=Show the merge and right file.
+wndConflictSolver.tle"$1 - Conflict Solver"=$1 - Conflict Solver
 wndDeepgit.btn"Go Deeper"=Go Deeper
+wndDeepgit.btn"Investigate"=Investigate
 wndDeepgit.col"File"=File
 wndDeepgit.col"Modifications"=Modifications
 wndDeepgit.ihp"The \*Origin View\*: it highlights the selected origin candidate. By invoking \*Blame \(go deeper\)\* DeepGit will move its /focus/ onto the shown file\\/commit and select the corresponding commit in the \*Navigation\* view."=\
@@ -2773,6 +2962,8 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  This view shows the diff for the selected file from the above \*Files\* view.
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view.
+wndDeepgit.lbl"Preview of $1 \(\u00b7Go Deeper will take you there\)"=\
+ Preview of $1 \(\u00b7Go Deeper will take you there\)
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)
 wndDeepgit.lblBlameHeader"Blame \(in progress...\)"=Blame \(in progress...\)
@@ -2823,6 +3014,9 @@ wndDeepgit.lblTextHeader"File"=File
 wndDeepgit.lblTextHeader"Msg"=Msg
 wndDeepgit.lblTextHeader"at"=at
 wndDeepgit.lblTextHeader"by"=by
+wndDeepgit.lblTextHeader"file didn't exist before commit"=file didn't exist before commit
+wndDeepgit.lblTextHeader"file doesn't exist after commit"=file doesn't exist after commit
+wndDeepgit.lblTextHeader"no file selected"=no file selected
 wndDeepgit.lblTextHeader"on"=on
 wndDeepgit.mni"Copy Details"=Copy Details
 wndDeepgit.mni"Copy ID"=Copy ID
@@ -2903,6 +3097,8 @@ wndDeepgit.tbtPerspectiveBlameSimple=Find where the line originates from in simp
 wndDeepgit.tbtPerspectiveCommit=Investigate Log.
 wndDeepgit.tbtPerspectiveHistory=Investigate Diff between file's revisions.
 wndDeepgit.tbtPerspectiveOrigins=Find out what else happened where the line originates from.\n\nIn order to inspect available Origins, they have to be evaluated first. First, select the file you want to investigate using File\|Open and select a line in it. Then wait until the calculation of possible Origins has finished.
+wndDeepgit.tle"$1 - Investigate"=$1 - Investigate
+wndDeepgit.tle"Investigate"=Investigate
 wndEditor.mni"CR \(classic macOS\)"=CR \(classic macOS\)
 wndEditor.mni"CR+LF \(Windows\)"=CR+LF \(Windows\)
 wndEditor.mni"LF \(Unix, macOS\)"=LF \(Unix, macOS\)
@@ -2912,6 +3108,7 @@ wndEditor.mniReplaceTabsWithSpaces=Replace Tabs With Spaces
 wndEditor.mniView-remember-as-default=Remember as Default
 wndEditor.mniView-settings=Settings
 wndEditor.tbtFile-save=Save file modifications.
+wndEditor.tle"$1 - Editor"=$1 - Editor
 wndGit.indexEditor.mni"Discard Inner-line Change"=Discard Inner-line Change
 wndGit.indexEditor.mni"Discard Line"=Discard Line
 wndGit.indexEditor.mni"Discard Selection"=Discard Selection
@@ -2934,7 +3131,13 @@ wndGit.indexEditor.tbtEdit-take-right=Take the right block to the merge result. 
 wndGit.indexEditor.tbtFile-save=Save file modifications.
 wndGit.indexEditor.tbtGoto-next-diff=Go to next change.
 wndGit.indexEditor.tbtGoto-previous-diff=Go to previous change.
+wndGit.indexEditor.tle"$1 - Index Editor"=$1 - Index Editor
 wndLog.col"LFS"=LFS
+wndLog.hnt"Commit files: select 1 commit\nDiff between commits: select 2 commits"=\
+ Commit files: select 1 commit\nDiff between commits: select 2 commits
+wndLog.hnt"No file matches the filter."=No file matches the filter.
+wndLog.hnt"Working Tree & Index files: select Working Tree\nCommit files: select commit\nDiff between Commits: select 2 commits\nDiff Commit & Index: select commit & Working Tree"=\
+ Working Tree & Index files: select Working Tree\nCommit files: select commit\nDiff between Commits: select 2 commits\nDiff Commit & Index: select commit & Working Tree
 wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
 wndLog.mni"Committer Abbreviated"=Committer Abbreviated
 wndLog.mni"Committer Avatar"=Committer Avatar
@@ -2943,7 +3146,11 @@ wndLog.mni"Committer with Full Name and Email"=\
 wndLog.mni"Committer with Full Name"=Committer with Full Name
 wndLog.mni"Copy Branch"=Copy Branch
 wndLog.mni"Copy Email Address"=Copy Email Address
+wndLog.mni"Drop Local"=Drop Local
+wndLog.mni"Fetch"=Fetch
 wndLog.mni"Modification"=Modification
+wndLog.mni"No pull request data available."=No pull request data available.
+wndLog.mni"Reject"=Reject
 wndLog.mni"Select Branch"=Select Branch
 wndLog.mni"Select Commit"=Select Commit
 wndLog.mni"Send Mail"=Send Mail
@@ -2951,12 +3158,14 @@ wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
-wndLog.tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
  Reading incoming pull requests from '$1'.
+wndLog.tbt"Reading outgoing pull requests from '$1'."=\
+ Reading outgoing pull requests from '$1'.
 wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
+wndLog.tle"$1 - Log"=$1 - Log
 wndProject.mni"Log Selection"=Log Selection
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen=Full Screen
@@ -3553,6 +3762,9 @@ wnd(Log|Project|Std|).mnu"Subtree"=Subtree
 wnd(Log|Project|Std|).mnu"Tools"=Tools
 wnd(Log|Project|Std|).mnu"View"=View
 wnd(Log|Project|Std|).tab"Branches"=Branches
+wnd(Log|Project|Std|).tab"Changes \(EOL: Unix - expected Windows\)"=\
+ Changes \(EOL: Unix - expected Windows\)
+wnd(Log|Project|Std|).tab"Changes \(EOL: Windows\)"=Changes \(EOL: Windows\)
 wnd(Log|Project|Std|).tab"Changes of $1 - $2 \($3\)"=\
  Changes of $1 - $2 \($3\)
 wnd(Log|Project|Std|).tab"Changes of $1 - $2"=Changes of $1 - $2
