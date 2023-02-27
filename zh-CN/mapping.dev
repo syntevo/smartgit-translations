@@ -764,10 +764,6 @@ dlgSgClone.err"Please specify the root directory of a local repository."=\
  请指定本地仓库的根目录。
 dlgSgClone.inf"Customize how and what to clone."=\
  自定义克隆的方式和内容。
-dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
- 指定要克隆的 Git 或 SVN 仓库。
-dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
- 指定要克隆的 Git，Mercurial 或 SVN 仓库。
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  指定新仓库的本地目录。
 dlgSgClone.inf"Specify the repository to clone."=指定需要克隆的仓库.
@@ -781,12 +777,9 @@ dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://us
 dlgSgClone.mni"Add Hosting Provider"=添加主机提供商
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=克隆所有修订版 \(推荐\)
 dlgSgClone.rbt"Clone from revision:"=从修订版中克隆:
-dlgSgClone.rbt"Local Git or Mercurial repository"=本地 Git 或 Mercurial 仓库
 dlgSgClone.rbt"Local Git repository"=本地 Git 仓库
 dlgSgClone.rbt"Local repository"=本地仓库
 dlgSgClone.rbt"Remote Git or SVN repository"=远程 Git 或 SVN 仓库
-dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
- 远程 Git，Mercurial 或 SVN 仓库
 dlgSgClone.rbt"Remote repository"=远程仓库
 dlgSgClone.tle=克隆
 dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=
@@ -796,7 +789,6 @@ dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view 
 dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=
 #                                                                                          !=This functionality depends on the capabilities of your server.
 dlgSgCloneRepositoryType.btn"Git"=Git
-dlgSgCloneRepositoryType.btn"Mercurial"=Mercurial
 dlgSgCloneRepositoryType.btn"SVN"=SVN
 dlgSgCloneRepositoryType.fur=指定的 URL 协议不明确，可能引用不同类型的仓库。
 dlgSgCloneRepositoryType.hdl=选择要克隆的仓库类型。
@@ -1525,18 +1517,10 @@ dlgSgMergeNoop.fur=虽然 Git 在技术上允许将提交的历史记录合并�
 dlgSgMergeNoop.hdl=没有内容需要合并.
 dlgSgMergeNoop.tle=合并
 dlgSgOpenRepository.edt"Repository"=仓库
-dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
- 请指定 Git 或 Mercurial 仓库的根目录。
 dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
  请指定 Git 仓库的根目录。
 dlgSgOpenRepository.hdl=添加现有或创建新仓库
-dlgSgOpenRepository.inf=指定要打开的本地 Git 或 Mercurial 仓库。要创建新仓库，请指定一个空目录。
 dlgSgOpenRepository.tle=添加或创建仓库
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"=Git
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
-dlgSgOpenRepositoryInitializeChooseVcs.fur=指定的目录似乎不是有效的 Git 或 Mercurial 仓库。
-dlgSgOpenRepositoryInitializeChooseVcs.hdl=什么 VCS 应该用于初始化 “swt”？
-dlgSgOpenRepositoryInitializeChooseVcs.tle=添加或创建仓库
 dlgSgOpenRepositoryInitializeGit.btn"Initialize"=初始化
 dlgSgOpenRepositoryInitializeGit.fur=指定的目录似乎不是有效的 Git 仓库。
 dlgSgOpenRepositoryInitializeGit.hdl%1=是否应该将 '$1' 初始化为新的 Git 仓库？
@@ -1743,7 +1727,6 @@ dlgSgPreferences.edt"Font Size"=字体大小
 dlgSgPreferences.edt"Functionality\*"=功能\*
 dlgSgPreferences.edt"GPG Program"=GPG 程序
 dlgSgPreferences.edt"Git Executable"=Git 可执行文件
-dlgSgPreferences.edt"Hg Executable"=Hg 可执行文件
 dlgSgPreferences.edt"Host"=服务器
 dlgSgPreferences.edt"Known credentials"=已知凭据
 dlgSgPreferences.edt"Language\*"=语言\*
@@ -1798,8 +1781,6 @@ dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, 
  如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  要使用所有 SmartGit 功能，您需要在系统上安装 Git 命令行。在这里提供已安装的 “git” 可执行文件的完整路径。
-dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
- 要使用所有 SmartGit 功能，您需要在系统上安装 Git 命令行或 Mercurial。在这里提供已安装的 “git” 或 “hg” 可执行文件的完整路径。
 dlgSgPreferences.lbl"Local and Remote Changes"=
 #                                            !=Local and Remote Changes
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
@@ -2471,7 +2452,6 @@ dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
  使用 gravatar.com 为用户显示图像
 dlgSgSetup.edt"Email"=电子邮箱
 dlgSgSetup.edt"Git Executable"=Git 可执行文件
-dlgSgSetup.edt"Hg Executable"=Hg 可执行文件
 dlgSgSetup.edt"License File"=许可证文件
 dlgSgSetup.edt"Repository search"=仓库搜索
 dlgSgSetup.edt"User Name"=用户名
@@ -2481,8 +2461,6 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
  如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中更改它。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  请查看以下隐私选项。您可以稍后在偏好设置中更改它们。
-dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
- 在搜索 Git 或 Hg 安装时，请稍等片刻。
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGit 要求在您的系统上安装兼容的 Git。请指定 'git' 可执行文档的路径。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
@@ -2726,8 +2704,6 @@ dlgSgTool(Add|Edit).mni"File or Directory Path"=文件或目录路径
 dlgSgTool(Add|Edit).mni"File or Directory URI"=文件或目录地址
 dlgSgTool(Add|Edit).mni"Git Executable"=Git 可执行文件
 dlgSgTool(Add|Edit).mni"Git Installation"=Git 安装程序
-dlgSgTool(Add|Edit).mni"Hg Executable"=Hg 可执行文件
-dlgSgTool(Add|Edit).mni"Hg Installation"=Hg 安装程序
 dlgSgTool(Add|Edit).mni"Remote \(Push\) URL"=远程 \(推送\) 网址
 dlgSgTool(Add|Edit).mni"Repository Root Path"=仓库根路径
 dlgSgTool(Add|Edit).mni"Selection File"=选择文件

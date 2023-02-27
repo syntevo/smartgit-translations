@@ -739,10 +739,6 @@ dlgSgClone.err"Please specify the root directory of a local repository."=\
  ローカルリポジトリのルートディレクトリを指定してください。
 dlgSgClone.inf"Customize how and what to clone."=\
  クローンする方法と内容をカスタマイズできます。
-dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
- クローンするGitまたはSVNリポジトリを指定します。
-dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
- クローンするGit、MercurialまたはSVNリポジトリを指定します。
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  新しいリポジトリのローカルディレクトリを指定します。
 dlgSgClone.inf"Specify the repository to clone."=クローンを作成するリポジトリを指定します。
@@ -756,12 +752,9 @@ dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=例: https://us
 dlgSgClone.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=すべてのリビジョンをクローンする \(推奨\)
 dlgSgClone.rbt"Clone from revision:"=このリビジョンからクローン:
-dlgSgClone.rbt"Local Git or Mercurial repository"=Git または Mercurial のローカルリポジトリ
 dlgSgClone.rbt"Local Git repository"=ローカルGitリポジトリ
 dlgSgClone.rbt"Local repository"=ローカルリポジトリ
 dlgSgClone.rbt"Remote Git or SVN repository"=Git または SVN のリモートリポジトリ
-dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
- Git、Mercurial または SVN のリモートリポジトリ
 dlgSgClone.rbt"Remote repository"=リモートリポジトリ
 dlgSgClone.tle=クローン
 dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=
@@ -771,7 +764,6 @@ dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view 
 dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=
 #                                                                                          !=This functionality depends on the capabilities of your server.
 dlgSgCloneRepositoryType.btn"Git"==Git
-dlgSgCloneRepositoryType.btn"Mercurial"==Mercurial
 dlgSgCloneRepositoryType.btn"SVN"==SVN
 dlgSgCloneRepositoryType.fur=指定された URL プロトコルがあいまいで、異なるタイプのリポジトリを参照している可能性があります。
 dlgSgCloneRepositoryType.hdl=クローンを作成するリポジトリの種類を選択します。
@@ -1500,18 +1492,10 @@ dlgSgMergeNoop.fur=コミットをそれ自身にマージすることは、技�
 dlgSgMergeNoop.hdl=マージするものはありません。
 dlgSgMergeNoop.tle=マージ
 dlgSgOpenRepository.edt"Repository"=リポジトリ
-dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
- Git または Mercurial リポジトリのルートディレクトリを指定してください。
 dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
  Git リポジトリのルートディレクトリを指定してください。
 dlgSgOpenRepository.hdl=既存のリポジトリを追加、または新しいリポジトリを作成
-dlgSgOpenRepository.inf=既存のリポジトリを追加する場合はローカルのGitまたはMercurialリポジトリを指定します。\r新規にリポジトリを作成する場合は、空のディレクトリを指定します。
 dlgSgOpenRepository.tle=リポジトリの追加又は作成
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"==Git
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"==Mercurial
-dlgSgOpenRepositoryInitializeChooseVcs.fur=指定されたディレクトリは、有効な Git または Mercurial リポジトリではないようです。
-dlgSgOpenRepositoryInitializeChooseVcs.hdl='swt' を初期化するには、どの VCS を使用する必要がありますか?
-dlgSgOpenRepositoryInitializeChooseVcs.tle=リポジトリの追加又は作成
 dlgSgOpenRepositoryInitializeGit.btn"Initialize"=初期化
 dlgSgOpenRepositoryInitializeGit.fur=指定されたディレクトリは、有効な Git リポジトリではないようです。
 dlgSgOpenRepositoryInitializeGit.hdl%1='$1' を新しい Git リポジトリとして初期化しますか?
@@ -1718,7 +1702,6 @@ dlgSgPreferences.edt"Font Size"=フォントサイズ
 dlgSgPreferences.edt"Functionality\*"=機能性\*
 dlgSgPreferences.edt"GPG Program"=GPG プログラム
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
-dlgSgPreferences.edt"Hg Executable"=Hg 実行ファイル
 dlgSgPreferences.edt"Host"=ホスト
 dlgSgPreferences.edt"Known credentials"=既知の資格情報
 dlgSgPreferences.edt"Language\*"=言語\*
@@ -1773,8 +1756,6 @@ dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, 
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。
-dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
- SmartGitの全ての機能を利用するためには、コマンドラインのGitまたはMercurialがシステムにインストールされている必要があります。インストールされている 'git' または 'hg' の実行ファイルへのフルパスをここに入力してください。
 dlgSgPreferences.lbl"Local and Remote Changes"=
 #                                            !=Local and Remote Changes
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
@@ -2446,7 +2427,6 @@ dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
  gravatar.comを使用してユーザーアイコンを表示する
 dlgSgSetup.edt"Email"=電子メール
 dlgSgSetup.edt"Git Executable"=Git 実行ファイル
-dlgSgSetup.edt"Hg Executable"=Hg 実行ファイル
 dlgSgSetup.edt"License File"=ライセンスファイル
 dlgSgSetup.edt"Repository search"=リポジトリを検索
 dlgSgSetup.edt"User Name"=ユーザ名
@@ -2456,8 +2436,6 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  以下のプライバシーに関するオプションをご確認ください。後で環境設定で変更することができます。
-dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
- GitまたはHgのインストールを検索している間、しばらくお待ちください。
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGitは、お使いのシステムに互換性のあるGitがインストールされている必要があります。'git'の実行ファイルのパスを指定してください。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
@@ -2701,8 +2679,6 @@ dlgSgTool(Add|Edit).mni"File or Directory Path"=ファイルまたはディレ�
 dlgSgTool(Add|Edit).mni"File or Directory URI"=ファイルまたはディレクトリのURI
 dlgSgTool(Add|Edit).mni"Git Executable"=Git 実行ファイル
 dlgSgTool(Add|Edit).mni"Git Installation"=Git のインストール先
-dlgSgTool(Add|Edit).mni"Hg Executable"=Hg 実行ファイル
-dlgSgTool(Add|Edit).mni"Hg Installation"=Hg のインストール先
 dlgSgTool(Add|Edit).mni"Remote \(Push\) URL"=リモート \(Push\) URL
 dlgSgTool(Add|Edit).mni"Repository Root Path"=リポジトリルートパス
 dlgSgTool(Add|Edit).mni"Selection File"=選択されたファイル
