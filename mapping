@@ -712,10 +712,6 @@ dlgSgClone.err"Please specify the root directory of a local repository."=\
  Please specify the root directory of a local repository.
 dlgSgClone.inf"Customize how and what to clone."=\
  Customize how and what to clone.
-dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
- Specify the Git or SVN repository to clone.
-dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
- Specify the Git, Mercurial or SVN repository to clone.
 dlgSgClone.inf"Specify the local directory for the new repository."=\
  Specify the local directory for the new repository.
 dlgSgClone.inf"Specify the repository to clone."=Specify the repository to clone.
@@ -727,12 +723,9 @@ dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://us
 dlgSgClone.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=Clone all revisions \(recommended\)
 dlgSgClone.rbt"Clone from revision:"=Clone from revision:
-dlgSgClone.rbt"Local Git or Mercurial repository"=Local Git or Mercurial repository
 dlgSgClone.rbt"Local Git repository"=Local Git repository
 dlgSgClone.rbt"Local repository"=Local repository
 dlgSgClone.rbt"Remote Git or SVN repository"=Remote Git or SVN repository
-dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
- Remote Git, Mercurial or SVN repository
 dlgSgClone.rbt"Remote repository"=Remote repository
 dlgSgClone.tle=Clone
 dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=<b>Warning!</b>
@@ -741,7 +734,6 @@ dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view 
 dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=\
  This functionality depends on the capabilities of your server.
 dlgSgCloneRepositoryType.btn"Git"=Git
-dlgSgCloneRepositoryType.btn"Mercurial"=Mercurial
 dlgSgCloneRepositoryType.btn"SVN"=SVN
 dlgSgCloneRepositoryType.fur=The specified URL protocol is ambiguous and may refer to different types of repositories.
 dlgSgCloneRepositoryType.hdl=Select the type of repository you are going to clone.
@@ -1445,18 +1437,10 @@ dlgSgMergeNoop.fur=Merging a commit's own history into itself is technically all
 dlgSgMergeNoop.hdl=There is nothing to merge.
 dlgSgMergeNoop.tle=Merge
 dlgSgOpenRepository.edt"Repository"=Repository
-dlgSgOpenRepository.err"Please specify the root directory of a Git or Mercurial repository."=\
- Please specify the root directory of a Git or Mercurial repository.
 dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
  Please specify the root directory of a Git repository.
 dlgSgOpenRepository.hdl=Add existing or create new repository
-dlgSgOpenRepository.inf=Specify the local Git or Mercurial repository to open. To create a new repository, specify an empty directory.
 dlgSgOpenRepository.tle=Add or Create Repository
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"=Git
-dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
-dlgSgOpenRepositoryInitializeChooseVcs.fur=The specified directory does not appear to be a valid Git or Mercurial repository.
-dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
-dlgSgOpenRepositoryInitializeChooseVcs.tle=Add or Create Repository
 dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
 dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
 dlgSgOpenRepositoryInitializeGit.hdl%1=Should '$1' be initialized as a new Git repository?
@@ -1658,7 +1642,6 @@ dlgSgPreferences.edt"Font Size"=Font Size
 dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
 dlgSgPreferences.edt"Git Executable"=Git Executable
-dlgSgPreferences.edt"Hg Executable"=Hg Executable
 dlgSgPreferences.edt"Host"=Host
 dlgSgPreferences.edt"Known credentials"=Known credentials
 dlgSgPreferences.edt"Language\*"=Language\*
@@ -1704,8 +1687,6 @@ dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, 
  If you are using SSH to connect to other Git repositories, select what SSH client to use.
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable.
-dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
- In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable.
 dlgSgPreferences.lbl"Local and Remote Changes"=Local and Remote Changes
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
  Note: The password will be stored in plain text in SmartGit's configuration area!
@@ -2358,7 +2339,6 @@ dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
  Use gravatar.com to show images for the users
 dlgSgSetup.edt"Email"=Email
 dlgSgSetup.edt"Git Executable"=Git Executable
-dlgSgSetup.edt"Hg Executable"=Hg Executable
 dlgSgSetup.edt"License File"=License File
 dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=User Name
@@ -2369,7 +2349,7 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  Please review the following privacy options. You can change them later in the preferences.
 dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=\
- Please wait a few moments while searching for a Git or Hg installation.
+ Please wait a few moments while searching for a Git installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable.
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
@@ -2613,8 +2593,6 @@ dlgSgTool(Add|Edit).mni"File or Directory Path"=File or Directory Path
 dlgSgTool(Add|Edit).mni"File or Directory URI"=File or Directory URI
 dlgSgTool(Add|Edit).mni"Git Executable"=Git Executable
 dlgSgTool(Add|Edit).mni"Git Installation"=Git Installation
-dlgSgTool(Add|Edit).mni"Hg Executable"=Hg Executable
-dlgSgTool(Add|Edit).mni"Hg Installation"=Hg Installation
 dlgSgTool(Add|Edit).mni"Remote \(Push\) URL"=Remote \(Push\) URL
 dlgSgTool(Add|Edit).mni"Repository Root Path"=Repository Root Path
 dlgSgTool(Add|Edit).mni"Selection File"=Selection File
