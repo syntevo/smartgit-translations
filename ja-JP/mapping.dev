@@ -2436,6 +2436,8 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  以下のプライバシーに関するオプションをご確認ください。後で環境設定で変更することができます。
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=
+#                                                                               !=Please wait a few moments while searching for a Git installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGitは、お使いのシステムに互換性のあるGitがインストールされている必要があります。'git'の実行ファイルのパスを指定してください。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\

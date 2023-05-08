@@ -2461,6 +2461,8 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
  如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中更改它。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  请查看以下隐私选项。您可以稍后在偏好设置中更改它们。
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=
+#                                                                               !=Please wait a few moments while searching for a Git installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGit 要求在您的系统上安装兼容的 Git。请指定 'git' 可执行文档的路径。
 dlgSgSetup.inf"User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."=\
