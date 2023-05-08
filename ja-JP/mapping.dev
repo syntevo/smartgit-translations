@@ -2798,7 +2798,7 @@ ntmMarkRepositoriesAsFavorite"To mark a repository as 'favorite', right-click on
 ntmPreferencesChangesRestartRequired"Some preferences options have been changed which will only be applied after restarting SmartGit."=\
  SmartGit の再起動後にのみ適用される一部の設定オプションが変更されました。
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
- Gitのガベージコレクションは、\(デフォルトでは\) バックグラウンドで実行するように設定されています。\(.gitconfig 内の gc.autoDetach\)\nこの設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。
+ Gitのガベージコレクションは、\(デフォルトでは\) バックグラウンドで実行するように設定されています \(.gitconfig 内の gc.autoDetach\)。この設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。
 ntmRepositoryGitCleanup"The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."=
 #                                                                                                                                                                                                                           !=The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
