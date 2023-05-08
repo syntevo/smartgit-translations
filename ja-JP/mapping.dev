@@ -1713,7 +1713,7 @@ dlgSgPreferences.edt"Prefer"==Prefer
 dlgSgPreferences.edt"Preview"=プレビュー
 dlgSgPreferences.edt"Shortcut"=ショートカット
 dlgSgPreferences.edt"Signing Key"=署名キー
-dlgSgPreferences.edt"Startup Window"=スタートアップウィンドウ
+dlgSgPreferences.edt"Startup Window\*"=スタートアップウィンドウ\*
 dlgSgPreferences.edt"Submodule handling\*"=サブモジュールの取り扱い\*
 dlgSgPreferences.edt"Suggest to"=提案する
 dlgSgPreferences.edt"Text File Encoding"=テキストファイルのエンコーディング
