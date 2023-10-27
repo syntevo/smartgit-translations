@@ -33,6 +33,10 @@ dlgCommit.replaceMessage.chk=Always replace
 dlgCommit.replaceMessage.fur=After replacing you can find the previous message when clicking the history button.
 dlgCommit.replaceMessage.hdl=Replace the existing message?
 dlgCommit.replaceMessage.tle=Replace Message
+dlgCommitInvisibleIndex.btn"Commit"=Commit
+dlgCommitInvisibleIndex.fur=Some staged files are not visible at the moment.
+dlgCommitInvisibleIndex.hdl=Commit invisible staged files?
+dlgCommitInvisibleIndex.tle=Commit
 dlgDgAbout.edt"Build Date"=Build Date
 dlgDgAbout.edt"Email"=Email
 dlgDgAbout.edt"Java Version"=Java Version
@@ -469,6 +473,8 @@ dlgScUpdateInstallationUpgrade.tle=Upgrade SmartGit
 dlgSelectDiff.col"Command"=Command
 dlgSelectDiff.hdl=Select the diff tool
 dlgSelectDiff.inf=Select which matching diff tool should be used.
+dlgSelectDiff.lbl"Built-in file compare"=Built-in file compare
+dlgSelectDiff.lbl"Diff tool:"=Diff tool:
 dlgSelectDiff.tle=File Compare
 dlgSgAbortBisectingConfirm.btn"Abort Bisect"=Abort Bisect
 dlgSgAbortBisectingConfirm.fur=Your working tree is in 'bisecting' state. You may abort it to get out of this state.\n\nAborting will checkout the branch or commit before starting bisect.
@@ -563,6 +569,8 @@ dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=Add branch at commit $1
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  Add branch at current HEAD commit
+dlgSgBranchAddCheckout.hdl"Create new branch at current branch \(HEAD\)"=\
+ Create new branch at current branch \(HEAD\)
 dlgSgBranchAddCheckout.inf=Enter the name of the local branch to create.
 dlgSgBranchAddCheckout.tle=Add Branch
 dlgSgBranchAddCheckoutOverwriteExisting.btn"Overwrite"=Overwrite
@@ -792,6 +800,7 @@ dlgSgCommitDirectlyTo.fur=You have Git-Flow configured and committing to the Git
 dlgSgCommitDirectlyTo.hdl=Do you want to commit directly to 'master'?
 dlgSgCommitDirectlyTo.tle=Commit
 dlgSgCommitIndexAllWorkingTreeChanges.btn"Commit All Working Tree Changes"=Commit All Working Tree Changes
+dlgSgCommitIndexAllWorkingTreeChanges.btn"Commit All"=Commit All
 dlgSgCommitIndexAllWorkingTreeChanges.chk=Don't show again
 dlgSgCommitIndexAllWorkingTreeChanges.fur=No file is staged yet. To stage individual changes, click Cancel. Otherwise all working tree changes will get staged and committed.
 dlgSgCommitIndexAllWorkingTreeChanges.hdl=Do you want to commit all working tree changes?
@@ -799,6 +808,11 @@ dlgSgCommitIndexAllWorkingTreeChanges.tle=Commit
 dlgSgCommitIndexNoFilesFound.fur=Neither staged files nor locally changed files were found.
 dlgSgCommitIndexNoFilesFound.hdl=There is nothing to commit.
 dlgSgCommitIndexNoFilesFound.tle=Commit
+dlgSgCommitMessageContainsComments.btn"Commit As-Is"=Commit As-Is
+dlgSgCommitMessageContainsComments.btn"Strip Comments"=Strip Comments
+dlgSgCommitMessageContainsComments.fur=The commit message contains lines starting with # which Git would treat as comment \(and thus strip from the message\).\n\nFor advanced comment-handling you may consider to use Git's config option 'core.commentChar'.\n\nIf you always want to keep or strip comment lines, you can configure this in the Preferences.
+dlgSgCommitMessageContainsComments.hdl=Should comment lines be committed as-is?
+dlgSgCommitMessageContainsComments.tle=Commit
 dlgSgCommitNoFilesFoundNotAllowEmpty.fur=Neither staged files nor locally changed files were found.
 dlgSgCommitNoFilesFoundNotAllowEmpty.hdl=There is nothing to commit.
 dlgSgCommitNoFilesFoundNotAllowEmpty.tle=Commit
@@ -893,6 +907,9 @@ dlgSgDiscard.tle=Discard
 dlgSgDiscardNoFilesFound.fur=Neither staged files nor locally changed files were found.
 dlgSgDiscardNoFilesFound.hdl=There is nothing to discard.
 dlgSgDiscardNoFilesFound.tle=Discard
+dlgSgDiscardNotApplicableForIndexFiles.fur=You have selected to discard only the Index changes of one or more files. However, at least one of the files is also modified in the working tree. It is not possible to discard only Index changes in this case.\n\nIf you actually want to discard the working tree changes, select the file in the working tree table.
+dlgSgDiscardNotApplicableForIndexFiles.hdl=Discarding Index changes is not possible.
+dlgSgDiscardNotApplicableForIndexFiles.tle=Discard
 dlgSgDiscardRevertToHead.hdl%1=Do you want to reset $1 files back to their HEAD state?
 dlgSgDiscardRevertToIndex.hdl%1=Do you want to reset $1 files back to their Index state?
 dlgSgDiscardRevertTo(Head|Index).btn"Discard"=Discard
@@ -913,6 +930,9 @@ dlgSgExitConfirmation.chk=Don't show again
 dlgSgExitConfirmation.fur=By closing the last window you will exit SmartGit.
 dlgSgExitConfirmation.hdl=Do you want to exit SmartGit now?
 dlgSgExitConfirmation.tle=Exit
+dlgSgFileCompareConflictSolverNoTextFile.btn"Force Opening"=Force Opening
+dlgSgFileCompareConflictSolverNoTextFile.hdl=Could not open Conflict Solver for 'Generate Netlist.vi', because it seems to be no text file.
+dlgSgFileCompareConflictSolverNoTextFile.tle=Conflict Solver
 dlgSgFileCompareInvokerFailedIO.hdl%1='$1' could not be invoked.
 dlgSgFileCompareInvokerFailedIO.tle=Open
 dlgSgFileCompareNoChanges.btn"Open"=Open
@@ -1314,6 +1334,9 @@ dlgSgIgnoreEdit.mni"Reveal"=Reveal
 dlgSgIgnoreEdit.tle=Edit Ignore File
 dlgSgIgnoreFile.btn"Ignore"=Ignore
 dlgSgIgnoreFile.btn"Remove && Ignore"=Remove && Ignore
+dlgSgIgnoreFile.cmb".git/info/exclude \(only for this repository\)"=.git/info/exclude \(only for this repository\)
+dlgSgIgnoreFile.cmb".gitignore in parent directory"=.gitignore in parent directory
+dlgSgIgnoreFile.cmb".gitignore in repository root directory"=.gitignore in repository root directory
 dlgSgIgnoreFile.edt"Ignore File"=Ignore File
 dlgSgIgnoreFile.err"The pattern must match all selected file names. For instance, '$1' is not matched."=\
  The pattern must match all selected file names. For instance, '$1' is not matched.
@@ -1456,12 +1479,17 @@ dlgSgOutput.chk"Show automatically for failed command"=Show automatically for fa
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
 dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
+dlgSgOutput.lbl"Command Check Out Branch produced warnings."=\
+ Command Check Out Branch produced warnings.
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
 dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
 dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
+dlgSgOutput.lbl"Command Fetch produced warnings."=Command Fetch produced warnings.
+dlgSgOutput.lbl"Command Merge produced warnings."=Command Merge produced warnings.
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
+dlgSgOutput.lbl"Command Resolve produced warnings."=Command Resolve produced warnings.
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
@@ -1476,6 +1504,7 @@ dlgSgOutput.tle"Output"=Output
 dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPingRepositoryFailed.tle=Clone
+dlgSgPreferences.btn"Actions"=Actions
 dlgSgPreferences.btn"Add"=Add
 dlgSgPreferences.btn"Assign"=Assign
 dlgSgPreferences.btn"Change Master Password"=Change Master Password
@@ -1643,6 +1672,7 @@ dlgSgPreferences.edt"Functionality\*"=Functionality\*
 dlgSgPreferences.edt"GPG Program"=GPG Program
 dlgSgPreferences.edt"Git Executable"=Git Executable
 dlgSgPreferences.edt"Host"=Host
+dlgSgPreferences.edt"If nothing is staged"=If nothing is staged
 dlgSgPreferences.edt"Known credentials"=Known credentials
 dlgSgPreferences.edt"Language\*"=Language\*
 dlgSgPreferences.edt"Name"=Name
@@ -1661,6 +1691,8 @@ dlgSgPreferences.edt"Theme"=Theme
 dlgSgPreferences.edt"Theme\*"=Theme\*
 dlgSgPreferences.edt"Time Format\*"=Time Format\*
 dlgSgPreferences.edt"Username"=Username
+dlgSgPreferences.hnt"No modified low-level properties.\nStart searching by typing."=\
+ No modified low-level properties.\nStart searching by typing.
 dlgSgPreferences.hnt"Search"=Search
 dlgSgPreferences.lbl"A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\]."=\
  A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\].
@@ -1674,9 +1706,12 @@ dlgSgPreferences.lbl"Built-in file compare"=Built-in file compare
 dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied."=\
  Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied.
 dlgSgPreferences.lbl"Clone"=Clone
+dlgSgPreferences.lbl"Commit Dialog"=Commit Dialog
+dlgSgPreferences.lbl"Commit View"=Commit View
 dlgSgPreferences.lbl"Commit"=Commit
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
  Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command.
+dlgSgPreferences.lbl"Diff tool:"=Diff tool:
 dlgSgPreferences.lbl"External tool:"=External tool:
 dlgSgPreferences.lbl"Garbage Collector"=Garbage Collector
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
@@ -1695,7 +1730,9 @@ dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically 
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
+dlgSgPreferences.lbl"Preview:"=Preview:
 dlgSgPreferences.lbl"Push"=Push
+dlgSgPreferences.lbl"Refresh"=Refresh
 dlgSgPreferences.lbl"Stash"=Stash
 dlgSgPreferences.lbl"The last check was performed on $1."=\
  The last check was performed on $1.
@@ -1703,6 +1740,8 @@ dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. 
  The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\).
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
  This file will be sent as is: $1
+dlgSgPreferences.lbl"To manually update in-place use the '...' button located next to the version number in the About dialog."=\
+ To manually update in-place use the '...' button located next to the version number in the About dialog.
 dlgSgPreferences.lbl"When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."=\
  When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files.
 dlgSgPreferences.lbl"When invoking the Conflict Solver feature, this list is searched from top to bottom to find a matching entry. If none is found, the built-in Conflict Solver is used for text files."=\
@@ -1731,11 +1770,14 @@ dlgSgPreferences.mni"Default"=Default
 dlgSgPreferences.mni"Details"=Details
 dlgSgPreferences.mni"Dictionary File"=Dictionary File
 dlgSgPreferences.mni"Edit"=Edit
+dlgSgPreferences.mni"Export"=Export
 dlgSgPreferences.mni"File Pattern"=File Pattern
+dlgSgPreferences.mni"Import"=Import
 dlgSgPreferences.mni"Language"=Language
 dlgSgPreferences.mni"Name"=Name
 dlgSgPreferences.mni"Patterns"=Patterns
 dlgSgPreferences.mni"Repository"=Repository
+dlgSgPreferences.mni"Reset All to Defaults"=Reset All to Defaults
 dlgSgPreferences.mni"Reset to Default"=Reset to Default
 dlgSgPreferences.mni"Reset"=Reset
 dlgSgPreferences.mni"Select"=Select
@@ -1745,10 +1787,14 @@ dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history mo
  Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)
 dlgSgPreferences.rbt"Ask if potential comments are detected"=\
  Ask if potential comments are detected
+dlgSgPreferences.rbt"Ask"=Ask
 dlgSgPreferences.rbt"Auto-detect the system proxy"=Auto-detect the system proxy
 dlgSgPreferences.rbt"Automatically download and install updates"=Automatically download and install updates
 dlgSgPreferences.rbt"Basic \(for simple workflows\)"=Basic \(for simple workflows\)
 dlgSgPreferences.rbt"Check and report new updates"=Check and report new updates
+dlgSgPreferences.rbt"Commit all, except of untracked files"=\
+ Commit all, except of untracked files
+dlgSgPreferences.rbt"Commit all, including untracked files"=Commit all, including untracked files
 dlgSgPreferences.rbt"Dark"=Dark
 dlgSgPreferences.rbt"Do not check for new updates"=\
  Do not check for new updates
@@ -1784,6 +1830,8 @@ dlgSgPreferences.rbt"Working tree \(file oriented\)"=Working tree \(file oriente
 dlgSgPreferences.tab"Behavior"=Behavior
 dlgSgPreferences.tab"Colors"=Colors
 dlgSgPreferences.tab"Encoding"=Encoding
+dlgSgPreferences.tab"Fetch and Pull"=Fetch and Pull
+dlgSgPreferences.tab"Font and Colors"=Font and Colors
 dlgSgPreferences.tab"Font"=Font
 dlgSgPreferences.tab"Languages"=Languages
 dlgSgPreferences.tab"Pull"=Pull
@@ -1791,6 +1839,11 @@ dlgSgPreferences.tab"Push"=Push
 dlgSgPreferences.tab"Signing"=Signing
 dlgSgPreferences.tab"User"=User
 dlgSgPreferences.tle=Preferences
+dlgSgPreferences.ttpGroupPatterns"<b>Custom labels</b>"=<b>Custom labels</b>
+dlgSgPreferences.ttpGroupPatterns"<b>Grouping logic</b>"=<b>Grouping logic</b>
+dlgSgPreferences.ttpGroupPatterns"<b>Multiple group patterns</b>"=<b>Multiple group patterns</b>
+dlgSgPreferences.ttpGroupPatterns"Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."=\
+ Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'.
 dlgSgProcessKiller.btn"Kill Process"=Kill Process
 dlgSgProcessKiller.btn"Wait"=Wait
 dlgSgProcessKiller.lbl"If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."=\
@@ -2090,6 +2143,8 @@ dlgSgRepositoriesSearch.edt"Found repository \(selected ones will be remembered\
 dlgSgRepositoriesSearch.edt"Search In"=Search In
 dlgSgRepositoriesSearch.hdl=Search existing local repositories
 dlgSgRepositoriesSearch.inf=Select a root directory where the search should start and click 'Start Search''.
+dlgSgRepositoriesSearch.lbl"No repository selected"=No repository selected
+dlgSgRepositoriesSearch.lbl"Searching $1"=Searching $1
 dlgSgRepositoriesSearch.mni"Deselect All"=Deselect All
 dlgSgRepositoriesSearch.mni"Path"=Path
 dlgSgRepositoriesSearch.mni"Select All"=Select All
@@ -2113,6 +2168,9 @@ dlgSgRepositoryOpen.btn"Remove"=Remove
 dlgSgRepositoryOpen.fur=If it is relocated, remove it and add its new location.
 dlgSgRepositoryOpen.hdl%1=Do you want to remove the missing repository '$1'?
 dlgSgRepositoryOpen.tle=Repository Opening
+dlgSgRepositoryRemoveFailed1.fur=This could happen if the repository is open in another window or currently commands are executed.
+dlgSgRepositoryRemoveFailed1.hdl%1=The repository '$1' could not be removed.
+dlgSgRepositoryRemoveFailed1.tle=Remove
 dlgSgRepositoryRemoveMultiGroup.fur=Repositories inside a removed group will be moved out of the group.
 dlgSgRepositoryRemoveMultiGroup.hdl%1=Do you want to remove $1 groups?
 dlgSgRepositoryRemoveMultiRepo.fur=This will keep the repositories on disk, but just let SmartGit forget about them.
@@ -2634,6 +2692,10 @@ dlgSgWorktreeAddNoMoreLocalBranches.tle=Add Worktree
 dlgSgWorktreePruneNoWorktree.fur=All your worktrees are still available.
 dlgSgWorktreePruneNoWorktree.hdl=No worktree to prune.
 dlgSgWorktreePruneNoWorktree.tle=Prune Obsolete Worktrees
+dlgSgWorktreePruneWorktrees.btn"Prune Worktrees"=Prune Worktrees
+dlgSgWorktreePruneWorktrees.fur=Git reported following worktrees as obsolete:
+dlgSgWorktreePruneWorktrees.hdl=Do you want to prune following worktrees?
+dlgSgWorktreePruneWorktrees.tle=Prune Obsolete Worktrees
 dlgSg(Preferences|Pull|RepositorySettings).rbt"Merge fetched remote changes"=Merge fetched remote changes
 dlgSg(Preferences|Pull|RepositorySettings).rbt"Rebase local branch onto fetched changes"=\
  Rebase local branch onto fetched changes
@@ -2678,6 +2740,9 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).chk=Don't show again
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=Remove
 edt"Search For"=Search For
+ntmCredentialHelper"$1 and <b>prepend</b> following lines:"=$1 and <b>prepend</b> following lines:
+ntmCredentialHelper"<b>  helper\=</b>"=<b>  helper\=</b>
+ntmCredentialHelper"<b>\[credential\]</b>"=<b>\[credential\]</b>
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
@@ -2688,6 +2753,13 @@ ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is confi
  SmartGit has detected that <b>credential.helper</b> is configured in config file $1.
 ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
  To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>
+ntmFollowUsOnTwitter"<link1>Facebook</link1>: news"=<link1>Facebook</link1>: news
+ntmFollowUsOnTwitter"<link1>Mastodon</link1>: news, polls, discussions"=<link1>Mastodon</link1>: news, polls, discussions
+ntmFollowUsOnTwitter"<link1>Twitter</link1>: news, polls, discussions"=<link1>Twitter</link1>: news, polls, discussions
+ntmFollowUsOnTwitter"<link1>UserEcho</link1>: improvement ideas, discussions"=<link1>UserEcho</link1>: improvement ideas, discussions
+ntmFollowUsOnTwitter"<link1>YouTube</link1>: tutorial and expert videos"=<link1>YouTube</link1>: tutorial and expert videos
+ntmFollowUsOnTwitter"Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"=\
+ Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!
 ntmFollowUsOnTwitter"It's a great way to help shaping future versions of SmartGit!"=\
  It's a great way to help shaping future versions of SmartGit!
 ntmFollowUsOnTwitter"We are using Twitter to:"=We are using Twitter to:
@@ -2731,6 +2803,7 @@ ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=vote at <link1>alternativ
 nttCredentialHelper"External Credentials Helper detected"=External Credentials Helper detected
 nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Follow SmartGit on Twitter!
 nttFollowUsOnTwitter"Follow on Twitter"=Follow on Twitter
+nttFollowUsOnTwitter"Follow us!"=Follow us!
 nttGeneral"Don't show again"=Don't show again
 nttGeneral"Remind me later"=Remind me later
 nttHighMemoryUsage"Contact Support"=Contact Support
@@ -2826,15 +2899,20 @@ ttpRepositories"<b>Location:\t</b>$1"=<b>Location:\t</b>$1
 ttpRepositories"<b>Modified files or subdirectories</b>"=<b>Modified files or subdirectories</b>
 ttpRepositories"<b>Outgoing Changes:\t</b>$1 commit to push"=<b>Outgoing Changes:\t</b>$1 commit to push
 ttpRepositories"<b>Outgoing Changes:\t</b>$1 commits to push"=<b>Outgoing Changes:\t</b>$1 commits to push
+ttpRepositories"<b>Push Target:\t</b>$1<col1>$2</col1>"=<b>Push Target:\t</b>$1<col1>$2</col1>
 ttpRepositories"<b>Remote:\t</b>$1"=<b>Remote:\t</b>$1
 ttpRepositories"<b>Remotes:\t</b>"=<b>Remotes:\t</b>
 ttpRepositories"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
+ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable"=<b>Tracking State:\t</b>$1 commits pushable
 ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable, $2 commits behind"=\
  <b>Tracking State:\t</b>$1 commits pushable, $2 commits behind
 ttpRepositories"<b>Tracking State:\t</b>identical"=<b>Tracking State:\t</b>identical
 ttpRepositories"<b>Unchanged</b>"=<b>Unchanged</b>
 ttpRepositories"<col1>Remote </col1>$1<b>\t</b>$2"=<col1>Remote </col1>$1<b>\t</b>$2
 ttpRepositories"Bisecting"=Bisecting
+ttpRepositories"Repository at $1 is <b>missing</b>"=Repository at $1 is <b>missing</b>
+ttpRepositories"The remote repository contains new commits."=\
+ The remote repository contains new commits.
 wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=Commit
 wndAnnotate.edt"Highlight"=Highlight
@@ -3114,6 +3192,8 @@ wndLog.col"LFS"=LFS
 wndLog.hnt"Commit files: select 1 commit\nDiff between commits: select 2 commits"=\
  Commit files: select 1 commit\nDiff between commits: select 2 commits
 wndLog.hnt"No file matches the filter."=No file matches the filter.
+wndLog.hnt"No repository selected."=No repository selected.
+wndLog.hnt"The repository is empty."=The repository is empty.
 wndLog.hnt"Working Tree & Index files: select Working Tree\nCommit files: select commit\nDiff between Commits: select 2 commits\nDiff Commit & Index: select commit & Working Tree"=\
  Working Tree & Index files: select Working Tree\nCommit files: select commit\nDiff between Commits: select 2 commits\nDiff Commit & Index: select commit & Working Tree
 wndLog.mni"Cherry-Pick $1 to '$2'"=Cherry-Pick $1 to '$2'
@@ -3136,6 +3216,10 @@ wndLog.mni"Unstage Hunk"=Unstage Hunk
 wndLog.mni"Unstage Innerline Change"=Unstage Innerline Change
 wndLog.mni"Unstage Line"=Unstage Line
 wndLog.mni"Unstage Selection"=Unstage Selection
+wndLog.mniFlowConfigure=Configure
+wndLog.mniOpen=Open from Working Tree
+wndLog.mniWindowLayoutReset=Reset Perspective
+wndLog.tbr"Add Branch"=Add Branch
 wndLog.tbt"If selected and Index as well as Working Tree changes are available, show them separately."=\
  If selected and Index as well as Working Tree changes are available, show them separately.
 wndLog.tbt"Reading incoming pull requests from '$1'."=\
