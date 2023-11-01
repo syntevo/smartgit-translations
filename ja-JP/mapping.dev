@@ -760,9 +760,9 @@ dlgSgClone.inf"Specify the local directory for the new repository."=\
 dlgSgClone.inf"Specify the repository to clone."=クローンを作成するリポジトリを指定します。
 dlgSgClone.lbl"Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."=\
  注: プル または フェッチ では他の参照は取得されません。「追加のフェッチ」 を使用する必要があります。
-dlgSgClone.lbl"Please wait ..."=
+dlgSgClone.lbl"Please wait ..."=しばらくお待ちください...
 #                             !=Please wait ...
-dlgSgClone.lbl"Steps"=
+dlgSgClone.lbl"Steps"=ステップ
 #                   !=Steps
 dlgSgClone.lbl"e.g. https://user@server:port/path/to/repository"=例: https://user@server:port/path/to/repository
 dlgSgClone.mni"Add Hosting Provider"=ホスティングプロバイダーを追加
@@ -773,11 +773,11 @@ dlgSgClone.rbt"Local repository"=ローカルリポジトリ
 dlgSgClone.rbt"Remote Git or SVN repository"=Git または SVN のリモートリポジトリ
 dlgSgClone.rbt"Remote repository"=リモートリポジトリ
 dlgSgClone.tle=クローン
-dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=
+dlgSgClone.ttpPartialWarning"<b>Warning!</b>"=<b>警告！</b>
 #                                           !=<b>Warning!</b>
-dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view for possible warnings."=
+dlgSgClone.ttpPartialWarning"Once the clone has finished, check the Output view for possible warnings."=クローンが完了したら、「出力」ビューで警告が表示されていないか確認してください。
 #                                                                                                     !=Once the clone has finished, check the Output view for possible warnings.
-dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=
+dlgSgClone.ttpPartialWarning"This functionality depends on the capabilities of your server."=この機能はサーバーの機能に依存します。
 #                                                                                          !=This functionality depends on the capabilities of your server.
 dlgSgCloneRepositoryType.btn"Git"==Git
 dlgSgCloneRepositoryType.btn"SVN"==SVN
