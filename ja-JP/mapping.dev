@@ -3218,7 +3218,7 @@ wndConflictSolver.tbtView-layout-right-merge=マージファイルと右のフ�
 wndConflictSolver.tle"$1 - Conflict Solver"=
 #                                         !=$1 - Conflict Solver
 wndDeepgit.btn"Go Deeper"=さらに深く
-wndDeepgit.btn"Investigate"=
+wndDeepgit.btn"Investigate"==Investigate
 #                         !=Investigate
 wndDeepgit.col"File"=ファイル
 wndDeepgit.col"Modifications"=変更点
@@ -3240,7 +3240,7 @@ wndDeepgit.ihp"This view shows the diff for the selected file from the above \*F
  このビュー\(差分ビュー\)は、上記の \*Files\* ビューから選択したファイルの差分を表示します。
 wndDeepgit.ihp"This view shows the diff for the selected origin candidate\\/file from the above \*Origin Candidates\*\\/\*Files\* view."=\
  このビューは、上の \*Origin候補\*\\/\*ファイル\* ビューから選択されたOrigin候補\\/ファイルの差分を表示します。
-wndDeepgit.lbl"Preview of $1 \(\u00b7Go Deeper will take you there\)"=
+wndDeepgit.lbl"Preview of $1 \(\u00b7Go Deeper will take you there\)"=$1 のプレビュー \(\u00b7Go Deeper でそこへ移動します。\)
 #                                                                   !=Preview of $1 \(\u00b7Go Deeper will take you there\)
 wndDeepgit.lbl"Similarity detection was only performed for single lines, some results may be omitted \(View\|Extend Lines to Blocks\)"=\
  類似性検出は単一行に対してのみ実行されました。一部の結果は省略される場合があります \(表示\|行をブロックに拡張\)
@@ -3292,11 +3292,11 @@ wndDeepgit.lblTextHeader"File"=ファイル
 wndDeepgit.lblTextHeader"Msg"=メッセージ
 wndDeepgit.lblTextHeader"at"==at
 wndDeepgit.lblTextHeader"by"==by
-wndDeepgit.lblTextHeader"file didn't exist before commit"=
+wndDeepgit.lblTextHeader"file didn't exist before commit"=コミット前にファイルは存在していませんでした。
 #                                                       !=file didn't exist before commit
-wndDeepgit.lblTextHeader"file doesn't exist after commit"=
+wndDeepgit.lblTextHeader"file doesn't exist after commit"=コミット後にファイルは存在しません。
 #                                                       !=file doesn't exist after commit
-wndDeepgit.lblTextHeader"no file selected"=
+wndDeepgit.lblTextHeader"no file selected"=ファイルが選択されていません
 #                                        !=no file selected
 wndDeepgit.lblTextHeader"on"==on
 wndDeepgit.mni"Copy Details"=詳細をコピー
@@ -3326,11 +3326,11 @@ wndDeepgit.mniGoto-previous-diff=前の変更
 wndDeepgit.mniHighlightBlameChanges=現在のBlameコミットの変更をハイライト
 wndDeepgit.mniHighlightOriginChanges=現在のOriginコミットの変更をハイライト
 wndDeepgit.mniIgnoreWhitespaceOnlyChanges=空白の変更を無視
-wndDeepgit.mniLicenseAgreement=ライセンス契約
+wndDeepgit.mniLicenseAgreement=ライセンス規約
 wndDeepgit.mniNextChange=次の変更
 wndDeepgit.mniOpenFileLog=ファイルログを開く
 wndDeepgit.mniOpenRepositoryLog=リポジトリログを開く
-wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
+wndDeepgit.mniOptimizeCreationOrigins==Optimize 'Appeared Here' Origins
 wndDeepgit.mniPerspectiveBlameOrigin=ブレーム+Origins パースペクティブ
 wndDeepgit.mniPerspectiveBlameSimple=ブレームパースペクティブ
 wndDeepgit.mniPerspectiveCommit=ログパースペクティブ
@@ -3342,9 +3342,9 @@ wndDeepgit.mniSearch-find=検索
 wndDeepgit.mniSearch-next=次を検索
 wndDeepgit.mniSearch-previous=前を検索
 wndDeepgit.mniSetEncoding=エンコーディング
-wndDeepgit.mniShowAtRefs=Show At Refs
+wndDeepgit.mniShowAtRefs==Show At Refs
 wndDeepgit.mniShowLinePrefixes=行頭に追加の情報を表示
-wndDeepgit.mniShowOnRefs=Show On Refs
+wndDeepgit.mniShowOnRefs==Show On Refs
 wndDeepgit.mniToggleLineHistory=行の履歴
 wndDeepgit.mniViewToolbar=ツールバーを表示
 wndDeepgit.mniWindowHorizontalLayout=左右にブレームとOriginsを並べる
@@ -3379,9 +3379,9 @@ wndDeepgit.tbtPerspectiveBlameSimple=他のOriginがない単純なケースで�
 wndDeepgit.tbtPerspectiveCommit=ログを調査します。
 wndDeepgit.tbtPerspectiveHistory=ファイルのリビジョン間の差分を調査します。
 wndDeepgit.tbtPerspectiveOrigins=その行が発生した場所で他に何が起こったのかを調査します。\n\n候補となるOriginを調べるには、まずそれらを評価する必要があります。まず、\[ファイル\]→\[開く\] で調査対象のファイルを選択し、その中の行を選択します。そして、可能性のあるOriginの計算が完了するまで待ちます。
-wndDeepgit.tle"$1 - Investigate"=
+wndDeepgit.tle"$1 - Investigate"==$1 - Investigate
 #                              !=$1 - Investigate
-wndDeepgit.tle"Investigate"=
+wndDeepgit.tle"Investigate"==Investigate
 #                         !=Investigate
 wndEditor.mni"CR \(classic macOS\)"=CR \(クラシック macOS\)
 wndEditor.mni"CR+LF \(Windows\)"==CR+LF \(Windows\)
