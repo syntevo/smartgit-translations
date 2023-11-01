@@ -599,7 +599,7 @@ dlgSgBranchAddCheckout.err"This branch already exists at this commit."=\
 dlgSgBranchAddCheckout.hdl"Add branch at commit $1"=コミット  $1  でブランチ追加
 dlgSgBranchAddCheckout.hdl"Add branch at current HEAD commit"=\
  現在のHEADコミットにブランチを追加
-dlgSgBranchAddCheckout.hdl"Create new branch at current branch \(HEAD\)"=
+dlgSgBranchAddCheckout.hdl"Create new branch at current branch \(HEAD\)"=現在のブランチ \(HEAD\) に新しいブランチを作成します
 #                                                                      !=Create new branch at current branch \(HEAD\)
 dlgSgBranchAddCheckout.inf=作成するローカルブランチの名前を入力してください。
 dlgSgBranchAddCheckout.tle=ブランチを追加
