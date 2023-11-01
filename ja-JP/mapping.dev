@@ -260,13 +260,13 @@ dlgScDialogAssertionHandlerLinkageError.btn"Force Exit"=強制終了
 dlgScDialogAssertionHandlerLinkageError.lbl"SmartGit has detected inconsistencies within its installation files \(JAR files\), what has most likely been caused by a faulty installation.\n\nPlease uninstall SmartGit completely, make sure there are no more installation files left \(especially JAR files\), then reinstall.\n\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."=\
  SmartGit のインストール ファイル (JAR ファイル) に不整合があることが判明しました。\n\nSmartGit を完全にアンインストールし、インストール ファイル (特に JAR ファイル) が残っていないことを確認してから、再インストールしてください。\n\n問題が解決しない場合は、次のログ ファイルを smartgit@syntevo.com に添付して送信してください。
 dlgScDialogAssertionHandlerLinkageError.tle=内部エラー
-dlgScDialogAssertionHandlerOutOfMemory.btn"Force Exit"=
+dlgScDialogAssertionHandlerOutOfMemory.btn"Force Exit"=強制終了
 #                                                    !=Force Exit
-dlgScDialogAssertionHandlerOutOfMemory.fur%1=
+dlgScDialogAssertionHandlerOutOfMemory.fur%1=SmartGit を再起動することを強くお勧めします。\n\n最大メモリ制限を増やすには、$1 を編集し、-Xmx オプションの値を増やします。例えば、-Xmx1024m を設定し（まだ存在していない場合は追加し）、SmartGit を再起動してください。
 #                                          !=It is strongly recommended to restart SmartGit.\n\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \(or add it if not yet existing\) and restart SmartGit.
-dlgScDialogAssertionHandlerOutOfMemory.hdl=
+dlgScDialogAssertionHandlerOutOfMemory.hdl=SmartGit はメモリ不足に陥りました!
 #                                        !=SmartGit ran out of memory!
-dlgScDialogAssertionHandlerOutOfMemory.tle=
+dlgScDialogAssertionHandlerOutOfMemory.tle=メモリ不足
 #                                        !=Out Of Memory
 dlgScEvaluationReminderContinue.btn"Continue"=続ける
 dlgScEvaluationReminderContinue.btn"Register"=登録
