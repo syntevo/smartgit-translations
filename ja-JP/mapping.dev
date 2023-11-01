@@ -2914,17 +2914,17 @@ ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is confi
  SmartGit は、設定ファイル $1 で<b>credential.helper</b>が設定されていることを検出しました。
 ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
  この設定を無効にするには、上記の設定ファイルを開き、 <b>\[credential\]</b>セクションの<b>helper\=</b>の行頭に<b>#</b>を付加してコメントアウトしてください。
-ntmFollowUsOnTwitter"<link1>Facebook</link1>: news"=
+ntmFollowUsOnTwitter"<link1>Facebook</link1>: news"=<link1>Facebook</link1>: ニュース
 #                                                 !=<link1>Facebook</link1>: news
-ntmFollowUsOnTwitter"<link1>Mastodon</link1>: news, polls, discussions"=
+ntmFollowUsOnTwitter"<link1>Mastodon</link1>: news, polls, discussions"=<link1>Mastodon</link1>: ニュース、投票、ディスカッション
 #                                                                     !=<link1>Mastodon</link1>: news, polls, discussions
-ntmFollowUsOnTwitter"<link1>Twitter</link1>: news, polls, discussions"=
+ntmFollowUsOnTwitter"<link1>Twitter</link1>: news, polls, discussions"=<link1>Twitter</link1>: ニュース、投票、ディスカッション
 #                                                                    !=<link1>Twitter</link1>: news, polls, discussions
-ntmFollowUsOnTwitter"<link1>UserEcho</link1>: improvement ideas, discussions"=
+ntmFollowUsOnTwitter"<link1>UserEcho</link1>: improvement ideas, discussions"=<link1>UserEcho</link1>：改善のアイデア、ディスカッション
 #                                                                           !=<link1>UserEcho</link1>: improvement ideas, discussions
-ntmFollowUsOnTwitter"<link1>YouTube</link1>: tutorial and expert videos"=
+ntmFollowUsOnTwitter"<link1>YouTube</link1>: tutorial and expert videos"=<link1>YouTube</link1>:  チュートリアルと専門家の動画
 #                                                                      !=<link1>YouTube</link1>: tutorial and expert videos
-ntmFollowUsOnTwitter"Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"=
+ntmFollowUsOnTwitter"Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"=お好きなソーシャル・メディア・プラットフォームで私たちをフォローして、ニュースを受け取ったり、機能について学んだり、 要望やフィードバックでSmartGitの将来のバージョンに影響を与えたりしてください！
 #                                                                                                                                                                                     !=Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!
 ntmFollowUsOnTwitter"It's a great way to help shaping future versions of SmartGit!"=\
  これは、SmartGit の将来のバージョンの形成を助ける素晴らしい方法です!
@@ -2969,7 +2969,7 @@ ntmVoteForUs"vote at <link1>alternativeto.net</link1>"=<link1>alternativeto.net<
 nttCredentialHelper"External Credentials Helper detected"=外部の認証情報ヘルパーが検出されました
 nttFollowUsOnTwitter"Follow SmartGit on Twitter!"=Twitter で SmartGit をフォローしてください !
 nttFollowUsOnTwitter"Follow on Twitter"=Twitterでフォロー
-nttFollowUsOnTwitter"Follow us!"=
+nttFollowUsOnTwitter"Follow us!"=私たちをフォローしてください！
 #                              !=Follow us!
 nttGeneral"Don't show again"=次回から表示しない
 nttGeneral"Remind me later"=後で通知する
