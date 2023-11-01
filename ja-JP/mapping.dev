@@ -2949,7 +2949,7 @@ ntmPreferencesChangesRestartRequired"Some preferences options have been changed 
  SmartGit の再起動後にのみ適用される一部の設定オプションが変更されました。
 ntmProblematicGcConfiguration"Git's garbage collection is \(by default\) configured to run in background \(gc.autoDetach\) in your .gitconfig. This configuration is appropriate for command line client, but may cause troubles in combinations with GUI clients like SmartGit."=\
  Gitのガベージコレクションは、\(デフォルトでは\) バックグラウンドで実行するように設定されています \(.gitconfig 内の gc.autoDetach\)。この設定はコマンドラインクライアントには適していますが、SmartGitのようなGUIクライアントとの組み合わせでは問題が発生する可能性があります。
-ntmRepositoryGitCleanup"The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."=
+ntmRepositoryGitCleanup"The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."=リポジトリ '$1' には、多数の loose objects や使用されていないオブジェクトが含まれています。クリーンアップを実行すると、ディスクスペースが節約され、パフォーマンスが向上します。SmartGitは、アイドル状態のときにこれを試みます。
 #                                                                                                                                                                                                                           !=The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle.
 ntmSupportExpired"To extend your support, please purchase an update license and upgrade to the latest SmartGit version."=\
  サポートを延長するには、更新ライセンスを購入し、SmartGit の最新バージョンにアップグレードしてください。
@@ -2984,9 +2984,9 @@ nttPreferencesChangesRestartRequired"Restart Required"=再起動が必要
 nttPreferencesChangesRestartRequired"Restart SmartGit"=SmartGitを再起動する
 nttProblematicGcConfiguration"Disable Background GC"=バックグラウンドでのGCを無効にする
 nttProblematicGcConfiguration"Possibly problematic Git GC configuration"=Git GC の設定に問題がある可能性があります。
-nttRepositoryGitCleanup"Repository needs cleanup."=
+nttRepositoryGitCleanup"Repository needs cleanup."=リポジトリのクリーンアップが必要です。
 #                                                !=Repository needs cleanup.
-nttRepositoryGitCleanup"Run Garbage Collector Now"=
+nttRepositoryGitCleanup"Run Garbage Collector Now"=今すぐガベージコレクタを実行
 #                                                !=Run Garbage Collector Now
 nttSupportExpired"Purchase Update"=アップデートを購入
 nttSupportExpired"Your support period has expired on $1."=\
