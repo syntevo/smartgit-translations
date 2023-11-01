@@ -3168,7 +3168,7 @@ wndAnnotate.rbt"Commit Index"=コミット Index
 wndAnnotate.rbt"Time"=時間
 wndAnnotate.tab"Document"=ドキュメント
 wndAnnotate.tab"History of current line"=現在の行の履歴
-wndCompare.lbl"Force Compare"=
+wndCompare.lbl"Force Compare"=強制的に比較
 #                           !=Force Compare
 wndCompare.mniRefresh=再読込
 wndCompare.mniView-layout-left-beside-right=左右に並べて表示
@@ -3179,7 +3179,7 @@ wndCompare.tbtFile-save=ファイルの変更を保存します。
 wndCompare.tbtGoto-next-diff=次の変更点に移動します。
 wndCompare.tbtGoto-previous-diff=前の変更点に移動します。
 wndCompare.tbtRefresh=ファイル システムからコンテンツを再読み込みし、再比較します。
-wndCompare.tle"$1 - File Compare"=
+wndCompare.tle"$1 - File Compare"=$1 - ファイル比較
 #                               !=$1 - File Compare
 wndConflictSolver.mni"Apply Inner-line Difference to Working Tree"=\
  作業ツリーに行内の差分を適用する
