@@ -531,11 +531,11 @@ dlgSgAbout.tab"Credits"=クレジット
 dlgSgAbout.tab"Information"=情報
 dlgSgAbout.tab"Licensee"=ライセンス
 dlgSgAbout.tle=SmartGitについて
-dlgSgApplicationAlreadyRunning.fur%1=
+dlgSgApplicationAlreadyRunning.fur%1=別々のインスタンスを実行する代わりに、SmartGit で複数のプロジェクト ウィンドウを開くことができます。\n\n SmartGit のインスタンスがもう実行されていないことが確実な場合は、ロック ファイルを削除する必要があります。\n $1
 #                                  !=Instead of running separate instances you can open multiple project windows in SmartGit.\n\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\n$1
-dlgSgApplicationAlreadyRunning.hdl=
+dlgSgApplicationAlreadyRunning.hdl=SmartGit が既に実行されているようです。
 #                                !=It seems that SmartGit is already running.
-dlgSgApplicationAlreadyRunning.tle=
+dlgSgApplicationAlreadyRunning.tle==SmartGit
 #                                !=SmartGit
 dlgSgApplicationUpgradeError.fur=プロセスを開始できませんでした。
 dlgSgApplicationUpgradeError.hdl=アップデータの直接起動に失敗しました。
