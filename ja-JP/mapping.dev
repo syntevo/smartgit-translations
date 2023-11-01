@@ -5,27 +5,27 @@
 *.btn"Next >"=次へ >
 *.btn"OK"==OK
 *.hnt"Filter"=フィルタ
-(dlgSgPreferences|dlgSgRepositorySettings).lbl"Enter regular expressions defining the grouping. Example: `refs\\/tags\\/build\(?<name>.\\\*\)`"=
+(dlgSgPreferences|dlgSgRepositorySettings).lbl"Enter regular expressions defining the grouping. Example: `refs\\/tags\\/build\(?<name>.\\\*\)`"=グルーピングを定義するための正規表現を入力します。 例: `refs\\/tags\\/build\(?<name>.\\\*\)`
 #                                                                                                                                             !=Enter regular expressions defining the grouping. Example: `refs\\/tags\\/build\(?<name>.\\\*\)`
-(dlgSgPreferences|dlgSgRepositorySettings).lbl"Optionally, enter regular expressions defining additional refs to preserve."=
+(dlgSgPreferences|dlgSgRepositorySettings).lbl"Optionally, enter regular expressions defining additional refs to preserve."=必要に応じて、追加の保持対象となる参照を定義する正規表現を入力してください。
 #                                                                                                                         !=Optionally, enter regular expressions defining additional refs to preserve.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Example: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Example: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>"=例: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
 #                                                                                                                                                          !=Example: <tt>build:refs/tags/build\(?&lt;name&gt;.\*\),version:refs/tags/\\d+\\.\\d+\\..\*</tt>
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs."=次に、グループに残っているリファレンス\(refs\)のうち、子コミットから親コミットへと渡されるものがあります。 これらのリファレンスは、再びマッチンググループに割り当てられ、他のリファレンスに置き換えられる場合もあれば、更新されたリファレンスに置き換えられる場合もあります。
 #                                                                                                                                                                                                                                                                                          !=Next, the refs remaining in the group will be passed on from child to parent commit. Now, once again they will be assigned to matching groups, possibly replacing other refs or possibly becoming replaced by more recent refs.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>."=パターンは、'refs' プレフィックスを含むフル リファレンス名に対してマッチングされます。マッチングしたリファレンス名は、最後のパス セグメント（'/'） までを短縮形で表示します。たとえば、<tt>refs/tags/build-.\*<\/tt> はタグ <tt>refs/tags/build-123<\/tt> にマッチし、その名前が <tt>build-123<\/tt> に短縮されます。また、<tt>name<\/tt> という名前の <i>named regex capturing group<\/i> を追加することで、名前の取り出しをさらにカスタマイズすることができます。たとえば、<tt>refs/tags/build-\\(?&lt;name&gt;.\*\\)<\/tt> は <tt>refs/tags/build-123<\/tt> にマッチし、その名前が <tt>123<\/tt> に短縮されます。
 #                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      !=Patterns will be matched against the full ref-name, including the <tt>refs</tt>-prefix. For a matching ref, its name will be shortened to the last path-segment \('\\/'\). For example, <tt>refs/tags/build-.\*</tt> will match a tag <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>build-123</tt>. You may add a <i>named regex capturing group</i> called <tt>name</tt> to further customize the name extraction. For example, <tt>refs/tags/build-\(?&lt;name&gt;.\*\)</tt> will match <tt>refs/tags/build-123</tt> and its name will be shortened to <tt>123</tt>.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group."=Refs はグループに分類されます。リポジトリのルートログを走査する際に、Refs はまず対応するグループに割り当てられます。各グループは、最後に見つかった Ref のみを格納します。つまり、新しい Ref が見つかった場合、現在のグループにあるすべての Ref は置き換えられます。
 #                                                                                                                                                                                                                                                                                                                                                  !=Refs will be categorized into groups: when traversing the repository root log, refs will first be assigned to matching groups. Every group will store only the most recently encountered ref, i.e. if a new ref is encountered, it will replace all existing refs in the current group.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'."=パターンにタイトルを割り当てるには、先頭に <tt>title:</tt> を付けます。タイトルに使用できるのは、文字、数字、'_' のみです。
 #                                                                                                                                                                                      !=You can assign a title to a pattern by prefixing it by <tt>title:</tt>; the title may only contain letters, digits and '_'.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpGroupPatterns"You can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group."=カンマ\(<tt>,</tt>\)で区切られた複数のグループパターンを指定することができ、指定した順番で処理されます。あるRefにマッチする2つのグループを定義した場合、そのRefは最初のグループに割り当てられます。
 #                                                                                                                                                                                                                                                                                               !=You can specify multiple groups patterns, separated by comma \(<tt>,</tt>\), which will be processed in the specified order: if you define two groups which both match a set of refs, such refs will be assigned to the first group.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"Example: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"Example: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>"=例：<tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
 #                                                                                                                    !=Example: <tt>refs\\/remotes\\/origin\\/release-.\\\*</tt>
-(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"For example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"For example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation."=例えば、リリースブランチがそれぞれ独自のグループとして扱われ、ロググラフに表示されたり、'on-refs' の計算で別々に扱われるようにしたいとします。
 #                                                                                                                                                                                                                                                                !=For example, you want to make sure that each of your release branches is considered as group on its own and thus show up in the log graph or will be treated separately by the 'on-refs' calculation.
-(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>."=
+(dlgSgPreferences|dlgSgRepositorySettings).ttpSinglePattern"In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>."=<b>単一のパターン</b> に一致するrefについては、グループロジックとは別にそのrefがグループに割り当てられます。これは、<b>グループパターン</b> で明示的なパターンとして各refを列挙するのと同じです。
 #                                                                                                                                                                                                                                                                                   !=In addition to the grouping logic, a ref matching the <b>Single Patterns</b> will be assigned to a group on its own. This is a shortcut for enumerating each of these refs as explicit pattern in <b>Group Patterns</b>.
 (wndLog|wndProject).btn"Compare"=比較
 #                              !=Compare
@@ -1599,7 +1599,7 @@ dlgSgOutput.tle"Output"=出力
 dlgSgPingRepositoryFailed.fur%1=リポジトリURLを確認してください。\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=リポジトリ'$1'に接続できませんでした。
 dlgSgPingRepositoryFailed.tle=クローン
-dlgSgPreferences.btn"Actions"=
+dlgSgPreferences.btn"Actions"=アクション
 #                           !=Actions
 dlgSgPreferences.btn"Add"=追加
 dlgSgPreferences.btn"Assign"=割り当て
@@ -1624,7 +1624,7 @@ dlgSgPreferences.cdl"Background Commands"=バックグラウンド処理
 dlgSgPreferences.cdl"Built-in Text Editors"=内蔵テキストエディタ
 dlgSgPreferences.cdl"Commands"=コマンド
 dlgSgPreferences.cdl"Conflict Solvers"=コンフリクトソルバー
-dlgSgPreferences.cdl"Diff Tools"=Diffツール
+dlgSgPreferences.cdl"Diff Tools"=比較ツール
 dlgSgPreferences.cdl"Executables"=実行可能ファイル
 dlgSgPreferences.cdl"Git Config"==Git Config
 dlgSgPreferences.cdl"Git Executable"=Git 実行ファイル
@@ -1688,7 +1688,7 @@ dlgSgPreferences.chk"Highlight current line in text content"=\
  現在の行をハイライトする
 dlgSgPreferences.chk"Home and end: operate on line, not the document"=\
  Home , End キー : ドキュメントではなく、行に対して操作する
-dlgSgPreferences.chk"Include untracked files"=追跡されていないファイルの追加
+dlgSgPreferences.chk"Include untracked files"=追跡されていないファイルを含める
 dlgSgPreferences.chk"Initialize new submodules"=新しいサブモジュールを初期化
 dlgSgPreferences.chk"Left and right cursor moves: limit to current line"=\
  左右のカーソル移動：現在の行に制限
@@ -1735,11 +1735,11 @@ dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
  空白でない前の行のインデントを使用
 dlgSgPreferences.chk"Use pre-installed \(\"system\"\) Git-Flow\*"=プリインストールされた\("system"\) Git-Flowの使用\*
 dlgSgPreferences.chk"Warn for slow rename detection"=リネームの検出に時間がかかる場合は警告する
-dlgSgPreferences.cmb"Automatically select light/dark"=
+dlgSgPreferences.cmb"Automatically select light/dark"=自動的にライト/ダークを選択
 #                                                   !=Automatically select light/dark
-dlgSgPreferences.cmb"Dark \(independent of system\)"=
+dlgSgPreferences.cmb"Dark \(independent of system\)"=ダーク \(システムに依存しない\)
 #                                                  !=Dark \(independent of system\)
-dlgSgPreferences.cmb"Light \(independent of system\)"=
+dlgSgPreferences.cmb"Light \(independent of system\)"=ライト \(システムに依存しない\)
 #                                                   !=Light \(independent of system\)
 dlgSgPreferences.col"Accelerator"=ショートカット
 dlgSgPreferences.col"Account"=アカウント
@@ -1758,7 +1758,7 @@ dlgSgPreferences.col"Patterns"=パターン
 dlgSgPreferences.col"Repository"=リポジトリ
 dlgSgPreferences.col"Shortcut"=ショートカット
 dlgSgPreferences.col"Value"=値
-dlgSgPreferences.edt"Comments in Message"=
+dlgSgPreferences.edt"Comments in Message"=メッセージ内のコメント
 #                                       !=Comments in Message
 dlgSgPreferences.edt"Date Format\*"=日付形式\*
 dlgSgPreferences.edt"Double-Clicking Local File"=ローカルファイルのダブルクリック
@@ -1773,7 +1773,7 @@ dlgSgPreferences.edt"Functionality\*"=機能性\*
 dlgSgPreferences.edt"GPG Program"=GPG プログラム
 dlgSgPreferences.edt"Git Executable"=Git 実行ファイル
 dlgSgPreferences.edt"Host"=ホスト
-dlgSgPreferences.edt"If nothing is staged"=
+dlgSgPreferences.edt"If nothing is staged"=ステージングされていない場合
 #                                        !=If nothing is staged
 dlgSgPreferences.edt"Known credentials"=既知の資格情報
 dlgSgPreferences.edt"Language\*"=言語\*
@@ -1793,40 +1793,40 @@ dlgSgPreferences.edt"Theme"=テーマ
 dlgSgPreferences.edt"Theme\*"=テーマ\*
 dlgSgPreferences.edt"Time Format\*"=時間形式\*
 dlgSgPreferences.edt"Username"=ユーザ名
-dlgSgPreferences.hnt"No modified low-level properties.\nStart searching by typing."=
+dlgSgPreferences.hnt"No modified low-level properties.\nStart searching by typing."=変更されたローレベルプロパティはありません。\n検索をするには、文字列を入力してください。
 #                                                                                 !=No modified low-level properties.\nStart searching by typing.
 dlgSgPreferences.hnt"Search"=検索
-dlgSgPreferences.lbl"A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\]."=
+dlgSgPreferences.lbl"A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\]."=サンプルの 'クラッシュフットプリント' は、\[ドキュメント https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html\] にあります。
 #                                                                                                                                               !=A sample 'crash footprint' can be found in the \[https://docs.syntevo.com/SmartGit/Latest/Bug-Reports.html documentation\].
-dlgSgPreferences.lbl"All directories"=
+dlgSgPreferences.lbl"All directories"=すべてのディレクトリ
 #                                   !=All directories
-dlgSgPreferences.lbl"All files"=
+dlgSgPreferences.lbl"All files"=すべてのファイル
 #                             !=All files
-dlgSgPreferences.lbl"All files/directories"=
+dlgSgPreferences.lbl"All files/directories"=すべてのファイル/ディレクトリ
 #                                         !=All files/directories
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  アプリケーションは、[SmartGitについて] ダイアログで手動で更新できます
-dlgSgPreferences.lbl"Built-in Conflict Solver"=
+dlgSgPreferences.lbl"Built-in Conflict Solver"=内蔵のコンフリクトソルバー
 #                                            !=Built-in Conflict Solver
-dlgSgPreferences.lbl"Built-in file compare"=
+dlgSgPreferences.lbl"Built-in file compare"=内蔵の比較ツール
 #                                         !=Built-in file compare
 dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied."=\
  ローレベルのプロパティを変更すると、SmartGitの安定性や性能に悪影響を及ぼす可能性があります。\r自分が何をしているのか確信が持てる場合のみ、作業を続行するべきです。\r変更したプロパティの末尾に\*が付いている場合は、再起動が必要です。
-dlgSgPreferences.lbl"Clone"=
+dlgSgPreferences.lbl"Clone"=クローン
 #                         !=Clone
-dlgSgPreferences.lbl"Commit Dialog"=
+dlgSgPreferences.lbl"Commit Dialog"=コミットダイアログ
 #                                 !=Commit Dialog
-dlgSgPreferences.lbl"Commit View"=
+dlgSgPreferences.lbl"Commit View"=コミットビュー
 #                               !=Commit View
-dlgSgPreferences.lbl"Commit"=
+dlgSgPreferences.lbl"Commit"=コミット
 #                          !=Commit
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
  ツールメニューに表示される外部ツールを定義します。名前の前に「\*」が付いているものは、「開く」コマンドで使用できます。
-dlgSgPreferences.lbl"Diff tool:"=
+dlgSgPreferences.lbl"Diff tool:"=比較ツール:
 #                              !=Diff tool:
-dlgSgPreferences.lbl"External tool:"=
+dlgSgPreferences.lbl"External tool:"=外部ツール:
 #                                  !=External tool:
-dlgSgPreferences.lbl"Garbage Collector"=
+dlgSgPreferences.lbl"Garbage Collector"=ガベージコレクタ
 #                                     !=Garbage Collector
 dlgSgPreferences.lbl"Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."=\
  ここでは、あなたのアカウントの 'gitconfig' を編集することができます。この設定には、すべてのリポジトリのデフォルト値が含まれています。
@@ -1836,31 +1836,31 @@ dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, 
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git installed on your system. Provide here the full path to the installed 'git' executable."=\
  SmartGitのすべての機能を使用するには、システムにコマンドラインGitがインストールされている必要があります。インストールした'git'実行ファイルのフルパスを入力してください。
-dlgSgPreferences.lbl"Local and Remote Changes"=
+dlgSgPreferences.lbl"Local and Remote Changes"=ローカルとリモートの変更
 #                                            !=Local and Remote Changes
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
  注：パスワードは、SmartGitの設定領域にプレーンテキストで保存されます。
-dlgSgPreferences.lbl"Page title"=
+dlgSgPreferences.lbl"Page title"=ページタイトル
 #                              !=Page title
-dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=
+dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。送信されるデータには、ユーザー名、メールアドレス、ファイルの内容、ファイル パス、サーバー名など、\*機密情報となりうる情報は含まれていません。\*
 #                                                                                                                                                                                                                                                                        !=Please help to improve SmartGit's quality by automatically sending 'crash footprints' and usage statistics. Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
 dlgSgPreferences.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
- SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。クラッシュフットプリント」には、お使いのマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は一切含まれません。
-dlgSgPreferences.lbl"Preview:"=
+ 「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 " このオプションは、後で [環境設定] で変更できます。\n\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。
+dlgSgPreferences.lbl"Preview:"=プレビュー:
 #                            !=Preview:
-dlgSgPreferences.lbl"Push"=
+dlgSgPreferences.lbl"Push"=プッシュ
 #                        !=Push
-dlgSgPreferences.lbl"Refresh"=
+dlgSgPreferences.lbl"Refresh"=更新
 #                           !=Refresh
-dlgSgPreferences.lbl"Stash"=
+dlgSgPreferences.lbl"Stash"=スタッシュ
 #                         !=Stash
-dlgSgPreferences.lbl"The last check was performed on $1."=
+dlgSgPreferences.lbl"The last check was performed on $1."=前回のチェックは $1 に実施されました。
 #                                                       !=The last check was performed on $1.
 dlgSgPreferences.lbl"The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\(s\) connections if no reasonable system proxy configuration seems to be present already \(see documentation for details\)."=\
  このプロキシは、主に「新しいバージョンの確認」に使用されます。\rシステムのプロキシ設定が適切でない場合には、Git HTTP\(S\)の接続にも使用されます。(詳細はドキュメントを参照してください)
 dlgSgPreferences.lbl"This file will be sent as is: $1"=\
  このファイルはそのまま送信されます: $1
-dlgSgPreferences.lbl"To manually update in-place use the '...' button located next to the version number in the About dialog."=
+dlgSgPreferences.lbl"To manually update in-place use the '...' button located next to the version number in the About dialog."=手動でインプレースアップデートするには、バージョン情報ダイアログのバージョン番号の横にある「...」ボタンを使用します。
 #                                                                                                                            !=To manually update in-place use the '...' button located next to the version number in the About dialog.
 dlgSgPreferences.lbl"When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."=\
  ファイルを比較する際には、このリストを上から下に向かって検索し、一致する 比較 ツールを探します。\r見つからない場合は、テキスト ファイルの場合は内蔵のファイル比較が使用されます。
@@ -1890,16 +1890,16 @@ dlgSgPreferences.mni"Default"=デフォルト
 dlgSgPreferences.mni"Details"=詳細
 dlgSgPreferences.mni"Dictionary File"=辞書ファイル
 dlgSgPreferences.mni"Edit"=編集
-dlgSgPreferences.mni"Export"=
+dlgSgPreferences.mni"Export"=エクスポート
 #                          !=Export
 dlgSgPreferences.mni"File Pattern"=ファイルパターン
-dlgSgPreferences.mni"Import"=
+dlgSgPreferences.mni"Import"=インポート
 #                          !=Import
 dlgSgPreferences.mni"Language"=言語
 dlgSgPreferences.mni"Name"=名前
 dlgSgPreferences.mni"Patterns"=パターン
 dlgSgPreferences.mni"Repository"=リポジトリ
-dlgSgPreferences.mni"Reset All to Defaults"=
+dlgSgPreferences.mni"Reset All to Defaults"=すべての設定をデフォルトに戻す
 #                                         !=Reset All to Defaults
 dlgSgPreferences.mni"Reset to Default"=デフォルトにリセット
 dlgSgPreferences.mni"Reset"=リセット
@@ -1908,17 +1908,17 @@ dlgSgPreferences.mni"Shortcut"=ショートカット
 dlgSgPreferences.mni"Swap"=入れ替え
 dlgSgPreferences.rbt"Advanced \(merge, rebase, ignore, stashes, tags, history modifications\)"=\
  Advanced \(マージ、リベース、無視、スタッシュ、タグ、履歴の修正\)
-dlgSgPreferences.rbt"Ask if potential comments are detected"=
+dlgSgPreferences.rbt"Ask if potential comments are detected"=潜在的なコメントが検出された場合に尋ねる
 #                                                          !=Ask if potential comments are detected
-dlgSgPreferences.rbt"Ask"=
+dlgSgPreferences.rbt"Ask"=尋ねる
 #                       !=Ask
 dlgSgPreferences.rbt"Auto-detect the system proxy"=システムプロキシを自動検出
 dlgSgPreferences.rbt"Automatically download and install updates"=アップデートを自動的にダウンロードしてインストールする
 dlgSgPreferences.rbt"Basic \(for simple workflows\)"=Basic \(シンプルなワークフロー向け\)
 dlgSgPreferences.rbt"Check and report new updates"=新しいアップデートの確認と通知
-dlgSgPreferences.rbt"Commit all, except of untracked files"=
+dlgSgPreferences.rbt"Commit all, except of untracked files"=追跡されていないファイルを除くすべてをコミットする
 #                                                         !=Commit all, except of untracked files
-dlgSgPreferences.rbt"Commit all, including untracked files"=
+dlgSgPreferences.rbt"Commit all, including untracked files"=追跡されていないファイルを含むすべてをコミットする
 #                                                         !=Commit all, including untracked files
 dlgSgPreferences.rbt"Dark"=ダーク
 dlgSgPreferences.rbt"Do not check for new updates"=\
@@ -1941,13 +1941,13 @@ dlgSgPreferences.rbt"Smart upper case \('FoB' will match 'FooBar', but neither '
 dlgSgPreferences.rbt"Stage or unstage"=ステージまたはアンステージ
 dlgSgPreferences.rbt"Stages or unstages changes"=変更のステージングまたはステージング解除
 dlgSgPreferences.rbt"Standard \(workflow oriented\)"=スタンダード\(ワークフロー中心\)
-dlgSgPreferences.rbt"Strip comments \(lines starting with 'core.commentChar'\)"=
+dlgSgPreferences.rbt"Strip comments \(lines starting with 'core.commentChar'\)"=コメントを削除する\('core.commentChar'で始まる行\)
 #                                                                             !=Strip comments \(lines starting with 'core.commentChar'\)
 dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administrator permissions\)"=\
  インプレースでSmartGitを更新する \(管理者権限が必要な場合があります\)
 dlgSgPreferences.rbt"Use SmartGit as SSH client"=SmartGitをSSHクライアントとして使用
 dlgSgPreferences.rbt"Use following proxy"=以下のプロキシを使用
-dlgSgPreferences.rbt"Use message as-is \(don't strip comments\)"=
+dlgSgPreferences.rbt"Use message as-is \(don't strip comments\)"=メッセージをそのまま使用する\(コメントを削除しない\)
 #                                                              !=Use message as-is \(don't strip comments\)
 dlgSgPreferences.rbt"Use system SSH client"=システムSSHクライアントの使用
 dlgSgPreferences.rbt"Working Tree"=ワーキングツリー
@@ -1955,9 +1955,9 @@ dlgSgPreferences.rbt"Working tree \(file oriented\)"=作業ツリー \(ファイ
 dlgSgPreferences.tab"Behavior"=動作
 dlgSgPreferences.tab"Colors"=色
 dlgSgPreferences.tab"Encoding"=エンコーディング
-dlgSgPreferences.tab"Fetch and Pull"=
+dlgSgPreferences.tab"Fetch and Pull"=フェッチとプル
 #                                  !=Fetch and Pull
-dlgSgPreferences.tab"Font and Colors"=
+dlgSgPreferences.tab"Font and Colors"=フォントと色
 #                                   !=Font and Colors
 dlgSgPreferences.tab"Font"=フォント
 dlgSgPreferences.tab"Languages"=言語
@@ -1966,13 +1966,13 @@ dlgSgPreferences.tab"Push"=プッシュ
 dlgSgPreferences.tab"Signing"=署名
 dlgSgPreferences.tab"User"=ユーザー
 dlgSgPreferences.tle=環境設定
-dlgSgPreferences.ttpGroupPatterns"<b>Custom labels</b>"=
+dlgSgPreferences.ttpGroupPatterns"<b>Custom labels</b>"=<b>カスタムラベル</b>
 #                                                     !=<b>Custom labels</b>
-dlgSgPreferences.ttpGroupPatterns"<b>Grouping logic</b>"=
+dlgSgPreferences.ttpGroupPatterns"<b>Grouping logic</b>"=<b>グループ化のロジック</b>
 #                                                      !=<b>Grouping logic</b>
-dlgSgPreferences.ttpGroupPatterns"<b>Multiple group patterns</b>"=
+dlgSgPreferences.ttpGroupPatterns"<b>Multiple group patterns</b>"=<b>複数のグループパターン</b>
 #                                                               !=<b>Multiple group patterns</b>
-dlgSgPreferences.ttpGroupPatterns"Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."=
+dlgSgPreferences.ttpGroupPatterns"Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."=パターンは、その正規表現から派生した自動生成されたラベルを使用してGUIに表示されます。ラベルには、<tt>label:</tt> という接頭辞を付けて <tt>label</tt> を割り当てることができます。ラベルには、文字、数字、'_' のみ使用できます。
 #                                                                                                                                                                                                                                                                                              !=Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'.
 dlgSgProcessKiller.btn"Kill Process"=強制終了
 dlgSgProcessKiller.btn"Wait"=待機
@@ -2557,7 +2557,7 @@ dlgSgSetup.inf"If you are using SSH to connect to other Git repositories, select
  SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。
 dlgSgSetup.inf"Please review the following privacy options. You can change them later in the preferences."=\
  以下のプライバシーに関するオプションをご確認ください。後で環境設定で変更することができます。
-dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=
+dlgSgSetup.inf"Please wait a few moments while searching for a Git installation."=Gitのインストールを検索している間、しばらくお待ちください。
 #                                                                               !=Please wait a few moments while searching for a Git installation.
 dlgSgSetup.inf"SmartGit requires compatible Git installations on your system. Please specify the paths to your 'git' executable."=\
  SmartGitは、お使いのシステムに互換性のあるGitがインストールされている必要があります。'git'の実行ファイルのパスを指定してください。
@@ -2566,7 +2566,7 @@ dlgSgSetup.inf"User name and email will be stored as part of your commits. Here 
 dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
  SmartGitへようこそ! 使用許諾契約に同意されることをご確認ください。
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
- SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。クラッシュフットプリント」には、お使いのマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は一切含まれません。
+ 「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 " このオプションは、後で [環境設定] で変更できます。\n\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
  お客様は、SmartGitを非商業的な目的でのみ使用することを確認します。
 dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes."=\
