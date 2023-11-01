@@ -1034,7 +1034,7 @@ dlgSgFlowConfigure.edt"Support Branches"=Support ブランチ
 dlgSgFlowConfigure.edt"Version Tags"=バージョン タグ
 dlgSgFlowConfigure.hdl=ブランチの命名規則を構成する
 dlgSgFlowConfigure.inf=featureブランチ、releaseブランチ、Hotfixブランチにどのような名前を付けるかを設定します。
-dlgSgFlowConfigure.lbl"Prefixes"=
+dlgSgFlowConfigure.lbl"Prefixes"=接頭辞
 #                              !=Prefixes
 dlgSgFlowConfigure.rbt"Full \(feature, release, hotfix, support branches\)"=\
  フル \(feature, release, hotfix, support ブランチ\)
