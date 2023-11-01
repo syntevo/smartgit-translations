@@ -3416,7 +3416,7 @@ wndGit.indexEditor.tbtEdit-take-right=右のブロックをマージ結果に持
 wndGit.indexEditor.tbtFile-save=ファイルの変更を保存します。
 wndGit.indexEditor.tbtGoto-next-diff=次の変更点に移動します。
 wndGit.indexEditor.tbtGoto-previous-diff=前の変更点に移動します。
-wndGit.indexEditor.tle"$1 - Index Editor"=
+wndGit.indexEditor.tle"$1 - Index Editor"=$1 - index エディタ
 #                                       !=$1 - Index Editor
 wndLog.col"LFS"==LFS
 wndLog.hnt"Commit files: select 1 commit\nDiff between commits: select 2 commits"=ファイルのコミット: コミットを1つ選択\nコミット間の差分: コミットを2つ選択
