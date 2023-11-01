@@ -92,9 +92,9 @@ dlgQBugReportSend.edt"Comments or Steps to Reproduce"=コメントまたは再�
 dlgQBugReportSend.edt"Email"=電子メール
 dlgQBugReportSend.edt"Reply To"=返信先
 dlgQBugReportSend.lbl"Sorry for the trouble!"=ご迷惑おかけして申し訳ありません！
-dlgQBugReportSend.lbl"The \[file log-file\] will be sent with this bug report. Alternatively, you may send it to \[email smartgit@syntevo.com\]."=
+dlgQBugReportSend.lbl"The \[file log-file\] will be sent with this bug report. Alternatively, you may send it to \[email smartgit@syntevo.com\]."=このバグレポートとともに、\[file log-file\] を送信します。または、\[email smartgit@syntevo.com\] に送信することもできます。
 #                                                                                                                                               !=The \[file log-file\] will be sent with this bug report. Alternatively, you may send it to \[email smartgit@syntevo.com\].
-dlgQBugReportSend.lbl"What did you do? We often solve a difficult bug after receiving just one good hint!"=
+dlgQBugReportSend.lbl"What did you do? We often solve a difficult bug after receiving just one good hint!"=あなたは何をしましたか？たった 1 つの良いヒントを頂けるだけで、難しいバグが解決されることがよくあります。
 #                                                                                                        !=What did you do? We often solve a difficult bug after receiving just one good hint!
 dlgQBugReportSend.tle=内部エラー
 dlgQDockManagerClosedView.chk=次回から表示しない
@@ -647,10 +647,10 @@ dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has o
 dlgSgBugReportSettings.err"Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."=\
  プレビュービルドには「クラッシュフットプリント」を送信する必要があります。\rこれは、プレビュービルドの主な目的が、リリース前にできるだけ多くのバグを報告して修正することであるためです。
 dlgSgBugReportSettings.hdl=クラッシュレポート
-dlgSgBugReportSettings.inf=SmartGitの品質向上のために、機密情報を含まない「クラッシュフットプリント」を自動的に送信してください。このオプションは後から環境設定で変更することができます。
+dlgSgBugReportSettings.inf=「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 " このオプションは、後で [環境設定] で変更できます。
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  クラッシュフットプリント」には、お客様のマシンの詳細（オペレーティングシステムのバージョンなど）、SmartGitのバージョン/ビルド番号、JVMの状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの機密情報は含まれていません。
-dlgSgBugReportSettings.lbl"Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=
+dlgSgBugReportSettings.lbl"Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=送信されるデータには、ユーザー名、メールアドレス、ファイルの内容、ファイルパス、サーバー名などの\*機密情報になり得る情報\*は一切含まれていません。
 #                                                                                                                                                                  !=Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
 dlgSgBugReportSettings.tle==SmartGit
 dlgSgCheckout.btn"Branches"=ブランチ
