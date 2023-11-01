@@ -684,7 +684,7 @@ dlgSgCheckoutTarget.rbt"Create local branch:"=ローカルブランチを作成:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
  ローカルブランチを作成しない \(読み取り専用で作業\)
 dlgSgCheckoutTarget.tle=チェックアウト
-dlgSgCheckoutTarget.wrn"Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily."=
+dlgSgCheckoutTarget.wrn"Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily."=ローカルブランチではなく、コミットを直接チェックアウトする際は注意が必要です。そのコミット以降のコミットは簡単に失われる可能性があります。
 #                                                                                                                                       !=Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily.
 dlgSgCheckoutTarget.wrn"Local branch '$1' is behind checkout target '$2'."=\
  ローカルブランチ '$1' はチェックアウトターゲット '$2' の後ろにあります。
