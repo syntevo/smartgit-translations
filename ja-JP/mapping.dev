@@ -3215,7 +3215,7 @@ wndConflictSolver.tbtView-layout-all=左のファイル、マージファイル�
 wndConflictSolver.tbtView-layout-left-merge=左のファイルとマージファイルを表示します。
 wndConflictSolver.tbtView-layout-left-right-above-merge=マージ ファイルの上に左右のファイルを表示します。
 wndConflictSolver.tbtView-layout-right-merge=マージファイルと右のファイルを表示します。
-wndConflictSolver.tle"$1 - Conflict Solver"=
+wndConflictSolver.tle"$1 - Conflict Solver"=$1 - コンフリクトソルバー
 #                                         !=$1 - Conflict Solver
 wndDeepgit.btn"Go Deeper"=さらに深く
 wndDeepgit.btn"Investigate"==Investigate
