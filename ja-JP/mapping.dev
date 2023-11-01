@@ -237,7 +237,7 @@ dlgScDevOpsSslClientCertificate.inf=JIRAに認証するためのクライアン�
 dlgScDevOpsSslClientCertificate.tle=JIRAクライアント証明書
 dlgScDevOpsSslClientCertificate.wrn"$1"==$1
 dlgScDevOpsSslFingerprintNew.btn"Accept"=承認
-dlgScDevOpsSslFingerprintNew.btn"Reject"=拒否
+dlgScDevOpsSslFingerprintNew.btn"Reject"=却下
 dlgScDevOpsSslFingerprintNew.edt"MD5 fingerprint"=MD5 フィンガープリント
 dlgScDevOpsSslFingerprintNew.edt"SHA fingerprint"=SHA フィンガープリント
 dlgScDevOpsSslFingerprintNew.edt"Server"=サーバ
@@ -325,7 +325,7 @@ dlgScFilePatternsEdit.tle=ファイルパターン
 dlgScFindAction.edt"Action name"=アクション名
 dlgScFindAction.tle=コマンドを検索
 dlgScHostKeyVerifier.btn"Accept"=承認
-dlgScHostKeyVerifier.btn"Reject"=拒否
+dlgScHostKeyVerifier.btn"Reject"=却下
 dlgScHostKeyVerifier.edt"Fingerprint"=フィンガープリント
 dlgScHostKeyVerifier.edt"Server"=サーバ
 dlgScHostKeyVerifier.fur=不明な場合は、管理者に問い合わせてください。
@@ -426,7 +426,7 @@ dlgScSpellCheckDictionary(Add|Edit).edt"Dictionary File"=辞書ファイル
 dlgScSpellCheckDictionary(Add|Edit).edt"Name"=名前
 dlgScSpellCheckDictionary(Add|Edit).inf=使用するMySpell辞書ファイルを指定します（例：Mozilla FirefoxまたはThunderbirdの「辞書」ディレクトリにある*.dic）\r名前は、異なる辞書を切り替える際に使用されます。
 dlgScSslFingerprint.btn"Accept"=承認
-dlgScSslFingerprint.btn"Reject"=拒否
+dlgScSslFingerprint.btn"Reject"=却下
 dlgScSslFingerprint.edt"SHA fingerprint"=SHA フィンガープリント
 dlgScSslFingerprint.edt"Server"=サーバ
 dlgScSslFingerprint.lbl"The server fingerprint has changed! Is the change correct?"=\
@@ -546,21 +546,21 @@ dlgSgAuthenticationRemoveAllCredentials.hdl=既知の認証情報をすべて削
 dlgSgAuthenticationRemoveAllCredentials.tle=全て削除
 dlgSgAuthenticationShowPassword.edt"Password"=パスワード
 dlgSgAuthenticationShowPassword.tle%1=$1 のパスワード
-dlgSgAzureGenerateToken.edt"Code"=
+dlgSgAzureGenerateToken.edt"Code"=コード
 #                               !=Code
-dlgSgAzureGenerateToken.edt"Link"=
+dlgSgAzureGenerateToken.edt"Link"=リンク
 #                               !=Link
-dlgSgAzureGenerateToken.hdl=
+dlgSgAzureGenerateToken.hdl=生成されたコードを入力する
 #                         !=Enter the generated code
-dlgSgAzureGenerateToken.inf=
+dlgSgAzureGenerateToken.inf=Azure DevOpsで認証し、生成されたトークンを入力します。
 #                         !=Authenticate at Azure DevOps and enter the generated token.
-dlgSgAzureGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:"=
+dlgSgAzureGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:"=ブラウザが自動的に開いて、Azure DevOps でお好みのアカウントで認証され、SmartGit にアクセスが許可されるはずです。 そうならなかった場合は、以下のリンクを手動で開いてください:
 #                                                                                                                                                                                                                             !=Your browser should have opened automatically, let you authenticate with your preferred account at Azure DevOps and grant access to SmartGit. If this didn't happen, manually open following link:
-dlgSgAzureGenerateToken.tle=
+dlgSgAzureGenerateToken.tle=アクセストークンを要求する
 #                         !=Request Access Token
-dlgSgAzureRefreshFailed.hdl=
+dlgSgAzureRefreshFailed.hdl=更新に失敗しました。
 #                         !=Refresh failed.
-dlgSgAzureRefreshFailed.tle=
+dlgSgAzureRefreshFailed.tle==Azure DevOps
 #                         !=Azure DevOps
 dlgSgBisectResult.btn"Continue Bisect"=問題箇所の特定を続行
 dlgSgBisectResult.btn"Leave Bisect"=問題箇所の特定をやめる
@@ -579,9 +579,9 @@ dlgSgBitbucketGenerateToken.inf=Bitbucketで認証し、生成されたトーク
 dlgSgBitbucketGenerateToken.lbl"Your browser should have opened automatically, let you authenticate with your preferred account at Bitbucket and grant access to SmartGit. If this didn't happen, manually open following link:"=\
  ブラウザが自動的に開き、Bitbucketのアカウントで認証され、SmartGitへのアクセスが許可されたはずです。\nそうならなかった場合は、手動で以下のリンクを開いてください。
 dlgSgBitbucketGenerateToken.tle=アクセストークンを要求する
-dlgSgBitbucketRefreshFailed.hdl=
+dlgSgBitbucketRefreshFailed.hdl=更新に失敗しました。
 #                             !=Refresh failed.
-dlgSgBitbucketRefreshFailed.tle=
+dlgSgBitbucketRefreshFailed.tle==Bitbucket
 #                             !=Bitbucket
 dlgSgBranchAddCheckout.btn"Add Branch && Checkout"=ブランチを追加しチェックアウト
 dlgSgBranchAddCheckout.btn"Add Branch"=ブランチを追加
@@ -1333,7 +1333,7 @@ dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
 dlgSgHostingProviderEdit.chk"Use SSL client certificates \(usually not required\)"=\
  SSLクライアント証明書の使用（通常は必要ありません）
 dlgSgHostingProviderEdit.chk"Use a GitHub Enterprise instance"=GitHub Enterpriseインスタンスの使用
-dlgSgHostingProviderEdit.chk"Use a custom Azure DevOps server"=
+dlgSgHostingProviderEdit.chk"Use a custom Azure DevOps server"=カスタムAzure DevOpsサーバーの使用
 #                                                            !=Use a custom Azure DevOps server
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=カスタムGitLabサーバーの使用
 dlgSgHostingProviderEdit.edt"Account"=アカウント
@@ -1341,7 +1341,7 @@ dlgSgHostingProviderEdit.edt"Certificate Password"=証明書のパスワード
 dlgSgHostingProviderEdit.edt"Client Certificate"=クライアント証明書
 dlgSgHostingProviderEdit.edt"Name"=名前
 dlgSgHostingProviderEdit.edt"Password"=パスワード
-dlgSgHostingProviderEdit.edt"Server URL \(including collection\)"=
+dlgSgHostingProviderEdit.edt"Server URL \(including collection\)"=サーバーURL \(コレクションを含む\)
 #                                                               !=Server URL \(including collection\)
 dlgSgHostingProviderEdit.edt"Server URL"=サーバURL
 dlgSgHostingProviderEdit.edt"Token"=トークン
@@ -1354,29 +1354,29 @@ dlgSgHostingProviderEdit.err"Please specify the private key file."=\
  秘密鍵ファイルを指定してください。
 dlgSgHostingProviderEdit.hdl%1=$1 アカウントの設定
 dlgSgHostingProviderEdit.inf%1=$1 に接続するための認証情報を指定してください。
-dlgSgHostingProviderEdit.lbl"For example: https://azure.devops.server/DefaultCollection"=
+dlgSgHostingProviderEdit.lbl"For example: https://azure.devops.server/DefaultCollection"=例: https://azure.devops.server/DefaultCollection
 #                                                                                      !=For example: https://azure.devops.server/DefaultCollection
 dlgSgHostingProviderEdit.lbl"The \(API\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."=\
  APIトークンとは、SmartGitがGitHubでの認証に使用する、自動生成された特別なクレデンシャルです。\rこのトークンを GitHub のフロントエンドから削除すれば、簡単にアクセスを取り消すことができるので、もうひとつのセキュリティ層となります。
-dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."=
+dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings."=トークンは、自動生成されたOAuthトークン（下記の「トークンの生成」を使用）か、Azure DevOpsのアカウント設定で自分で生成できる「パーソナルアクセストークン」のどちらかを使用します。
 #                                                                                                                                                                                                                   !=The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your Azure DevOps account settings.
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitHub account settings."=\
  トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitHub のアカウント設定で自分で生成した 'personal access token' を使用します。
 dlgSgHostingProviderEdit.lbl"The token may either be an autogenerated OAuth-token \(use 'Generate Token' below\) or a 'personal access token' which you can generate yourself in your GitLab account settings."=\
  トークンには、自動生成された OAuth トークン (以下の 'トークンを生成' を使用します) か、あるいは GitLab のアカウント設定で自分で生成した 'personal access token' を使用します。
-dlgSgHostingProviderEdit.lbl"You can review the GitHub application settings \[$1 here\]."=
+dlgSgHostingProviderEdit.lbl"You can review the GitHub application settings \[$1 here\]."=GitHub アプリケーションの設定は、\[$1 こちら\] をご覧ください。
 #                                                                                       !=You can review the GitHub application settings \[$1 here\].
-dlgSgHostingProviderEdit.tle==GitLab
+dlgSgHostingProviderEdit.tle=GitLab
 #                          !=<REMOVED>
-dlgSgHostingProviderEdit.tle"Azure DevOps"=
+dlgSgHostingProviderEdit.tle"Azure DevOps"==Azure DevOps
 #                                        !=Azure DevOps
-dlgSgHostingProviderEdit.tle"Bitbucket Server"=
+dlgSgHostingProviderEdit.tle"Bitbucket Server"==Bitbucket Server
 #                                            !=Bitbucket Server
-dlgSgHostingProviderEdit.tle"Bitbucket"=
+dlgSgHostingProviderEdit.tle"Bitbucket"==Bitbucket
 #                                     !=Bitbucket
-dlgSgHostingProviderEdit.tle"GitHub"=
+dlgSgHostingProviderEdit.tle"GitHub"==GitHub
 #                                  !=GitHub
-dlgSgHostingProviderEdit.tle"GitLab"=
+dlgSgHostingProviderEdit.tle"GitLab"==GitLab
 #                                  !=GitLab
 dlgSgHostingProviderEdit.wrn"Connection to '$1' failed: $2"='$1' への接続に失敗しました: $2
 dlgSgHostingProviderSelectRepository.btn"Select"=選択
@@ -1388,7 +1388,7 @@ dlgSgHostingProviderSelectRepository.mni"Name"=名前
 dlgSgHostingProviderSelectRepository.mni"Owner"=所有者
 dlgSgHostingProviderSelectRepository.mni"Repository"=リポジトリ
 dlgSgHostingProviderSelectRepository.tle=GitHub プロジェクト
-dlgSgHostingProvider(Add|Edit).lbl"Optional SSL configuration"=
+dlgSgHostingProvider(Add|Edit).lbl"Optional SSL configuration"=オプションのSSL設定
 #                                                            !=Optional SSL configuration
 dlgSgHttpPasswordAuthenticationFailedCause1.fur%3=OAuth アクセス トークンを要求できませんでした。 ほとんどの場合 $1 の設定が変更され、SmartGit に保存されている OAuth 資格情報が無効になっています。\n\n解決するには、環境設定で $2 ホスティング プロバイダーを再作成します。\n\n詳細：\n\n $3
 dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1=$1 OAuth認証に失敗しました
@@ -2732,7 +2732,7 @@ dlgSgSvnClientCertificate.tle=SVN認証
 dlgSgSvnClientCertificate.wrn"Authentication to the SVN repository '$1' failed with error: $2"=\
  SVN リポジトリ '$1' への認証に失敗し、次のエラーが発生しました: '$2'
 dlgSgSvnSslFingerprintChanged.btn"Accept"=承認
-dlgSgSvnSslFingerprintChanged.btn"Reject"=拒否
+dlgSgSvnSslFingerprintChanged.btn"Reject"=却下
 dlgSgSvnSslFingerprintChanged.edt"MD5 fingerprint"=MD5 フィンガープリント
 dlgSgSvnSslFingerprintChanged.edt"SHA fingerprint"=SHA フィンガープリント
 dlgSgSvnSslFingerprintChanged.edt"Server"=サーバ
