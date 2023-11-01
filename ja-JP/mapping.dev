@@ -2898,18 +2898,18 @@ dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveM
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).chk=次回から表示しない
 dlg(SgRepositoryRemoveMultiGroup|SgRepositoryRemoveMultiRepo|SgRepositoryRemoveMultiRepoMultiGroup|SgRepositoryRemoveMultiRepoSingleGroup|SgRepositoryRemoveSingleGroup|SgRepositoryRemoveSingleRepo|SgRepositoryRemoveSingleRepoMultiGroup|SgRepositoryRemoveSingleRepoSingleGroup).tle=除去
 edt"Search For"=検索対象
-ntmCredentialHelper"$1 and <b>prepend</b> following lines:"=
+ntmCredentialHelper"$1 and <b>prepend</b> following lines:"=$1 と、以下の行を<b>先頭に追加</b>してください。:
 #                                                         !=$1 and <b>prepend</b> following lines:
-ntmCredentialHelper"<b>  helper\=</b>"=
+ntmCredentialHelper"<b>  helper\=</b>"==<b>  helper\=</b>
 #                                    !=<b>  helper\=</b>
-ntmCredentialHelper"<b>\[credential\]</b>"=
+ntmCredentialHelper"<b>\[credential\]</b>"==<b>\[credential\]</b>
 #                                        !=<b>\[credential\]</b>
 ntmCredentialHelper"In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=\
  奇妙なエラーや予期せぬダイアログのポップアップが表示される場合は、この設定を無効にして、SmartGitに認証処理を任せてみてください。
-ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=
+ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."=一般的にはこれで問題ありません。複数のGitクライアントを使用する場合には推奨される構成です。ただし、不明なエラーや予期しないダイアログのポップアップが表示される場合は、この構成を無効にして、SmartGitに認証を任せるようにしてみてください。
 #                                                                                                                                                                                                                                                                                            !=In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself.
 ntmCredentialHelper"In general this should be fine and is the recommended configuration when working with multiple Git clients."=\
- 一般的にはこれで問題なく、複数のGitクライアントで作業する場合はこの設定を推奨します。
+ 一般的にはこれで問題ありません。複数のGitクライアントを使用する場合はこの設定を推奨します。
 ntmCredentialHelper"SmartGit has detected that <b>credential.helper</b> is configured in config file $1."=\
  SmartGit は、設定ファイル $1 で<b>credential.helper</b>が設定されていることを検出しました。
 ntmCredentialHelper"To disable this configuration, open the above config file, locate the <b>\[credential\]</b>-section and comment out the <b>helper\=</b> line using <b>#</b>"=\
