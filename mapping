@@ -160,6 +160,9 @@ dlgQUpdateCheckNowNewerVersion.tle=Check for New Version
 dlgRewriteTextFiles.btn"Fix Line-Endings"=Fix Line-Endings
 dlgRewriteTextFiles.chk"Enforce line-ending on end of file"=\
  Enforce line-ending on end of file
+dlgRewriteTextFiles.cmb"Old Mac \(CR \\r\)"=Old Mac \(CR \\r\)
+dlgRewriteTextFiles.cmb"Unix \(LF \\n\)"=Unix \(LF \\n\)
+dlgRewriteTextFiles.cmb"Windows \(CR LF \\r\\n\)"=Windows \(CR LF \\r\\n\)
 dlgRewriteTextFiles.edt"Line-Endings"=Line-Endings
 dlgRewriteTextFiles.hdl=Rewrite text files with selected line-endings
 dlgRewriteTextFiles.inf=Select the line-endings that should be used to write the text files.
@@ -1680,9 +1683,21 @@ dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
  Use indentation from previous non-empty line
 dlgSgPreferences.chk"Use pre-installed \(\"system\"\) Git-Flow\*"=Use pre-installed \("system"\) Git-Flow\*
 dlgSgPreferences.chk"Warn for slow rename detection"=Warn for slow rename detection
+dlgSgPreferences.cmb"Automatically select light/dark \(recommended\)"=Automatically select light/dark \(recommended\)
 dlgSgPreferences.cmb"Automatically select light/dark"=Automatically select light/dark
+dlgSgPreferences.cmb"Custom..."=Custom...
 dlgSgPreferences.cmb"Dark \(independent of system\)"=Dark \(independent of system\)
+dlgSgPreferences.cmb"Don't reopen the last used repositories"=\
+ Don't reopen the last used repositories
 dlgSgPreferences.cmb"Light \(independent of system\)"=Light \(independent of system\)
+dlgSgPreferences.cmb"Open the last used repositories in the startup window"=\
+ Open the last used repositories in the startup window
+dlgSgPreferences.cmb"Open the last used repositories in their last used window"=\
+ Open the last used repositories in their last used window
+dlgSgPreferences.cmb"abort if any needs to be pushed"=\
+ abort if any needs to be pushed
+dlgSgPreferences.cmb"ignore submodules"=ignore submodules
+dlgSgPreferences.cmb"push submodules first"=push submodules first
 dlgSgPreferences.col"Accelerator"=Accelerator
 dlgSgPreferences.col"Account"=Account
 dlgSgPreferences.col"Applies To"=Applies To
