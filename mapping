@@ -470,7 +470,8 @@ dlgScTextSettings.rbt"Character-based"=Character-based
 dlgScTextSettings.rbt"Java identifiers"=Java identifiers
 dlgScTextSettings.rbt"None"=None
 dlgScTextSettings.rbt"Off"=Off
-dlgScTextSettings.rbt"Trailing and changed"=Trailing and changed
+dlgScTextSettings.rbt"Trailing, in selection and changed blocks"=\
+ Trailing, in selection and changed blocks
 dlgScTextSettings.tab"Compare"=Compare
 dlgScTextSettings.tab"General"=General
 dlgScTextSettings.tle=Settings
@@ -660,8 +661,8 @@ dlgSgCheckoutTarget.hdl"Check out remote branch"=Check out remote branch
 dlgSgCheckoutTarget.hdl"Checkout commit"=Checkout commit
 dlgSgCheckoutTarget.hdl"Checkout remote branch"=Checkout remote branch
 dlgSgCheckoutTarget.inf=Create and checkout a new local branch for the selected commit
-dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch 'dev'"=\
- Checkout and fast-forward local branch 'dev'
+dlgSgCheckoutTarget.rbt"Checkout and fast-forward local branch '$1'"=\
+ Checkout and fast-forward local branch '$1'
 dlgSgCheckoutTarget.rbt"Checkout local branch '$1'"=Checkout local branch '$1'
 dlgSgCheckoutTarget.rbt"Create local branch:"=Create local branch:
 dlgSgCheckoutTarget.rbt"Don't create local branch \(just work read-only\)"=\
@@ -2539,7 +2540,7 @@ dlgSgSshCredentials.edt"Passphrase"=Passphrase
 dlgSgSshCredentials.edt"Password"=Password
 dlgSgSshCredentials.edt"Private Key File"=Private Key File
 dlgSgSshCredentials.hdl=SSH Credentials
-dlgSgSshCredentials.inf=Provide the credentials for authenticating to the SSH server 'git' as user 'root'.
+dlgSgSshCredentials.inf%2=Provide the credentials for authenticating to the SSH server '$1' as user '$2'.
 dlgSgSshCredentials.lbl"Only private key files with OpenSSH format are supported."=\
  Only private key files with OpenSSH format are supported.
 dlgSgSshCredentials.rbt"Password"=Password
@@ -3390,6 +3391,8 @@ wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"File"=File
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"Go To"=Go To
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu"View"=View
 wnd(Compare|ConflictSolver|Git.indexEditor|Editor).tbr"Save"=Save
+wnd(Log|Project|).tbtFlowFeatureFinish=Finish a Git-Flow feature.
+wnd(Log|Project|).tbtFlowFeatureStart=Start a new Git-Flow feature.
 wnd(Log|Project|Std|)."Abort"=Abort
 wnd(Log|Project|Std|)."Commit"=Commit
 wnd(Log|Project|Std|)."Conflict Solver"=Conflict Solver
@@ -4035,8 +4038,6 @@ wnd(Log|Project|Std|).tbtDelete=Delete the selected local files or directory.
 wnd(Log|Project|Std|).tbtDiscard=Discard local changes.
 wnd(Log|Project|Std|).tbtFetch=Fetch commits from a remote repository and \(optionally\) integrate them with possible local commits.
 wnd(Log|Project|Std|).tbtFlowContext=Finish a Git-Flow feature.
-wnd(Log|Project|Std|).tbtFlowFeatureFinish=Finish a Git-Flow feature.
-wnd(Log|Project|Std|).tbtFlowFeatureStart=Start a new Git-Flow feature.
 wnd(Log|Project|Std|).tbtFlowHotfixFinish=Finish a Git-Flow hotfix.
 wnd(Log|Project|Std|).tbtFlowHotfixStart=Start a new Git-Flow hotfix.
 wnd(Log|Project|Std|).tbtFlowIntegrateDevelop=Integrate new base commits into a Git-Flow feature.
