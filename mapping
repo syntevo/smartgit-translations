@@ -33,6 +33,13 @@ dlgCommit.replaceMessage.chk=Always replace
 dlgCommit.replaceMessage.fur=After replacing you can find the previous message when clicking the history button.
 dlgCommit.replaceMessage.hdl=Replace the existing message?
 dlgCommit.replaceMessage.tle=Replace Message
+dlgCommitGitHubConfirmEmail.btn"Confirm Email"=Confirm Email
+dlgCommitGitHubConfirmEmail.fur=If this repository is open-source, you might want to hide your email address, as \[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\], and use instead <username>@users.noreply.github.com.
+dlgCommitGitHubConfirmEmail.hdl%1=Commit with default email address $1?
+dlgCommitGitHubConfirmEmail.rbt"Always use default email address, unless overridden in repository"=\
+ Always use default email address, unless overridden in repository
+dlgCommitGitHubConfirmEmail.rbt"Use following email address:"=Use following email address:
+dlgCommitGitHubConfirmEmail.tle=Commit
 dlgCommitInvisibleIndex.btn"Commit"=Commit
 dlgCommitInvisibleIndex.fur=Some staged files are not visible at the moment.
 dlgCommitInvisibleIndex.hdl=Commit invisible staged files?
@@ -404,9 +411,12 @@ dlgScSetupLicense.btn"Configure Proxy"=Configure Proxy
 dlgScSetupLicense.btn"Purchase Update"=Purchase Update
 dlgScSetupLicense.btn"Register"=Register
 dlgScSetupLicense.edt"License File"=License File
+dlgScSetupLicense.edt"License Server URL"=License Server URL
 dlgScSetupLicense.hdl=Register license file
 dlgScSetupLicense.inf=Please provide your SmartGit license file you've received by email after purchase.
 dlgScSetupLicense.tle=SmartGit License
+dlgScSpellCheckDictionaryAdd.err"Please enter a name."=Please enter a name.
+dlgScSpellCheckDictionaryAdd.err"Please select a dictionary file."=Please select a dictionary file.
 dlgScSpellCheckDictionaryAdd.hdl=Add spell checker dictionary
 dlgScSpellCheckDictionaryAdd.tle=Add
 dlgScSpellCheckDictionaryEdit.hdl=Edit spell checker dictionary
@@ -693,8 +703,14 @@ dlgSgCherryPickUnpushedCommits.tle=Cherry-Pick
 dlgSgClean.btn"Clean Working Tree"=Clean Working Tree
 dlgSgClean.chk"Remove only ignored files"=Remove only ignored files
 dlgSgClean.chk"Remove untracked directories"=Remove untracked directories
+dlgSgClean.edt"Delete"=Delete
 dlgSgClean.hdl=Remove untracked files
 dlgSgClean.inf=Select which untracked files should be removed.
+dlgSgClean.rbt"Files and Directories"=Files and Directories
+dlgSgClean.rbt"Files"=Files
+dlgSgClean.rbt"Ignored"=Ignored
+dlgSgClean.rbt"Untracked and ignored"=Untracked and ignored
+dlgSgClean.rbt"Untracked"=Untracked
 dlgSgClean.tle=Clean Working Tree
 dlgSgCleanDeleteFiles.btn"Delete Files"=Delete Files
 dlgSgCleanDeleteFiles.fur=Git reported following files and directories to be deleted:
@@ -1282,8 +1298,15 @@ dlgSgHostingProviderEdit.err"Please enter a Personal Access Token for your GitLa
 dlgSgHostingProviderEdit.err"Please enter an OAuth 'refresh' token."=\
  Please enter an OAuth 'refresh' token.
 dlgSgHostingProviderEdit.err"Please enter the API token."=Please enter the API token.
+dlgSgHostingProviderEdit.err"Please enter the configuration name."=Please enter the configuration name.
+dlgSgHostingProviderEdit.err"Please enter the root URL for the GitLab server."=\
+ Please enter the root URL for the GitLab server.
 dlgSgHostingProviderEdit.err"Please specify the private key file."=\
  Please specify the private key file.
+dlgSgHostingProviderEdit.err"The entered URL is invalid - it should look like https://server"=\
+ The entered URL is invalid - it should look like https://server
+dlgSgHostingProviderEdit.err"The provided SSL client certificate path is invalid."=\
+ The provided SSL client certificate path is invalid.
 dlgSgHostingProviderEdit.hdl%1=Configure $1 account
 dlgSgHostingProviderEdit.inf%1=Please specify your credentials to connect to $1.
 dlgSgHostingProviderEdit.lbl"For example: https://azure.devops.server/DefaultCollection"=For example: https://azure.devops.server/DefaultCollection
@@ -1328,6 +1351,9 @@ dlgSgIgnoreChanged.fur=The changes will be discarded when proceeding!
 dlgSgIgnoreChanged.hdl=Are you sure to remove changed files?
 dlgSgIgnoreChanged.tle=Ignore
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=Ignore
+dlgSgIgnoreDirectoryConfirm.cmb".git/info/exclude \(only for this repository\)"=.git/info/exclude \(only for this repository\)
+dlgSgIgnoreDirectoryConfirm.cmb".gitignore in parent directory"=.gitignore in parent directory
+dlgSgIgnoreDirectoryConfirm.cmb".gitignore in repository root directory"=.gitignore in repository root directory
 dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignore File
 dlgSgIgnoreDirectoryConfirm.fur=The directory name will be added to the ignore file. If the ignore file does not exist, it will be created.
 dlgSgIgnoreDirectoryConfirm.hdl%1=Do you want to ignore directory '$1'?
@@ -1485,16 +1511,22 @@ dlgSgOutput.chk"Don't show again for this warning"=\
 dlgSgOutput.chk"Show automatically for failed command"=Show automatically for failed command
 dlgSgOutput.lbl"Branches need merging first."=Branches need merging first.
 dlgSgOutput.lbl"Command Abort failed!"=Command Abort failed!
+dlgSgOutput.lbl"Command Apply Stash produced warnings."=Command Apply Stash produced warnings.
 dlgSgOutput.lbl"Command Check Out Branch failed!"=Command Check Out Branch failed!
 dlgSgOutput.lbl"Command Check Out Branch produced warnings."=\
  Command Check Out Branch produced warnings.
+dlgSgOutput.lbl"Command Cherry-Pick failed!"=Command Cherry-Pick failed!
 dlgSgOutput.lbl"Command Cherry-Pick produced warnings."=Command Cherry-Pick produced warnings.
 dlgSgOutput.lbl"Command Commit failed!"=Command Commit failed!
 dlgSgOutput.lbl"Command Discard failed!"=Command Discard failed!
 dlgSgOutput.lbl"Command Fetch produced warnings."=Command Fetch produced warnings.
 dlgSgOutput.lbl"Command Merge produced warnings."=Command Merge produced warnings.
+dlgSgOutput.lbl"Command Move failed!"=Command Move failed!
 dlgSgOutput.lbl"Command Pull \(Rebase\) failed!"=Command Pull \(Rebase\) failed!
 dlgSgOutput.lbl"Command Pull \(Rebase\) produced warnings."=Command Pull \(Rebase\) produced warnings.
+dlgSgOutput.lbl"Command Push failed!"=Command Push failed!
+dlgSgOutput.lbl"Command Rebase failed!"=Command Rebase failed!
+dlgSgOutput.lbl"Command Rebase produced warnings."=Command Rebase produced warnings.
 dlgSgOutput.lbl"Command Reset failed!"=Command Reset failed!
 dlgSgOutput.lbl"Command Resolve produced warnings."=Command Resolve produced warnings.
 dlgSgOutput.lbl"Command Start Support Branch failed!"=Command Start Support Branch failed!
@@ -1502,6 +1534,8 @@ dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
  If in question, please ask your repository administrator.
 dlgSgOutput.lbl"Not all refs have been pushed."=\
  Not all refs have been pushed.
+dlgSgOutput.lbl"The working tree has local changes."=\
+ The working tree has local changes.
 dlgSgOutput.lbl"Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD"=\
  Your local changes to the following files would be overwritten by checkout:\ncould not detach HEAD
 dlgSgOutput.tle"Command Failed"=Command Failed
@@ -1698,6 +1732,8 @@ dlgSgPreferences.edt"Theme"=Theme
 dlgSgPreferences.edt"Theme\*"=Theme\*
 dlgSgPreferences.edt"Time Format\*"=Time Format\*
 dlgSgPreferences.edt"Username"=Username
+dlgSgPreferences.hnt"No low-level property matches the entered filter."=\
+ No low-level property matches the entered filter.
 dlgSgPreferences.hnt"No modified low-level properties.\nStart searching by typing."=\
  No modified low-level properties.\nStart searching by typing.
 dlgSgPreferences.hnt"Search"=Search
@@ -1706,6 +1742,7 @@ dlgSgPreferences.lbl"A sample 'crash footprint' can be found in the \[https://do
 dlgSgPreferences.lbl"All directories"=All directories
 dlgSgPreferences.lbl"All files"=All files
 dlgSgPreferences.lbl"All files/directories"=All files/directories
+dlgSgPreferences.lbl"All"=All
 dlgSgPreferences.lbl"Application can be updated manually in the About dialog"=\
  Application can be updated manually in the About dialog
 dlgSgPreferences.lbl"Built-in Conflict Solver"=Built-in Conflict Solver
@@ -1761,8 +1798,11 @@ dlgSgPreferences.lbl"\*\) these options require an application restart to be app
  \*\) these options require an application restart to be applied
 dlgSgPreferences.lbl"\*\) this option requires an application restart to be applied"=\
  \*\) this option requires an application restart to be applied
+dlgSgPreferences.lbl"directories"=directories
 dlgSgPreferences.lbl"easy to set up and use, supports public key and password authentication"=\
  easy to set up and use, supports public key and password authentication
+dlgSgPreferences.lbl"files"=files
+dlgSgPreferences.lbl"files/directories"=files/directories
 dlgSgPreferences.lbl"may be harder to configure and use for new users, but is more flexible"=\
  may be harder to configure and use for new users, but is more flexible
 dlgSgPreferences.mni"Accelerator"=Accelerator
@@ -1999,10 +2039,15 @@ dlgSgRebaseContinueAfterSplittingCommit.fur%1=The splitting of commit $1 still i
 dlgSgRebaseContinueAfterSplittingCommit.hdl=Do you want to continue after splitting the commit?
 dlgSgRebaseContinueAfterSplittingCommit.tle=Rebase
 dlgSgRebaseContinueConfirm.btn"Continue Rebase"=Continue Rebase
+dlgSgRebaseContinueConfirm.chk=Don't show again
 dlgSgRebaseContinueConfirm.fur=Continue the rebase operation after having resolved all conflicts.
 dlgSgRebaseContinueConfirm.hdl=Do you want to continue the rebase?
 dlgSgRebaseContinueConfirm.tle=Rebase
+dlgSgRebaseContinueConflicts.fur=Please resolve all conflicts before continuing the rebase.
+dlgSgRebaseContinueConflicts.hdl=Can't continue rebase with conflicts.
+dlgSgRebaseContinueConflicts.tle=Rebase
 dlgSgRebaseContinueNothingToCommitContinue.btn"Continue Rebase"=Continue Rebase
+dlgSgRebaseContinueNothingToCommitContinue.chk=Don't show again
 dlgSgRebaseContinueNothingToCommitContinue.fur=The repository is in 'rebasing' state, but there is nothing to commit, so you may just continue the Rebase.
 dlgSgRebaseContinueNothingToCommitContinue.hdl=Do you want to continue the rebase?
 dlgSgRebaseContinueNothingToCommitContinue.tle=Rebase
@@ -2411,6 +2456,7 @@ dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
 dlgSgSetup.edt"Email"=Email
 dlgSgSetup.edt"Git Executable"=Git Executable
 dlgSgSetup.edt"License File"=License File
+dlgSgSetup.edt"License Server URL"=License Server URL
 dlgSgSetup.edt"Repository search"=Repository search
 dlgSgSetup.edt"User Name"=User Name
 dlgSgSetup.inf"Decide what SmartGit window you prefer. You can change this option later in the preferences."=\
@@ -2427,14 +2473,30 @@ dlgSgSetup.inf"User name and email will be stored as part of your commits. Here 
  User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig.
 dlgSgSetup.inf"Welcome to SmartGit! Please confirm that you are accepting the license agreement."=\
  Welcome to SmartGit! Please confirm that you are accepting the license agreement.
+dlgSgSetup.lbl"- Working Tree and Graph\n- repository tabs\n\n- recommended for new users"=\
+ - Working Tree and Graph\n- repository tabs\n\n- recommended for new users
+dlgSgSetup.lbl"- Working Tree as graph node\n- full feature set\n\n- recommended for power users"=\
+ - Working Tree as graph node\n- full feature set\n\n- recommended for power users
+dlgSgSetup.lbl"- needs Log window for full history\n- file display from submodules\n\n- SmartGit 19.1 defaults"=\
+ - needs Log window for full history\n- file display from submodules\n\n- SmartGit 19.1 defaults
+dlgSgSetup.lbl"Found $1 repositories."=Found $1 repositories.
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
+dlgSgSetup.lbl"Please wait ..."=Please wait ...
+dlgSgSetup.lbl"Searching repositories in $1 ..."=Searching repositories in $1 ...
+dlgSgSetup.lbl"Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=\
+ Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names.
+dlgSgSetup.lbl"Steps"=Steps
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
  You confirm that you will use SmartGit solely for non-commercial purposes.
 dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes."=\
  You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes.
 dlgSgSetup.lbl"You may try SmartGit free of charge for 30 days."=\
  You may try SmartGit free of charge for 30 days.
+dlgSgSetup.lbl"easy to set up and use, supports public key and password authentication"=\
+ easy to set up and use, supports public key and password authentication
+dlgSgSetup.lbl"may be harder to configure and use for new users, but is more flexible"=\
+ may be harder to configure and use for new users, but is more flexible
 dlgSgSetup.rbt"Commits \(Log History\)"=Commits \(Log History\)
 dlgSgSetup.rbt"Free SmartGit evaluation for commercial use"=\
  Free SmartGit evaluation for commercial use
@@ -2449,6 +2511,10 @@ dlgSgSetup.rbt"Use SmartGit as SSH client"=Use SmartGit as SSH client
 dlgSgSetup.rbt"Use system SSH client"=Use system SSH client
 dlgSgSetup.rbt"Working tree \(file oriented\)"=Working tree \(file oriented\)
 dlgSgSetup.tle=Setup SmartGit
+dlgSgSetupStdWnd.btn"Use Standard Window"=Use Standard Window
+dlgSgSetupStdWnd.fur=We recommend the Standard window for \*new or less experienced Git users\*.\n\nIf you have used older SmartGit versions, you might be surprised that the Standard window \*looks different\* than you are used to. In case you want to get the previous experience, consider to select the \*Log Graph\* or \*Working Tree\* window instead.
+dlgSgSetupStdWnd.hdl=Do you want to use the Standard Window?
+dlgSgSetupStdWnd.tle%1=Setup SmartGit $1
 dlgSgShowLocalChanges.btn"Compare"=Compare
 dlgSgShowLocalChanges.hdl%1=File $1 modified in Index and working tree
 dlgSgShowLocalChanges.inf=Select the file states to compare.
@@ -2474,6 +2540,8 @@ dlgSgSshCredentials.edt"Password"=Password
 dlgSgSshCredentials.edt"Private Key File"=Private Key File
 dlgSgSshCredentials.hdl=SSH Credentials
 dlgSgSshCredentials.inf=Provide the credentials for authenticating to the SSH server 'git' as user 'root'.
+dlgSgSshCredentials.lbl"Only private key files with OpenSSH format are supported."=\
+ Only private key files with OpenSSH format are supported.
 dlgSgSshCredentials.rbt"Password"=Password
 dlgSgSshCredentials.rbt"Private Key"=Private Key
 dlgSgSshCredentials.tle=SSH Authentication
@@ -2920,6 +2988,7 @@ ttpRepositories"<b>Changed locally</b>, open repository for details"=\
  <b>Changed locally</b>, open repository for details
 ttpRepositories"<b>Commit:\t</b>$1"=<b>Commit:\t</b>$1
 ttpRepositories"<b>Git Repository:\t</b>$1"=<b>Git Repository:\t</b>$1
+ttpRepositories"<b>Incoming Changes:\t</b>$1 commit to merge/rebase"=<b>Incoming Changes:\t</b>$1 commit to merge/rebase
 ttpRepositories"<b>Incoming Changes:\t</b>$1 commits to merge/rebase"=<b>Incoming Changes:\t</b>$1 commits to merge/rebase
 ttpRepositories"<b>Local Branch:\t</b>$1"=<b>Local Branch:\t</b>$1
 ttpRepositories"<b>Location:\t</b>$1"=<b>Location:\t</b>$1
@@ -2931,6 +3000,7 @@ ttpRepositories"<b>Remote:\t</b>$1"=<b>Remote:\t</b>$1
 ttpRepositories"<b>Remotes:\t</b>"=<b>Remotes:\t</b>
 ttpRepositories"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
 ttpRepositories"<b>Tracking State:\t</b>$1 commit behind"=<b>Tracking State:\t</b>$1 commit behind
+ttpRepositories"<b>Tracking State:\t</b>$1 commits behind"=<b>Tracking State:\t</b>$1 commits behind
 ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable"=<b>Tracking State:\t</b>$1 commits pushable
 ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable, $2 commits behind"=\
  <b>Tracking State:\t</b>$1 commits pushable, $2 commits behind
@@ -2942,6 +3012,9 @@ ttpRepositories"Merging $1 and $2"=Merging $1 and $2
 ttpRepositories"Repository at $1 is <b>missing</b>"=Repository at $1 is <b>missing</b>
 ttpRepositories"The remote repository contains new commits."=\
  The remote repository contains new commits.
+wndAnnotate.cmb"Age"=Age
+wndAnnotate.cmb"Author"=Author
+wndAnnotate.cmb"Changes Since"=Changes Since
 wndAnnotate.edt"By"=By
 wndAnnotate.edt"Commit"=Commit
 wndAnnotate.edt"Highlight"=Highlight
@@ -2979,6 +3052,7 @@ wndAnnotate.rbt"Commit Index"=Commit Index
 wndAnnotate.rbt"Time"=Time
 wndAnnotate.tab"Document"=Document
 wndAnnotate.tab"History of current line"=History of current line
+wndAnnotate.tle"$1 - Blame"=$1 - Blame
 wndCompare.lbl"Force Compare"=Force Compare
 wndCompare.mniRefresh=Reload
 wndCompare.mniView-layout-left-beside-right=Left Beside Right
@@ -3112,6 +3186,7 @@ wndDeepgit.mni"File"=File
 wndDeepgit.mni"Modifications"=Modifications
 wndDeepgit.mni"Open File Log"=Open File Log
 wndDeepgit.mni"Open Repository Log"=Open Repository Log
+wndDeepgit.mniDbBack=Go Back
 wndDeepgit.mniDgAbout=About DeepGit
 wndDeepgit.mniDgBack=Go Back
 wndDeepgit.mniDgConfigureRefGroups=Tag-Grouping
