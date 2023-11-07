@@ -37,6 +37,10 @@ dlgCommitInvisibleIndex.btn"Commit"=Commit
 dlgCommitInvisibleIndex.fur=Some staged files are not visible at the moment.
 dlgCommitInvisibleIndex.hdl=Commit invisible staged files?
 dlgCommitInvisibleIndex.tle=Commit
+dlgCommitView.hiddenOptions.chk=Don't show again
+dlgCommitView.hiddenOptions.fur=To use the options, they need to remain visible.
+dlgCommitView.hiddenOptions.hdl=Hidden options will be treated as unselected.
+dlgCommitView.hiddenOptions.tle=Commit
 dlgDgAbout.edt"Build Date"=Build Date
 dlgDgAbout.edt"Email"=Email
 dlgDgAbout.edt"Java Version"=Java Version
@@ -2209,12 +2213,18 @@ dlgSgRepositorySettings.inf=Here you can edit the effective Git settings for the
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=Encoding
+dlgSgRepositorySettings.tab"Fetch and Pull"=Fetch and Pull
 dlgSgRepositorySettings.tab"Pull"=Pull
 dlgSgRepositorySettings.tab"Push"=Push
 dlgSgRepositorySettings.tab"Signing"=Signing
 dlgSgRepositorySettings.tab"User & Encoding"=User & Encoding
 dlgSgRepositorySettings.tab"User"=User
 dlgSgRepositorySettings.tle=Repository Settings
+dlgSgRepositorySettings.ttpGroupPatterns"<b>Custom labels</b>"=<b>Custom labels</b>
+dlgSgRepositorySettings.ttpGroupPatterns"<b>Grouping logic</b>"=<b>Grouping logic</b>
+dlgSgRepositorySettings.ttpGroupPatterns"<b>Multiple group patterns</b>"=<b>Multiple group patterns</b>
+dlgSgRepositorySettings.ttpGroupPatterns"Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."=\
+ Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'.
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
  The entered email address does not look like a valid one.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
@@ -2528,12 +2538,15 @@ dlgSgSubmoduleAdd.chk"Map SVN trunk, tags and branches to Git"=\
 dlgSgSubmoduleAdd.edt"Branch"=Branch
 dlgSgSubmoduleAdd.edt"Local Directory"=Local Directory
 dlgSgSubmoduleAdd.edt"Local Path"=Local Path
+dlgSgSubmoduleAdd.edt"Relative Path"=Relative Path
 dlgSgSubmoduleAdd.edt"Repository URL"=Repository URL
 dlgSgSubmoduleAdd.edt"URL"=URL
 dlgSgSubmoduleAdd.inf"Provide the path where the submodule should be added relative to the outer repository root directory."=\
  Provide the path where the submodule should be added relative to the outer repository root directory.
 dlgSgSubmoduleAdd.inf"Specify the repository to clone as submodule."=\
  Specify the repository to clone as submodule.
+dlgSgSubmoduleAdd.lbl"Please wait ..."=Please wait ...
+dlgSgSubmoduleAdd.lbl"Steps"=Steps
 dlgSgSubmoduleAdd.lbl"e.g. https://user@server:port/path/to/repository"=e.g. https://user@server:port/path/to/repository
 dlgSgSubmoduleAdd.mni"Add Hosting Provider"=Add Hosting Provider
 dlgSgSubmoduleAdd.rbt"Local repository"=Local repository
@@ -2543,10 +2556,20 @@ dlgSgSubmoduleDeinitConfirm.btn"Deinit"=Deinit
 dlgSgSubmoduleDeinitConfirm.fur=The submodule will be skipped from the working tree. To get rid from the \(remote\) repository, you have to use Unregister instead.
 dlgSgSubmoduleDeinitConfirm.hdl%1=Do you want to deinit submodule '$1'?
 dlgSgSubmoduleDeinitConfirm.tle=Deinit Submodule
+dlgSgSubmoduleInitGit.btn"Initialize && Pull"=Initialize && Pull
+dlgSgSubmoduleInitGit.btn"Initialize"=Initialize
+dlgSgSubmoduleInitGit.edt"URL"=URL
+dlgSgSubmoduleInitGit.hdl=Set submodule URL
+dlgSgSubmoduleInitGit.inf=You can customize the submodule's clone URL used in .git/config for your local setup.
+dlgSgSubmoduleInitGit.tle=Initialize Submodule
 dlgSgSubmoduleResetConfirm.btn"Reset"=Reset
 dlgSgSubmoduleResetConfirm.fur=The corresponding commit will be checked out, so the submodule content will match the content of the registered commit.
 dlgSgSubmoduleResetConfirm.hdl%1=Do you want to reset submodule '$1' to the commit registered in the repository?
 dlgSgSubmoduleResetConfirm.tle=Reset Submodule
+dlgSgSubmoduleResetHeadNotAccessibleAnymore.btn"Reset"=Reset
+dlgSgSubmoduleResetHeadNotAccessibleAnymore.fur=The submodule HEAD is not reachable from any ref. After resetting, it will be hard to access this commit.
+dlgSgSubmoduleResetHeadNotAccessibleAnymore.hdl=Do you want to perform the reset even though you will loose access to the current HEAD commit?
+dlgSgSubmoduleResetHeadNotAccessibleAnymore.tle=Reset Submodule
 dlgSgSubmoduleSync.btn"Synchronize"=Synchronize
 dlgSgSubmoduleSync.chk"Pull submodule repositories"=Pull submodule repositories
 dlgSgSubmoduleSync.hdl=Synchronize all submodules
@@ -2868,6 +2891,7 @@ ttpBranches"<b>Remote Branch:\t</b>$1"=<b>Remote Branch:\t</b>$1
 ttpBranches"<b>Repository-internal</b> from branch <b>$1</b> to branch <b>$2</b>"=\
  <b>Repository-internal</b> from branch <b>$1</b> to branch <b>$2</b>
 ttpBranches"<b>SVN Revision:\t</b>$1"=<b>SVN Revision:\t</b>$1
+ttpBranches"<b>Tracked Branch:\t</b>$1"=<b>Tracked Branch:\t</b>$1
 ttpBranches"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
 ttpBranches"<b>Tracked Branch:\t</b><s>$1</s><col1> \(just configured\)</col1>"=<b>Tracked Branch:\t</b><s>$1</s><col1> \(just configured\)</col1>
 ttpBranches"<b>Tracking State:\t</b>$1 commit behind"=<b>Tracking State:\t</b>$1 commit behind
@@ -2905,6 +2929,7 @@ ttpRepositories"<b>Push Target:\t</b>$1<col1>$2</col1>"=<b>Push Target:\t</b>$1<
 ttpRepositories"<b>Remote:\t</b>$1"=<b>Remote:\t</b>$1
 ttpRepositories"<b>Remotes:\t</b>"=<b>Remotes:\t</b>
 ttpRepositories"<b>Tracked Branch:\t</b>$1<col1>$2</col1>"=<b>Tracked Branch:\t</b>$1<col1>$2</col1>
+ttpRepositories"<b>Tracking State:\t</b>$1 commit behind"=<b>Tracking State:\t</b>$1 commit behind
 ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable"=<b>Tracking State:\t</b>$1 commits pushable
 ttpRepositories"<b>Tracking State:\t</b>$1 commits pushable, $2 commits behind"=\
  <b>Tracking State:\t</b>$1 commits pushable, $2 commits behind
@@ -2912,6 +2937,7 @@ ttpRepositories"<b>Tracking State:\t</b>identical"=<b>Tracking State:\t</b>ident
 ttpRepositories"<b>Unchanged</b>"=<b>Unchanged</b>
 ttpRepositories"<col1>Remote </col1>$1<b>\t</b>$2"=<col1>Remote </col1>$1<b>\t</b>$2
 ttpRepositories"Bisecting"=Bisecting
+ttpRepositories"Merging $1 and $2"=Merging $1 and $2
 ttpRepositories"Repository at $1 is <b>missing</b>"=Repository at $1 is <b>missing</b>
 ttpRepositories"The remote repository contains new commits."=\
  The remote repository contains new commits.
@@ -3230,6 +3256,9 @@ wndLog.tbt"Reading outgoing pull requests from '$1'."=\
  Reading outgoing pull requests from '$1'.
 wndLog.tbt"Refresh information from Bitbucket."=Refresh information from Bitbucket.
 wndLog.tle"$1 - Log"=$1 - Log
+wndLog.tle"$1 \[$2\] - Log for $3"=\
+ $1 \[$2\] - Log for $3
+wndProject.col"LFS"=LFS
 wndProject.mni"Log Selection"=Log Selection
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage"Ready"=Ready
 wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen=Full Screen
