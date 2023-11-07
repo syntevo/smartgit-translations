@@ -493,7 +493,7 @@ dlgSgAbortMergingConfirm.fur=Your working tree is in 'merging' state. You may ab
 dlgSgAbortMergingConfirm.hdl=Do you want to abort the current merge?
 dlgSgAbortMergingConfirm.tle=Abort
 dlgSgAbortRebasingConfirm.btn"Abort Rebase"=Abort Rebase
-dlgSgAbortRebasingConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase HEAD To instead.\n\nAborting will clean any local modification \(by invoking 'git reset --hard'\)!
+dlgSgAbortRebasingConfirm.fur=Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \| Rebase \| Rebase instead.\n\nAborting will clean any local modification \(by invoking 'git rebase --abort'\)!
 dlgSgAbortRebasingConfirm.hdl=Do you want to abort the rebasing?
 dlgSgAbortRebasingConfirm.tle=Discard
 dlgSgAbortRevertingConfirm.btn"Abort Revert"=Abort Revert
@@ -599,7 +599,7 @@ dlgSgBranchDeleteLocalConfirmSingle.tle=Delete
 dlgSgBranchDeleteRemoteConfirmSingle.btn"Delete"=Delete
 dlgSgBranchDeleteRemoteConfirmSingle.chk"Delete from remote '$1'"=Delete from remote '$1'
 dlgSgBranchDeleteRemoteConfirmSingle.chk"Delete from remote repository '$1'"=Delete from remote repository '$1'
-dlgSgBranchDeleteRemoteConfirmSingle.fur=You may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch.
+dlgSgBranchDeleteRemoteConfirmSingle.fur=If you don't delete the branch from the remote repository, it may come back with the next fetch.
 dlgSgBranchDeleteRemoteConfirmSingle.hdl"Do you want to delete the branch '$1'?"=\
  Do you want to delete the branch '$1'?
 dlgSgBranchDeleteRemoteConfirmSingle.hdl"Do you want to delete the remote branch '$1'?"=\
@@ -621,7 +621,7 @@ dlgSgBugReportSettings.chk"Send 'crash footprints' after an internal error has o
 dlgSgBugReportSettings.err"Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release."=\
  Sending 'crash footprints' is required for preview builds, because their main purposes is to get as much as possible bugs reported and fixed before release.
 dlgSgBugReportSettings.hdl=Crash Reporting
-dlgSgBugReportSettings.inf=Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.
+dlgSgBugReportSettings.inf=Please help to improve SmartGit's quality by automatically sending 'crash footprints'.
 dlgSgBugReportSettings.lbl"A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
  A 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
 dlgSgBugReportSettings.lbl"Sent data contains \*no potentially sensitive information\* like user names, email addresses, file contents, file paths or server names."=\
@@ -843,7 +843,7 @@ dlgSgCommitSelectMessageFromLog.mni"Remember Pattern"=Remember Pattern
 dlgSgCommitSelectMessageFromLog.tle=Select Commit Message
 dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit All Changes"=Commit All Changes
 dlgSgCommitSingleOrAllWorkingTreeChanges.btn"Commit File"=Commit File
-dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all changed files.
+dlgSgCommitSingleOrAllWorkingTreeChanges.fur=You either can commit the single selected file or all \(visible\) changed files.
 dlgSgCommitSingleOrAllWorkingTreeChanges.hdl=What do you want to commit?
 dlgSgCommitSingleOrAllWorkingTreeChanges.tle=Commit
 dlgSgCommitToDetachedHead.btn"Commit Anyway"=Commit Anyway
@@ -1180,7 +1180,7 @@ dlgSgHistoryEditMessage.hdl=Edit commit message
 dlgSgHistoryEditMessage.inf=Enter the new commit message.
 dlgSgHistoryEditMessage.mni"JIRA"=JIRA
 dlgSgHistoryEditMessage.mni"Log"=Log
-dlgSgHistoryEditMessage.tle=Edit Commit Message
+dlgSgHistoryEditMessage.tle=Edit Message
 dlgSgHistoryModifySplitConfirm.btn"Modify"=Modify
 dlgSgHistoryModifySplitConfirm.btn"Split"=Split
 dlgSgHistoryModifySplitConfirm.fur='Modify' will stop after the commit.\n\n'Split' will put the changes into the Index. You may discard some changes that should go into the second commit.\n\nAfter you've done the changes, process the remaining commits by continuing the rebase.
@@ -2209,7 +2209,7 @@ dlgSgRepositorySettings.edt"Text File Encoding"=Text File Encoding
 dlgSgRepositorySettings.err"Please enter a valid, comma-separated list of regular expressions."=\
  Please enter a valid, comma-separated list of regular expressions.
 dlgSgRepositorySettings.hdl=Edit the repository settings
-dlgSgRepositorySettings.inf=Here you can edit the effective Git settings for the repository. The default settings can be found in the preferences.
+dlgSgRepositorySettings.inf=Here you can edit the Git settings for the repository. The default settings can be found in the preferences.
 dlgSgRepositorySettings.lbl"\* if repository commit references non-pushed submodule commit"=\
  \* if repository commit references non-pushed submodule commit
 dlgSgRepositorySettings.tab"Encoding"=Encoding
@@ -2879,7 +2879,7 @@ ttpBranches"<b>Author:\t</b>$1"=<b>Author:\t</b>$1
 ttpBranches"<b>Commit Date:\t</b>$1"=<b>Commit Date:\t</b>$1
 ttpBranches"<b>Commit Message:\t</b>$1"=<b>Commit Message:\t</b>$1
 ttpBranches"<b>Committer:\t</b>$1"=<b>Committer:\t</b>$1
-ttpBranches"<b>Date:\t</b>$1"=<b>Date: </b>$1
+ttpBranches"<b>Date:\t</b>$1"=<b>Date:\t</b>$1
 ttpBranches"<b>ID:\t</b>$1"=<b>ID:\t</b>$1
 ttpBranches"<b>Last Updated By:\t</b>$1"=<b>Last Updated By: </b>$1
 ttpBranches"<b>Local Branch:\t</b>$1"=<b>Local Branch:\t</b>$1
@@ -2918,7 +2918,7 @@ ttpRepositories"<b>Branch:\t</b>$1"=<b>Branch:\t</b>$1
 ttpRepositories"<b>Changed locally</b>, open repository for details"=\
  <b>Changed locally</b>, open repository for details
 ttpRepositories"<b>Commit:\t</b>$1"=<b>Commit:\t</b>$1
-ttpRepositories"<b>Git Repository:\t</b>$1"=<b>Git Repository:\t$1
+ttpRepositories"<b>Git Repository:\t</b>$1"=<b>Git Repository:\t</b>$1
 ttpRepositories"<b>Incoming Changes:\t</b>$1 commits to merge/rebase"=<b>Incoming Changes:\t</b>$1 commits to merge/rebase
 ttpRepositories"<b>Local Branch:\t</b>$1"=<b>Local Branch:\t</b>$1
 ttpRepositories"<b>Location:\t</b>$1"=<b>Location:\t</b>$1
