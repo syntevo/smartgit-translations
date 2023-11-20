@@ -457,7 +457,7 @@ dlgScTextReplace.chk"Case-sensitive"=Case-sensitive
 dlgScTextReplace.chk"Regular Expression search"=Regular Expression search
 dlgScTextReplace.chk"Replace With:"=Replace With:
 dlgScTextReplace.edt"Text to Find"=Text to Find
-dlgScTextReplace.tle=Find and Replace
+dlgScTextReplace.tle"Find and Replace"=Find and Replace
 dlgScTextSettings.chk"Coalesce nearby change blocks"=Coalesce nearby change blocks
 dlgScTextSettings.chk"Split leading/trailing added or removed lines into separate blocks"=\
  Split leading/trailing added or removed lines into separate blocks
