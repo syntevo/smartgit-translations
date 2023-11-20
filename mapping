@@ -1500,6 +1500,7 @@ dlgSgOpenRepository.edt"Repository"=Repository
 dlgSgOpenRepository.err"Please specify the root directory of a Git repository."=\
  Please specify the root directory of a Git repository.
 dlgSgOpenRepository.hdl=Add existing or create new repository
+dlgSgOpenRepository.inf=Specify the local Git repository to open. To create a new repository, specify an empty directory.
 dlgSgOpenRepository.tle=Add or Create Repository
 dlgSgOpenRepositoryInitializeGit.btn"Initialize"=Initialize
 dlgSgOpenRepositoryInitializeGit.fur=The specified directory does not appear to be a valid Git repository.
