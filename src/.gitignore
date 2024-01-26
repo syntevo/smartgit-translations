@@ -1,0 +1,8 @@
+/.venv/
+**/.idea/
+**/.vscode/
+**/.pytest_cache/
+**/__pycache__/
+**/tmp/
+*.appmap.json
+*.pyc
