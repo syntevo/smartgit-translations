@@ -5,7 +5,8 @@ from typing import AnyStr
 
 class PoPathFinder:
     """
-    This class provides the functionality for returning the paths to each file in the repository that is used for translation.
+    This class provides the functionality for returning the paths to each file
+    in the repository that is used for translation.
     """
 
     def __init__(self, repository_root_dir="", version='24_1'):
