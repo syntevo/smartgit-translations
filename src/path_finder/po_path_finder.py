@@ -32,10 +32,10 @@ class PoPathFinder:
         return os.path.join(self.root_dir, 'po')
 
     def get_mismatch_file(self) -> str:
-        return os.path.join(self.get_po_file_dir(), f'mismatch.{self.version}.po')
+        return os.path.join(self.get_po_file_dir(), f'mismatch.{self.version}')
 
     def get_unknown_file(self) -> str:
-        return os.path.join(self.get_po_file_dir(), f'unknown.{self.version}.po')
+        return os.path.join(self.get_po_file_dir(), f'unknown.{self.version}')
 
     @staticmethod
     def get_repository_root() -> str:
