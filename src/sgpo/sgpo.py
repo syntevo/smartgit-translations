@@ -1,9 +1,12 @@
 from __future__ import annotations
-import polib
-import re
+
 import os
-import sgpo
+import re
 from collections import namedtuple
+
+import polib
+
+import sgpo
 
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 
@@ -249,13 +252,15 @@ class SgPo(polib.POFile):
 
     @staticmethod
     def _validate_filename(filename: str) -> bool:
+
         if not filename:
             raise ValueError("File path cannot be None")
 
         if not os.path.exists(filename):
             raise FileNotFoundError(f"File not found: {filename}")
 
-        if not (filename.endswith('.po') or filename.endswith('pot')):
+        pattern = r".*\d+_\d+$"
+        if not (filename.endswith('.po') or filename.endswith('pot') or re.match(pattern, filename)):
             raise ValueError("File type not supported")
 
         return True
