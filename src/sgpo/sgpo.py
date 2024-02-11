@@ -171,6 +171,14 @@ class SgPo(polib.POFile):
 
         print(f'\n     new entry:\t{new_entry_count}')
         print(f'\nmodified entry:\t{modified_entry_count}')
+    def delete_extracted_comments(self):
+        """
+        Deletes the extracted comments that originate from unknown or mismatch files.
+        In the case of SmartGit, this is where the activity log is output.
+        """
+        for entry in self:
+            if entry.comment:
+                entry.comment = None
 
     def find_by_key(self, msgctxt: str, msgid: str) -> polib.POEntry:
         for entry in self:

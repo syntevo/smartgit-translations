@@ -1,0 +1,21 @@
+#
+msgid ""
+msgstr ""
+
+#  translator-comments
+#: reference…
+#, fuzzy
+#| msgctxt previous-context
+#| msgid previous-untranslated-string
+msgctxt "context:"
+msgid "msgid_1"
+msgstr ""
+
+#  translator-comments
+#: reference…
+#, flag…
+#| msgctxt previous-context
+#| msgid previous-untranslated-string
+msgctxt "unique_key_1"
+msgid "unique_msgid_1"
+msgstr ""

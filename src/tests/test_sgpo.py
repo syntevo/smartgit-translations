@@ -274,6 +274,21 @@ class TestSgpo(unittest.TestCase):
 
         self.assertEqual(expected_result.__unicode__(), po.__unicode__())
 
+    def test_delete_extracted_comments(self):
+        pot_file = get_test_data_path('delete_extracted_comments', 'messages.pot')
+        expected_result_file = get_test_data_path('delete_extracted_comments', 'expected_result.pot')
+        pot = sgpo.pofile(pot_file)
+        expected_result_pot = sgpo.pofile(expected_result_file)
+
+        print("\n======== Input ========")
+        print(pot)
+
+        pot.delete_extracted_comments()
+        print("\n======== Output ========")
+        print(pot)
+
+        self.assertEqual(expected_result_pot.__unicode__(), pot.__unicode__())
+
 
 # ====== Test data ====
 get_key_list_test_data = r"""#
