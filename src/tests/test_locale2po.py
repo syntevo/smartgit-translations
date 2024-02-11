@@ -203,40 +203,40 @@ class TestCombinedSgMapToPoFile(unittest.TestCase):
 
 # ======================= Test Data =======================
 
-master = """
+master = r"""
 dlgQFrameManagerExit.hdl=Do you really want to exit SmartGit?
 """
 
 # Untranslated item
-locale_1 = """
+locale_1 = r"""
 dlgQFrameManagerExit.hdl=
 #                        !=Do you really want to exit SmartGit?
 """
 
 # Translated item with comment (Item needs check)
-locale_2 = """
+locale_2 = r"""
 dlgQFrameManagerExit.hdl=是否确定要退出 SmartGit ？
 #                        !=Do you really want to exit SmartGit?
 """
 
 # Translated item
-locale_3 = """
+locale_3 = r"""
 dlgQFrameManagerExit.hdl=是否确定要退出 SmartGit ？
 """
 
 # Translated item with unexpected comment
-locale_4 = """
+locale_4 = r"""
 dlgQFrameManagerExit.hdl=是否确定要退出 SmartGit ？
 #                      !=foo
 """
 
 # equal master mapping
-state_1 = """
+state_1 = r"""
 dlgQFrameManagerExit.hdl=Do you really want to exit SmartGit?
 """
 
 # master mapping modified
-state_2 = """
+state_2 = r"""
 dlgQFrameManagerExit.hdl=Do you want to exit SmartGit?
 """
 
