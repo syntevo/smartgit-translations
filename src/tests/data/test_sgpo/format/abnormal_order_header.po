@@ -1,0 +1,30 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartGit\n"
+"Report-Msgid-Bugs-To: https://github.com/syntevo/smartgit-translations\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+
+msgctxt "context:"
+msgid "msgid_1"
+msgstr "msgstr_1"
+
+msgctxt "context:"
+msgid "msgid_2"
+msgstr "msgstr_2"
+
+msgctxt "unique_key_1"
+msgid "unique_msgid_1"
+msgstr "unique_msgstr_1"
+
+msgctxt "unique_key_2"
+msgid "unique_msgid_2"
+msgstr "unique_msgstr_2"

@@ -1,1 +1,1 @@
-from path_finder.po_path_finder import PoPathFinder
+from path_finder.po_path_finder import PoPathFinder,get_repository_root

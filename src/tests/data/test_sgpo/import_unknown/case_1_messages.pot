@@ -1,0 +1,19 @@
+#
+msgid ""
+msgstr ""
+
+msgctxt "context:"
+msgid "msg 1"
+msgstr ""
+
+msgctxt "context:"
+msgid "msg 2"
+msgstr ""
+
+msgctxt "unique_key_1"
+msgid "unique msg 1"
+msgstr ""
+
+msgctxt "unique_key_2"
+msgid "unique msg 2"
+msgstr ""

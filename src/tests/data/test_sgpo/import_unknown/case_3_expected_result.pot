@@ -1,0 +1,35 @@
+#
+msgid ""
+msgstr ""
+
+msgctxt "context:"
+msgid "msg 1"
+msgstr ""
+
+msgctxt "context:"
+msgid "msg 2"
+msgstr ""
+
+#. activity log 4
+#. activity log 3
+#. activity log 2
+#. activity log 1
+msgctxt "context:"
+msgid "unknown msg 1"
+msgstr ""
+
+msgctxt "unique_key_1"
+msgid "unique msg 1"
+msgstr ""
+
+msgctxt "unique_key_2"
+msgid "unique msg 2"
+msgstr ""
+
+#. activity log 8
+#. activity log 7
+#. activity log 6
+#. activity log 5
+msgctxt "unique_key_3"
+msgid "unknown unique msg 3"
+msgstr ""

@@ -118,8 +118,8 @@ class SgPo(polib.POFile):
                 try:
                     self.append(mismatch_entry)
                     print(f'\nNew entry added.')
-                    print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}')
-                    print(f'\t\tmsgid "{mismatch_entry.msgid}')
+                    print(f'\t\tmsgctxt "{mismatch_entry.msgctxt}"')
+                    print(f'\t\tmsgid "{mismatch_entry.msgid}"')
                     new_entry_count += 1
                 except ValueError as e:
                     print(e)
@@ -141,8 +141,8 @@ class SgPo(polib.POFile):
         # Add new my_entry
         print(f'\npot file only: {len(diff_pot_only_key)}')
         for key in diff_pot_only_key:
-            print(f'msgctxt:\t{key.msgctxt}\n'
-                  f'  msgid:\t{key.msgid}\n')
+            print(f'msgctxt:\t"{key.msgctxt}"\n'
+                  f'  msgid:\t"{key.msgid}"\n')
 
             self.append(pot.find_by_key(key.msgctxt, key.msgid))
             new_entry_count += 1
@@ -150,8 +150,9 @@ class SgPo(polib.POFile):
         # Remove obsolete entry
         print(f'\npo file only: {len(diff_po_only_key)}')
         for key in diff_po_only_key:
-            print(f'msgctxt:\t{key.msgctxt}'
-                  f'  msgid:\t{key.msgid}\n')
+            print(f'msgctxt:\t"{key.msgctxt}"\n'
+                  f'  msgid:\t"{key.msgid}"\n')
+
             entry = self.find_by_key(key.msgctxt, key.msgid)
             entry.obsolete = True
 
@@ -160,7 +161,7 @@ class SgPo(polib.POFile):
             if not my_entry.msgctxt.endswith(':'):
                 pot_entry = pot.find_by_key(my_entry.msgctxt, None)
 
-                if my_entry.msgid != pot_entry.msgid:
+                if pot_entry and (my_entry.msgid != pot_entry.msgid):
                     print(f'msgctxt:\t{my_entry.msgctxt}\n'
                           f'  msgid:\t{my_entry.msgid}\n')
                     my_entry.previous_msgid = my_entry.msgid
@@ -193,6 +194,7 @@ class SgPo(polib.POFile):
 
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
+        self.sort()
 
     def get_key_list(self) -> list:
         return [self._po_entry_to_key_tuple(entry) for entry in self]

@@ -12,7 +12,7 @@ class PoPathFinder:
     def __init__(self, repository_root_dir="", version='24_1'):
         self.version = version
         if repository_root_dir == "":
-            self.root_dir = self.get_repository_root()
+            self.root_dir = get_repository_root()
         else:
             self.root_dir = repository_root_dir
 
@@ -37,9 +37,9 @@ class PoPathFinder:
     def get_unknown_file(self) -> str:
         return os.path.join(self.get_po_file_dir(), f'unknown.{self.version}')
 
-    @staticmethod
-    def get_repository_root() -> str:
-        return dirname(dirname(dirname(os.path.abspath(__file__))))
+
+def get_repository_root() -> str:
+    return dirname(dirname(dirname(os.path.abspath(__file__))))
 
 
 def dirname(p: os.PathLike[AnyStr]) -> AnyStr:
