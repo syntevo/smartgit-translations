@@ -1,3 +1,4 @@
 pytest
 pyparsing
 polib
+openai
