@@ -7,7 +7,7 @@ from collections import namedtuple
 from typing import Dict, List, Tuple
 
 from pyparsing import (CharsNotIn, restOfLine, LineEnd, Suppress, Group, ZeroOrMore, OneOrMore, StringEnd,
-                       ParseException, Combine, Literal, MatchFirst, White)
+                       ParseException, Combine, Literal, MatchFirst, White, Optional)
 
 
 # The following class is intended only to clarify the fields of namedtuple and does nothing else.
@@ -110,7 +110,7 @@ class SgMap:
     def _create_parser():
 
         equals = MatchFirst([
-            Literal('=\\').setResultsName('split_line_operator') + LineEnd() + White(),
+            Literal('=\\').setResultsName('split_line_operator') + LineEnd() + Optional(White()),
             Literal('==').setResultsName('double_equals'),
             Literal('=').setResultsName('single_equal')
         ])

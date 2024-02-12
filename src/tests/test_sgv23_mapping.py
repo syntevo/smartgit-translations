@@ -135,6 +135,27 @@ class TestSgMap(unittest.TestCase):
         entry3 = map_dict.get('entry3_key', None)
         self.assertIsNotNone(entry3)
         self.assertEqual('entry3_value', entry3.value)
+    def test_split_line_entry2(self):
+        test_data = ("entry1_key=entry1_value\n"
+                     "entry2_key=\\\n"
+                     "entry2_value\n"
+                     "entry3_key=entry3_value\n"
+                     )
+
+        test_map = SgMap.from_text(test_data, 'en_US')
+        map_dict = test_map.get_dictionary()
+
+        entry1 = map_dict.get('entry1_key', None)
+        self.assertIsNotNone(entry1)
+        self.assertEqual('entry1_value', entry1.value)
+
+        entry2 = map_dict.get('entry2_key', None)
+        self.assertIsNotNone(entry2)
+        self.assertEqual('entry2_value', entry2.value)
+
+        entry3 = map_dict.get('entry3_key', None)
+        self.assertIsNotNone(entry3)
+        self.assertEqual('entry3_value', entry3.value)
 
     def test_key_contains_escape_sequence(self):
         test_data = ("entry1_key=entry1_value\n"
