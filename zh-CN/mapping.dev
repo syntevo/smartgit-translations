@@ -1488,8 +1488,8 @@ dlgSgHostingProviderEdit.tle=GitLab
 dlgSgHostingProviderEdit.tle"Azure DevOps"==Azure DevOps
 dlgSgHostingProviderEdit.tle"Bitbucket Server"==Bitbucket Server
 dlgSgHostingProviderEdit.tle"Bitbucket"==Bitbucket
-dlgSgHostingProviderEdit.tle"GitHub"===GitHub
-dlgSgHostingProviderEdit.tle"GitLab"===GitLab
+dlgSgHostingProviderEdit.tle"GitHub"==GitHub
+dlgSgHostingProviderEdit.tle"GitLab"==GitLab
 dlgSgHostingProviderEdit.wrn"Connection to '$1' failed: $2"=连接到 '$1' 失败：$2
 dlgSgHostingProviderSelectRepository.btn"Select"=选择
 dlgSgHostingProviderSelectRepository.col"Name"=名称
@@ -1775,7 +1775,7 @@ dlgSgPreferences.chk"Ask for master password on startup"=\
  在启动时询问主密码
 dlgSgPreferences.chk"Autoindent new lines"=自动缩进新行
 dlgSgPreferences.chk"Automatically save stash on common commands, if they fail due to local changes"=\
-如果由于本地更改导致常用命令执行失败, 则自动保存变更到贮藏中
+ 如果由于本地更改导致常用命令执行失败, 则自动保存变更到贮藏中
 dlgSgPreferences.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
  发生内部错误后自动发送 “崩溃追踪”
 dlgSgPreferences.chk"Automatically set up tracking for new branches \(requires push.default to be unset\)"=\
@@ -2473,7 +2473,7 @@ dlgSgRepositorySettings.ttpGroupPatterns"<b>Multiple group patterns</b>"=<b>多�
 dlgSgRepositorySettings.ttpGroupPatterns"Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."=
 #                                                                                                                                                                                                                                                                                                     !=Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'.
 dlgSgRepositorySettings.wrn"The entered email address does not look like a valid one."=\
-输入的电子邮件地址看起来不像是有效的.
+ 输入的电子邮件地址看起来不像是有效的.
 dlgSgRepositorySettings.wrn"The name should not contain an email address."=\
  该名称不应包含电子邮件地址。
 dlgSgRepositorySettings.wrn"Without setting your name, you won't be able to commit."=\
@@ -2490,11 +2490,11 @@ dlgSgResetAdv.lbl"Current staged and local changes will be lost!"=\
 dlgSgResetAdv.lbl"Current staged changes will be lost!"=\
  当前暂存的更改将会丢失!
 dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree changes, the reset is aborted."=\
-类似于'hard'. 如果待替换的文件在工作区中有更改, 则重置操作会被中止.
+ 类似于'hard'. 如果待替换的文件在工作区中有更改, 则重置操作会被中止.
 dlgSgResetAdv.lbl"Similar to 'hard'. If a file to be replaced has working tree or Index changes, the reset is aborted."=\
-类似于'hard'. 如果待替换的文件在工作区或索引中有更改, 则重置操作会被中止.
+ 类似于'hard'. 如果待替换的文件在工作区或索引中有更改, 则重置操作会被中止.
 dlgSgResetAdv.lbl"The Index will show all changes between the previous HEAD and the selected commit."=\
-索引将显示上一个 HEAD 和所选提交之间的所有更改.
+ 索引将显示上一个 HEAD 和所选提交之间的所有更改.
 dlgSgResetAdv.rbt"Don't touch the Index nor the working tree - 'soft'"=\
  不要变更索引或工作区 - “--soft”
 dlgSgResetAdv.rbt"Reset the Index and the working tree - 'hard'"=\
@@ -4324,7 +4324,7 @@ wnd(Log|Project|Std|).mniWindowOutput=输出视图
 wnd(Log|Project|Std|).mniWindowWorkingTree=工作区窗口
 wnd(Log|Project|Std|).mniWorktreeAdd=创建工作区
 wnd(Log|Project|Std|).mniWorktreePrune=修剪过时的工作区
-wnd(Log|Project|Std|).mniWorktreeRemove=远程工作区
+wnd(Log|Project|Std|).mniWorktreeRemove=远程工作树
 wnd(Log|Project|Std|).mnu"Bisect"=二分
 wnd(Log|Project|Std|).mnu"Branch"=分支
 wnd(Log|Project|Std|).mnu"Branches"=分支
