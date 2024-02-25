@@ -6,107 +6,181 @@ https://www.syntevo.com/smartgit/download/
 
 # How does SmartGit's localization work?
 
-SmartGit contains the various UI texts ('strings') directly in the source code. Many of these strings are dynamically composed. The main UI components have keys assigned which are used to look up translations from mapping files. The root `mapping` file ('master mapping') contains all currently known keys with their English original texts. For all currently supported locales, corresponding sub-directories contains a `mapping.dev` file with appropriate translations and/or comments on not-yet translated keys or keys which may require a new translation. There is also an auxiliary `mapping.state` file.
+SmartGit includes various UI texts ('strings') directly in its source code. Many of these strings are dynamically composed. Major UI components are assigned keys, which are used to search for translations from localization files.
+The `./po` directory contains a `messages.pot` file ('master mapping') which includes all currently known keys and their original English texts. Localization files for all currently supported locales, named `<locale_code>.po`, contain similar keys and original texts, along with their translations (or are yet to be translated).
 
-The master mapping will be updated by us from SmartGit sources in regular intervals. `mapping.dev` and `mapping.state` will be updated primarily by contributers and synchronized back by us to SmartGit sources.
+The 'master mapping' is updated by us from the SmartGit source at regular intervals. `<locale_code>.po` files are primarily updated by contributors and then synchronized with the SmartGit source by us.
 
-For every SmartGit version, there is a separate branch, like `smartgit-22.1`.
+The translations for the latest Preview release are managed in the `master` branch, and each stable version of SmartGit has its separate branch, like `smartgit-23.1`.
+
+> [!NOTE] 
+> Starting with SmartGit 24.1, we have migrated the format of localization files to one of the de facto standard formats, the PO file format. For previous versions, please refer to the README.md of each version's branch.
 
 # How to contribute?
 
 You can contribute to the localization of SmartGit in two ways:
 
-* **Help to translate**: add/improve translations in `mapping.dev` language mappings
+* **Help to translate**: add/improve translations in your language's `<locale_code>.po` file
 * **Help to collect**: collect not yet known keys to populate the master mapping
 
-## Preparations
+## Preparation
 
-In either case, you have to fork and clone this repository and ensure that you are in the correct branch:
+### Clone the Repository
 
-1. Be sure to use the latest released or the current preview version of SmartGit
+In either case, you'll need to fork and clone this repository, ensuring you're on the appropriate branch:
+
+1. Use the latest release or the current preview version of SmartGit
 1. Fork the repository
 1. Clone your fork, e.g. to `C:\temp\smartgit-translations.git`
 1. Checkout the appropriate branch:
    1. `master` contains translations for the current Preview version
    1. `smartgit-...` contains translations for the corresponding SmartGit version
 
-> **Note!** Please only send pull requests for one of these two versions.
+> [!IMPORTANT]
+> Please only send pull requests for one of these two versions. 
 
-## Help to translate
+### Enable Viewing Translation Results in the Actual GUI
 
-Every single new translation is welcome! To contribute, follow these steps:
+This is not mandatory for translation-only contributions, but it enables you to work while checking how your translations appear in the actual GUI.
 
-1. Perform the preparations, as explained above
-1. Check for pending pull requests, to see which translations are currently in progress
-1. Use `mapping.dev` to determine which text you want to translate.
-   For keys which require a (re-)translation, `mapping.dev` contains special comment lines (`#`) with the `!=`-marker directly below the key-line.
-   The text after the `!=`-marker is taken from the master mapping and represents the English original text, which the translation should reflect.
-   For example, if there is no translation present yet, this may look like:
-
-   ```
-   dlgProgress.lbl"Please wait ..."=
-   #                              !=Please wait ...
-   ```
-
-   If there is already a translation, but the English original text has changed, this may look like:
-
-   ```
-   dlgProgress.lbl"Please wait ..."=你得等一等
-   #                              !=Please wait ...
-   ```
-1. In `mapping.dev` apply the proper translation and remove the comment line.
-   For the above examples, this may look like:
-   ```
-   dlgProgress.lbl"Please wait ..."=请稍等 ...
-   ```
-1. In `mapping.state` locate the key which you have translated and update/set the English original text to which your translations now corresponds to.
-   This should be the identical English text which is present in the master mapping and which was present in the `!=`-comment.
-   For the above examples, this may look like:
-   ```
-   dlgProgress.lbl"Please wait ..."=Please wait ...
-   ```
-1. Have a single commit including both files
-   1. Prefix your commit message by `Chinese translation updated: ` (or the appropriate language name)
-1. Send us a pull request, again with `Chinese translation update: ` prefix (or the appropriate language name)
-
-> **Note!** Please make sure that your pull request does not contain any unrelated formatting changes (like line endings) or any other unnecessary changes, like re-orderings (keys are automatically sorted by us).
-
-### Details on the syntax
-
-If the translation of a specific text should remain identical to the original English text, prefix the text by `=`. For example:
-
-> *.btn"OK"==OK
-
-## Help to collect
-
-Due to the dynamic generation of SmartGit texts, the master mapping does not contain *all* keys, but only *all currently known* keys which have been 'collected' by our contributors and us. To help collecting keys:
-
-1. Follow the preparations, as explained above
-1. Make sure SmartGit is not running (Repository|Exit)
-1. Locate `smartgit.properties` in SmartGit's settings directory (see About dialog) and add following lines there:
+1. Open SmartGit's configuration directory. (Help -> About SmartGit, Information Tab)
+1. Exit SmartGit. (Repository -> Exit)
+1. Find `smartgit.properties` in the configuration directory and add the following lines:
    ```
    smartgit.i18n=<locale>
    smartgit.debug.i18n.development=<path-to-localization-directory>
-   smartgit.debug.i18n.master=<path-to-master-mapping>
    ```
-   For the above example directory and Chinese locale, this will be:
+   Set `<locale>` to one of the locales like `zh_CN`, `ja_JP`.
+
+   For example, if the repository is cloned to the location shown and you are translating for the `zh_CN` locale, it would look like this:
    ```
    smartgit.i18n=zh_CN
-   smartgit.debug.i18n.development=C\:/temp/smartgit-translations.git/zh-CN
-   smartgit.debug.i18n.master=C\:/temp/smartgit-translations.git/mapping
+   smartgit.debug.i18n.development=C\:/temp/smartgit-translations.git/po
    ```
-1. Restart SmartGit
-1. SmartGit will now have created several new files in the specified `development`-directory, most importantly:
-   1. `unknown.*`, which contains not yet known keys, i.e. keys for which there is no matching entry in the master mapping file yet
-   1. `mismatch.code.*`, which contains already known keys and represents the current state in the code
-   1. `mismatch.mapping.*`, which contains already known keys and represents the obsolete state in the master mapping
-   1. Note that all three files are ignored and thus 'owned' by you
-1. Shutdown SmartGit
-1. From time to time, check these files, compress them and send us to `smartgit@syntevo.com`
-   1. Prefix your email by "Language mappings: new/changed keys"
-1. **Remove all three files**, to start collecting new keys from scratch
+
+`smartgit.properties` also has options to display marks on UI elements of the GUI with untranslated sections or unknown keys, which is especially useful for key collection, so activate it as needed.
+For more details, refer to [About smartgit.properties](docs/about_smartgit_properties.md).
+
+> [!IMPORTANT]
+> This setting is mandatory when collecting keys.
+
+### Prepare Your Editor
+
+For translating po files, a basic text editor is possible, but you may find translation support tools like the following convenient. Use whichever tool you prefer:
+
+* [Poedit](https://poedit.net)
+* [Virtaal](https://virtaal.translatehouse.org)
+* [Lokalize](https://apps.kde.org/lokalize/)
+
+## Contributing to Translation
+
+All new translations are welcome! To contribute, please follow these steps:
+
+### If Using a Text Editor
+
+1. Prepare as described above
+1. Check pending pull requests to see which translations are in progress
+
+1. Review the contents of `<locale_code>.po` to find the text to translate.
+
+1. Translate the text.
+   Here's an example entry to explain:
+   ```
+   msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
+   msgid "Please wait ..."
+   msgstr ""
+   ```
+   In po files, `msgctxt` is a string for identifying context, `msgid` serves as both the key and original text, and the translated message is written in `msgstr`.
+   In SmartGit, every entry has a `msgctxt` and `msgid`, which are used internally as the key.
+ 
+1. Write your translated message in `msgstr`.
+   ```
+   msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
+   msgid "Please wait ..."
+   msgstr "请稍等..."
+   ```
+
+1. Send a pull request with a prefix like `Chinese translation update: ` (or the appropriate language name)
+
+> [!IMPORTANT]
+> Ensure your pull request does not include unnecessary changes like end-of-line alterations (e.g., newline) or reordering (entry are automatically sorted by us).
+
+#### Syntax Details
+
+##### Untranslated Entries
+
+Below is an example of an untranslated entry. Entries where `msgstr` is an empty string.
+
+```
+msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
+msgid "Please wait ..."
+msgstr ""
+```
+#### Entries That Do Not Require Translation
+
+For items that should remain as the original text, like product names, set `msgstr` to the same string as `msgid`.
+
+```
+msgctxt "dlgSgHostingProviderEdit.tle:"
+msgid "GitHub"
+msgstr "GitHub"
+```
+
+#### Entries That Require Verification or Modification
+
+Entries deemed to need verification for some reason are tagged with the `fuzzy` flag.
+Also, entries whose original text has changed will have the previous original text written in a comment line starting with `#| msgid`.
+Review the content and adjust `msgstr` as needed.
+
+```
+#, fuzzy
+#| msgid "Edit the effective repository settings"
+msgctxt "dlgSgRepositorySettings.hdl"
+msgid "Edit the repository settings"
+msgstr "编辑有效的仓库设置"
+```
+
+Once verification or modification is complete, remove the 'fuzzy' flag and the previous original text line.
+```
+msgctxt "dlgSgRepositorySettings.hdl"
+msgid "Edit the repository settings"
+msgstr "编辑仓库设置"
+```
+
+### If Using Translation Support Software (Example with Poedit)
+
+1. Prepare as described above
+1. Check pending pull requests to see which translations are in progress
+1. Open Poedit and set it not to wrap words.
+1. Open `<locale_code>.po` and proceed with the translation.
+1. In Poedit, 'Needs work' corresponds to the 'fuzzy' flag in the file. Remove the flag once verified.
+1. Check the file differences, and revert any changes made to the header by Poedit. 
+1. Send a pull request with a prefix like `Chinese translation update: ` (or the appropriate language name)
+
+> [!IMPORTANT]
+> * To avoid conflicts due to unnecessary changes, always revert header changes before committing.
+> * Change your editor settings not to wrap words.
+>   * In Poedit, go to File -> Preferences..., open the Advanced tab, and turn on 'Preserving formatting of existing files'.
+>   * If word wrapping has changed, turn off 'Preserving formatting of existing files' and set 'Wrap at' to a sufficiently large value like 1000, then save the po file over it.
+
+## Contributing to Key Collection
+
+Since SmartGit dynamically generates texts, the master mapping does not include *all* keys, only those *currently known* to us and contributors collected. To help collect keys:
+
+1. Prepare as described above (enable viewing translation results in the actual GUI).
+1. Restart SmartGit.
+1. SmartGit will create several new files in the specified `development` directory. The most important ones are:
+   1. `unknown.*`, containing yet unknown keys, i.e., keys without a matching entry in the master mapping file
+   1. `mismatch.*`, containing already known keys with differences in the original text between the code and master mapping file.
+   1. These two files are yours to ignore, hence 'you own them'.
+1. Shut down SmartGit.
+1. Occasionally check two files, compress them, and send them to `smartgit@syntevo.com`
+   1. Prefix your email with "Language mappings: new/changed keys"
+1. **Delete all two files**, to start collecting new keys again
 1. Restart SmartGit and continue collecting new keys
 
-## Help to review
+## Contributing through Review
 
-Pending pull requests and existing translations in `mapping.dev` may sometimes need refinement. Review comments and suggestions to improve existing translations are welcome!
+We need reviews by native speakers of each language.
+Pending pull requests and existing translations in `mapping.dev` may sometimes need refinement.
+We welcome review comments and suggestions for improving existing translations!

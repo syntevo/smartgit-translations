@@ -9,11 +9,31 @@ SmartGitのローカリゼーションファイルをpoファイルフォーマ�
 poファイルフォーマットはGNU gettext に由来するファイルフォーマットですが、現在ではローカリゼーションファイルのデファクトスタンダードの一つとなっており、多くの翻訳支援ツールでサポートされています。
 これにより、多くの翻訳支援ツールの使用が可能になり、翻訳の効率化と品質向上ができることを期待しています。
 
-翻訳支援ツールにはpoedit、Virtaal、Lokalizeなどが使用されることを想定しています。
+翻訳支援ツールにはPoedit、Virtaal、Lokalizeなどが使用されることを想定しています。
 
 ## Scripts
 
-### locale2po.py
+### Scripts for po file operations
+
+#### import_unknown.py
+'unknown.*' の内容を 'messages.pot' に取り込みます。
+
+#### import_mismatch.py
+'mismatch.*' の内容を 'messages.pot' に取り込みます。
+
+#### delete_extracted_comments.py
+'messages.pot' に含まれる extracted-comments を全て削除します。
+extracted-comments には未知のキーが検出される直前の操作履歴が含まれています。
+
+#### import_pot.py
+'messages.pot' の内容を 全ての'&lt;locale_code&gt;.po' に取り込みます。
+
+#### format_po_files.py
+'&lt;locale_code&gt;.po' のフォーマットを修正します。
+
+### Script for migration from legacy format to po format
+
+#### locale2po.py
 
 SmartGit 23.1 用のmappingファイル(mapping,mapping.dev,mapping.state)をpoファイルフォーマットへ変換します。
 変換対象のファイルと出力先はスクリプトの配置先からの相対位置で自動的に指定され、全ての言語が自動的に処理されます。
@@ -26,7 +46,7 @@ SmartGit 23.1 用のmappingファイル(mapping,mapping.dev,mapping.state)をpo�
 
 &lt;locale code&gt; は ja_JP、zh_CN.po などのローケルコードです。 
 
-### master2pot.py
+#### master2pot.py
 
 SmartGit 23.1 用のリポジトリのルートにあるmappingファイル(原文が格納されているmaster mappingファイル)をpotファイルフォーマットへ変換します。
 変換対象のファイルと出力先はスクリプトの配置先から相対位置で自動的に指定されます。
@@ -78,6 +98,7 @@ Anaconda などを使用した環境での検証はしていません。
 
 初期セットアップと同様に`setup_venv.bat`を実行し、venvをアクティーベション済のコマンドプロンプトを開きます。
 
-コマンドプロンプトでそのまま `python locale2po.py` または `python master2pot.py` を実行します。 
+コマンドプロンプトでそのまま `python locale2po.py` などのようにスクリプトを実行します。
+
 
 

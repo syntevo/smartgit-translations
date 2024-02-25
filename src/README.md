@@ -13,7 +13,27 @@ Translation support tools such as Poedit, Virtaal, and Lokalize are expected to 
 
 ## Scripts
 
-### locale2po.py
+### Scripts for po file operations
+
+#### import_unknown.py
+Imports the content of 'unknown.*' into 'messages.pot'.
+
+#### import_mismatch.py
+Imports the content of 'mismatch.*' into 'messages.pot'.
+
+#### delete_extracted_comments.py
+Deletes all extracted-comments included in 'messages.pot'.
+These extracted-comments contain the operation history just before unknown keys are detected.
+
+#### import_pot.py
+Imports the content of 'messages.pot' into all '&lt;locale_code&gt;.po'.
+
+#### format_po_files.py
+Corrects the format of '&lt;locale_code&gt;.po'.
+
+### Script for migration from legacy format to po format
+
+#### locale2po.py
 
 Converts the mapping file (mapping, mapping.dev, mapping.state) for SmartGit 23.1 to the PO file format. The files to be converted and the destination are automatically specified by the relative reference from where the script is placed, and all languages are automatically processed. No command line arguments are required.
 
@@ -24,7 +44,7 @@ The converted files are output to the following location:
 
 &lt;locale code&gt; is a locale code such as ja_JP, zh_CN.po.
 
-### master2pot.py
+#### master2pot.py
 
 Converts the mapping file at the root of the repository (master mapping file where the original sentences are stored) for SmartGit 23.1 to the POT file format.
 The files to be converted and the destination are automatically specified by the relative reference from where the script is placed. No command line arguments are required.
