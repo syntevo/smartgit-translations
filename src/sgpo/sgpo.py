@@ -6,16 +6,14 @@ from collections import namedtuple
 
 import polib
 
-import sgpo
-
 Key_tuple = namedtuple('Key_tuple', ['msgctxt', 'msgid'])
 
 
-def pofile(filename: str) -> sgpo.SgPo:
+def pofile(filename: str) -> SgPo:
     return SgPo._from_file(filename)
 
 
-def pofile_from_text(text: str) -> sgpo.SgPo:
+def pofile_from_text(text: str) -> SgPo:
     return SgPo._from_text(text)
 
 
@@ -171,6 +169,7 @@ class SgPo(polib.POFile):
 
         print(f'\n     new entry:\t{new_entry_count}')
         print(f'\nmodified entry:\t{modified_entry_count}')
+
     def delete_extracted_comments(self):
         """
         Deletes the extracted comments that originate from unknown or mismatch files.

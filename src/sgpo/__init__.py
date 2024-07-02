@@ -1,1 +1,1 @@
-from sgpo.sgpo import SgPo, pofile,pofile_from_text
+from .sgpo import SgPo, pofile,pofile_from_text
