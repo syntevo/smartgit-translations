@@ -129,6 +129,10 @@ msgctxt "dlgCommitGitHubConfirmEmail.hdl%1"
 msgid "Commit with default email address $1?"
 msgstr ""
 
+msgctxt "dlgCommitGitHubConfirmEmail.mni:"
+msgid "Copy"
+msgstr ""
+
 msgctxt "dlgCommitGitHubConfirmEmail.rbt:"
 msgid "Always use default email address, unless overridden in repository"
 msgstr ""
@@ -357,12 +361,20 @@ msgctxt "dlgQBugReportSend.edt:"
 msgid "Reply To"
 msgstr "回复"
 
+msgctxt "dlgQBugReportSend.edt:"
+msgid "Your Email"
+msgstr ""
+
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "Sorry for the trouble!"
 msgstr "我们对此感到抱歉!"
 
 msgctxt "dlgQBugReportSend.lbl:"
 msgid "The \\[file log-file\\] will be sent with this bug report. Alternatively, you may send it to \\[email smartgit@syntevo.com\\]."
+msgstr ""
+
+msgctxt "dlgQBugReportSend.lbl:"
+msgid "We only use it to ask further details about this bug or provide a workaround."
 msgstr ""
 
 msgctxt "dlgQBugReportSend.lbl:"
@@ -1749,6 +1761,10 @@ msgctxt "dlgScTextReplace.tle:"
 msgid "Find and Replace"
 msgstr ""
 
+msgctxt "dlgScTextReplace.tle:"
+msgid "Find"
+msgstr ""
+
 msgctxt "dlgScTextSettings.chk:"
 msgid "Coalesce nearby change blocks"
 msgstr "合并附近的变更块"
@@ -1802,6 +1818,10 @@ msgid "Off"
 msgstr "关闭"
 
 msgctxt "dlgScTextSettings.rbt:"
+msgid "Syntax-dependent \\(experimental\\)"
+msgstr ""
+
+msgctxt "dlgScTextSettings.rbt:"
 msgid "Trailing, in selection and changed blocks"
 msgstr ""
 
@@ -1816,6 +1836,18 @@ msgstr "常规"
 msgctxt "dlgScTextSettings.tle"
 msgid "Settings"
 msgstr "设置"
+
+msgctxt "dlgScUpdateInstallationResumeFailure.fur"
+msgid "The process could not be started."
+msgstr ""
+
+msgctxt "dlgScUpdateInstallationResumeFailure.hdl"
+msgid "Launching updater directly failed."
+msgstr ""
+
+msgctxt "dlgScUpdateInstallationResumeFailure.tle"
+msgid "Upgrade"
+msgstr ""
 
 msgctxt "dlgScUpdateInstallationUpdateManuallyFailure.fur"
 msgid "The process could not be started."
@@ -1945,6 +1977,10 @@ msgctxt "dlgSgAbortRebasingConfirm.tle"
 msgid "Abort"
 msgstr "丢弃"
 
+msgctxt "dlgSgAbortRebasingConfirm.tle:"
+msgid "Abort"
+msgstr ""
+
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
 msgid "Abort Revert"
 msgstr "中止还原"
@@ -1988,6 +2024,10 @@ msgstr "免费更新有效期"
 msgctxt "dlgSgAbout.edt:"
 msgid "Java Version"
 msgstr "Java 版本"
+
+msgctxt "dlgSgAbout.edt:"
+msgid "License ID"
+msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Maximum Heap"
@@ -2270,6 +2310,10 @@ msgid "Delete from remote repository"
 msgstr "从远程仓库中删除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
+msgid "Delete tracked branches from remote repository"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete tracked branches"
 msgstr "删除跟踪的分支"
 
@@ -2332,6 +2376,10 @@ msgstr "从远程仓库中删除 '$1'"
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr "您只能从本地远程分支列表中删除分支，但这分支可能会在下一次获取中恢复。"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
+msgid "Do you want to delete the branch '$1'?"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
@@ -2530,6 +2578,10 @@ msgid "Be careful when checking out a commit instead of a local branch: commits 
 msgstr ""
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
+msgid "Local and remote branch are diverged. The checkout will end up at a different commit."
+msgstr ""
+
+msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local branch '$1' is behind checkout target '$2'."
 msgstr "本地分支 “$1” 落后于检出目标 “$2”。"
 
@@ -2697,6 +2749,22 @@ msgctxt "dlgSgCleanDeleteFiles.tle"
 msgid "Clean Working Tree"
 msgstr ""
 
+msgctxt "dlgSgCleanNoFilesFound.fur"
+msgid "Your repository only seems to contain tracked files."
+msgstr ""
+
+msgctxt "dlgSgCleanNoFilesFound.hdl"
+msgid "No files found to be deleted."
+msgstr ""
+
+msgctxt "dlgSgCleanNoFilesFound.tle"
+msgid "Clean Working Tree"
+msgstr ""
+
+msgctxt "dlgSgClone.btn:"
+msgid "Configure"
+msgstr ""
+
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
 msgstr "同时创建上游仓库的远程连接"
@@ -2730,6 +2798,14 @@ msgid "Check Out Branch"
 msgstr "检出分支"
 
 msgctxt "dlgSgClone.edt:"
+msgid "Clone Into"
+msgstr ""
+
+msgctxt "dlgSgClone.edt:"
+msgid "Directory Name"
+msgstr ""
+
+msgctxt "dlgSgClone.edt:"
 msgid "Fetch Only"
 msgstr "仅获取"
 
@@ -2746,6 +2822,10 @@ msgid "Omit files larger than"
 msgstr "省略大于"
 
 msgctxt "dlgSgClone.edt:"
+msgid "Parent Directory"
+msgstr ""
+
+msgctxt "dlgSgClone.edt:"
 msgid "Path"
 msgstr "路径"
 
@@ -2758,12 +2838,28 @@ msgid "Please select an empty, local directory for the new repository."
 msgstr "请为新仓库选择空的本地目录。"
 
 msgctxt "dlgSgClone.err:"
+msgid "Please specify the URL of the remote repository or the path of the local repository that should be cloned."
+msgstr ""
+
+msgctxt "dlgSgClone.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
 msgstr "请指定要克隆的远程仓库的地址。"
 
 msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr "请指定本地仓库的根目录。"
+
+msgctxt "dlgSgClone.hnt:"
+msgid "No repository found."
+msgstr ""
+
+msgctxt "dlgSgClone.hnt:"
+msgid "No repository matches the entered filter."
+msgstr ""
+
+msgctxt "dlgSgClone.hnt:"
+msgid "Searching ..."
+msgstr ""
 
 msgctxt "dlgSgClone.inf:"
 msgid "Customize how and what to clone."
@@ -2776,6 +2872,10 @@ msgstr "指定新仓库的本地目录。"
 msgctxt "dlgSgClone.inf:"
 msgid "Specify the repository to clone."
 msgstr "指定需要克隆的仓库."
+
+msgctxt "dlgSgClone.inf:"
+msgid "Specify the repository to clone.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
+msgstr ""
 
 msgctxt "dlgSgClone.lbl:"
 msgid "Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."
@@ -2837,6 +2937,18 @@ msgctxt "dlgSgClone.ttpPartialWarning:"
 msgid "This functionality depends on the capabilities of your server."
 msgstr ""
 
+msgctxt "dlgSgCloneDirectoryIsGitRepository.fur"
+msgid "Please select an empty, local directory for the new repository."
+msgstr ""
+
+msgctxt "dlgSgCloneDirectoryIsGitRepository.hdl"
+msgid "The selected directory is a Git repository."
+msgstr ""
+
+msgctxt "dlgSgCloneDirectoryIsGitRepository.tle"
+msgid "Input Validation"
+msgstr ""
+
 msgctxt "dlgSgCloneRepositoryType.btn:"
 msgid "Git"
 msgstr "Git"
@@ -2856,6 +2968,32 @@ msgstr "选择要克隆的仓库类型。"
 msgctxt "dlgSgCloneRepositoryType.tle"
 msgid "Clone"
 msgstr "克隆"
+
+msgctxt "dlgSgCloneSetCredentialHelper.btn:"
+msgid "Keep As-Is"
+msgstr ""
+
+msgctxt "dlgSgCloneSetCredentialHelper.btn:"
+msgid "Set SmartGit as Credential-Helper"
+msgstr ""
+
+msgctxt "dlgSgCloneSetCredentialHelper.fur"
+msgid ""
+"If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be "
+"avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
+msgstr ""
+
+msgctxt "dlgSgCloneSetCredentialHelper.hdl"
+msgid "Do you want to configure SmartGit as credential helper?"
+msgstr ""
+
+msgctxt "dlgSgCloneSetCredentialHelper.mni:"
+msgid "Copy"
+msgstr ""
+
+msgctxt "dlgSgCloneSetCredentialHelper.tle"
+msgid "Clone"
+msgstr ""
 
 msgctxt "dlgSgCloneSvnDetachedHeadSuccess.fur"
 msgid "SmartGit now continues to fetch all other revisions in the background. You may safely start working with the repository now; only log-related operations will be affected by this intermediate state.\\n\\nOnce SmartGit has finished the background part of the clone, it will let you know in the notifications area \\(status bar\\) and you can complete the clone there."
@@ -2924,6 +3062,10 @@ msgstr "创建"
 msgctxt "dlgSgCommit.err:"
 msgid "Enter a commit message describing \\(the reason for\\) the commit."
 msgstr "输入提交消息"
+
+msgctxt "dlgSgCommit.err:"
+msgid "Select at least one file to commit."
+msgstr ""
 
 msgctxt "dlgSgCommit.hdl"
 msgid "Commit local or staged changes"
@@ -3140,6 +3282,10 @@ msgstr "创建 “修复！” 前缀,以便使用交互式变基轻松自动压
 msgctxt "dlgSgCommitSelectMessageFromLog.hdl"
 msgid "Select a commit"
 msgstr "选择一个提交"
+
+msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
+msgid "No repository selected."
+msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.inf"
 msgid "Choose the commit whose message should be used."
@@ -4305,6 +4451,18 @@ msgctxt "dlgSgGitLabMergeRequestCreate.tle"
 msgid "Create Merge Request"
 msgstr "创建合并请求"
 
+msgctxt "dlgSgGitLabRefreshFailed.fur"
+msgid "Your SmartGit Hosting Provider configuration for GitLab is probably invalid.\\n\\nReview your settings in the Preferences."
+msgstr ""
+
+msgctxt "dlgSgGitLabRefreshFailed.hdl"
+msgid "Refresh failed."
+msgstr ""
+
+msgctxt "dlgSgGitLabRefreshFailed.tle"
+msgid "GitLab"
+msgstr ""
+
 msgctxt "dlgSgGitLabSettingsInvalidToken.fur"
 msgid "Use a Personal Access Token from your GitLab account."
 msgstr "使用您的 Gitlab 账户中的个人访问令牌。"
@@ -4370,6 +4528,14 @@ msgid "Email"
 msgstr "电子邮箱"
 
 msgctxt "dlgSgHistoryEditAuthor.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditAuthor.edt:"
+msgid "Git Email"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditAuthor.edt:"
 msgid "User Name"
 msgstr "用户名"
 
@@ -4414,6 +4580,14 @@ msgid "Enter the new commit message."
 msgstr "输入新的提交消息。"
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Copy"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Cut"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "JIRA"
 msgstr "JIRA"
 
@@ -4421,9 +4595,37 @@ msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Log"
 msgstr "日志"
 
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Paste"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Rewrap"
+msgstr ""
+
 msgctxt "dlgSgHistoryEditMessage.tle"
 msgid "Edit Message"
 msgstr "修改提交消息"
+
+msgctxt "dlgSgHistoryModifyConfirm.btn:"
+msgid "Modify"
+msgstr ""
+
+msgctxt "dlgSgHistoryModifyConfirm.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgHistoryModifyConfirm.fur"
+msgid "This allows you to step by step walk from the selected commit to HEAD and modify them by amend-committing."
+msgstr ""
+
+msgctxt "dlgSgHistoryModifyConfirm.hdl"
+msgid "Do you want to modify the commits?"
+msgstr ""
+
+msgctxt "dlgSgHistoryModifyConfirm.tle"
+msgid "Modify Commit"
+msgstr ""
 
 msgctxt "dlgSgHistoryModifySplitConfirm.btn:"
 msgid "Modify"
@@ -4490,8 +4692,28 @@ msgid "Do you want to modify commits which are already pushed?"
 msgstr "你想修改已推送的提交吗？"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Edit Message"
+msgstr ""
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Modify Commit"
 msgstr "修改提交"
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Move and Squash Commit"
+msgstr ""
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Rebase Interactive"
+msgstr ""
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Split Commit"
+msgstr ""
+
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Split Off Files"
+msgstr ""
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Squash Commits"
@@ -4849,6 +5071,18 @@ msgctxt "dlgSgHostingProviderSelectRepository.col:"
 msgid "Repository"
 msgstr "仓库"
 
+msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
+msgid "No repository found."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
+msgid "No repository matches the entered filter."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderSelectRepository.hnt:"
+msgid "Searching ..."
+msgstr ""
+
 msgctxt "dlgSgHostingProviderSelectRepository.mni:"
 msgid "Copy Selection in Column"
 msgstr "按列复制"
@@ -5036,6 +5270,10 @@ msgstr "明确忽略 \\(例如 Makefile \\)："
 msgctxt "dlgSgIgnoreFile.tle"
 msgid "Ignore"
 msgstr "忽略"
+
+msgctxt "dlgSgIgnoreFile.wrn:"
+msgid "Because of performance reasons it is recommended to ignore by pattern - if possible."
+msgstr ""
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
 msgid "Discard"
@@ -5538,6 +5776,14 @@ msgid "Command Abort failed!"
 msgstr "终止命令执行失败!"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Add Submodule failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Add Submodule produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash produced warnings."
 msgstr "应贮藏命令执行时产生了警告."
 
@@ -5558,12 +5804,32 @@ msgid "Command Cherry-Pick produced warnings."
 msgstr "摘取命令执行时产生了警告."
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Clone produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Commit failed!"
 msgstr "提交命令执行失败!"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Commit produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Delete Branch failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Delete failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Discard failed!"
 msgstr "丢弃命令执行失败!"
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Fetch Pull Request produced warnings."
+msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch failed!"
@@ -5578,7 +5844,15 @@ msgid "Command Merge produced warnings."
 msgstr "合并命令执行时产生了警告"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Modify Commit failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Move failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Move produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -5598,6 +5872,10 @@ msgid "Command Push failed!"
 msgstr "推送命令执行失败!"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase Interactive failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase failed!"
 msgstr "变基命令执行失败!"
 
@@ -5614,8 +5892,28 @@ msgid "Command Resolve produced warnings."
 msgstr "解决命令执行时产生了警告."
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Squash Commits failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Stage failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Stage produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Start Support Branch failed!"
 msgstr "Command Start Support Branch failed!"
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Unregister Submodule failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Unstage failed!"
+msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "If in question, please ask your repository administrator."
@@ -5886,6 +6184,10 @@ msgid "Compare with working tree, even if all changes are staged"
 msgstr "与工作区比较，即使所有变更都已暂存"
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Detect local changes in closed 'favorite' repositories"
 msgstr "检测 “我的收藏” 中已关闭仓库中的本地变更"
 
@@ -6006,6 +6308,10 @@ msgid "Show line length guides \\(only useful for monospaced-font\\)"
 msgstr "显示行长参考线 \\(仅适用于单空格字体\\)"
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Show only fixed-width fonts"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Show verbose date for last days, e.g. Yesterday"
 msgstr "显示最后几天的详细日期，例如：昨天"
 
@@ -6034,6 +6340,10 @@ msgid "Update registered submodules"
 msgstr "更新已注册的子模块"
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr "使用 gravatar.com 为用户显示图像"
 
@@ -6041,9 +6351,13 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Use indentation from previous non-empty line"
 msgstr "使用前一个非空行的缩进"
 
-msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
-msgstr "使用预装 \\(系统\\) Git 工作流\\*"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Warn about submodule configuration changes \\(.gitmodules\\)"
+msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Warn for slow rename detection"
@@ -6202,12 +6516,20 @@ msgid "Font Size"
 msgstr "字体大小"
 
 msgctxt "dlgSgPreferences.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgPreferences.edt:"
 msgid "Functionality\\*"
 msgstr "功能\\*"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "GPG Program"
 msgstr "GPG 程序"
+
+msgctxt "dlgSgPreferences.edt:"
+msgid "Git Email"
+msgstr ""
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Git Executable"
@@ -6274,6 +6596,14 @@ msgid "Suggest to"
 msgstr "建议"
 
 msgctxt "dlgSgPreferences.edt:"
+msgid "Super Config File"
+msgstr ""
+
+msgctxt "dlgSgPreferences.edt:"
+msgid "System Config File"
+msgstr ""
+
+msgctxt "dlgSgPreferences.edt:"
 msgid "Text File Encoding"
 msgstr "文本文件编码"
 
@@ -6288,6 +6618,10 @@ msgstr "主题\\*"
 msgctxt "dlgSgPreferences.edt:"
 msgid "Time Format\\*"
 msgstr "时间格式\\*"
+
+msgctxt "dlgSgPreferences.edt:"
+msgid "User Config File"
+msgstr ""
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Username"
@@ -6358,6 +6692,10 @@ msgid "Commit"
 msgstr "提交"
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Commits"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Define external tools which will show up in the Tools menu. Those marked with a leading \\* in front of the name can be used by the Open command."
 msgstr "定义将显示在 “工具” 菜单中的外部工具。“打开” 命令可以使用在名称前面标有前导 \\* 的那些。"
 
@@ -6376,6 +6714,10 @@ msgstr "垃圾收集器"
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."
 msgstr "在这里，您可以编辑帐户的 'gitconfig' ，其中包含所有仓库的默认值。"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Here you can edit your user config file which contains the defaults for all repositories."
+msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Here you can view your account's 'gitconfig'. Because it contains 'include'-sections you need to edit it manually."
@@ -6546,6 +6888,10 @@ msgid "Import"
 msgstr "导入"
 
 msgctxt "dlgSgPreferences.mni:"
+msgid "Key"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
 msgid "Language"
 msgstr "语言"
 
@@ -6585,6 +6931,10 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "Swap"
 msgstr "交换"
 
+msgctxt "dlgSgPreferences.mni:"
+msgid "Value"
+msgstr ""
+
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Advanced \\(merge, rebase, ignore, stashes, tags, history modifications\\)"
 msgstr "高级 \\(合并、变基、忽略、隐藏、标签、历史记录修改\\)"
@@ -6608,6 +6958,10 @@ msgstr "自动下载并安装更新"
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Basic \\(for simple workflows\\)"
 msgstr "基础 \\(用于简单工作流\\)"
+
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Bundled Git"
+msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Check and report new updates"
@@ -6652,6 +7006,10 @@ msgstr "日志图"
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log graph \\(commit oriented\\)"
 msgstr "日志图 \\(面向提交\\)"
+
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Other Git Executable:"
+msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Prefer light-weight updates stored in home directory"
@@ -6777,6 +7135,30 @@ msgctxt "dlgSgPreferences.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "<b>When not to set?</b>"
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "<b>When to select?</b>"
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "If you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided."
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "If you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "If you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub."
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "This repository setting will only affect new clones and takes precedence over any <tt>credential.helper</tt> configuration in your user <tt>~/.gitconfig</tt>."
+msgstr ""
+
 msgctxt "dlgSgProcessKiller.btn:"
 msgid "Kill Process"
 msgstr "终止进程"
@@ -6792,6 +7174,50 @@ msgstr "如果进程卡住了, 可以终止进程或等待."
 msgctxt "dlgSgProcessKiller.tle"
 msgid "Process Not Responding"
 msgstr "进程无响应"
+
+msgctxt "dlgSgProviderCommentEdit.btn:"
+msgid "Edit Comment"
+msgstr ""
+
+msgctxt "dlgSgProviderCommentEdit.edt:"
+msgid "Text"
+msgstr ""
+
+msgctxt "dlgSgProviderCommentEdit.hdl"
+msgid "Edit GitHub comment"
+msgstr ""
+
+msgctxt "dlgSgProviderCommentEdit.inf"
+msgid "Enter the text of the comment."
+msgstr ""
+
+msgctxt "dlgSgProviderCommentEdit.tle"
+msgid "Edit Comment"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.btn:"
+msgid "Authenticate"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.edt:"
+msgid "Link"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.hdl"
+msgid "Generate a new API token for GitLab"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.inf"
+msgid "Authenticate at GitLab and grant access to SmartGit."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.lbl:"
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.tle"
+msgid "Generate API Token"
+msgstr ""
 
 msgctxt "dlgSgProviderPullRequestCreateNoTargetRepositories.fur"
 msgid "The repository is no GitHub-fork and there are no other remotes which are forks of this repository."
@@ -6848,6 +7274,10 @@ msgstr "终止"
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur"
 msgid "The pull request itself will not be deleted on the server."
 msgstr "拉取请求本身不会在服务器上删除。"
+
+msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
+msgid "Do you want to drop the local commits of pull request $1?"
+msgstr ""
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl%1"
 msgid "Do you really want to drop the local commits of pull request $1?"
@@ -7041,6 +7471,18 @@ msgctxt "dlgSgPullOrJustFetch.tle"
 msgid "Pull"
 msgstr "拉取"
 
+msgctxt "dlgSgPullSubmoduleUpdate.btn:"
+msgid "Pull"
+msgstr ""
+
+msgctxt "dlgSgPullSubmoduleUpdate.fur"
+msgid "The git infrastructure for this submodule will be initialized and all commits will be pulled."
+msgstr ""
+
+msgctxt "dlgSgPullSubmoduleUpdate.tle"
+msgid "Pull Submodule"
+msgstr ""
+
 msgctxt "dlgSgPushConfirmSingleBranch.btn:"
 msgid "Push"
 msgstr "推送"
@@ -7060,6 +7502,18 @@ msgstr "你想要推送分支 “$1” 吗？"
 msgctxt "dlgSgPushConfirmSingleBranch.tle"
 msgid "Push"
 msgstr "推送"
+
+msgctxt "dlgSgPushConfirmSingleTag.btn:"
+msgid "Push"
+msgstr ""
+
+msgctxt "dlgSgPushConfirmSingleTag.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgPushConfirmSingleTag.tle"
+msgid "Push"
+msgstr ""
 
 msgctxt "dlgSgPushForced.btn:"
 msgid "Force Push"
@@ -7113,6 +7567,18 @@ msgctxt "dlgSgPushOverwriteRemoteBranchConfirm.tle"
 msgid "Push"
 msgstr "推送"
 
+msgctxt "dlgSgPushToNoMoreGitRemoteFound.fur"
+msgid "There is no other Git-remote to which branches of the selected remote could be pushed."
+msgstr ""
+
+msgctxt "dlgSgPushToNoMoreGitRemoteFound.hdl"
+msgid "No more Git remote found."
+msgstr ""
+
+msgctxt "dlgSgPushToNoMoreGitRemoteFound.tle"
+msgid "Push To"
+msgstr ""
+
 msgctxt "dlgSgPushToNoTagsOrLocalBranches.fur"
 msgid "You can only push tags or local branches."
 msgstr "您只能推送标签或本地分支。"
@@ -7144,6 +7610,10 @@ msgstr "目标仓库"
 msgctxt "dlgSgPushToRef.err:"
 msgid "Enter the remote location to which the commits of the current branch should be pushed to."
 msgstr "输入当前分支提交应推送到的远程位置。"
+
+msgctxt "dlgSgPushToRef.err:"
+msgid "Enter the remote location to which the commits of the current branch should be pushed."
+msgstr ""
 
 msgctxt "dlgSgPushToRef.err:"
 msgid "Please specify a valid Git ref."
@@ -7525,6 +7995,10 @@ msgctxt "dlgSgRebaseInteractiveMessage.edt:"
 msgid "Commit Message"
 msgstr "提交消息"
 
+msgctxt "dlgSgRebaseInteractiveMessage.edt:"
+msgid "New Message"
+msgstr ""
+
 msgctxt "dlgSgRebaseInteractiveMessage.hdl"
 msgid "Edit commit message"
 msgstr "编辑提交消息"
@@ -7552,6 +8026,30 @@ msgstr "您确定要删除所选的提交 $1 吗？"
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.tle"
 msgid "Remove Commit"
 msgstr "删除提交"
+
+msgctxt "dlgSgRebaseNoop.fur"
+msgid "Rebasing a commit onto itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoop.hdl"
+msgid "There is nothing to rebase."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoop.tle"
+msgid "Merge"
+msgstr ""
+
+msgctxt "dlgSgRebaseNoopSelf.fur"
+msgid "Rebasing a commit onto itself is allowed by Git but will not create a new commit or any meaningful changes."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoopSelf.hdl"
+msgid "There is nothing to rebase."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoopSelf.tle"
+msgid "Rebase"
+msgstr ""
 
 msgctxt "dlgSgRebaseTagCommit.btn:"
 msgid "Add Tag"
@@ -7741,6 +8239,10 @@ msgctxt "dlgSgRemoteSetDepth.edt:"
 msgid "Depth"
 msgstr "深度"
 
+msgctxt "dlgSgRemoteSetDepth.err:"
+msgid "Please enter a valid commit count."
+msgstr ""
+
 msgctxt "dlgSgRemoteSetDepth.hdl"
 msgid "Set repository depth"
 msgstr "设置仓库深度"
@@ -7780,6 +8282,30 @@ msgstr "输入远程仓库的 URL 和短名称。"
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Add Hosting Provider"
 msgstr "添加主机提供商"
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "Azure DevOps Server"
+msgstr ""
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "Azure DevOps"
+msgstr ""
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "Bitbucket Server"
+msgstr ""
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "Bitbucket"
+msgstr ""
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "GitHub Enterprise"
+msgstr ""
+
+msgctxt "dlgSgRemotesAdd.mni:"
+msgid "GitLab \\(Self Hosted\\)"
+msgstr ""
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Select Local Repository"
@@ -7981,6 +8507,10 @@ msgctxt "dlgSgRepositoryAddGroup.tle"
 msgid "Add Group"
 msgstr "创建分组"
 
+msgctxt "dlgSgRepositoryAddGroup.wrn:"
+msgid "A group with this name already exists."
+msgstr ""
+
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr "强制关闭"
@@ -8150,8 +8680,16 @@ msgid "Email"
 msgstr "电子邮箱"
 
 msgctxt "dlgSgRepositorySettings.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgRepositorySettings.edt:"
 msgid "GPG Program"
 msgstr "GPG 程序"
+
+msgctxt "dlgSgRepositorySettings.edt:"
+msgid "Git Email"
+msgstr ""
 
 msgctxt "dlgSgRepositorySettings.edt:"
 msgid "Name"
@@ -8797,6 +9335,22 @@ msgctxt "dlgSgReviewUsersEdit.tle:"
 msgid "Edit Users"
 msgstr "编辑用户"
 
+msgctxt "dlgSgRollbackToCommit.btn:"
+msgid "+ Stage"
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.btn:"
+msgid "Rollback"
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.fur"
+msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.tle"
+msgid "Rollback To"
+msgstr ""
+
 msgctxt "dlgSgSelectBranch.edt:"
 msgid "Auxiliary Branch"
 msgstr "辅助分支"
@@ -9058,6 +9612,14 @@ msgid "JIRA"
 msgstr "JIRA"
 
 msgctxt "dlgSgSplitOffFiles.btn:"
+msgid "Split After"
+msgstr ""
+
+msgctxt "dlgSgSplitOffFiles.btn:"
+msgid "Split Before"
+msgstr ""
+
+msgctxt "dlgSgSplitOffFiles.btn:"
 msgid "Split Off"
 msgstr "拆分"
 
@@ -9294,8 +9856,24 @@ msgid "Checkout may require a clean working tree to complete successfully. After
 msgstr "完成 Checkout 可能需要一个干净的工作区. 在 Checkout 成功后, 贮藏的本地更改将会自动重新应用."
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Edit Message may require a clean working tree to complete successfully. After the Edit Message succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Local changes in the working tree have to be merged with incoming remote changes. After the Pull, either the local changes will be updated and the stash will be dropped, or conflicted changes will be marked as such and the local changes prior to the Pull will be preserved in the stash. Press Cancel to abort the Pull."
 msgstr "工作区中的本地更改需要与即将到来的远程更改合并. 在拉取之后, 要么本地更改会被更新并且贮藏将被丢弃，要么冲突的更改将被标记, 且拉取之前的本地更改会保留在贮藏中. 按取消以中止拉取."
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Please either select to save them as a stash for later manual re-applying or discard them."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Reorder Commits may require a clean working tree to complete successfully. After the Reorder Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Checkout?"
@@ -9303,6 +9881,34 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Pull?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Reorder Commits?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save untracked files to a stash and retry Edit Message?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save untracked files to a stash and retry Pull?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save untracked files to a stash and retry Reorder Commits?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save untracked files to a stash and retry Squash Commits?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "What to do with the working tree or Index changes?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle"
+msgid "Reset"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
@@ -9381,6 +9987,10 @@ msgctxt "dlgSgStashesDropConfirm.tle"
 msgid "Drop Stash"
 msgstr "丢弃贮藏"
 
+msgctxt "dlgSgSubmoduleAdd.btn:"
+msgid "Configure"
+msgstr ""
+
 msgctxt "dlgSgSubmoduleAdd.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
 msgstr "将 SVN 主干，标签和分支映射到 Git"
@@ -9406,8 +10016,20 @@ msgid "Repository URL"
 msgstr "仓库 URL"
 
 msgctxt "dlgSgSubmoduleAdd.edt:"
+msgid "URL for .gitmodules"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.edt:"
 msgid "URL"
 msgstr "URL"
+
+msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "Please specify the URL of the remote repository to be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "Searching ..."
+msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Provide the path where the submodule should be added relative to the outer repository root directory."
@@ -9416,6 +10038,10 @@ msgstr "提供要添加的子模块相对于外部版本库根目录的相对路
 msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Specify the repository to clone as submodule."
 msgstr "指定要克隆为子模块的的版本仓库."
+
+msgctxt "dlgSgSubmoduleAdd.inf:"
+msgid "Specify the repository to clone as submodule.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
+msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.lbl:"
 msgid "Please wait ..."
@@ -9449,6 +10075,10 @@ msgctxt "dlgSgSubmoduleDeinitConfirm.btn:"
 msgid "Deinit"
 msgstr "删除"
 
+msgctxt "dlgSgSubmoduleDeinitConfirm.chk"
+msgid "Force \\(for modified submodules\\)"
+msgstr ""
+
 msgctxt "dlgSgSubmoduleDeinitConfirm.fur"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
 msgstr "子模块将从工作区中跳过。 要摆脱 \\(远程\\) 仓库，您必须使用取消注册。"
@@ -9460,6 +10090,26 @@ msgstr "你想要删除子模块 '$1' 吗？"
 msgctxt "dlgSgSubmoduleDeinitConfirm.tle"
 msgid "Deinit Submodule"
 msgstr "删除子模块"
+
+msgctxt "dlgSgSubmoduleInitAll.btn:"
+msgid "Initialize"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAll.chk:"
+msgid "Pull submodule repositories"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAll.hdl"
+msgid "Initialize all submodules"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAll.inf"
+msgid "Submodule entries will be added to .git/config. You may customize the URLs afterwards or pull immediately."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAll.tle"
+msgid "Initialize Submodule"
+msgstr ""
 
 msgctxt "dlgSgSubmoduleInitGit.btn:"
 msgid "Initialize && Pull"
@@ -9483,6 +10133,22 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleInitGit.tle"
 msgid "Initialize Submodule"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleRegister.edt:"
+msgid "URL"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleRegister.hdl"
+msgid "Register nested root as submodule"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleRegister.inf"
+msgid "Select the URL for the submodule to register."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleRegister.tle"
+msgid "Register Submodule"
 msgstr ""
 
 msgctxt "dlgSgSubmoduleResetConfirm.btn:"
@@ -9536,6 +10202,30 @@ msgstr "子模块条目将在 .git/config 文件夹中更新. 您可以稍后自
 msgctxt "dlgSgSubmoduleSync.tle"
 msgid "Synchronize Submodules"
 msgstr "同步子模块"
+
+msgctxt "dlgSgSubmoduleSyncConfigured.fur"
+msgid "You may now pull individual submodules or on the root directory to clone the configured repositories."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleSyncConfigured.hdl"
+msgid "Submodules have been configured."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleSyncConfigured.tle"
+msgid "Synchronize Submodules"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleUnregisterConfirm.btn:"
+msgid "Unregister"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleUnregisterConfirm.fur"
+msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleUnregisterConfirm.tle"
+msgid "Unregister Submodule"
+msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.chk:"
 msgid "Create local branch \\(for advanced operations\\)"
@@ -9732,6 +10422,10 @@ msgstr "创建标签"
 msgctxt "dlgSgTagDeleteConfirmSingle.btn:"
 msgid "Delete"
 msgstr "删除"
+
+msgctxt "dlgSgTagDeleteConfirmSingle.chk"
+msgid "Delete from all remotes"
+msgstr ""
 
 msgctxt "dlgSgTagDeleteConfirmSingle.chk%1"
 msgid "Delete from remote '$1'"
@@ -10470,6 +11164,10 @@ msgid "Select the stash to rename."
 msgstr "选择要重命名的存储。"
 
 msgctxt "pop:"
+msgid "The dropped directory is no Git repository."
+msgstr ""
+
+msgctxt "pop:"
 msgid "There are no obsolete repositories."
 msgstr "没有过时的仓库。"
 
@@ -10594,7 +11292,19 @@ msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked bra
 msgstr ""
 
 msgctxt "ttpBranches:"
+msgid "<col1>The pull requests contains new commits on the server. Refetch the pull request to fix.</col1>"
+msgstr ""
+
+msgctxt "ttpBranches:"
 msgid "<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -10711,6 +11421,14 @@ msgstr ""
 
 msgctxt "ttpRepositories:"
 msgid "<col1>Remote </col1>$1<b>\\t</b>$2"
+msgstr ""
+
+msgctxt "ttpRepositories:"
+msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
+msgstr ""
+
+msgctxt "ttpRepositories:"
+msgid "<col1>You may consider to invoke Stop Tracking to fix the configuration.</col1>"
 msgstr ""
 
 msgctxt "ttpRepositories:"
@@ -10932,6 +11650,10 @@ msgstr ""
 msgctxt "wndCompare.mniRefresh"
 msgid "Reload"
 msgstr "重新加载"
+
+msgctxt "wndCompare.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
 
 msgctxt "wndCompare.mniView-layout-left-beside-right"
 msgid "Left Beside Right"
@@ -11713,6 +12435,10 @@ msgctxt "wndEditor.mniReplaceTabsWithSpaces"
 msgid "Replace Tabs With Spaces"
 msgstr "将制表符 \\(Tab\\) 替换为空格"
 
+msgctxt "wndEditor.mniSaveAuto"
+msgid "Auto-Save"
+msgstr ""
+
 msgctxt "wndEditor.mniView-remember-as-default"
 msgid "Remember as Default"
 msgstr "记住为默认值"
@@ -11846,6 +12572,10 @@ msgid "Working Tree & Index files: select Working Tree\\nCommit files: select co
 msgstr ""
 
 msgctxt "wndLog.mni:"
+msgid "Add to dictionary"
+msgstr ""
+
+msgctxt "wndLog.mni:"
 msgid "Cherry-Pick $1 to '$2'"
 msgstr "将 $1 摘取至 '$2'"
 
@@ -11925,9 +12655,21 @@ msgctxt "wndLog.mniFlowConfigure"
 msgid "Configure"
 msgstr "配置"
 
+msgctxt "wndLog.mniGoto-line"
+msgid "Go to Line"
+msgstr ""
+
 msgctxt "wndLog.mniOpen"
 msgid "Open from Working Tree"
 msgstr "打开"
+
+msgctxt "wndLog.mniRollbackTo"
+msgid "Rollback To"
+msgstr ""
+
+msgctxt "wndLog.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
 
 msgctxt "wndLog.mniWindowLayoutReset"
 msgid "Reset Perspective"
@@ -11936,6 +12678,10 @@ msgstr ""
 msgctxt "wndLog.tbr:"
 msgid "Add Branch"
 msgstr "创建分支"
+
+msgctxt "wndLog.tbr:"
+msgid "Ignore WS"
+msgstr ""
 
 msgctxt "wndLog.tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
@@ -11952,6 +12698,14 @@ msgstr ""
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from Bitbucket."
 msgstr "刷新 Bitbucket 信息"
+
+msgctxt "wndLog.tbtRemoteFetch"
+msgid "Fetch commits from current remote repository."
+msgstr ""
+
+msgctxt "wndLog.tbtView-ignore-whitespaces"
+msgid "Ignore irrelevant whitespace"
+msgstr ""
 
 msgctxt "wndLog.tle:"
 msgid "$1 - Log"
@@ -14884,3 +15638,7 @@ msgstr "切换到主透视图。"
 msgctxt "wnd(Log|Project|Std|).tbtWindowLayoutSetReview"
 msgid "Switch to the Review perspective."
 msgstr "切换到审阅透视图。"
+
+#~ msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
+#~ msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
+#~ msgstr "使用预装 \\(系统\\) Git 工作流\\*"
