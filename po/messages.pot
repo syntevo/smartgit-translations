@@ -1817,7 +1817,7 @@ msgctxt "dlgScTextSettings.rbt:"
 msgid "Off"
 msgstr ""
 
-msgctxt "dlgScTextSettings.rbt\"Syntax-dependent \\(experimental\\)\""
+msgctxt "dlgScTextSettings.rbt:"
 msgid "Syntax-dependent \\(experimental\\)"
 msgstr ""
 
@@ -2873,7 +2873,7 @@ msgctxt "dlgSgClone.inf:"
 msgid "Specify the repository to clone."
 msgstr ""
 
-msgctxt "dlgSgClone.inf\"Specify the repository to clone.\\nTo configure multiple accounts of the same hosting provider, use the Preferences.\""
+msgctxt "dlgSgClone.inf:"
 msgid "Specify the repository to clone.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
 msgstr ""
 
@@ -6181,7 +6181,7 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Compare with working tree, even if all changes are staged"
 msgstr ""
 
-msgctxt "dlgSgPreferences.chk\"Configure SmartGit as credential helper \\(for repository authentication\\)\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
 msgstr ""
 
@@ -6337,7 +6337,7 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Update registered submodules"
 msgstr ""
 
-msgctxt "dlgSgPreferences.chk\"Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
 msgstr ""
 
@@ -6349,11 +6349,11 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Use indentation from previous non-empty line"
 msgstr ""
 
-msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
 msgstr ""
 
-msgctxt "dlgSgPreferences.chk\"Warn about submodule configuration changes \\(.gitmodules\\)\""
+msgctxt "dlgSgPreferences.chk:"
 msgid "Warn about submodule configuration changes \\(.gitmodules\\)"
 msgstr ""
 
@@ -8301,7 +8301,7 @@ msgctxt "dlgSgRemotesAdd.mni:"
 msgid "GitHub Enterprise"
 msgstr ""
 
-msgctxt "dlgSgRemotesAdd.mni\"GitLab \\(Self Hosted\\)\""
+msgctxt "dlgSgRemotesAdd.mni:"
 msgid "GitLab \\(Self Hosted\\)"
 msgstr ""
 
@@ -10037,7 +10037,7 @@ msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Specify the repository to clone as submodule."
 msgstr ""
 
-msgctxt "dlgSgSubmoduleAdd.inf\"Specify the repository to clone as submodule.\\nTo configure multiple accounts of the same hosting provider, use the Preferences.\""
+msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Specify the repository to clone as submodule.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
 msgstr ""
 
@@ -11297,7 +11297,7 @@ msgctxt "ttpBranches:"
 msgid "<col1>The pull requests is conflicting; changes won't be displayed. First, the pull request has to be fixed to become mergable. After that, you can refetch the pull request.</col1>"
 msgstr ""
 
-msgctxt "ttpBranches\"<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>\""
+msgctxt "ttpBranches:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr ""
 
@@ -11421,7 +11421,7 @@ msgctxt "ttpRepositories:"
 msgid "<col1>Remote </col1>$1<b>\\t</b>$2"
 msgstr ""
 
-msgctxt "ttpRepositories\"<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>\""
+msgctxt "ttpRepositories:"
 msgid "<col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\).</col1>"
 msgstr ""
 
