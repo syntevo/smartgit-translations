@@ -131,7 +131,7 @@ msgstr "デフォルトの電子メールアドレス $1 でコミットしま�
 
 msgctxt "dlgCommitGitHubConfirmEmail.mni:"
 msgid "Copy"
-msgstr ""
+msgstr "コピー"
 
 msgctxt "dlgCommitGitHubConfirmEmail.rbt:"
 msgid "Always use default email address, unless overridden in repository"
@@ -1979,7 +1979,7 @@ msgstr "中止"
 
 msgctxt "dlgSgAbortRebasingConfirm.tle:"
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
 msgid "Abort Revert"
@@ -2027,7 +2027,7 @@ msgstr "Java バージョン"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "License ID"
-msgstr ""
+msgstr "ライセンス ID"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Maximum Heap"
@@ -2978,9 +2978,7 @@ msgid "Set SmartGit as Credential-Helper"
 msgstr ""
 
 msgctxt "dlgSgCloneSetCredentialHelper.fur"
-msgid ""
-"If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be "
-"avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
+msgid "If selected, SmartGit will be set as `credential.helper` in the `.git\\\\/config` of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. \\*pull\\* or \\*push\\*\\) in the terminal or a shell script will then use the credentials known to SmartGit.\\n\\nThis repository setting will only affect new clones and takes precedence over any `credential.helper` configuration in your user `~\\\\/.gitconfig`.\\n\\nFor already cloned repositories the setting \\*Use SmartGit as credential helper\\* can be changed in \\*Repository \\| Settings\\*.\\n\\n\\*When to select?\\*\\nIf you solely use SmartGit as your GUI client and you use Git from the command line, we suggest selecting this option. It will simplify the authentication process when accessing platforms like GitHub.\\n\\n\\*When not to set?\\*\\nIf you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided.\\n\\nIf you do not use Git on command line or other GUI clients, selecting this option serves no purpose and is not recommended."
 msgstr ""
 
 msgctxt "dlgSgCloneSetCredentialHelper.hdl"
@@ -2989,11 +2987,11 @@ msgstr ""
 
 msgctxt "dlgSgCloneSetCredentialHelper.mni:"
 msgid "Copy"
-msgstr ""
+msgstr "コピー"
 
 msgctxt "dlgSgCloneSetCredentialHelper.tle"
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
 msgctxt "dlgSgCloneSvnDetachedHeadSuccess.fur"
 msgid "SmartGit now continues to fetch all other revisions in the background. You may safely start working with the repository now; only log-related operations will be affected by this intermediate state.\\n\\nOnce SmartGit has finished the background part of the clone, it will let you know in the notifications area \\(status bar\\) and you can complete the clone there."
@@ -4461,7 +4459,7 @@ msgstr ""
 
 msgctxt "dlgSgGitLabRefreshFailed.tle"
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 msgctxt "dlgSgGitLabSettingsInvalidToken.fur"
 msgid "Use a Personal Access Token from your GitLab account."
@@ -4533,7 +4531,7 @@ msgstr ""
 
 msgctxt "dlgSgHistoryEditAuthor.edt:"
 msgid "Git Email"
-msgstr ""
+msgstr "メールアドレス"
 
 msgctxt "dlgSgHistoryEditAuthor.edt:"
 msgid "User Name"
@@ -4581,7 +4579,7 @@ msgstr "新しいコミットメッセージを入力します。"
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Copy"
-msgstr ""
+msgstr "コピー"
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Cut"
@@ -4597,7 +4595,7 @@ msgstr "ログ"
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Paste"
-msgstr ""
+msgstr "貼り付け"
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Rewrap"
@@ -6529,7 +6527,7 @@ msgstr "GPG プログラム"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Git Email"
-msgstr ""
+msgstr "メールアドレス"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Git Executable"
@@ -8285,27 +8283,27 @@ msgstr "ホスティングプロバイダーを追加"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Azure DevOps Server"
-msgstr ""
+msgstr "Azure DevOps Server"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Azure DevOps"
-msgstr ""
+msgstr "Azure DevOps"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Bitbucket Server"
-msgstr ""
+msgstr "Bitbucket Server"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "GitHub Enterprise"
-msgstr ""
+msgstr "GitHub Enterprise"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "GitLab \\(Self Hosted\\)"
-msgstr ""
+msgstr "GitLab \\(セルフホスト\\)"
 
 msgctxt "dlgSgRemotesAdd.mni:"
 msgid "Select Local Repository"
@@ -8509,7 +8507,7 @@ msgstr "グループを作成"
 
 msgctxt "dlgSgRepositoryAddGroup.wrn:"
 msgid "A group with this name already exists."
-msgstr ""
+msgstr "この名前のグループはすでに存在します。"
 
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
@@ -8681,7 +8679,7 @@ msgstr "電子メール"
 
 msgctxt "dlgSgRepositorySettings.edt:"
 msgid "Full Name"
-msgstr ""
+msgstr "フルネーム"
 
 msgctxt "dlgSgRepositorySettings.edt:"
 msgid "GPG Program"
@@ -8689,7 +8687,7 @@ msgstr "GPG プログラム"
 
 msgctxt "dlgSgRepositorySettings.edt:"
 msgid "Git Email"
-msgstr ""
+msgstr "メールアドレス"
 
 msgctxt "dlgSgRepositorySettings.edt:"
 msgid "Name"
@@ -9337,11 +9335,11 @@ msgstr "ユーザーの編集"
 
 msgctxt "dlgSgRollbackToCommit.btn:"
 msgid "+ Stage"
-msgstr ""
+msgstr "+ステージ"
 
 msgctxt "dlgSgRollbackToCommit.btn:"
 msgid "Rollback"
-msgstr ""
+msgstr "ロールバック"
 
 msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
@@ -9989,7 +9987,7 @@ msgstr "スタッシュを削除"
 
 msgctxt "dlgSgSubmoduleAdd.btn:"
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 msgctxt "dlgSgSubmoduleAdd.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
@@ -10029,7 +10027,7 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
-msgstr ""
+msgstr "検索中..."
 
 msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Provide the path where the submodule should be added relative to the outer repository root directory."
@@ -10137,7 +10135,7 @@ msgstr "サブモジュールの初期化"
 
 msgctxt "dlgSgSubmoduleRegister.edt:"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 msgctxt "dlgSgSubmoduleRegister.hdl"
 msgid "Register nested root as submodule"
@@ -12573,7 +12571,7 @@ msgstr "作業ツリーとインデックス ファイル : 作業ツリー を�
 
 msgctxt "wndLog.mni:"
 msgid "Add to dictionary"
-msgstr ""
+msgstr "辞書に追加"
 
 msgctxt "wndLog.mni:"
 msgid "Cherry-Pick $1 to '$2'"
@@ -12657,7 +12655,7 @@ msgstr "設定"
 
 msgctxt "wndLog.mniGoto-line"
 msgid "Go to Line"
-msgstr ""
+msgstr "指定の行へ移動"
 
 msgctxt "wndLog.mniOpen"
 msgid "Open from Working Tree"
@@ -12669,7 +12667,7 @@ msgstr ""
 
 msgctxt "wndLog.mniView-ignore-whitespaces"
 msgid "Ignore Whitespace"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wndLog.mniWindowLayoutReset"
 msgid "Reset Perspective"
@@ -12681,7 +12679,7 @@ msgstr "ブランチを追加"
 
 msgctxt "wndLog.tbr:"
 msgid "Ignore WS"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wndLog.tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
@@ -12705,7 +12703,7 @@ msgstr ""
 
 msgctxt "wndLog.tbtView-ignore-whitespaces"
 msgid "Ignore irrelevant whitespace"
-msgstr ""
+msgstr "無関係な空白を無視する"
 
 msgctxt "wndLog.tle:"
 msgid "$1 - Log"

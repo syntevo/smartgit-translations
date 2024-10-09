@@ -317,6 +317,10 @@ msgctxt "dlgProgress.tle:"
 msgid "Upgrade"
 msgstr ""
 
+msgctxt "dlgProgress.tle:"
+msgid "Verifying executables"
+msgstr ""
+
 msgctxt "dlgQBugFileSendingFailed.fur%1"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr ""
@@ -2325,6 +2329,10 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr ""
 
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
+msgid "Do you want to delete $1 local branches?"
+msgstr ""
+
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
@@ -2335,6 +2343,10 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
@@ -2351,6 +2363,14 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
+msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
+msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
@@ -3399,6 +3419,14 @@ msgstr ""
 
 msgctxt "dlgSgCompareTwoFiles.tle"
 msgid "Compare"
+msgstr ""
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.fur"
+msgid "To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
+msgstr ""
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
+msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
@@ -5782,6 +5810,10 @@ msgid "Command Add Submodule produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Apply Stash failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash produced warnings."
 msgstr ""
 
@@ -5886,6 +5918,14 @@ msgid "Command Reset failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Reset produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Resolve failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve produced warnings."
 msgstr ""
 
@@ -5927,6 +5967,14 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
+msgstr ""
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Copy Selection"
+msgstr ""
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Wrap Long Lines"
 msgstr ""
 
 msgctxt "dlgSgOutput.tle:"
@@ -6673,6 +6721,10 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr ""
 
+msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgid "Checkout \\(Switch branch\\)"
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Clone"
 msgstr ""
@@ -6842,6 +6894,22 @@ msgid "Arguments"
 msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
 msgid "Command + Arguments"
 msgstr ""
 
@@ -6879,6 +6947,22 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "File Pattern"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub Enterprise"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgid "GitLab \\(Self Hosted\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitLab"
 msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
@@ -7565,6 +7649,22 @@ msgctxt "dlgSgPushOverwriteRemoteBranchConfirm.tle"
 msgid "Push"
 msgstr ""
 
+msgctxt "dlgSgPushToAddRemote.btn:"
+msgid "Add Remote"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.fur"
+msgid "There is no remote repository configured yet. To push, you first need to configure that. After having added the remote, invoke Push again."
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.hdl"
+msgid "Do you want to add a remote?"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.tle"
+msgid "Push To"
+msgstr ""
+
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.fur"
 msgid "There is no other Git-remote to which branches of the selected remote could be pushed."
 msgstr ""
@@ -7862,6 +7962,38 @@ msgid "Do you want to preserve untracked files in your working tree?"
 msgstr ""
 
 msgctxt "dlgSgRebaseContinuePreserveUntrackedFiles.tle"
+msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.fur"
+msgid "Rebase Continue will store all working tree changes in the commit."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.hdl"
+msgid "Do you want the working tree changes to be part of the new commit?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
+msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
+msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
+msgid "Do you want the working tree changes to be applied, too?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.tle"
 msgid "Rebase"
 msgstr ""
 
@@ -8455,6 +8587,10 @@ msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.inf"
 msgid "Select a root directory where the search should start and click 'Start Search'."
+msgstr ""
+
+msgctxt "dlgSgRepositoriesSearch.lbl:"
+msgid "$1 repository selected"
 msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.lbl:"
@@ -9345,7 +9481,35 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
+msgctxt "dlgSgRollbackToCommit.hdl"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.hdl%1"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
 msgctxt "dlgSgRollbackToCommit.tle"
+msgid "Rollback To"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "+ Stage"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "Rollback"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.fur"
+msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.hdl"
+msgid "Do you want to rollback the selected files to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.tle"
 msgid "Rollback To"
 msgstr ""
 
@@ -9850,6 +10014,10 @@ msgid "Automatically save stash"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Checkout may require a clean working tree to complete successfully. After the Checkout succeeded, the stashed local changes will be automatically reapplied."
 msgstr ""
 
@@ -9871,6 +10039,10 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Check Out?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
@@ -10023,6 +10195,10 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "No repository found."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
@@ -10187,6 +10363,10 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleSync.chk:"
 msgid "Pull submodule repositories"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleSync.chk:"
+msgid "Pull submodule repository"
 msgstr ""
 
 msgctxt "dlgSgSubmoduleSync.hdl"
@@ -11701,6 +11881,10 @@ msgctxt "wndConflictSolver.mni:"
 msgid "Apply Selection to Working Tree"
 msgstr ""
 
+msgctxt "wndConflictSolver.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wndConflictSolver.mniView-layout-all"
 msgid "All"
 msgstr ""
@@ -12545,172 +12729,8 @@ msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr ""
 
-msgctxt "wndLog.col:"
-msgid "LFS"
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "No file matches the filter."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "No repository selected."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "The repository is empty."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Add to dictionary"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Cherry-Pick $1 to '$2'"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Committer Abbreviated"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Committer Avatar"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name and Email"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Copy Branch"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Copy Email Address"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Drop Local"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Fetch"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Modification"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "No pull request data available."
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Reject"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Select Branch"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Select Commit"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Send Mail"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Hunk"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Innerline Change"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Line"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Selection"
-msgstr ""
-
-msgctxt "wndLog.mniFlowConfigure"
-msgid "Configure"
-msgstr ""
-
-msgctxt "wndLog.mniGoto-line"
-msgid "Go to Line"
-msgstr ""
-
-msgctxt "wndLog.mniOpen"
-msgid "Open from Working Tree"
-msgstr ""
-
-msgctxt "wndLog.mniRollbackTo"
-msgid "Rollback To"
-msgstr ""
-
-msgctxt "wndLog.mniView-ignore-whitespaces"
-msgid "Ignore Whitespace"
-msgstr ""
-
-msgctxt "wndLog.mniWindowLayoutReset"
-msgid "Reset Perspective"
-msgstr ""
-
-msgctxt "wndLog.tbr:"
-msgid "Add Branch"
-msgstr ""
-
-msgctxt "wndLog.tbr:"
-msgid "Ignore WS"
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "Reading incoming pull requests from '$1'."
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "Reading outgoing pull requests from '$1'."
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "Refresh information from Bitbucket."
-msgstr ""
-
-msgctxt "wndLog.tbtRemoteFetch"
-msgid "Fetch commits from current remote repository."
-msgstr ""
-
-msgctxt "wndLog.tbtView-ignore-whitespaces"
-msgid "Ignore irrelevant whitespace"
-msgstr ""
-
-msgctxt "wndLog.tle:"
-msgid "$1 - Log"
-msgstr ""
-
-msgctxt "wndLog.tle:"
-msgid "$1 \\[$2\\] - Log for $3"
+msgctxt "wndLog.mniFixCaseChange"
+msgid "Fix Case-Change"
 msgstr ""
 
 msgctxt "wndProject.col:"
@@ -13138,6 +13158,10 @@ msgid "Index State"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).col:"
+msgid "LFS"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Last Changed On"
 msgstr ""
 
@@ -13190,11 +13214,31 @@ msgid "Commit to"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "File Filter"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Filter or Tag Search"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No file matches the filter."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No repository selected."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "The repository is empty."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).lbl:"
@@ -13243,6 +13287,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add Review Comment"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Add to dictionary"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -13306,6 +13354,10 @@ msgid "Checkout"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Cherry-Pick $1 to '$2'"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick Commits to $1"
 msgstr ""
 
@@ -13338,11 +13390,35 @@ msgid "Commit"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Abbreviated"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Avatar"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name and Email"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Compact Author"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Email Address"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -13426,6 +13502,10 @@ msgid "Drop Local Data"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Drop Local"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
 msgstr ""
 
@@ -13451,6 +13531,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Fetch Pull Request"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Fetch"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -13566,6 +13650,10 @@ msgid "Message"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Modification"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
 msgstr ""
 
@@ -13595,6 +13683,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "No Group"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "No pull request data available."
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -13678,6 +13770,10 @@ msgid "Reject Pull Request"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Reject"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Relative Directory"
 msgstr ""
 
@@ -13742,11 +13838,23 @@ msgid "Rewrap"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Commit"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from JIRA"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from Log"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Send Mail"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -13871,6 +13979,22 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Toggle"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Innerline Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Selection"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -14177,6 +14301,10 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
+msgid "Configure"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
@@ -14223,6 +14351,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniForgetCommit"
 msgid "Forget Commit"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mniGoto-line"
+msgid "Go to Line"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniGoto-next-diff"
@@ -14355,6 +14487,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mniOpen"
+msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
@@ -14665,6 +14801,10 @@ msgctxt "wnd(Log|Project|Std|).mniRewriteTextFile"
 msgid "Fix Line-Endings"
 msgstr ""
 
+msgctxt "wnd(Log|Project|Std|).mniRollbackTo"
+msgid "Rollback To"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniSaveAs"
 msgid "Save As"
 msgstr ""
@@ -14817,6 +14957,10 @@ msgctxt "wnd(Log|Project|Std|).mniUnstage"
 msgid "Unstage"
 msgstr ""
 
+msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces-all"
 msgid "Ignore All Whitespaces for Line Comparison"
 msgstr ""
@@ -14943,6 +15087,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniWindowJournal"
 msgid "Journal"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mniWindowLayoutReset"
+msgid "Reset Perspective"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniWindowLayoutSetMain"
@@ -15170,6 +15318,10 @@ msgid "History"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Add Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Tag"
 msgstr ""
 
@@ -15243,6 +15395,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Ignore WS"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
@@ -15366,6 +15522,10 @@ msgid "Hosting provider is not configured for the current repository. Go to the 
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
 msgstr ""
 
@@ -15390,7 +15550,19 @@ msgid "Reading incoming merge requests from '$1'."
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading incoming pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading outgoing pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading repository info from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Refresh information from Bitbucket."
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
@@ -15513,6 +15685,10 @@ msgctxt "wnd(Log|Project|Std|).tbtRefresh"
 msgid "Refresh the log view."
 msgstr ""
 
+msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch"
+msgid "Fetch commits from current remote repository."
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
 msgstr ""
@@ -15597,6 +15773,10 @@ msgctxt "wnd(Log|Project|Std|).tbtUnstage"
 msgid "Remove staged changes from index."
 msgstr ""
 
+msgctxt "wnd(Log|Project|Std|).tbtView-ignore-whitespaces"
+msgid "Ignore irrelevant whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtViewFromSubmodules"
 msgid "If selected, files from submodules will be shown."
 msgstr ""
@@ -15635,4 +15815,12 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbtWindowLayoutSetReview"
 msgid "Switch to the Review perspective."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 - Log"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
