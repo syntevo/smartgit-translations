@@ -2781,9 +2781,10 @@ msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
 msgstr ""
 
+#, fuzzy
 msgctxt "dlgSgClone.btn:"
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
@@ -3301,9 +3302,10 @@ msgctxt "dlgSgCommitSelectMessageFromLog.hdl"
 msgid "Select a commit"
 msgstr "コミットを選択する"
 
+#, fuzzy
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
 msgid "No repository selected."
-msgstr ""
+msgstr "リポジトリが選択されていません。"
 
 msgctxt "dlgSgCommitSelectMessageFromLog.inf"
 msgid "Choose the commit whose message should be used."
@@ -6397,9 +6399,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Use indentation from previous non-empty line"
 msgstr "空白でない前の行のインデントを使用"
 
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
-msgstr ""
+msgstr "プリインストールされた\\(\"system\"\\) Git-Flowの使用\\*"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Warn about submodule configuration changes \\(.gitmodules\\)"
@@ -11829,9 +11832,10 @@ msgctxt "wndCompare.mniRefresh"
 msgid "Reload"
 msgstr "再読込"
 
+#, fuzzy
 msgctxt "wndCompare.mniView-ignore-whitespaces"
 msgid "Ignore Whitespace"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wndCompare.mniView-layout-left-beside-right"
 msgid "Left Beside Right"
@@ -11881,9 +11885,10 @@ msgctxt "wndConflictSolver.mni:"
 msgid "Apply Selection to Working Tree"
 msgstr "選択範囲を作業ツリーに適用する"
 
+#, fuzzy
 msgctxt "wndConflictSolver.mniView-ignore-whitespaces"
 msgid "Ignore Whitespace"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wndConflictSolver.mniView-layout-all"
 msgid "All"
@@ -13157,9 +13162,10 @@ msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Index State"
 msgstr "インデックスの状態"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Last Changed On"
@@ -13213,9 +13219,10 @@ msgctxt "wnd(Log|Project|Std|).edt:"
 msgid "Commit to"
 msgstr "コミット先"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
-msgstr ""
+msgstr "ファイルのコミット: コミットを1つ選択\\nコミット間の差分: コミットを2つ選択"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "File Filter"
@@ -13225,21 +13232,25 @@ msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Filter or Tag Search"
 msgstr "フィルターまたはタグ検索"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "No file matches the filter."
-msgstr ""
+msgstr "フィルターに一致するファイルはありません。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "No repository selected."
-msgstr ""
+msgstr "リポジトリが選択されていません。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "The repository is empty."
-msgstr ""
+msgstr "リポジトリが空です。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
-msgstr ""
+msgstr "作業ツリーとインデックス ファイル : 作業ツリー を選択\\nコミット ファイル : コミット を選択\\nコミットとインデックスの差分 : コミットと作業ツリー を選択\\nコミット間の差分 : 2 つのコミット を選択"
 
 msgctxt "wnd(Log|Project|Std|).lbl:"
 msgid "$1 files hidden"
@@ -13289,9 +13300,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add Review Comment"
 msgstr "レビューコメントを追加"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add to dictionary"
-msgstr ""
+msgstr "辞書に追加"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "All"
@@ -13353,9 +13365,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Checkout"
 msgstr "チェックアウト"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick $1 to '$2'"
-msgstr ""
+msgstr "'$1' から '$2' へチェリーピック"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick Commits to $1"
@@ -13389,21 +13402,25 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Commit"
 msgstr "コミット"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer Abbreviated"
-msgstr ""
+msgstr "コミッターの略称"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer Avatar"
-msgstr ""
+msgstr "コミッターのアバター"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name and Email"
-msgstr ""
+msgstr "コミッター \\(フルネームと電子メール\\)"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name"
-msgstr ""
+msgstr "コミッター \\(フルネーム\\)"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
@@ -13413,13 +13430,15 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Compact Author"
 msgstr "コンパクトな著者"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Branch"
-msgstr ""
+msgstr "ブランチをコピー"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Email Address"
-msgstr ""
+msgstr "メールアドレスをコピー"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Full ID"
@@ -13501,9 +13520,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Drop Local Data"
 msgstr "ローカルデータの削除"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Drop Local"
-msgstr ""
+msgstr "ローカルを削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
@@ -13533,9 +13553,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Fetch Pull Request"
 msgstr "プルリクエストをフェッチする"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Fetch"
-msgstr ""
+msgstr "フェッチ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "File Content \\(very expensive\\)"
@@ -13649,9 +13670,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Message"
 msgstr "メッセージ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Modification"
-msgstr ""
+msgstr "変更"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
@@ -13685,9 +13707,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "No Group"
 msgstr "グループなし"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "No pull request data available."
-msgstr ""
+msgstr "プルリクエストのデータはありません。"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Only If Changed"
@@ -13769,9 +13792,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Reject Pull Request"
 msgstr "プルリクエストを却下"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Reject"
-msgstr ""
+msgstr "却下"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Relative Directory"
@@ -13837,13 +13861,15 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Rewrap"
 msgstr "ワードラップ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select Branch"
-msgstr ""
+msgstr "ブランチを選択"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select Commit"
-msgstr ""
+msgstr "コミットを選択"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from JIRA"
@@ -13853,9 +13879,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from Log"
 msgstr "ログから選択"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Send Mail"
-msgstr ""
+msgstr "メールを送る"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Set '$1' to $2"
@@ -13981,21 +14008,25 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Toggle"
 msgstr "トグル"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
-msgstr ""
+msgstr "ハンクをアンステージ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Innerline Change"
-msgstr ""
+msgstr "行内の変更をアンステージ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Line"
-msgstr ""
+msgstr "行をアンステージ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Selection"
-msgstr ""
+msgstr "選択範囲をアンステージ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Varying Coloring"
@@ -14301,9 +14332,10 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr "コミットにメッセージを使用"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
 msgid "Configure"
-msgstr ""
+msgstr "設定"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
@@ -14353,9 +14385,10 @@ msgctxt "wnd(Log|Project|Std|).mniForgetCommit"
 msgid "Forget Commit"
 msgstr "コミットを忘れる"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniGoto-line"
 msgid "Go to Line"
-msgstr ""
+msgstr "指定の行へ移動"
 
 msgctxt "wnd(Log|Project|Std|).mniGoto-next-diff"
 msgid "Next Change"
@@ -14489,9 +14522,10 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr "新しいウィンドウ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniOpen"
 msgid "Open from Working Tree"
-msgstr ""
+msgstr "作業ツリーから開く"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
@@ -14957,9 +14991,10 @@ msgctxt "wnd(Log|Project|Std|).mniUnstage"
 msgid "Unstage"
 msgstr "アンステージ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces"
 msgid "Ignore Whitespace"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces-all"
 msgid "Ignore All Whitespaces for Line Comparison"
@@ -15089,9 +15124,10 @@ msgctxt "wnd(Log|Project|Std|).mniWindowJournal"
 msgid "Journal"
 msgstr "ジャーナル"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniWindowLayoutReset"
 msgid "Reset Perspective"
-msgstr ""
+msgstr "作業環境をリセット"
 
 msgctxt "wnd(Log|Project|Std|).mniWindowLayoutSetMain"
 msgid "Main Perspective"
@@ -15317,9 +15353,10 @@ msgctxt "wnd(Log|Project|Std|).tbr\"  History  \""
 msgid "History"
 msgstr "履歴"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Branch"
-msgstr ""
+msgstr "ブランチを追加"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Tag"
@@ -15397,9 +15434,10 @@ msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
 msgstr "Git-Flow"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore WS"
-msgstr ""
+msgstr "空白文字を無視"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore"
@@ -15521,9 +15559,10 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."
 msgstr "現在のリポジトリにホスティングプロバイダーが設定されていません。環境設定から、設定を追加してください。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr ""
+msgstr "選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
@@ -15549,21 +15588,24 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading incoming merge requests from '$1'."
 msgstr "$1 から受信したマージ要求を読み取る"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading incoming pull requests from '$1'."
-msgstr ""
+msgstr "\"$1\" から受け取ったプルリクエストを読み込んでいます。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading outgoing pull requests from '$1'."
-msgstr ""
+msgstr "'$1' から送信されたプルリクエストを読み取っています。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading repository info from '$1'."
 msgstr "$1'からリポジトリ情報を読み込んでいます。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from Bitbucket."
-msgstr ""
+msgstr "Bitbucket からの情報を更新します。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from GitLab."
@@ -15773,9 +15815,10 @@ msgctxt "wnd(Log|Project|Std|).tbtUnstage"
 msgid "Remove staged changes from index."
 msgstr "インデックスからステージングされた変更を削除します。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbtView-ignore-whitespaces"
 msgid "Ignore irrelevant whitespace"
-msgstr ""
+msgstr "無関係な空白を無視する"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewFromSubmodules"
 msgid "If selected, files from submodules will be shown."
@@ -15817,13 +15860,15 @@ msgctxt "wnd(Log|Project|Std|).tbtWindowLayoutSetReview"
 msgid "Switch to the Review perspective."
 msgstr "レビュー向けの表示に切り替えます。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 - Log"
-msgstr ""
+msgstr "$1 - ログ"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
-msgstr ""
+msgstr "$1 \\[$2\\] - $3 のログ"
 
 #~ msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
 #~ msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"

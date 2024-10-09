@@ -2781,9 +2781,10 @@ msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
 msgstr ""
 
+#, fuzzy
 msgctxt "dlgSgClone.btn:"
 msgid "Configure"
-msgstr ""
+msgstr "配置"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Create upstream remote"
@@ -6397,9 +6398,10 @@ msgctxt "dlgSgPreferences.chk:"
 msgid "Use indentation from previous non-empty line"
 msgstr "使用前一个非空行的缩进"
 
+#, fuzzy
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
-msgstr ""
+msgstr "使用预装 \\(系统\\) Git 工作流\\*"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Warn about submodule configuration changes \\(.gitmodules\\)"
@@ -10157,9 +10159,10 @@ msgctxt "dlgSgStashesDropConfirm.tle"
 msgid "Drop Stash"
 msgstr "丢弃贮藏"
 
+#, fuzzy
 msgctxt "dlgSgSubmoduleAdd.btn:"
 msgid "Configure"
-msgstr ""
+msgstr "配置"
 
 msgctxt "dlgSgSubmoduleAdd.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
@@ -12733,9 +12736,10 @@ msgctxt "wndLog.mniFixCaseChange"
 msgid "Fix Case-Change"
 msgstr ""
 
+#, fuzzy
 msgctxt "wndProject.col:"
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
@@ -13157,9 +13161,10 @@ msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Index State"
 msgstr "索引状态"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "LFS"
-msgstr ""
+msgstr "LFS"
 
 msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Last Changed On"
@@ -13353,9 +13358,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Checkout"
 msgstr "检出"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick $1 to '$2'"
-msgstr ""
+msgstr "将 $1 摘取至 '$2'"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick Commits to $1"
@@ -13389,21 +13395,25 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Commit"
 msgstr "提交"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer Abbreviated"
-msgstr ""
+msgstr "修订者缩写"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer Avatar"
-msgstr ""
+msgstr "修订者头像"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name and Email"
-msgstr ""
+msgstr "修订者完整姓名和邮件"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name"
-msgstr ""
+msgstr "修订者完整姓名"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
@@ -13413,13 +13423,15 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Compact Author"
 msgstr "紧凑作者"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Branch"
-msgstr ""
+msgstr "复制分支"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Email Address"
-msgstr ""
+msgstr "复制邮件地址"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Full ID"
@@ -13649,9 +13661,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Message"
 msgstr "消息"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Modification"
-msgstr ""
+msgstr "修改"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
@@ -13837,13 +13850,15 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Rewrap"
 msgstr "重新包装"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select Branch"
-msgstr ""
+msgstr "选择分支"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select Commit"
-msgstr ""
+msgstr "选择提交"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from JIRA"
@@ -13853,9 +13868,10 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from Log"
 msgstr "从日志中选择"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Send Mail"
-msgstr ""
+msgstr "发送邮件"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Set '$1' to $2"
@@ -13981,21 +13997,25 @@ msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Toggle"
 msgstr "切换"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
-msgstr ""
+msgstr "取消大量暂存"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Innerline Change"
-msgstr ""
+msgstr "取消暂存行内变更"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Line"
-msgstr ""
+msgstr "取消暂存行"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Selection"
-msgstr ""
+msgstr "取消暂存所选"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Varying Coloring"
@@ -14301,17 +14321,19 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr "修复"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
 msgid "Configure"
-msgstr ""
+msgstr "配置"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure"
-msgstr ""
+msgstr "配置"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowContext"
 msgid "Git-Flow"
@@ -14489,13 +14511,15 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr "新窗口"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniOpen"
 msgid "Open from Working Tree"
-msgstr ""
+msgstr "打开"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
-msgstr ""
+msgstr "打开"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
@@ -15317,9 +15341,10 @@ msgctxt "wnd(Log|Project|Std|).tbr\"  History  \""
 msgid "History"
 msgstr "历史"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Branch"
-msgstr ""
+msgstr "创建分支"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Tag"
@@ -15521,9 +15546,10 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."
 msgstr "当前仓库未配置主机提供商。前往 “偏好设置” 创建配置。"
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr ""
+msgstr "If selected and Index as well as Working Tree changes are available, show them separately."
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
@@ -15549,9 +15575,10 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading incoming merge requests from '$1'."
 msgstr "从 '$1' 读取收到的合并请求."
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading incoming pull requests from '$1'."
-msgstr ""
+msgstr "正在读取来自'$1'的拉取请求."
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading outgoing pull requests from '$1'."
@@ -15561,9 +15588,10 @@ msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading repository info from '$1'."
 msgstr "从 '$1' 读取仓库信息."
 
+#, fuzzy
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from Bitbucket."
-msgstr ""
+msgstr "刷新 Bitbucket 信息"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from GitLab."
