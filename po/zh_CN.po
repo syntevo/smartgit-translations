@@ -317,6 +317,10 @@ msgctxt "dlgProgress.tle:"
 msgid "Upgrade"
 msgstr "升级"
 
+msgctxt "dlgProgress.tle:"
+msgid "Verifying executables"
+msgstr ""
+
 msgctxt "dlgQBugFileSendingFailed.fur%1"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr "也许您需要配置代理才能访问我们服务器或我们的服务器暂时关闭。\\n详情：$1"
@@ -2325,6 +2329,10 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr ""
 
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
+msgid "Do you want to delete $1 local branches?"
+msgstr ""
+
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
 msgid "Do you want to delete $1 local branches?"
 msgstr "您确定要删除 $1 本地分支吗？"
@@ -2336,6 +2344,10 @@ msgstr "删除"
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
 msgstr "删除"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
@@ -2351,6 +2363,14 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
+msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
+msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
@@ -3400,6 +3420,14 @@ msgstr "所选的两个文件是否应相互比较？"
 msgctxt "dlgSgCompareTwoFiles.tle"
 msgid "Compare"
 msgstr "比较"
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.fur"
+msgid "To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
+msgstr ""
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
+msgid "The right file is not editable because of mixed line-endings."
+msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
 msgid "Mark Resolved"
@@ -5782,6 +5810,10 @@ msgid "Command Add Submodule produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Apply Stash failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash produced warnings."
 msgstr "应贮藏命令执行时产生了警告."
 
@@ -5886,6 +5918,14 @@ msgid "Command Reset failed!"
 msgstr "重置命令执行失败!"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Reset produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Resolve failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve produced warnings."
 msgstr "解决命令执行时产生了警告."
 
@@ -5928,6 +5968,14 @@ msgstr ""
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "您对以下文件的本地更改将被签出覆盖:\\n无法分离 HEAD"
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Copy Selection"
+msgstr ""
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Wrap Long Lines"
+msgstr ""
 
 msgctxt "dlgSgOutput.tle:"
 msgid "Command Failed"
@@ -6673,6 +6721,10 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr "更改这些低级别属性可能会损害 SmartGit 的稳定性或性能。只有在确定自己在做什么的情况下才能继续。结尾含 \\* 的属性更改之后需要重新启动才能生效。"
 
+msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgid "Checkout \\(Switch branch\\)"
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Clone"
 msgstr "克隆"
@@ -6842,6 +6894,22 @@ msgid "Arguments"
 msgstr "参数"
 
 msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
 msgid "Command + Arguments"
 msgstr "命令和参数"
 
@@ -6880,6 +6948,22 @@ msgstr "导出"
 msgctxt "dlgSgPreferences.mni:"
 msgid "File Pattern"
 msgstr "文件模式"
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub Enterprise"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgid "GitLab \\(Self Hosted\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitLab"
+msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "Import"
@@ -7565,6 +7649,22 @@ msgctxt "dlgSgPushOverwriteRemoteBranchConfirm.tle"
 msgid "Push"
 msgstr "推送"
 
+msgctxt "dlgSgPushToAddRemote.btn:"
+msgid "Add Remote"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.fur"
+msgid "There is no remote repository configured yet. To push, you first need to configure that. After having added the remote, invoke Push again."
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.hdl"
+msgid "Do you want to add a remote?"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.tle"
+msgid "Push To"
+msgstr ""
+
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.fur"
 msgid "There is no other Git-remote to which branches of the selected remote could be pushed."
 msgstr ""
@@ -7864,6 +7964,38 @@ msgstr "是否要保留工作区中未跟踪的文件？"
 msgctxt "dlgSgRebaseContinuePreserveUntrackedFiles.tle"
 msgid "Rebase"
 msgstr "变基"
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.fur"
+msgid "Rebase Continue will store all working tree changes in the commit."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.hdl"
+msgid "Do you want the working tree changes to be part of the new commit?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
+msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
+msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
+msgid "Do you want the working tree changes to be applied, too?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.tle"
+msgid "Rebase"
+msgstr ""
 
 msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Continue Anyway"
@@ -8456,6 +8588,10 @@ msgstr "搜索现有本地仓库"
 msgctxt "dlgSgRepositoriesSearch.inf"
 msgid "Select a root directory where the search should start and click 'Start Search'."
 msgstr "选择一个根目录作为搜索的起点, 并点击“开始搜索”."
+
+msgctxt "dlgSgRepositoriesSearch.lbl:"
+msgid "$1 repository selected"
+msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.lbl:"
 msgid "No repository selected"
@@ -9345,7 +9481,35 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
+msgctxt "dlgSgRollbackToCommit.hdl"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.hdl%1"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
 msgctxt "dlgSgRollbackToCommit.tle"
+msgid "Rollback To"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "+ Stage"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "Rollback"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.fur"
+msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.hdl"
+msgid "Do you want to rollback the selected files to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.tle"
 msgid "Rollback To"
 msgstr ""
 
@@ -9850,6 +10014,10 @@ msgid "Automatically save stash"
 msgstr "自动贮藏"
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Checkout may require a clean working tree to complete successfully. After the Checkout succeeded, the stashed local changes will be automatically reapplied."
 msgstr "完成 Checkout 可能需要一个干净的工作区. 在 Checkout 成功后, 贮藏的本地更改将会自动重新应用."
 
@@ -9871,6 +10039,10 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Check Out?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
@@ -10023,6 +10195,10 @@ msgstr "URL"
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "No repository found."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
@@ -10188,6 +10364,10 @@ msgstr "同步"
 msgctxt "dlgSgSubmoduleSync.chk:"
 msgid "Pull submodule repositories"
 msgstr "拉取子模块"
+
+msgctxt "dlgSgSubmoduleSync.chk:"
+msgid "Pull submodule repository"
+msgstr ""
 
 msgctxt "dlgSgSubmoduleSync.hdl"
 msgid "Synchronize all submodules"
@@ -11701,6 +11881,10 @@ msgctxt "wndConflictSolver.mni:"
 msgid "Apply Selection to Working Tree"
 msgstr "应用选定内容到工作区"
 
+msgctxt "wndConflictSolver.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wndConflictSolver.mniView-layout-all"
 msgid "All"
 msgstr "所有"
@@ -12545,172 +12729,8 @@ msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr ""
 
-msgctxt "wndLog.col:"
-msgid "LFS"
-msgstr "LFS"
-
-msgctxt "wndLog.hnt:"
-msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "No file matches the filter."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "No repository selected."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "The repository is empty."
-msgstr ""
-
-msgctxt "wndLog.hnt:"
-msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Add to dictionary"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Cherry-Pick $1 to '$2'"
-msgstr "将 $1 摘取至 '$2'"
-
-msgctxt "wndLog.mni:"
-msgid "Committer Abbreviated"
-msgstr "修订者缩写"
-
-msgctxt "wndLog.mni:"
-msgid "Committer Avatar"
-msgstr "修订者头像"
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name and Email"
-msgstr "修订者完整姓名和邮件"
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name"
-msgstr "修订者完整姓名"
-
-msgctxt "wndLog.mni:"
-msgid "Copy Branch"
-msgstr "复制分支"
-
-msgctxt "wndLog.mni:"
-msgid "Copy Email Address"
-msgstr "复制邮件地址"
-
-msgctxt "wndLog.mni:"
-msgid "Drop Local"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Fetch"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Modification"
-msgstr "修改"
-
-msgctxt "wndLog.mni:"
-msgid "No pull request data available."
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Reject"
-msgstr ""
-
-msgctxt "wndLog.mni:"
-msgid "Select Branch"
-msgstr "选择分支"
-
-msgctxt "wndLog.mni:"
-msgid "Select Commit"
-msgstr "选择提交"
-
-msgctxt "wndLog.mni:"
-msgid "Send Mail"
-msgstr "发送邮件"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Hunk"
-msgstr "取消大量暂存"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Innerline Change"
-msgstr "取消暂存行内变更"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Line"
-msgstr "取消暂存行"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Selection"
-msgstr "取消暂存所选"
-
-msgctxt "wndLog.mniFlowConfigure"
-msgid "Configure"
-msgstr "配置"
-
-msgctxt "wndLog.mniGoto-line"
-msgid "Go to Line"
-msgstr ""
-
-msgctxt "wndLog.mniOpen"
-msgid "Open from Working Tree"
-msgstr "打开"
-
-msgctxt "wndLog.mniRollbackTo"
-msgid "Rollback To"
-msgstr ""
-
-msgctxt "wndLog.mniView-ignore-whitespaces"
-msgid "Ignore Whitespace"
-msgstr ""
-
-msgctxt "wndLog.mniWindowLayoutReset"
-msgid "Reset Perspective"
-msgstr ""
-
-msgctxt "wndLog.tbr:"
-msgid "Add Branch"
-msgstr "创建分支"
-
-msgctxt "wndLog.tbr:"
-msgid "Ignore WS"
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr "If selected and Index as well as Working Tree changes are available, show them separately."
-
-msgctxt "wndLog.tbt:"
-msgid "Reading incoming pull requests from '$1'."
-msgstr "正在读取来自'$1'的拉取请求."
-
-msgctxt "wndLog.tbt:"
-msgid "Reading outgoing pull requests from '$1'."
-msgstr ""
-
-msgctxt "wndLog.tbt:"
-msgid "Refresh information from Bitbucket."
-msgstr "刷新 Bitbucket 信息"
-
-msgctxt "wndLog.tbtRemoteFetch"
-msgid "Fetch commits from current remote repository."
-msgstr ""
-
-msgctxt "wndLog.tbtView-ignore-whitespaces"
-msgid "Ignore irrelevant whitespace"
-msgstr ""
-
-msgctxt "wndLog.tle:"
-msgid "$1 - Log"
-msgstr ""
-
-msgctxt "wndLog.tle:"
-msgid "$1 \\[$2\\] - Log for $3"
+msgctxt "wndLog.mniFixCaseChange"
+msgid "Fix Case-Change"
 msgstr ""
 
 msgctxt "wndProject.col:"
@@ -13138,6 +13158,10 @@ msgid "Index State"
 msgstr "索引状态"
 
 msgctxt "wnd(Log|Project|Std|).col:"
+msgid "LFS"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Last Changed On"
 msgstr "最后更改于"
 
@@ -13190,12 +13214,32 @@ msgid "Commit to"
 msgstr "提交到"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "File Filter"
 msgstr "文件过滤器"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Filter or Tag Search"
 msgstr "过滤器或标签搜索"
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No file matches the filter."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No repository selected."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "The repository is empty."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).lbl:"
 msgid "$1 files hidden"
@@ -13244,6 +13288,10 @@ msgstr "创建 GitLab 注释"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add Review Comment"
 msgstr "创建审阅注释"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Add to dictionary"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "All"
@@ -13306,6 +13354,10 @@ msgid "Checkout"
 msgstr "检出"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Cherry-Pick $1 to '$2'"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick Commits to $1"
 msgstr "摘取提交至 $1"
 
@@ -13338,12 +13390,36 @@ msgid "Commit"
 msgstr "提交"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Abbreviated"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Avatar"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name and Email"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
 msgstr "修订者"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Compact Author"
 msgstr "紧凑作者"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Email Address"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Full ID"
@@ -13426,6 +13502,10 @@ msgid "Drop Local Data"
 msgstr "删除本地数据"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Drop Local"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
 msgstr "编辑 '评论 $1'"
 
@@ -13452,6 +13532,10 @@ msgstr "获取合并请求"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Fetch Pull Request"
 msgstr "获取拉取请求"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Fetch"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "File Content \\(very expensive\\)"
@@ -13566,6 +13650,10 @@ msgid "Message"
 msgstr "消息"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Modification"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
 msgstr "更多选项"
 
@@ -13596,6 +13684,10 @@ msgstr "创建分组"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "No Group"
 msgstr "不分组"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "No pull request data available."
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Only If Changed"
@@ -13678,6 +13770,10 @@ msgid "Reject Pull Request"
 msgstr "拒绝拉取请求"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Reject"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Relative Directory"
 msgstr "相对目录"
 
@@ -13742,12 +13838,24 @@ msgid "Rewrap"
 msgstr "重新包装"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Commit"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from JIRA"
 msgstr "从 JIRA 中选择"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from Log"
 msgstr "从日志中选择"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Send Mail"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Set '$1' to $2"
@@ -13872,6 +13980,22 @@ msgstr "切换托管服务提供商集成"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Toggle"
 msgstr "切换"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Innerline Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Selection"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Varying Coloring"
@@ -14177,6 +14301,10 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr "修复"
 
+msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
+msgid "Configure"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
@@ -14224,6 +14352,10 @@ msgstr "开始 Support 分支"
 msgctxt "wnd(Log|Project|Std|).mniForgetCommit"
 msgid "Forget Commit"
 msgstr "忘记提交"
+
+msgctxt "wnd(Log|Project|Std|).mniGoto-line"
+msgid "Go to Line"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniGoto-next-diff"
 msgid "Next Change"
@@ -14356,6 +14488,10 @@ msgstr "显示标准窗口"
 msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr "新窗口"
+
+msgctxt "wnd(Log|Project|Std|).mniOpen"
+msgid "Open from Working Tree"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
@@ -14665,6 +14801,10 @@ msgctxt "wnd(Log|Project|Std|).mniRewriteTextFile"
 msgid "Fix Line-Endings"
 msgstr "修复换行符"
 
+msgctxt "wnd(Log|Project|Std|).mniRollbackTo"
+msgid "Rollback To"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniSaveAs"
 msgid "Save As"
 msgstr "另存为"
@@ -14817,6 +14957,10 @@ msgctxt "wnd(Log|Project|Std|).mniUnstage"
 msgid "Unstage"
 msgstr "取消暂存"
 
+msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces-all"
 msgid "Ignore All Whitespaces for Line Comparison"
 msgstr "忽略所有空白字符变化"
@@ -14944,6 +15088,10 @@ msgstr "隐藏选中视图"
 msgctxt "wnd(Log|Project|Std|).mniWindowJournal"
 msgid "Journal"
 msgstr "日志视图"
+
+msgctxt "wnd(Log|Project|Std|).mniWindowLayoutReset"
+msgid "Reset Perspective"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniWindowLayoutSetMain"
 msgid "Main Perspective"
@@ -15170,6 +15318,10 @@ msgid "History"
 msgstr "历史"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Add Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Tag"
 msgstr "创建标签"
 
@@ -15244,6 +15396,10 @@ msgstr "完成"
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
 msgstr "Git 工作流"
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Ignore WS"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore"
@@ -15366,6 +15522,10 @@ msgid "Hosting provider is not configured for the current repository. Go to the 
 msgstr "当前仓库未配置主机提供商。前往 “偏好设置” 创建配置。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
 msgstr "如果选定该属性，将显示子目录中的文件。"
 
@@ -15390,8 +15550,20 @@ msgid "Reading incoming merge requests from '$1'."
 msgstr "从 '$1' 读取收到的合并请求."
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading incoming pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading outgoing pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading repository info from '$1'."
 msgstr "从 '$1' 读取仓库信息."
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Refresh information from Bitbucket."
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from GitLab."
@@ -15513,6 +15685,10 @@ msgctxt "wnd(Log|Project|Std|).tbtRefresh"
 msgid "Refresh the log view."
 msgstr "刷新日志视图。"
 
+msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch"
+msgid "Fetch commits from current remote repository."
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
 msgstr ""
@@ -15597,6 +15773,10 @@ msgctxt "wnd(Log|Project|Std|).tbtUnstage"
 msgid "Remove staged changes from index."
 msgstr "从索引中删除暂存变更。"
 
+msgctxt "wnd(Log|Project|Std|).tbtView-ignore-whitespaces"
+msgid "Ignore irrelevant whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtViewFromSubmodules"
 msgid "If selected, files from submodules will be shown."
 msgstr "如果选中，将显示子模块中的文件。"
@@ -15637,6 +15817,182 @@ msgctxt "wnd(Log|Project|Std|).tbtWindowLayoutSetReview"
 msgid "Switch to the Review perspective."
 msgstr "切换到审阅透视图。"
 
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 - Log"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 \\[$2\\] - Log for $3"
+msgstr ""
+
 #~ msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
 #~ msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
 #~ msgstr "使用预装 \\(系统\\) Git 工作流\\*"
+
+#~ msgctxt "wndLog.col:"
+#~ msgid "LFS"
+#~ msgstr "LFS"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "No file matches the filter."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "No repository selected."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "The repository is empty."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Add to dictionary"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Cherry-Pick $1 to '$2'"
+#~ msgstr "将 $1 摘取至 '$2'"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer Abbreviated"
+#~ msgstr "修订者缩写"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer Avatar"
+#~ msgstr "修订者头像"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer with Full Name and Email"
+#~ msgstr "修订者完整姓名和邮件"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer with Full Name"
+#~ msgstr "修订者完整姓名"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Copy Branch"
+#~ msgstr "复制分支"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Copy Email Address"
+#~ msgstr "复制邮件地址"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Drop Local"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Fetch"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Modification"
+#~ msgstr "修改"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "No pull request data available."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Reject"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Select Branch"
+#~ msgstr "选择分支"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Select Commit"
+#~ msgstr "选择提交"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Send Mail"
+#~ msgstr "发送邮件"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Hunk"
+#~ msgstr "取消大量暂存"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Innerline Change"
+#~ msgstr "取消暂存行内变更"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Line"
+#~ msgstr "取消暂存行"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Selection"
+#~ msgstr "取消暂存所选"
+
+#~ msgctxt "wndLog.mniFlowConfigure"
+#~ msgid "Configure"
+#~ msgstr "配置"
+
+#~ msgctxt "wndLog.mniGoto-line"
+#~ msgid "Go to Line"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mniOpen"
+#~ msgid "Open from Working Tree"
+#~ msgstr "打开"
+
+#~ msgctxt "wndLog.mniRollbackTo"
+#~ msgid "Rollback To"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mniView-ignore-whitespaces"
+#~ msgid "Ignore Whitespace"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mniWindowLayoutReset"
+#~ msgid "Reset Perspective"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tbr:"
+#~ msgid "Add Branch"
+#~ msgstr "创建分支"
+
+#~ msgctxt "wndLog.tbr:"
+#~ msgid "Ignore WS"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+#~ msgstr "If selected and Index as well as Working Tree changes are available, show them separately."
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Reading incoming pull requests from '$1'."
+#~ msgstr "正在读取来自'$1'的拉取请求."
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Reading outgoing pull requests from '$1'."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Refresh information from Bitbucket."
+#~ msgstr "刷新 Bitbucket 信息"
+
+#~ msgctxt "wndLog.tbtRemoteFetch"
+#~ msgid "Fetch commits from current remote repository."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tbtView-ignore-whitespaces"
+#~ msgid "Ignore irrelevant whitespace"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tle:"
+#~ msgid "$1 - Log"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tle:"
+#~ msgid "$1 \\[$2\\] - Log for $3"
+#~ msgstr ""

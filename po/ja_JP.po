@@ -317,6 +317,10 @@ msgctxt "dlgProgress.tle:"
 msgid "Upgrade"
 msgstr "アップグレード"
 
+msgctxt "dlgProgress.tle:"
+msgid "Verifying executables"
+msgstr ""
+
 msgctxt "dlgQBugFileSendingFailed.fur%1"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr "プロキシの設定が必要なのか、サーバーが一時的にダウンしているのかもしれません。'$1'"
@@ -2325,6 +2329,10 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります。"
 
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
+msgid "Do you want to delete $1 local branches?"
+msgstr ""
+
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
 msgid "Do you want to delete $1 local branches?"
 msgstr "$1個のローカルブランチを削除しますか？"
@@ -2336,6 +2344,10 @@ msgstr "削除"
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.btn:"
 msgid "Delete"
 msgstr "削除"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
@@ -2352,6 +2364,14 @@ msgstr "削除されたブランチを復元するのは困難な場合があり
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります。"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
+msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
+msgid "Do you want to delete the local branch '$1'?"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
 msgid "Do you want to delete the local branch '$1'?"
@@ -3400,6 +3420,14 @@ msgstr "選択された2つのファイルを比較しますか？"
 msgctxt "dlgSgCompareTwoFiles.tle"
 msgid "Compare"
 msgstr "比較"
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.fur"
+msgid "To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
+msgstr ""
+
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
+msgid "The right file is not editable because of mixed line-endings."
+msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
 msgid "Mark Resolved"
@@ -5782,6 +5810,10 @@ msgid "Command Add Submodule produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Apply Stash failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Apply Stash produced warnings."
 msgstr "コマンド 「スタッシュを適用」 が警告を発しました。"
 
@@ -5886,6 +5918,14 @@ msgid "Command Reset failed!"
 msgstr "コマンド 「リセット」 に失敗しました!"
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Reset produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Resolve failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Resolve produced warnings."
 msgstr "コマンド 「解決」 が警告を発しました。"
 
@@ -5928,6 +5968,14 @@ msgstr "作業ツリーにローカルな変更があります。"
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\\n HEAD をデタッチできませんでした"
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Copy Selection"
+msgstr ""
+
+msgctxt "dlgSgOutput.mni:"
+msgid "Wrap Long Lines"
+msgstr ""
 
 msgctxt "dlgSgOutput.tle:"
 msgid "Command Failed"
@@ -6673,6 +6721,10 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr "ローレベルのプロパティを変更すると、SmartGitの安定性や性能に悪影響を及ぼす可能性があります。\\r自分が何をしているのか確信が持てる場合のみ、作業を続行するべきです。\\r変更したプロパティの末尾に\\*が付いている場合は、再起動が必要です。"
 
+msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgid "Checkout \\(Switch branch\\)"
+msgstr ""
+
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Clone"
 msgstr "クローン"
@@ -6842,6 +6894,22 @@ msgid "Arguments"
 msgstr "引数"
 
 msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Azure DevOps"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket Server"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "Bitbucket"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
 msgid "Command + Arguments"
 msgstr "コマンドと引数"
 
@@ -6880,6 +6948,22 @@ msgstr "エクスポート"
 msgctxt "dlgSgPreferences.mni:"
 msgid "File Pattern"
 msgstr "ファイルパターン"
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub Enterprise"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitHub"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgid "GitLab \\(Self Hosted\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
+msgid "GitLab"
+msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "Import"
@@ -7565,6 +7649,22 @@ msgctxt "dlgSgPushOverwriteRemoteBranchConfirm.tle"
 msgid "Push"
 msgstr "プッシュ"
 
+msgctxt "dlgSgPushToAddRemote.btn:"
+msgid "Add Remote"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.fur"
+msgid "There is no remote repository configured yet. To push, you first need to configure that. After having added the remote, invoke Push again."
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.hdl"
+msgid "Do you want to add a remote?"
+msgstr ""
+
+msgctxt "dlgSgPushToAddRemote.tle"
+msgid "Push To"
+msgstr ""
+
 msgctxt "dlgSgPushToNoMoreGitRemoteFound.fur"
 msgid "There is no other Git-remote to which branches of the selected remote could be pushed."
 msgstr ""
@@ -7864,6 +7964,38 @@ msgstr "追跡されていないファイルを作業ツリーに保持します
 msgctxt "dlgSgRebaseContinuePreserveUntrackedFiles.tle"
 msgid "Rebase"
 msgstr "リベース"
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.fur"
+msgid "Rebase Continue will store all working tree changes in the commit."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.hdl"
+msgid "Do you want the working tree changes to be part of the new commit?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTree.tle"
+msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.fur"
+msgid "Rebase Continue will store both, staged changes and the working tree changes, in the new commit!\\n\\nIf the staged changes should go to a seperate commit, first commit them, and then invoke Continue again."
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.hdl"
+msgid "Do you want the working tree changes to be applied, too?"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueWithDirtyWorkingTreeAndIndex.tle"
+msgid "Rebase"
+msgstr ""
 
 msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Continue Anyway"
@@ -8456,6 +8588,10 @@ msgstr "既存のローカルリポジトリの検索"
 msgctxt "dlgSgRepositoriesSearch.inf"
 msgid "Select a root directory where the search should start and click 'Start Search'."
 msgstr "検索対象のルートディレクトリを指定し、「検索」をクリックします。"
+
+msgctxt "dlgSgRepositoriesSearch.lbl:"
+msgid "$1 repository selected"
+msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.lbl:"
 msgid "No repository selected"
@@ -9345,7 +9481,35 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
+msgctxt "dlgSgRollbackToCommit.hdl"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToCommit.hdl%1"
+msgid "Do you want to rollback the Index to the state of commit $1?"
+msgstr ""
+
 msgctxt "dlgSgRollbackToCommit.tle"
+msgid "Rollback To"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "+ Stage"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.btn:"
+msgid "Rollback"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.fur"
+msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.hdl"
+msgid "Do you want to rollback the selected files to the state of commit $1?"
+msgstr ""
+
+msgctxt "dlgSgRollbackToFiles.tle"
 msgid "Rollback To"
 msgstr ""
 
@@ -9850,6 +10014,10 @@ msgid "Automatically save stash"
 msgstr "自動的にスタッシュを保存"
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Checkout may require a clean working tree to complete successfully. After the Checkout succeeded, the stashed local changes will be automatically reapplied."
 msgstr "チェックアウトを正常に完了するには、クリーンな作業ツリーが必要な場合があります。チェックアウトが成功すると、スタッシュに保存されたローカルの変更は自動的に適用されます。"
 
@@ -9871,6 +10039,10 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Check Out?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
@@ -10023,6 +10195,10 @@ msgstr "URL"
 
 msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "No repository found."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
@@ -10188,6 +10364,10 @@ msgstr "同期"
 msgctxt "dlgSgSubmoduleSync.chk:"
 msgid "Pull submodule repositories"
 msgstr "サブモジュールレポジトリをプル"
+
+msgctxt "dlgSgSubmoduleSync.chk:"
+msgid "Pull submodule repository"
+msgstr ""
 
 msgctxt "dlgSgSubmoduleSync.hdl"
 msgid "Synchronize all submodules"
@@ -11701,6 +11881,10 @@ msgctxt "wndConflictSolver.mni:"
 msgid "Apply Selection to Working Tree"
 msgstr "選択範囲を作業ツリーに適用する"
 
+msgctxt "wndConflictSolver.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wndConflictSolver.mniView-layout-all"
 msgid "All"
 msgstr "全て"
@@ -12545,173 +12729,9 @@ msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr "$1 - index エディタ"
 
-msgctxt "wndLog.col:"
-msgid "LFS"
-msgstr "LFS"
-
-msgctxt "wndLog.hnt:"
-msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
-msgstr "ファイルのコミット: コミットを1つ選択\\nコミット間の差分: コミットを2つ選択"
-
-msgctxt "wndLog.hnt:"
-msgid "No file matches the filter."
-msgstr "フィルターに一致するファイルはありません。"
-
-msgctxt "wndLog.hnt:"
-msgid "No repository selected."
-msgstr "リポジトリが選択されていません。"
-
-msgctxt "wndLog.hnt:"
-msgid "The repository is empty."
-msgstr "リポジトリが空です。"
-
-msgctxt "wndLog.hnt:"
-msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
-msgstr "作業ツリーとインデックス ファイル : 作業ツリー を選択\\nコミット ファイル : コミット を選択\\nコミットとインデックスの差分 : コミットと作業ツリー を選択\\nコミット間の差分 : 2 つのコミット を選択"
-
-msgctxt "wndLog.mni:"
-msgid "Add to dictionary"
-msgstr "辞書に追加"
-
-msgctxt "wndLog.mni:"
-msgid "Cherry-Pick $1 to '$2'"
-msgstr "'$1' から '$2' へチェリーピック"
-
-msgctxt "wndLog.mni:"
-msgid "Committer Abbreviated"
-msgstr "コミッターの略称"
-
-msgctxt "wndLog.mni:"
-msgid "Committer Avatar"
-msgstr "コミッターのアバター"
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name and Email"
-msgstr "コミッター \\(フルネームと電子メール\\)"
-
-msgctxt "wndLog.mni:"
-msgid "Committer with Full Name"
-msgstr "コミッター \\(フルネーム\\)"
-
-msgctxt "wndLog.mni:"
-msgid "Copy Branch"
-msgstr "ブランチをコピー"
-
-msgctxt "wndLog.mni:"
-msgid "Copy Email Address"
-msgstr "メールアドレスをコピー"
-
-msgctxt "wndLog.mni:"
-msgid "Drop Local"
-msgstr "ローカルを削除"
-
-msgctxt "wndLog.mni:"
-msgid "Fetch"
-msgstr "フェッチ"
-
-msgctxt "wndLog.mni:"
-msgid "Modification"
-msgstr "変更"
-
-msgctxt "wndLog.mni:"
-msgid "No pull request data available."
-msgstr "プルリクエストのデータはありません。"
-
-msgctxt "wndLog.mni:"
-msgid "Reject"
-msgstr "却下"
-
-msgctxt "wndLog.mni:"
-msgid "Select Branch"
-msgstr "ブランチを選択"
-
-msgctxt "wndLog.mni:"
-msgid "Select Commit"
-msgstr "コミットを選択"
-
-msgctxt "wndLog.mni:"
-msgid "Send Mail"
-msgstr "メールを送る"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Hunk"
-msgstr "ハンクをアンステージ"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Innerline Change"
-msgstr "行内の変更をアンステージ"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Line"
-msgstr "行をアンステージ"
-
-msgctxt "wndLog.mni:"
-msgid "Unstage Selection"
-msgstr "選択範囲をアンステージ"
-
-msgctxt "wndLog.mniFlowConfigure"
-msgid "Configure"
-msgstr "設定"
-
-msgctxt "wndLog.mniGoto-line"
-msgid "Go to Line"
-msgstr "指定の行へ移動"
-
-msgctxt "wndLog.mniOpen"
-msgid "Open from Working Tree"
-msgstr "作業ツリーから開く"
-
-msgctxt "wndLog.mniRollbackTo"
-msgid "Rollback To"
+msgctxt "wndLog.mniFixCaseChange"
+msgid "Fix Case-Change"
 msgstr ""
-
-msgctxt "wndLog.mniView-ignore-whitespaces"
-msgid "Ignore Whitespace"
-msgstr "空白文字を無視"
-
-msgctxt "wndLog.mniWindowLayoutReset"
-msgid "Reset Perspective"
-msgstr "作業環境をリセット"
-
-msgctxt "wndLog.tbr:"
-msgid "Add Branch"
-msgstr "ブランチを追加"
-
-msgctxt "wndLog.tbr:"
-msgid "Ignore WS"
-msgstr "空白文字を無視"
-
-msgctxt "wndLog.tbt:"
-msgid "If selected and Index as well as Working Tree changes are available, show them separately."
-msgstr "選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。"
-
-msgctxt "wndLog.tbt:"
-msgid "Reading incoming pull requests from '$1'."
-msgstr "\"$1\" から受け取ったプルリクエストを読み込んでいます。"
-
-msgctxt "wndLog.tbt:"
-msgid "Reading outgoing pull requests from '$1'."
-msgstr "'$1' から送信されたプルリクエストを読み取っています。"
-
-msgctxt "wndLog.tbt:"
-msgid "Refresh information from Bitbucket."
-msgstr "Bitbucket からの情報を更新します。"
-
-msgctxt "wndLog.tbtRemoteFetch"
-msgid "Fetch commits from current remote repository."
-msgstr ""
-
-msgctxt "wndLog.tbtView-ignore-whitespaces"
-msgid "Ignore irrelevant whitespace"
-msgstr "無関係な空白を無視する"
-
-msgctxt "wndLog.tle:"
-msgid "$1 - Log"
-msgstr "$1 - ログ"
-
-msgctxt "wndLog.tle:"
-msgid "$1 \\[$2\\] - Log for $3"
-msgstr "$1 \\[$2\\] - $3 のログ"
 
 msgctxt "wndProject.col:"
 msgid "LFS"
@@ -13138,6 +13158,10 @@ msgid "Index State"
 msgstr "インデックスの状態"
 
 msgctxt "wnd(Log|Project|Std|).col:"
+msgid "LFS"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).col:"
 msgid "Last Changed On"
 msgstr "最終変更日"
 
@@ -13190,12 +13214,32 @@ msgid "Commit to"
 msgstr "コミット先"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "File Filter"
 msgstr "ファイルフィルタ"
 
 msgctxt "wnd(Log|Project|Std|).hnt:"
 msgid "Filter or Tag Search"
 msgstr "フィルターまたはタグ検索"
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No file matches the filter."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "No repository selected."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "The repository is empty."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).hnt:"
+msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).lbl:"
 msgid "$1 files hidden"
@@ -13244,6 +13288,10 @@ msgstr "GitLabコメントの追加"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Add Review Comment"
 msgstr "レビューコメントを追加"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Add to dictionary"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "All"
@@ -13306,6 +13354,10 @@ msgid "Checkout"
 msgstr "チェックアウト"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Cherry-Pick $1 to '$2'"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Cherry-Pick Commits to $1"
 msgstr "'$1' にチェリーピックコミット"
 
@@ -13338,12 +13390,36 @@ msgid "Commit"
 msgstr "コミット"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Abbreviated"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer Avatar"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name and Email"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Committer with Full Name"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
 msgstr "コミッタ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Compact Author"
 msgstr "コンパクトな著者"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Copy Email Address"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Copy Full ID"
@@ -13426,6 +13502,10 @@ msgid "Drop Local Data"
 msgstr "ローカルデータの削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Drop Local"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
 msgstr "コミット '$1' を編集"
 
@@ -13452,6 +13532,10 @@ msgstr "マージリクエストの取得"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Fetch Pull Request"
 msgstr "プルリクエストをフェッチする"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Fetch"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "File Content \\(very expensive\\)"
@@ -13566,6 +13650,10 @@ msgid "Message"
 msgstr "メッセージ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Modification"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "More options"
 msgstr "追加のオプション"
 
@@ -13596,6 +13684,10 @@ msgstr "新しいグループ"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "No Group"
 msgstr "グループなし"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "No pull request data available."
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Only If Changed"
@@ -13678,6 +13770,10 @@ msgid "Reject Pull Request"
 msgstr "プルリクエストを却下"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Reject"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Relative Directory"
 msgstr "相対ディレクトリ"
 
@@ -13742,12 +13838,24 @@ msgid "Rewrap"
 msgstr "ワードラップ"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select Commit"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from JIRA"
 msgstr "JIRAから選択"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select from Log"
 msgstr "ログから選択"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Send Mail"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Set '$1' to $2"
@@ -13872,6 +13980,22 @@ msgstr "ホスティングプロバイダーの統合を切り替える"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Toggle"
 msgstr "トグル"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Innerline Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Selection"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Varying Coloring"
@@ -14177,6 +14301,10 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr "コミットにメッセージを使用"
 
+msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
+msgid "Configure"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr "Feature の設定"
@@ -14224,6 +14352,10 @@ msgstr "Support ブランチを開始"
 msgctxt "wnd(Log|Project|Std|).mniForgetCommit"
 msgid "Forget Commit"
 msgstr "コミットを忘れる"
+
+msgctxt "wnd(Log|Project|Std|).mniGoto-line"
+msgid "Go to Line"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniGoto-next-diff"
 msgid "Next Change"
@@ -14356,6 +14488,10 @@ msgstr "スタンダードウィンドウを表示"
 msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr "新しいウィンドウ"
+
+msgctxt "wnd(Log|Project|Std|).mniOpen"
+msgid "Open from Working Tree"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
@@ -14665,6 +14801,10 @@ msgctxt "wnd(Log|Project|Std|).mniRewriteTextFile"
 msgid "Fix Line-Endings"
 msgstr "改行コードを修正"
 
+msgctxt "wnd(Log|Project|Std|).mniRollbackTo"
+msgid "Rollback To"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniSaveAs"
 msgid "Save As"
 msgstr "名前を付けて保存"
@@ -14817,6 +14957,10 @@ msgctxt "wnd(Log|Project|Std|).mniUnstage"
 msgid "Unstage"
 msgstr "アンステージ"
 
+msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).mniView-ignore-whitespaces-all"
 msgid "Ignore All Whitespaces for Line Comparison"
 msgstr "行比較で空白をすべて無視する"
@@ -14944,6 +15088,10 @@ msgstr "ビューを隠す"
 msgctxt "wnd(Log|Project|Std|).mniWindowJournal"
 msgid "Journal"
 msgstr "ジャーナル"
+
+msgctxt "wnd(Log|Project|Std|).mniWindowLayoutReset"
+msgid "Reset Perspective"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniWindowLayoutSetMain"
 msgid "Main Perspective"
@@ -15170,6 +15318,10 @@ msgid "History"
 msgstr "履歴"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Add Branch"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Tag"
 msgstr "タグを追加"
 
@@ -15244,6 +15396,10 @@ msgstr "完了"
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
 msgstr "Git-Flow"
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Ignore WS"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore"
@@ -15366,6 +15522,10 @@ msgid "Hosting provider is not configured for the current repository. Go to the 
 msgstr "現在のリポジトリにホスティングプロバイダーが設定されていません。環境設定から、設定を追加してください。"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "If selected, files from subdirectories are shown."
 msgstr "選択した場合、サブディレクトリにあるファイルも表示されます。"
 
@@ -15390,8 +15550,20 @@ msgid "Reading incoming merge requests from '$1'."
 msgstr "$1 から受信したマージ要求を読み取る"
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading incoming pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Reading outgoing pull requests from '$1'."
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Reading repository info from '$1'."
 msgstr "$1'からリポジトリ情報を読み込んでいます。"
+
+msgctxt "wnd(Log|Project|Std|).tbt:"
+msgid "Refresh information from Bitbucket."
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbt:"
 msgid "Refresh information from GitLab."
@@ -15513,6 +15685,10 @@ msgctxt "wnd(Log|Project|Std|).tbtRefresh"
 msgid "Refresh the log view."
 msgstr "ログ ビューを更新します。"
 
+msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch"
+msgid "Fetch commits from current remote repository."
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
 msgstr "すべてのリモートリポジトリからコミットを取得します。"
@@ -15597,6 +15773,10 @@ msgctxt "wnd(Log|Project|Std|).tbtUnstage"
 msgid "Remove staged changes from index."
 msgstr "インデックスからステージングされた変更を削除します。"
 
+msgctxt "wnd(Log|Project|Std|).tbtView-ignore-whitespaces"
+msgid "Ignore irrelevant whitespace"
+msgstr ""
+
 msgctxt "wnd(Log|Project|Std|).tbtViewFromSubmodules"
 msgid "If selected, files from submodules will be shown."
 msgstr "サブモジュールのファイルが表示されます。"
@@ -15637,6 +15817,182 @@ msgctxt "wnd(Log|Project|Std|).tbtWindowLayoutSetReview"
 msgid "Switch to the Review perspective."
 msgstr "レビュー向けの表示に切り替えます。"
 
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 - Log"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tle:"
+msgid "$1 \\[$2\\] - Log for $3"
+msgstr ""
+
 #~ msgctxt "dlgSgPreferences.chk\"Use pre-installed \\(\\\"system\\\"\\) Git-Flow\\*\""
 #~ msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
 #~ msgstr "プリインストールされた\\(\"system\"\\) Git-Flowの使用\\*"
+
+#~ msgctxt "wndLog.col:"
+#~ msgid "LFS"
+#~ msgstr "LFS"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "Commit files: select 1 commit\\nDiff between commits: select 2 commits"
+#~ msgstr "ファイルのコミット: コミットを1つ選択\\nコミット間の差分: コミットを2つ選択"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "No file matches the filter."
+#~ msgstr "フィルターに一致するファイルはありません。"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "No repository selected."
+#~ msgstr "リポジトリが選択されていません。"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "The repository is empty."
+#~ msgstr "リポジトリが空です。"
+
+#~ msgctxt "wndLog.hnt:"
+#~ msgid "Working Tree & Index files: select Working Tree\\nCommit files: select commit\\nDiff between Commits: select 2 commits\\nDiff Commit & Index: select commit & Working Tree"
+#~ msgstr "作業ツリーとインデックス ファイル : 作業ツリー を選択\\nコミット ファイル : コミット を選択\\nコミットとインデックスの差分 : コミットと作業ツリー を選択\\nコミット間の差分 : 2 つのコミット を選択"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Add to dictionary"
+#~ msgstr "辞書に追加"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Cherry-Pick $1 to '$2'"
+#~ msgstr "'$1' から '$2' へチェリーピック"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer Abbreviated"
+#~ msgstr "コミッターの略称"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer Avatar"
+#~ msgstr "コミッターのアバター"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer with Full Name and Email"
+#~ msgstr "コミッター \\(フルネームと電子メール\\)"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Committer with Full Name"
+#~ msgstr "コミッター \\(フルネーム\\)"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Copy Branch"
+#~ msgstr "ブランチをコピー"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Copy Email Address"
+#~ msgstr "メールアドレスをコピー"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Drop Local"
+#~ msgstr "ローカルを削除"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Fetch"
+#~ msgstr "フェッチ"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Modification"
+#~ msgstr "変更"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "No pull request data available."
+#~ msgstr "プルリクエストのデータはありません。"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Reject"
+#~ msgstr "却下"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Select Branch"
+#~ msgstr "ブランチを選択"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Select Commit"
+#~ msgstr "コミットを選択"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Send Mail"
+#~ msgstr "メールを送る"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Hunk"
+#~ msgstr "ハンクをアンステージ"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Innerline Change"
+#~ msgstr "行内の変更をアンステージ"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Line"
+#~ msgstr "行をアンステージ"
+
+#~ msgctxt "wndLog.mni:"
+#~ msgid "Unstage Selection"
+#~ msgstr "選択範囲をアンステージ"
+
+#~ msgctxt "wndLog.mniFlowConfigure"
+#~ msgid "Configure"
+#~ msgstr "設定"
+
+#~ msgctxt "wndLog.mniGoto-line"
+#~ msgid "Go to Line"
+#~ msgstr "指定の行へ移動"
+
+#~ msgctxt "wndLog.mniOpen"
+#~ msgid "Open from Working Tree"
+#~ msgstr "作業ツリーから開く"
+
+#~ msgctxt "wndLog.mniRollbackTo"
+#~ msgid "Rollback To"
+#~ msgstr ""
+
+#~ msgctxt "wndLog.mniView-ignore-whitespaces"
+#~ msgid "Ignore Whitespace"
+#~ msgstr "空白文字を無視"
+
+#~ msgctxt "wndLog.mniWindowLayoutReset"
+#~ msgid "Reset Perspective"
+#~ msgstr "作業環境をリセット"
+
+#~ msgctxt "wndLog.tbr:"
+#~ msgid "Add Branch"
+#~ msgstr "ブランチを追加"
+
+#~ msgctxt "wndLog.tbr:"
+#~ msgid "Ignore WS"
+#~ msgstr "空白文字を無視"
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "If selected and Index as well as Working Tree changes are available, show them separately."
+#~ msgstr "選択され、インデックスと作業ツリーの変更がある場合、それらを個別に表示します。"
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Reading incoming pull requests from '$1'."
+#~ msgstr "\"$1\" から受け取ったプルリクエストを読み込んでいます。"
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Reading outgoing pull requests from '$1'."
+#~ msgstr "'$1' から送信されたプルリクエストを読み取っています。"
+
+#~ msgctxt "wndLog.tbt:"
+#~ msgid "Refresh information from Bitbucket."
+#~ msgstr "Bitbucket からの情報を更新します。"
+
+#~ msgctxt "wndLog.tbtRemoteFetch"
+#~ msgid "Fetch commits from current remote repository."
+#~ msgstr ""
+
+#~ msgctxt "wndLog.tbtView-ignore-whitespaces"
+#~ msgid "Ignore irrelevant whitespace"
+#~ msgstr "無関係な空白を無視する"
+
+#~ msgctxt "wndLog.tle:"
+#~ msgid "$1 - Log"
+#~ msgstr "$1 - ログ"
+
+#~ msgctxt "wndLog.tle:"
+#~ msgid "$1 \\[$2\\] - Log for $3"
+#~ msgstr "$1 \\[$2\\] - $3 のログ"
