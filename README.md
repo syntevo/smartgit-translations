@@ -11,7 +11,7 @@ The `./po` directory contains a `messages.pot` file ('master mapping') which inc
 
 The 'master mapping' is updated by us from the SmartGit source at regular intervals. `<locale_code>.po` files are primarily updated by contributors and then synchronized with the SmartGit source by us.
 
-The translations for the latest Preview release are managed in the `master` branch, and each stable version of SmartGit has its separate branch, like `smartgit-23.1`.
+The translations for the latest Preview release are managed in the `main` branch, and each stable version of SmartGit has its separate branch, like `smartgit-23.1`.
 
 > [!NOTE] 
 > Starting with SmartGit 24.1, we have migrated the format of localization files to one of the de facto standard formats, the PO file format. For previous versions, please refer to the README.md of each version's branch.
@@ -33,7 +33,7 @@ In either case, you'll need to fork and clone this repository, ensuring you're o
 1. Fork the repository
 1. Clone your fork, e.g. to `C:\temp\smartgit-translations.git`
 1. Checkout the appropriate branch:
-   1. `master` contains translations for the current Preview version
+   1. `main` contains translations for the current Preview version
    1. `smartgit-...` contains translations for the corresponding SmartGit version
 
 > [!IMPORTANT]
