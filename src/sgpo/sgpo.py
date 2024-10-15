@@ -34,7 +34,7 @@ class SgPo(polib.POFile):
 
     def __init__(self) -> None:
         super().__init__(self)
-        self.wrapwidth = 1000
+        self.wrapwidth = 9999
         self.charset = 'utf-8'
         self.check_for_duplicates = True
 
@@ -50,7 +50,7 @@ class SgPo(polib.POFile):
     @classmethod
     def _create_instance(cls, filename) -> SgPo:
         instance = cls.__new__(cls)
-        po = polib.pofile(filename, wrapwidth=1000, chraset='utf-8', check_for_duplicates=True)
+        po = polib.pofile(filename, wrapwidth=9999, chraset='utf-8', check_for_duplicates=True)
 
         instance.__dict__ = po.__dict__
         for entry in po:
@@ -202,6 +202,10 @@ class SgPo(polib.POFile):
     def format(self):
         self.metadata = self._filter_po_metadata(self.metadata)
         self.sort()
+
+    def save(self, fpath=None, repr_method='__unicode__', newline='\n') -> None:
+        # Change the default value of newline to \n (LF).
+        super().save(fpath=fpath, repr_method=repr_method, newline=newline)
 
     def get_key_list(self) -> list:
         return [self._po_entry_to_key_tuple(entry) for entry in self]
