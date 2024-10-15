@@ -9850,7 +9850,7 @@ msgstr "SSH 資格情報"
 
 msgctxt "dlgSgSshCredentials.inf%2"
 msgid "Provide the credentials for authenticating to the SSH server '$1' as user '$2'."
-msgstr "ユーザー「root」としてSSHサーバー「git」を認証するための認証情報を入力します。"
+msgstr "ユーザー '$2' として SSH サーバー '$1' に接続するための資格情報を入力してください。"
 
 msgctxt "dlgSgSshCredentials.lbl:"
 msgid "Only private key files with OpenSSH format are supported."
