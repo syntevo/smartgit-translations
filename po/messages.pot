@@ -9617,10 +9617,6 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
-msgctxt "dlgSgRollbackToCommit.hdl"
-msgid "Do you want to rollback the Index to the state of commit $1?"
-msgstr ""
-
 msgctxt "dlgSgRollbackToCommit.hdl%1"
 msgid "Do you want to rollback the Index to the state of commit $1?"
 msgstr ""
