@@ -9629,7 +9629,7 @@ msgctxt "dlgSgRollbackToFiles.fur"
 msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
-msgctxt "dlgSgRollbackToFiles.hdl"
+msgctxt "dlgSgRollbackToFiles.hdl:"
 msgid "Do you want to rollback the selected files to the state of commit $1?"
 msgstr ""
 
