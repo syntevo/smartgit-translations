@@ -2429,10 +2429,6 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
-msgid "Do you want to delete the branch '$1'?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
 msgstr ""
@@ -7485,12 +7481,8 @@ msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur"
 msgid "The pull request itself will not be deleted on the server."
 msgstr ""
 
-msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
-msgid "Do you want to drop the local commits of pull request $1?"
-msgstr ""
-
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl%1"
-msgid "Do you really want to drop the local commits of pull request $1?"
+msgid "Do you want to drop the local commits of pull request $1?"
 msgstr ""
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.tle"
