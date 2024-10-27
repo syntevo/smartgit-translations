@@ -725,6 +725,10 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+msgid "\\[$1\\] - $2"
+msgstr ""
+
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
@@ -871,6 +875,30 @@ msgstr ""
 
 msgctxt "dlgScCustomizeToolBar.col:"
 msgid "Selected"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Add Fixed Separator"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Add Stretching Separator"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Add"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Move Down"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Move Up"
+msgstr ""
+
+msgctxt "dlgScCustomizeToolBar.mni:"
+msgid "Remove"
 msgstr ""
 
 msgctxt "dlgScCustomizeToolBar.tle"
@@ -2393,6 +2421,10 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk%1"
+msgid "Delete from remote repository '$1'"
+msgstr ""
+
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr ""
@@ -2407,6 +2439,10 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1"
+msgid "Do you want to delete the branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle"
@@ -3429,6 +3465,10 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgid "\\[$1\\] - \\[$2\\] - $3"
+msgstr ""
+
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
 msgid "Mark Resolved"
 msgstr ""
@@ -3687,6 +3727,10 @@ msgstr ""
 
 msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
+msgstr ""
+
+msgctxt "dlgSgErrorUtilsClientException.fur"
+msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -4606,6 +4650,10 @@ msgid "Enter the new commit message."
 msgstr ""
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "Add to dictionary"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Copy"
 msgstr ""
 
@@ -4619,6 +4667,10 @@ msgstr ""
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
 msgid "Log"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditMessage.mni:"
+msgid "No suggestion for '$1'"
 msgstr ""
 
 msgctxt "dlgSgHistoryEditMessage.mni:"
@@ -4862,6 +4914,10 @@ msgid "Domain"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.edt:"
+msgid "File"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.edt:"
 msgid "Password"
 msgstr ""
 
@@ -4881,6 +4937,10 @@ msgctxt "dlgSgHostingProviderAdd.edt:"
 msgid "User Name"
 msgstr ""
 
+msgctxt "dlgSgHostingProviderAdd.err:"
+msgid "The entered URL is invalid - it should look like https://server"
+msgstr ""
+
 msgctxt "dlgSgHostingProviderAdd.hdl"
 msgid "Configure a new hosting provider account"
 msgstr ""
@@ -4890,7 +4950,23 @@ msgid "Select for which hosting provider you want to configure a new account."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "For example: https://azure.devops.server/DefaultCollection"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Provide a 'personal access token' which you can generate in your Azure DevOps account settings."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Provide a 'personal access token' which you can generate in your GitHub account settings."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "SSL Client Certificate \\(optional\\)"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
@@ -4923,6 +4999,10 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Use the same login information as for the unfuddle website."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "You can review Azure DevOps applications in the Authorizations section located at the bottom left of your \\[https://aex.dev.azure.com/me profile\\]."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.tle"
@@ -4971,6 +5051,10 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderEdit.edt:"
 msgid "Client Certificate"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderEdit.edt:"
+msgid "File"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderEdit.edt:"
@@ -5038,6 +5122,10 @@ msgid "For example: https://azure.devops.server/DefaultCollection"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderEdit.lbl:"
+msgid "SSL Client Certificate \\(optional\\)"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderEdit.lbl:"
 msgid "The \\(API\\) token is a special auto-generated credential which SmartGit will use to authenticate at GitHub. It adds another layer of security, as you can easily revoke access by removing the token from the GitHub front-end."
 msgstr ""
 
@@ -5071,6 +5159,10 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderEdit.tle:"
 msgid "GitHub"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderEdit.tle:"
+msgid "GitLab \\(Self Hosted\\)"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderEdit.tle:"
@@ -5299,6 +5391,14 @@ msgstr ""
 
 msgctxt "dlgSgIgnoreFile.wrn:"
 msgid "Because of performance reasons it is recommended to ignore by pattern - if possible."
+msgstr ""
+
+msgctxt "dlgSgIndexEditorMixedLineEndings.fur"
+msgid "At least one of the file contents contains mixed \\(inconsistent\\) line-endings. To prevent overwriting intentional mixed line-endings, editing and saving is disabled."
+msgstr ""
+
+msgctxt "dlgSgIndexEditorMixedLineEndings.hdl"
+msgid "The file is not editable because of mixed line-endings."
 msgstr ""
 
 msgctxt "dlgSgIndexEditorSaveOrDiscard.btn:"
@@ -5794,6 +5894,10 @@ msgid "Show automatically for failed command"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Authentication using OAuth failed \\(see details below\\)"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Branches need merging first."
 msgstr ""
 
@@ -5930,7 +6034,19 @@ msgid "Command Resolve produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Save Stash produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Split Commit failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Squash Commits failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Squash Commits produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -7226,6 +7342,14 @@ msgid "<b>When to select?</b>"
 msgstr ""
 
 msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "For already cloned repositories the setting <b>Use SmartGit as credential helper</b> can be changed in <b>Repository \\| Settings</b>."
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
+msgid "If selected, SmartGit will be set as <tt>credential.helper</tt> in the <tt>.git/config</tt> of newly cloned repositories that are cloned directly from a configured Hosting Provider. Executing remote Git commands \\(e.g. <b>pull</b> or <b>push</b>\\) in the terminal or a shell script will then use the credentials known to SmartGit."
+msgstr ""
+
+msgctxt "dlgSgPreferences.ttpSmartGitAsCredentialHelper:"
 msgid "If you also use other GUI clients, adding this configuration may disrupt the authentication of these tools and should be avoided."
 msgstr ""
 
@@ -7291,6 +7415,10 @@ msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.inf"
 msgid "Authenticate at GitLab and grant access to SmartGit."
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.lbl:"
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
@@ -7863,6 +7991,10 @@ msgstr ""
 
 msgctxt "dlgSgRebaseContinueAfterSplittingCommit.btn:"
 msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgRebaseContinueAfterSplittingCommit.chk"
+msgid "Don't show again"
 msgstr ""
 
 msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur%1"
@@ -8587,6 +8719,10 @@ msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.inf"
 msgid "Select a root directory where the search should start and click 'Start Search'."
+msgstr ""
+
+msgctxt "dlgSgRepositoriesSearch.lbl:"
+msgid "$1 repositories selected"
 msgstr ""
 
 msgctxt "dlgSgRepositoriesSearch.lbl:"
@@ -10050,6 +10186,10 @@ msgid "Do you want to save local changes to a stash and retry Checkout?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Edit Message?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save local changes to a stash and retry Pull?"
 msgstr ""
 
@@ -10191,6 +10331,10 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.edt:"
 msgid "URL"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "Directory '$1' already exists."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.err:"
@@ -11125,6 +11269,30 @@ msgctxt "ntmFollowUsOnTwitter:"
 msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Facebook</link1>: news"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Mastodon</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>X</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>YouTube</link1>: tutorial and expert videos"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"
+msgstr ""
+
 msgctxt "ntmHighMemoryUsage:"
 msgid "If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) for better performance."
 msgstr ""
@@ -11206,6 +11374,10 @@ msgid "Follow on Twitter"
 msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
+msgid "Follow us!"
+msgstr ""
+
+msgctxt "nttFollowUsOnX:"
 msgid "Follow us!"
 msgstr ""
 
@@ -11410,6 +11582,10 @@ msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>m
 msgstr ""
 
 msgctxt "ttpBranches:"
+msgid "<b>Push Target:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
 msgid "<b>Push Target:\\t</b>$1<col1>$2</col1>"
 msgstr ""
 
@@ -11459,6 +11635,10 @@ msgstr ""
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>$1 commits pushable, $2 commits behind"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tracking State:\\t</b>1 commit pushable"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -11567,6 +11747,10 @@ msgstr ""
 
 msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>$1<col1>$2</col1>"
+msgstr ""
+
+msgctxt "ttpRepositories:"
+msgid "<b>Tracked Branch:\\t</b>origin/master"
 msgstr ""
 
 msgctxt "ttpRepositories:"
@@ -12673,6 +12857,10 @@ msgctxt "wndGit.indexEditor.mni:"
 msgid "Unstage Selection"
 msgstr ""
 
+msgctxt "wndGit.indexEditor.mniView-ignore-whitespaces"
+msgid "Ignore Whitespace"
+msgstr ""
+
 msgctxt "wndGit.indexEditor.mniView-layout-all"
 msgid "All"
 msgstr ""
@@ -12729,8 +12917,16 @@ msgctxt "wndGit.indexEditor.tle:"
 msgid "$1 - Index Editor"
 msgstr ""
 
+msgctxt "wndLog.hnt:"
+msgid "No graph roots selected."
+msgstr ""
+
 msgctxt "wndLog.mniFixCaseChange"
 msgid "Fix Case-Change"
+msgstr ""
+
+msgctxt "wndLog.tbt:"
+msgid "Refresh information from GitHub."
 msgstr ""
 
 msgctxt "wndProject.col:"
@@ -12739,6 +12935,186 @@ msgstr ""
 
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
+msgstr ""
+
+msgctxt "wndStd.btn:"
+msgid "Compare"
+msgstr ""
+
+msgctxt "wndStd.ctg:"
+msgid "All Branches + Tags"
+msgstr ""
+
+msgctxt "wndStd.ctg:"
+msgid "Directories"
+msgstr ""
+
+msgctxt "wndStd.ctg:"
+msgid "My History"
+msgstr ""
+
+msgctxt "wndStd.ctg:"
+msgid "Reflog"
+msgstr ""
+
+msgctxt "wndStd.ctg:"
+msgid "Stashes"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "Commit files: select 1 commit\\nDiff between Commits: select 2 commits"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "Loading ..."
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "No locally changed files below the selected directory"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "No locally changed files"
+msgstr ""
+
+msgctxt "wndStd.lbl:"
+msgid "Force Compare"
+msgstr ""
+
+msgctxt "wndStd.lbl:"
+msgid "Local Repositories"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Add Branch"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Add Tag"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "All branches"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "All files"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "All files, excl. ignored"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "All files, incl. ignored"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Apply Stash"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Blame"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Changed files"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Fetch All"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Group by State"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Ignore"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Investigate"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Log"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "On master: SmartGit: automatic stash on Pull."
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Only current branch \\(HEAD\\)"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Rebase"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Remove"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Reset Adv."
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Reset"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Save Stash"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Sort by File Name"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Sort by Path"
+msgstr ""
+
+msgctxt "wndStd.mniBisectTryCommit"
+msgid "Try Commit"
+msgstr ""
+
+msgctxt "wndStd.mniFixCaseChange"
+msgid "Fix Case-Change"
+msgstr ""
+
+msgctxt "wndStd.mniIntegrateMain"
+msgid "Integrate Main"
+msgstr ""
+
+msgctxt "wndStd.mniStdOpenSubmodule"
+msgid "Open a Submodule"
+msgstr ""
+
+msgctxt "wndStd.mniStdOpenSubmoduleFromFile"
+msgid "Open this Submodule"
+msgstr ""
+
+msgctxt "wndStd.mniStdSetModeHistory"
+msgid "Show History"
+msgstr ""
+
+msgctxt "wndStd.mniStdSetModeWt"
+msgid "Show Local Changes"
+msgstr ""
+
+msgctxt "wndStd.tbr:"
+msgid "History  "
+msgstr ""
+
+msgctxt "wndStd.tbr:"
+msgid "Submodule"
+msgstr ""
+
+msgctxt "wndStd.tbtFlowFeatureStart"
+msgid "Start a new feature branch."
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
@@ -13843,6 +14219,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Select Commit"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Select from GitHub \\($1\\)"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
