@@ -12917,10 +12917,6 @@ msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
 
-msgctxt "wndProject.col:"
-msgid "LFS"
-msgstr ""
-
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
 msgstr ""
