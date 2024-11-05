@@ -11283,10 +11283,9 @@ msgid "<link1>YouTube</link1>: tutorial and expert videos"
 msgstr "<link1>YouTube</link1>: チュートリアルとエキスパートビデオ"
 
 # ToDo: もう少し自然な日本語にする
-#, fuzzy
 msgctxt "ntmFollowUsOnX:"
 msgid "Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"
-msgstr "お気に入りのソーシャルメディアプラットフォームでフォローして、ニュースを受け取ったり、機能について学んだり、リクエストやフィードバックで SmartGit の将来のバージョンに影響を与えたりしてください！"
+msgstr "お気に入りのSNSで私たちをフォローして、最新ニュースや機能紹介をご覧ください。皆様のリクエストやフィードバックで開発チームと対話し、次世代のSmartGitづくりにご参加ください！"
 
 msgctxt "ntmHighMemoryUsage:"
 msgid "If you are working with huge repositories, this may be OK. In this case, edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) for better performance."
@@ -11374,7 +11373,7 @@ msgstr "私たちをフォローしてください！"
 
 msgctxt "nttFollowUsOnX:"
 msgid "Follow us!"
-msgstr "フォローしてください！"
+msgstr "私たちをフォローしてください！"
 
 msgctxt "nttGeneral:"
 msgid "Don't show again"
