@@ -9718,7 +9718,7 @@ msgid "User Name"
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Decide what SmartGit window you prefer. You can change this option later in the preferences."
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
