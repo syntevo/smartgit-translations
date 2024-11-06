@@ -9722,8 +9722,8 @@ msgid "User Name"
 msgstr "用户名"
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Decide what SmartGit window you prefer. You can change this option later in the preferences."
-msgstr "决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
 
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
