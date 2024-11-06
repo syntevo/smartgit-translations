@@ -4369,7 +4369,7 @@ msgstr "パスワード"
 
 msgctxt "dlgSgGitHubGenerateToken.hdl"
 msgid "Generate a new API token for GitHub"
-msgstr "GitHub用の新しいAPIトークンの生成"
+msgstr "GitHub 用の新しいAPIトークンの生成"
 
 msgctxt "dlgSgGitHubGenerateToken.inf"
 msgid "Authenticate at GitHub and grant access to SmartGit."
@@ -7412,8 +7412,8 @@ msgid "Link"
 msgstr "リンク"
 
 msgctxt "dlgSgProviderGenerateToken.hdl"
-msgid "Generate a new API token for GitLab"
-msgstr "GitLab用の新しいAPIトークンを生成する"
+msgid "Generate a new API token for $1"
+msgstr "$1 用の新しいAPIトークンを生成する"
 
 msgctxt "dlgSgProviderGenerateToken.inf%1"
 msgid "Authenticate at $1 and grant access to SmartGit."
