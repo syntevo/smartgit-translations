@@ -7406,7 +7406,7 @@ msgid "Link"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.hdl"
-msgid "Generate a new API token for GitLab"
+msgid "Generate a new API token for $1"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.inf"
