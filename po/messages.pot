@@ -725,7 +725,7 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
 msgid "\\[$1\\] - $2"
 msgstr ""
 
@@ -3461,7 +3461,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -7405,7 +7405,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
 msgstr ""
 
