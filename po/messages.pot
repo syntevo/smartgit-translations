@@ -310,6 +310,10 @@ msgid "Reveal Commit"
 msgstr ""
 
 msgctxt "dlgProgress.tle:"
+msgid "Searching Repositories"
+msgstr ""
+
+msgctxt "dlgProgress.tle:"
 msgid "SmartGit Installation Update"
 msgstr ""
 
@@ -725,12 +729,12 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
+msgstr ""
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
 msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
@@ -1618,6 +1622,10 @@ msgid "Purchase Update"
 msgstr ""
 
 msgctxt "dlgScSetupLicense.btn:"
+msgid "Purchase"
+msgstr ""
+
+msgctxt "dlgScSetupLicense.btn:"
 msgid "Register"
 msgstr ""
 
@@ -2022,7 +2030,15 @@ msgid "Your working tree is in 'reverting' state. You may abort it to get out of
 msgstr ""
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgid "Do you want to abort the current revert?"
+msgstr ""
+
+msgctxt "dlgSgAbortRevertingConfirm.hdl"
 msgid "Do you want to reset your working tree?"
+msgstr ""
+
+msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgid "Abort"
 msgstr ""
 
 msgctxt "dlgSgAbortRevertingConfirm.tle"
@@ -2338,6 +2354,10 @@ msgid "Delete"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete from remote repository"
 msgstr ""
 
@@ -2406,6 +2426,14 @@ msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle"
+msgid "Delete"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
+msgid "Delete"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle"
 msgid "Delete"
 msgstr ""
 
@@ -2901,6 +2929,22 @@ msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr ""
 
+msgctxt "dlgSgClone.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr ""
+
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr ""
@@ -3391,6 +3435,10 @@ msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Remember Pattern"
+msgstr ""
+
+msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
+msgid "Interpret the search pattern as regular expression."
 msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.tle"
@@ -4105,8 +4153,16 @@ msgctxt "dlgSgFlowHotfixFinish.hdl"
 msgid "Finish a hotfix"
 msgstr ""
 
+msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgid "Finish current hotfix"
+msgstr ""
+
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."
+msgstr ""
+
+msgctxt "dlgSgFlowHotfixFinish.inf:"
+msgid "Choose how to finish the current hotfix."
 msgstr ""
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
@@ -4225,8 +4281,20 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit Message"
 msgstr ""
 
+msgctxt "dlgSgFlowReleaseFinish.edt:"
+msgid "Commit/Tag Message"
+msgstr ""
+
 msgctxt "dlgSgFlowReleaseFinish.hdl"
 msgid "Finish a release"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgid "Finish current release"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.inf:"
+msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
 msgstr ""
 
 msgctxt "dlgSgFlowReleaseFinish.inf:"
@@ -4243,6 +4311,10 @@ msgstr ""
 
 msgctxt "dlgSgFlowReleaseStart.btn:"
 msgid "Start"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseStart.chk:"
+msgid "Fetch from '$1' branch"
 msgstr ""
 
 msgctxt "dlgSgFlowReleaseStart.chk:"
@@ -4279,6 +4351,14 @@ msgstr ""
 
 msgctxt "dlgSgFlowSupportStart.chk:"
 msgid "Fetch from '$1' branch"
+msgstr ""
+
+msgctxt "dlgSgFlowSupportStart.chk:"
+msgid "Fetch from base branch"
+msgstr ""
+
+msgctxt "dlgSgFlowSupportStart.edt:"
+msgid "Base"
 msgstr ""
 
 msgctxt "dlgSgFlowSupportStart.edt:"
@@ -4938,11 +5018,19 @@ msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl"
+msgid "Add GitHub account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf"
 msgid "Select for which hosting provider you want to configure a new account."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.inf"
+msgid "Set or select the options according to your account."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
@@ -6926,6 +7014,14 @@ msgid "Refresh"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs/Commits"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Stash"
 msgstr ""
 
@@ -6943,6 +7039,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To manually update in-place use the '...' button located next to the version number in the About dialog."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Viewer:"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -7843,6 +7943,10 @@ msgstr ""
 
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
+msgstr ""
+
+msgctxt "dlgSgPushToRef.hdl:"
+msgid "Push local commits to a remote repository"
 msgstr ""
 
 msgctxt "dlgSgPushToRef.inf"
@@ -9062,6 +9166,10 @@ msgid "Reset to commit $1"
 msgstr ""
 
 msgctxt "dlgSgResetAdv.inf"
+msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+msgstr ""
+
+msgctxt "dlgSgResetAdv.inf"
 msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
 msgstr ""
 
@@ -9231,6 +9339,10 @@ msgstr ""
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
+msgstr ""
+
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgid "Compare with Selected Commit"
 msgstr ""
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
@@ -9718,10 +9830,6 @@ msgid "User Name"
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr ""
-
-msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr ""
 
@@ -9743,6 +9851,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
+msgstr ""
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.lbl:"
@@ -11591,6 +11703,18 @@ msgstr ""
 
 msgctxt "ttpBranches:"
 msgid "<b>Stash:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Date:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Message:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tagger:\\t</b>$1"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -14190,6 +14314,22 @@ msgid "Revert $1"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Inner-Line Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Selection"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Review"
 msgstr ""
 
@@ -14347,6 +14487,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Inner-line Change"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -15702,6 +15846,10 @@ msgid "Apply Stash"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Apply"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Blame"
 msgstr ""
 
@@ -16187,188 +16335,4 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
-msgstr ""
-
-msgctxt "dlgSgFlowHotfixFinish.hdl"
-msgid "Finish current hotfix"
-msgstr ""
-
-msgctxt "dlgSgFlowHotfixFinish.inf:"
-msgid "Choose how to finish the current hotfix."
-msgstr ""
-
-msgctxt "dlgSgFlowReleaseStart.chk:"
-msgid "Fetch from '$1' branch"
-msgstr ""
-
-msgctxt "dlgSgFlowReleaseFinish.hdl"
-msgid "Finish current release"
-msgstr ""
-
-msgctxt "dlgSgFlowReleaseFinish.inf:"
-msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
-msgstr ""
-
-msgctxt "dlgSgFlowReleaseFinish.edt:"
-msgid "Commit/Tag Message"
-msgstr ""
-
-msgctxt "dlgSgFlowSupportStart.edt:"
-msgid "Base"
-msgstr ""
-
-msgctxt "dlgSgFlowSupportStart.chk:"
-msgid "Fetch from base branch"
-msgstr ""
-
-msgctxt "dlgSgOpenRepository.tle"
-msgid "Add or Create Repository"
-msgstr ""
-
-msgctxt "dlgSgClone.err:"
-msgid "The specified directory is not the root of a repository."
-msgstr ""
-
-msgctxt "dlgSgClone.hdl:"
-msgid "Repository"
-msgstr ""
-
-msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
-msgid "Interpret the search pattern as regular expression."
-msgstr ""
-
-msgctxt "dlgSgClone.err:"
-msgid "The specified directory is not the root of a repository."
-msgstr ""
-
-msgctxt "dlgSgClone.hdl:"
-msgid "Repository"
-msgstr ""
-
-msgctxt "dlgSgClone.hdl:"
-msgid "Selection"
-msgstr ""
-
-msgctxt "dlgSgClone.hdl:"
-msgid "Local Directory"
-msgstr ""
-
-msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Set or select the options according to your account."
-msgstr ""
-
-msgctxt "dlgSgHostingProviderAdd.hdl"
-msgid "Add GitHub account"
-msgstr ""
-
-msgctxt "dlgProgress.tle:"
-msgid "Searching Repositories"
-msgstr ""
-
-msgctxt "dlgSgPreferences.lbl:"
-msgid "Refs"
-msgstr ""
-
-msgctxt "dlgSgPreferences.lbl:"
-msgid "Commits"
-msgstr ""
-
-msgctxt "dlgSgPreferences.lbl:"
-msgid "Refs/Commits"
-msgstr ""
-
-msgctxt "dlgSgPreferences.lbl:"
-msgid "Viewer:"
-msgstr ""
-
-msgctxt "ttpBranches:"
-msgid "<b>Tag Date:\\t</b>$1"
-msgstr ""
-
-msgctxt "ttpBranches:"
-msgid "<b>Tagger:\\t</b>$1"
-msgstr ""
-
-msgctxt "ttpBranches:"
-msgid "<b>Tag Message:\\t</b>$1"
-msgstr ""
-
-msgctxt "dlgSgPushToRef.hdl:"
-msgid "Push local commits to a remote repository"
-msgstr ""
-
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
-msgid "Compare with Selected Commit"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
-msgid "Delete branch '$1' from remote repository '$2'"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle"
-msgid "Delete"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
-msgid "Delete"
-msgstr ""
-
-msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-msgstr ""
-
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to abort the current revert?"
-msgstr ""
-
-msgctxt "dlgSgAbortRevertingConfirm.tle"
-msgid "Abort"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).tbr:"
-msgid "Apply"
-msgstr ""
-
-msgctxt "dlgScSetupLicense.btn:"
-msgid "Purchase"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1"
-msgid "Do you want to delete the branch '$1'?"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Unstage Inner-line Change"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Revert Inner-Line Change"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Revert Line"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Revert Selection"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Revert Hunk"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Stage Inner-line Change"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Stage Line"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Stage Selection"
-msgstr ""
-
-msgctxt "wnd(Log|Project|Std|).mni:"
-msgid "Stage Hunk"
 msgstr ""
