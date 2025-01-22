@@ -403,11 +403,11 @@ msgstr "Не показывать снова"
 
 msgctxt "dlgQDockManagerClosedView.fur"
 msgid "To reopen it again, use the corresponding menu item from the Window menu."
-msgstr "Для открытия снова, используйте соответствующий пункт меню Окно."
+msgstr "Для открытия панели снова, воспользуйтесь соответствующим пунктом в меню Окно."
 
 msgctxt "dlgQDockManagerClosedView.hdl%1"
 msgid "You've closed the view '$1'."
-msgstr "Вы закрываете панель '$1'."
+msgstr "Вы закрыли панель '$1'."
 
 msgctxt "dlgQDockManagerClosedView.tle"
 msgid "Closed View"
@@ -439,7 +439,7 @@ msgstr "Принудительный выход"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "Processes are still running. Exiting now will forcible stop them which might cause data-loss!"
-msgstr "Есть запущенные процессы. Завершение работы приведет к их прерыванию и возможной потери данных!"
+msgstr "Есть запущенные процессы. Завершение работы приведет к их принудительной остановке и возможной потери данных!"
 
 msgctxt "dlgQFrameManagerExit.fur:"
 msgid "There are unsaved changes which would be lost when exiting now!"
@@ -447,7 +447,7 @@ msgstr ""
 
 msgctxt "dlgQFrameManagerExit.hdl"
 msgid "Do you really want to exit SmartGit?"
-msgstr "Завершить работу SmartGit?"
+msgstr "Вы действительно хотите выйти из SmartGit?"
 
 msgctxt "dlgQFrameManagerExit.tle"
 msgid "Exit"
@@ -571,7 +571,7 @@ msgstr "Получить"
 
 msgctxt "dlgQUpdateCheckLatestBuild.fur"
 msgid "Only use the latest build if requested by the support team."
-msgstr "Только при использовании последней сборки можно запрашивать поддержку у команды."
+msgstr "Используйте последнюю сборку только по просьбе команды поддержки."
 
 msgctxt "dlgQUpdateCheckLatestBuild.hdl"
 msgid "Do you want to download the latest build?"
@@ -599,7 +599,7 @@ msgstr "Скачать"
 
 msgctxt "dlgQUpdateCheckNewVersion.fur"
 msgid "It's recommended to update to the new version."
-msgstr "Рекоммендуем выполнить обновление."
+msgstr "Рекоммендуем выполнить обновление до новой версии."
 
 msgctxt "dlgQUpdateCheckNewVersion.hdl"
 msgid "A new version of SmartGit is available."
@@ -607,7 +607,7 @@ msgstr "Доступна новая версия SmartGit"
 
 msgctxt "dlgQUpdateCheckNewVersion.tle"
 msgid "Check for New Version"
-msgstr "Проверка новой версии"
+msgstr "Проверка наличия новой версии"
 
 msgctxt "dlgQUpdateCheckNoNewerLatestBuild.fur"
 msgid "You are already using the latest build."
@@ -639,7 +639,7 @@ msgstr "Исправить"
 
 msgctxt "dlgRewriteTextFiles.chk:"
 msgid "Enforce line-ending on end of file"
-msgstr "Добавлять пустую завершающую строку в конце файла"
+msgstr "Добавлять пустую завершающую строку в конец файла"
 
 msgctxt "dlgRewriteTextFiles.cmb:"
 msgid "Old Mac \\(CR \\\\r\\)"
@@ -655,15 +655,15 @@ msgstr "Windows \\(CR LF \\\\r\\\\n\\)"
 
 msgctxt "dlgRewriteTextFiles.edt:"
 msgid "Line-Endings"
-msgstr "Вид окончания строк"
+msgstr "Окончания строк"
 
 msgctxt "dlgRewriteTextFiles.hdl"
 msgid "Rewrite text files with selected line-endings"
-msgstr "Перезаписывает текстовый файл с указанными окончаниями строк"
+msgstr "Перезаписывает текстовые файлы с указанными разделителями строк"
 
 msgctxt "dlgRewriteTextFiles.inf"
 msgid "Select the line-endings that should be used to write the text files."
-msgstr "Выберите нужный вид окончаний строк, который должен быть использован в текстовом файле."
+msgstr "Выберите вид окончаний строк, который следует использовать при записи текстовых файлов."
 
 msgctxt "dlgRewriteTextFiles.tle"
 msgid "Fix Line-Endings"
@@ -767,19 +767,19 @@ msgstr "Команда"
 
 msgctxt "dlgScConflictSolver(Add|Edit).edt:"
 msgid "File Pattern"
-msgstr "Расширения"
+msgstr "Шаблон имени файла"
 
 msgctxt "dlgScConflictSolver(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.txt\\) and select the merge tool which should be used to resolve conflicting files matching this pattern."
-msgstr "Определите расширения файлов \\(например \\*.txt\\) и выберите команду объединения, которая должна вызываться для решения конфликтов объединения соответсвующих файлов."
+msgstr "Определите шаблон имени файла \\(например \\*.txt\\) и выберите инструмент объединения, который должен использоваться для решения конфликтов объединения соответствующих файлов."
 
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нужно использовать запятые.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нескольких шаблонов используйте запятую.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScConflictSolver(Add|Edit).lbl:"
 msgid "You must use the variables \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
-msgstr "Вы должны использовать переменные \\$\\{leftFile\\}, \\$\\{rightFile\\} and \\$\\{mergedFile\\}."
+msgstr "Вы должны использовать переменные \\$\\{leftFile\\}, \\$\\{rightFile\\} и \\$\\{mergedFile\\}."
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Base File"
@@ -791,27 +791,27 @@ msgstr "Кодировка"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Left File"
-msgstr "Левый файл"
+msgstr "Файл слева"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Left Title"
-msgstr "Название левого"
+msgstr "Имя левого"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Merged File"
-msgstr "Файл объединения"
+msgstr "Объединённый файл"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Merged Title"
-msgstr "Название объединенного"
+msgstr "Имя объединенного"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Right File"
-msgstr "Правый файл"
+msgstr "Файл справа"
 
 msgctxt "dlgScConflictSolver(Add|Edit).mni:"
 msgid "Right Title"
-msgstr "Название правого"
+msgstr "Имя правого"
 
 msgctxt "dlgScConflictSolver(Add|Edit).rbt:"
 msgid "Built-in Conflict Solver"
@@ -871,11 +871,11 @@ msgstr "Убрать"
 
 msgctxt "dlgScCustomizeToolBar.btn:"
 msgid "Reset to Default"
-msgstr "Сбросить на вариант по умолчанию"
+msgstr "Сбросить на настройки по умолчанию"
 
 msgctxt "dlgScCustomizeToolBar.chk:"
 msgid "Show text below icon"
-msgstr "Показывать тект под значком"
+msgstr "Показывать текст под значком"
 
 msgctxt "dlgScCustomizeToolBar.col:"
 msgid "Available"
@@ -911,7 +911,7 @@ msgstr "Убрать"
 
 msgctxt "dlgScCustomizeToolBar.tle"
 msgid "Configure Toolbar"
-msgstr "Настройка панели"
+msgstr "Настройка панели инструментов"
 
 msgctxt "dlgScDevOpsCredentials.btn:"
 msgid "Login"
@@ -1107,7 +1107,7 @@ msgstr "Базовый файл"
 
 msgctxt "dlgScFileComparatorAdd.mni:"
 msgid "Base Title"
-msgstr "Название базового"
+msgstr "Имя базового"
 
 msgctxt "dlgScFileComparatorAdd.tle"
 msgid "Add"
@@ -1127,7 +1127,7 @@ msgstr "Базовый файл"
 
 msgctxt "dlgScFileComparatorEdit.mni:"
 msgid "Base Title"
-msgstr "Название базового"
+msgstr "Имя базового"
 
 msgctxt "dlgScFileComparatorEdit.tle"
 msgid "Edit"
@@ -1143,15 +1143,15 @@ msgstr "Команда"
 
 msgctxt "dlgScFileComparator(Add|Edit).edt:"
 msgid "File Pattern"
-msgstr "Расширения"
+msgstr "Шаблон имени файла"
 
 msgctxt "dlgScFileComparator(Add|Edit).inf"
 msgid "Define the file pattern \\(e.g. \\*.png\\) and select the compare command which should be used to compare files matching the file pattern."
-msgstr "Определите расширения файлов \\(например \\*.png\\) и выберите команду, которая должна вызываться для сравнения соответсвующих файлов."
+msgstr "Определите шаблон имени файла \\(например \\*.png\\) и выберите команду, которая должна вызываться для сравнения соответствующих файлов."
 
 msgctxt "dlgScFileComparator(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нужно использовать запятые.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нескольких шаблонов используйте запятую.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "File"
@@ -1163,15 +1163,15 @@ msgstr "Кодировка левого"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Left File"
-msgstr "Левый файл"
+msgstr "Файл слева"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Left Local File"
-msgstr "Левый локальный файл"
+msgstr "Локальный файл слева"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Left Title"
-msgstr "Название левого"
+msgstr "Имя левого"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Right Encoding"
@@ -1179,15 +1179,15 @@ msgstr "Кодировка правого"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Right File"
-msgstr "Правый файл"
+msgstr "Файл справа"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Right Local File"
-msgstr "Правый локальный файл"
+msgstr "Локальный файл справа"
 
 msgctxt "dlgScFileComparator(Add|Edit).mni:"
 msgid "Right Title"
-msgstr "Название правого"
+msgstr "Имя правого"
 
 msgctxt "dlgScFileComparator(Add|Edit).rbt:"
 msgid "Built-in file compare"
@@ -1251,7 +1251,7 @@ msgstr ""
 
 msgctxt "dlgScFilePatternsEdit.edt:"
 msgid "File Pattern"
-msgstr "Расширения файлов"
+msgstr "Шаблон имени файла"
 
 msgctxt "dlgScFilePatternsEdit.hdl%1"
 msgid "Language: $1"
@@ -1259,15 +1259,15 @@ msgstr "Язык: $1"
 
 msgctxt "dlgScFilePatternsEdit.inf"
 msgid "File patterns are used to determine file language, which is used for syntax coloring."
-msgstr "Расширения файлов используются для определения языка файла, применяемого для синтаксической подсветки."
+msgstr "Шаблоны имен файлов используются для определения языка файла, применяемого для синтаксической подсветки."
 
 msgctxt "dlgScFilePatternsEdit.lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нужно использовать запятые.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нескольких шаблонов используйте запятую.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgScFilePatternsEdit.tle"
 msgid "File Patterns"
-msgstr "Расширения файлов"
+msgstr "Шаблоны имен файлов"
 
 msgctxt "dlgScFindAction.edt:"
 msgid "Action name"
@@ -1415,11 +1415,11 @@ msgstr "Изменение или сброс мастер-пароля"
 
 msgctxt "dlgScMasterPasswordChange.inf"
 msgid "To change the master password, enter the current one. To go without a master password, leave the new field blank."
-msgstr "Для изменения мастер-пароля, введите текущий. Для удаления мастер-пароля оставьте поле нового значения пустым."
+msgstr "Для изменения мастер-пароля, введите текущий. Для отказа от использования мастер-пароля оставьте поле нового значения пустым."
 
 msgctxt "dlgScMasterPasswordChange.lbl:"
 msgid "When setting a new master password, all stored passwords and passphrases will be lost and need to be re-entered when required!"
-msgstr "При установке нового мастер-пароля все сохраненные пароли и парольные фразы будут удалены, потребуется их ввести снова!"
+msgstr "При установке нового мастер-пароля все сохраненные пароли и парольные фразы будут удалены, и при необходимости придется их ввести заново!"
 
 msgctxt "dlgScMasterPasswordChange.rbt:"
 msgid "Change master password"
@@ -1627,7 +1627,7 @@ msgstr ""
 
 msgctxt "dlgScSetupLicense.btn:"
 msgid "Purchase"
-msgstr "Запросить"
+msgstr "Купить"
 
 msgctxt "dlgScSetupLicense.btn:"
 msgid "Register"
@@ -1635,7 +1635,7 @@ msgstr "Зарегистрировать"
 
 msgctxt "dlgScSetupLicense.edt:"
 msgid "License File"
-msgstr "Путь"
+msgstr "Путь к файлу лицензии"
 
 msgctxt "dlgScSetupLicense.edt:"
 msgid "License Server URL"
@@ -1647,7 +1647,7 @@ msgstr "Регистрация файла лицензии"
 
 msgctxt "dlgScSetupLicense.inf"
 msgid "Please provide your SmartGit license file you've received by email after purchase."
-msgstr "Укажите путь к файлу с лицензией, который вы получили на эл.почту после запроса."
+msgstr "Укажите путь к файлу с лицензией, который вы получили на эл.почту после покупки."
 
 msgctxt "dlgScSetupLicense.tle"
 msgid "SmartGit License"
@@ -1663,7 +1663,7 @@ msgstr ""
 
 msgctxt "dlgScSpellCheckDictionaryAdd.hdl"
 msgid "Add spell checker dictionary"
-msgstr "Добавление словаря проверки офорграфии"
+msgstr "Добавление словаря проверки орфографии"
 
 msgctxt "dlgScSpellCheckDictionaryAdd.tle"
 msgid "Add"
@@ -1671,7 +1671,7 @@ msgstr "Добавление"
 
 msgctxt "dlgScSpellCheckDictionaryEdit.hdl"
 msgid "Edit spell checker dictionary"
-msgstr "Изменение словаря проверки офорграфии"
+msgstr "Изменение словаря проверки орфографии"
 
 msgctxt "dlgScSpellCheckDictionaryEdit.tle"
 msgid "Edit"
@@ -1687,7 +1687,7 @@ msgstr "Имя"
 
 msgctxt "dlgScSpellCheckDictionary(Add|Edit).inf"
 msgid "Specify the MySpell dictionary file to use, e.g. \\*.dic from Mozilla Firefox' or Thunderbird's \"dictionary\" directory\\). The name is used when switching between different dictionaries."
-msgstr "Укажите путь к словарю формата MySpell, например, \\*.dic из каталога \"dictionary\" Mozilla Firefox или Thunderbird. Имя словаря используется при переключении между разными словарями."
+msgstr "Укажите путь к словарю формата MySpell \\(например, \\*.dic из каталога \"dictionary\" Mozilla Firefox или Thunderbird\\). Имя словаря используется при переключении между разными словарями."
 
 msgctxt "dlgScSslFingerprint.btn:"
 msgid "Accept"
@@ -1751,7 +1751,7 @@ msgstr "Поиск текста"
 
 msgctxt "dlgScTextFinderNothingFound.hdl"
 msgid "No \\(more\\) occurrences have been found."
-msgstr "Ничего не найдено"
+msgstr "Вхождений \\(больше\\) не обнаружено."
 
 msgctxt "dlgScTextFinderNothingFound.tle"
 msgid "Find Text"
@@ -1767,7 +1767,7 @@ msgstr "Переход к строке"
 
 msgctxt "dlgScTextMultiComponentSyntaxHighlightingSelection.tle"
 msgid "Select Syntax-Highlighting"
-msgstr "Выбор синтаксической раскраски"
+msgstr "Выбор подсветки синтаксиса"
 
 msgctxt "dlgScTextReplace.btn:"
 msgid "< Find"
@@ -1791,7 +1791,7 @@ msgstr "С учетом регистра"
 
 msgctxt "dlgScTextReplace.chk:"
 msgid "Regular Expression search"
-msgstr "Регулярное выражение"
+msgstr "Поиск регулярным выражением"
 
 msgctxt "dlgScTextReplace.chk:"
 msgid "Replace With:"
@@ -1811,7 +1811,7 @@ msgstr "Поиск"
 
 msgctxt "dlgScTextSettings.chk:"
 msgid "Coalesce nearby change blocks"
-msgstr "Объединять близлежащие блоки изменений"
+msgstr "Объединять ближащие блоки изменений"
 
 msgctxt "dlgScTextSettings.chk:"
 msgid "Split leading/trailing added or removed lines into separate blocks"
@@ -1819,15 +1819,15 @@ msgstr "Разделять начальные/концевые добавлен�
 
 msgctxt "dlgScTextSettings.chk:"
 msgid "Trim equal start/end of Inner-Line changes"
-msgstr "Обрезать одинаковые начала и концы строк"
+msgstr "Обрезать одинаковые начало/конец внутренних изменений строк"
 
 msgctxt "dlgScTextSettings.edt:"
 msgid "Inner-Line Comparison"
-msgstr "Сравнение строк"
+msgstr "Сравнение внутри строк"
 
 msgctxt "dlgScTextSettings.edt:"
 msgid "Show Whitespaces"
-msgstr "Показывать пробелы"
+msgstr "Показывать пробельные символы"
 
 msgctxt "dlgScTextSettings.edt:"
 msgid "Tab Size"
@@ -1867,7 +1867,7 @@ msgstr "С учетом синтаксиса \\(экспериментально
 
 msgctxt "dlgScTextSettings.rbt:"
 msgid "Trailing, in selection and changed blocks"
-msgstr "Концевые, в выбранном и изменном блоках"
+msgstr "Концевые, в выделенных и изменных блоках"
 
 msgctxt "dlgScTextSettings.tab:"
 msgid "Compare"
@@ -1995,7 +1995,7 @@ msgstr "Прервать объединение"
 
 msgctxt "dlgSgAbortMergingConfirm.fur"
 msgid "Your working tree is in 'merging' state. You may abort it to get out of this state and freshly start over with the merge afterwards.\\n\\nAborting will try to reconstruct the pre-merge state \\(by invoking 'git merge --abort'\\)!"
-msgstr "Рабочий каталог находится в состоянии объединения. Вы можете прервать операцию, вернув к начальному состоянию."
+msgstr "Рабочий каталог находится в состоянии 'объединения'. Вы можете прервать операцию, чтобы выйти из этого состояния и после этого начать снова. \\n\\nПри отмене будет предпринята попытка восстановить состояние до слияния \\(путем вызова 'git merge --abort'\\)."
 
 msgctxt "dlgSgAbortMergingConfirm.hdl"
 msgid "Do you want to abort the current merge?"
@@ -2011,7 +2011,7 @@ msgstr "Прервать перемещение"
 
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
-msgstr "Рабочий каталог находится в состоянии перемещения. Вы можете прервать операцию, вернув к начальному состоянию."
+msgstr "Рабочий каталог находится в состоянии 'перемещения'. Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \(путем вызова 'git rebase --abort'\\)!"
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
 msgid "Do you want to abort the rebasing?"
@@ -2035,7 +2035,7 @@ msgstr "Рабочий каталог находится в состоянии '
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
 msgid "Do you want to abort the current revert?"
-msgstr "Вы хотите прервать откат изменений?"
+msgstr "Вы хотите прервать текущий откат изменений?"
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
 msgid "Do you want to reset your working tree?"
@@ -2071,7 +2071,7 @@ msgstr "Эл.адрес"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Free Updates Until"
-msgstr "Бесплатное обновление до"
+msgstr "Бесплатные обновления до"
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Java Version"
@@ -2107,7 +2107,7 @@ msgstr "Версия"
 
 msgctxt "dlgSgAbout.tab:"
 msgid "Credits"
-msgstr "Описание"
+msgstr "Авторы"
 
 msgctxt "dlgSgAbout.tab:"
 msgid "Information"
@@ -2115,7 +2115,7 @@ msgstr "Информация"
 
 msgctxt "dlgSgAbout.tab:"
 msgid "Licensee"
-msgstr "Лицензия"
+msgstr "Лицензиат"
 
 msgctxt "dlgSgAbout.tle"
 msgid "About SmartGit"
@@ -2155,11 +2155,11 @@ msgstr "Вам придется заново ввести все данные д
 
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.hdl"
 msgid "Do you want to remove all known credentials?"
-msgstr "Вы хоттите удалить все известные учетные записи?"
+msgstr "Вы хотите удалить все известные учетные записи?"
 
 msgctxt "dlgSgAuthenticationRemoveAllCredentials.tle"
 msgid "Remove All"
-msgstr "Удаление всех"
+msgstr "Удаление всех учетных записей"
 
 msgctxt "dlgSgAuthenticationShowPassword.edt:"
 msgid "Password"
@@ -2291,15 +2291,15 @@ msgstr ""
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "Choose a different branch, the current branch can't be used."
-msgstr "Выберите другое имя, это уже занято."
+msgstr "Выберите другую ветку, текущую ветку использовать нельзя."
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "Enter the name of the local branch."
-msgstr "Введите имя для создания локальной ветки."
+msgstr "Введите имя локальной ветки."
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "The name must not end with a slash or dot."
-msgstr "Имя не может заканчиваться на слеш или точку."
+msgstr "Имя не может заканчиваться на слэш или точку."
 
 msgctxt "dlgSgBranchAddCheckout.err:"
 msgid "This branch already exists at this commit."
@@ -2379,11 +2379,11 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
-msgstr "Вы можете потерять неотправленные изменения, восстановить ветку\\(и\\) будет непросто!"
+msgstr "Вы можете потерять неотправленные изменения, восстановить ветку\\(и\\) будет затруднительно!"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
-msgstr "Вы хотите удалить $1 локальные ветки\\(ок\\)?"
+msgstr "Вы хотите удалить $1 локальные ветки?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
 msgid "Do you want to delete $1 local branches?"
@@ -2415,11 +2415,11 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
-msgstr "Вы можете потерять неотправленные изменения, восстановить ветку\\(и\\) будет непросто!"
+msgstr "Вы можете потерять неотправленные изменения и восстановить ветку\\(и\\) будет затруднительно!"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
-msgstr "Локальная ветка отслеживает '$1'. Решите, нужно ли удалять отслеживаемую ветку во внешнем репозитории."
+msgstr "Локальная ветка отслеживает '$1'. Решите, хотите ли также удалить отслеживаемую ветку во внешнем репозитории."
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
@@ -2459,7 +2459,7 @@ msgstr "Удалить во внешнем репозитории '$1'"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
-msgstr "Если не удалить ветку во внешнем репозитории, то она вернется при следующем получении обновлений."
+msgstr "Если не удалить ветку во внешнем репозитории, то она может вернуться при следующем получении обновлений."
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
@@ -2483,11 +2483,11 @@ msgstr "Прекратить отслеживание"
 
 msgctxt "dlgSgBranchTrackingResetConfirm.fur"
 msgid "The necessary configuration will be performed in the .git/config file."
-msgstr "Изменение будет зафиксировано в файле .git/config."
+msgstr "Необходимая конфигурация будет зафиксирована в файле .git/config."
 
 msgctxt "dlgSgBranchTrackingResetConfirm.hdl%2"
 msgid "Should branch '$1' stop tracking '$2'?"
-msgstr "Прекратить отслеживание веткой '$1' изменений в '$2'?"
+msgstr "Прекратить отслеживание веткой '$1' ветки '$2'?"
 
 msgctxt "dlgSgBranchTrackingResetConfirm.tle"
 msgid "Stop Tracking"
@@ -2575,7 +2575,7 @@ msgstr "Только переключиться"
 
 msgctxt "dlgSgCheckoutFastForwardMerge.fur"
 msgid "Fast-forward-merging automatically moves the branch forward to the tracked remote branch."
-msgstr "Быстрое слияние автоматически перемещает ветку вверх к отслеживаемой внешней ветке."
+msgstr "Быстрое слияние автоматически перемещает ветку вперед к отслеживаемой внешней ветке."
 
 msgctxt "dlgSgCheckoutFastForwardMerge.hdl%1"
 msgid "Do you want to fast-forward-merge remote changes after checking out '$1'?"
@@ -2639,7 +2639,7 @@ msgstr "Создает локальную ветку для выбранного
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Checkout and fast-forward local branch '$1'"
-msgstr "Переключиться и быстро обновить локальную ветку '$1'"
+msgstr "Переключиться и обновить с перемоткой вперед локальную ветку '$1'"
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Checkout local branch '$1'"
@@ -2651,7 +2651,7 @@ msgstr "Создать локальную ветку:"
 
 msgctxt "dlgSgCheckoutTarget.rbt:"
 msgid "Don't create local branch \\(just work read-only\\)"
-msgstr "Не создавать локальную ветку \\(режим только просмотра\\)"
+msgstr "Не создавать локальную ветку \\(только для чтения\\)"
 
 msgctxt "dlgSgCheckoutTarget.tle"
 msgid "Check Out"
@@ -2659,7 +2659,7 @@ msgstr "Переключение"
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Be careful when checking out a commit instead of a local branch: commits on top of a commit can get lost easily."
-msgstr "Будьте осторожны переключаясь без создания ветки: изменения могут легко потеряться."
+msgstr "Будьте осторожны переключаясь на коммит без создания ветки: внесенные изменения могут легко потеряться."
 
 msgctxt "dlgSgCheckoutTarget.wrn:"
 msgid "Local and remote branch are diverged. The checkout will end up at a different commit."
@@ -2719,11 +2719,11 @@ msgstr "Забрать и зафиксировать"
 
 msgctxt "dlgSgCherryPickConfirmation.btn:"
 msgid "Cherry-Pick"
-msgstr "Только забрать"
+msgstr "Забрать \\(cherry-pick\\)"
 
 msgctxt "dlgSgCherryPickConfirmation.chk"
 msgid "Append source commit ID to commit message"
-msgstr "Добавить идентификатор коммита к сообщению коммита"
+msgstr "Добавить идентификатор исходного коммита к сообщению коммита"
 
 msgctxt "dlgSgCherryPickConfirmation.fur"
 msgid "This will cherry-pick the selected commit into the Working Tree."
@@ -2735,7 +2735,7 @@ msgstr "Вы хотите забрать этот коммит?"
 
 msgctxt "dlgSgCherryPickConfirmation.tle"
 msgid "Cherry-Pick"
-msgstr "Забор коммита"
+msgstr "Cherry-pick"
 
 msgctxt "dlgSgCherryPickFailedBecauseOfConflicts.chk"
 msgid "Don't show again"
@@ -2787,7 +2787,7 @@ msgstr ""
 
 msgctxt "dlgSgClean.hdl"
 msgid "Delete unversioned files"
-msgstr "Удаление файлов непроиндексированных файлов"
+msgstr "Удаление непроиндексированных файлов"
 
 msgctxt "dlgSgClean.inf"
 msgid "Select which unversioned files should be deleted."
@@ -2827,7 +2827,7 @@ msgstr "Git предоставил следующий список файлов 
 
 msgctxt "dlgSgCleanDeleteFiles.hdl"
 msgid "Do you want to delete these files?"
-msgstr "Удалить выбранные файлы?"
+msgstr "Удалить эти файлы?"
 
 msgctxt "dlgSgCleanDeleteFiles.tle"
 msgid "Clean Working Tree"
@@ -2859,7 +2859,7 @@ msgstr "Получить все ветки и метки"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Fetch all commits"
-msgstr "Получать все коммиты"
+msgstr "Получить все коммиты"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Include Submodules"
@@ -2903,7 +2903,7 @@ msgstr ""
 
 msgctxt "dlgSgClone.edt:"
 msgid "Omit files larger than"
-msgstr "Пропускать файлы более чем"
+msgstr "Не загружать файлы размером более"
 
 msgctxt "dlgSgClone.edt:"
 msgid "Parent Directory"
@@ -2923,7 +2923,7 @@ msgstr ""
 
 msgctxt "dlgSgClone.err:"
 msgid "Please specify the URL of the remote repository or the path of the local repository that should be cloned."
-msgstr "Укажите адрес внешнего репозитория или путь к локальному репозиторию для клонирования."
+msgstr "Укажите URL внешнего репозитория или путь к локальному репозиторию для клонирования."
 
 msgctxt "dlgSgClone.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
@@ -2975,11 +2975,11 @@ msgstr "Укажите репозиторий для клонирования."
 
 msgctxt "dlgSgClone.inf:"
 msgid "Specify the repository to clone.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
-msgstr "Укажите репозиторий для клонирования.\\nДля использования нескольких учетных записей, воспользуйтесь настройками."
+msgstr "Укажите репозиторий для клонирования.\\nДля использования нескольких учетных записей того же хостинг-провайдера, воспользуйтесь настройками."
 
 msgctxt "dlgSgClone.lbl:"
 msgid "Note: Pull or Fetch will not bring other refs, you will need to use Fetch More."
-msgstr "Внимание: не будут получены все имеющиеся ветки, для остальных нужно воспользоваться меню Забрать другие"
+msgstr "Примечание: не будут получены все имеющиеся сслыки, нужно воспользоваться функцией Забрать другие."
 
 msgctxt "dlgSgClone.lbl:"
 msgid "Please wait ..."
@@ -2990,8 +2990,8 @@ msgid "Steps"
 msgstr "Шаги"
 
 msgctxt "dlgSgClone.lbl:"
-msgid "например https://user@server:port/path/to/repository"
-msgstr ""
+msgid "e.g. https://user@server:port/path/to/repository"
+msgstr "например https://user@server:port/path/to/repository"
 
 msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
@@ -3123,7 +3123,7 @@ msgstr ""
 
 msgctxt "dlgSgCommit.chk:"
 msgid "Add 'Signed-off-by' signature"
-msgstr "Подписать"
+msgstr "Добавить подпись 'Signed-off-by'"
 
 msgctxt "dlgSgCommit.chk:"
 msgid "Amend last commit instead of creating new one"
@@ -3139,7 +3139,7 @@ msgstr "Обойти хуки коммита"
 
 msgctxt "dlgSgCommit.chk:"
 msgid "More Options"
-msgstr "Еще параметры"
+msgstr "Дополнительные параметры"
 
 msgctxt "dlgSgCommit.col:"
 msgid "Directory"
@@ -3171,7 +3171,7 @@ msgstr "Фиксация локальных или проиндексирова�
 
 msgctxt "dlgSgCommit.inf"
 msgid "Select the files you want to commit and provide a commit message."
-msgstr "Выберите файлы для фиксации изменений и введите текст сообщения коммита."
+msgstr "Выберите файлы, которые хотите зафиксировать и введите текст сообщения коммита."
 
 msgctxt "dlgSgCommit.mni:"
 msgid "Deselect All"
@@ -3235,7 +3235,7 @@ msgstr "Изменить"
 
 msgctxt "dlgSgCommitAmendAlreadyPushedCommit.fur"
 msgid "If you amend a pushed commit, you will need to force-push it later. This might overwrite other users' changes."
-msgstr "Если изменить отправленный коммит, то необходимо будет воспользоваться принудительной отправкой изменений. Это действие перезапишет изменения, внесенные другими пользователями."
+msgstr "Если изменить отправленный коммит, то необходимо будет воспользоваться принудительной отправкой изменений. Это действие может перезаписать изменения, внесенные другими пользователями."
 
 msgctxt "dlgSgCommitAmendAlreadyPushedCommit.hdl"
 msgid "Do you want to amend an already pushed commit?"
@@ -3311,7 +3311,7 @@ msgstr "Включить неотслеживаемые файлы"
 
 msgctxt "dlgSgCommitIndexAllWorkingTreeChanges.fur"
 msgid "No file is staged yet. To commit all \\(visible\\) working tree changes, click Commit All. To stage individual changes, click Cancel."
-msgstr "Нет проиндексированных файлов. Для фиксации всех \\(видимых\\) изменений в рабочем каталоге нажмите Зафиксировать все. Если хотите выбрать нужные, нажмите Отмена."
+msgstr "Нет проиндексированных файлов. Для фиксации всех \\(видимых\\) изменений в рабочем каталоге нажмите Зафиксировать все. Если хотите проиндексировать отдельные, нажмите Отмена."
 
 msgctxt "dlgSgCommitIndexAllWorkingTreeChanges.hdl"
 msgid "Do you want to commit all \\(visible\\) working tree changes?"
@@ -3339,15 +3339,15 @@ msgstr "Зафиксировать как есть"
 
 msgctxt "dlgSgCommitMessageContainsComments.btn:"
 msgid "Strip Comments"
-msgstr "Удалиить комментарии"
+msgstr "Удалить комментарии"
 
 msgctxt "dlgSgCommitMessageContainsComments.fur"
 msgid "The commit message contains lines starting with # which Git would treat as comment \\(and thus strip from the message\\).\\n\\nFor advanced comment-handling you may consider to use Git's config option 'core.commentChar'.\\n\\nIf you always want to keep or strip comment lines, you can configure this in the Preferences."
-msgstr "Сообщение коммита содержит строки, начинающиеся с #, что воспринимается git как комментарии \\(они удаляются из итогового сообщения\\).\\n\\nМожно изменить настройку git 'core.commentChar', чтобы другой символ воспринимался как комментарий.\\n\\nЕсли необходимо изменить поведение для всех случаев, то перейдите в параметры SmartGit."
+msgstr "Сообщение коммита содержит строки, начинающиеся с #, что воспринимается git как комментарии \\(они удаляются из итогового сообщения\\).\\n\\nМожно изменить настройку git 'core.commentChar', чтобы другой символ воспринимался как комментарий.\\n\\nЕсли хотите всегда сохранять или удалять строки комментариев, то можете настроить в меню Параметры."
 
 msgctxt "dlgSgCommitMessageContainsComments.hdl"
 msgid "Should comment lines be committed as-is?"
-msgstr "Зафиксировать сообщение коммита как есть?"
+msgstr "Должны ли строки комментариев сохраняться как есть?"
 
 msgctxt "dlgSgCommitMessageContainsComments.tle"
 msgid "Commit"
@@ -3387,7 +3387,7 @@ msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.inf"
 msgid "Choose the commit whose message should be used."
-msgstr "Будет использовано сообщение выбранного коммита"
+msgstr "Выберите коммит, сообщение которого будет использовано."
 
 msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Author"
@@ -3475,11 +3475,11 @@ msgstr "Зафиксировать сейчас"
 
 msgctxt "dlgSgCommitToDetachedHead.fur"
 msgid "The repository HEAD currently does not point to a branch, but directly refers to a commit \\(SHA\\). When committing, the newly created commit will only be reachable by its SHA and hence may get lost easily.\\n\\nInstead of committing now, you should first create a branch for your current HEAD and commit afterwards."
-msgstr "HEAD репозитория в настоящий момент не указывает на ветку, а ссылается на коммит \\(SHA\\). При фиксации изменений созданный коммит будет доступен только по SHA и может быть потерян.\\n\\nСледует сейчас вместо фиксации изменений создать ветку, а только потом выполнить фиксацию."
+msgstr "HEAD репозитория в настоящий момент не указывает на ветку, а ссылается на коммит \\(SHA\\). При фиксации изменений созданный коммит будет доступен только по SHA и может быть потерян.\\n\\nВместо фиксации изменений, следует создать ветку, а только потом выполнить фиксацию."
 
 msgctxt "dlgSgCommitToDetachedHead.hdl"
 msgid "Do you want to commit to a detached HEAD?"
-msgstr "Зафиксировать в отдельный HEAD?"
+msgstr "Хотите зафиксировать отдельный HEAD?"
 
 msgctxt "dlgSgCommitToDetachedHead.tle"
 msgid "Commit"
@@ -3543,7 +3543,7 @@ msgstr "Пометить решенным"
 
 msgctxt "dlgSgConflictSolverMarkResolved.fur"
 msgid "To complete a conflict resolution, the file needs to be marked as resolved \\(git stage\\). Until marked as resolved, the file remains in conflicted state and you can try other conflict resolutions."
-msgstr "Для завершения, файл должен быть помечен как решенный \\(проиндексирован\\). Пока файл не будет помечен как решенный, он останется в конфликтном состоянии, а вы смоеже попробовать другие способы решения конфликта."
+msgstr "Для завершения, файл должен быть помечен как решенный \\(проиндексирован\\). Пока файл не будет помечен как решенный, он останется в конфликтном состоянии, а вы сможете попробовать другие способы решения конфликта."
 
 msgctxt "dlgSgConflictSolverMarkResolved.hdl"
 msgid "Do you want to mark the file as resolved?"
@@ -3667,7 +3667,7 @@ msgstr ""
 
 msgctxt "dlgSgDiscard.btn:"
 msgid "Discard to Stash"
-msgstr "Отменить спрятав"
+msgstr "Отменить изменения и спрятать"
 
 msgctxt "dlgSgDiscard.btn:"
 msgid "Discard"
@@ -3683,7 +3683,7 @@ msgstr "Имя"
 
 msgctxt "dlgSgDiscard.edt:"
 msgid "Revert to"
-msgstr "Обратить в"
+msgstr "Вернуться к"
 
 msgctxt "dlgSgDiscard.hdl"
 msgid "Discard local or staged changes"
@@ -3691,7 +3691,7 @@ msgstr "Отмена локальных или индексированных и
 
 msgctxt "dlgSgDiscard.inf"
 msgid "Select the files for which changes should be discarded and whether to set them back to Index or HEAD state."
-msgstr "Выберите файлы, изменения которых нужно отменить, а также, стоит ли вернуть в индекс или сбросить совсем."
+msgstr "Выберите файлы, изменения которых нужно отменить, а также укажите, стоит ли вернуть их к состоянию индекса или HEAD."
 
 msgctxt "dlgSgDiscard.mni:"
 msgid "Copy Selection in Column"
@@ -3735,7 +3735,7 @@ msgstr "Отмена изменений"
 
 msgctxt "dlgSgDiscardNoFilesFound.fur"
 msgid "Neither staged files nor locally changed files were found."
-msgstr "Нет локальных изменений, которые можно было бы отменить"
+msgstr "Нет не локальных, ни проиндексированных изменений, которые можно было бы отменить"
 
 msgctxt "dlgSgDiscardNoFilesFound.hdl"
 msgid "There is nothing to discard."
@@ -3859,11 +3859,11 @@ msgstr "Не показывать снова"
 
 msgctxt "dlgSgFileCompareNoChanges.fur"
 msgid "Both file contents are byte-wise equal.\\nTo see the file contents anyway, click 'Open'."
-msgstr "Оба варианта файла одинаковы на бинарном уровне. \\nЕсли очень хотите открыть, нажмите 'Открыть'."
+msgstr "Оба варианта файла одинаковы на бинарном уровне. \\Чтобы все равно просмотреть содержимое файла, нажмите 'Открыть'."
 
 msgctxt "dlgSgFileCompareNoChanges.hdl"
 msgid "Open the file compare though no changes will be shown?"
-msgstr "Открыть сравнение файла, в котором не будет видно отличий?"
+msgstr "Открыть сравнение файла без отображения отличий?"
 
 msgctxt "dlgSgFileCompareNoChanges.tle"
 msgid "File Compare"
@@ -3927,7 +3927,7 @@ msgstr ""
 
 msgctxt "dlgSgFlowConfigure.btn:"
 msgid "Reset to Defaults"
-msgstr "Сбросить на параметры по умолчанию"
+msgstr "Сбросить на значения по умолчанию"
 
 msgctxt "dlgSgFlowConfigure.edt:"
 msgid "Develop Branch"
@@ -4007,7 +4007,7 @@ msgstr "Отключить"
 
 msgctxt "dlgSgFlowConfigureChangeOrSwitchOff.fur"
 msgid "Git-Flow is already configured for this repository. You may change the Git-Flow configuration or switch-off the Git-Flow features. In both cases, the file ~/.git/config will be modified accordingly."
-msgstr "Git-Flow настроен в репозитории. Вы можете изменить настройки или отключить. В любом случае, файл ~/.git/config будет изменен."
+msgstr "Git-Flow настроен в репозитории. Вы можете изменить настройки или отключить функции Git-Flow. В любом случае, файл ~/.git/config будет изменен."
 
 msgctxt "dlgSgFlowConfigureChangeOrSwitchOff.hdl"
 msgid "Do you want to change or switch-off the Git-Flow configuration?"
@@ -4095,7 +4095,7 @@ msgstr "Такое имя уже существует. Выберите друг
 
 msgctxt "dlgSgFlowFeatureStart.err:"
 msgid "Invalid feature name: The name must not end with a slash or dot."
-msgstr "Ошибка: имя не может заканчиваться слешем или точкой."
+msgstr "Ошибка: имя не может заканчиваться слэшем или точкой."
 
 msgctxt "dlgSgFlowFeatureStart.hdl"
 msgid "Start a new feature"
@@ -4103,11 +4103,11 @@ msgstr "Начало работы над новой задачей"
 
 msgctxt "dlgSgFlowFeatureStart.inf%1"
 msgid "Enter the name of the new feature branch. This operation will fork a new branch from the '$1' branch."
-msgstr "Введите имя новой задачи. В результате будет создано ответвление новой ветки от ветки '$1'"
+msgstr "Введите имя новой ветки задачи. В результате будет создана новая ветка из ветки '$1'"
 
 msgctxt "dlgSgFlowFeatureStart.lbl:"
 msgid "Resulting Branch: $1"
-msgstr "Итоговое имя: $1"
+msgstr "Итоговое имя ветки: $1"
 
 msgctxt "dlgSgFlowFeatureStart.tle"
 msgid "Start Feature"
@@ -4163,11 +4163,11 @@ msgstr "Завершение работы над текущим хотфиксо
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."
-msgstr "Выберите как завершить текущий хотфикс. После завершения, изменения попадут в ветки '$1' и '$2'."
+msgstr "Выберите, как завершить текущий хотфикс. После завершения, изменения попадут в ветки '$1' и '$2'."
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix."
-msgstr "Выберите как завершить текущий хотфикс."
+msgstr "Выберите, как завершить текущий хотфикс."
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches."
@@ -4207,11 +4207,11 @@ msgstr "Создание нового хотфикса"
 
 msgctxt "dlgSgFlowHotfixStart.inf%1"
 msgid "Enter the name of the new hotfix branch. This operation will fork a new branch from the '$1' branch."
-msgstr "Введите имя нового хотфикса. В результате будет создано ответвление новой ветки от ветки '$1'"
+msgstr "Введите имя новой ветки хотфикса. В результате будет создана новая ветка из ветки '$1'"
 
 msgctxt "dlgSgFlowHotfixStart.lbl:"
 msgid "Resulting Branch: $1"
-msgstr "Итоговое имя: $1"
+msgstr "Итоговое имя ветки: $1"
 
 msgctxt "dlgSgFlowHotfixStart.tle"
 msgid "Start Hotfix"
@@ -4243,7 +4243,7 @@ msgstr ""
 
 msgctxt "dlgSgFlowIntegrateDevelop.rbt:"
 msgid "Merge from '$1'"
-msgstr "Объедить с '$1'"
+msgstr "Объединить с '$1'"
 
 msgctxt "dlgSgFlowIntegrateDevelop.rbt:"
 msgid "Rebase current feature onto '$1'"
@@ -4339,11 +4339,11 @@ msgstr "Начать выпуск нового релиза"
 
 msgctxt "dlgSgFlowReleaseStart.inf%1"
 msgid "Enter the name of the new release branch. This operation will fork a new branch from the '$1' branch."
-msgstr "Введите имя нового релиза. В результате будет создано ответвление новой ветки от ветки '$1'"
+msgstr "Введите имя новой ветки релиза. В результате будет создано ответвление новой ветки от ветки '$1'"
 
 msgctxt "dlgSgFlowReleaseStart.lbl:"
 msgid "Resulting Branch: $1"
-msgstr "Итоговое имя: $1"
+msgstr "Итоговое имя ветки: $1"
 
 msgctxt "dlgSgFlowReleaseStart.tle"
 msgid "Start Release"
@@ -4375,11 +4375,11 @@ msgstr "Создание новой сервисной ветки"
 
 msgctxt "dlgSgFlowSupportStart.inf%1"
 msgid "Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch."
-msgstr "Введите имя новой сервисной ветки. В результате будет создано ответвление новой ветки от ветки '$1'"
+msgstr "Введите имя новой сервисной ветки. В результате будет создана новая ветка из ветки '$1'"
 
 msgctxt "dlgSgFlowSupportStart.lbl:"
 msgid "Resulting Branch: $1"
-msgstr "Итоговое имя: $1"
+msgstr "Итоговое имя ветки: $1"
 
 msgctxt "dlgSgFlowSupportStart.tle"
 msgid "Start Support"
@@ -4391,15 +4391,15 @@ msgstr "Запустить"
 
 msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Also prune recently created objects"
-msgstr "Только удалить старые объекты"
+msgstr "Удалить только недавно созданные объекты"
 
 msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Expire reflog now \\(will also delete stashes!\\)"
-msgstr "Сбросить reflog \\(будут удалены спрятанные!\\)"
+msgstr "Сбросить reflog \\(также будут удалены спрятанные!\\)"
 
 msgctxt "dlgSgGarbageCollector.chk:"
 msgid "Optimize repository more aggressively \\(may take a while\\)"
-msgstr "Жесткая оптимизация \\(если возможно\\)"
+msgstr "Агрессивная оптимизация репозитория \\(может занять длительное время\\)"
 
 msgctxt "dlgSgGarbageCollector.hdl"
 msgid "Run Garbage Collector"
@@ -4407,7 +4407,7 @@ msgstr "Запуск сборщика мусора"
 
 msgctxt "dlgSgGarbageCollector.inf"
 msgid "Running the Git garbage collector will prune unreachable objects and optimize the local repository in order to reduce disk space and increase performance."
-msgstr "Выполнение сборщика мусора git удаляет устаревшие объекты и оптимизирует хранение файлов в локальном репозитории для снижения занимаемого места и повышения производительности."
+msgstr "Выполнение сборщика мусора git удаляет устаревшие объекты и оптимизирует локальный репозиторий для снижения занимаемого места и повышения производительности."
 
 msgctxt "dlgSgGarbageCollector.tle"
 msgid "Run Garbage Collector"
@@ -4631,19 +4631,19 @@ msgstr "Не заменять"
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.btn:"
 msgid "Replace This Time"
-msgstr "Заменить сейчас"
+msgstr "Заменить в этот раз"
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.chk"
 msgid "Never replace if a message is already entered"
-msgstr "Никогда не заменять, если сообщение уже введено"
+msgstr "Никогда не заменяйте сообщение, если оно уже введено"
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.fur"
 msgid "If the commit message input field is empty, the HEAD commit's message will be re-used automatically."
-msgstr "Если поле ввода сообщения коммита пусто, то сообщение последнего коммита будет использовано повторно."
+msgstr "Если поле ввода сообщения коммита пусто, то сообщение коммита HEAD будет использовано повторно."
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.hdl"
 msgid "Replace entered commit message with the HEAD commit's message?"
-msgstr "Заменить введенное сообщение последнего коммита?"
+msgstr "Заменить введенное сообщение сообщением HEAD коммита?"
 
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.tle"
 msgid "Commit"
@@ -4655,7 +4655,7 @@ msgstr ""
 
 msgctxt "dlgSgHistoryCommitCantBeModified.hdl"
 msgid "At least one selected commit can't be modified."
-msgstr "Выбранный коммит не может быть изменен."
+msgstr "По крайней мере один из выбранных коммитов не может быть изменен."
 
 msgctxt "dlgSgHistoryCommitCantBeModified.tle"
 msgid "Modify Commit"
@@ -4775,11 +4775,11 @@ msgstr "Не показывать снова"
 
 msgctxt "dlgSgHistoryModifyConfirm.fur"
 msgid "This allows you to step by step walk from the selected commit to HEAD and modify them by amend-committing."
-msgstr "Вы можете шаг за шагом переходить от выбранного коммита к HEAD и вносить изменения."
+msgstr "Вы можете последовательно переходить от выбранного коммита к HEAD, внося изменения."
 
 msgctxt "dlgSgHistoryModifyConfirm.hdl"
 msgid "Do you want to modify the commits?"
-msgstr "Вы хотите изменить коммит?"
+msgstr "Вы хотите изменить коммиты?"
 
 msgctxt "dlgSgHistoryModifyConfirm.tle"
 msgid "Modify Commit"
@@ -4839,15 +4839,15 @@ msgstr "Отправка изменений"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.btn:"
 msgid "Modify Pushed Commits"
-msgstr "Изменить отправленный коммит"
+msgstr "Изменить отправленные коммиты"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.fur"
 msgid "Commits which are already pushed are known to other users and may have been used by them to build theirs commits upon. When modifying such commits, these users may run into unexpected conflicts later."
-msgstr "Коммит уже отправлен и другие пользователи уже могли воспользоваться его изменениями. При изменении коммита с последующей отправкой у них могут возникнуть проблемы."
+msgstr "Коммиты уже отправлены и другие пользователи уже могли воспользоваться их изменениями. При изменении коммитов с последующей отправкой, такие пользователи могут столкнуться с неожиданными конфликтами."
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
-msgstr "Вы хотите изменить отправленный коммит?"
+msgstr "Вы хотите изменить ранее отправленные коммиты?"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Message"
@@ -4959,7 +4959,7 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.chk:"
 msgid "Use SSH instead of HTTPS to access repositories"
-msgstr "Использовать SSH вместо HTTSP для соединения с репозиториями"
+msgstr "Использовать SSH вместо HTTPS для доступа в репозиториям"
 
 msgctxt "dlgSgHostingProviderAdd.chk:"
 msgid "Use SSL client certificates \\(usually not required\\)"
@@ -5023,7 +5023,7 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl"
 msgid "Add GitHub account"
-msgstr "Добавить аккаут"
+msgstr "Добавить учетную запись GitHub"
 
 msgctxt "dlgSgHostingProviderAdd.hdl"
 msgid "Configure a new hosting provider account"
@@ -5035,7 +5035,7 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf"
 msgid "Set or select the options according to your account."
-msgstr "Установите или выберите настройки своего аккаунта"
+msgstr "Установите или выберите параметры своего аккаунта"
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
@@ -5067,7 +5067,7 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitHub account settings."
-msgstr "Токен может быть как сгенерированным автоматически OAuth-токеном \\(используйте 'Generate Token'\\), так и 'персональным токеном доступа', который вы можете сгенерировать в своем аккауте GitHub"
+msgstr "Токен может быть как сгенерированным автоматически OAuth-токеном \\(используйте 'Сгенерировать токен' ниже\\), так и 'персональным токеном доступа', который вы можете сгенерировать в своем аккаунте GitHub."
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "The token may either be an autogenerated OAuth-token \\(use 'Generate Token' below\\) or a 'personal access token' which you can generate yourself in your GitLab account settings."
@@ -5407,7 +5407,7 @@ msgstr "Изменить"
 
 msgctxt "dlgSgIgnoreEdit.hdl"
 msgid "Edit Git ignore file"
-msgstr "Редактирование файла игнорирования git"
+msgstr "Редактирование файла игнора git"
 
 msgctxt "dlgSgIgnoreEdit.inf"
 msgid "Select the Git ignore file to edit."
@@ -5435,7 +5435,7 @@ msgstr "Удалить и игнорировать"
 
 msgctxt "dlgSgIgnoreFile.cmb:"
 msgid ".git/info/exclude \\(only for this repository\\)"
-msgstr ".git/info/exclude \\(только в локальном репозитории\\)"
+msgstr ".git/info/exclude \\(только в этом репозитории\\)"
 
 msgctxt "dlgSgIgnoreFile.cmb:"
 msgid ".gitignore in parent directory"
@@ -5447,7 +5447,7 @@ msgstr ".gitignore в корне репозитория"
 
 msgctxt "dlgSgIgnoreFile.edt:"
 msgid "Ignore File"
-msgstr "Файл игноров"
+msgstr "Файл игнорирования"
 
 msgctxt "dlgSgIgnoreFile.err:"
 msgid "The pattern must match all selected file names. For instance, '$1' is not matched."
@@ -5455,23 +5455,23 @@ msgstr ""
 
 msgctxt "dlgSgIgnoreFile.hdl"
 msgid "Mark files to be ignored"
-msgstr "Пометка файлов для игнорирования изменений"
+msgstr "Пометка файлов для игнорирования"
 
 msgctxt "dlgSgIgnoreFile.inf"
 msgid "Choose whether to ignore only the selected file or all files matching the specified pattern. Tracked files will be removed \\(stopped from tracking\\)."
-msgstr "Выберите, игнорировать только этот файл или все файлы, соответствующие шаблону. Отслеживаемые файлы будут удалены \\(отслеживание прекратится\\)."
+msgstr "Выберите, нужно игнорировать только этот файл или все файлы, соответствующие указанному шаблону. Отслеживаемые файлы будут удалены \\(отслеживание прекратится\\)."
 
 msgctxt "dlgSgIgnoreFile.lbl:"
 msgid "Use ? to match a single or \\* to match multiple arbitrary characters. The pattern will be saved in the .gitignore file of the same directory."
-msgstr "Используйте в шаблоне ? для любого одного символа или \\* для последовательности любых символов. Этот шаблон будет сохранен в файле .gitignore."
+msgstr "Используйте в шаблоне ? для сопоставления любого одного символа или \\* для сопоставления последовательности любых символов. Этот шаблон будет сохранен в файле .gitignore в том же каталоге."
 
 msgctxt "dlgSgIgnoreFile.rbt:"
 msgid "Ignore as pattern \\(e.g. '\\*.obj'\\):"
-msgstr "Игнорировать по шаблону"
+msgstr "Игнорировать по шаблону \\(например '\\*.obj'\\):"
 
 msgctxt "dlgSgIgnoreFile.rbt:"
 msgid "Ignore explicitly \\(e.g. 'Makefile'\\)"
-msgstr "Игнорировать явно"
+msgstr "Игнорировать явно \\(например 'Makefile'\\)"
 
 msgctxt "dlgSgIgnoreFile.tle"
 msgid "Ignore"
@@ -5547,15 +5547,31 @@ msgstr "Установить"
 
 msgctxt "dlgSgLfsInstallConfirm.fur"
 msgid "This will configure hooks and filters required for LFS."
-msgstr "При выполненнии этой операции будут созданы и настроены хуки и необходимые настройки для LFS."
+msgstr "При выполненнии этой операции будут созданы и настроены хуки и необходимые фильтры для LFS."
 
 msgctxt "dlgSgLfsInstallConfirm.hdl"
 msgid "Would you like to initialize this repository for Large File Support \\(LFS\\)?"
-msgstr "Хотите настроить этот репозиторий для поддержки больших файлов \\(LFS\\)?"
+msgstr "Хотите инициализировать этот репозиторий для поддержки больших файлов \\(LFS\\)?"
 
 msgctxt "dlgSgLfsInstallConfirm.tle"
 msgid "LFS Install"
 msgstr "Установка LFS"
+
+msgctxt "dlgSgLfsPruneConfirm.btn:"
+msgid "Prune"
+msgstr "Удалить"
+
+msgctxt "dlgSgLfsPruneConfirm.fur"
+msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
+msgstr "Перед удалением локальных файлов, будет выполнена проверка наличия во внешнем репозитории копий всех удаляемых LFS файлов."
+
+msgctxt "dlgSgLfsPruneConfirm.hdl"
+msgid "Would you like to delete old LFS files from the local storage?"
+msgstr "Хотите удалить устаревшие LFS файлы из локального хранилища?"
+
+msgctxt "dlgSgLfsPruneConfirm.tle"
+msgid "LFS Prune"
+msgstr "Очистка LFS от устаревшего"
 
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
@@ -5655,19 +5671,19 @@ msgstr ""
 
 msgctxt "dlgSgLogCompareSelectedFilesAgainstEachOther.btn:"
 msgid "Compare Separately"
-msgstr "Изменения по отдельности"
+msgstr "Сравнить отдельно"
 
 msgctxt "dlgSgLogCompareSelectedFilesAgainstEachOther.btn:"
 msgid "Compare With Each Other"
-msgstr "Сравнить между собой"
+msgstr "Сравнить друг с другом"
 
 msgctxt "dlgSgLogCompareSelectedFilesAgainstEachOther.fur"
 msgid "You may compare the selected files against each other or open up two separate compares for each file against its previous state."
-msgstr "Вы можете сравнить выбранные два файла между собой или открыть два отдельных окна для просмотра изменений по каждому."
+msgstr "Вы можете сравнить выбранные два файла между собой или открыть два отдельных сравнения для сравнения с предыдущим состоянием для каждого файла."
 
 msgctxt "dlgSgLogCompareSelectedFilesAgainstEachOther.hdl"
 msgid "Do you want to compare the selected files against each other?"
-msgstr "Нужно сравнить два выбранный файла друг с другом?"
+msgstr "Нужно сравнить выбранные файлы друг с другом?"
 
 msgctxt "dlgSgLogCompareSelectedFilesAgainstEachOther.tle"
 msgid "Compare"
@@ -5675,11 +5691,11 @@ msgstr "Сравнение"
 
 msgctxt "dlgSgLogCompareWithWorkingTree.btn:"
 msgid "Compare After"
-msgstr "Версия до"
+msgstr "Сравнить после"
 
 msgctxt "dlgSgLogCompareWithWorkingTree.btn:"
 msgid "Compare Before"
-msgstr "Версия после"
+msgstr "Сравнить до"
 
 msgctxt "dlgSgLogCompareWithWorkingTree.edt:"
 msgid "Working Tree File"
@@ -5691,7 +5707,7 @@ msgstr "Сравнение файла в репозитории с локаль�
 
 msgctxt "dlgSgLogCompareWithWorkingTree.inf"
 msgid "Select whether to compare with the repository file as it was Before or After the selected commit."
-msgstr "Выберите вариант: сравнить с файлом репозитория до или после выбранного коммита."
+msgstr "Выберите вариант: сравнить с файлом репозитория, которым он был до или после выбранного коммита."
 
 msgctxt "dlgSgLogCompareWithWorkingTree.tle"
 msgid "Compare with Working Tree"
@@ -5707,7 +5723,7 @@ msgstr "Выберите отображаемые ветки"
 
 msgctxt "dlgSgLogGraphRootSwitch.inf"
 msgid "Select the branches for which to show commits in the graph."
-msgstr "В графе будут отображаться коммиты только по выбранным веткам."
+msgstr "Выберите ветки, коммиты по которым будут отображаться в графе."
 
 msgctxt "dlgSgLogGraphRootSwitch.mni:"
 msgid "Toggle"
@@ -5883,7 +5899,7 @@ msgstr "Создать коммит слияния"
 
 msgctxt "dlgSgMergeHowToMerge.btn:"
 msgid "Fast-Forward"
-msgstr "Быстрое слияние"
+msgstr "Слияние с перемоткой вперед"
 
 msgctxt "dlgSgMergeHowToMerge.btn:"
 msgid "Merge to Working Tree"
@@ -5891,11 +5907,11 @@ msgstr "Объединить в рабочем каталоге"
 
 msgctxt "dlgSgMergeHowToMerge.btn:"
 msgid "Squash-Merge"
-msgstr "Создать объединенный коммит"
+msgstr "Создать объединенный коммит \\(squash\\)"
 
 msgctxt "dlgSgMergeHowToMerge.fur"
 msgid "If there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
-msgstr "Если нет конфликтов, то Git автоматически создает коммит слияния. Вместо этого, вы можете выбрать ручное объединение в рабочем каталоге, выбрав один из вариантов.\\nВариант 'Объединить в рабочем каталоге' подготовит коммит слияния, а 'Создать объединенный коммит' создаст обычный коммит, отбросив информацию о том, какие коммиты были объединены. В обоих случаях, изменения необходимо будет зафиксировать вручную."
+msgstr "Если нет конфликтов, то Git автоматически создает коммит слияния. Вместо этого, вы можете выбрать ручное объединение в рабочем каталоге, выбрав один из вариантов.\\nВариант 'Объединить в рабочем каталоге' подготовит коммит слияния, а 'Создать объединенный коммит \\(squash\\)' создаст обычный коммит \\(отбросив информацию о том, какие коммиты были объединены\\). В обоих случаях, изменения необходимо будет зафиксировать вручную."
 
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from branch '$1'?"
@@ -5911,7 +5927,7 @@ msgstr "Объединение"
 
 msgctxt "dlgSgMergeNoop.fur"
 msgid "Merging a commit's own history into itself is technically allowed by Git but it's a no-op and will not give a new commit nor any other meaningful changes."
-msgstr "Технически, git позволяет выполнить слияние самим с собой, но это бессмысленная операция."
+msgstr "Технически, git позволяет выполнить слияние самим с собой, но это не приведет ни к созданию коммита, ни к другим значимым изменениям."
 
 msgctxt "dlgSgMergeNoop.hdl"
 msgid "There is nothing to merge."
@@ -5931,7 +5947,7 @@ msgstr ""
 
 msgctxt "dlgSgOpenRepository.hdl"
 msgid "Add existing or create new repository"
-msgstr "Добавление существующего либо создание нового репозитория"
+msgstr "Добавление существующего репозитория либо создание нового"
 
 msgctxt "dlgSgOpenRepository.inf"
 msgid "Specify the local Git repository to open. To create a new repository, specify an empty directory."
@@ -6295,7 +6311,7 @@ msgstr "Фоновые задания"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Built-in Text Editors"
-msgstr "Встроенные редакторы"
+msgstr "Встроенные текстовые редакторы"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Commands"
@@ -6303,7 +6319,7 @@ msgstr "Действия"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Conflict Solvers"
-msgstr "Разрешение конфликтов"
+msgstr "Решатели конфликтов"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Diff Tools"
@@ -6355,7 +6371,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "SmartGit Updates"
-msgstr "Обновление SmartGit"
+msgstr "Обновления SmartGit"
 
 msgctxt "dlgSgPreferences.cdl:"
 msgid "Spell Checker"
@@ -6391,11 +6407,11 @@ msgstr "Разрешить открытие нескольких окон ист
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Also detect renames for untracked and missing files"
-msgstr "Также определять переименования в неотслеживаемых и отсуствующих файлах"
+msgstr "Также определять переименования в неотслеживаемых и отсутствующих файлах"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Always fetch new commits, tags and branches from submodule"
-msgstr "Всегда забирать новые коммиты, метки и ветки для субмодуля"
+msgstr "Всегда получать новые коммиты, метки и ветки для субмодуля"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Ask for master password on startup"
@@ -6439,11 +6455,11 @@ msgstr "Настроить SmartGit как помощника по учетны�
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect local changes in closed 'favorite' repositories"
-msgstr "Обнаруживать локальные изменения в закрытых 'избранных' репозиториях"
+msgstr "Отслеживать локальные изменения в закрытых 'избранных' репозиториях"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect remote changes"
-msgstr "Обнаруживать внешние изменения"
+msgstr "Отслеживать внешние изменения"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Detect renames \\(for added and removed files, as command line Git does\\)"
@@ -6451,7 +6467,7 @@ msgstr "Определять переименования \\(для добавл
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Distinguish between content and EOL-only changes \\(slightly more expensive\\)"
-msgstr "Различать изменения только в окончании строк \\(немного замедляет\\)"
+msgstr "Различать изменения только в окончании строк \\(чуть более затратно\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Enable integration for configured hosting providers \\(pull requests, comments\\)"
@@ -6459,7 +6475,7 @@ msgstr "Включить интеграцию для настроенных хо
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Focus next change after accepting change \\(Take Left/Take Right\\)"
-msgstr "Перейти к следующему изменению после принятия \\(Налево/Направо\\)"
+msgstr "Перейти к следующему изменению после принятия \\(Взять слева/Взять справа\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "For Preview versions, automatically download the latest build"
@@ -6471,11 +6487,11 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Highlight current line in text content"
-msgstr "Подсвечивать текущую строку"
+msgstr "Подсвечивать текущую строку в тексте"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Home and end: operate on line, not the document"
-msgstr "Home и end: действуют на строки, а не на файл"
+msgstr "Home и end: действуют на строки, а не на документ"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Include untracked files"
@@ -6491,7 +6507,7 @@ msgstr "Перемещение курсора влево и вправо: огр
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Open repositories when idle"
-msgstr "Открытые репозитории при простое"
+msgstr "Открытие репозиториев во время простоя"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Open the last used repositories"
@@ -6499,7 +6515,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Periodically invoke Git's garbage collection when idle"
-msgstr "Периодически вызывать сборку мусора Git при простое"
+msgstr "Периодически вызывать сборщик мусора Git во время простоя"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Preselect 'Staged' if files are staged, even if a file without staged changes is selected"
@@ -6527,7 +6543,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove leading and trailing whitespace from commit message"
-msgstr "Удалять начальные и конечные пробелы в сообщении коммита"
+msgstr "Удалять начальные и конечные пробелы из сообщения коммита"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Remove missing files"
@@ -6539,7 +6555,7 @@ msgstr "Восстановить все диалоги подтверждени�
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Send 'crash footprints' after an internal error has occurred"
-msgstr "Отправлять информацию о возникших ошибках"
+msgstr "Отправлять 'следы сбоя' после возникновения внутренней ошибки"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Send usage statistics"
@@ -6547,15 +6563,15 @@ msgstr "Отправлять статистику использования"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show also the resolve dialog for external conflict solvers"
-msgstr "Показывать диалоговое окно разрешения конфликтов для внешних решателей"
+msgstr "Показывать диалоговое окно разрешения конфликтов для внешних инструментов"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show chooser dialog if multiple entries match"
-msgstr "Показывать диалог выбора если совпадают несколько записей"
+msgstr "Показывать диалог выбора, если совпадают несколько записей"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show line length guides \\(only useful for monospaced-font\\)"
-msgstr "Показать направляющую длины строки \\(имеет смысл только для моноширинного шрифта\\)"
+msgstr "Показать направляющие длины строки \\(имеет смысл только для моноширинного шрифта\\)"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show only fixed-width fonts"
@@ -6563,11 +6579,11 @@ msgstr "Отображать только моноширинные шрифты"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show verbose date for last days, e.g. Yesterday"
-msgstr "Показывать относительные даты прошедших дне, например Вчера"
+msgstr "Показывать подробные даты для прошедших дней, например Вчера"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Show welcome dialog if no repository has been reopened"
-msgstr "Отображать приветственное окно если нет репозитория для переоткрытия"
+msgstr "Отображать приветственное окно если ни один репозитори не был открыт повторно"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Sign all commits"
@@ -6583,7 +6599,7 @@ msgstr "Tab вводит, а Backspace удаляет несколько нач�
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Trim whitespace"
-msgstr "Удалять пробелы"
+msgstr "Обрезать пробелы"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Update registered submodules"
@@ -6599,7 +6615,7 @@ msgstr "Использовать gravatar.com для отображения ав
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use indentation from previous non-empty line"
-msgstr "Использовать автоотступ по предыдущей непустой строке"
+msgstr "Использовать отступ от предыдущей непустой строки"
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Use pre-installed \\(\"system\"\\) Git-Flow\\*"
@@ -6619,11 +6635,11 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Automatically select light/dark"
-msgstr "Автоматический выбор светлой/темной"
+msgstr "Автоматический выбор светлой/темной темы"
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom..."
-msgstr "Своя"
+msgstr "Своя..."
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Dark \\(independent of system\\)"
@@ -6639,7 +6655,7 @@ msgstr "Светлая \\(независимо от системы\\)"
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Open the last used repositories in the startup window"
-msgstr "Открывать последние используемые репозитории в стартовом окне"
+msgstr "Открывать последние используемые репозитории в начальном окне"
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Open the last used repositories in their last used window"
@@ -6695,7 +6711,7 @@ msgstr "Файл словаря"
 
 msgctxt "dlgSgPreferences.col:"
 msgid "File Pattern"
-msgstr "Расширения"
+msgstr "Расширение"
 
 msgctxt "dlgSgPreferences.col:"
 msgid "Key"
@@ -6711,7 +6727,7 @@ msgstr "Имя"
 
 msgctxt "dlgSgPreferences.col:"
 msgid "Patterns"
-msgstr "Расширения"
+msgstr "Шаблоны"
 
 msgctxt "dlgSgPreferences.col:"
 msgid "Repository"
@@ -6779,7 +6795,7 @@ msgstr "GPG программа"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Git Email"
-msgstr "Эл. адрес для git"
+msgstr "Эл.адрес для git"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Git Executable"
@@ -6799,7 +6815,7 @@ msgstr "Известные учетные записи"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Language\\*"
-msgstr "Язык"
+msgstr "Язык\\*"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Name"
@@ -6835,7 +6851,7 @@ msgstr "Подпись"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Startup Window\\*"
-msgstr "Стартовое окно\\*"
+msgstr "Начальное окно\\*"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Submodule handling\\*"
@@ -6963,7 +6979,7 @@ msgstr "Внешний:"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Garbage Collector"
-msgstr "Сборка мусора"
+msgstr "Сборщик мусора"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Here you can edit your account's 'gitconfig' which contains the defaults for all repositories."
@@ -7035,7 +7051,7 @@ msgstr "Последняя проверка была $1."
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "The proxy is primarily used for the Check for New Version. It will also be used for Git HTTP\\(s\\) connections if no reasonable system proxy configuration seems to be present already \\(see documentation for details\\)."
-msgstr "Прокси в первую очередь используется для проверки наличия новой версии. Кроме того, используется для соединения по HTTPS\\(s\\), если настройки отличаются от системных."
+msgstr "Прокси в первую очередь используется для проверки наличия новой версии. Кроме того, используется для соединения с git по HTTP\\(s\\), если не существует подходящей конфигурации \\(см. документацию\\)."
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
@@ -7047,7 +7063,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Viewer:"
-msgstr "Просмотрщ:"
+msgstr "Просмотрщик:"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
@@ -7091,7 +7107,7 @@ msgstr "файлы/каталоги"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "may be harder to configure and use for new users, but is more flexible"
-msgstr "могут возникнут сложности в настройке у новых пользователей, но больше гибкости"
+msgstr "может более сложным в настройке и использовании для новых пользователей, но более гибок"
 
 msgctxt "dlgSgPreferences.mni:"
 msgid "Accelerator"
@@ -7247,7 +7263,7 @@ msgstr "Спрашивать"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Auto-detect the system proxy"
-msgstr "Автоопределение"
+msgstr "Автоопределение системного прокси"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Automatically download and install updates"
@@ -7303,7 +7319,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log graph \\(commit oriented\\)"
-msgstr "Граф \\(ориентирован на изменения\\)"
+msgstr "Граф \\(ориентирован на коммиты\\)"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Other Git Executable:"
@@ -7383,7 +7399,7 @@ msgstr "Кодировка"
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Fetch and Pull"
-msgstr "Получение изменений"
+msgstr "Получение и применение изменений"
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Font and Colors"
@@ -7423,7 +7439,7 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.ttpGroupPatterns:"
 msgid "<b>Grouping logic</b>"
-msgstr "<b></b>"
+msgstr ""
 
 msgctxt "dlgSgPreferences.ttpGroupPatterns:"
 msgid "<b>Multiple group patterns</b>"
@@ -7647,7 +7663,7 @@ msgstr ""
 
 msgctxt "dlgSgPull.chk:"
 msgid "More Options"
-msgstr "Изменить параметры"
+msgstr "Дополнительные параметры"
 
 msgctxt "dlgSgPull.chk:"
 msgid "Remember as default for repository"
@@ -7827,7 +7843,7 @@ msgstr "Принудительно отправить"
 
 msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
-msgstr "После отправки изменений, изменения во внешней ветки будут потеряны - замены на локальные."
+msgstr "Отправка во внешнюю ветку не является перемоткой вперед, поэтому отправка должна быть принудительной. Коммиты во внешней ветке будут потеряны."
 
 msgctxt "dlgSgPushForced.hdl"
 msgid "Do you want to force-push \\(replace\\) the remote branch?"
@@ -7947,7 +7963,7 @@ msgstr "Отправка '$1' во внешний репозиторий"
 
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
-msgstr "Отправка '$1' в '$2'"
+msgstr "Отправка '$1' во внешний '$2'"
 
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push local commits to a remote repository"
@@ -8007,7 +8023,7 @@ msgstr "Удаление веток и их коммитов в указанно
 
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.hdl"
 msgid "Do you really want to remove target remote branches?"
-msgstr "Вы точно хотите удалить внешние ветки?"
+msgstr "Вы точно хотите удалить целевые внешние ветки?"
 
 msgctxt "dlgSgPushToRemoteRemoveTargetBranches.tle"
 msgid "Push To"
@@ -8547,7 +8563,7 @@ msgstr "Получение дополнительных веток"
 
 msgctxt "dlgSgRemoteFetchMoreNoMoreBranches.fur"
 msgid "All branches which are present in the remote repository are already locally present as well."
-msgstr "Все внешние ветки присутствуют в локальном репозитории."
+msgstr "Все ветки внешнего репозитория уже присутствуют в локальном."
 
 msgctxt "dlgSgRemoteFetchMoreNoMoreBranches.hdl"
 msgid "There are no more remote branches to fetch."
@@ -8599,7 +8615,7 @@ msgstr "Установить глубину"
 
 msgctxt "dlgSgRemoteSetDepth.edt:"
 msgid "Depth"
-msgstr "Грубина (в коммитах)"
+msgstr "Глубина"
 
 msgctxt "dlgSgRemoteSetDepth.err:"
 msgid "Please enter a valid commit count."
@@ -8711,7 +8727,7 @@ msgstr "Убрать файл из репозитория"
 
 msgctxt "dlgSgRemove.inf"
 msgid "Select the files you want to remove from the repository or working tree \\(stopped from tracking\\)."
-msgstr "Выбранный файл удаляется из репозитория или рабочего каталога \\(прекращается отслеживание\\)"
+msgstr "Выберите файлы для удаления из репозитория или рабочего каталога \\(прекращается их отслеживание\\)"
 
 msgctxt "dlgSgRemove.tle"
 msgid "Remove"
@@ -8771,7 +8787,7 @@ msgstr "Изменить имя существующего внешнего ре
 
 msgctxt "dlgSgRenameRemote.inf"
 msgid "Provide the new name of the selected remote."
-msgstr "Введите новое имя для выбранного внешнего"
+msgstr "Укажите новое имя для выбранного внешнего репозитория."
 
 msgctxt "dlgSgRenameRemote.tle"
 msgid "Rename Remote Repository"
@@ -8867,7 +8883,7 @@ msgstr "Имя группы"
 
 msgctxt "dlgSgRepositoryAddGroup.hdl"
 msgid "Enter the group name"
-msgstr "Выбор имени группы"
+msgstr "Ввод имени группы"
 
 msgctxt "dlgSgRepositoryAddGroup.inf"
 msgid "After having created the group, you can move repositories inside it."
@@ -9343,7 +9359,7 @@ msgstr "Выберите к какой перейти '$1' или '$2'."
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
-msgstr "Хотите ли вы прейти к локальной или отслеживаемой ветке?"
+msgstr "Хотите ли вы перейти к локальной или отслеживаемой ветке?"
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
 msgid "Compare with Selected Commit"
@@ -9375,19 +9391,19 @@ msgstr "Откат изменений"
 
 msgctxt "dlgSgRevertConfigurationFile.btn:"
 msgid "Revert"
-msgstr ""
+msgstr "Откатить"
 
 msgctxt "dlgSgRevertConfigurationFile.fur"
 msgid "Only changes of these files will be reverted \\(without committing\\)."
-msgstr ""
+msgstr "Только изменения в этих файлах будут обращены \\(без фиксации\\)."
 
 msgctxt "dlgSgRevertConfigurationFile.hdl:"
 msgid "Do you want to revert changes of '$1'?"
-msgstr ""
+msgstr "Вы хотите откатить изменения '$1'?"
 
 msgctxt "dlgSgRevertConfigurationFile.tle"
 msgid "Revert"
-msgstr ""
+msgstr "Откат изменений"
 
 msgctxt "dlgSgRevertInProgress.fur"
 msgid "You have to finish the Revert before you can continue. To finish the Revert use Commit, to abort use Discard."
@@ -9735,23 +9751,23 @@ msgstr "Откат изменений"
 
 msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "+ Stage"
-msgstr ""
+msgstr "+ Проиндексировать"
 
 msgctxt "dlgSgRollbackToFiles.btn:"
 msgid "Rollback"
-msgstr ""
+msgstr "Откатить"
 
 msgctxt "dlgSgRollbackToFiles.fur"
 msgid "All differences of the selected files between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
-msgstr ""
+msgstr "Все изменения между выбранных файлов между HEAD и выбранным коммитом будут помещены в рабочий каталог и, опционально, проиндексированы."
 
 msgctxt "dlgSgRollbackToFiles.hdl:"
 msgid "Do you want to rollback the selected files to the state of commit $1?"
-msgstr ""
+msgstr "Вы хотите откатить выбранные файлы к состоянию коммита $1?"
 
 msgctxt "dlgSgRollbackToFiles.tle"
 msgid "Rollback To"
-msgstr ""
+msgstr "Откат изменений"
 
 msgctxt "dlgSgSelectBranch.edt:"
 msgid "Auxiliary Branch"
@@ -10463,7 +10479,7 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.inf:"
 msgid "Specify the repository to clone as submodule.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
-msgstr "Укажите репозитория для клонирования как субмодуль. \\nДля настройки нескольких учеток одного провайдера используйте меню Параметры"
+msgstr "Укажите репозиторий для клонирования как субмодуль. \\nДля настройки нескольких учетных записей одного хостинг-провайдера используйте меню Параметры"
 
 msgctxt "dlgSgSubmoduleAdd.lbl:"
 msgid "Please wait ..."
@@ -10783,7 +10799,7 @@ msgstr "Не показывать снова"
 
 msgctxt "dlgSgSyncConfirm.fur"
 msgid "First, local changes will be pushed, then possible remote changes pulled. The advantage over a normal push is that if it fails because of remote changes, they will be pulled automatically."
-msgstr "Сначала будут отправлены локальные изменения, затем получены внешние. В отличие от обычной отправки заключается в том, что если отправка изменений не возможна из-за наличия внешних, они будут автоматически получены и применены."
+msgstr "Сначала будут отправлены локальные изменения, затем получены внешние, если они есть. В отличии от обычной отправки, если отправка изменений не возможна из-за наличия внешних, они будут автоматически получены и применены."
 
 msgctxt "dlgSgSyncConfirm.hdl"
 msgid "Do you want to proceed with sync?"
@@ -10891,7 +10907,7 @@ msgstr ""
 
 msgctxt "dlgSgToolAdd.hdl"
 msgid "Add external tool"
-msgstr "Добавить внешнее приложение"
+msgstr "Добавить внешний инструмент"
 
 msgctxt "dlgSgToolAdd.tle"
 msgid "Add"
@@ -10959,7 +10975,7 @@ msgstr "Определение имени пункта меню, команды 
 
 msgctxt "dlgSgTool(Add|Edit).lbl:"
 msgid "Valid wildcards are ?\\u00a0\\(one arbitrary character\\) and \\*\\u00a0\\(any number of arbitrary characters\\). Separate multiple patterns by comma. Example:\\u00a0\\*.txt,\\u00a0\\*.html"
-msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нужно использовать запятые.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
+msgstr "Допустимо использование специальных символов: ?\\u00a0\\(один произвольный символ\\) и \\*\\u00a0\\(несколько произвольных символов\\). Для разделения нескольких шаблонов используйте запятую.\\nПример:\\u00a0\\*.txt,\\u00a0\\*.html"
 
 msgctxt "dlgSgTool(Add|Edit).mni:"
 msgid "2nd Commit ID or Ref \\(optional\\)"
@@ -10975,7 +10991,7 @@ msgstr "ID коммита или ссылка"
 
 msgctxt "dlgSgTool(Add|Edit).mni:"
 msgid "Configured Text File Encoding"
-msgstr "Настроенная кодировка текста"
+msgstr "Настроенная кодировка текста файла"
 
 msgctxt "dlgSgTool(Add|Edit).mni:"
 msgid "File or Directory Name"
@@ -11219,7 +11235,7 @@ msgstr "Шаблон для групп"
 
 msgctxt "dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).edt:"
 msgid "Single Patterns"
-msgstr "Шаблон для отдельных"
+msgstr "Одиночные шаблоны"
 
 msgctxt "dlg(DgRefMapperGroupConfig|SgPreferences|SgRepositorySettings).lbl:"
 msgid "Tags, branches and other refs matched by this configuration will be grouped in the File Log and show up in the Commit details. It will also be used for grouping the 'Tags'-category of the Branches view."
@@ -11379,7 +11395,7 @@ msgstr "<link1>Facebook</link1>: новости"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Mastodon</link1>: news, polls, discussions"
-msgstr "<link1>Mastodon</link1>: новости, обсуждения"
+msgstr "<link1>Mastodon</link1>: новости, опросы, обсуждения"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
@@ -11387,11 +11403,11 @@ msgstr "<link1>UserEcho</link1>: новые идеи, обсуждения"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>X</link1>: news, polls, discussions"
-msgstr "<link1>X</link1>: новости, обсуждения"
+msgstr "<link1>X</link1>: новости, опросы, обсуждения"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "<link1>YouTube</link1>: tutorial and expert videos"
-msgstr "<link1>YouTube</link1>: обучающие видео"
+msgstr "<link1>YouTube</link1>: обучающие и экспертные видео"
 
 msgctxt "ntmFollowUsOnX:"
 msgid "Follow us on your favorite social media platforms to receive news, learn about features or influence future versions of SmartGit with your requests and feedback!"
@@ -11947,7 +11963,7 @@ msgstr "Коммит"
 
 msgctxt "wndAnnotate.edt:"
 msgid "Highlight"
-msgstr "Раскраска"
+msgstr "Выделение"
 
 msgctxt "wndAnnotate.edt:"
 msgid "View Commit"
@@ -12031,7 +12047,7 @@ msgstr "Найти предыдущий"
 
 msgctxt "wndAnnotate.mniSet-syntax"
 msgid "Syntax Language"
-msgstr "Синтаксис"
+msgstr "Язык синтаксиса"
 
 msgctxt "wndAnnotate.mniShowChanges"
 msgid "Show Changes"
@@ -12167,7 +12183,7 @@ msgstr ""
 
 msgctxt "wndCompare.tle:"
 msgid "$1 - File Compare"
-msgstr "$1 - изменения"
+msgstr "$1 - сравнение"
 
 msgctxt "wndConflictSolver.mni:"
 msgid "Apply Inner-line Difference to Working Tree"
@@ -12207,11 +12223,11 @@ msgstr "Все"
 
 msgctxt "wndConflictSolver.tbr:"
 msgid "Base + Right"
-msgstr ""
+msgstr "База + право"
 
 msgctxt "wndConflictSolver.tbr:"
 msgid "Base Below"
-msgstr ""
+msgstr "База снизу"
 
 msgctxt "wndConflictSolver.tbr:"
 msgid "Base Changes"
@@ -12219,7 +12235,7 @@ msgstr "Изменения к базе"
 
 msgctxt "wndConflictSolver.tbr:"
 msgid "Left + Base"
-msgstr ""
+msgstr "Лево + база"
 
 msgctxt "wndConflictSolver.tbr:"
 msgid "Left + Merge"
@@ -13331,7 +13347,7 @@ msgstr ""
 
 msgctxt "wnd(Compare|ConflictSolver|Git.indexEditor).mniView-remember-as-default"
 msgid "Remember as Default"
-msgstr "Заполнить по умолчанию"
+msgstr "Запомнить по умолчанию"
 
 msgctxt "wnd(Compare|ConflictSolver|Git.indexEditor).mniView-settings"
 msgid "Settings"
@@ -13423,7 +13439,7 @@ msgstr "Найти и заменить"
 
 msgctxt "wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mniSet-syntax"
 msgid "Syntax Language"
-msgstr "Синтаксис"
+msgstr "Язык синтаксиса"
 
 msgctxt "wnd(Compare|ConflictSolver|Git.indexEditor|Editor).mnu:"
 msgid "Edit"
@@ -13471,11 +13487,11 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Mark HEAD as Bad"
-msgstr "HEAD плохой"
+msgstr "Пометить HEAD плохим"
 
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Mark HEAD as Good"
-msgstr "HEAD хороший"
+msgstr "Пометить HEAD хорошим"
 
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Mark Resolved"
@@ -13887,11 +13903,11 @@ msgstr "Аватар коммитера"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name and Email"
-msgstr "Имя и эл.адрес коммитера"
+msgstr "Полное имя и эл.адрес коммитера"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer with Full Name"
-msgstr "Имя коммитера"
+msgstr "Полное имя коммитера"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Committer"
@@ -14163,7 +14179,7 @@ msgstr "Имя"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Neither"
-msgstr "Никого"
+msgstr "Ни то, ни другое"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "New Group"
@@ -14235,7 +14251,7 @@ msgstr "Быстро спрятать все"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Quick Stash Selection"
-msgstr "Бстро спрятать выбранное"
+msgstr "Быстро спрятать выбранное"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Rebase $1 commit from $2 to $3"
@@ -14527,11 +14543,11 @@ msgstr "Авторство"
 
 msgctxt "wnd(Log|Project|Std|).mniAssume-unchanged-toggle"
 msgid "Toggle 'Assume Unchanged'"
-msgstr "Переключить 'Показывать неизмененные'"
+msgstr "Переключить 'Считать неизмененным'"
 
 msgctxt "wnd(Log|Project|Std|).mniBisectBad"
 msgid "Mark HEAD as Bad"
-msgstr "HEAD плохой"
+msgstr "Поместить HEAD плохим"
 
 msgctxt "wnd(Log|Project|Std|).mniBisectExit"
 msgid "Reset"
@@ -14539,7 +14555,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniBisectGood"
 msgid "Mark HEAD as Good"
-msgstr "HEAD хороший"
+msgstr "Пометить HEAD хорошим"
 
 msgctxt "wnd(Log|Project|Std|).mniBisectStart"
 msgid "Start"
@@ -14607,7 +14623,7 @@ msgstr "После последнего слеша"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchesSectionizeCompact"
 msgid "Except for single refs"
-msgstr "Исключать одиночные ссылки"
+msgstr "Исключать для одиночных ссылок"
 
 msgctxt "wnd(Log|Project|Std|).mniBranchesSectionsBeforeRefs"
 msgid "Show groups first"
@@ -14631,7 +14647,7 @@ msgstr "Сортировка по времени коммита"
 
 msgctxt "wnd(Log|Project|Std|).mniChangesView.compact"
 msgid "Compact"
-msgstr "Кратко"
+msgstr "Компактно"
 
 msgctxt "wnd(Log|Project|Std|).mniChangesView.ignoreLineSeparators"
 msgid "Ignore Line-Ending Changes"
@@ -14655,11 +14671,11 @@ msgstr "Проверить наличие новой версии"
 
 msgctxt "wnd(Log|Project|Std|).mniCheckout"
 msgid "Check Out"
-msgstr "Переключить"
+msgstr "Переключиться"
 
 msgctxt "wnd(Log|Project|Std|).mniCherryPick"
 msgid "Cherry-Pick"
-msgstr "Забрать коммит"
+msgstr "Забрать \\(cherry-pick\\)"
 
 msgctxt "wnd(Log|Project|Std|).mniClean"
 msgid "Clean Working Tree"
@@ -14687,7 +14703,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniConfigureToolbar"
 msgid "Configure Toolbar"
-msgstr "Настроить панель"
+msgstr "Настроить панель инструментов"
 
 msgctxt "wnd(Log|Project|Std|).mniConflictSolver"
 msgid "Conflict Solver"
@@ -14919,7 +14935,7 @@ msgstr "Заблокировать"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsPrune"
 msgid "Prune"
-msgstr "Очистить"
+msgstr "Удалить устаревшее"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsTrack"
 msgid "Track"
@@ -14955,7 +14971,7 @@ msgstr "Многоцветное оформление"
 
 msgctxt "wnd(Log|Project|Std|).mniLogCommitsColoringMerge"
 msgid "Mergeable Coloring"
-msgstr "Расскраска слияний"
+msgstr "Раскраска объединяемых"
 
 msgctxt "wnd(Log|Project|Std|).mniLogRepository"
 msgid "Show Log Window"
@@ -15103,7 +15119,7 @@ msgstr "Пропустить"
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseStep"
 msgid "Step"
-msgstr "Дальше"
+msgstr "Далее"
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseToHead"
 msgid "Rebase to HEAD"
@@ -15247,7 +15263,7 @@ msgstr "Взять наше"
 
 msgctxt "wnd(Log|Project|Std|).mniResolveRecreateConflict"
 msgid "Recreate Conflict"
-msgstr "Сбросить и сначала"
+msgstr "Восстановить конфликт"
 
 msgctxt "wnd(Log|Project|Std|).mniResolveTheirs"
 msgid "Take Theirs"
@@ -15263,7 +15279,7 @@ msgstr "Сравнить с выбранным коммитом"
 
 msgctxt "wnd(Log|Project|Std|).mniRevealCommitWithHead"
 msgid "Compare with HEAD"
-msgstr "Сравнить"
+msgstr "Сравнить c HEAD"
 
 msgctxt "wnd(Log|Project|Std|).mniRevealPrevCommit"
 msgid "Reveal Previous Commit"
@@ -15347,7 +15363,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniSet-syntax"
 msgid "Syntax Language"
-msgstr "Снтаксис"
+msgstr "Язык синтаксиса"
 
 msgctxt "wnd(Log|Project|Std|).mniSetDepth"
 msgid "Set Depth"
@@ -15487,7 +15503,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniView-remember-as-default"
 msgid "Remember as Default"
-msgstr "Заполнить по умолчанию"
+msgstr "Запомнить по умолчанию"
 
 msgctxt "wnd(Log|Project|Std|).mniView-settings"
 msgid "Settings"
@@ -15543,7 +15559,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniViewToolBar"
 msgid "Show Toolbar"
-msgstr "Показать панель"
+msgstr "Показать панель инструментов"
 
 msgctxt "wnd(Log|Project|Std|).mniViewUnchanged"
 msgid "Show Unchanged Files"
@@ -15683,7 +15699,7 @@ msgstr "Локальный репозиторий"
 
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Query"
-msgstr "Команды"
+msgstr "Действия"
 
 msgctxt "wnd(Log|Project|Std|).mnu:"
 msgid "Rebase"
@@ -15759,7 +15775,7 @@ msgstr "Изменения"
 
 msgctxt "wnd(Log|Project|Std|).tab:"
 msgid "Comments \\($1\\)"
-msgstr "Комменатарии \\($1\\)"
+msgstr "Комментарии \\($1\\)"
 
 msgctxt "wnd(Log|Project|Std|).tab:"
 msgid "Comments"
@@ -15883,7 +15899,7 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Compact"
-msgstr "Кратко"
+msgstr "Компактно"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Conflict Solver"
@@ -16303,7 +16319,7 @@ msgstr "Показывать игноририемые файлы"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewRenameSource"
 msgid "If selected, removed/missing source files of detected renames will be shown."
-msgstr "Показывать файлы с переименованиями"
+msgstr "Показывать удаленные/отсутствующие исходные файлы с обнаруженными переименованиями"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewSkipped"
 msgid "If selected, skipped files will be shown."
@@ -16311,7 +16327,7 @@ msgstr "Показывать пропускаемые файлы"
 
 msgctxt "wnd(Log|Project|Std|).tbtViewStaged"
 msgid "If selected, files with staged \\(Index\\) changes and without working tree changes will be shown."
-msgstr "Показывать файлы в индексе без изменений"
+msgstr "Показывать файлы в индексе и файлы без изменений в рабочем каталоге."
 
 msgctxt "wnd(Log|Project|Std|).tbtViewUnchanged"
 msgid "If selected, unchanged files will be shown."
