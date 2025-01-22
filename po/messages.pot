@@ -5553,6 +5553,22 @@ msgctxt "dlgSgLfsInstallConfirm.tle"
 msgid "LFS Install"
 msgstr ""
 
+msgctxt "dlgSgLfsPruneConfirm.btn:"
+msgid "Prune"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.fur"
+msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.hdl"
+msgid "Would you like to delete old LFS files from the local storage?"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.tle"
+msgid "LFS Prune"
+msgstr ""
+
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
 msgstr ""
