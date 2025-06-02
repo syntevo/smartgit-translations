@@ -9848,7 +9848,7 @@ msgstr "工作区 \\(面向文件\\)"
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit $1"
 msgstr "设置 SmartGit $1"
-\\
+
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit"
 msgstr "设置 SmartGit"
