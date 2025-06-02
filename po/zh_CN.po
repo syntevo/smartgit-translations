@@ -2022,8 +2022,8 @@ msgid "Your working tree is in 'reverting' state. You may abort it to get out of
 msgstr "您的工作区处于 “还原” 状态。您可以中止它以退出此状态，然后重新开始还原。\\n\\n中止将清除任何本地修改 \\(通过调用 “git reset --hard”\\)!"
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
-msgstr "你想重置你的工作区吗？"
+msgid "Do you want to abort the current revert?"
+msgstr ""
 
 msgctxt "dlgSgAbortRevertingConfirm.tle"
 msgid "Discard"
@@ -4943,8 +4943,8 @@ msgid "Configure a new hosting provider account"
 msgstr "配置新的主机提供商账户"
 
 msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr "选择要为其配置新账户的托管服务提供商。"
+msgid "Set or select the options according to your account."
+msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
@@ -9066,8 +9066,8 @@ msgid "Reset to commit $1"
 msgstr "重置提交 $1"
 
 msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
-msgstr "将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作区。"
+msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+msgstr ""
 
 msgctxt "dlgSgResetAdv.lbl:"
 msgid "Current staged and local changes will be lost!"
@@ -9722,10 +9722,6 @@ msgid "User Name"
 msgstr "用户名"
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
-
-msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr "如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中进行更改。"
 
@@ -9748,6 +9744,10 @@ msgstr "用户名和电子邮件将作为提交的一部分存储。 您可以�
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
 msgstr "欢迎来到 SmartGit！请确认您正在接受许可协议。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs\\n\\n- recommended for new users"
