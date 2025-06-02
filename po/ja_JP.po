@@ -2022,8 +2022,8 @@ msgid "Your working tree is in 'reverting' state. You may abort it to get out of
 msgstr "作業ツリーが 「リバート中」 の状態です。この状態から抜け出すためにこの処理を中止し、その後、新たにリバートをやり直すことができます。\\n\\n中止すると、すべてのローカル修正が消去されます! \\('git reset--hard' の実行\\)"
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
-msgstr "作業ツリーをリセットしますか？"
+msgid "Do you want to abort the current revert?"
+msgstr ""
 
 msgctxt "dlgSgAbortRevertingConfirm.tle"
 msgid "Discard"
@@ -4946,8 +4946,8 @@ msgid "Configure a new hosting provider account"
 msgstr "ホスティングプロバイダーの新規アカウント設定"
 
 msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr "新規アカウントを設定するホスティングプロバイダーを選択します。"
+msgid "Set or select the options according to your account."
+msgstr ""
 
 # Needs review: Check whether the URL needs to be made variable
 #, fuzzy
@@ -9067,8 +9067,8 @@ msgid "Reset to commit $1"
 msgstr "コミット $1 にリセット"
 
 msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
-msgstr "現在のブランチのHEADを選択したコミットにリセットし、オプションでインデックスと作業ツリーを更新します。"
+msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+msgstr ""
 
 msgctxt "dlgSgResetAdv.lbl:"
 msgid "Current staged and local changes will be lost!"
@@ -9723,10 +9723,6 @@ msgid "User Name"
 msgstr "ユーザ名"
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr "SmartGitへようこそ! SmartGitのどのウィンドウを使用するかを決めます。このオプションは、後で環境設定で変更することができます。"
-
-msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr "SSHを使って他のGitリポジトリに接続する場合は、使用するSSHクライアントを選択します。この設定は後から「環境設定」で変更できます。"
 
@@ -9749,6 +9745,10 @@ msgstr "ユーザー名とメールアドレスは、コミットの一部とし
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
 msgstr "SmartGitへようこそ! 使用許諾契約に同意されることをご確認ください。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "SmartGitへようこそ! SmartGitのどのウィンドウを使用するかを決めます。このオプションは、後で環境設定で変更することができます。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs\\n\\n- recommended for new users"

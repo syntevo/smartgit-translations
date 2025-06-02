@@ -2011,7 +2011,7 @@ msgstr "Прервать перемещение"
 
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
-msgstr "Рабочий каталог находится в состоянии 'перемещения'. Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \(путем вызова 'git rebase --abort'\\)!"
+msgstr "Рабочий каталог находится в состоянии 'перемещения'. Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
 msgid "Do you want to abort the rebasing?"
@@ -2035,17 +2035,13 @@ msgstr "Рабочий каталог находится в состоянии '
 
 msgctxt "dlgSgAbortRevertingConfirm.hdl"
 msgid "Do you want to abort the current revert?"
-msgstr "Вы хотите прервать текущий откат изменений?"
-
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
 msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
 msgstr "Прерывание операции"
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
@@ -4153,11 +4149,11 @@ msgctxt "dlgSgFlowHotfixFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "Сообщение коммита/метки"
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
 msgstr ""
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish current hotfix"
 msgstr "Завершение работы над текущим хотфиксом"
 
@@ -4289,11 +4285,11 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "Сообщение коммита/метки"
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
 msgstr ""
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish current release"
 msgstr "Завершение работы над текущим релизом"
 
@@ -5021,21 +5017,17 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr "Добавить учетную запись GitHub"
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr ""
-
-msgctxt "dlgSgHostingProviderAdd.inf"
 msgid "Set or select the options according to your account."
-msgstr "Установите или выберите параметры своего аккаунта"
+msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
@@ -9187,10 +9179,6 @@ msgstr "Сброс состояния к коммиту $1"
 
 msgctxt "dlgSgResetAdv.inf"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-msgstr "Сброс состояния текущей ветки до выбранного коммита и, при необходимости, обновление индекса и рабочего каталога."
-
-msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
 msgstr ""
 
 msgctxt "dlgSgResetAdv.lbl:"
@@ -9361,11 +9349,11 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
 msgstr "Хотите ли вы перейти к локальной или отслеживаемой ветке?"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Compare with Selected Commit"
 msgstr "Сравнение с выбранным коммитом"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
 msgstr ""
 
