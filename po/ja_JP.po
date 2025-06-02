@@ -310,6 +310,10 @@ msgid "Reveal Commit"
 msgstr "コミットを表示する"
 
 msgctxt "dlgProgress.tle:"
+msgid "Searching Repositories"
+msgstr ""
+
+msgctxt "dlgProgress.tle:"
 msgid "SmartGit Installation Update"
 msgstr "SmartGit インストールの更新"
 
@@ -725,13 +729,13 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "ファイルには、混在した \\(一貫性のない\\) 改行文字が含まれています。"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr "\\[$1\\] - $2"
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
+msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
@@ -1618,6 +1622,10 @@ msgid "Purchase Update"
 msgstr "アップデートを購入"
 
 msgctxt "dlgScSetupLicense.btn:"
+msgid "Purchase"
+msgstr ""
+
+msgctxt "dlgScSetupLicense.btn:"
 msgid "Register"
 msgstr "登録"
 
@@ -2021,13 +2029,17 @@ msgctxt "dlgSgAbortRevertingConfirm.fur"
 msgid "Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr "作業ツリーが 「リバート中」 の状態です。この状態から抜け出すためにこの処理を中止し、その後、新たにリバートをやり直すことができます。\\n\\n中止すると、すべてのローカル修正が消去されます! \\('git reset--hard' の実行\\)"
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgctxt "dlgSgAbortRevertingConfirm.hdl:"
 msgid "Do you want to abort the current revert?"
 msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
+msgid "Abort"
+msgstr ""
+
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr "破棄"
+msgstr ""
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Register"
@@ -2338,6 +2350,10 @@ msgid "Delete"
 msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete from remote repository"
 msgstr "リモートリポジトリから削除する"
 
@@ -2408,6 +2424,14 @@ msgstr "ローカルブランチ'$1'を削除しますか？"
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle"
 msgid "Delete"
 msgstr "削除"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
+msgid "Delete"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle"
+msgid "Delete"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
@@ -2901,6 +2925,22 @@ msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr "ローカルリポジトリのルートディレクトリを指定してください。"
 
+msgctxt "dlgSgClone.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr ""
+
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr "リポジトリが見つかりません。"
@@ -3393,6 +3433,10 @@ msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Remember Pattern"
 msgstr "パターンを記憶"
 
+msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr ""
+
 msgctxt "dlgSgCommitSelectMessageFromLog.tle"
 msgid "Select Commit Message"
 msgstr "コミットメッセージを選択"
@@ -3461,9 +3505,9 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr "右側のファイルは、改行コードが混在しているため編集できません。"
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
-msgstr "\\[$1\\] - \\[$2\\] - $3"
+msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
 msgid "Mark Resolved"
@@ -4103,13 +4147,21 @@ msgctxt "dlgSgFlowHotfixFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "コミット/タグ メッセージ"
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
-msgstr "hotfixを完了"
+msgstr ""
+
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
+msgid "Finish current hotfix"
+msgstr ""
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."
 msgstr "現在の Hotfix を完了する方法を選択します。この操作により、Hotfix が $1 および $2 ブランチにマージされます。"
+
+msgctxt "dlgSgFlowHotfixFinish.inf:"
+msgid "Choose how to finish the current hotfix."
+msgstr ""
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches."
@@ -4227,9 +4279,21 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit Message"
 msgstr "コミットメッセージ"
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.edt:"
+msgid "Commit/Tag Message"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
-msgstr "releaseを完了"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
+msgid "Finish current release"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.inf:"
+msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
+msgstr ""
 
 msgctxt "dlgSgFlowReleaseFinish.inf:"
 msgid "Choose how to finish the release branch '$1'. This operation will merge the current release into the '$2' and '$3' branches."
@@ -4246,6 +4310,10 @@ msgstr "Releaseを完了"
 msgctxt "dlgSgFlowReleaseStart.btn:"
 msgid "Start"
 msgstr "開始"
+
+msgctxt "dlgSgFlowReleaseStart.chk:"
+msgid "Fetch from '$1' branch"
+msgstr ""
 
 msgctxt "dlgSgFlowReleaseStart.chk:"
 msgid "Fetch from base branch"
@@ -4282,6 +4350,14 @@ msgstr "開始"
 msgctxt "dlgSgFlowSupportStart.chk:"
 msgid "Fetch from '$1' branch"
 msgstr "'$1' ブランチからフェッチ"
+
+msgctxt "dlgSgFlowSupportStart.chk:"
+msgid "Fetch from base branch"
+msgstr ""
+
+msgctxt "dlgSgFlowSupportStart.edt:"
+msgid "Base"
+msgstr ""
 
 msgctxt "dlgSgFlowSupportStart.edt:"
 msgid "Support Name"
@@ -4941,11 +5017,15 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr "入力された URL は無効です - https://server のようになります"
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
-msgid "Configure a new hosting provider account"
-msgstr "ホスティングプロバイダーの新規アカウント設定"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitHub account"
+msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.inf"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Configure a new hosting provider account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
 msgstr ""
 
@@ -5470,6 +5550,22 @@ msgstr "このリポジトリをLFS \\(Large File Support\\) 用に初期化し�
 msgctxt "dlgSgLfsInstallConfirm.tle"
 msgid "LFS Install"
 msgstr "LFS インストール"
+
+msgctxt "dlgSgLfsPruneConfirm.btn:"
+msgid "Prune"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.fur"
+msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.hdl"
+msgid "Would you like to delete old LFS files from the local storage?"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.tle"
+msgid "LFS Prune"
+msgstr ""
 
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
@@ -6932,6 +7028,14 @@ msgid "Refresh"
 msgstr "更新"
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs/Commits"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Stash"
 msgstr "スタッシュ"
 
@@ -6950,6 +7054,10 @@ msgstr "このファイルはそのまま送信されます: $1"
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To manually update in-place use the '...' button located next to the version number in the About dialog."
 msgstr "手動でインプレースアップデートするには、バージョン情報ダイアログのバージョン番号の横にある「...」ボタンを使用します。"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Viewer:"
+msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
@@ -7411,17 +7519,21 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr "リンク"
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
-msgstr "$1 用の新しいAPIトークンを生成する"
+msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.inf%1"
-msgid "Authenticate at $1 and grant access to SmartGit."
-msgstr "$1 で認証し、SmartGitへのアクセスを許可します。"
+msgctxt "dlgSgProviderGenerateToken.inf"
+msgid "Authenticate at GitLab and grant access to SmartGit."
+msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
-msgid "Your browser should have opened automatically, let you authenticate with your preferred account at $1 and grant access to SmartGit. If this didn't happen, manually open following link:"
-msgstr "ブラウザが自動的に開き、$1のアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.lbl:"
+msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitLab and grant access to SmartGit. If this didn't happen, manually open following link:"
+msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.tle"
 msgid "Generate API Token"
@@ -7846,6 +7958,10 @@ msgstr "リモートリポジトリに '$1' をプッシュ"
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
 msgstr "'$1' をリモート '$2' にプッシュする"
+
+msgctxt "dlgSgPushToRef.hdl:"
+msgid "Push local commits to a remote repository"
+msgstr ""
 
 msgctxt "dlgSgPushToRef.inf"
 msgid "Select the target repository where to push the ref\\(s\\)."
@@ -9066,7 +9182,7 @@ msgctxt "dlgSgResetAdv.hdl%1"
 msgid "Reset to commit $1"
 msgstr "コミット $1 にリセット"
 
-msgctxt "dlgSgResetAdv.inf"
+msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
 msgstr ""
 
@@ -9238,9 +9354,13 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
 msgstr "ローカルと追跡されたブランチのどちらを表示しますか？"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
+msgid "Compare with Selected Commit"
+msgstr ""
+
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
-msgstr "コミットを表示する"
+msgstr ""
 
 msgctxt "dlgSgRevertAndCommitConfirmSingle.btn:"
 msgid "Revert && Commit"
@@ -11598,6 +11718,18 @@ msgstr "<b>SVN リビジョン:\\t</b>$1"
 msgctxt "ttpBranches:"
 msgid "<b>Stash:\\t</b>$1"
 msgstr "<b>スタッシュ:\\t</b>$1"
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Date:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Message:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tagger:\\t</b>$1"
+msgstr ""
 
 msgctxt "ttpBranches:"
 msgid "<b>Tracked Branch:\\t</b>$1"
@@ -14196,6 +14328,22 @@ msgid "Revert $1"
 msgstr "リバート $1"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Inner-Line Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Selection"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Review"
 msgstr "レビュー"
 
@@ -14354,6 +14502,10 @@ msgstr "トグル"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
 msgstr "ハンクのステージ解除"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Inner-line Change"
+msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Innerline Change"
@@ -15708,6 +15860,10 @@ msgid "Apply Stash"
 msgstr "スタッシュを適用"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Apply"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Blame"
 msgstr "ブレーム"
 
@@ -16194,3 +16350,55 @@ msgstr "$1 - ログ"
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr "$1 \\[$2\\] - $3 のログ"
+
+#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+#~ msgid "\\[$1\\] - $2"
+#~ msgstr "\\[$1\\] - $2"
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
+#~ msgid "Do you want to abort the current revert?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.tle"
+#~ msgid "Discard"
+#~ msgstr "破棄"
+
+#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+#~ msgid "\\[$1\\] - \\[$2\\] - $3"
+#~ msgstr "\\[$1\\] - \\[$2\\] - $3"
+
+#~ msgctxt "dlgSgFlowHotfixFinish.hdl"
+#~ msgid "Finish a hotfix"
+#~ msgstr "hotfixを完了"
+
+#~ msgctxt "dlgSgFlowReleaseFinish.hdl"
+#~ msgid "Finish a release"
+#~ msgstr "releaseを完了"
+
+#~ msgctxt "dlgSgHostingProviderAdd.hdl"
+#~ msgid "Configure a new hosting provider account"
+#~ msgstr "ホスティングプロバイダーの新規アカウント設定"
+
+#~ msgctxt "dlgSgHostingProviderAdd.inf"
+#~ msgid "Set or select the options according to your account."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgProviderGenerateToken.hdl"
+#~ msgid "Generate a new API token for $1"
+#~ msgstr "$1 用の新しいAPIトークンを生成する"
+
+#~ msgctxt "dlgSgProviderGenerateToken.inf%1"
+#~ msgid "Authenticate at $1 and grant access to SmartGit."
+#~ msgstr "$1 で認証し、SmartGitへのアクセスを許可します。"
+
+#~ msgctxt "dlgSgProviderGenerateToken.lbl:"
+#~ msgid "Your browser should have opened automatically, let you authenticate with your preferred account at $1 and grant access to SmartGit. If this didn't happen, manually open following link:"
+#~ msgstr "ブラウザが自動的に開き、$1のアカウントで認証を行い、SmartGitへのアクセスを許可します。自動的に開かなかった場合は、以下のリンクを手動で開いてください："
+
+#~ msgctxt "dlgSgResetAdv.inf"
+#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+#~ msgid "Reveal Commit"
+#~ msgstr "コミットを表示する"

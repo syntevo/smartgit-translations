@@ -97,10 +97,6 @@ msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
 msgid "Please wait ..."
 msgstr "Пожалуйста, подождите..."
 
-msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
-msgid "Please wait"
-msgstr "Пожалуйста, подождите..."
-
 msgctxt "dlgCommit.replaceMessage.btn:"
 msgid "Replace"
 msgstr ""
@@ -733,12 +729,12 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
+msgstr ""
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
 msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
@@ -2033,7 +2029,7 @@ msgctxt "dlgSgAbortRevertingConfirm.fur"
 msgid "Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr "Рабочий каталог находится в состоянии 'отката изменений'. Вы можете прервать операцию и выйти из этого состояния, чтобы выполнить эту операцию позднее.\\n\\nПрерывание операции очистит все изменения \\(вызовом 'git reset --hard'\\)!"
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgctxt "dlgSgAbortRevertingConfirm.hdl:"
 msgid "Do you want to abort the current revert?"
 msgstr ""
 
@@ -3509,7 +3505,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -5025,7 +5021,7 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.inf"
+msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
 msgstr ""
 
@@ -7517,7 +7513,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -9177,7 +9173,7 @@ msgctxt "dlgSgResetAdv.hdl%1"
 msgid "Reset to commit $1"
 msgstr "Сброс состояния к коммиту $1"
 
-msgctxt "dlgSgResetAdv.inf"
+msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
 msgstr ""
 
@@ -16344,3 +16340,31 @@ msgstr ""
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
+
+#~ msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
+#~ msgid "Please wait"
+#~ msgstr "Пожалуйста, подождите..."
+
+#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+#~ msgid "\\[$1\\] - $2"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
+#~ msgid "Do you want to abort the current revert?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+#~ msgid "\\[$1\\] - \\[$2\\] - $3"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgHostingProviderAdd.inf"
+#~ msgid "Set or select the options according to your account."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgProviderGenerateToken.hdl"
+#~ msgid "Generate a new API token for $1"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgResetAdv.inf"
+#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+#~ msgstr ""
