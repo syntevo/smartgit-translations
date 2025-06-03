@@ -2029,19 +2029,15 @@ msgctxt "dlgSgAbortRevertingConfirm.fur"
 msgid "Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgctxt "dlgSgAbortRevertingConfirm.hdl:"
 msgid "Do you want to abort the current revert?"
 msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
-msgstr ""
-
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
 msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
@@ -4149,11 +4145,11 @@ msgctxt "dlgSgFlowHotfixFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr ""
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
 msgstr ""
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish current hotfix"
 msgstr ""
 
@@ -4285,11 +4281,11 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr ""
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
 msgstr ""
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish current release"
 msgstr ""
 
@@ -5017,19 +5013,15 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr ""
-
-msgctxt "dlgSgHostingProviderAdd.inf"
+msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
 msgstr ""
 
@@ -9181,12 +9173,8 @@ msgctxt "dlgSgResetAdv.hdl%1"
 msgid "Reset to commit $1"
 msgstr ""
 
-msgctxt "dlgSgResetAdv.inf"
+msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-msgstr ""
-
-msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
 msgstr ""
 
 msgctxt "dlgSgResetAdv.lbl:"
@@ -9357,11 +9345,11 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
 msgstr ""
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Compare with Selected Commit"
 msgstr ""
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
 msgstr ""
 

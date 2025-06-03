@@ -310,6 +310,10 @@ msgid "Reveal Commit"
 msgstr "显示提交"
 
 msgctxt "dlgProgress.tle:"
+msgid "Searching Repositories"
+msgstr ""
+
+msgctxt "dlgProgress.tle:"
 msgid "SmartGit Installation Update"
 msgstr "SmartGit 安装更新"
 
@@ -725,13 +729,13 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "文件包含混合不一致的行尾序列."
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - 冲突解决工具"
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
+msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
@@ -1618,6 +1622,10 @@ msgid "Purchase Update"
 msgstr "购买更新"
 
 msgctxt "dlgScSetupLicense.btn:"
+msgid "Purchase"
+msgstr ""
+
+msgctxt "dlgScSetupLicense.btn:"
 msgid "Register"
 msgstr "注册产品"
 
@@ -2021,13 +2029,17 @@ msgctxt "dlgSgAbortRevertingConfirm.fur"
 msgid "Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr "您的工作区处于 “还原” 状态。您可以中止它以退出此状态，然后重新开始还原。\\n\\n中止将清除任何本地修改 \\(通过调用 “git reset --hard”\\)!"
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
-msgstr "你想重置你的工作区吗？"
+msgctxt "dlgSgAbortRevertingConfirm.hdl:"
+msgid "Do you want to abort the current revert?"
+msgstr ""
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
+msgid "Abort"
+msgstr ""
+
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr "丢弃"
+msgstr ""
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Register"
@@ -2338,6 +2350,10 @@ msgid "Delete"
 msgstr "删除"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
+msgid "Delete branch '$1' from remote repository '$2'"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.chk:"
 msgid "Delete from remote repository"
 msgstr "从远程仓库中删除"
 
@@ -2408,6 +2424,14 @@ msgstr "您确定要删除本地分支 “$1” 吗？"
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle"
 msgid "Delete"
 msgstr "删除"
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.btn:"
+msgid "Delete"
+msgstr ""
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmMultiple.tle"
+msgid "Delete"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
@@ -2902,6 +2926,22 @@ msgctxt "dlgSgClone.err:"
 msgid "Please specify the root directory of a local repository."
 msgstr "请指定本地仓库的根目录。"
 
+msgctxt "dlgSgClone.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Local Directory"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Repository"
+msgstr ""
+
+msgctxt "dlgSgClone.hdl:"
+msgid "Selection"
+msgstr ""
+
 msgctxt "dlgSgClone.hnt:"
 msgid "No repository found."
 msgstr ""
@@ -3394,6 +3434,10 @@ msgctxt "dlgSgCommitSelectMessageFromLog.mni:"
 msgid "Remember Pattern"
 msgstr "记住模式"
 
+msgctxt "dlgSgCommitSelectMessageFromLog.tbt:"
+msgid "Interpret the search pattern as regular expression."
+msgstr ""
+
 msgctxt "dlgSgCommitSelectMessageFromLog.tle"
 msgid "Select Commit Message"
 msgstr "选择提交消息"
@@ -3462,7 +3506,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -4102,13 +4146,21 @@ msgctxt "dlgSgFlowHotfixFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "提交/标签信息"
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
-msgstr "完成 hotfix"
+msgstr ""
+
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
+msgid "Finish current hotfix"
+msgstr ""
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the current hotfix. This operation will merge the hotfix into the '$1' and '$2' branches."
 msgstr "选择如何完成当前的修补程序。 此操作将修补程序合并到 “$1” 和 “$2” 分支中。"
+
+msgctxt "dlgSgFlowHotfixFinish.inf:"
+msgid "Choose how to finish the current hotfix."
+msgstr ""
 
 msgctxt "dlgSgFlowHotfixFinish.inf:"
 msgid "Choose how to finish the hotfix branch '$1'. This operation will merge the hotfix into the '$2' and '$3' branches."
@@ -4226,9 +4278,21 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit Message"
 msgstr "提交消息"
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.edt:"
+msgid "Commit/Tag Message"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
-msgstr "完成 release"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
+msgid "Finish current release"
+msgstr ""
+
+msgctxt "dlgSgFlowReleaseFinish.inf:"
+msgid "Choose how to finish the current release. This operation will merge the current release into the '$1' and '$2' branches."
+msgstr ""
 
 msgctxt "dlgSgFlowReleaseFinish.inf:"
 msgid "Choose how to finish the release branch '$1'. This operation will merge the current release into the '$2' and '$3' branches."
@@ -4245,6 +4309,10 @@ msgstr "完成 release"
 msgctxt "dlgSgFlowReleaseStart.btn:"
 msgid "Start"
 msgstr "开始"
+
+msgctxt "dlgSgFlowReleaseStart.chk:"
+msgid "Fetch from '$1' branch"
+msgstr ""
 
 msgctxt "dlgSgFlowReleaseStart.chk:"
 msgid "Fetch from base branch"
@@ -4281,6 +4349,14 @@ msgstr "开始"
 msgctxt "dlgSgFlowSupportStart.chk:"
 msgid "Fetch from '$1' branch"
 msgstr "从 '$1' 分支获取"
+
+msgctxt "dlgSgFlowSupportStart.chk:"
+msgid "Fetch from base branch"
+msgstr ""
+
+msgctxt "dlgSgFlowSupportStart.edt:"
+msgid "Base"
+msgstr ""
 
 msgctxt "dlgSgFlowSupportStart.edt:"
 msgid "Support Name"
@@ -4938,13 +5014,17 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
-msgid "Configure a new hosting provider account"
-msgstr "配置新的主机提供商账户"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitHub account"
+msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr "选择要为其配置新账户的托管服务提供商。"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Configure a new hosting provider account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.inf:"
+msgid "Set or select the options according to your account."
+msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
@@ -5465,6 +5545,22 @@ msgstr "是否要为大文件支持 \\(LFS\\) 初始化此仓库？"
 msgctxt "dlgSgLfsInstallConfirm.tle"
 msgid "LFS Install"
 msgstr "LFS 安装"
+
+msgctxt "dlgSgLfsPruneConfirm.btn:"
+msgid "Prune"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.fur"
+msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.hdl"
+msgid "Would you like to delete old LFS files from the local storage?"
+msgstr ""
+
+msgctxt "dlgSgLfsPruneConfirm.tle"
+msgid "LFS Prune"
+msgstr ""
 
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
@@ -6928,6 +7024,14 @@ msgid "Refresh"
 msgstr "刷新"
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Refs/Commits"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Stash"
 msgstr "贮藏"
 
@@ -6946,6 +7050,10 @@ msgstr "将发送文件: $1"
 msgctxt "dlgSgPreferences.lbl:"
 msgid "To manually update in-place use the '...' button located next to the version number in the About dialog."
 msgstr "要手动就地更新, 请使用关于对话框中版本号旁边的“...”按钮"
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Viewer:"
+msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
@@ -7407,7 +7515,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -7848,6 +7956,10 @@ msgstr "将 “$1” 推送到远程仓库"
 msgctxt "dlgSgPushToRef.hdl:"
 msgid "Push '$1' to remote '$2'"
 msgstr "将 “$1” 推送到远程 “$2”"
+
+msgctxt "dlgSgPushToRef.hdl:"
+msgid "Push local commits to a remote repository"
+msgstr ""
 
 msgctxt "dlgSgPushToRef.inf"
 msgid "Select the target repository where to push the ref\\(s\\)."
@@ -9065,9 +9177,9 @@ msgctxt "dlgSgResetAdv.hdl%1"
 msgid "Reset to commit $1"
 msgstr "重置提交 $1"
 
-msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
-msgstr "将当前分支 HEAD 重置为所选提交，并可选择更新索引和工作区。"
+msgctxt "dlgSgResetAdv.inf:"
+msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+msgstr ""
 
 msgctxt "dlgSgResetAdv.lbl:"
 msgid "Current staged and local changes will be lost!"
@@ -9237,9 +9349,13 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
 msgstr "是否要显示本地分支或跟踪分支？"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
+msgid "Compare with Selected Commit"
+msgstr ""
+
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
-msgstr "显示提交"
+msgstr ""
 
 msgctxt "dlgSgRevertAndCommitConfirmSingle.btn:"
 msgid "Revert && Commit"
@@ -9722,10 +9838,6 @@ msgid "User Name"
 msgstr "用户名"
 
 msgctxt "dlgSgSetup.inf:"
-msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
-msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
-
-msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
 msgstr "如果您使用 SSH 连接到其他 Git 仓库，请选择要使用的 SSH 客户端。 您可以稍后在偏好设置中进行更改。"
 
@@ -9748,6 +9860,10 @@ msgstr "用户名和电子邮件将作为提交的一部分存储。 您可以�
 msgctxt "dlgSgSetup.inf:"
 msgid "Welcome to SmartGit! Please confirm that you are accepting the license agreement."
 msgstr "欢迎来到 SmartGit！请确认您正在接受许可协议。"
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Welcome to SmartGit!\\nChoose the window style you prefer. You can change this option later in the preferences."
+msgstr "欢迎来到 SmartGit！决定您喜欢的 SmartGit 窗口。您可以稍后在偏好设置中更改此选项。"
 
 msgctxt "dlgSgSetup.lbl:"
 msgid "- Working Tree and Graph\\n- repository tabs\\n\\n- recommended for new users"
@@ -9848,7 +9964,7 @@ msgstr "工作区 \\(面向文件\\)"
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit $1"
 msgstr "设置 SmartGit $1"
-\\
+
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit"
 msgstr "设置 SmartGit"
@@ -11596,6 +11712,18 @@ msgstr ""
 
 msgctxt "ttpBranches:"
 msgid "<b>Stash:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Date:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tag Message:\\t</b>$1"
+msgstr ""
+
+msgctxt "ttpBranches:"
+msgid "<b>Tagger:\\t</b>$1"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -14204,6 +14332,22 @@ msgid "Revert $1"
 msgstr "撤销 $1"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Hunk"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Inner-Line Change"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Line"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Revert Selection"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Review"
 msgstr "评阅"
 
@@ -14366,6 +14510,10 @@ msgstr "切换"
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Unstage Hunk"
 msgstr "取消大量暂存"
+
+msgctxt "wnd(Log|Project|Std|).mni:"
+msgid "Unstage Inner-line Change"
+msgstr ""
 
 #, fuzzy
 msgctxt "wnd(Log|Project|Std|).mni:"
@@ -15728,6 +15876,10 @@ msgid "Apply Stash"
 msgstr "应用贮藏"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "Apply"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Blame"
 msgstr "追溯"
 
@@ -16218,13 +16370,57 @@ msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr ""
 
+#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+#~ msgid "\\[$1\\] - $2"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
+#~ msgid "Do you want to abort the current revert?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.tle"
+#~ msgid "Discard"
+#~ msgstr "丢弃"
+
 #~ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
 #~ msgid "Do you want to delete the branch '$1'?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+#~ msgid "\\[$1\\] - \\[$2\\] - $3"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgFlowHotfixFinish.hdl"
+#~ msgid "Finish a hotfix"
+#~ msgstr "完成 hotfix"
+
+#~ msgctxt "dlgSgFlowReleaseFinish.hdl"
+#~ msgid "Finish a release"
+#~ msgstr "完成 release"
+
+#~ msgctxt "dlgSgHostingProviderAdd.hdl"
+#~ msgid "Configure a new hosting provider account"
+#~ msgstr "配置新的主机提供商账户"
+
+#~ msgctxt "dlgSgHostingProviderAdd.inf"
+#~ msgid "Set or select the options according to your account."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgProviderGenerateToken.hdl"
+#~ msgid "Generate a new API token for $1"
 #~ msgstr ""
 
 #~ msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
 #~ msgid "Do you want to drop the local commits of pull request $1?"
 #~ msgstr ""
+
+#~ msgctxt "dlgSgResetAdv.inf"
+#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+#~ msgid "Reveal Commit"
+#~ msgstr "显示提交"
 
 #~ msgctxt "dlgSgRollbackToCommit.hdl"
 #~ msgid "Do you want to rollback the Index to the state of commit $1?"

@@ -98,10 +98,6 @@ msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
 msgid "Please wait ..."
 msgstr "Пожалуйста, подождите..."
 
-msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
-msgid "Please wait"
-msgstr "Пожалуйста, подождите..."
-
 msgctxt "dlgCommit.replaceMessage.btn:"
 msgid "Replace"
 msgstr "Заменить"
@@ -734,13 +730,13 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr "\\[$1\\] - $2"
-
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - Решатель конфликтов"
+
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgid "\\[$1\\] - $2"
+msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
@@ -2012,7 +2008,7 @@ msgstr "Прервать перемещение"
 
 msgctxt "dlgSgAbortRebasingConfirm.fur"
 msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
-msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \(путем вызова 'git rebase --abort'\\)!"
+msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
 msgid "Do you want to abort the rebasing?"
@@ -2034,19 +2030,15 @@ msgctxt "dlgSgAbortRevertingConfirm.fur"
 msgid "Your working tree is in 'reverting' state. You may abort it to get out of this state and freshly start over with the revert afterwards.\\n\\nAborting will clean any local modification \\(by invoking 'git reset --hard'\\)!"
 msgstr "Рабочий каталог находится в состоянии 'отката изменений'. Вы можете прервать операцию и выйти из этого состояния, чтобы выполнить эту операцию позднее.\\n\\nПрерывание операции очистит все изменения \\(вызовом 'git reset --hard'\\)!"
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
+msgctxt "dlgSgAbortRevertingConfirm.hdl:"
 msgid "Do you want to abort the current revert?"
-msgstr "Вы хотите прервать текущий откат изменений?"
+msgstr "Хотите прервать текущий откат изменений?"
 
-msgctxt "dlgSgAbortRevertingConfirm.hdl"
-msgid "Do you want to reset your working tree?"
-msgstr "Хотите сбросить ваше рабочее дерево?"
-
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Abort"
 msgstr "Прервать"
 
-msgctxt "dlgSgAbortRevertingConfirm.tle"
+msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr "Отклонить"
 
@@ -3514,7 +3506,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -4154,11 +4146,11 @@ msgctxt "dlgSgFlowHotfixFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "Сообщение коммита/метки"
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
 msgstr "Завершить хотфикс"
 
-msgctxt "dlgSgFlowHotfixFinish.hdl"
+msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish current hotfix"
 msgstr "Завершить текущий хотфикс"
 
@@ -4290,11 +4282,11 @@ msgctxt "dlgSgFlowReleaseFinish.edt:"
 msgid "Commit/Tag Message"
 msgstr "Сообщение коммита/метки"
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
 msgstr ""
 
-msgctxt "dlgSgFlowReleaseFinish.hdl"
+msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish current release"
 msgstr "Завершить текущий выпуск"
 
@@ -5022,21 +5014,17 @@ msgctxt "dlgSgHostingProviderAdd.err:"
 msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr "Добавить учётную запись GitHub"
 
-msgctxt "dlgSgHostingProviderAdd.hdl"
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr "Настроить новую учётную запись хостинг-провайдера"
 
-msgctxt "dlgSgHostingProviderAdd.inf"
-msgid "Select for which hosting provider you want to configure a new account."
-msgstr ""
-
-msgctxt "dlgSgHostingProviderAdd.inf"
+msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
-msgstr "Установите или выберите параметры своего аккаунта"
+msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Also provide the collection, e.g.: https://azure.devops.server/DefaultCollection"
@@ -7526,7 +7514,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
+msgctxt "dlgSgProviderGenerateToken.hdl%1"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -9186,13 +9174,9 @@ msgctxt "dlgSgResetAdv.hdl%1"
 msgid "Reset to commit $1"
 msgstr "Сброс состояния к коммиту $1"
 
-msgctxt "dlgSgResetAdv.inf"
+msgctxt "dlgSgResetAdv.inf:"
 msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
 msgstr "Сброс состояния текущей ветки (HEAD) до выбранного коммита и при необходимости обновление индекса и рабочего каталога."
-
-msgctxt "dlgSgResetAdv.inf"
-msgid "Reset the current branch head to the selected commit and optionally update Index and working tree."
-msgstr "Сброс состояния текущей ветки до выбранного коммита и при необходимости обновление индекса и рабочего каталога."
 
 msgctxt "dlgSgResetAdv.lbl:"
 msgid "Current staged and local changes will be lost!"
@@ -9362,11 +9346,11 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.hdl"
 msgid "Do you want to reveal the local or the tracked branch?"
 msgstr "Хотите ли вы перейти к локальной или отслеживаемой ветке?"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Compare with Selected Commit"
 msgstr "Сравнение с выбранным коммитом"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.tle"
+msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
 msgstr "Раскрыть коммит"
 
@@ -16357,3 +16341,31 @@ msgstr "$1 - Журнал"
 msgctxt "wnd(Log|Project|Std|).tle:"
 msgid "$1 \\[$2\\] - Log for $3"
 msgstr "$1 \\[$2\\] - Журнал для $3"
+
+#~ msgctxt "(wndLog|wndProject).lblStatusBarMessage:"
+#~ msgid "Please wait"
+#~ msgstr "Пожалуйста, подождите..."
+
+#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
+#~ msgid "\\[$1\\] - $2"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
+#~ msgid "Do you want to abort the current revert?"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
+#~ msgid "\\[$1\\] - \\[$2\\] - $3"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgHostingProviderAdd.inf"
+#~ msgid "Set or select the options according to your account."
+#~ msgstr ""
+
+#~ msgctxt "dlgSgProviderGenerateToken.hdl"
+#~ msgid "Generate a new API token for $1"
+#~ msgstr ""
+
+#~ msgctxt "dlgSgResetAdv.inf"
+#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
+#~ msgstr ""
