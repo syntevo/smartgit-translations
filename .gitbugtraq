@@ -1,0 +1,4 @@
+[bugtraq]
+  url = https://github.com/syntevo/smartgit-translations/issues/%BUGID%
+  loglinkregex = "#\\d+"
+  logregex = \\d+
