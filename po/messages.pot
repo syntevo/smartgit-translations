@@ -161,6 +161,21 @@ msgctxt "dlgCommitInvisibleIndex.tle"
 msgid "Commit"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgCommitNoEmailConfigured.fur"
+msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgCommitNoEmailConfigured.hdl"
+msgid "Please configure the email for commit."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgCommitNoEmailConfigured.tle"
+msgid "Commit"
+msgstr ""
+
 msgctxt "dlgCommitView.hiddenOptions.chk"
 msgid "Don't show again"
 msgstr ""
@@ -269,6 +284,19 @@ msgctxt "dlgDgSetPerspectiveCantSwitch.tle"
 msgid "Origins Perspective"
 msgstr ""
 
+msgctxt "dlgHostingProvider.canBeConfigured.btn:"
+msgid "Configure Hosting Provider"
+msgstr ""
+
+#| msgid "The easiest way to access the repository at https://gitlab.com/yubeshi/smartgit-translation.git is through a hosting provider."
+msgctxt "dlgHostingProvider.canBeConfigured.fur"
+msgid "The easiest way to access the repository at $1 is through a hosting provider."
+msgstr ""
+
+msgctxt "dlgHostingProvider.canBeConfigured.hdl"
+msgid "Do you want to configure a GitLab hosting provider?"
+msgstr ""
+
 msgctxt "dlgInfo.tle"
 msgid "Discard"
 msgstr ""
@@ -279,6 +307,14 @@ msgstr ""
 
 msgctxt "dlgProgress.lbl:"
 msgid "Please wait ..."
+msgstr ""
+
+# [decode] msgctxt "dlgProgress.lbl"Please wait …""
+# [decode] msgid "Please wait …"
+#| msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
+#| msgid "Please wait \\u2026"
+msgctxt "dlgProgress.lbl:"
+msgid "Please wait \\u2026"
 msgstr ""
 
 msgctxt "dlgProgress.tle:"
@@ -1037,8 +1073,16 @@ msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
 msgid "Force Exit"
 msgstr ""
 
+msgctxt "dlgScDialogAssertionHandlerLinkageError.btn:"
+msgid "Just Exit"
+msgstr ""
+
 msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
 msgid "SmartGit has detected inconsistencies within its installation files \\(JAR files\\), what has most likely been caused by a faulty installation.\\n\\nPlease uninstall SmartGit completely, make sure there are no more installation files left \\(especially JAR files\\), then reinstall.\\n\\nIf the problem persists, send following log file as an attachment to smartgit@syntevo.com."
+msgstr ""
+
+msgctxt "dlgScDialogAssertionHandlerLinkageError.lbl:"
+msgid "Your SmartGit-installation seems to be damaged."
 msgstr ""
 
 msgctxt "dlgScDialogAssertionHandlerLinkageError.tle"
@@ -1069,8 +1113,19 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
+# TODO: Review
+# We need to verify whether the placeholder replacement is appropriate.
+#
+# msgctxt "dlgScEvaluationReminderContinue.fur"
+# msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+#, fuzzy
 msgctxt "dlgScEvaluationReminderContinue.fur%2"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderContinue.hdl"
+msgid "Your SmartGit evaluation ends today."
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.hdl%1"
@@ -1081,12 +1136,84 @@ msgctxt "dlgScEvaluationReminderContinue.tle"
 msgid "Evaluation"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue \\($1\\)"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "&Continue"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "dlgScEvaluationReminderExpiredGrace.btn\"Continue \\(45\\)\""
+#| msgid "Continue \\(45\\)"
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Continue \\($1\\)"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Exit"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.btn:"
+msgid "Register"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.fur"
+msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.hdl"
+msgid "Your evaluation has already expired."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScEvaluationReminderExpiredGrace.tle"
+msgid "Evaluation"
+msgstr ""
+
 msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl%2"
 msgid "Cannot run program \"$1\": $2"
 msgstr ""
 
 msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
 msgid "\\[$1\\] - Conflict Solver"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterCommandNoFile.fur"
+msgid "Be sure to add arguments to the appropriate input field."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterCommandNoFile.hdl"
+msgid "The specified command is no file."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterCommandNoFile.tle"
+msgid "Input Validation"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterEmptyCommand.fur"
+msgid "Select the command which should be invoked."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterEmptyCommand.hdl"
+msgid "The Command input field must not be empty!"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScExternalFileStarterEmptyCommand.tle"
+msgid "Input Validation"
 msgstr ""
 
 msgctxt "dlgScFileComparatorAdd.hdl"
@@ -1477,6 +1604,10 @@ msgctxt "dlgScMasterPasswordEnter.inf"
 msgid "A stored password or passphrase has been requested from the password store."
 msgstr ""
 
+msgctxt "dlgScMasterPasswordEnter.lbl:"
+msgid "Forgot it? Reset it in the preferences, 'Authentication' page."
+msgstr ""
+
 msgctxt "dlgScMasterPasswordEnter.tle"
 msgid "Passwords"
 msgstr ""
@@ -1569,6 +1700,11 @@ msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
+msgid "License ID"
+msgstr ""
+
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Name"
 msgstr ""
@@ -1613,6 +1749,35 @@ msgctxt "dlgScRegisterRequestRejected.tle"
 msgid "SmartGit License"
 msgstr ""
 
+msgctxt "dlgScSecretToken.btn:"
+msgid "Connect"
+msgstr ""
+
+msgctxt "dlgScSecretToken.edt:"
+msgid "API Key"
+msgstr ""
+
+#| msgid "Provide API key for 'custom'"
+msgctxt "dlgScSecretToken.hdl"
+msgid "Provide API key for '$1'"
+msgstr ""
+
+msgctxt "dlgScSecretToken.inf"
+msgid "An API key is required to access the AI at 'http://127.0.0.1:1234/'. It will be stored in SmartGit's password store."
+msgstr ""
+
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://console.anthropic.com/settings/keys Anthropic account\\]."
+msgstr ""
+
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://console.mistral.ai/api-keys Mistral account\\]."
+msgstr ""
+
+msgctxt "dlgScSecretToken.lbl:"
+msgid "The API key can be created in your \\[https://platform.openai.com/settings/organization/api-keys OpenAI account\\]."
+msgstr ""
+
 msgctxt "dlgScSetupLicense.btn:"
 msgid "Configure Proxy"
 msgstr ""
@@ -1646,6 +1811,31 @@ msgid "Please provide your SmartGit license file you've received by email after 
 msgstr ""
 
 msgctxt "dlgScSetupLicense.tle"
+msgid "SmartGit License"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Exit Later"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
+msgid "Restart Now"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScSetupLicenseNeedsRestart.fur"
+msgid "You can do that now or manually later."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScSetupLicenseNeedsRestart.hdl"
+msgid "SmartGit has to be restarted for the license change to take effect."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgScSetupLicenseNeedsRestart.tle"
 msgid "SmartGit License"
 msgstr ""
 
@@ -2005,8 +2195,12 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr ""
 
+# TODO: Review
+# [decode] msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use ブランチ \| リベース \| リベース instead.\n\nAborting will clean any local modification \(by invoking 'git rebase --abort'\)!"
+#, fuzzy
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use \\u30d6\\u30e9\\u30f3\\u30c1 \\| \\u30ea\\u30d9\\u30fc\\u30b9 \\| \\u30ea\\u30d9\\u30fc\\u30b9 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use $1 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 msgstr ""
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
@@ -2041,6 +2235,11 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgSgAbout.btn:"
+msgid "Copy Evaluation-ID"
+msgstr ""
+
 msgctxt "dlgSgAbout.btn:"
 msgid "Register"
 msgstr ""
@@ -2055,6 +2254,11 @@ msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgAbout.edt:"
+msgid "Demo Until"
 msgstr ""
 
 msgctxt "dlgSgAbout.edt:"
@@ -2093,6 +2297,11 @@ msgctxt "dlgSgAbout.edt:"
 msgid "User Count"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgSgAbout.edt:"
+msgid "Valid Until"
+msgstr ""
+
 msgctxt "dlgSgAbout.edt:"
 msgid "Version"
 msgstr ""
@@ -2111,6 +2320,257 @@ msgstr ""
 
 msgctxt "dlgSgAbout.tle"
 msgid "About SmartGit"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
+msgid "Drop"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorDropAllNotes.fur"
+msgid "This will remove all AI-related Git notes from the repository."
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorDropAllNotes.hdl"
+msgid "Do you want to drop all AI-related Git notes?"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorDropAllNotes.tle"
+msgid "Drop AI Notes"
+msgstr ""
+
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
+msgid "Allow"
+msgstr ""
+
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
+msgid "Deny"
+msgstr ""
+
+#| msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n/Users/tomohiro/Git-projects/smartgit-translations-25.1-wip\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.fur"
+msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n$1\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+msgstr ""
+
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.hdl"
+msgid "Do you allow SmartGit to upload repository data to OpenAI?"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur"
+msgid "Click the AI button again to generate your first commit message."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.hdl"
+msgid "GitHub models are now configured."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeActionSetup.tle"
+msgid "AI Commit Message Compose"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeError.fur"
+msgid "No modifications found."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeError.hdl"
+msgid "AI generation of the commit message failed."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageComposeError.tle"
+msgid "AI Commit Message Compose"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.hdl"
+msgid "Configure AI integration"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.inf"
+msgid "SmartGit supports AI-generated commit messages, with more AI features coming. GitHub models can be used out-of-the-box."
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Configure manually \\(view documentation\\)"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Disable AI integration"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Use GitHub models for this repository"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.rbt:"
+msgid "Use GitHub models globally"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetup.tle"
+msgid "AI Integration"
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.btn:"
+msgid "Confirm"
+msgstr ""
+
+# [decode] msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data – either from the working tree or selected commits – to GitHub's servers.\n\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \(see the drop-down menu for configuration\)."
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.fur"
+msgid "To generate commit messages or other AI-based suggestions, SmartGit transmits the relevant git diff data \\u2013 either from the working tree or selected commits \\u2013 to GitHub's servers.\\n\\nBy default, this transfer only occurs when the operation is explicitly invoked. However, background transfer is also possible \\(see the drop-down menu for configuration\\)."
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.hdl"
+msgid "Git diffs will be sent to GitHub for AI processing."
+msgstr ""
+
+msgctxt "dlgSgAiIntegrationSetupGitHubSingle.tle"
+msgid "Confirm GitHub AI Usage"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.btn:"
+msgid "Go Back"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable automatic stash messages"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable commit explanation"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Enable commit rewording"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.chk:"
+msgid "Only for current repository"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.edt:"
+msgid "API URL"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.edt:"
+msgid "Model"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.edt:"
+msgid "URL Query"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Commit Rewording"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Explain Commits"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Please wait"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Stash Messages"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.hdl:"
+msgid "Welcome"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can automatically generate stash messages."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can explain individual commits or commit ranges in the background. Results are stored in Git notes."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit can reword commit messages in the background when using special markers."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
+msgid "SmartGit offers AI-powered features to enhance productivity, simplify workflows, and assist you with your repositories."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
+msgid "Verifying connectivity\\u2026"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Leave the stash message blank to enable auto-generation.\\n- SmartGit will generate a message and safely update the stash in the background.\\n- You can always enable or disable AI stash rewording in the Save Stash dialog.\\n"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Select one or more commits to generate a natural language explanation.\\n- For multiple commits, explanations are generated in the background and saved in Git Notes.\\n- Select two different branches to generate an explanation of their differences.\\n"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "- Use '@ai' to reword the entire commit message.\\n- 'WIP' will describe Work in Progress with an AI generated commit message.\\n- You can always enable or disable AI commit rewording features from the hamburger menu.\\n"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Optional parameters"
+msgstr ""
+
+#| msgctxt "dlgSgAiSetup.lbl\"Please wait \\u2026\""
+#| msgid "Please wait \\u2026"
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Please wait \\u2026"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Select your AI provider. This is the service SmartGit will use to generate AI-powered content."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "SmartGit won't ask about AI features again."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Steps"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Your GitHub credentials from the Hosting Provider configuration will be used. There is nothing more to set up here."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.rbt:"
+msgid "Disable AI integration globally"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.rbt:"
+msgid "Enable AI integration"
+msgstr ""
+
+#| msgid "The configuration has been saved to '/Users/tomohiro/Git-projects/smartgit-translations/.git/smartgit-ai', which is included by '/Users/tomohiro/Git-projects/smartgit-translations/.git/config'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
+msgctxt "dlgSgAiSetupConfigurationSuccess.fur"
+msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
+msgstr ""
+
+msgctxt "dlgSgAiSetupConfigurationSuccess.hdl"
+msgid "The AI integration has been configured successfully."
+msgstr ""
+
+#| msgid "Object 'message/content' not found."
+msgctxt "dlgSgAiSetupConnectivityFailed.fur"
+msgid "Object '$1' not found."
+msgstr ""
+
+#| msgid "Connection to 'ollama' failed."
+msgctxt "dlgSgAiSetupConnectivityFailed.hdl"
+msgid "Connection to '$1' failed."
+msgstr ""
+
+msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur"
+msgid "API URL missing."
+msgstr ""
+
+msgctxt "dlgSgAiSetupLlmConfigurationInvalid.hdl"
+msgid "Configuration is invalid."
 msgstr ""
 
 msgctxt "dlgSgApplicationAlreadyRunning.fur%1"
@@ -2485,8 +2945,9 @@ msgctxt "dlgSgBranchTrackingResetConfirm.tle"
 msgid "Stop Tracking"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgBranchTrackingSetConfirm.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.fur"
@@ -2499,6 +2960,22 @@ msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.tle"
 msgid "Set Tracked Branch"
+msgstr ""
+
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.btn:"
+msgid "Open"
+msgstr ""
+
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.fur"
+msgid "You can see a detailed list of pull requests in the Log's Branches view and review changes in the Graph."
+msgstr ""
+
+msgctxt "dlgSgBranchesOpenPullRequestsInLog.hdl"
+msgid "Do you want to review pull requests in the Log?"
 msgstr ""
 
 msgctxt "dlgSgBugReportSettings.btn:"
@@ -2597,6 +3074,34 @@ msgctxt "dlgSgCheckoutLocalBranchConfirm.tle"
 msgid "Check Out"
 msgstr ""
 
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.btn:"
+msgid "Checkout"
+msgstr ""
+
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.fur"
+msgid "The target branch has a different submodules configuration \\(.gitmodules\\). If you were expecting this change, you can proceed as usual.\\n\\nOtherwise, be aware that significant changes to your submodule configuration can lead to complex working tree states. In some cases, it might be simpler to perform a fresh clone of the target branch."
+msgstr ""
+
+msgctxt "dlgSgCheckoutSubmoduleChangeConfirm.hdl"
+msgid "Do you want to check out branch 'main'?"
+msgstr ""
+
+msgctxt "dlgSgCheckoutSwitchToWorktree.btn:"
+msgid "Switch"
+msgstr ""
+
+msgctxt "dlgSgCheckoutSwitchToWorktree.fur"
+msgid "A worktree repository already exists for the selected branch. Therefore, you can't check out this branch directly, but you can switch to this worktree."
+msgstr ""
+
+msgctxt "dlgSgCheckoutSwitchToWorktree.hdl"
+msgid "Do you want to switch to worktree 'C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-25.1_windows'?"
+msgstr ""
+
+msgctxt "dlgSgCheckoutSwitchToWorktree.tle"
+msgid "Check Out"
+msgstr ""
+
 msgctxt "dlgSgCheckoutTarget.btn:"
 msgid "Checkout"
 msgstr ""
@@ -2607,6 +3112,10 @@ msgstr ""
 
 msgctxt "dlgSgCheckoutTarget.chk:"
 msgid "Track remote branch"
+msgstr ""
+
+msgctxt "dlgSgCheckoutTarget.err:"
+msgid "The name must not end with a slash or dot."
 msgstr ""
 
 msgctxt "dlgSgCheckoutTarget.hdl:"
@@ -2717,8 +3226,9 @@ msgctxt "dlgSgCherryPickConfirmation.chk"
 msgid "Append source commit ID to commit message"
 msgstr ""
 
+#| msgid "This will cherry-pick the selected commit into the Working Tree."
 msgctxt "dlgSgCherryPickConfirmation.fur"
-msgid "This will cherry-pick the selected commit into the Working Tree."
+msgid "This will cherry-pick the selected commits into the Working Tree."
 msgstr ""
 
 msgctxt "dlgSgCherryPickConfirmation.hdl"
@@ -2837,8 +3347,25 @@ msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
 msgstr ""
 
+#| msgid "Configure"
+msgctxt "dlgSgClone.btn:"
+msgid "Configure Features"
+msgstr ""
+
 msgctxt "dlgSgClone.btn:"
 msgid "Configure"
+msgstr ""
+
+msgctxt "dlgSgClone.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgClone.btn:"
+msgid "Go Back"
+msgstr ""
+
+msgctxt "dlgSgClone.chk:"
+msgid "Configure newly cloned repository to use SmartGit as credential helper"
 msgstr ""
 
 msgctxt "dlgSgClone.chk:"
@@ -2953,6 +3480,12 @@ msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
 msgstr ""
 
+# [decode] msgctxt "dlgSgClone.hnt"Searching …""
+# [decode] msgid "Searching …"
+msgctxt "dlgSgClone.hnt:"
+msgid "Searching \\u2026"
+msgstr ""
+
 msgctxt "dlgSgClone.inf:"
 msgid "Customize how and what to clone."
 msgstr ""
@@ -2987,6 +3520,21 @@ msgstr ""
 
 msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgClone.mni:"
+msgid "Own Repositories"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgClone.mni:"
+msgid "Starred Repositories"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgClone.mni:"
+msgid "Top Repositories"
 msgstr ""
 
 msgctxt "dlgSgClone.rbt:"
@@ -3371,6 +3919,10 @@ msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hdl"
 msgid "Select a commit"
+msgstr ""
+
+msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
+msgid "No graph roots selected."
 msgstr ""
 
 msgctxt "dlgSgCommitSelectMessageFromLog.hnt:"
@@ -3769,8 +4321,16 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle"
 msgid "Discard"
 msgstr ""
 
+# TODO: Review
+# Multiple different messages (msgid) were detected.
+# msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+# msgid "Repository 'XXXXXX' is not valid."
+# msgid "No valid worktree state of the repository."
+# msgid "Server returned HTTP response code: 401 for URL: https://gitlab.com/api/v4/user:\\n\\nToken was revoked. You have to re-authorize from the user."
+#, fuzzy
+#| msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
 msgctxt "dlgSgErrorUtilsClientException.fur"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgid "Repository '$1' is not valid."
 msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
@@ -3837,8 +4397,14 @@ msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1"
 msgid "'$1' could not be invoked."
 msgstr ""
 
+#| msgid "Open"
 msgctxt "dlgSgFileCompareInvokerFailedIO.tle"
-msgid "Open"
+msgid "Open from Working Tree"
+msgstr ""
+
+#| msgid "Open"
+msgctxt "dlgSgFileCompareNoChanges.btn:"
+msgid "Open from Working Tree"
 msgstr ""
 
 msgctxt "dlgSgFileCompareNoChanges.btn:"
@@ -4421,6 +4987,53 @@ msgctxt "dlgSgGarbageCollectorDeleteAllStashes.tle"
 msgid "Run Garbage Collector"
 msgstr ""
 
+msgctxt "dlgSgGitConfigEditConfigNotFound.fur"
+msgid "The file C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations\\\\.git\\\\worktrees\\\\smartgit-translations-25.1_windows\\\\config could not be opened for editing."
+msgstr ""
+
+msgctxt "dlgSgGitConfigEditConfigNotFound.hdl"
+msgid "The file config was not found."
+msgstr ""
+
+msgctxt "dlgSgGitConfigEditConfigNotFound.tle"
+msgid "Edit Config"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Refresh"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
+msgid "Select"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Number"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.col:"
+msgid "Title"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.hdl"
+msgid "Select commit message by GitHub issue"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.inf"
+msgid "The selected issue summary will be used as commit message."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgGitHubCommitMessageSelect.tle"
+msgid "Select Issue"
+msgstr ""
+
 msgctxt "dlgSgGitHubGenerateToken.btn:"
 msgid "Authenticate"
 msgstr ""
@@ -4617,6 +5230,26 @@ msgctxt "dlgSgGitLabSettingsInvalidToken.tle"
 msgid "Input Validation"
 msgstr ""
 
+msgctxt "dlgSgGitNoteAdd.btn:"
+msgid "Add Note"
+msgstr ""
+
+msgctxt "dlgSgGitNoteAdd.edt:"
+msgid "Category"
+msgstr ""
+
+msgctxt "dlgSgGitNoteAdd.hdl"
+msgid "Add a note to a commit"
+msgstr ""
+
+msgctxt "dlgSgGitNoteAdd.inf"
+msgid "Provider the text which should be added to the selected commit."
+msgstr ""
+
+msgctxt "dlgSgGitNoteAdd.tle"
+msgid "Add Note"
+msgstr ""
+
 msgctxt "dlgSgHeadMessageListenerReplaceMessage.btn:"
 msgid "Don't Replace"
 msgstr ""
@@ -4641,8 +5274,9 @@ msgctxt "dlgSgHeadMessageListenerReplaceMessage.tle"
 msgid "Commit"
 msgstr ""
 
+#| msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
 msgctxt "dlgSgHistoryCommitCantBeModified.fur"
-msgid "At least one of the affected commits is not part of your HEAD's first-parent history."
+msgid "To modify commits of a different branch, you need to first check out this branch."
 msgstr ""
 
 msgctxt "dlgSgHistoryCommitCantBeModified.hdl"
@@ -4691,6 +5325,26 @@ msgstr ""
 
 msgctxt "dlgSgHistoryEditAuthor.tle"
 msgid "Edit Author"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Commit"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditChooseCommitMessage.btn:"
+msgid "From Failed Command"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditChooseCommitMessage.fur"
+msgid "A previous Edit Message command invocation failed for this commit. Decide whether to use the commit message from the failed run or the commit's message."
+msgstr ""
+
+msgctxt "dlgSgHistoryEditChooseCommitMessage.hdl"
+msgid "Which commit message you like to use?"
+msgstr ""
+
+msgctxt "dlgSgHistoryEditChooseCommitMessage.tle"
+msgid "Edit Message"
 msgstr ""
 
 msgctxt "dlgSgHistoryEditMessage.btn:"
@@ -4841,6 +5495,11 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
+msgid "Edit Author"
+msgstr ""
+
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Message"
 msgstr ""
@@ -4887,6 +5546,10 @@ msgstr ""
 
 msgctxt "dlgSgHistorySplitConfirm.tle"
 msgid "Split Commit"
+msgstr ""
+
+msgctxt "dlgSgHistorySquash.btn:"
+msgid "Add co-authors"
 msgstr ""
 
 msgctxt "dlgSgHistorySquash.btn:"
@@ -5014,11 +5677,45 @@ msgid "The entered URL is invalid - it should look like https://server"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Azure DevOps Server account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Azure DevOps account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Bitbucket Server account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add Bitbucket account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitHub Enterprise account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitLab \\(Self Hosted\\) account"
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.hdl:"
+msgid "Add GitLab account"
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgHostingProviderAdd.inf"
+msgid "Set or select the options according to your account."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.inf:"
@@ -5039,6 +5736,10 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
 msgid "Provide a 'personal access token' which you can generate in your GitHub account settings."
+msgstr ""
+
+msgctxt "dlgSgHostingProviderAdd.lbl:"
+msgid "Required scopes are 'api' and 'write_repository'."
 msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.lbl:"
@@ -5435,6 +6136,10 @@ msgstr ""
 
 msgctxt "dlgSgIgnoreFile.edt:"
 msgid "Ignore File"
+msgstr ""
+
+msgctxt "dlgSgIgnoreFile.err:"
+msgid "Enter a pattern for the file\\(s\\) to be ignored. Use \\* to match multiple or ? for a single arbitrary character."
 msgstr ""
 
 msgctxt "dlgSgIgnoreFile.err:"
@@ -5961,6 +6666,27 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.tle"
 msgid "Add or Create Repository"
 msgstr ""
 
+msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
+msgid "Inner Repository"
+msgstr ""
+
+msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
+msgid "Outer Repository"
+msgstr ""
+
+#| msgid "At the specified path nested repositories were found.\\nInner repository: D:\\\\GitRepository\\\\xxxx\\\\xxxx\\nOuter repository: D:\\\\GitRepository\\\\xxxx"
+msgctxt "dlgSgOpenRepositoryOuterOrInner.fur"
+msgid "At the specified path nested repositories were found.\\nInner repository: $1\\nOuter repository: $2"
+msgstr ""
+
+msgctxt "dlgSgOpenRepositoryOuterOrInner.hdl"
+msgid "Do you want to open the outer or inner repository?"
+msgstr ""
+
+msgctxt "dlgSgOpenRepositoryOuterOrInner.tle"
+msgid "Add or Create Repository"
+msgstr ""
+
 msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur%1"
 msgid "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 msgstr ""
@@ -5995,6 +6721,10 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Abort failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Add Branch failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -6054,6 +6784,18 @@ msgid "Command Discard failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Discard produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Author produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Edit Message failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch Pull Request produced warnings."
 msgstr ""
 
@@ -6063,6 +6805,10 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Fetch produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command LFS Install failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -6082,6 +6828,10 @@ msgid "Command Move produced warnings."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "Command Pull \\(Merge\\) failed!"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Command Pull \\(Merge\\) produced warnings."
 msgstr ""
 
@@ -6097,6 +6847,23 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Push failed!"
 msgstr ""
 
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 4d7f618e failed!"
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
+msgstr ""
+
+# Needs review (Place holder)
+# msgid "Command Rebase HEAD \\(pot-wip/v24.1-wsl\\) to 79193904 produced warnings."
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
+msgstr ""
+
+#| msgid "Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!"
+msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!\""
+msgid "Command Rebase HEAD \\(feature/forceinclude\\) to $1 failed!"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase Interactive failed!"
 msgstr ""
@@ -6107,6 +6874,10 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase produced warnings."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Remove Worktree failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -6170,11 +6941,32 @@ msgid "Not all refs have been pushed."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "The command output below contains more details on the problem."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "The working tree has local changes."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
+msgstr ""
+
+# Needs Review
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': Could not resolve host: $2"
+msgstr ""
+
+# TODO: review
+#, fuzzy
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to access '$1': server certificate verification failed. CAfile: $2 CRLfile: $3"
+msgstr ""
+
+#| msgid "unable to auto-detect email address \\(got 'XXXX@XXXXXX.\\(none\\)'\\)"
+msgctxt "dlgSgOutput.lbl:"
+msgid "unable to auto-detect email address \\(got '$1.\\(none\\)'\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.mni:"
@@ -6199,6 +6991,11 @@ msgstr ""
 
 msgctxt "dlgSgOutput.tle:"
 msgid "Output"
+msgstr ""
+
+#| msgid "repository 'https://smartgit.userecho.com/communities/1/topics/395-clone-first-clone-just-the-head-and-then-fetch-the-other-commits-in-background/' not found."
+msgctxt "dlgSgPingRepositoryFailed.fur"
+msgid "repository '$1' not found."
 msgstr ""
 
 msgctxt "dlgSgPingRepositoryFailed.fur%1"
@@ -6258,6 +7055,10 @@ msgid "Import"
 msgstr ""
 
 msgctxt "dlgSgPreferences.btn:"
+msgid "Load All Stored Secrets"
+msgstr ""
+
+msgctxt "dlgSgPreferences.btn:"
 msgid "Move Down"
 msgstr ""
 
@@ -6287,6 +7088,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.btn:"
 msgid "Show Password"
+msgstr ""
+
+msgctxt "dlgSgPreferences.cdl:"
+msgid "AI Integration"
 msgstr ""
 
 msgctxt "dlgSgPreferences.cdl:"
@@ -6390,6 +7195,10 @@ msgid "Allow modifying pushed commits \\(e.g. forced-push\\)"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Allow modifying pushed commits \\(e.g. forced-push\\):"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Allow to open multiple Log windows for the same repository/file"
 msgstr ""
 
@@ -6439,6 +7248,18 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
 msgid "Configure SmartGit as credential helper \\(for repository authentication\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Configure SmartGit as credential helper for Git command line"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Configure newly cloned repository to use SmartGit as credential helper on Git command line"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Delete branch"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
@@ -6522,6 +7343,10 @@ msgid "Push all tags"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Quick Polls \\(help shape SmartGit\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Refresh file system also while SmartGit is in background"
 msgstr ""
 
@@ -6578,6 +7403,10 @@ msgid "Sign all commits"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "SmartGit-related announcements"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Swap 'ours' and 'theirs' on Rebase conflicts for easier understanding"
 msgstr ""
 
@@ -6627,6 +7456,12 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom..."
+msgstr ""
+
+# [decode] msgctxt "dlgSgPreferences.cmb"Custom…""
+# [decode] msgid "Custom…"
+msgctxt "dlgSgPreferences.cmb:"
+msgid "Custom\\u2026"
 msgstr ""
 
 msgctxt "dlgSgPreferences.cmb:"
@@ -6683,6 +7518,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.col:"
 msgid "Command"
+msgstr ""
+
+msgctxt "dlgSgPreferences.col:"
+msgid "Credential"
 msgstr ""
 
 msgctxt "dlgSgPreferences.col:"
@@ -6810,6 +7649,10 @@ msgid "Name"
 msgstr ""
 
 msgctxt "dlgSgPreferences.edt:"
+msgid "Notify about"
+msgstr ""
+
+msgctxt "dlgSgPreferences.edt:"
 msgid "On startup"
 msgstr ""
 
@@ -6929,7 +7772,11 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr ""
 
-msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Changing these low-level properties may harm the stability or performance of SmartGit.\\n\\[_ Changed properties\\] with a trailing \\\\\\* need a restart to be applied."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Checkout \\(Switch branch\\)"
 msgstr ""
 
@@ -6966,7 +7813,15 @@ msgid "External tool:"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Finish Feature"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Garbage Collector"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "General"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -6991,6 +7846,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Local and Remote Changes"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "Note: Some repositories may already have per-repository AI settings."
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -7034,6 +7893,10 @@ msgid "Stash"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "The last check was performed on $1."
 msgstr ""
 
@@ -7043,6 +7906,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "This file will be sent as is: $1"
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "To configure, click the AI button in the Commit Message view or the Commit dialog."
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -7146,6 +8013,10 @@ msgid "Copy Selection in Column"
 msgstr ""
 
 msgctxt "dlgSgPreferences.mni:"
+msgid "Credential"
+msgstr ""
+
+msgctxt "dlgSgPreferences.mni:"
 msgid "Default"
 msgstr ""
 
@@ -7177,7 +8048,7 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "GitHub"
 msgstr ""
 
-msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab \\(Self Hosted\\)"
 msgstr ""
 
@@ -7294,6 +8165,10 @@ msgid "Exact case \\('Foo' will match 'Foo', but not 'foo'\\)"
 msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
+msgid "For all branches"
+msgstr ""
+
+msgctxt "dlgSgPreferences.rbt:"
 msgid "Ignore case \\('Foo' will match 'Foo' and 'foo'\\)"
 msgstr ""
 
@@ -7307,6 +8182,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Log graph \\(commit oriented\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.rbt:"
+msgid "Only for feature branches"
 msgstr ""
 
 msgctxt "dlgSgPreferences.rbt:"
@@ -7379,6 +8258,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.tab:"
 msgid "Colors"
+msgstr ""
+
+msgctxt "dlgSgPreferences.tab:"
+msgid "Credential Helper"
 msgstr ""
 
 msgctxt "dlgSgPreferences.tab:"
@@ -7481,6 +8364,10 @@ msgctxt "dlgSgProcessKiller.lbl:"
 msgid "If you think the process is hanging, click the 'Kill Process' button, otherwise 'Wait'."
 msgstr ""
 
+msgctxt "dlgSgProcessKiller.lbl:"
+msgid "SmartGit is waiting for the following process to finish."
+msgstr ""
+
 msgctxt "dlgSgProcessKiller.tle"
 msgid "Process Not Responding"
 msgstr ""
@@ -7503,6 +8390,38 @@ msgstr ""
 
 msgctxt "dlgSgProviderCommentEdit.tle"
 msgid "Edit Comment"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
+msgid "github.com"
+msgstr ""
+
+#| msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb\"github\\(yubeshi-AI\\)\""
+#| msgid "github\\($1\\)"
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
+msgid "github\\($1\\)"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
+msgid "Provider"
+msgstr ""
+
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
+msgid "Select which GitHub account to use"
+msgstr ""
+
+#| msgid "Select which account you want to use for connecting to 'https://github.com/ktyubeshi/fast-bunkai.git'."
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf"
+msgid "Select which account you want to use for connecting to '$1'."
+msgstr ""
+
+# Verify that there’s no issue, since the `msgctxt` does not end with “:” and contains a proper noun.
+msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle"
+msgid "Select GitHub account"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.btn:"
@@ -7681,8 +8600,9 @@ msgctxt "dlgSgPull.tle"
 msgid "Pull"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "dlgSgPullConfiguration.btn:"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgPullConfiguration.chk:"
@@ -7821,6 +8741,16 @@ msgctxt "dlgSgPushConfirmSingleTag.chk"
 msgid "Don't show again"
 msgstr ""
 
+#| msgid "1 tag will be pushed to 'origin'."
+msgctxt "dlgSgPushConfirmSingleTag.fur"
+msgid "$1 tag will be pushed to '$2'."
+msgstr ""
+
+#| msgid "Do you want to push tag 'Release/0.0.14'?"
+msgctxt "dlgSgPushConfirmSingleTag.hdl"
+msgid "Do you want to push tag '$1'?"
+msgstr ""
+
 msgctxt "dlgSgPushConfirmSingleTag.tle"
 msgid "Push"
 msgstr ""
@@ -7833,8 +8763,12 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-msgctxt "dlgSgPushForced.hdl"
-msgid "Do you want to force-push \\(replace\\) the remote branch?"
+# TODO: Review
+# We need to verify whether the placeholder replacement is appropriate.
+#, fuzzy
+#| msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
+msgctxt "dlgSgPushForced.hdl%1"
+msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgPushForced.tle"
@@ -8163,6 +9097,57 @@ msgstr ""
 
 msgctxt "dlgSgRebaseContinueNothingToCommitContinue.tle"
 msgid "Rebase"
+msgstr ""
+
+#, fuzzy
+#| msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn\"Continue \\(Resume\\)\""
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.btn:"
+msgid "Continue \\(Resume\\)"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.chk"
+msgid "Don't show again"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.fur"
+msgid "Clicking 'Continue' will resume the rebase, e.g. to finish after having modified the commit\\(s\\)."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.hdl"
+msgid "Do you want to continue the modify-commit-rebase?"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyContinue.tle"
+msgid "Modify Commit"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.btn:"
+msgid "Step"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.chk"
+msgid "Don't show again"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.fur"
+msgid "Clicking 'Step' will continue the rebase and stop at the next commit. Use it to step through all pending commits, e.g. to verify whether they successfully build."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.hdl"
+msgid "Do you want to step to the next commit?"
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRebaseContinueNothingToCommitModifyStep.tle"
+msgid "Modify Commit"
 msgstr ""
 
 msgctxt "dlgSgRebaseContinueNothingToCommitSkip.btn:"
@@ -8729,6 +9714,10 @@ msgctxt "dlgSgRenameBranch.edt:"
 msgid "Name"
 msgstr ""
 
+msgctxt "dlgSgRenameBranch.err:"
+msgid "The name must not end with a slash or dot."
+msgstr ""
+
 msgctxt "dlgSgRenameBranch.hdl"
 msgid "Rename branch"
 msgstr ""
@@ -8747,6 +9736,10 @@ msgstr ""
 
 msgctxt "dlgSgRenameFile.edt:"
 msgid "Path"
+msgstr ""
+
+msgctxt "dlgSgRenameFile.err:"
+msgid "No valid path specified."
 msgstr ""
 
 msgctxt "dlgSgRenameFile.hdl"
@@ -8889,6 +9882,11 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
+#, fuzzy
+msgctxt "dlgSgRepositoryClose.btn:"
+msgid "Force Exit"
+msgstr ""
+
 msgctxt "dlgSgRepositoryClose.fur"
 msgid "Note that currently running Git processes might not be interrupted."
 msgstr ""
@@ -9018,6 +10016,10 @@ msgid "Always fetch new commits, tags and branches from submodule"
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.chk:"
+msgid "Configure SmartGit as credential helper for Git command line"
+msgstr ""
+
+msgctxt "dlgSgRepositorySettings.chk:"
 msgid "Initialize new submodules"
 msgstr ""
 
@@ -9089,12 +10091,18 @@ msgctxt "dlgSgRepositorySettings.hdl"
 msgid "Edit the repository settings"
 msgstr ""
 
+#, fuzzy
+#| msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 msgctxt "dlgSgRepositorySettings.inf"
-msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
+msgid "Here you can edit the Git settings for the repository. The default settings can be found in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.lbl:"
 msgid "\\* if repository commit references non-pushed submodule commit"
+msgstr ""
+
+msgctxt "dlgSgRepositorySettings.tab:"
+msgid "Credential Helper"
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.tab:"
@@ -9143,6 +10151,11 @@ msgstr ""
 
 msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
+msgstr ""
+
+#, fuzzy
+msgctxt "dlgSgRepositorySettings.wrn:"
+msgid "It is recommended to set an email address used for committing."
 msgstr ""
 
 msgctxt "dlgSgRepositorySettings.wrn:"
@@ -9806,11 +10819,23 @@ msgid "Send usage statistics"
 msgstr ""
 
 msgctxt "dlgSgSetup.chk:"
+msgid "Use SmartGit for authentication \\(ignoring your current credential.helper configuration\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.chk:"
 msgid "Use gravatar.com to show images for the users"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
 msgid "Email"
+msgstr ""
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Full Name"
+msgstr ""
+
+msgctxt "dlgSgSetup.edt:"
+msgid "Git Email"
 msgstr ""
 
 msgctxt "dlgSgSetup.edt:"
@@ -9833,8 +10858,32 @@ msgctxt "dlgSgSetup.edt:"
 msgid "User Name"
 msgstr ""
 
+msgctxt "dlgSgSetup.hdl:"
+msgid "Git Executable"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "License"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Privacy"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "Style"
+msgstr ""
+
+msgctxt "dlgSgSetup.hdl:"
+msgid "User Information"
+msgstr ""
+
 msgctxt "dlgSgSetup.inf:"
 msgid "If you are using SSH to connect to other Git repositories, select what SSH client to use. You can change it later in the Preferences."
+msgstr ""
+
+msgctxt "dlgSgSetup.inf:"
+msgid "Please review the following privacy options. You can change them later in the Preferences."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -9851,6 +10900,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
 msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in .gitconfig."
+msgstr ""
+
+msgctxt "dlgSgSetup.inf:"
+msgid "User name and email will be stored as part of your commits. Here you can configure the default values which are stored in ~/.gitconfig."
 msgstr ""
 
 msgctxt "dlgSgSetup.inf:"
@@ -9918,6 +10971,10 @@ msgid "may be harder to configure and use for new users, but is more flexible"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
+msgid "Bundled Git"
+msgstr ""
+
+msgctxt "dlgSgSetup.rbt:"
 msgid "Commits \\(Log History\\)"
 msgstr ""
 
@@ -9931,6 +10988,10 @@ msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
 msgid "Non-commercial use only \\(most features, no support\\)"
+msgstr ""
+
+msgctxt "dlgSgSetup.rbt:"
+msgid "Other Git Executable:"
 msgstr ""
 
 msgctxt "dlgSgSetup.rbt:"
@@ -9957,6 +11018,10 @@ msgctxt "dlgSgSetup.rbt:"
 msgid "Working tree \\(file oriented\\)"
 msgstr ""
 
+msgctxt "dlgSgSetup.tle"
+msgid "Setup SmartGit 24.1.3"
+msgstr ""
+
 msgctxt "dlgSgSetup.tle:"
 msgid "Setup SmartGit $1"
 msgstr ""
@@ -9969,8 +11034,9 @@ msgctxt "dlgSgSetupStdWnd.btn:"
 msgid "Use Standard Window"
 msgstr ""
 
+#| msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
 msgctxt "dlgSgSetupStdWnd.fur"
-msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
+msgid "We recommend the Standard window for \\*new SmartGit users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
 msgstr ""
 
 msgctxt "dlgSgSetupStdWnd.hdl"
@@ -10254,6 +11320,10 @@ msgid "Automatically save stash"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
+msgid "Add Branch may require a clean working tree to complete successfully. After the Add Branch succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Check Out may require a clean working tree to complete successfully. After the Check Out succeeded, the stashed local changes will be automatically reapplied."
 msgstr ""
 
@@ -10279,6 +11349,10 @@ msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.fur:"
 msgid "Squash Commits may require a clean working tree to complete successfully. After the Squash Commits succeeded, the stashed local changes will be automatically reapplied."
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Add Branch?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
@@ -10321,8 +11395,9 @@ msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "What to do with the working tree or Index changes?"
 msgstr ""
 
+#| msgid "Reset"
 msgctxt "dlgSgStashOnDemandConfirmation.tle"
-msgid "Reset"
+msgid "Edit Message"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
@@ -10333,8 +11408,25 @@ msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr ""
 
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
+msgid "Discard"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.fur"
+msgid "It might be hard or impossible to restore them!"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.hdl"
+msgid "Do you really want to discard the local changes?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandDiscardConfirmation.tle"
+msgid "Reset"
+msgstr ""
+
+#| msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur"
-msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
+msgid "Once you have concluded the Reorder Commits, you should manually apply the latest stash to get your local changes back into the working tree."
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl"
@@ -10442,7 +11534,23 @@ msgid "Directory '$1' already exists."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "Please specify the URL of the remote repository or the path of the local repository that should be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.err:"
 msgid "Please specify the URL of the remote repository to be cloned."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.err:"
+msgid "The specified directory is not the root of a repository."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hdl:"
+msgid "Path"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hdl:"
+msgid "Repository"
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
@@ -10450,7 +11558,17 @@ msgid "No repository found."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "No repository matches the entered filter."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubmoduleAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+msgctxt "dlgSgSubmoduleAdd.hnt:"
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgSubmoduleAdd.inf:"
@@ -10649,8 +11767,25 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.fur"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
 msgstr ""
 
+#| msgid "Do you want to unregister submodule 'submodule/qmh-framework'?"
+msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl"
+msgid "Do you want to unregister submodule '$1'?"
+msgstr ""
+
 msgctxt "dlgSgSubmoduleUnregisterConfirm.tle"
 msgid "Unregister Submodule"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Configure"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.btn:"
+msgid "Go Back"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.chk:"
@@ -10674,11 +11809,38 @@ msgid "Local Path"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.edt:"
+msgid "Relative Path"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Remote"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Repository URL"
+msgstr ""
+
+#| msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Directory '$1' already exists."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Path"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.hdl:"
+msgid "Repository"
+msgstr ""
+
+# [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
+# [decode] msgid "Searching …"
+msgctxt "dlgSgSubtreeAdd.hnt:"
+msgid "Searching \\u2026"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.inf:"
@@ -10689,8 +11851,16 @@ msgctxt "dlgSgSubtreeAdd.inf:"
 msgid "Specify the repository to clone as subtree."
 msgstr ""
 
+msgctxt "dlgSgSubtreeAdd.inf:"
+msgid "Specify the repository to clone as subtree.\\nTo configure multiple accounts of the same hosting provider, use the Preferences."
+msgstr ""
+
 msgctxt "dlgSgSubtreeAdd.lbl:"
 msgid "Local branches for subtrees will only be useful if you plan to use Subtree-Split and Subtree-Reset operations."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.lbl:"
+msgid "Steps"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.lbl:"
@@ -10903,6 +12073,10 @@ msgstr ""
 
 msgctxt "dlgSgToolEdit.err:"
 msgid "Please enter the name for this command."
+msgstr ""
+
+msgctxt "dlgSgToolEdit.err:"
+msgid "Select the command which should be invoked."
 msgstr ""
 
 msgctxt "dlgSgToolEdit.hdl"
@@ -11193,6 +12367,26 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle"
 msgid "Push"
 msgstr ""
 
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
+msgid "Discard"
+msgstr ""
+
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.chk"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.fur"
+msgid "You are about to delete untracked files permanently. This action cannot be undone."
+msgstr ""
+
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.hdl"
+msgid "Do you want to delete untracked files?"
+msgstr ""
+
+msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle"
+msgid "Discard"
+msgstr ""
+
 msgctxt "dlgTxtEditor.fileModified.btn:"
 msgid "Keep Content"
 msgstr ""
@@ -11205,8 +12399,9 @@ msgctxt "dlgTxtEditor.fileModified.fur"
 msgid "Unless you want to see the old file state, it is recommended to reload."
 msgstr ""
 
+#| msgid "The file config was changed. Reload it?"
 msgctxt "dlgTxtEditor.fileModified.hdl"
-msgid "The file config was changed. Reload it?"
+msgid "The file messages.pot was changed. Reload it?"
 msgstr ""
 
 msgctxt "dlgTxtEditor.fileModified.tle"
@@ -11314,6 +12509,10 @@ msgid "In case you are encountering strange errors or unexpected dialog popups, 
 msgstr ""
 
 msgctxt "ntmCredentialHelper:"
+msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. If unexpected credential popups or weird errors occur, try to let SmartGit handle the authentication itself."
+msgstr ""
+
+msgctxt "ntmCredentialHelper:"
 msgid "In general this should be fine and is the recommended configuration when working with multiple Git clients. In case you are encountering strange errors or unexpected dialog popups, try to disable this configuration and let SmartGit handle the authentication itself."
 msgstr ""
 
@@ -11374,7 +12573,19 @@ msgid "poll for opinions on how to implement new or change existing features"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Bluesky</link1>: news, polls, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
 msgid "<link1>Facebook</link1>: news"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Mastodon</link1>: news"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
@@ -11382,7 +12593,19 @@ msgid "<link1>Mastodon</link1>: news, polls, discussions"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
+msgid "<link1>Reddit</link1>: discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>UserEcho</link1>: feature requests, voting"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
 msgid "<link1>UserEcho</link1>: improvement ideas, discussions"
+msgstr ""
+
+msgctxt "ntmFollowUsOnX:"
+msgid "<link1>X</link1>: news"
 msgstr ""
 
 msgctxt "ntmFollowUsOnX:"
@@ -11446,6 +12669,10 @@ msgid "After the new version has been downloaded successfully, you will be notif
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+msgid "SmartGit 25.1.054 Preview needs to be restarted now for the changes to take effect."
+msgstr ""
+
+msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "SmartGit needs to be restarted now for the changes to take effect."
 msgstr ""
 
@@ -11466,7 +12693,15 @@ msgid "vote at <link1>alternativeto.net</link1>"
 msgstr ""
 
 msgctxt "nttCredentialHelper:"
+msgid "External Credential Helper detected"
+msgstr ""
+
+msgctxt "nttCredentialHelper:"
 msgid "External Credentials Helper detected"
+msgstr ""
+
+msgctxt "nttCredentialHelper:"
+msgid "Let SmartGit handle Authentication"
 msgstr ""
 
 msgctxt "nttFollowUsOnTwitter:"
@@ -11551,6 +12786,15 @@ msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
+msgstr ""
+
+#| msgid "Started downloading version 24.1.3."
+msgctxt "nttUpdateCheckFetchVersionStart:"
+msgid "Started downloading version $1."
+msgstr ""
+
+msgctxt "nttUpdateCheckFetchVersionStart:"
+msgid "Started downloading version 25.1.055."
 msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionSuccess:"
@@ -11761,6 +13005,12 @@ msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>identical"
 msgstr ""
 
+#| msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
+#| msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
+msgctxt "ttpBranches:"
+msgid "<b>Worktree:\\t</b>$1"
+msgstr ""
+
 msgctxt "ttpBranches:"
 msgid "<b>\\t</b><col1>Tracking is configured in .git/config but the tracked branch is not present \\(any more\\)."
 msgstr ""
@@ -11861,6 +13111,11 @@ msgctxt "ttpRepositories:"
 msgid "<b>Remotes:\\t</b>"
 msgstr ""
 
+#| msgid "<b>Tracked Branch:\\t</b>origin/work_space"
+msgctxt "ttpRepositories:"
+msgid "<b>Tracked Branch:\\t</b>$1"
+msgstr ""
+
 msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>$1<col1>$2</col1>"
 msgstr ""
@@ -11923,6 +13178,67 @@ msgstr ""
 
 msgctxt "ttpRepositories:"
 msgid "The remote repository contains new commits."
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "About SmartGit"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Contact Support"
+msgstr ""
+
+# 注意
+msgctxt "wnd.mni:"
+msgid "Cursor"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Format"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Import Unknown"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "License Agreement"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open File"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "Open in VSCode"
+msgstr ""
+
+msgctxt "wnd.mni:"
+msgid "SmartGit Website"
+msgstr ""
+
+msgctxt "wnd.mniBisectTryCommit"
+msgid "Try Commit"
+msgstr ""
+
+msgctxt "wnd.mniFixCaseChange"
+msgid "Fix Case-Change"
+msgstr ""
+
+msgctxt "wnd.mniIntegrateMain"
+msgid "Integrate Main"
+msgstr ""
+
+msgctxt "wnd.mniShowInMyHistory"
+msgid "Show in My History"
+msgstr ""
+
+msgctxt "wnd.mniWindow-maximize"
+msgid "Zoom"
+msgstr ""
+
+msgctxt "wnd.mniWindowMaximizeRestore"
+msgid "Maximize View"
 msgstr ""
 
 msgctxt "wndAnnotate.cmb:"
@@ -12083,6 +13399,16 @@ msgstr ""
 
 msgctxt "wndAnnotate.tab:"
 msgid "History of current line"
+msgstr ""
+
+#| msgid "test_entry_model.py - Blame of tests/models/entry/test_entry_model.py"
+msgctxt "wndAnnotate.tle:"
+msgid "$1 - Blame of $2"
+msgstr ""
+
+#| msgid "sgpo.py - Blame of src/sgpo/sgpo.py@db0d01ee"
+msgctxt "wndAnnotate.tle:"
+msgid "$1 - Blame of $2@$3"
 msgstr ""
 
 msgctxt "wndAnnotate.tle:"
@@ -12373,6 +13699,12 @@ msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
 msgstr ""
 
+# [decode] msgctxt "wndDeepgit.lblBlameHeader"Blame \(in progress…\)""
+# [decode] msgid "Blame \(in progress…\)"
+msgctxt "wndDeepgit.lblBlameHeader:"
+msgid "Blame \\(in progress\\u2026\\)"
+msgstr ""
+
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame for"
 msgstr ""
@@ -12609,6 +13941,10 @@ msgctxt "wndDeepgit.mniDgFilterSetSelection"
 msgid "Set Selection as Filter"
 msgstr ""
 
+msgctxt "wndDeepgit.mniDgFollowInsignificantMerges"
+msgid "Follow Insignificant Merges \\(experimental\\)"
+msgstr ""
+
 msgctxt "wndDeepgit.mniDgFollowRenames"
 msgid "Follow Renames"
 msgstr ""
@@ -12770,7 +14106,17 @@ msgid "Files changed in commit $1"
 msgstr ""
 
 msgctxt "wndDeepgit.tab:"
+msgid "Files"
+msgstr ""
+
+msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing...\\)"
+msgstr ""
+
+# [decode] msgctxt "wndDeepgit.tab"Navigation \(initializing…\)""
+# [decode] msgid "Navigation \(initializing…\)"
+msgctxt "wndDeepgit.tab:"
+msgid "Navigation \\(initializing\\u2026\\)"
 msgstr ""
 
 msgctxt "wndDeepgit.tab:"
@@ -12905,6 +14251,10 @@ msgctxt "wndEditor.mni:"
 msgid "LF \\(Unix, macOS\\)"
 msgstr ""
 
+msgctxt "wndEditor.mniBlockSelection"
+msgid "Block Selection"
+msgstr ""
+
 msgctxt "wndEditor.mniEdit-undo"
 msgid "Undo"
 msgstr ""
@@ -12955,6 +14305,10 @@ msgstr ""
 
 msgctxt "wndGit.indexEditor.mni:"
 msgid "Stage Line"
+msgstr ""
+
+msgctxt "wndGit.indexEditor.mni:"
+msgid "Stage Lines"
 msgstr ""
 
 msgctxt "wndGit.indexEditor.mni:"
@@ -13034,19 +14388,136 @@ msgid "$1 - Index Editor"
 msgstr ""
 
 msgctxt "wndLog.hnt:"
+msgid "No commit matches the filter."
+msgstr ""
+
+msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
+msgstr ""
+
+#| msgid "Add 2 Git repositories to Group 'LLM'"
+msgctxt "wndLog.mni:"
+msgid "Add $1 Git repositories to Group '$2'"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Continue in Background"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Continue with Description"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Copy Name <email>"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Drop All Notes"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Explain Commit"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "On Manual Intervention"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Reconfigure"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Reword '@ai' and 'WIP' commits"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Select from GitHub"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "Stop"
+msgstr ""
+
+msgctxt "wndLog.mni:"
+msgid "github \\(active\\)"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange"
 msgid "Fix Case-Change"
 msgstr ""
 
+msgctxt "wndLog.mniGitNoteAdd"
+msgid "Add Note"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
+# [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
+msgctxt "wndLog.tab:"
+msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
+# [decode] msgid "Graph \(Loading…\)"
+msgctxt "wndLog.tab:"
+msgid "Graph \\(Loading\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Running log…\)""
+# [decode] msgid "Graph \(Running log…\)"
+msgctxt "wndLog.tab:"
+msgid "Graph \\(Running log\\u2026\\)"
+msgstr ""
+
+# [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
+# [decode] msgid "Graph \(Scanning WT…\)"
+msgctxt "wndLog.tab:"
+msgid "Graph \\(Scanning WT\\u2026\\)"
+msgstr ""
+
+msgctxt "wndLog.tbt:"
+msgid "Hidden toolbar items..."
+msgstr ""
+
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
 
+msgctxt "wndLog.tbtAi.commitMessageCompose"
+msgid "smartgit.jy: Cancelled"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "Base"
+msgstr ""
+
 msgctxt "wndProject.mni:"
 msgid "Log Selection"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "New_key"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "PR_Review"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "Review_Tool"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "Select from GitHub"
+msgstr ""
+
+msgctxt "wndProject.mni:"
+msgid "Show Rewritten Behind Commits"
+msgstr ""
+
+msgctxt "wndProject.mniFixCaseChange"
+msgid "Fix Case-Change"
 msgstr ""
 
 msgctxt "wndStd.btn:"
@@ -13078,7 +14549,21 @@ msgid "Commit files: select 1 commit\\nDiff between Commits: select 2 commits"
 msgstr ""
 
 msgctxt "wndStd.hnt:"
+msgid "Filter by repository name or path"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
 msgid "Loading ..."
+msgstr ""
+
+# [decode] msgctxt "wndStd.hnt"Loading …""
+# [decode] msgid "Loading …"
+msgctxt "wndStd.hnt:"
+msgid "Loading \\u2026"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "No graph roots selected."
 msgstr ""
 
 msgctxt "wndStd.hnt:"
@@ -13122,6 +14607,10 @@ msgid "All files, incl. ignored"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "All my branches"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Apply Stash"
 msgstr ""
 
@@ -13131,6 +14620,22 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Changed files"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Continue in Background"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Continue with Description"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Don't Show Pull Requests"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Explain Commit"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13154,11 +14659,19 @@ msgid "Log"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "On Manual Intervention"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "On master: SmartGit: automatic stash on Pull."
 msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Only current branch \\(HEAD\\)"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Open"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13178,7 +14691,32 @@ msgid "Reset"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Reword '@ai' and 'WIP' commits"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Save Stash"
+msgstr ""
+
+#, fuzzy
+msgctxt "wndStd.mni:"
+msgid "Select from GitHub"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show 'My' Pull Requests \\(involving me\\)"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show 'My' and Unassigned Pull Requests"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show All Pull Requests"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Show Tags"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -13189,6 +14727,10 @@ msgctxt "wndStd.mni:"
 msgid "Sort by Path"
 msgstr ""
 
+msgctxt "wndStd.mni:"
+msgid "Stop"
+msgstr ""
+
 msgctxt "wndStd.mniBisectTryCommit"
 msgid "Try Commit"
 msgstr ""
@@ -13197,8 +14739,16 @@ msgctxt "wndStd.mniFixCaseChange"
 msgid "Fix Case-Change"
 msgstr ""
 
+msgctxt "wndStd.mniGitNoteAdd"
+msgid "Add Note"
+msgstr ""
+
 msgctxt "wndStd.mniIntegrateMain"
 msgid "Integrate Main"
+msgstr ""
+
+msgctxt "wndStd.mniStdCiResultOpenInBrowser"
+msgid "Open CI Result"
 msgstr ""
 
 msgctxt "wndStd.mniStdOpenSubmodule"
@@ -13207,6 +14757,11 @@ msgstr ""
 
 msgctxt "wndStd.mniStdOpenSubmoduleFromFile"
 msgid "Open this Submodule"
+msgstr ""
+
+#| msgid "Open in GitHub"
+msgctxt "wndStd.mniStdProviderOpenInBrowser"
+msgid "Open in $1"
 msgstr ""
 
 msgctxt "wndStd.mniStdSetModeHistory"
@@ -13225,6 +14780,10 @@ msgctxt "wndStd.tbr:"
 msgid "Submodule"
 msgstr ""
 
+msgctxt "wndStd.tbt:"
+msgid "History"
+msgstr ""
+
 msgctxt "wndStd.tbtFlowFeatureStart"
 msgid "Start a new feature branch."
 msgstr ""
@@ -13233,12 +14792,14 @@ msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|
 msgid "Ready"
 msgstr ""
 
+#| msgid "Full Screen"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-fullScreen"
-msgid "Full Screen"
+msgid "Enter Full Screen"
 msgstr ""
 
+#| msgid "Maximize"
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeMaximize"
-msgid "Maximize"
+msgid "Zoom"
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).mniWindow-maximizeRestore"
@@ -14813,8 +16374,9 @@ msgctxt "wnd(Log|Project|Std|).mniFixup"
 msgid "Use Message for Commit"
 msgstr ""
 
+#| msgid "Configure"
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure"
-msgid "Configure"
+msgid "Configure Features"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
@@ -15001,8 +16563,9 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
+#| msgid "Open from Working Tree"
 msgctxt "wnd(Log|Project|Std|).mniOpen"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
