@@ -288,7 +288,6 @@ msgctxt "dlgHostingProvider.canBeConfigured.btn:"
 msgid "Configure Hosting Provider"
 msgstr ""
 
-#| msgid "The easiest way to access the repository at https://gitlab.com/yubeshi/smartgit-translation.git is through a hosting provider."
 msgctxt "dlgHostingProvider.canBeConfigured.fur"
 msgid "The easiest way to access the repository at $1 is through a hosting provider."
 msgstr ""
@@ -309,10 +308,8 @@ msgctxt "dlgProgress.lbl:"
 msgid "Please wait ..."
 msgstr ""
 
-# [decode] msgctxt "dlgProgress.lbl"Please wait …""
+# [decode] msgctxt "dlgProgress.lbl:"
 # [decode] msgid "Please wait …"
-#| msgctxt "dlgProgress.lbl\"Please wait \\u2026\""
-#| msgid "Please wait \\u2026"
 msgctxt "dlgProgress.lbl:"
 msgid "Please wait \\u2026"
 msgstr ""
@@ -1115,7 +1112,7 @@ msgstr ""
 
 # TODO: Review
 # We need to verify whether the placeholder replacement is appropriate.
-#
+# 
 # msgctxt "dlgScEvaluationReminderContinue.fur"
 # msgid "To use SmartGit, you will have to register a license file.\\n\\nIn a commercial environment you need to \\[https://www.syntevo.com/smartgit/purchase?evaluationReminderNotification purchase a license\\].\\n\\nFor \\[https://www.syntevo.com/register-non-commercial/?evaluationReminderNotification certain uses\\] we grant free licenses."
 #, fuzzy
@@ -2346,13 +2343,15 @@ msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
 msgid "Deny"
 msgstr ""
 
-#| msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n/Users/tomohiro/Git-projects/smartgit-translations-25.1-wip\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+# $1: rootFile , $2: typeName , $3: details
+#| msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n$1\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.fur"
-msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n$1\\n\\nPlease confirm whether uploads to OpenAI are allowed. If allowed, SmartGit may upload repository data required by the AI feature you invoke \\(for example: diffs, commit messages, and related metadata\\).\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
+msgid "This is the first time that SmartGit will access the AI service for this repository:\\n\\n$1\\n\\nPlease confirm whether uploads to $2 are allowed. $3\\n\\nThis is a one-time safety check, and your choice will apply to all future requests for this repository with this AI service."
 msgstr ""
 
+#| msgid "Do you allow SmartGit to upload repository data to OpenAI?"
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.hdl"
-msgid "Do you allow SmartGit to upload repository data to OpenAI?"
+msgid "Do you allow SmartGit to upload repository data to $1?"
 msgstr ""
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur"
@@ -2546,7 +2545,7 @@ msgctxt "dlgSgAiSetup.rbt:"
 msgid "Enable AI integration"
 msgstr ""
 
-#| msgid "The configuration has been saved to '/Users/tomohiro/Git-projects/smartgit-translations/.git/smartgit-ai', which is included by '/Users/tomohiro/Git-projects/smartgit-translations/.git/config'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
+#| msgid "The configuration has been saved to '/Users/UserName/Git-projects/....', which is included by '/Users/UserName/Git-projects/....'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur"
 msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
 msgstr ""
@@ -2947,7 +2946,7 @@ msgstr ""
 
 #| msgid "Configure"
 msgctxt "dlgSgBranchTrackingSetConfirm.btn:"
-msgid "Configure Features"
+msgid "Configure"
 msgstr ""
 
 msgctxt "dlgSgBranchTrackingSetConfirm.fur"
@@ -3094,8 +3093,9 @@ msgctxt "dlgSgCheckoutSwitchToWorktree.fur"
 msgid "A worktree repository already exists for the selected branch. Therefore, you can't check out this branch directly, but you can switch to this worktree."
 msgstr ""
 
+#| msgid "Do you want to switch to worktree 'C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-25.1_windows'?"
 msgctxt "dlgSgCheckoutSwitchToWorktree.hdl"
-msgid "Do you want to switch to worktree 'C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-25.1_windows'?"
+msgid "Do you want to switch to worktree '$1'?"
 msgstr ""
 
 msgctxt "dlgSgCheckoutSwitchToWorktree.tle"
@@ -3345,11 +3345,6 @@ msgstr ""
 
 msgctxt "dlgSgCleanNoFilesFound.tle"
 msgid "Clean Working Tree"
-msgstr ""
-
-#| msgid "Configure"
-msgctxt "dlgSgClone.btn:"
-msgid "Configure Features"
 msgstr ""
 
 msgctxt "dlgSgClone.btn:"
@@ -4397,14 +4392,12 @@ msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1"
 msgid "'$1' could not be invoked."
 msgstr ""
 
-#| msgid "Open"
 msgctxt "dlgSgFileCompareInvokerFailedIO.tle"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
-#| msgid "Open"
 msgctxt "dlgSgFileCompareNoChanges.btn:"
-msgid "Open from Working Tree"
+msgid "Open"
 msgstr ""
 
 msgctxt "dlgSgFileCompareNoChanges.btn:"
@@ -4988,7 +4981,7 @@ msgid "Run Garbage Collector"
 msgstr ""
 
 msgctxt "dlgSgGitConfigEditConfigNotFound.fur"
-msgid "The file C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations\\\\.git\\\\worktrees\\\\smartgit-translations-25.1_windows\\\\config could not be opened for editing."
+msgid "The file $1config could not be opened for editing."
 msgstr ""
 
 msgctxt "dlgSgGitConfigEditConfigNotFound.hdl"
@@ -6674,7 +6667,6 @@ msgctxt "dlgSgOpenRepositoryOuterOrInner.btn:"
 msgid "Outer Repository"
 msgstr ""
 
-#| msgid "At the specified path nested repositories were found.\\nInner repository: D:\\\\GitRepository\\\\xxxx\\\\xxxx\\nOuter repository: D:\\\\GitRepository\\\\xxxx"
 msgctxt "dlgSgOpenRepositoryOuterOrInner.fur"
 msgid "At the specified path nested repositories were found.\\nInner repository: $1\\nOuter repository: $2"
 msgstr ""
@@ -6859,9 +6851,9 @@ msgctxt "dlgSgOutput.lbl:"
 msgid "Command Rebase HEAD \\($1\\) to $2 produced warnings."
 msgstr ""
 
-#| msgid "Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!"
-msgctxt "dlgSgOutput.lbl\"Command Rebase HEAD \\(feature/forceinclude\\) to fa50210c failed!\""
-msgid "Command Rebase HEAD \\(feature/forceinclude\\) to $1 failed!"
+#| msgid "Command Rebase HEAD \\(BranchName\\) to fa50210c failed!"
+msgctxt "dlgSgOutput.lbl:"
+msgid "Command Rebase HEAD \\($1\\) to $2 failed!"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -8400,12 +8392,6 @@ msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
 msgid "github.com"
 msgstr ""
 
-#| msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb\"github\\(yubeshi-AI\\)\""
-#| msgid "github\\($1\\)"
-msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.cmb:"
-msgid "github\\($1\\)"
-msgstr ""
-
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.edt:"
 msgid "Provider"
 msgstr ""
@@ -8414,7 +8400,6 @@ msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.hdl"
 msgid "Select which GitHub account to use"
 msgstr ""
 
-#| msgid "Select which account you want to use for connecting to 'https://github.com/ktyubeshi/fast-bunkai.git'."
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf"
 msgid "Select which account you want to use for connecting to '$1'."
 msgstr ""
@@ -8600,9 +8585,8 @@ msgctxt "dlgSgPull.tle"
 msgid "Pull"
 msgstr ""
 
-#| msgid "Configure"
 msgctxt "dlgSgPullConfiguration.btn:"
-msgid "Configure Features"
+msgid "Configure"
 msgstr ""
 
 msgctxt "dlgSgPullConfiguration.chk:"
@@ -8741,12 +8725,10 @@ msgctxt "dlgSgPushConfirmSingleTag.chk"
 msgid "Don't show again"
 msgstr ""
 
-#| msgid "1 tag will be pushed to 'origin'."
 msgctxt "dlgSgPushConfirmSingleTag.fur"
 msgid "$1 tag will be pushed to '$2'."
 msgstr ""
 
-#| msgid "Do you want to push tag 'Release/0.0.14'?"
 msgctxt "dlgSgPushConfirmSingleTag.hdl"
 msgid "Do you want to push tag '$1'?"
 msgstr ""
@@ -8763,10 +8745,6 @@ msgctxt "dlgSgPushForced.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-# TODO: Review
-# We need to verify whether the placeholder replacement is appropriate.
-#, fuzzy
-#| msgid "Do you want to force-push \\(replace\\) the remote branch 'pot-wip/24.1_windows'?"
 msgctxt "dlgSgPushForced.hdl%1"
 msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
@@ -11767,7 +11745,6 @@ msgctxt "dlgSgSubmoduleUnregisterConfirm.fur"
 msgid "All relevant files will be adjusted. Afterwards you will only need to perform a commit to finish the operation. To just skip the submodule from the working tree, use Deinit."
 msgstr ""
 
-#| msgid "Do you want to unregister submodule 'submodule/qmh-framework'?"
 msgctxt "dlgSgSubmoduleUnregisterConfirm.hdl"
 msgid "Do you want to unregister submodule '$1'?"
 msgstr ""
@@ -11820,7 +11797,6 @@ msgctxt "dlgSgSubtreeAdd.edt:"
 msgid "Repository URL"
 msgstr ""
 
-#| msgid "Directory '/Users/tomohiro/Git-projects/sgpo-tools-cli-WorkSpace/sgpo-tools-cli' already exists."
 msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Directory '$1' already exists."
 msgstr ""
@@ -12399,9 +12375,8 @@ msgctxt "dlgTxtEditor.fileModified.fur"
 msgid "Unless you want to see the old file state, it is recommended to reload."
 msgstr ""
 
-#| msgid "The file config was changed. Reload it?"
 msgctxt "dlgTxtEditor.fileModified.hdl"
-msgid "The file messages.pot was changed. Reload it?"
+msgid "The file $1 was changed. Reload it?"
 msgstr ""
 
 msgctxt "dlgTxtEditor.fileModified.tle"
@@ -12788,13 +12763,8 @@ msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1 \\($2\\)."
 msgstr ""
 
-#| msgid "Started downloading version 24.1.3."
 msgctxt "nttUpdateCheckFetchVersionStart:"
 msgid "Started downloading version $1."
-msgstr ""
-
-msgctxt "nttUpdateCheckFetchVersionStart:"
-msgid "Started downloading version 25.1.055."
 msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionSuccess:"
@@ -13005,8 +12975,6 @@ msgctxt "ttpBranches:"
 msgid "<b>Tracking State:\\t</b>identical"
 msgstr ""
 
-#| msgctxt "ttpBranches\"<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged\""
-#| msgid "<b>Worktree:\\t</b>C:\\\\XXXX\\\\XXXX\\\\XXXX\\\\smartgit-translations-24.1-merged"
 msgctxt "ttpBranches:"
 msgid "<b>Worktree:\\t</b>$1"
 msgstr ""
@@ -13111,7 +13079,6 @@ msgctxt "ttpRepositories:"
 msgid "<b>Remotes:\\t</b>"
 msgstr ""
 
-#| msgid "<b>Tracked Branch:\\t</b>origin/work_space"
 msgctxt "ttpRepositories:"
 msgid "<b>Tracked Branch:\\t</b>$1"
 msgstr ""
@@ -13186,19 +13153,6 @@ msgstr ""
 
 msgctxt "wnd.mni:"
 msgid "Contact Support"
-msgstr ""
-
-# 注意
-msgctxt "wnd.mni:"
-msgid "Cursor"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Format"
-msgstr ""
-
-msgctxt "wnd.mni:"
-msgid "Import Unknown"
 msgstr ""
 
 msgctxt "wnd.mni:"
@@ -14395,7 +14349,6 @@ msgctxt "wndLog.hnt:"
 msgid "No graph roots selected."
 msgstr ""
 
-#| msgid "Add 2 Git repositories to Group 'LLM'"
 msgctxt "wndLog.mni:"
 msgid "Add $1 Git repositories to Group '$2'"
 msgstr ""
@@ -16563,8 +16516,11 @@ msgctxt "wnd(Log|Project|Std|).mniNewWindow"
 msgid "New Window"
 msgstr ""
 
-#| msgid "Open from Working Tree"
-msgctxt "wnd(Log|Project|Std|).mniOpen"
+msgctxt "wnd(Log|Std|).mniOpen"
+msgid "Open from Working Tree"
+msgstr ""
+
+msgctxt "wndProject.mniOpen"
 msgid "Open"
 msgstr ""
 
