@@ -125,7 +125,7 @@ msgctxt "dlgCommitGitHubConfirmEmail.fur:"
 msgid "If this repository is open-source, you might want to hide your email address, as \\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\], and use instead <username>@users.noreply.github.com."
 msgstr ""
 
-msgctxt "dlgCommitGitHubConfirmEmail.hdl%1:"
+msgctxt "dlgCommitGitHubConfirmEmail.hdl:"
 msgid "Commit with default email address $1?"
 msgstr ""
 
@@ -358,11 +358,11 @@ msgctxt "dlgProgress.tle:"
 msgid "Verifying executables"
 msgstr ""
 
-msgctxt "dlgQBugFileSendingFailed.fur%1:"
+msgctxt "dlgQBugFileSendingFailed.fur:"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr ""
 
-msgctxt "dlgQBugFileSendingFailed.hdl%1:"
+msgctxt "dlgQBugFileSendingFailed.hdl:"
 msgid "Could not send the crash logs to $1"
 msgstr ""
 
@@ -434,7 +434,7 @@ msgctxt "dlgQDockManagerClosedView.fur:"
 msgid "To reopen it again, use the corresponding menu item from the Window menu."
 msgstr ""
 
-msgctxt "dlgQDockManagerClosedView.hdl%1:"
+msgctxt "dlgQDockManagerClosedView.hdl:"
 msgid "You've closed the view '$1'."
 msgstr ""
 
@@ -450,7 +450,7 @@ msgctxt "dlgQFileSaveAcceptFilterOverwrite.fur:"
 msgid "To save to a different file, click 'Cancel'."
 msgstr ""
 
-msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl%1:"
+msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl:"
 msgid "The file $1 already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -482,11 +482,11 @@ msgctxt "dlgQFrameManagerExit.tle:"
 msgid "Exit"
 msgstr ""
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.fur%2:"
+msgctxt "dlgQIntegerInputProviderInvalidValue.fur:"
 msgid "Port must be in the range from $1 to $2."
 msgstr ""
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.hdl%1:"
+msgctxt "dlgQIntegerInputProviderInvalidValue.hdl:"
 msgid "The text in field '$1' is not valid."
 msgstr ""
 
@@ -546,7 +546,7 @@ msgctxt "dlgQProxyConnectionFailed.fur:"
 msgid "Details: syntevo.com"
 msgstr ""
 
-msgctxt "dlgQProxyConnectionFailed.hdl%1:"
+msgctxt "dlgQProxyConnectionFailed.hdl:"
 msgid "Could not connect to $1."
 msgstr ""
 
@@ -582,7 +582,7 @@ msgctxt "dlgQUpdateCheckForNewVersion.tle:"
 msgid "Check for New Version"
 msgstr ""
 
-msgctxt "dlgQUpdateCheckForNewVersionFailed.fur%1:"
+msgctxt "dlgQUpdateCheckForNewVersionFailed.fur:"
 msgid "Details: Failed to connect to '$1'."
 msgstr ""
 
@@ -610,7 +610,7 @@ msgctxt "dlgQUpdateCheckLatestBuild.tle:"
 msgid "Check for Latest Build"
 msgstr ""
 
-msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur%1:"
+msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur:"
 msgid "Details: $1"
 msgstr ""
 
@@ -706,7 +706,7 @@ msgctxt "dlgScAboutUpdateInstallation.fur:"
 msgid "This will take a few moments and has to restart SmartGit."
 msgstr ""
 
-msgctxt "dlgScAboutUpdateInstallation.hdl%1:"
+msgctxt "dlgScAboutUpdateInstallation.hdl:"
 msgid "Do you want to upgrade the installation directory to version $1?"
 msgstr ""
 
@@ -762,11 +762,11 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl:"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1:"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2:"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
 msgid "\\[$1\\] - $2"
 msgstr ""
 
@@ -958,7 +958,7 @@ msgctxt "dlgScDevOpsCredentials.edt:"
 msgid "User Name"
 msgstr ""
 
-msgctxt "dlgScDevOpsCredentials.hdl%1:"
+msgctxt "dlgScDevOpsCredentials.hdl:"
 msgid "Login to '$1'"
 msgstr ""
 
@@ -990,7 +990,7 @@ msgctxt "dlgScDevOpsSslClientCertificate.edt:"
 msgid "Passphrase"
 msgstr ""
 
-msgctxt "dlgScDevOpsSslClientCertificate.hdl%1:"
+msgctxt "dlgScDevOpsSslClientCertificate.hdl:"
 msgid "Select the client certificate for $1"
 msgstr ""
 
@@ -1090,7 +1090,7 @@ msgctxt "dlgScDialogAssertionHandlerOutOfMemory.btn:"
 msgid "Force Exit"
 msgstr ""
 
-msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur%1:"
+msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur:"
 msgid "It is strongly recommended to restart SmartGit.\\n\\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) and restart SmartGit."
 msgstr ""
 
@@ -1110,7 +1110,7 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr ""
 
-msgctxt "dlgScEvaluationReminderContinue.fur%2:"
+msgctxt "dlgScEvaluationReminderContinue.fur:"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr ""
 
@@ -1118,7 +1118,7 @@ msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends today."
 msgstr ""
 
-msgctxt "dlgScEvaluationReminderContinue.hdl%1:"
+msgctxt "dlgScEvaluationReminderContinue.hdl:"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr ""
 
@@ -1158,11 +1158,11 @@ msgctxt "dlgScEvaluationReminderExpiredGrace.tle:"
 msgid "Evaluation"
 msgstr ""
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl%2:"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl:"
 msgid "Cannot run program \"$1\": $2"
 msgstr ""
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1:"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
@@ -1356,7 +1356,7 @@ msgctxt "dlgScFilePatternsEdit.edt:"
 msgid "File Pattern"
 msgstr ""
 
-msgctxt "dlgScFilePatternsEdit.hdl%1:"
+msgctxt "dlgScFilePatternsEdit.hdl:"
 msgid "Language: $1"
 msgstr ""
 
@@ -1488,7 +1488,7 @@ msgctxt "dlgScJiraResolveIssue.edt:"
 msgid "Summary"
 msgstr ""
 
-msgctxt "dlgScJiraResolveIssue.hdl%1:"
+msgctxt "dlgScJiraResolveIssue.hdl:"
 msgid "Resolve issue $1"
 msgstr ""
 
@@ -1624,7 +1624,7 @@ msgctxt "dlgScPropertiesReset.fur:"
 msgid "The new values will be active after restarting SmartGit."
 msgstr ""
 
-msgctxt "dlgScPropertiesReset.hdl%1:"
+msgctxt "dlgScPropertiesReset.hdl:"
 msgid "Do you want to reset $1 system properties to their defaults?"
 msgstr ""
 
@@ -1640,7 +1640,7 @@ msgctxt "dlgScPropertyEdit.hdl:"
 msgid "Edit low-level property value"
 msgstr ""
 
-msgctxt "dlgScPropertyEdit.inf%1:"
+msgctxt "dlgScPropertyEdit.inf:"
 msgid "Set the value for property '$1'"
 msgstr ""
 
@@ -2070,7 +2070,7 @@ msgctxt "dlgScUpdateInstallationUpdateManuallyFailure.tle:"
 msgid "SmartGit Installation Update"
 msgstr ""
 
-msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur%1:"
+msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur:"
 msgid "Please get rid of '$1' manually and retry the upgrade."
 msgstr ""
 
@@ -2086,7 +2086,7 @@ msgctxt "dlgScUpdateInstallationUpgrade.btn:"
 msgid "Upgrade Now"
 msgstr ""
 
-msgctxt "dlgScUpdateInstallationUpgrade.fur%1:"
+msgctxt "dlgScUpdateInstallationUpgrade.fur:"
 msgid "The new version $1 has been downloaded which needs to be installed."
 msgstr ""
 
@@ -2538,7 +2538,7 @@ msgctxt "dlgSgAiSetupLlmConfigurationInvalid.hdl:"
 msgid "Configuration is invalid."
 msgstr ""
 
-msgctxt "dlgSgApplicationAlreadyRunning.fur%1:"
+msgctxt "dlgSgApplicationAlreadyRunning.fur:"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
 msgstr ""
 
@@ -2582,7 +2582,7 @@ msgctxt "dlgSgAuthenticationShowPassword.edt:"
 msgid "Password"
 msgstr ""
 
-msgctxt "dlgSgAuthenticationShowPassword.tle%1:"
+msgctxt "dlgSgAuthenticationShowPassword.tle:"
 msgid "Password for $1"
 msgstr ""
 
@@ -2626,7 +2626,7 @@ msgctxt "dlgSgBisectResult.btn:"
 msgid "Leave Bisect"
 msgstr ""
 
-msgctxt "dlgSgBisectResult.fur%1:"
+msgctxt "dlgSgBisectResult.fur:"
 msgid "$1"
 msgstr ""
 
@@ -2750,7 +2750,7 @@ msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.fur:"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr ""
 
-msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl%1:"
+msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl:"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -2802,7 +2802,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1:"
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
 
@@ -2842,7 +2842,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1:"
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
@@ -2870,7 +2870,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk%1:"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
@@ -2886,7 +2886,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1:"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
 msgstr ""
 
@@ -2902,7 +2902,7 @@ msgctxt "dlgSgBranchTrackingResetConfirm.fur:"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr ""
 
-msgctxt "dlgSgBranchTrackingResetConfirm.hdl%2:"
+msgctxt "dlgSgBranchTrackingResetConfirm.hdl:"
 msgid "Should branch '$1' stop tracking '$2'?"
 msgstr ""
 
@@ -2918,7 +2918,7 @@ msgctxt "dlgSgBranchTrackingSetConfirm.fur:"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr ""
 
-msgctxt "dlgSgBranchTrackingSetConfirm.hdl%2:"
+msgctxt "dlgSgBranchTrackingSetConfirm.hdl:"
 msgid "Do you want to configure '$1' to track '$2'?"
 msgstr ""
 
@@ -3010,7 +3010,7 @@ msgctxt "dlgSgCheckoutFastForwardMerge.fur:"
 msgid "Fast-forward-merging automatically moves the branch forward to the tracked remote branch."
 msgstr ""
 
-msgctxt "dlgSgCheckoutFastForwardMerge.hdl%1:"
+msgctxt "dlgSgCheckoutFastForwardMerge.hdl:"
 msgid "Do you want to fast-forward-merge remote changes after checking out '$1'?"
 msgstr ""
 
@@ -3026,11 +3026,11 @@ msgctxt "dlgSgCheckoutLocalBranchConfirm.chk:"
 msgid "Don't show again"
 msgstr ""
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.fur%1:"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.fur:"
 msgid "This will make '$1' your current branch."
 msgstr ""
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl%1:"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl:"
 msgid "Do you want to checkout the branch '$1'?"
 msgstr ""
 
@@ -3150,7 +3150,7 @@ msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.fur:"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr ""
 
-msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1:"
+msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl:"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -4019,7 +4019,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl:"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3:"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle:"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -4155,7 +4155,7 @@ msgctxt "dlgSgDeleteDirTrash.fur:"
 msgid "If you click Delete you may require file recovery tools to restore the deleted files!"
 msgstr ""
 
-msgctxt "dlgSgDeleteDirTrash.hdl%1:"
+msgctxt "dlgSgDeleteDirTrash.hdl:"
 msgid "Do you want to delete '$1' recursively?"
 msgstr ""
 
@@ -4163,11 +4163,11 @@ msgctxt "dlgSgDeleteDirTrash.tle:"
 msgid "Delete"
 msgstr ""
 
-msgctxt "dlgSgDeleteFileTrash.hdl%1:"
+msgctxt "dlgSgDeleteFileTrash.hdl:"
 msgid "Do you want to delete '$1'?"
 msgstr ""
 
-msgctxt "dlgSgDeleteFilesTrash.hdl%1:"
+msgctxt "dlgSgDeleteFilesTrash.hdl:"
 msgid "Do you want to delete the $1 selected files?"
 msgstr ""
 
@@ -4263,11 +4263,11 @@ msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle:"
 msgid "Discard"
 msgstr ""
 
-msgctxt "dlgSgDiscardRevertToHead.hdl%1:"
+msgctxt "dlgSgDiscardRevertToHead.hdl:"
 msgid "Do you want to reset $1 files back to their HEAD state?"
 msgstr ""
 
-msgctxt "dlgSgDiscardRevertToIndex.hdl%1:"
+msgctxt "dlgSgDiscardRevertToIndex.hdl:"
 msgid "Do you want to reset $1 files back to their Index state?"
 msgstr ""
 
@@ -4339,7 +4339,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.btn:"
 msgid "Force Opening"
 msgstr ""
 
-msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl%1:"
+msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl:"
 msgid "Could not open Conflict Solver for '$1', because it seems to be no text file."
 msgstr ""
 
@@ -4347,7 +4347,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.tle:"
 msgid "Conflict Solver"
 msgstr ""
 
-msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1:"
+msgctxt "dlgSgFileCompareInvokerFailedIO.hdl:"
 msgid "'$1' could not be invoked."
 msgstr ""
 
@@ -4387,11 +4387,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.btn:"
 msgid "Fast-Forward"
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur%3:"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur:"
 msgid "The local branch '$1' is behind its tracked branch '$2'. You may fast-forward now or do it manually later, e.g. by checking out the branch '$3'."
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl%2:"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl:"
 msgid "Should branch '$1' be fast-forwarded to '$2'?"
 msgstr ""
 
@@ -4403,11 +4403,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.btn:"
 msgid "Replace"
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur%2:"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur:"
 msgid "The local branch '$1' seems to contain more recent but rewritten commits of remote branch '$2'.\\n\\nIf you are not sure whether the local branch is actually more recent than the remote branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl%2:"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl:"
 msgid "Should branch '$1' replace remote branch '$2'?"
 msgstr ""
 
@@ -4419,11 +4419,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.btn:"
 msgid "Reset"
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur%2:"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur:"
 msgid "The remote branch '$1' seems to contain more recent but rewritten commits of local branch '$2'.\\n\\nIf you are not sure whether the remote branch is actually more recent than the local branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr ""
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl%2:"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl:"
 msgid "Should branch '$1' be reset to remote branch '$2'?"
 msgstr ""
 
@@ -4607,7 +4607,7 @@ msgctxt "dlgSgFlowFeatureStart.hdl:"
 msgid "Start a new feature"
 msgstr ""
 
-msgctxt "dlgSgFlowFeatureStart.inf%1:"
+msgctxt "dlgSgFlowFeatureStart.inf:"
 msgid "Enter the name of the new feature branch. This operation will fork a new branch from the '$1' branch."
 msgstr ""
 
@@ -4711,7 +4711,7 @@ msgctxt "dlgSgFlowHotfixStart.hdl:"
 msgid "Start a new hotfix"
 msgstr ""
 
-msgctxt "dlgSgFlowHotfixStart.inf%1:"
+msgctxt "dlgSgFlowHotfixStart.inf:"
 msgid "Enter the name of the new hotfix branch. This operation will fork a new branch from the '$1' branch."
 msgstr ""
 
@@ -4731,7 +4731,7 @@ msgctxt "dlgSgFlowIntegrateDevelop.chk:"
 msgid "Fetch latest '$1' commits from remote repository"
 msgstr ""
 
-msgctxt "dlgSgFlowIntegrateDevelop.hdl%1:"
+msgctxt "dlgSgFlowIntegrateDevelop.hdl:"
 msgid "Integrate commits from '$1'"
 msgstr ""
 
@@ -4843,7 +4843,7 @@ msgctxt "dlgSgFlowReleaseStart.hdl:"
 msgid "Start a new release"
 msgstr ""
 
-msgctxt "dlgSgFlowReleaseStart.inf%1:"
+msgctxt "dlgSgFlowReleaseStart.inf:"
 msgid "Enter the name of the new release branch. This operation will fork a new branch from the '$1' branch."
 msgstr ""
 
@@ -4879,7 +4879,7 @@ msgctxt "dlgSgFlowSupportStart.hdl:"
 msgid "Start a new support"
 msgstr ""
 
-msgctxt "dlgSgFlowSupportStart.inf%1:"
+msgctxt "dlgSgFlowSupportStart.inf:"
 msgid "Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch."
 msgstr ""
 
@@ -5394,7 +5394,7 @@ msgctxt "dlgSgHistoryModifySplitConfirm.fur:"
 msgid "'Modify' will stop after the commit.\\n\\n'Split' will put the changes into the Index. You may discard some changes that should go into the second commit.\\n\\nAfter you've done the changes, process the remaining commits by continuing the rebase."
 msgstr ""
 
-msgctxt "dlgSgHistoryModifySplitConfirm.hdl%1:"
+msgctxt "dlgSgHistoryModifySplitConfirm.hdl:"
 msgid "Do you want to modify or split commit $1?"
 msgstr ""
 
@@ -5410,7 +5410,7 @@ msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.fur:"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl%1:"
+msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl:"
 msgid "Do you want to replace the remote branch by commit $1?"
 msgstr ""
 
@@ -5426,7 +5426,7 @@ msgctxt "dlgSgHistoryPushCommitsUpToCommit.fur:"
 msgid "All commits up to the selected commit will be pushed to the remote repository."
 msgstr ""
 
-msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl%1:"
+msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl:"
 msgid "Do you want to push changes up to commit $1?"
 msgstr ""
 
@@ -5833,11 +5833,11 @@ msgctxt "dlgSgHostingProviderEdit.err:"
 msgid "The provided SSL client certificate path is invalid."
 msgstr ""
 
-msgctxt "dlgSgHostingProviderEdit.hdl%1:"
+msgctxt "dlgSgHostingProviderEdit.hdl:"
 msgid "Configure $1 account"
 msgstr ""
 
-msgctxt "dlgSgHostingProviderEdit.inf%1:"
+msgctxt "dlgSgHostingProviderEdit.inf:"
 msgid "Please specify your credentials to connect to $1."
 msgstr ""
 
@@ -5949,11 +5949,11 @@ msgctxt "dlgSgHostingProvider(Add|Edit).lbl:"
 msgid "Optional SSL configuration"
 msgstr ""
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur%3:"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur:"
 msgid "The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\\n\\nTo resolve, recreate the $2 hosting provider in the Preferences.\\n\\nDetails:\\n\\n$3"
 msgstr ""
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1:"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl:"
 msgid "$1 OAuth-authentication failed"
 msgstr ""
 
@@ -5977,7 +5977,7 @@ msgctxt "dlgSgHttpPasswordCredentials.edt:"
 msgid "User Name"
 msgstr ""
 
-msgctxt "dlgSgHttpPasswordCredentials.hdl%1:"
+msgctxt "dlgSgHttpPasswordCredentials.hdl:"
 msgid "Login to '$1'"
 msgstr ""
 
@@ -6029,7 +6029,7 @@ msgctxt "dlgSgIgnoreDirectoryConfirm.fur:"
 msgid "The directory name will be added to the ignore file. If the ignore file does not exist, it will be created."
 msgstr ""
 
-msgctxt "dlgSgIgnoreDirectoryConfirm.hdl%1:"
+msgctxt "dlgSgIgnoreDirectoryConfirm.hdl:"
 msgid "Do you want to ignore directory '$1'?"
 msgstr ""
 
@@ -6157,11 +6157,11 @@ msgctxt "dlgSgJournalDoubleClick.btn:"
 msgid "Open Log"
 msgstr ""
 
-msgctxt "dlgSgJournalDoubleClick.fur%1:"
+msgctxt "dlgSgJournalDoubleClick.fur:"
 msgid "Select either to check out '$1' or to open the Log for the selected commit."
 msgstr ""
 
-msgctxt "dlgSgJournalDoubleClick.hdl%1:"
+msgctxt "dlgSgJournalDoubleClick.hdl:"
 msgid "Do you want to check out '$1'?"
 msgstr ""
 
@@ -6237,7 +6237,7 @@ msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn:"
 msgid "Revert"
 msgstr ""
 
-msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1:"
+msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur:"
 msgid "You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately."
 msgstr ""
 
@@ -6289,7 +6289,7 @@ msgctxt "dlgSgLogCheckoutFileAs.tle:"
 msgid "Save File As"
 msgstr ""
 
-msgctxt "dlgSgLogCommentDeleteConfirm.hdl%1:"
+msgctxt "dlgSgLogCommentDeleteConfirm.hdl:"
 msgid "Do you really want to delete comment '$1'?"
 msgstr ""
 
@@ -6305,7 +6305,7 @@ msgctxt "dlgSgLogComment(|s)DeleteConfirm.tle:"
 msgid "Delete Comment"
 msgstr ""
 
-msgctxt "dlgSgLogCommentsDeleteConfirm.hdl%1:"
+msgctxt "dlgSgLogCommentsDeleteConfirm.hdl:"
 msgid "Do you really want to delete $1 comments?"
 msgstr ""
 
@@ -6449,7 +6449,7 @@ msgctxt "dlgSgLogRefActionsDeleteConfirm.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr ""
 
-msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl%1:"
+msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl:"
 msgid "Do you really want to delete the local branch '$1'?"
 msgstr ""
 
@@ -6465,11 +6465,11 @@ msgctxt "dlgSgLogRefreshRepositoryInvalid.btn:"
 msgid "Remove Repository"
 msgstr ""
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.fur%1:"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.fur:"
 msgid "This could mean that the repository at\\n\\n$1was removed or renamed outside SmartGit."
 msgstr ""
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl%1:"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl:"
 msgid "The opened repository '$1' became invalid."
 msgstr ""
 
@@ -6605,7 +6605,7 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.fur:"
 msgid "The specified directory does not appear to be a valid Git repository."
 msgstr ""
 
-msgctxt "dlgSgOpenRepositoryInitializeGit.hdl%1:"
+msgctxt "dlgSgOpenRepositoryInitializeGit.hdl:"
 msgid "Should '$1' be initialized as a new Git repository?"
 msgstr ""
 
@@ -6633,7 +6633,7 @@ msgctxt "dlgSgOpenRepositoryOuterOrInner.tle:"
 msgid "Add or Create Repository"
 msgstr ""
 
-msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur%1:"
+msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur:"
 msgid "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 msgstr ""
 
@@ -6937,11 +6937,11 @@ msgctxt "dlgSgPingRepositoryFailed.fur:"
 msgid "repository '$1' not found."
 msgstr ""
 
-msgctxt "dlgSgPingRepositoryFailed.fur%1:"
+msgctxt "dlgSgPingRepositoryFailed.fur:"
 msgid "Please check the repository URL.\\n\\n$1"
 msgstr ""
 
-msgctxt "dlgSgPingRepositoryFailed.hdl%1:"
+msgctxt "dlgSgPingRepositoryFailed.hdl:"
 msgid "Could not connect to the repository '$1'."
 msgstr ""
 
@@ -8364,7 +8364,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl%1:"
+msgctxt "dlgSgProviderGenerateToken.hdl:"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -8424,7 +8424,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur:"
 msgid "The merge request itself will not be deleted on the server."
 msgstr ""
 
-msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl%1:"
+msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl:"
 msgid "Do you really want to drop the local commits of merge request $1?"
 msgstr ""
 
@@ -8440,7 +8440,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur:"
 msgid "The pull request itself will not be deleted on the server."
 msgstr ""
 
-msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl%1:"
+msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl:"
 msgid "Do you want to drop the local commits of pull request $1?"
 msgstr ""
 
@@ -8576,7 +8576,7 @@ msgctxt "dlgSgPullMergeInsteadOfRebase.btn:"
 msgid "Rebase"
 msgstr ""
 
-msgctxt "dlgSgPullMergeInsteadOfRebase.fur%1:"
+msgctxt "dlgSgPullMergeInsteadOfRebase.fur:"
 msgid "Amongst the changes to rebase there is merge-commit $1. Rebasing merge-commits can easily cause troubles."
 msgstr ""
 
@@ -8624,7 +8624,7 @@ msgctxt "dlgSgPullOrJustFetch.fur:"
 msgid "You can change the Pull behavior in the Repository Settings."
 msgstr ""
 
-msgctxt "dlgSgPullOrJustFetch.hdl%1:"
+msgctxt "dlgSgPullOrJustFetch.hdl:"
 msgid "Do you want to pull or just fetch $1 repositories?"
 msgstr ""
 
@@ -8652,11 +8652,11 @@ msgctxt "dlgSgPushConfirmSingleBranch.chk:"
 msgid "Don't show again"
 msgstr ""
 
-msgctxt "dlgSgPushConfirmSingleBranch.fur%1:"
+msgctxt "dlgSgPushConfirmSingleBranch.fur:"
 msgid "1 branch will be pushed to '$1'."
 msgstr ""
 
-msgctxt "dlgSgPushConfirmSingleBranch.hdl%1:"
+msgctxt "dlgSgPushConfirmSingleBranch.hdl:"
 msgid "Do you want to push branch '$1'?"
 msgstr ""
 
@@ -8692,7 +8692,7 @@ msgctxt "dlgSgPushForced.fur:"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr ""
 
-msgctxt "dlgSgPushForced.hdl%1:"
+msgctxt "dlgSgPushForced.hdl:"
 msgid "Do you want to force-push \\(replace\\) the remote branch '$1'?"
 msgstr ""
 
@@ -8848,11 +8848,11 @@ msgctxt "dlgSgPushToRemote.edt:"
 msgid "Target Repository"
 msgstr ""
 
-msgctxt "dlgSgPushToRemote.hdl%1:"
+msgctxt "dlgSgPushToRemote.hdl:"
 msgid "Push '$1' branches to another remote"
 msgstr ""
 
-msgctxt "dlgSgPushToRemote.inf%1:"
+msgctxt "dlgSgPushToRemote.inf:"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
 msgstr ""
 
@@ -8908,7 +8908,7 @@ msgctxt "dlgSgPushTrackingConfigureSingle.fur:"
 msgid "For your current branch tracking \\(its corresponding remote branch\\) has not been configured yet. Configuring tracking will keep your local branches in sync with the remote branches."
 msgstr ""
 
-msgctxt "dlgSgPushTrackingConfigureSingle.hdl%1:"
+msgctxt "dlgSgPushTrackingConfigureSingle.hdl:"
 msgid "Do you want to configure tracking for '$1' branch?"
 msgstr ""
 
@@ -8944,7 +8944,7 @@ msgctxt "dlgSgRebaseConfirmUnreachable.fur:"
 msgid "You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view."
 msgstr ""
 
-msgctxt "dlgSgRebaseConfirmUnreachable.hdl%1:"
+msgctxt "dlgSgRebaseConfirmUnreachable.hdl:"
 msgid "The Commit $1 would become unreachable by refs."
 msgstr ""
 
@@ -8960,7 +8960,7 @@ msgctxt "dlgSgRebaseContinueAfterSplittingCommit.chk:"
 msgid "Don't show again"
 msgstr ""
 
-msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur%1:"
+msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur:"
 msgid "The splitting of commit $1 still is in progress and all changes of this commit have been applied."
 msgstr ""
 
@@ -9140,7 +9140,7 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Put Changes into Index"
 msgstr ""
 
-msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1:"
+msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur:"
 msgid "The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\\n\\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes."
 msgstr ""
 
@@ -9152,19 +9152,19 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.tle:"
 msgid "Rebase"
 msgstr ""
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur%1:"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur:"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) onto the selected commit."
 msgstr ""
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl%1:"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl:"
 msgid "Do you want to rebase '$1' onto the selected commit?"
 msgstr ""
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur%2:"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur:"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) to '$2'."
 msgstr ""
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl%2:"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl:"
 msgid "Do you want to rebase '$1' to '$2'?"
 msgstr ""
 
@@ -9284,7 +9284,7 @@ msgctxt "dlgSgRebaseInteractiveRemoveCommit.fur:"
 msgid "It might become hard or impossible to recover the commit again."
 msgstr ""
 
-msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl%1:"
+msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl:"
 msgid "Do you want to remove the selected commit $1?"
 msgstr ""
 
@@ -9328,7 +9328,7 @@ msgctxt "dlgSgRebaseTagCommit.fur:"
 msgid "After the rebase, the remaining commit won't be reachable anymore."
 msgstr ""
 
-msgctxt "dlgSgRebaseTagCommit.hdl%1:"
+msgctxt "dlgSgRebaseTagCommit.hdl:"
 msgid "Should commit $1 be tagged?"
 msgstr ""
 
@@ -9420,7 +9420,7 @@ msgctxt "dlgSgRemoteDeleteConfirm.fur:"
 msgid "This will just delete the link to the remote repository."
 msgstr ""
 
-msgctxt "dlgSgRemoteDeleteConfirm.hdl%1:"
+msgctxt "dlgSgRemoteDeleteConfirm.hdl:"
 msgid "Do you want to delete the remote repository '$1'?"
 msgstr ""
 
@@ -9580,7 +9580,7 @@ msgctxt "dlgSgRemotesAdd.tle:"
 msgid "Add Remote Repository"
 msgstr ""
 
-msgctxt "dlgSgRemotesNoRemoteDetected.fur%1:"
+msgctxt "dlgSgRemotesNoRemoteDetected.fur:"
 msgid "To perform the operation the repository configuration for $1 must contain one uniquely determined remote."
 msgstr ""
 
@@ -9636,7 +9636,7 @@ msgctxt "dlgSgRenameBranch.hdl:"
 msgid "Rename branch"
 msgstr ""
 
-msgctxt "dlgSgRenameBranch.inf%1:"
+msgctxt "dlgSgRenameBranch.inf:"
 msgid "Enter the new name for the branch '$1'."
 msgstr ""
 
@@ -9841,7 +9841,7 @@ msgctxt "dlgSgRepositoryOpen.fur:"
 msgid "If it is relocated, remove it and add its new location."
 msgstr ""
 
-msgctxt "dlgSgRepositoryOpen.hdl%1:"
+msgctxt "dlgSgRepositoryOpen.hdl:"
 msgid "Do you want to remove the missing repository '$1'?"
 msgstr ""
 
@@ -9853,7 +9853,7 @@ msgctxt "dlgSgRepositoryRemoveFailed1.fur:"
 msgid "This could happen if the repository is open in another window or currently commands are executed."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveFailed1.hdl%1:"
+msgctxt "dlgSgRepositoryRemoveFailed1.hdl:"
 msgid "The repository '$1' could not be removed."
 msgstr ""
 
@@ -9865,7 +9865,7 @@ msgctxt "dlgSgRepositoryRemoveMultiGroup.fur:"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl%1:"
+msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl:"
 msgid "Do you want to remove $1 groups?"
 msgstr ""
 
@@ -9873,7 +9873,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepo.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl%1:"
+msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl:"
 msgid "Do you want to remove $1 repositories?"
 msgstr ""
 
@@ -9881,7 +9881,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl%2:"
+msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl:"
 msgid "Do you want to remove $1 repositories and $2 groups?"
 msgstr ""
 
@@ -9889,7 +9889,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl%2:"
+msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl:"
 msgid "Do you want to remove $1 repositories and the group \"$2\"?"
 msgstr ""
 
@@ -9897,7 +9897,7 @@ msgctxt "dlgSgRepositoryRemoveSingleGroup.fur:"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl%1:"
+msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl:"
 msgid "Do you want to remove the group \"$1\"?"
 msgstr ""
 
@@ -9905,7 +9905,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepo.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl%1:"
+msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl:"
 msgid "Do you want to remove the repository \"$1\"?"
 msgstr ""
 
@@ -9913,7 +9913,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2:"
+msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl:"
 msgid "Do you want to remove the repository \"$1\" and $2 groups?"
 msgstr ""
 
@@ -9921,7 +9921,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.fur:"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr ""
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2:"
+msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl:"
 msgid "Do you want to remove the repository \"$1\" and the group \"$2\"?"
 msgstr ""
 
@@ -10094,7 +10094,7 @@ msgctxt "dlgSgResetAdv.chk:"
 msgid "Thoroughly fix line-endings according to .gitattributes"
 msgstr ""
 
-msgctxt "dlgSgResetAdv.hdl%1:"
+msgctxt "dlgSgResetAdv.hdl:"
 msgid "Reset to commit $1"
 msgstr ""
 
@@ -10154,7 +10154,7 @@ msgctxt "dlgSgResetConfirm.fur:"
 msgid "Current staged and local changes will be lost!"
 msgstr ""
 
-msgctxt "dlgSgResetConfirm.hdl%1:"
+msgctxt "dlgSgResetConfirm.hdl:"
 msgid "Do you want to reset the HEAD to commit $1?"
 msgstr ""
 
@@ -10650,7 +10650,7 @@ msgctxt "dlgSgRollbackToCommit.fur:"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
-msgctxt "dlgSgRollbackToCommit.hdl%1:"
+msgctxt "dlgSgRollbackToCommit.hdl:"
 msgid "Do you want to rollback the Index to the state of commit $1?"
 msgstr ""
 
@@ -10950,7 +10950,7 @@ msgctxt "dlgSgSetupStdWnd.hdl:"
 msgid "Do you want to use the Standard Window?"
 msgstr ""
 
-msgctxt "dlgSgSetupStdWnd.tle%1:"
+msgctxt "dlgSgSetupStdWnd.tle:"
 msgid "Setup SmartGit $1"
 msgstr ""
 
@@ -10958,7 +10958,7 @@ msgctxt "dlgSgShowLocalChanges.btn:"
 msgid "Compare"
 msgstr ""
 
-msgctxt "dlgSgShowLocalChanges.hdl%1:"
+msgctxt "dlgSgShowLocalChanges.hdl:"
 msgid "File $1 modified in Index and working tree"
 msgstr ""
 
@@ -11058,7 +11058,7 @@ msgctxt "dlgSgSshCredentials.hdl:"
 msgid "SSH Credentials"
 msgstr ""
 
-msgctxt "dlgSgSshCredentials.inf%2:"
+msgctxt "dlgSgSshCredentials.inf:"
 msgid "Provide the credentials for authenticating to the SSH server '$1' as user '$2'."
 msgstr ""
 
@@ -11090,7 +11090,7 @@ msgctxt "dlgSgStageConflict.fur:"
 msgid "The file contains conflict markers which indicate that you have not resolved all conflicts."
 msgstr ""
 
-msgctxt "dlgSgStageConflict.hdl%1:"
+msgctxt "dlgSgStageConflict.hdl:"
 msgid "Should $1 really be staged?"
 msgstr ""
 
@@ -11532,7 +11532,7 @@ msgctxt "dlgSgSubmoduleDeinitConfirm.fur:"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
 msgstr ""
 
-msgctxt "dlgSgSubmoduleDeinitConfirm.hdl%1:"
+msgctxt "dlgSgSubmoduleDeinitConfirm.hdl:"
 msgid "Do you want to deinit submodule '$1'?"
 msgstr ""
 
@@ -11608,7 +11608,7 @@ msgctxt "dlgSgSubmoduleResetConfirm.fur:"
 msgid "The corresponding commit will be checked out, so the submodule content will match the content of the registered commit."
 msgstr ""
 
-msgctxt "dlgSgSubmoduleResetConfirm.hdl%1:"
+msgctxt "dlgSgSubmoduleResetConfirm.hdl:"
 msgid "Do you want to reset submodule '$1' to the commit registered in the repository?"
 msgstr ""
 
@@ -11806,7 +11806,7 @@ msgctxt "dlgSgSvnClientCertificate.hdl:"
 msgid "Client Certificate"
 msgstr ""
 
-msgctxt "dlgSgSvnClientCertificate.inf%1:"
+msgctxt "dlgSgSvnClientCertificate.inf:"
 msgid "Provide the client certificate for authentication to the SVN repository '$1'."
 msgstr ""
 
@@ -11914,7 +11914,7 @@ msgctxt "dlgSgTagAddOverwrite.fur:"
 msgid "Click 'Cancel' to choose a different tag name."
 msgstr ""
 
-msgctxt "dlgSgTagAddOverwrite.hdl%1:"
+msgctxt "dlgSgTagAddOverwrite.hdl:"
 msgid "The tag '$1' already exists. Do you want to overwrite it?"
 msgstr ""
 
@@ -11930,7 +11930,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.chk:"
 msgid "Delete from all remotes"
 msgstr ""
 
-msgctxt "dlgSgTagDeleteConfirmSingle.chk%1:"
+msgctxt "dlgSgTagDeleteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
 msgstr ""
 
@@ -11938,7 +11938,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.fur:"
 msgid "You will not be able to restore it."
 msgstr ""
 
-msgctxt "dlgSgTagDeleteConfirmSingle.hdl%1:"
+msgctxt "dlgSgTagDeleteConfirmSingle.hdl:"
 msgid "Do you want to delete the tag '$1'?"
 msgstr ""
 
