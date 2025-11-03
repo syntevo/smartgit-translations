@@ -161,17 +161,14 @@ msgctxt "dlgCommitInvisibleIndex.tle:"
 msgid "Commit"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.fur:"
 msgid "Before committing you will have to configure your name and email, e.g. in the SmartGit Preferences."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.hdl:"
 msgid "Please configure the email for commit."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgCommitNoEmailConfigured.tle:"
 msgid "Commit"
 msgstr ""
@@ -763,11 +760,11 @@ msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr ""
 
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
-msgid "\\[$1\\] - Conflict Solver"
+msgid "\\[$1\\] - $2"
 msgstr ""
 
 msgctxt "dlgScConflictSolverInconsistentLineEndings.tle:"
-msgid "\\[$1\\] - $2"
+msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk:"
@@ -1115,11 +1112,11 @@ msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purch
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
-msgid "Your SmartGit evaluation ends today."
+msgid "Your SmartGit evaluation ends in $1 days."
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.hdl:"
-msgid "Your SmartGit evaluation ends in $1 days."
+msgid "Your SmartGit evaluation ends today."
 msgstr ""
 
 msgctxt "dlgScEvaluationReminderContinue.tle:"
@@ -1166,32 +1163,26 @@ msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle:"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.fur:"
 msgid "Be sure to add arguments to the appropriate input field."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.hdl:"
 msgid "The specified command is no file."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterCommandNoFile.tle:"
 msgid "Input Validation"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.fur:"
 msgid "Select the command which should be invoked."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.hdl:"
 msgid "The Command input field must not be empty!"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScExternalFileStarterEmptyCommand.tle:"
 msgid "Input Validation"
 msgstr ""
@@ -1680,7 +1671,6 @@ msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "Free Updates Until"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScRegisterFormLicenseConfirmDetails.edt:"
 msgid "License ID"
 msgstr ""
@@ -1793,27 +1783,22 @@ msgctxt "dlgScSetupLicense.tle:"
 msgid "SmartGit License"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Exit Later"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.btn:"
 msgid "Restart Now"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.fur:"
 msgid "You can do that now or manually later."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.hdl:"
 msgid "SmartGit has to be restarted for the license change to take effect."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgScSetupLicenseNeedsRestart.tle:"
 msgid "SmartGit License"
 msgstr ""
@@ -2206,7 +2191,6 @@ msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
 msgstr ""
@@ -2227,7 +2211,6 @@ msgctxt "dlgSgAbout.edt:"
 msgid "Build Date"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgAbout.edt:"
 msgid "Demo Until"
 msgstr ""
@@ -2325,6 +2308,18 @@ msgctxt "dlgSgAiApiKeyRepoLlmConsent.hdl:"
 msgid "Do you allow SmartGit to upload repository data to $1?"
 msgstr ""
 
+msgctxt "dlgSgAiApiKeyRepoLlmConsent.tle:"
+msgid "AI Upload Consent"
+msgstr ""
+
+msgctxt "dlgSgAiCommitAnnotatorError.hdl:"
+msgid "Failed to annotate selected commits."
+msgstr ""
+
+msgctxt "dlgSgAiCommitAnnotatorError.tle:"
+msgid "Annotate Commits"
+msgstr ""
+
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur:"
 msgid "Click the AI button again to generate your first commit message."
 msgstr ""
@@ -2347,6 +2342,50 @@ msgstr ""
 
 msgctxt "dlgSgAiCommitMessageComposeError.tle:"
 msgid "AI Commit Message Compose"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageNoModifications.fur:"
+msgid "There are no uncommitted changes in your working tree, so an AI commit message cannot be generated."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageNoModifications.hdl:"
+msgid "No local changes detected."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageReworder.btn:"
+msgid "Reword"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageReworder.fur:"
+msgid "SmartGit has detected a commit message containing an AI-generation marker. If the commit has not yet been pushed, it can be automatically reworded in the background.\\n\\nYou can enable or disable this option from the AI popup menu."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageReworder.hdl:"
+msgid "Do you want to reword marked commits in the background?"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageReworder.tle:"
+msgid "Commit Message Rewording"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.btn:"
+msgid "Continue"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.chk:"
+msgid "Don't show again"
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.fur:"
+msgid "Your settings exclude untracked files from commits, so they will not be used to generate the AI commit message.\\n\\nTo include untracked files in commits, update the setting in Preferences."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.hdl:"
+msgid "Untracked files are excluded."
+msgstr ""
+
+msgctxt "dlgSgAiCommitMessageSkippedUntrackedFiles.tle:"
+msgid "AI Commit Message"
 msgstr ""
 
 msgctxt "dlgSgAiIntegrationSetup.hdl:"
@@ -2467,6 +2506,10 @@ msgid "SmartGit offers AI-powered features to enhance productivity, simplify wor
 msgstr ""
 
 msgctxt "dlgSgAiSetup.inf:"
+msgid "Verifying connectivity..."
+msgstr ""
+
+msgctxt "dlgSgAiSetup.inf:"
 msgid "Verifying connectivity\\u2026"
 msgstr ""
 
@@ -2484,6 +2527,10 @@ msgstr ""
 
 msgctxt "dlgSgAiSetup.lbl:"
 msgid "Optional parameters"
+msgstr ""
+
+msgctxt "dlgSgAiSetup.lbl:"
+msgid "Please wait ..."
 msgstr ""
 
 msgctxt "dlgSgAiSetup.lbl:"
@@ -2514,6 +2561,10 @@ msgctxt "dlgSgAiSetup.rbt:"
 msgid "Enable AI integration"
 msgstr ""
 
+msgctxt "dlgSgAiSetup.tle:"
+msgid "AI Setup"
+msgstr ""
+
 msgctxt "dlgSgAiSetupConfigurationSuccess.fur:"
 msgid "The configuration has been saved to '$1', which is included by '$2'.\\n\\nYou can now start generating commit messages by clicking the AI button again.\\n\\nAdditional configuration options are available and can be tweaked directly in the configuration file. For details, refer to the \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI documentation\\]."
 msgstr ""
@@ -2522,12 +2573,40 @@ msgctxt "dlgSgAiSetupConfigurationSuccess.hdl:"
 msgid "The AI integration has been configured successfully."
 msgstr ""
 
+msgctxt "dlgSgAiSetupConfigurationSuccess.tle:"
+msgid "AI Setup"
+msgstr ""
+
 msgctxt "dlgSgAiSetupConnectivityFailed.fur:"
 msgid "Object '$1' not found."
 msgstr ""
 
 msgctxt "dlgSgAiSetupConnectivityFailed.hdl:"
 msgid "Connection to '$1' failed."
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.btn:"
+msgid "Back to Setup"
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.btn:"
+msgid "Enable and Exit"
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.btn:"
+msgid "Exit without Enabling"
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.fur:"
+msgid "You have selected some AI features. Do you want to enable them now, or exit the setup without enabling them?"
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.hdl:"
+msgid "Enable already selected AI features?"
+msgstr ""
+
+msgctxt "dlgSgAiSetupExitEarly.tle:"
+msgid "AI Setup"
 msgstr ""
 
 msgctxt "dlgSgAiSetupLlmConfigurationInvalid.fur:"
@@ -2802,10 +2881,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
 msgstr ""
@@ -2842,10 +2917,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
 msgstr ""
@@ -2870,10 +2941,6 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
-msgid "Delete from remote repository '$1'"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur:"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr ""
@@ -2884,10 +2951,6 @@ msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
-msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
-msgid "Do you want to delete the branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle:"
@@ -3484,17 +3547,14 @@ msgctxt "dlgSgClone.mni:"
 msgid "Add Hosting Provider"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Own Repositories"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Starred Repositories"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgClone.mni:"
 msgid "Top Repositories"
 msgstr ""
@@ -4947,37 +5007,30 @@ msgctxt "dlgSgGitConfigEditConfigNotFound.tle:"
 msgid "Edit Config"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Refresh"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.btn:"
 msgid "Select"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Number"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.col:"
 msgid "Title"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.hdl:"
 msgid "Select commit message by GitHub issue"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.inf:"
 msgid "The selected issue summary will be used as commit message."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgGitHubCommitMessageSelect.tle:"
 msgid "Select Issue"
 msgstr ""
@@ -5446,7 +5499,6 @@ msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.hdl:"
 msgid "Do you want to modify commits which are already pushed?"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Edit Author"
 msgstr ""
@@ -5651,7 +5703,6 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitHub account"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Add GitLab \\(Self Hosted\\) account"
 msgstr ""
@@ -5664,7 +5715,6 @@ msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
 msgstr ""
@@ -6934,11 +6984,11 @@ msgid "Output"
 msgstr ""
 
 msgctxt "dlgSgPingRepositoryFailed.fur:"
-msgid "repository '$1' not found."
+msgid "Please check the repository URL.\\n\\n$1"
 msgstr ""
 
 msgctxt "dlgSgPingRepositoryFailed.fur:"
-msgid "Please check the repository URL.\\n\\n$1"
+msgid "repository '$1' not found."
 msgstr ""
 
 msgctxt "dlgSgPingRepositoryFailed.hdl:"
@@ -7214,7 +7264,15 @@ msgid "Detect renames \\(for added and removed files, as command line Git does\\
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
+msgid "Disable AI integration \\(globally\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
 msgid "Distinguish between content and EOL-only changes \\(slightly more expensive\\)"
+msgstr ""
+
+msgctxt "dlgSgPreferences.chk:"
+msgid "Enable AI integration"
 msgstr ""
 
 msgctxt "dlgSgPreferences.chk:"
@@ -7784,6 +7842,10 @@ msgid "In order to use all SmartGit functionality, you need to have command line
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "Learn how to tailor AI for your projects with the complete \\[https://docs.syntevo.com/SmartGit/Latest/Manual/Integrations/AI SmartGit AI Integration documentation\\]."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Local and Remote Changes"
 msgstr ""
 
@@ -7832,6 +7894,18 @@ msgid "Stash"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*configured globally\\*. Change it via AI button > \\*Reconfigure\\*."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*disabled globally\\*."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "The AI integration is \\*manually configured\\*."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "The AI integration is \\*not yet configured\\* \\(globally\\)."
 msgstr ""
 
@@ -7848,6 +7922,10 @@ msgid "This file will be sent as is: $1"
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
+msgid "To change it, edit your Git config files directly."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
 msgid "To configure, click the AI button in the Commit Message view or the Commit dialog."
 msgstr ""
 
@@ -7861,6 +7939,10 @@ msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "When comparing files, this list is searched from top to bottom to find a matching diff tool. If none is found, the built-in file compare is used for text files."
+msgstr ""
+
+msgctxt "dlgSgPreferences.lbl:"
+msgid "When enabled, the AI button appears in the Commit Message view and the Commit dialog. Click it to complete the initial setup."
 msgstr ""
 
 msgctxt "dlgSgPreferences.lbl:"
@@ -8366,6 +8448,10 @@ msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.hdl:"
 msgid "Generate a new API token for $1"
+msgstr ""
+
+msgctxt "dlgSgProviderGenerateToken.inf:"
+msgid "Authenticate at GitHub and grant access to SmartGit."
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.inf:"
@@ -9796,7 +9882,6 @@ msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Close"
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgRepositoryClose.btn:"
 msgid "Force Exit"
 msgstr ""
@@ -10065,7 +10150,6 @@ msgctxt "dlgSgRepositorySettings.ttpGroupPatterns:"
 msgid "Patterns will show up in the GUI using auto-generated labels which are derived from their regular expression. You can assign a custom label <tt>label</tt> to a pattern by prefixing it by <tt>label:</tt>; a label may only contain letters, digits and '_'."
 msgstr ""
 
-#, fuzzy
 msgctxt "dlgSgRepositorySettings.wrn:"
 msgid "It is recommended to set an email address used for committing."
 msgstr ""
@@ -12542,6 +12626,10 @@ msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
 msgstr ""
 
+msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
+msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
+msgstr ""
+
 msgctxt "ntmMarkRepositoriesAsFavorite:"
 msgid "Git repositories marked as 'favorites' will be refreshed and fetched automatically in the background."
 msgstr ""
@@ -12598,6 +12686,10 @@ msgctxt "ntmVoteForUs:"
 msgid "vote at <link1>alternativeto.net</link1>"
 msgstr ""
 
+msgctxt "ntmWslWorkaround:"
+msgid "To work around some problems with WSL, please check our documentation."
+msgstr ""
+
 msgctxt "nttCredentialHelper:"
 msgid "External Credential Helper detected"
 msgstr ""
@@ -12648,6 +12740,10 @@ msgstr ""
 
 msgctxt "nttHostingProviderIntegrationNotYetConfigured:"
 msgid "Configure Now"
+msgstr ""
+
+msgctxt "nttLcTypeProblem:"
+msgid "Experience problems with non-US-ASCII file names?"
 msgstr ""
 
 msgctxt "nttMarkRepositoriesAsFavorite:"
@@ -12716,6 +12812,14 @@ msgstr ""
 
 msgctxt "nttVoteForUs:"
 msgid "What do you like in SmartGit?"
+msgstr ""
+
+msgctxt "nttWslWorkaround:"
+msgid "It seems that you're running SmartGit in WSL."
+msgstr ""
+
+msgctxt "nttWslWorkaround:"
+msgid "Open Documentation"
 msgstr ""
 
 msgctxt "pop:"
@@ -12826,8 +12930,9 @@ msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
+#| msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgctxt "ttpBranches:"
-msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
+msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
 msgstr ""
 
 msgctxt "ttpBranches:"
@@ -14333,7 +14438,15 @@ msgid "Stop"
 msgstr ""
 
 msgctxt "wndLog.mni:"
+msgid "generate \\(active\\)"
+msgstr ""
+
+msgctxt "wndLog.mni:"
 msgid "github \\(active\\)"
+msgstr ""
+
+msgctxt "wndLog.mniCopyCommitId:"
+msgid "Copy"
 msgstr ""
 
 msgctxt "wndLog.mniFixCaseChange:"
@@ -14376,10 +14489,6 @@ msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
 msgstr ""
 
-msgctxt "wndLog.tbtAi.commitMessageCompose:"
-msgid "smartgit.jy: Cancelled"
-msgstr ""
-
 msgctxt "wndProject.mni:"
 msgid "Base"
 msgstr ""
@@ -14406,6 +14515,10 @@ msgstr ""
 
 msgctxt "wndProject.mni:"
 msgid "Show Rewritten Behind Commits"
+msgstr ""
+
+msgctxt "wndProject.mniCopyCommitId:"
+msgid "Copy"
 msgstr ""
 
 msgctxt "wndProject.mniFixCaseChange:"
