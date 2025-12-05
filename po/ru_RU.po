@@ -39,7 +39,7 @@ msgstr "OK"
 
 msgctxt "*.chk:"
 msgid "Don't show again"
-msgstr ""
+msgstr "Не показывать снова"
 
 msgctxt "*.hnt:"
 msgid "Filter"
