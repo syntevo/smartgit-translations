@@ -733,10 +733,6 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - 冲突解决工具"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
 msgstr "不再显示警告"
@@ -2373,13 +2369,13 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl"
 msgid "Do you want to delete $1 local branches?"
 msgstr "您确定要删除 $1 本地分支吗？"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
+msgid "Do you want to delete $1 local branches?"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle"
 msgid "Delete"
@@ -2413,13 +2409,13 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "您确定要删除本地分支 “$1” 吗？"
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
+msgid "Do you want to delete the local branch '$1'?"
+msgstr ""
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle"
 msgid "Delete"
@@ -2437,6 +2433,10 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
 msgstr "删除"
 
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
+msgid "Delete from remote repository '$1'"
+msgstr ""
+
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
 msgstr "从远程 “$1” 删除"
@@ -2444,10 +2444,6 @@ msgstr "从远程 “$1” 删除"
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr "从远程仓库中删除 '$1'"
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
-msgid "Delete from remote repository '$1'"
-msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
@@ -2460,10 +2456,6 @@ msgstr "您要删除分支 “$1” 吗？"
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr "您要删除远程分支 “$1” 吗？"
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
-msgid "Do you want to delete the branch '$1'?"
-msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle"
 msgid "Delete"
@@ -3504,10 +3496,6 @@ msgstr ""
 
 msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
-msgstr ""
-
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
-msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
@@ -7515,10 +7503,6 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl"
-msgid "Generate a new API token for $1"
-msgstr ""
-
 msgctxt "dlgSgProviderGenerateToken.inf"
 msgid "Authenticate at GitLab and grant access to SmartGit."
 msgstr ""
@@ -9727,10 +9711,6 @@ msgstr ""
 
 msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
-msgstr ""
-
-msgctxt "dlgSgRollbackToCommit.hdl"
-msgid "Do you want to rollback the Index to the state of commit $1?"
 msgstr ""
 
 msgctxt "dlgSgRollbackToCommit.tle"
@@ -16408,10 +16388,6 @@ msgstr ""
 
 #~ msgctxt "dlgSgProviderGenerateToken.hdl"
 #~ msgid "Generate a new API token for $1"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
-#~ msgid "Do you want to drop the local commits of pull request $1?"
 #~ msgstr ""
 
 #~ msgctxt "dlgSgResetAdv.inf"

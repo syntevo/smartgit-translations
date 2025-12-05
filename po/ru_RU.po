@@ -733,10 +733,6 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr ""
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-msgid "\\[$1\\] - $2"
-msgstr ""
-
 msgctxt "dlgScConflictSolverUnresolvedConflicts.chk"
 msgid "Don't warn me again"
 msgstr "Не предупреждать больше"
@@ -2373,13 +2369,13 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.fur:"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "Вы можете потерять неотправленные изменения, восстановить ветку\\(и\\) будет затруднительно!"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr "Вы хотите удалить $1 локальные ветки?"
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
+msgid "Do you want to delete $1 local branches?"
+msgstr "Вы хотите удалить $1 локальные ветки?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle"
 msgid "Delete"
@@ -2413,13 +2409,13 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.fur:"
 msgid "Your local branch is tracking branch '$1'. Decide whether you also want to delete this branch from the remote repository."
 msgstr "Локальная ветка отслеживает '$1'. Решите, хотите ли также удалить отслеживаемую ветку во внешнем репозитории."
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr "Вы хотите удалить локальную ветку '$1'?"
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
+
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
+msgid "Do you want to delete the local branch '$1'?"
+msgstr "Вы хотите удалить локальную ветку '$1'?"
 
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle"
 msgid "Delete"
@@ -2437,6 +2433,10 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
 msgstr "Удалить"
 
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
+msgid "Delete from remote repository '$1'"
+msgstr "Удалить во внешнем репозитории '$1'"
+
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
 msgstr ""
@@ -2445,13 +2445,13 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
-msgid "Delete from remote repository '$1'"
-msgstr "Удалить во внешнем репозитории '$1'"
-
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr "Если не удалить ветку во внешнем репозитории, то она может вернуться при следующем получении обновлений."
+
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
+msgid "Do you want to delete the branch '$1'?"
+msgstr "Хотите удалить ветку '$1'?"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
@@ -2460,10 +2460,6 @@ msgstr ""
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr ""
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
-msgid "Do you want to delete the branch '$1'?"
-msgstr "Хотите удалить ветку '$1'?"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.tle"
 msgid "Delete"
@@ -3503,10 +3499,6 @@ msgstr ""
 
 msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
-msgstr ""
-
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
-msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
 msgctxt "dlgSgConflictResolverExternalStarted.btn:"
@@ -7511,10 +7503,6 @@ msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
-msgstr ""
-
-msgctxt "dlgSgProviderGenerateToken.hdl"
-msgid "Generate a new API token for $1"
 msgstr ""
 
 msgctxt "dlgSgProviderGenerateToken.inf"
