@@ -2192,7 +2192,7 @@ msgstr ""
 
 msgctxt "dlgSgAbortRevertingConfirm.tle:"
 msgid "Discard"
-msgstr ""
+msgstr "丢弃"
 
 msgctxt "dlgSgAbout.btn:"
 msgid "Copy Evaluation-ID"
@@ -3451,7 +3451,7 @@ msgstr "将 SVN 主干，标签和分支映射到 Git"
 
 msgctxt "dlgSgClone.chk:"
 msgid "Skip large files \\(\"partial clone\"\\)"
-msgstr ""
+msgstr "跳过大文件 \\(\"部分克隆\"\\)"
 
 msgctxt "dlgSgClone.edt:"
 msgid "Check Out Branch"
@@ -3804,7 +3804,7 @@ msgstr "合并提交 \\(多个父系\\)"
 
 msgctxt "dlgSgCommit.rbt:"
 msgid "Simple commit \\(one parent, \"squash\"\\)"
-msgstr ""
+msgstr "简单提交 \\(1个父系, \"压缩\"\\)"
 
 msgctxt "dlgSgCommit.rbt:"
 msgid "Staged Changes"
@@ -4768,7 +4768,7 @@ msgstr "提交/标签信息"
 
 msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish a hotfix"
-msgstr ""
+msgstr "完成 hotfix"
 
 msgctxt "dlgSgFlowHotfixFinish.hdl:"
 msgid "Finish current hotfix"
@@ -4904,7 +4904,7 @@ msgstr ""
 
 msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish a release"
-msgstr ""
+msgstr "完成 release"
 
 msgctxt "dlgSgFlowReleaseFinish.hdl:"
 msgid "Finish current release"
@@ -5760,7 +5760,7 @@ msgstr ""
 
 msgctxt "dlgSgHostingProviderAdd.hdl:"
 msgid "Configure a new hosting provider account"
-msgstr ""
+msgstr "配置新的主机提供商账户"
 
 msgctxt "dlgSgHostingProviderAdd.inf:"
 msgid "Set or select the options according to your account."
@@ -10372,19 +10372,19 @@ msgstr "打开冲突解决工具"
 
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"ours\", $2\\)"
-msgstr ""
+msgstr "设置为 $1 \\(\"我们的\", $2 \\)"
 
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
-msgstr ""
+msgstr "设置为 $1 \\(\"他们的\", $2 \\)"
 
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
-msgstr ""
+msgstr "设置为变基目标 \\(\"他们的\", $1\\)"
 
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
-msgstr ""
+msgstr "设置为变基分支 \"$1\" \\(\"我们的\", $2\\)"
 
 msgctxt "dlgSgResolve.tle:"
 msgid "Resolve"
@@ -10456,7 +10456,7 @@ msgstr ""
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.tle:"
 msgid "Reveal Commit"
-msgstr ""
+msgstr "显示提交"
 
 msgctxt "dlgSgRevertAndCommitConfirmSingle.btn:"
 msgid "Revert && Commit"
@@ -12127,7 +12127,7 @@ msgstr "SVN 认证"
 
 msgctxt "dlgSgSvnClientCertificate.wrn:"
 msgid "Authentication to the SVN repository '$1' failed with error: $2'"
-msgstr ""
+msgstr "对 SVN 仓库 '$1' 的身份验证失败，错误：$2"
 
 msgctxt "dlgSgSvnSslFingerprintChanged.btn:"
 msgid "Accept"
@@ -15046,7 +15046,7 @@ msgstr ""
 
 msgctxt "wndProject.mni:"
 msgid "Show Rewritten Behind Commits"
-msgstr ""
+msgstr "在提交后显示重写"
 
 msgctxt "wndProject.mniCopyCommitId:"
 msgid "Copy"
@@ -15363,7 +15363,7 @@ msgstr ""
 
 msgctxt "wndStd.tbt:"
 msgid "History"
-msgstr ""
+msgstr "历史"
 
 msgctxt "wndStd.tbt:"
 msgid "Show filter input field."
@@ -16571,7 +16571,7 @@ msgstr "仅显示选定的引用"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Rewritten Behind Commits"
-msgstr ""
+msgstr "在提交后显示重写"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Show Unchanged Directories"
@@ -18074,7 +18074,7 @@ msgstr "Git 工作流"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "History"
-msgstr ""
+msgstr "历史"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore WS"
