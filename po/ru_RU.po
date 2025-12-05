@@ -2510,7 +2510,7 @@ msgstr ""
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Please wait"
-msgstr ""
+msgstr "Пожалуйста, подождите..."
 
 msgctxt "dlgSgAiSetup.hdl:"
 msgid "Stash Messages"
@@ -3450,7 +3450,7 @@ msgstr ""
 
 msgctxt "dlgSgClone.chk:"
 msgid "Skip large files \\(\"partial clone\"\\)"
-msgstr ""
+msgstr "Пропустить большие файлы \\(\"частичное клонирование\"\\)"
 
 msgctxt "dlgSgClone.edt:"
 msgid "Check Out Branch"
@@ -15358,7 +15358,7 @@ msgstr ""
 
 msgctxt "wndStd.tbt:"
 msgid "History"
-msgstr ""
+msgstr "История"
 
 msgctxt "wndStd.tbt:"
 msgid "Show filter input field."
@@ -18050,7 +18050,7 @@ msgstr "Git-Flow"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "History"
-msgstr ""
+msgstr "История"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Ignore WS"
