@@ -6935,7 +6935,7 @@ msgctxt "dlgSgPreferences.lbl:"
 msgid "Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \\* need a restart to be applied."
 msgstr "ローレベルのプロパティを変更すると、SmartGitの安定性や性能に悪影響を及ぼす可能性があります。\\r自分が何をしているのか確信が持てる場合のみ、作業を続行するべきです。\\r変更したプロパティの末尾に\\*が付いている場合は、再起動が必要です。"
 
-msgctxt "dlgSgPreferences.lbl\"Checkout \\(Switch branch\\)\""
+msgctxt "dlgSgPreferences.lbl:"
 msgid "Checkout \\(Switch branch\\)"
 msgstr "チェックアウト \\(ブランチの切り替え\\)"
 
@@ -7183,7 +7183,7 @@ msgctxt "dlgSgPreferences.mni:"
 msgid "GitHub"
 msgstr "GitHub"
 
-msgctxt "dlgSgPreferences.mni\"GitLab \\(Self Hosted\\)\""
+msgctxt "dlgSgPreferences.mni:"
 msgid "GitLab \\(Self Hosted\\)"
 msgstr "GitLab \\(セルフホスト\\)"
 
