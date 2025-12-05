@@ -37,6 +37,10 @@ msgctxt "*.btn:"
 msgid "OK"
 msgstr ""
 
+msgctxt "*.chk:"
+msgid "Don't show again"
+msgstr ""
+
 msgctxt "*.hnt:"
 msgid "Filter"
 msgstr ""
@@ -305,7 +309,6 @@ msgctxt "dlgProgress.lbl:"
 msgid "Please wait ..."
 msgstr ""
 
-# [decode] msgctxt "dlgProgress.lbl:"
 # [decode] msgid "Please wait …"
 msgctxt "dlgProgress.lbl:"
 msgid "Please wait \\u2026"
@@ -2291,6 +2294,30 @@ msgctxt "dlgSgAiAnnotatorDropAllNotes.tle:"
 msgid "Drop AI Notes"
 msgstr ""
 
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.btn:"
+msgid "Swap"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "New \\(To\\)"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.edt:"
+msgid "Old \\(From\\)"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.hdl:"
+msgid "Choose the diff direction"
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.inf:"
+msgid "The two commits have diverged, so they can be compared in either direction. The diff represents the changes from Old to New."
+msgstr ""
+
+msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.tle:"
+msgid "Explain Diff"
+msgstr ""
+
 msgctxt "dlgSgAiApiKeyRepoLlmConsent.btn:"
 msgid "Allow"
 msgstr ""
@@ -2318,6 +2345,10 @@ msgstr ""
 
 msgctxt "dlgSgAiCommitAnnotatorError.tle:"
 msgid "Annotate Commits"
+msgstr ""
+
+msgctxt "dlgSgAiCommitAnnotatorOutput.tle:"
+msgid "Explain Diff"
 msgstr ""
 
 msgctxt "dlgSgAiCommitMessageComposeActionSetup.fur:"
@@ -3417,7 +3448,7 @@ msgctxt "dlgSgClone.chk:"
 msgid "Map SVN trunk, tags and branches to Git"
 msgstr ""
 
-msgctxt "dlgSgClone.chk\"Skip large files \\(\\\"partial clone\\\"\\)\":"
+msgctxt "dlgSgClone.chk:"
 msgid "Skip large files \\(\"partial clone\"\\)"
 msgstr ""
 
@@ -3505,7 +3536,6 @@ msgctxt "dlgSgClone.hnt:"
 msgid "Searching ..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgClone.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgClone.hnt:"
 msgid "Searching \\u2026"
@@ -3771,7 +3801,7 @@ msgctxt "dlgSgCommit.rbt:"
 msgid "Merge commit \\(multiple parents\\)"
 msgstr ""
 
-msgctxt "dlgSgCommit.rbt\"Simple commit \\(one parent, \\\"squash\\\"\\)\":"
+msgctxt "dlgSgCommit.rbt:"
 msgid "Simple commit \\(one parent, \"squash\"\\)"
 msgstr ""
 
@@ -4433,6 +4463,22 @@ msgstr ""
 
 msgctxt "dlgSgFileCompareNoChanges.tle:"
 msgid "File Compare"
+msgstr ""
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.btn:"
+msgid "Rerun"
+msgstr ""
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.fur:"
+msgid "For the initial commit\\(s\\) where the file was added, SmartGit will try to find a similar pre-existing file. If it finds one, it will continue the Log for that file as the source from which it might have been copied.\\n\\nTo enable this feature by default, set the Low-Level Property `log.file.followCopies` in the Preferences."
+msgstr ""
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.hdl:"
+msgid "Do you want to re-run the Log with copy-detection enabled?"
+msgstr ""
+
+msgctxt "dlgSgFileLogFollowCopiesConfirmation.tle:"
+msgid "Follow Copies"
 msgstr ""
 
 msgctxt "dlgSgFindObject.edt:"
@@ -6603,12 +6649,20 @@ msgctxt "dlgSgMergeHowToMerge.fur:"
 msgid "If there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
 msgstr ""
 
+msgctxt "dlgSgMergeHowToMerge.fur:"
+msgid "You are about to perform an Octopus Merge from $1 source branches.\\n\\nIf there is no conflict, Git can automatically create a merge commit. Alternatively, you can opt to merge to the working tree.\\nMerge to Working Tree will prepare a merge commit while Squash-Merge will prepare a normal commit \\(discarding the information about what commits were merged\\) - in both cases to be committed manually later."
+msgstr ""
+
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from branch '$1'?"
 msgstr ""
 
 msgctxt "dlgSgMergeHowToMerge.hdl:"
 msgid "How to merge from tag '$1'?"
+msgstr ""
+
+msgctxt "dlgSgMergeHowToMerge.hdl:"
+msgid "How to merge the $1 selected branches?"
 msgstr ""
 
 msgctxt "dlgSgMergeHowToMerge.tle:"
@@ -6944,7 +6998,15 @@ msgid "Tool $1 succeeded."
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
+msgid "You have not concluded your merge \\(MERGE_HEAD exists\\)."
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
+msgstr ""
+
+msgctxt "dlgSgOutput.lbl:"
+msgid "stash failed \\(return code $1\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -7455,7 +7517,6 @@ msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgPreferences.cmb"Custom…""
 # [decode] msgid "Custom…"
 msgctxt "dlgSgPreferences.cmb:"
 msgid "Custom\\u2026"
@@ -8433,7 +8494,6 @@ msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.inf:"
 msgid "Select which account you want to use for connecting to '$1'."
 msgstr ""
 
-# Verify that there’s no issue, since the `msgctxt` does not end with “:” and contains a proper noun.
 msgctxt "dlgSgProviderCredentialsAutoGeneratorSelector.tle:"
 msgid "Select GitHub account"
 msgstr ""
@@ -9362,6 +9422,14 @@ msgctxt "dlgSgRebaseInteractiveMessage.tle:"
 msgid "Edit Message"
 msgstr ""
 
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.fur:"
+msgid "Auto-Squash searches for commits with identical messages and amend-commits them."
+msgstr ""
+
+msgctxt "dlgSgRebaseInteractiveNoAutomaticSquashableCommitsFound.hdl:"
+msgid "No automatic squashable commits found."
+msgstr ""
+
 msgctxt "dlgSgRebaseInteractiveRemoveCommit.btn:"
 msgid "Remove"
 msgstr ""
@@ -9390,6 +9458,14 @@ msgctxt "dlgSgRebaseNoop.tle:"
 msgid "Merge"
 msgstr ""
 
+msgctxt "dlgSgRebaseNoopParent.fur:"
+msgid "Rebasing a commit onto its parent is allowed by Git but will not create a new commit or any meaningful changes."
+msgstr ""
+
+msgctxt "dlgSgRebaseNoopParent.hdl:"
+msgid "There is nothing to rebase."
+msgstr ""
+
 msgctxt "dlgSgRebaseNoopSelf.fur:"
 msgid "Rebasing a commit onto itself is allowed by Git but will not create a new commit or any meaningful changes."
 msgstr ""
@@ -9400,6 +9476,18 @@ msgstr ""
 
 msgctxt "dlgSgRebaseNoopSelf.tle:"
 msgid "Rebase"
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.btn:"
+msgid "Rebase Single Commit"
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.fur:"
+msgid "You are about to rebase your branch onto its own history. This action is allowed by Git but will not create a new commit or any meaningful changes.\\n\\nTo rebase a single commit, you can do so now.\\n\\nTo rebase a range of commits, select them in the Graph and drag & drop to the target commit."
+msgstr ""
+
+msgctxt "dlgSgRebaseSingleCommitConfirm.hdl:"
+msgid "Do you want to rebase only the HEAD commit?"
 msgstr ""
 
 msgctxt "dlgSgRebaseTagCommit.btn:"
@@ -9896,6 +9984,10 @@ msgstr ""
 
 msgctxt "dlgSgRepositoryClose.tle:"
 msgid "Close"
+msgstr ""
+
+msgctxt "dlgSgRepositoryClose.tle:"
+msgid "Exit"
 msgstr ""
 
 msgctxt "dlgSgRepositoryFrameCloseWithoutPush.btn:"
@@ -11367,6 +11459,10 @@ msgid "Do you want to save local changes to a stash and retry Reorder Commits?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
+msgid "Do you want to save local changes to a stash and retry Squash Commits?"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.hdl:"
 msgid "Do you want to save untracked files to a stash and retry Edit Message?"
 msgstr ""
 
@@ -11399,7 +11495,15 @@ msgid "Pull"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reorder Commits"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Reset"
+msgstr ""
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Squash Commits"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandDiscardConfirmation.btn:"
@@ -11558,7 +11662,6 @@ msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching ..."
 msgstr ""
 
-# [decode] msgctxt "dlgSgSubmoduleAdd.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgSubmoduleAdd.hnt:"
 msgid "Searching \\u2026"
@@ -11642,6 +11745,14 @@ msgstr ""
 
 msgctxt "dlgSgSubmoduleInitAll.tle:"
 msgid "Initialize Submodule"
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAllConfigured.fur:"
+msgid "You may now pull individual submodules or on the root directory to clone the configured repositories."
+msgstr ""
+
+msgctxt "dlgSgSubmoduleInitAllConfigured.hdl:"
+msgid "Submodules have been configured."
 msgstr ""
 
 msgctxt "dlgSgSubmoduleInitGit.btn:"
@@ -11813,11 +11924,39 @@ msgid "Repository URL"
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.err:"
+msgid "A local branch with this name already exists. Use a different name."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive dots are not allowed."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Consecutive slashes are not allowed."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Directory '$1' already exists."
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Enter the name of the local branch."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
 msgid "Please enter a valid relative path. The submodule will be created at this path inside the repository."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "Please select a valid branch."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not contain control characters, space, ~, ^, :, ?, \\*, \\[, < or >."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAdd.err:"
+msgid "The name must not end with a slash or dot."
 msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.hdl:"
@@ -11828,7 +11967,6 @@ msgctxt "dlgSgSubtreeAdd.hdl:"
 msgid "Repository"
 msgstr ""
 
-# [decode] msgctxt "dlgSgSubtreeAdd.hnt"Searching …""
 # [decode] msgid "Searching …"
 msgctxt "dlgSgSubtreeAdd.hnt:"
 msgid "Searching \\u2026"
@@ -11868,6 +12006,90 @@ msgstr ""
 
 msgctxt "dlgSgSubtreeAdd.tle:"
 msgid "Add Subtree"
+msgstr ""
+
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for \\*$1\\* and refs belonging to the \\*$2\\* remote."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAddSuccess.fur:"
+msgid "Subtree operations are now available in \\*Branches\\* and \\*Graph\\* view, for refs belonging to the \\*$1\\* remote."
+msgstr ""
+
+msgctxt "dlgSgSubtreeAddSuccess.hdl:"
+msgid "Subtree '$1' has been successfully added."
+msgstr ""
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.btn:"
+msgid "Merge"
+msgstr ""
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.fur:"
+msgid "Changes from '$1' will be merged into sub-directory '$2'."
+msgstr ""
+
+msgctxt "dlgSgSubtreeMergeWithPrefix.hdl:"
+msgid "Do you want to merge subtree '$1'?"
+msgstr ""
+
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Annotate generated history with prefix"
+msgstr ""
+
+msgctxt "dlgSgSubtreePush.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr ""
+
+msgctxt "dlgSgSubtreePush.edt:"
+msgid "Prefix"
+msgstr ""
+
+msgctxt "dlgSgSubtreePush.hdl:"
+msgid "Do you want to push back subtree '$1'?"
+msgstr ""
+
+msgctxt "dlgSgSubtreePush.inf:"
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2' and pushed back."
+msgstr ""
+
+msgctxt "dlgSgSubtreeReset.btn:"
+msgid "Reset"
+msgstr ""
+
+msgctxt "dlgSgSubtreeReset.fur:"
+msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at '$2'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
+msgstr ""
+
+msgctxt "dlgSgSubtreeReset.hdl:"
+msgid "Do you want to reset subtree '$1'?"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Annotate generated history with prefix"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.chk:"
+msgid "Rejoin generated history \\(for more efficient future splits\\)"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Prefix"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.edt:"
+msgid "Subtree-Branch to update"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.hdl:"
+msgid "Do you want to update subtree '$1'?"
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.inf:"
+msgid "HEAD changes from sub-directory '$1' will be rewritten onto '$2'."
+msgstr ""
+
+msgctxt "dlgSgSubtreeSplit.lbl:"
+msgid "The selected branch pointer will be set to the HEAD of the generated history."
 msgstr ""
 
 msgctxt "dlgSgSvnClientCertificate.btn:"
@@ -12358,6 +12580,42 @@ msgctxt "dlgShPushTrackingLocalSvnBranches.tle:"
 msgid "Push"
 msgstr ""
 
+msgctxt "dlgStdCheckoutCommit.btn:"
+msgid "Add Branch && Checkout"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.edt:"
+msgid "Branch"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.hdl:"
+msgid "Add branch at commit $1"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.inf:"
+msgid "Enter the name of the local branch to create. It will be checked out."
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Checkout local branch:"
+msgstr ""
+
+msgctxt "dlgStdCheckoutCommit.rbt:"
+msgid "Create local branch:"
+msgstr ""
+
+msgctxt "dlgStdDiscard.btn:"
+msgid "Discard"
+msgstr ""
+
+msgctxt "dlgStdDiscard.fur:"
+msgid "You won't be able to restore them."
+msgstr ""
+
+msgctxt "dlgStdDiscard.hdl:"
+msgid "Do you want to discard local changes?"
+msgstr ""
+
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.btn:"
 msgid "Discard"
 msgstr ""
@@ -12376,6 +12634,198 @@ msgstr ""
 
 msgctxt "dlgStdDiscardConfirmUntrackedFiles.tle:"
 msgid "Discard"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.btn:"
+msgid "Confirm"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Feature Prefix"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.edt:"
+msgid "Main Branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl:"
+msgid "Configure main and feature branches"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.hdl:"
+msgid "Configure main branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf:"
+msgid "Set the main branch for your repository and an optional prefix for feature branches."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.inf:"
+msgid "Set the main branch for your repository."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "Example: develop, release-.\\*"
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.lbl:"
+msgid "The 'main branch' represents the main development branch of your repository and serves as a foundation for releases. Usually it is named 'develop', 'master' or 'main'.\\n\\nBranches that are used to develop a single new feature, bugfix or other related changes \\(temporarily\\) isolated from the main branch are called 'feature branch' \\(or short 'feature'\\). They typically have a special name prefix, e.g. 'feature/'.\\n\\nNew features will be forked off from a main branch using 'Start'. For an existing feature, new changes from the main branch will be integrated using 'Integrate'. Once you have finished the feature, you can incorporate it into the main branch using 'Finish'.\\n\\nFor extended configuration options, invoke '\\u30d6\\u30e9\\u30f3\\u30c1 \\| Feature \\u306e\\u8a2d\\u5b9a'."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "The <b>Feature Prefix</b> is optional. <tt>feature/</tt>is commonly used and compatible with Git-Flow."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfiguration.ttp:"
+msgid "You can configure one or more <b>Main Branches</b> by specifying their names separated by semicolon. To specify patterns instead of singular names, use regular expressions. For example: <tt>main,release-.\\*</tt>."
+msgstr ""
+
+msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
+msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.btn:"
+msgid "Select"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Create merge commit"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Delete feature branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.chk:"
+msgid "Push results"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.edt:"
+msgid "Merge Message"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.hdl:"
+msgid "Finish feature '$1'"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.inf:"
+msgid "Choose how to finish the feature branch '$1'. This operation will integrate the feature branch into the '$2' branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Create Pull Request"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinish.rbt:"
+msgid "Finish to main branch"
+msgstr ""
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.fur:"
+msgid "Your feature branch does not contain any new commits. Finishing now will simply remove the branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureFinishFeatureEmpty.hdl:"
+msgid "Feature branch is empty."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "Branch '$1' is ahead of '$2'.\\n\\nConsolidate the '$3'-branch, then invoke Integrate again."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The feature branch has been rebased onto '$1'.\\n\\nYou may now verify and push the branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.fur:"
+msgid "The local feature branch has been rebased onto the remote branch '$1'.\\n\\nYou may now verify and push the branch, then invoke Integrate again."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Resolve diverged main branch."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated main changes."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.hdl:"
+msgid "Verify integrated remote changes."
+msgstr ""
+
+msgctxt "dlgStdFeatureIntegrateProgress.lbl:"
+msgid "Steps"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.btn:"
+msgid "Start"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.edt:"
+msgid "Feature Name"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.hdl:"
+msgid "Start a new feature"
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.inf:"
+msgid "Enter the name of the new feature branch. This operation will fork a new branch from '$1'."
+msgstr ""
+
+msgctxt "dlgStdFeatureStart.lbl:"
+msgid "Resulting Branch: $1"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.btn:"
+msgid "Switch Anyway"
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.fur:"
+msgid "Your working tree currently has local modifications, and you are not currently on the main branch. Initiating a new feature now will require switching commits, which can potentially fail due to the presence of local changes.\\n\\nThe recommended course of action is either to commit your local changes \\(if they pertain to the current branch\\) or stash them away in order to have a clean working tree before starting a new feature."
+msgstr ""
+
+msgctxt "dlgStdFeatureStartNotOnMainBranchesAndLocalChanges.hdl:"
+msgid "Do you want to switch to a different branch despite having local changes?"
+msgstr ""
+
+msgctxt "dlgStdOutputCommandConflicts.fur:"
+msgid "These conflicts must be resolved before continuing. Select the conflicted files in the Local Files view and use the Conflict Solver to resolve them, then continue the operation."
+msgstr ""
+
+msgctxt "dlgStdOutputCommandConflicts.hdl:"
+msgid "SmartGit encountered conflicts during the Integrate main operation."
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.fur:"
+msgid "Commit or stash local changes before cherry-picking."
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.fur:"
+msgid "Commit or stash local changes before reverting."
+msgstr ""
+
+msgctxt "dlgStdPickCommitWtDirty.hdl:"
+msgid "The working tree contains local changes."
+msgstr ""
+
+msgctxt "dlgStdRemove.btn:"
+msgid "Delete Local Files"
+msgstr ""
+
+msgctxt "dlgStdRemove.btn:"
+msgid "Keep Local Files"
+msgstr ""
+
+msgctxt "dlgStdRemove.fur:"
+msgid "You can just remove the files from the repository \\(keeping the local files, e.g. to mark them later as ignored\\), or also delete the local files."
+msgstr ""
+
+msgctxt "dlgStdRemove.hdl:"
+msgid "How do you want to remove the files from the repository?"
 msgstr ""
 
 msgctxt "dlgTxtEditor.fileModified.btn:"
@@ -12518,6 +12968,18 @@ msgctxt "ntmCredentialHelper:"
 msgid "To disable this configuration, open the above config file, locate the <b>\\[credential\\]</b>-section and comment out the <b>helper\\=</b> line using <b>#</b>"
 msgstr ""
 
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Directory '$1' \\($2\\) has been excluded from file monitoring because it's listed in some .gitignore file."
+msgstr ""
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Sometimes ignored directories are containing tracked files in which case changes to these files might not show up automatically. If this is the case for you, you may disable this optimization by setting system property 'fileMonitor.excludeIgnoredDirectories\\=false'."
+msgstr ""
+
+msgctxt "ntmFileMonitorDirectoriesExcluded:"
+msgid "Usually this does not cause any problems but improves Refreshing performance and reduces required inotify handles."
+msgstr ""
+
 msgctxt "ntmFollowUsOnTwitter:"
 msgid "<link1>Facebook</link1>: news"
 msgstr ""
@@ -12626,7 +13088,7 @@ msgctxt "ntmHostingProviderIntegrationNotYetConfigured:"
 msgid "SmartGit provides special support for $1. The integration can be configured in the Preferences."
 msgstr ""
 
-msgctxt "ntmLcTypeProblem\"If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \\\"<tt>.UTF-8</tt>\\\".\""
+msgctxt "ntmLcTypeProblem:"
 msgid "If you experience problems with garbled file names/paths containing non-US-ASCII characters, consider to set the environment variables <tt>LC_ALL</tt>, or both <tt>LC_CTYPE</tt> and <tt>LANG</tt> to a country code which ends with \"<tt>.UTF-8</tt>\"."
 msgstr ""
 
@@ -12650,6 +13112,10 @@ msgctxt "ntmRepositoryGitCleanup:"
 msgid "The repository '$1' contains a significant amount of loose or even unused 'objects'. Running a cleanup will reduce disk space and increase performance. SmartGit will try to do so, when it is idle."
 msgstr ""
 
+msgctxt "ntmRepositoryRefsReadingManyLoose:"
+msgid "The repository '$1' contains many 'loose' refs which makes refreshing inefficient. Repacking the refs will improve performance."
+msgstr ""
+
 msgctxt "ntmSupportExpired:"
 msgid "To extend your support, please purchase an update license and upgrade to the latest SmartGit version."
 msgstr ""
@@ -12658,8 +13124,18 @@ msgctxt "ntmSupportExpired:"
 msgid "You may continue to use SmartGit, just your support period expired."
 msgstr ""
 
+msgctxt "ntmUpdateCheckChannelSubscribePolls:"
+msgid "Occasionally, you'll be invited to quick polls here in the notification area. Your feedback helps shape SmartGit's future. You can turn this off anytime in the Preferences."
+msgstr ""
+
 msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
+msgstr ""
+
+# TODO: Check if the variable range is correct.
+#| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
+msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+msgid "$1 needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -12702,6 +13178,10 @@ msgctxt "nttCredentialHelper:"
 msgid "Let SmartGit handle Authentication"
 msgstr ""
 
+msgctxt "nttFileMonitorDirectoriesExcluded:"
+msgid "Ignored directories are not monitored"
+msgstr ""
+
 msgctxt "nttFollowUsOnTwitter:"
 msgid "Follow SmartGit on Twitter!"
 msgstr ""
@@ -12724,6 +13204,10 @@ msgstr ""
 
 msgctxt "nttGeneral:"
 msgid "Remind me later"
+msgstr ""
+
+msgctxt "nttGeneral:"
+msgid "Skip this Poll"
 msgstr ""
 
 msgctxt "nttHighMemoryUsage:"
@@ -12778,12 +13262,40 @@ msgctxt "nttRepositoryGitCleanup:"
 msgid "Run Garbage Collector Now"
 msgstr ""
 
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Do not warn me again for this repository"
+msgstr ""
+
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Many loose refs"
+msgstr ""
+
+msgctxt "nttRepositoryRefsReadingManyLoose:"
+msgid "Repack"
+msgstr ""
+
 msgctxt "nttSupportExpired:"
 msgid "Purchase Update"
 msgstr ""
 
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
+msgstr ""
+
+msgctxt "nttUpdateCheck:"
+msgid "Quick Poll: $1"
+msgstr ""
+
+msgctxt "nttUpdateCheck:"
+msgid "Vote"
+msgstr ""
+
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Turn on"
+msgstr ""
+
+msgctxt "nttUpdateCheckChannelSubscribePolls:"
+msgid "Want to influence SmartGit's development?"
 msgstr ""
 
 msgctxt "nttUpdateCheckFetchVersionStart:"
@@ -12824,6 +13336,10 @@ msgstr ""
 
 msgctxt "pop:"
 msgid "$1 succeeded."
+msgstr ""
+
+msgctxt "pop:"
+msgid "Already up-to-date"
 msgstr ""
 
 msgctxt "pop:"
@@ -12868,6 +13384,10 @@ msgstr ""
 
 msgctxt "pop:"
 msgid "The dropped directory is no Git repository."
+msgstr ""
+
+msgctxt "pop:"
+msgid "The working tree contains local changes."
 msgstr ""
 
 msgctxt "pop:"
@@ -12930,7 +13450,6 @@ msgctxt "ttpBranches:"
 msgid "<b>On: </b>$1"
 msgstr ""
 
-#| msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
 msgctxt "ttpBranches:"
 msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>$3</b>"
 msgstr ""
@@ -13697,7 +14216,6 @@ msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
 msgstr ""
 
-# [decode] msgctxt "wndDeepgit.lblBlameHeader"Blame \(in progress…\)""
 # [decode] msgid "Blame \(in progress…\)"
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress\\u2026\\)"
@@ -14111,7 +14629,6 @@ msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing...\\)"
 msgstr ""
 
-# [decode] msgctxt "wndDeepgit.tab"Navigation \(initializing…\)""
 # [decode] msgid "Navigation \(initializing…\)"
 msgctxt "wndDeepgit.tab:"
 msgid "Navigation \\(initializing\\u2026\\)"
@@ -14418,6 +14935,10 @@ msgid "Explain Commit"
 msgstr ""
 
 msgctxt "wndLog.mni:"
+msgid "Explain Diff"
+msgstr ""
+
+msgctxt "wndLog.mni:"
 msgid "On Manual Intervention"
 msgstr ""
 
@@ -14457,25 +14978,21 @@ msgctxt "wndLog.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Initializing Subtree-Cache…\)""
 # [decode] msgid "Graph \(Initializing Subtree-Cache…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Initializing Subtree-Cache\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Loading…\)""
 # [decode] msgid "Graph \(Loading…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Loading\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Running log…\)""
 # [decode] msgid "Graph \(Running log…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Running log\\u2026\\)"
 msgstr ""
 
-# [decode] msgctxt "wndLog.tab"Graph \(Scanning WT…\)""
 # [decode] msgid "Graph \(Scanning WT…\)"
 msgctxt "wndLog.tab:"
 msgid "Graph \\(Scanning WT\\u2026\\)"
@@ -14487,6 +15004,15 @@ msgstr ""
 
 msgctxt "wndLog.tbt:"
 msgid "Refresh information from GitHub."
+msgstr ""
+
+#| msgid "Rewording 1 commits\\u2026"
+msgctxt "wndLog.tbtAi.commitMessageCompose:"
+msgid "Rewording $1 commits\\u2026"
+msgstr ""
+
+msgctxt "wndLog.tbtFlowContext:"
+msgid "Start a new Git-Flow feature."
 msgstr ""
 
 msgctxt "wndProject.mni:"
@@ -14565,10 +15091,13 @@ msgctxt "wndStd.hnt:"
 msgid "Loading ..."
 msgstr ""
 
-# [decode] msgctxt "wndStd.hnt"Loading …""
 # [decode] msgid "Loading …"
 msgctxt "wndStd.hnt:"
 msgid "Loading \\u2026"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "No files below the selected directory"
 msgstr ""
 
 msgctxt "wndStd.hnt:"
@@ -14581,6 +15110,14 @@ msgstr ""
 
 msgctxt "wndStd.hnt:"
 msgid "No locally changed files"
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "The repository's\\nreflog is empty."
+msgstr ""
+
+msgctxt "wndStd.hnt:"
+msgid "This repository has\\nno stashes yet."
 msgstr ""
 
 msgctxt "wndStd.lbl:"
@@ -14632,6 +15169,14 @@ msgid "Changed files"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Close Others"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Close to the Right"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Continue in Background"
 msgstr ""
 
@@ -14640,7 +15185,15 @@ msgid "Continue with Description"
 msgstr ""
 
 msgctxt "wndStd.mni:"
+msgid "Copy Path"
+msgstr ""
+
+msgctxt "wndStd.mni:"
 msgid "Don't Show Pull Requests"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Drop All Notes"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -14677,6 +15230,10 @@ msgstr ""
 
 msgctxt "wndStd.mni:"
 msgid "Only current branch \\(HEAD\\)"
+msgstr ""
+
+msgctxt "wndStd.mni:"
+msgid "Open in GitHub"
 msgstr ""
 
 msgctxt "wndStd.mni:"
@@ -14751,6 +15308,10 @@ msgctxt "wndStd.mniGitNoteAdd:"
 msgid "Add Note"
 msgstr ""
 
+msgctxt "wndStd.mniIndexEditor:"
+msgid "Edit in Index Editor"
+msgstr ""
+
 msgctxt "wndStd.mniIntegrateMain:"
 msgid "Integrate Main"
 msgstr ""
@@ -14767,8 +15328,16 @@ msgctxt "wndStd.mniStdOpenSubmoduleFromFile:"
 msgid "Open this Submodule"
 msgstr ""
 
+msgctxt "wndStd.mniStdProviderOpenFileInBrowser:"
+msgid "Open in GitHub"
+msgstr ""
+
 msgctxt "wndStd.mniStdProviderOpenInBrowser:"
 msgid "Open in $1"
+msgstr ""
+
+msgctxt "wndStd.mniStdProviderOpenRefInBrowser:"
+msgid "Open in GitHub"
 msgstr ""
 
 msgctxt "wndStd.mniStdSetModeHistory:"
@@ -14791,8 +15360,20 @@ msgctxt "wndStd.tbt:"
 msgid "History"
 msgstr ""
 
+msgctxt "wndStd.tbt:"
+msgid "Show filter input field."
+msgstr ""
+
+msgctxt "wndStd.tbtFlowFeatureFinish:"
+msgid "Finish the current feature branch."
+msgstr ""
+
 msgctxt "wndStd.tbtFlowFeatureStart:"
 msgid "Start a new feature branch."
+msgstr ""
+
+msgctxt "wndStd.tbtIntegrateMain:"
+msgid "Integrate latest changes from the main branch into the current feature branch."
 msgstr ""
 
 msgctxt "wnd(Annotate|Compare|ConflictSolver|Deepgit|Git.indexEditor|Editor|Log|Project|Std|).lblStatusBarMessage:"
@@ -17383,10 +17964,6 @@ msgctxt "wnd(Log|Project|Std|).tab:"
 msgid "Repositories"
 msgstr ""
 
-msgctxt "wnd(Log|Project|Std|).tbr\"  History  \":"
-msgid "History"
-msgstr ""
-
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Add Branch"
 msgstr ""
@@ -17469,6 +18046,10 @@ msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Git-Flow"
+msgstr ""
+
+msgctxt "wnd(Log|Project|Std|).tbr:"
+msgid "History"
 msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
