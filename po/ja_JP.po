@@ -2013,10 +2013,6 @@ msgctxt "dlgSgAbortRebasingConfirm.tle:"
 msgid "Abort"
 msgstr "中止"
 
-msgctxt "dlgSgAbortRebasingConfirm.tle:"
-msgid "Abort"
-msgstr "中止"
-
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
 msgid "Abort Revert"
 msgstr "リバートを中止"
@@ -2373,10 +2369,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr "$1個のローカルブランチを削除しますか？"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr "$1 件のローカル ブランチを削除しますか?"
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
 msgstr "削除"
@@ -2413,10 +2405,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "ローカルブランチ'$1'を削除しますか？"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr "ローカル ブランチ '$1' を削除しますか?"
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
 msgstr "削除"
@@ -2434,10 +2422,6 @@ msgid "Delete"
 msgstr "削除"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
-msgid "Delete from remote repository '$1'"
-msgstr "リモートリポジトリ '$1' から削除する"
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
 msgstr "リモート '$1' から削除"
 
@@ -2448,10 +2432,6 @@ msgstr "リモートリポジトリ'$1'から削除"
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.fur:"
 msgid "If you don't delete the branch from the remote repository, it may come back with the next fetch."
 msgstr "ローカルにあるリモートブランチリストからブランチを削除するだけで、次のフェッチでブランチが復活する可能性があります。"
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
-msgid "Do you want to delete the branch '$1'?"
-msgstr "ブランチ '$1' を削除しますか？"
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the branch '$1'?"
@@ -3761,12 +3741,6 @@ msgctxt "dlgSgDiscardRevertTo(Head|Index).tle:"
 msgid "Discard"
 msgstr "破棄"
 
-# Needs review: Check whether the URL needs to be made variable
-#, fuzzy
-msgctxt "dlgSgErrorUtilsClientException.fur:"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-msgstr "サーバーが URL: https://gitlab.com/oauth/token に対して HTTP 応答コード: 400 を返しました"
-
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
 msgstr "コミット '$1' がリポジトリ内に見つかりませんでした。"
@@ -3782,6 +3756,12 @@ msgstr "'$1' にあるリポジトリの GIT_DIR が存在しません。"
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Repository '$1' is not valid."
 msgstr "リポジトリ '$1' は無効です。"
+
+# Needs review: Check whether the URL needs to be made variable
+#, fuzzy
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgstr "サーバーが URL: https://gitlab.com/oauth/token に対して HTTP 応答コード: 400 を返しました"
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "svn: $1"
@@ -10319,16 +10299,16 @@ msgid "What to do with the working tree or Index changes?"
 msgstr "作業ツリーまたはインデックスの変更をどうしますか？"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
-msgid "Reset"
-msgstr "リセット"
-
-msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
 msgstr "チェックアウト"
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr "プル"
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reset"
+msgstr "リセット"
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
 msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
@@ -14812,10 +14792,6 @@ msgid "Use Message for Commit"
 msgstr "コミットにメッセージを使用"
 
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
-msgid "Configure"
-msgstr "設定"
-
-msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr "Feature の設定"
 
@@ -15004,10 +14980,6 @@ msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
 
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
-msgid "Open from Working Tree"
-msgstr "作業ツリーから開く"
-
-msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
 msgstr "開く"
 
@@ -15102,10 +15074,6 @@ msgstr "スキップ"
 msgctxt "wnd(Log|Project|Std|).mniRebaseStep:"
 msgid "Step"
 msgstr "ステップ"
-
-msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
-msgid "Rebase to HEAD"
-msgstr "HEAD にリベース"
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
 msgid "Rebase to HEAD \\($1\\)"
@@ -15286,10 +15254,6 @@ msgstr "設定"
 msgctxt "wnd(Log|Project|Std|).mniReviewDumpDatabase:"
 msgid "Dump Database"
 msgstr "データベースのダンプ"
-
-msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
-msgid "Create Pull Request"
-msgstr "プルリクエストを作成"
 
 msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
 msgid "Create Merge Request"
@@ -16200,16 +16164,12 @@ msgid "Refresh the log view."
 msgstr "ログ ビューを更新します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
-msgid "Fetch commits from current remote repository."
-msgstr "現在のリモートリポジトリからコミットをフェッチします。"
-
-msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
 msgstr "すべてのリモートリポジトリからコミットを取得します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from current remote repository."
-msgstr "現在のリモートリポジトリからコミットを取得します。"
+msgstr "現在のリモートリポジトリからコミットをフェッチします。"
 
 msgctxt "wnd(Log|Project|Std|).tbtRemove:"
 msgid "Remove selected files or directories from repository."

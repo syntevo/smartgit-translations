@@ -2013,10 +2013,6 @@ msgctxt "dlgSgAbortRebasingConfirm.tle:"
 msgid "Abort"
 msgstr "丢弃"
 
-msgctxt "dlgSgAbortRebasingConfirm.tle:"
-msgid "Abort"
-msgstr ""
-
 msgctxt "dlgSgAbortRevertingConfirm.btn:"
 msgid "Abort Revert"
 msgstr "中止还原"
@@ -2373,10 +2369,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr "您确定要删除 $1 本地分支吗？"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
-msgid "Do you want to delete $1 local branches?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.tle:"
 msgid "Delete"
 msgstr "删除"
@@ -2413,10 +2405,6 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "您确定要删除本地分支 “$1” 吗？"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
-msgid "Do you want to delete the local branch '$1'?"
-msgstr ""
-
 msgctxt "dlgSgBranchDeleteLocalConfirmSingle.tle:"
 msgid "Delete"
 msgstr "删除"
@@ -2432,10 +2420,6 @@ msgstr ""
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.btn:"
 msgid "Delete"
 msgstr "删除"
-
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
-msgid "Delete from remote repository '$1'"
-msgstr ""
 
 msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote '$1'"
@@ -3759,10 +3743,6 @@ msgid "Discard"
 msgstr "丢弃"
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
-msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-msgstr ""
-
-msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Commit '$1' was not found in repository."
 msgstr "未在仓库内找到提交 '$1'."
 
@@ -3777,6 +3757,10 @@ msgstr "位于 '$1' 的仓库的 GIT_DIR 不存在。"
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "Repository '$1' is not valid."
 msgstr "仓库 “$1” 无效。"
+
+msgctxt "dlgSgErrorUtilsClientException.fur:"
+msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
+msgstr ""
 
 msgctxt "dlgSgErrorUtilsClientException.fur:"
 msgid "svn: $1"
@@ -10306,16 +10290,16 @@ msgid "What to do with the working tree or Index changes?"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
-msgid "Reset"
-msgstr ""
-
-msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Checkout"
 msgstr ""
 
 msgctxt "dlgSgStashOnDemandConfirmation.tle:"
 msgid "Pull"
 msgstr "拉取"
+
+msgctxt "dlgSgStashOnDemandConfirmation.tle:"
+msgid "Reset"
+msgstr ""
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
 msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
@@ -14814,11 +14798,6 @@ msgctxt "wnd(Log|Project|Std|).mniFixup:"
 msgid "Use Message for Commit"
 msgstr "修复"
 
-#, fuzzy
-msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
-msgid "Configure"
-msgstr "配置"
-
 msgctxt "wnd(Log|Project|Std|).mniFlowConfigure:"
 msgid "Configure Features"
 msgstr ""
@@ -15009,11 +14988,6 @@ msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "打开"
 
-#, fuzzy
-msgctxt "wnd(Log|Project|Std|).mniOpen:"
-msgid "Open from Working Tree"
-msgstr "打开"
-
 msgctxt "wnd(Log|Project|Std|).mniOpen:"
 msgid "Open"
 msgstr ""
@@ -15109,10 +15083,6 @@ msgstr "跳过"
 msgctxt "wnd(Log|Project|Std|).mniRebaseStep:"
 msgid "Step"
 msgstr "步骤"
-
-msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
-msgid "Rebase to HEAD"
-msgstr "变基至 HEAD"
 
 msgctxt "wnd(Log|Project|Std|).mniRebaseToHead:"
 msgid "Rebase to HEAD \\($1\\)"
@@ -15293,10 +15263,6 @@ msgstr "配置"
 msgctxt "wnd(Log|Project|Std|).mniReviewDumpDatabase:"
 msgid "Dump Database"
 msgstr "转储数据库"
-
-msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
-msgid "Create Pull Request"
-msgstr "创建拉取请求"
 
 msgctxt "wnd(Log|Project|Std|).mniReviewPullRequestCreate:"
 msgid "Create Merge Request"
@@ -16209,10 +16175,6 @@ msgstr "将 HEAD 提交应用于所选提交。"
 msgctxt "wnd(Log|Project|Std|).tbtRefresh:"
 msgid "Refresh the log view."
 msgstr "刷新日志视图。"
-
-msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
-msgid "Fetch commits from current remote repository."
-msgstr ""
 
 msgctxt "wnd(Log|Project|Std|).tbtRemoteFetch:"
 msgid "Fetch commits from all remote repositories."
