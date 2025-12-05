@@ -125,7 +125,7 @@ msgctxt "dlgCommitGitHubConfirmEmail.fur"
 msgid "If this repository is open-source, you might want to hide your email address, as \\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\], and use instead <username>@users.noreply.github.com."
 msgstr ""
 
-msgctxt "dlgCommitGitHubConfirmEmail.hdl%1"
+msgctxt "dlgCommitGitHubConfirmEmail.hdl"
 msgid "Commit with default email address $1?"
 msgstr ""
 
@@ -325,11 +325,11 @@ msgctxt "dlgProgress.tle:"
 msgid "Verifying executables"
 msgstr ""
 
-msgctxt "dlgQBugFileSendingFailed.fur%1"
+msgctxt "dlgQBugFileSendingFailed.fur"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr "也许您需要配置代理才能访问我们服务器或我们的服务器暂时关闭。\\n详情：$1"
 
-msgctxt "dlgQBugFileSendingFailed.hdl%1"
+msgctxt "dlgQBugFileSendingFailed.hdl"
 msgid "Could not send the crash logs to $1"
 msgstr "无法将崩溃记录发送到 $1"
 
@@ -401,7 +401,7 @@ msgctxt "dlgQDockManagerClosedView.fur"
 msgid "To reopen it again, use the corresponding menu item from the Window menu."
 msgstr "要再次重新打开，请使用窗口菜单中的相应菜单项。"
 
-msgctxt "dlgQDockManagerClosedView.hdl%1"
+msgctxt "dlgQDockManagerClosedView.hdl"
 msgid "You've closed the view '$1'."
 msgstr "您已经关闭了视图 $1。"
 
@@ -417,7 +417,7 @@ msgctxt "dlgQFileSaveAcceptFilterOverwrite.fur"
 msgid "To save to a different file, click 'Cancel'."
 msgstr "要保存到其他文件，请单击 “取消”。"
 
-msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl%1"
+msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl"
 msgid "The file $1 already exists. Do you want to overwrite it?"
 msgstr "文件 $1 已存在。你确定覆盖吗？"
 
@@ -449,11 +449,11 @@ msgctxt "dlgQFrameManagerExit.tle"
 msgid "Exit"
 msgstr "退出"
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.fur%2"
+msgctxt "dlgQIntegerInputProviderInvalidValue.fur"
 msgid "Port must be in the range from $1 to $2."
 msgstr "端口必须在 $1 到 $2 的范围内。"
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.hdl%1"
+msgctxt "dlgQIntegerInputProviderInvalidValue.hdl"
 msgid "The text in field '$1' is not valid."
 msgstr "字段 “$1” 中的文本无效。"
 
@@ -513,7 +513,7 @@ msgctxt "dlgQProxyConnectionFailed.fur"
 msgid "Details: syntevo.com"
 msgstr "详情：syntevo.com"
 
-msgctxt "dlgQProxyConnectionFailed.hdl%1"
+msgctxt "dlgQProxyConnectionFailed.hdl"
 msgid "Could not connect to $1."
 msgstr "无法连接到 $1。"
 
@@ -549,7 +549,7 @@ msgctxt "dlgQUpdateCheckForNewVersion.tle"
 msgid "Check for New Version"
 msgstr "检查新版本"
 
-msgctxt "dlgQUpdateCheckForNewVersionFailed.fur%1"
+msgctxt "dlgQUpdateCheckForNewVersionFailed.fur"
 msgid "Details: Failed to connect to '$1'."
 msgstr "详细信息：无法连接到 “$1”。"
 
@@ -577,7 +577,7 @@ msgctxt "dlgQUpdateCheckLatestBuild.tle"
 msgid "Check for Latest Build"
 msgstr "检查最新编译版本"
 
-msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur%1"
+msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur"
 msgid "Details: $1"
 msgstr "详细信息：$1"
 
@@ -673,7 +673,7 @@ msgctxt "dlgScAboutUpdateInstallation.fur"
 msgid "This will take a few moments and has to restart SmartGit."
 msgstr "这将需要些时间，必须重新启动 SmartGit。"
 
-msgctxt "dlgScAboutUpdateInstallation.hdl%1"
+msgctxt "dlgScAboutUpdateInstallation.hdl"
 msgid "Do you want to upgrade the installation directory to version $1?"
 msgstr "是否要将安装目录升级到版本 $1？"
 
@@ -729,11 +729,11 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "文件包含混合不一致的行尾序列."
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - 冲突解决工具"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - $2"
 msgstr ""
 
@@ -925,7 +925,7 @@ msgctxt "dlgScDevOpsCredentials.edt:"
 msgid "User Name"
 msgstr "用户名"
 
-msgctxt "dlgScDevOpsCredentials.hdl%1"
+msgctxt "dlgScDevOpsCredentials.hdl"
 msgid "Login to '$1'"
 msgstr "登录 “$1”"
 
@@ -957,7 +957,7 @@ msgctxt "dlgScDevOpsSslClientCertificate.edt:"
 msgid "Passphrase"
 msgstr "密码"
 
-msgctxt "dlgScDevOpsSslClientCertificate.hdl%1"
+msgctxt "dlgScDevOpsSslClientCertificate.hdl"
 msgid "Select the client certificate for $1"
 msgstr "选择 $1 的客户端证书"
 
@@ -1049,7 +1049,7 @@ msgctxt "dlgScDialogAssertionHandlerOutOfMemory.btn:"
 msgid "Force Exit"
 msgstr ""
 
-msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur%1"
+msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur"
 msgid "It is strongly recommended to restart SmartGit.\\n\\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) and restart SmartGit."
 msgstr ""
 
@@ -1069,11 +1069,11 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr "注册"
 
-msgctxt "dlgScEvaluationReminderContinue.fur%2"
+msgctxt "dlgScEvaluationReminderContinue.fur"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr "在商业环境中使用 SmartGit，您必须 \\[$1 购买许可证 \\]。\\n\\n对于 \\[$2 某些用途 \\]，我们授予免费许可证。"
 
-msgctxt "dlgScEvaluationReminderContinue.hdl%1"
+msgctxt "dlgScEvaluationReminderContinue.hdl"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr "您的 SmartGit 试用将在 $1 天后结束。"
 
@@ -1081,11 +1081,11 @@ msgctxt "dlgScEvaluationReminderContinue.tle"
 msgid "Evaluation"
 msgstr "试用"
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl%2"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl"
 msgid "Cannot run program \"$1\": $2"
 msgstr "无法运行 \"$1\": $2"
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - 冲突解决工具"
 
@@ -1249,7 +1249,7 @@ msgctxt "dlgScFilePatternsEdit.edt:"
 msgid "File Pattern"
 msgstr "文件模式"
 
-msgctxt "dlgScFilePatternsEdit.hdl%1"
+msgctxt "dlgScFilePatternsEdit.hdl"
 msgid "Language: $1"
 msgstr "语言：$1"
 
@@ -1381,7 +1381,7 @@ msgctxt "dlgScJiraResolveIssue.edt:"
 msgid "Summary"
 msgstr "摘要"
 
-msgctxt "dlgScJiraResolveIssue.hdl%1"
+msgctxt "dlgScJiraResolveIssue.hdl"
 msgid "Resolve issue $1"
 msgstr "解决问题 $1"
 
@@ -1513,7 +1513,7 @@ msgctxt "dlgScPropertiesReset.fur"
 msgid "The new values will be active after restarting SmartGit."
 msgstr "新值只有在重新启动 SmartGit 后才会激活。"
 
-msgctxt "dlgScPropertiesReset.hdl%1"
+msgctxt "dlgScPropertiesReset.hdl"
 msgid "Do you want to reset $1 system properties to their defaults?"
 msgstr "是否要将系统属性 $1 重置为默认值？"
 
@@ -1529,7 +1529,7 @@ msgctxt "dlgScPropertyEdit.hdl"
 msgid "Edit low-level property value"
 msgstr "编辑低级属性值"
 
-msgctxt "dlgScPropertyEdit.inf%1"
+msgctxt "dlgScPropertyEdit.inf"
 msgid "Set the value for property '$1'"
 msgstr "设置属性 “$1” 的值"
 
@@ -1901,7 +1901,7 @@ msgctxt "dlgScUpdateInstallationUpdateManuallyFailure.tle"
 msgid "SmartGit Installation Update"
 msgstr "SmartGit 安装更新"
 
-msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur%1"
+msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur"
 msgid "Please get rid of '$1' manually and retry the upgrade."
 msgstr "请手动删除 '$1' 并重试."
 
@@ -1917,7 +1917,7 @@ msgctxt "dlgScUpdateInstallationUpgrade.btn:"
 msgid "Upgrade Now"
 msgstr "立即升级"
 
-msgctxt "dlgScUpdateInstallationUpgrade.fur%1"
+msgctxt "dlgScUpdateInstallationUpgrade.fur"
 msgid "The new version $1 has been downloaded which needs to be installed."
 msgstr "新版本 $1 已经下载，需要安装。"
 
@@ -2113,7 +2113,7 @@ msgctxt "dlgSgAbout.tle"
 msgid "About SmartGit"
 msgstr "关于 SmartGit"
 
-msgctxt "dlgSgApplicationAlreadyRunning.fur%1"
+msgctxt "dlgSgApplicationAlreadyRunning.fur"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
 msgstr ""
 
@@ -2157,7 +2157,7 @@ msgctxt "dlgSgAuthenticationShowPassword.edt:"
 msgid "Password"
 msgstr "密码"
 
-msgctxt "dlgSgAuthenticationShowPassword.tle%1"
+msgctxt "dlgSgAuthenticationShowPassword.tle"
 msgid "Password for $1"
 msgstr "$1 的密码"
 
@@ -2201,7 +2201,7 @@ msgctxt "dlgSgBisectResult.btn:"
 msgid "Leave Bisect"
 msgstr "离开二分"
 
-msgctxt "dlgSgBisectResult.fur%1"
+msgctxt "dlgSgBisectResult.fur"
 msgid "$1"
 msgstr "$1"
 
@@ -2325,7 +2325,7 @@ msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.fur"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr "单击 “取消” 以选择其他分支名称。"
 
-msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl%1"
+msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr "分支 “$1” 已经存在。你想覆盖吗？"
 
@@ -2377,7 +2377,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl"
 msgid "Do you want to delete $1 local branches?"
 msgstr "您确定要删除 $1 本地分支吗？"
 
@@ -2417,7 +2417,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr ""
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "您确定要删除本地分支 “$1” 吗？"
 
@@ -2445,7 +2445,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr "从远程仓库中删除 '$1'"
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk%1"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
 msgid "Delete from remote repository '$1'"
 msgstr ""
 
@@ -2461,7 +2461,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr "您要删除远程分支 “$1” 吗？"
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
 msgid "Do you want to delete the branch '$1'?"
 msgstr ""
 
@@ -2477,7 +2477,7 @@ msgctxt "dlgSgBranchTrackingResetConfirm.fur"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr "必要的配置将在 .git/config 文件中执行。"
 
-msgctxt "dlgSgBranchTrackingResetConfirm.hdl%2"
+msgctxt "dlgSgBranchTrackingResetConfirm.hdl"
 msgid "Should branch '$1' stop tracking '$2'?"
 msgstr "分支 '$1' 是否应该停止跟踪 '$2'？"
 
@@ -2493,7 +2493,7 @@ msgctxt "dlgSgBranchTrackingSetConfirm.fur"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr "必要的配置将在 .git/config 文件中执行。"
 
-msgctxt "dlgSgBranchTrackingSetConfirm.hdl%2"
+msgctxt "dlgSgBranchTrackingSetConfirm.hdl"
 msgid "Do you want to configure '$1' to track '$2'?"
 msgstr "你想配置 '$1' 跟踪 '$2' 吗？"
 
@@ -2569,7 +2569,7 @@ msgctxt "dlgSgCheckoutFastForwardMerge.fur"
 msgid "Fast-forward-merging automatically moves the branch forward to the tracked remote branch."
 msgstr "快进合并会自动将分支向前移动到跟踪的远程分支。"
 
-msgctxt "dlgSgCheckoutFastForwardMerge.hdl%1"
+msgctxt "dlgSgCheckoutFastForwardMerge.hdl"
 msgid "Do you want to fast-forward-merge remote changes after checking out '$1'?"
 msgstr "检出 “$1” 后，您想要快进合并远程变更吗？"
 
@@ -2585,11 +2585,11 @@ msgctxt "dlgSgCheckoutLocalBranchConfirm.chk"
 msgid "Don't show again"
 msgstr "不再显示"
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.fur%1"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.fur"
 msgid "This will make '$1' your current branch."
 msgstr "这将使 “$1” 成为您当前的分支。"
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl%1"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl"
 msgid "Do you want to checkout the branch '$1'?"
 msgstr "你想检出 “$1” 分支吗?"
 
@@ -2677,7 +2677,7 @@ msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.fur"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr "单击 “取消” 以选择其他分支名称。"
 
-msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1"
+msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr "分支 “$1” 已经存在。您想覆盖吗？"
 
@@ -3506,7 +3506,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr ""
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -3642,7 +3642,7 @@ msgctxt "dlgSgDeleteDirTrash.fur"
 msgid "If you click Delete you may require file recovery tools to restore the deleted files!"
 msgstr ""
 
-msgctxt "dlgSgDeleteDirTrash.hdl%1"
+msgctxt "dlgSgDeleteDirTrash.hdl"
 msgid "Do you want to delete '$1' recursively?"
 msgstr ""
 
@@ -3650,11 +3650,11 @@ msgctxt "dlgSgDeleteDirTrash.tle"
 msgid "Delete"
 msgstr ""
 
-msgctxt "dlgSgDeleteFileTrash.hdl%1"
+msgctxt "dlgSgDeleteFileTrash.hdl"
 msgid "Do you want to delete '$1'?"
 msgstr "确定要删除 “$1” 吗？"
 
-msgctxt "dlgSgDeleteFilesTrash.hdl%1"
+msgctxt "dlgSgDeleteFilesTrash.hdl"
 msgid "Do you want to delete the $1 selected files?"
 msgstr "您确定要删除所选的 $1 文件吗？"
 
@@ -3750,11 +3750,11 @@ msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle"
 msgid "Discard"
 msgstr ""
 
-msgctxt "dlgSgDiscardRevertToHead.hdl%1"
+msgctxt "dlgSgDiscardRevertToHead.hdl"
 msgid "Do you want to reset $1 files back to their HEAD state?"
 msgstr "您确定要将 $1 文件重置为 HEAD 状态吗？"
 
-msgctxt "dlgSgDiscardRevertToIndex.hdl%1"
+msgctxt "dlgSgDiscardRevertToIndex.hdl"
 msgid "Do you want to reset $1 files back to their Index state?"
 msgstr "您确定要将 $1 文件重置为其索引状态吗？"
 
@@ -3826,7 +3826,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.btn:"
 msgid "Force Opening"
 msgstr ""
 
-msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl%1"
+msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl"
 msgid "Could not open Conflict Solver for '$1', because it seems to be no text file."
 msgstr ""
 
@@ -3834,7 +3834,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.tle"
 msgid "Conflict Solver"
 msgstr ""
 
-msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1"
+msgctxt "dlgSgFileCompareInvokerFailedIO.hdl"
 msgid "'$1' could not be invoked."
 msgstr ""
 
@@ -3874,11 +3874,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.btn:"
 msgid "Fast-Forward"
 msgstr "快进"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur%3"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur"
 msgid "The local branch '$1' is behind its tracked branch '$2'. You may fast-forward now or do it manually later, e.g. by checking out the branch '$3'."
 msgstr "本地分支 “$1” 位于其跟踪分支 “$2” 的后面。您可以现在快进，也可以稍后手动前进，例如签出分支 $3 。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl"
 msgid "Should branch '$1' be fast-forwarded to '$2'?"
 msgstr "分支 “$1” 是否应快速转发到 “$2”？"
 
@@ -3890,11 +3890,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.btn:"
 msgid "Replace"
 msgstr "替换"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur"
 msgid "The local branch '$1' seems to contain more recent but rewritten commits of remote branch '$2'.\\n\\nIf you are not sure whether the local branch is actually more recent than the remote branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr "本地分支 “$1” 似乎包含远程分支 “$2” 的更新但已重写的提交。\\n\\n如果您不确定本地分支是否实际比远程分支更新，则最好取消此操作并更详细地审查本地和远程变更。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl"
 msgid "Should branch '$1' replace remote branch '$2'?"
 msgstr "分支 “$1” 是否应替换远程分支 “$2”？"
 
@@ -3906,11 +3906,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.btn:"
 msgid "Reset"
 msgstr "重置"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur"
 msgid "The remote branch '$1' seems to contain more recent but rewritten commits of local branch '$2'.\\n\\nIf you are not sure whether the remote branch is actually more recent than the local branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr "远程分支 '$1' 似乎包含更近期但被重写的本地分支 '$2' 的提交。\\r\\n如果您不确定远程分支是否实际上比本地分支更新，您应该取消此操作并进行审查本地和远程变更更详细。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl"
 msgid "Should branch '$1' be reset to remote branch '$2'?"
 msgstr "分支 '$1' 是否应重置为远程分支 '$2' ？"
 
@@ -4094,7 +4094,7 @@ msgctxt "dlgSgFlowFeatureStart.hdl"
 msgid "Start a new feature"
 msgstr "开始新 feature"
 
-msgctxt "dlgSgFlowFeatureStart.inf%1"
+msgctxt "dlgSgFlowFeatureStart.inf"
 msgid "Enter the name of the new feature branch. This operation will fork a new branch from the '$1' branch."
 msgstr "输入新 feature 分支的名称。此操作将从 $1 分支派生出新的分支。"
 
@@ -4198,7 +4198,7 @@ msgctxt "dlgSgFlowHotfixStart.hdl"
 msgid "Start a new hotfix"
 msgstr "启动新的修补程序"
 
-msgctxt "dlgSgFlowHotfixStart.inf%1"
+msgctxt "dlgSgFlowHotfixStart.inf"
 msgid "Enter the name of the new hotfix branch. This operation will fork a new branch from the '$1' branch."
 msgstr "输入新修补程序分支的名称。 此操作将从 '$1' 分支中分叉出新分支。"
 
@@ -4218,7 +4218,7 @@ msgctxt "dlgSgFlowIntegrateDevelop.chk:"
 msgid "Fetch latest '$1' commits from remote repository"
 msgstr "从远程仓库获取最新的 “$1” 提交"
 
-msgctxt "dlgSgFlowIntegrateDevelop.hdl%1"
+msgctxt "dlgSgFlowIntegrateDevelop.hdl"
 msgid "Integrate commits from '$1'"
 msgstr "整合来自 “$1” 的提交"
 
@@ -4330,7 +4330,7 @@ msgctxt "dlgSgFlowReleaseStart.hdl"
 msgid "Start a new release"
 msgstr "开始新版本"
 
-msgctxt "dlgSgFlowReleaseStart.inf%1"
+msgctxt "dlgSgFlowReleaseStart.inf"
 msgid "Enter the name of the new release branch. This operation will fork a new branch from the '$1' branch."
 msgstr "输入新发布分支的名称。 此操作将从 '$1' 分支中分叉一个新分支。"
 
@@ -4366,7 +4366,7 @@ msgctxt "dlgSgFlowSupportStart.hdl"
 msgid "Start a new support"
 msgstr "Start a new support"
 
-msgctxt "dlgSgFlowSupportStart.inf%1"
+msgctxt "dlgSgFlowSupportStart.inf"
 msgid "Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch."
 msgstr "Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch."
 
@@ -4790,7 +4790,7 @@ msgctxt "dlgSgHistoryModifySplitConfirm.fur"
 msgid "'Modify' will stop after the commit.\\n\\n'Split' will put the changes into the Index. You may discard some changes that should go into the second commit.\\n\\nAfter you've done the changes, process the remaining commits by continuing the rebase."
 msgstr "提交后，修改将停止。\\n\\n 拆分 会将变更放入索引中。您可以放弃应该进入第二次提交的一些变更。\\n\\n完成变更后，通过继续变基处理剩余的提交。"
 
-msgctxt "dlgSgHistoryModifySplitConfirm.hdl%1"
+msgctxt "dlgSgHistoryModifySplitConfirm.hdl"
 msgid "Do you want to modify or split commit $1?"
 msgstr "你想修改或拆分提交 $1 吗？"
 
@@ -4806,7 +4806,7 @@ msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr "推送到远程分支不是快进，所以必须强制推送。远程分支中的提交将丢失。"
 
-msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl%1"
+msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl"
 msgid "Do you want to replace the remote branch by commit $1?"
 msgstr "是否要用提交 $1 替换远程分支？"
 
@@ -4822,7 +4822,7 @@ msgctxt "dlgSgHistoryPushCommitsUpToCommit.fur"
 msgid "All commits up to the selected commit will be pushed to the remote repository."
 msgstr "对所选提交的所有提交都将被推送到远程仓库。"
 
-msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl%1"
+msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl"
 msgid "Do you want to push changes up to commit $1?"
 msgstr "是否要将变更向上推送到提交 $1？"
 
@@ -5186,11 +5186,11 @@ msgctxt "dlgSgHostingProviderEdit.err:"
 msgid "The provided SSL client certificate path is invalid."
 msgstr "提供的 SSL 客户端证书路径无效."
 
-msgctxt "dlgSgHostingProviderEdit.hdl%1"
+msgctxt "dlgSgHostingProviderEdit.hdl"
 msgid "Configure $1 account"
 msgstr "配置 $1 账户"
 
-msgctxt "dlgSgHostingProviderEdit.inf%1"
+msgctxt "dlgSgHostingProviderEdit.inf"
 msgid "Please specify your credentials to connect to $1."
 msgstr "请指定您的凭据以连接到 $1。"
 
@@ -5302,11 +5302,11 @@ msgctxt "dlgSgHostingProvider(Add|Edit).lbl:"
 msgid "Optional SSL configuration"
 msgstr "可选的 SSL 配置"
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur%3"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur"
 msgid "The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\\n\\nTo resolve, recreate the $2 hosting provider in the Preferences.\\n\\nDetails:\\n\\n$3"
 msgstr "无法请求 OAuth 访问令牌。很可能您的 $1 配置已更改且 SmartGit 存储的 OAuth 凭据无效。\\n\\n要解析，请在偏好设置中重新创建 $2 主机提供商。\\n\\n详细信息：\\n\\n $3"
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl"
 msgid "$1 OAuth-authentication failed"
 msgstr "$1 OAuth 身份验证失败"
 
@@ -5330,7 +5330,7 @@ msgctxt "dlgSgHttpPasswordCredentials.edt:"
 msgid "User Name"
 msgstr "用户名"
 
-msgctxt "dlgSgHttpPasswordCredentials.hdl%1"
+msgctxt "dlgSgHttpPasswordCredentials.hdl"
 msgid "Login to '$1'"
 msgstr "登录到 “$1”"
 
@@ -5382,7 +5382,7 @@ msgctxt "dlgSgIgnoreDirectoryConfirm.fur"
 msgid "The directory name will be added to the ignore file. If the ignore file does not exist, it will be created."
 msgstr "目录名称将添加到忽略文件中。如果忽略文件不存在，则将自动创建。"
 
-msgctxt "dlgSgIgnoreDirectoryConfirm.hdl%1"
+msgctxt "dlgSgIgnoreDirectoryConfirm.hdl"
 msgid "Do you want to ignore directory '$1'?"
 msgstr "你想忽略目录 “$1” 吗？"
 
@@ -5506,11 +5506,11 @@ msgctxt "dlgSgJournalDoubleClick.btn:"
 msgid "Open Log"
 msgstr "打开日志"
 
-msgctxt "dlgSgJournalDoubleClick.fur%1"
+msgctxt "dlgSgJournalDoubleClick.fur"
 msgid "Select either to check out '$1' or to open the Log for the selected commit."
 msgstr "选择以检出 '$1' 或打开所选提交的日志."
 
-msgctxt "dlgSgJournalDoubleClick.hdl%1"
+msgctxt "dlgSgJournalDoubleClick.hdl"
 msgid "Do you want to check out '$1'?"
 msgstr "确定要检出 '$1' 吗?"
 
@@ -5586,7 +5586,7 @@ msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn:"
 msgid "Revert"
 msgstr "还原"
 
-msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1"
+msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur"
 msgid "You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately."
 msgstr "您将要将索引中的行应用到工作区文件 “$1”。修改将立即保存。"
 
@@ -5638,7 +5638,7 @@ msgctxt "dlgSgLogCheckoutFileAs.tle"
 msgid "Save File As"
 msgstr "文件另存为"
 
-msgctxt "dlgSgLogCommentDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogCommentDeleteConfirm.hdl"
 msgid "Do you really want to delete comment '$1'?"
 msgstr "您真的想删除 “$1” 注释吗？"
 
@@ -5654,7 +5654,7 @@ msgctxt "dlgSgLogComment(|s)DeleteConfirm.tle"
 msgid "Delete Comment"
 msgstr "删除注释"
 
-msgctxt "dlgSgLogCommentsDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogCommentsDeleteConfirm.hdl"
 msgid "Do you really want to delete $1 comments?"
 msgstr "您真的想删除 $1 注释吗？"
 
@@ -5798,7 +5798,7 @@ msgctxt "dlgSgLogRefActionsDeleteConfirm.fur"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "您可能会丢失未推送的变更，或还原分支可能会很复杂 \\(es\\)！"
 
-msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl"
 msgid "Do you really want to delete the local branch '$1'?"
 msgstr "你真的想删除本地分支 “$1” 吗？"
 
@@ -5814,11 +5814,11 @@ msgctxt "dlgSgLogRefreshRepositoryInvalid.btn:"
 msgid "Remove Repository"
 msgstr "移除仓库"
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.fur%1"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.fur"
 msgid "This could mean that the repository at\\n\\n$1was removed or renamed outside SmartGit."
 msgstr "这可能意味着在\\n\\n $1 的仓库被删除或在 SmartGit 外部重命名。"
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl%1"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl"
 msgid "The opened repository '$1' became invalid."
 msgstr "打开的仓库 “$1” 变为无效。"
 
@@ -5954,7 +5954,7 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.fur"
 msgid "The specified directory does not appear to be a valid Git repository."
 msgstr "指定的目录似乎不是有效的 Git 仓库。"
 
-msgctxt "dlgSgOpenRepositoryInitializeGit.hdl%1"
+msgctxt "dlgSgOpenRepositoryInitializeGit.hdl"
 msgid "Should '$1' be initialized as a new Git repository?"
 msgstr "是否应该将 '$1' 初始化为新的 Git 仓库？"
 
@@ -5962,7 +5962,7 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.tle"
 msgid "Add or Create Repository"
 msgstr "添加或创建仓库"
 
-msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur%1"
+msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur"
 msgid "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 msgstr "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 
@@ -6202,11 +6202,11 @@ msgctxt "dlgSgOutput.tle:"
 msgid "Output"
 msgstr "输出"
 
-msgctxt "dlgSgPingRepositoryFailed.fur%1"
+msgctxt "dlgSgPingRepositoryFailed.fur"
 msgid "Please check the repository URL.\\n\\n$1"
 msgstr "请检查仓库 URL。\\n\\n$1"
 
-msgctxt "dlgSgPingRepositoryFailed.hdl%1"
+msgctxt "dlgSgPingRepositoryFailed.hdl"
 msgid "Could not connect to the repository '$1'."
 msgstr "无法连接到仓库 “$1”。"
 
@@ -7515,7 +7515,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr ""
 
-msgctxt "dlgSgProviderGenerateToken.hdl%1"
+msgctxt "dlgSgProviderGenerateToken.hdl"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -7575,7 +7575,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur"
 msgid "The merge request itself will not be deleted on the server."
 msgstr "拉取请求本身不会在服务器上删除。"
 
-msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl%1"
+msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl"
 msgid "Do you really want to drop the local commits of merge request $1?"
 msgstr "是否确定要删除请求 $1 的本地提交？"
 
@@ -7593,7 +7593,7 @@ msgstr "拉取请求本身不会在服务器上删除。"
 
 #, fuzzy
 #| msgid "Do you really want to drop the local commits of pull request $1?"
-msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl%1"
+msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
 msgid "Do you want to drop the local commits of pull request $1?"
 msgstr "是否确定要删除请求 $1 的本地提交？"
 
@@ -7729,7 +7729,7 @@ msgctxt "dlgSgPullMergeInsteadOfRebase.btn:"
 msgid "Rebase"
 msgstr "变基"
 
-msgctxt "dlgSgPullMergeInsteadOfRebase.fur%1"
+msgctxt "dlgSgPullMergeInsteadOfRebase.fur"
 msgid "Amongst the changes to rebase there is merge-commit $1. Rebasing merge-commits can easily cause troubles."
 msgstr "在变基的变更中有合并提交 $1。 变基合并提交很容易造成麻烦。"
 
@@ -7777,7 +7777,7 @@ msgctxt "dlgSgPullOrJustFetch.fur"
 msgid "You can change the Pull behavior in the Repository Settings."
 msgstr "您可以在仓库设置中变更拉取行为。"
 
-msgctxt "dlgSgPullOrJustFetch.hdl%1"
+msgctxt "dlgSgPullOrJustFetch.hdl"
 msgid "Do you want to pull or just fetch $1 repositories?"
 msgstr "你想拉取或只是获取 $1 的仓库？"
 
@@ -7805,11 +7805,11 @@ msgctxt "dlgSgPushConfirmSingleBranch.chk"
 msgid "Don't show again"
 msgstr "不再显示"
 
-msgctxt "dlgSgPushConfirmSingleBranch.fur%1"
+msgctxt "dlgSgPushConfirmSingleBranch.fur"
 msgid "1 branch will be pushed to '$1'."
 msgstr "分支将被推至 “$1” 。"
 
-msgctxt "dlgSgPushConfirmSingleBranch.hdl%1"
+msgctxt "dlgSgPushConfirmSingleBranch.hdl"
 msgid "Do you want to push branch '$1'?"
 msgstr "你想要推送分支 “$1” 吗？"
 
@@ -7993,11 +7993,11 @@ msgctxt "dlgSgPushToRemote.edt:"
 msgid "Target Repository"
 msgstr "目标仓库"
 
-msgctxt "dlgSgPushToRemote.hdl%1"
+msgctxt "dlgSgPushToRemote.hdl"
 msgid "Push '$1' branches to another remote"
 msgstr "将 '$1' 分支推送到其他远程"
 
-msgctxt "dlgSgPushToRemote.inf%1"
+msgctxt "dlgSgPushToRemote.inf"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
 msgstr "'$1' 的所有分支（在本地由相应的远程分支代表）将被推送到目标仓库."
 
@@ -8053,7 +8053,7 @@ msgctxt "dlgSgPushTrackingConfigureSingle.fur"
 msgid "For your current branch tracking \\(its corresponding remote branch\\) has not been configured yet. Configuring tracking will keep your local branches in sync with the remote branches."
 msgstr "对于当前分支跟踪 \\(其对应的远程分支\\) 尚未配置。配置跟踪将使本地分支与远程分支保持同步。"
 
-msgctxt "dlgSgPushTrackingConfigureSingle.hdl%1"
+msgctxt "dlgSgPushTrackingConfigureSingle.hdl"
 msgid "Do you want to configure tracking for '$1' branch?"
 msgstr "是否要为 “$1” 分支配置跟踪？"
 
@@ -8089,7 +8089,7 @@ msgctxt "dlgSgRebaseConfirmUnreachable.fur"
 msgid "You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view."
 msgstr "你只能使用分支视图中的'可循环提交'选项才能访问该提交."
 
-msgctxt "dlgSgRebaseConfirmUnreachable.hdl%1"
+msgctxt "dlgSgRebaseConfirmUnreachable.hdl"
 msgid "The Commit $1 would become unreachable by refs."
 msgstr "该提交 $1 将会被引用变为不可访问."
 
@@ -8105,7 +8105,7 @@ msgctxt "dlgSgRebaseContinueAfterSplittingCommit.chk"
 msgid "Don't show again"
 msgstr ""
 
-msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur%1"
+msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur"
 msgid "The splitting of commit $1 still is in progress and all changes of this commit have been applied."
 msgstr "提交 $1 的拆分仍在进行中，并且已应用此提交的所有变更。"
 
@@ -8245,7 +8245,7 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Put Changes into Index"
 msgstr "将变更放入索引"
 
-msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1"
+msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur"
 msgid "The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\\n\\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes."
 msgstr "提交 $1 的拆分仍在进行中，但并未应用此提交的所有变更。\\n\\n如果这是故意的，您可以继续。否则，您应单击 “将变更置于索引中” 并查看变更。"
 
@@ -8257,19 +8257,19 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.tle"
 msgid "Rebase"
 msgstr "变基"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur%1"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) onto the selected commit."
 msgstr "这将把工作区分支 “$1” \\(HEAD\\) 的所有提交应用到所选提交。"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl%1"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl"
 msgid "Do you want to rebase '$1' onto the selected commit?"
 msgstr "是否要将 “$1” 变基至所选提交？"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur%2"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) to '$2'."
 msgstr "这将应用从工作区分支 “$1” \\(HEAD\\) 到 “$2” 的所有提交。"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl%2"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl"
 msgid "Do you want to rebase '$1' to '$2'?"
 msgstr "是否要将 “$1” 变基至 “$2”？"
 
@@ -8389,7 +8389,7 @@ msgctxt "dlgSgRebaseInteractiveRemoveCommit.fur"
 msgid "It might become hard or impossible to recover the commit again."
 msgstr "再次恢复提交可能变得困难或不可能。"
 
-msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl%1"
+msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl"
 msgid "Do you want to remove the selected commit $1?"
 msgstr "您确定要删除所选的提交 $1 吗？"
 
@@ -8433,7 +8433,7 @@ msgctxt "dlgSgRebaseTagCommit.fur"
 msgid "After the rebase, the remaining commit won't be reachable anymore."
 msgstr "在变基之后，剩余的提交将不再可用。"
 
-msgctxt "dlgSgRebaseTagCommit.hdl%1"
+msgctxt "dlgSgRebaseTagCommit.hdl"
 msgid "Should commit $1 be tagged?"
 msgstr "应该标记提交 $1 吗？"
 
@@ -8525,7 +8525,7 @@ msgctxt "dlgSgRemoteDeleteConfirm.fur"
 msgid "This will just delete the link to the remote repository."
 msgstr "这只会删除到远程仓库的链接。"
 
-msgctxt "dlgSgRemoteDeleteConfirm.hdl%1"
+msgctxt "dlgSgRemoteDeleteConfirm.hdl"
 msgid "Do you want to delete the remote repository '$1'?"
 msgstr "是否要删除远程仓库 “$1”？"
 
@@ -8685,7 +8685,7 @@ msgctxt "dlgSgRemotesAdd.tle"
 msgid "Add Remote Repository"
 msgstr "添加远程仓库"
 
-msgctxt "dlgSgRemotesNoRemoteDetected.fur%1"
+msgctxt "dlgSgRemotesNoRemoteDetected.fur"
 msgid "To perform the operation the repository configuration for $1 must contain one uniquely determined remote."
 msgstr "要执行该操作，$1 仓库配置必须包含一个唯一确定的远程地址."
 
@@ -8737,7 +8737,7 @@ msgctxt "dlgSgRenameBranch.hdl"
 msgid "Rename branch"
 msgstr "重命名分支"
 
-msgctxt "dlgSgRenameBranch.inf%1"
+msgctxt "dlgSgRenameBranch.inf"
 msgid "Enter the new name for the branch '$1'."
 msgstr "输入分支 “$1” 的新名称。"
 
@@ -8933,7 +8933,7 @@ msgctxt "dlgSgRepositoryOpen.fur"
 msgid "If it is relocated, remove it and add its new location."
 msgstr "如果重新定位，请将其删除并添加其新位置。"
 
-msgctxt "dlgSgRepositoryOpen.hdl%1"
+msgctxt "dlgSgRepositoryOpen.hdl"
 msgid "Do you want to remove the missing repository '$1'?"
 msgstr "你想删除丢失的仓库 '$1' 吗？"
 
@@ -8945,7 +8945,7 @@ msgctxt "dlgSgRepositoryRemoveFailed1.fur"
 msgid "This could happen if the repository is open in another window or currently commands are executed."
 msgstr "如果仓库在另一个窗口中打开或当前正在执行命令, 可能会发生这种情况."
 
-msgctxt "dlgSgRepositoryRemoveFailed1.hdl%1"
+msgctxt "dlgSgRepositoryRemoveFailed1.hdl"
 msgid "The repository '$1' could not be removed."
 msgstr "无法移除仓库 '$1'"
 
@@ -8957,7 +8957,7 @@ msgctxt "dlgSgRepositoryRemoveMultiGroup.fur"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr "已删除组中的仓库将从该组中移出。"
 
-msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl%1"
+msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl"
 msgid "Do you want to remove $1 groups?"
 msgstr "您确定要删除 $1 组吗？"
 
@@ -8965,7 +8965,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepo.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl%1"
+msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl"
 msgid "Do you want to remove $1 repositories?"
 msgstr "您确定要删除 $1 仓库吗？"
 
@@ -8973,7 +8973,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。已删除组中的仓库将移出组。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl"
 msgid "Do you want to remove $1 repositories and $2 groups?"
 msgstr "您确定要删除 $1 仓库和 $2 组吗？"
 
@@ -8981,7 +8981,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。已删除组中的仓库将移出组。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl"
 msgid "Do you want to remove $1 repositories and the group \"$2\"?"
 msgstr "您确定要删除 $1 仓库和组 “$2” 吗？"
 
@@ -8989,7 +8989,7 @@ msgctxt "dlgSgRepositoryRemoveSingleGroup.fur"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr "已删除组中的仓库将移出组。"
 
-msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl%1"
+msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl"
 msgid "Do you want to remove the group \"$1\"?"
 msgstr "您确定要删除 “$1” 组吗？"
 
@@ -8997,7 +8997,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepo.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl%1"
+msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl"
 msgid "Do you want to remove the repository \"$1\"?"
 msgstr "您确定要删除 $1 的仓库吗？"
 
@@ -9005,7 +9005,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。已删除组中的仓库将移出组。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl"
 msgid "Do you want to remove the repository \"$1\" and $2 groups?"
 msgstr "您确定要删除仓库 “$1” 和 $2 组吗？"
 
@@ -9013,7 +9013,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "这会将仓库保留在磁盘上，但只是让 SmartGit 忘记它们。已删除组中的仓库将移出组。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl"
 msgid "Do you want to remove the repository \"$1\" and the group \"$2\"?"
 msgstr "您确定要删除仓库 “$1” 和组 “$2” 吗？"
 
@@ -9173,7 +9173,7 @@ msgctxt "dlgSgResetAdv.chk:"
 msgid "Thoroughly fix line-endings according to .gitattributes"
 msgstr "根据 .gitattributes 彻底修复行尾序列"
 
-msgctxt "dlgSgResetAdv.hdl%1"
+msgctxt "dlgSgResetAdv.hdl"
 msgid "Reset to commit $1"
 msgstr "重置提交 $1"
 
@@ -9233,7 +9233,7 @@ msgctxt "dlgSgResetConfirm.fur"
 msgid "Current staged and local changes will be lost!"
 msgstr "当前暂存和本地变更将丢失！"
 
-msgctxt "dlgSgResetConfirm.hdl%1"
+msgctxt "dlgSgResetConfirm.hdl"
 msgid "Do you want to reset the HEAD to commit $1?"
 msgstr "您确定要将 HEAD 重置为提交 $1 吗？"
 
@@ -9293,7 +9293,7 @@ msgctxt "dlgSgResolveManuallyModifiedSingle.btn:"
 msgid "Overwrite"
 msgstr "覆盖"
 
-msgctxt "dlgSgResolveManuallyModifiedSingle.fur%1"
+msgctxt "dlgSgResolveManuallyModifiedSingle.fur"
 msgid "$1 seems to contain manual conflict resolutions. They will be lost when continuing."
 msgstr "$1 似乎包含手动冲突解决方案。如果继续，它们将会丢失。"
 
@@ -9341,7 +9341,7 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.chk"
 msgid "Always reveal local branch"
 msgstr "始终显示当地分支"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.fur%2"
+msgctxt "dlgSgRevealCommitLocalOrTracked.fur"
 msgid "Select whether to reveal '$1' or '$2'."
 msgstr "选择是否显示 “$1” 或 “$2” 。"
 
@@ -9729,7 +9729,7 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr ""
 
-msgctxt "dlgSgRollbackToCommit.hdl%1"
+msgctxt "dlgSgRollbackToCommit.hdl"
 msgid "Do you want to rollback the Index to the state of commit $1?"
 msgstr ""
 
@@ -9981,7 +9981,7 @@ msgctxt "dlgSgSetupStdWnd.hdl"
 msgid "Do you want to use the Standard Window?"
 msgstr "您是否想要使用标准窗口?"
 
-msgctxt "dlgSgSetupStdWnd.tle%1"
+msgctxt "dlgSgSetupStdWnd.tle"
 msgid "Setup SmartGit $1"
 msgstr "设置 SmartGit $1"
 
@@ -9989,7 +9989,7 @@ msgctxt "dlgSgShowLocalChanges.btn:"
 msgid "Compare"
 msgstr "比较"
 
-msgctxt "dlgSgShowLocalChanges.hdl%1"
+msgctxt "dlgSgShowLocalChanges.hdl"
 msgid "File $1 modified in Index and working tree"
 msgstr "在索引和工作区中修改了文件 $1"
 
@@ -10089,7 +10089,7 @@ msgctxt "dlgSgSshCredentials.hdl"
 msgid "SSH Credentials"
 msgstr "SSH 凭据"
 
-msgctxt "dlgSgSshCredentials.inf%2"
+msgctxt "dlgSgSshCredentials.inf"
 msgid "Provide the credentials for authenticating to the SSH server '$1' as user '$2'."
 msgstr "提供用于以 “root” 身份向 SSH 服务器 “git” 进行身份验证的凭据。"
 
@@ -10121,7 +10121,7 @@ msgctxt "dlgSgStageConflict.fur"
 msgid "The file contains conflict markers which indicate that you have not resolved all conflicts."
 msgstr "该文件包含冲突标记，这些标记指示您尚未解决所有冲突。"
 
-msgctxt "dlgSgStageConflict.hdl%1"
+msgctxt "dlgSgStageConflict.hdl"
 msgid "Should $1 really be staged?"
 msgstr "$1 真的应该暂存吗？"
 
@@ -10510,7 +10510,7 @@ msgctxt "dlgSgSubmoduleDeinitConfirm.fur"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
 msgstr "子模块将从工作区中跳过。 要摆脱 \\(远程\\) 仓库，您必须使用取消注册。"
 
-msgctxt "dlgSgSubmoduleDeinitConfirm.hdl%1"
+msgctxt "dlgSgSubmoduleDeinitConfirm.hdl"
 msgid "Do you want to deinit submodule '$1'?"
 msgstr "你想要删除子模块 '$1' 吗？"
 
@@ -10586,7 +10586,7 @@ msgctxt "dlgSgSubmoduleResetConfirm.fur"
 msgid "The corresponding commit will be checked out, so the submodule content will match the content of the registered commit."
 msgstr "将检出相应的提交，因此子模块内容将匹配已注册提交的内容。"
 
-msgctxt "dlgSgSubmoduleResetConfirm.hdl%1"
+msgctxt "dlgSgSubmoduleResetConfirm.hdl"
 msgid "Do you want to reset submodule '$1' to the commit registered in the repository?"
 msgstr "是否要将子模块 $1 重置为仓库中注册的提交？"
 
@@ -10734,7 +10734,7 @@ msgctxt "dlgSgSvnClientCertificate.hdl"
 msgid "Client Certificate"
 msgstr "客户端证书"
 
-msgctxt "dlgSgSvnClientCertificate.inf%1"
+msgctxt "dlgSgSvnClientCertificate.inf"
 msgid "Provide the client certificate for authentication to the SVN repository '$1'."
 msgstr "为 SVN 仓库 “$1” 提供身份验证的客户端证书。"
 
@@ -10842,7 +10842,7 @@ msgctxt "dlgSgTagAddOverwrite.fur"
 msgid "Click 'Cancel' to choose a different tag name."
 msgstr "单击 “取消” 以选择其他标签名称。"
 
-msgctxt "dlgSgTagAddOverwrite.hdl%1"
+msgctxt "dlgSgTagAddOverwrite.hdl"
 msgid "The tag '$1' already exists. Do you want to overwrite it?"
 msgstr "标签 '$1' 已经存在。 你想覆盖吗？"
 
@@ -10858,7 +10858,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.chk"
 msgid "Delete from all remotes"
 msgstr ""
 
-msgctxt "dlgSgTagDeleteConfirmSingle.chk%1"
+msgctxt "dlgSgTagDeleteConfirmSingle.chk"
 msgid "Delete from remote '$1'"
 msgstr "从远程 “$1” 删除"
 
@@ -10866,7 +10866,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.fur"
 msgid "You will not be able to restore it."
 msgstr "你将无法恢复它。"
 
-msgctxt "dlgSgTagDeleteConfirmSingle.hdl%1"
+msgctxt "dlgSgTagDeleteConfirmSingle.hdl"
 msgid "Do you want to delete the tag '$1'?"
 msgstr "您确定要删除 “$1” 标签吗？"
 

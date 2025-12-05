@@ -125,7 +125,7 @@ msgctxt "dlgCommitGitHubConfirmEmail.fur"
 msgid "If this repository is open-source, you might want to hide your email address, as \\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\], and use instead <username>@users.noreply.github.com."
 msgstr "このリポジトリがオープンソースである場合、GitHubが提案する\\[https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-a-single-repository suggested by GitHub\\]のようにメールアドレスを非表示にし、代わりに <username>@users.noreply.github.com  を使用することをお勧めします。"
 
-msgctxt "dlgCommitGitHubConfirmEmail.hdl%1"
+msgctxt "dlgCommitGitHubConfirmEmail.hdl"
 msgid "Commit with default email address $1?"
 msgstr "デフォルトの電子メールアドレス $1 でコミットしますか？"
 
@@ -325,11 +325,11 @@ msgctxt "dlgProgress.tle:"
 msgid "Verifying executables"
 msgstr "実行ファイルを確認中"
 
-msgctxt "dlgQBugFileSendingFailed.fur%1"
+msgctxt "dlgQBugFileSendingFailed.fur"
 msgid "Maybe you need to configure a proxy or our server is temporarily down.\\nDetails: $1"
 msgstr "プロキシの設定が必要なのか、サーバーが一時的にダウンしているのかもしれません。'$1'"
 
-msgctxt "dlgQBugFileSendingFailed.hdl%1"
+msgctxt "dlgQBugFileSendingFailed.hdl"
 msgid "Could not send the crash logs to $1"
 msgstr "クラッシュ・ログを$1に送信できませんでした"
 
@@ -401,7 +401,7 @@ msgctxt "dlgQDockManagerClosedView.fur"
 msgid "To reopen it again, use the corresponding menu item from the Window menu."
 msgstr "再び開くには、「ウィンドウ」メニューから対応するメニューを使用します。"
 
-msgctxt "dlgQDockManagerClosedView.hdl%1"
+msgctxt "dlgQDockManagerClosedView.hdl"
 msgid "You've closed the view '$1'."
 msgstr "ビュー'$1'を閉じました。"
 
@@ -417,7 +417,7 @@ msgctxt "dlgQFileSaveAcceptFilterOverwrite.fur"
 msgid "To save to a different file, click 'Cancel'."
 msgstr "別のファイルに保存する場合は、「キャンセル」をクリックします。"
 
-msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl%1"
+msgctxt "dlgQFileSaveAcceptFilterOverwrite.hdl"
 msgid "The file $1 already exists. Do you want to overwrite it?"
 msgstr "$1 は既に存在します。上書きしますか？"
 
@@ -449,11 +449,11 @@ msgctxt "dlgQFrameManagerExit.tle"
 msgid "Exit"
 msgstr "終了"
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.fur%2"
+msgctxt "dlgQIntegerInputProviderInvalidValue.fur"
 msgid "Port must be in the range from $1 to $2."
 msgstr "Portは'$1'から'$2'の範囲でなければなりません。"
 
-msgctxt "dlgQIntegerInputProviderInvalidValue.hdl%1"
+msgctxt "dlgQIntegerInputProviderInvalidValue.hdl"
 msgid "The text in field '$1' is not valid."
 msgstr "フィールド '$1' のテキストは有効ではありません。"
 
@@ -513,7 +513,7 @@ msgctxt "dlgQProxyConnectionFailed.fur"
 msgid "Details: syntevo.com"
 msgstr "詳細: syntevo.com"
 
-msgctxt "dlgQProxyConnectionFailed.hdl%1"
+msgctxt "dlgQProxyConnectionFailed.hdl"
 msgid "Could not connect to $1."
 msgstr "$1 に接続できませんでした。"
 
@@ -549,7 +549,7 @@ msgctxt "dlgQUpdateCheckForNewVersion.tle"
 msgid "Check for New Version"
 msgstr "新しいバージョンの確認"
 
-msgctxt "dlgQUpdateCheckForNewVersionFailed.fur%1"
+msgctxt "dlgQUpdateCheckForNewVersionFailed.fur"
 msgid "Details: Failed to connect to '$1'."
 msgstr "詳細: '$1'への接続に失敗しました。"
 
@@ -577,7 +577,7 @@ msgctxt "dlgQUpdateCheckLatestBuild.tle"
 msgid "Check for Latest Build"
 msgstr "最新ビルドの確認"
 
-msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur%1"
+msgctxt "dlgQUpdateCheckLatestBuildFetchFailed.fur"
 msgid "Details: $1"
 msgstr "詳細: $1"
 
@@ -673,7 +673,7 @@ msgctxt "dlgScAboutUpdateInstallation.fur"
 msgid "This will take a few moments and has to restart SmartGit."
 msgstr "これには少し時間がかかり、SmartGitを再起動する必要があります。"
 
-msgctxt "dlgScAboutUpdateInstallation.hdl%1"
+msgctxt "dlgScAboutUpdateInstallation.hdl"
 msgid "Do you want to upgrade the installation directory to version $1?"
 msgstr "インストールディレクトリをバージョン$1にアップグレードしますか？"
 
@@ -729,11 +729,11 @@ msgctxt "dlgScConflictSolverInconsistentLineEndings.hdl"
 msgid "The file contains mixed \\(inconsistent\\) line-endings."
 msgstr "ファイルには、混在した \\(一貫性のない\\) 改行文字が含まれています。"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%1"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
 
-msgctxt "dlgScConflictSolverInconsistentLineEndings.tle%2"
+msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
 msgid "\\[$1\\] - $2"
 msgstr ""
 
@@ -925,7 +925,7 @@ msgctxt "dlgScDevOpsCredentials.edt:"
 msgid "User Name"
 msgstr "ユーザ名"
 
-msgctxt "dlgScDevOpsCredentials.hdl%1"
+msgctxt "dlgScDevOpsCredentials.hdl"
 msgid "Login to '$1'"
 msgstr "'$1' にログイン"
 
@@ -957,7 +957,7 @@ msgctxt "dlgScDevOpsSslClientCertificate.edt:"
 msgid "Passphrase"
 msgstr "パスフレーズ"
 
-msgctxt "dlgScDevOpsSslClientCertificate.hdl%1"
+msgctxt "dlgScDevOpsSslClientCertificate.hdl"
 msgid "Select the client certificate for $1"
 msgstr "$1 用クライアント証明書を選択する"
 
@@ -1049,7 +1049,7 @@ msgctxt "dlgScDialogAssertionHandlerOutOfMemory.btn:"
 msgid "Force Exit"
 msgstr "強制終了"
 
-msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur%1"
+msgctxt "dlgScDialogAssertionHandlerOutOfMemory.fur"
 msgid "It is strongly recommended to restart SmartGit.\\n\\nTo increase the maximum memory limit edit $1, increase the value of the -Xmx option, for example to -Xmx1024m \\(or add it if not yet existing\\) and restart SmartGit."
 msgstr "SmartGit を再起動することを強くお勧めします。\\n\\n最大メモリ制限を増やすには、$1 を編集し、-Xmx オプションの値を増やします。例えば、-Xmx1024m を設定し（まだ存在していない場合は追加し）、SmartGit を再起動してください。"
 
@@ -1069,11 +1069,11 @@ msgctxt "dlgScEvaluationReminderContinue.btn:"
 msgid "Register"
 msgstr "登録"
 
-msgctxt "dlgScEvaluationReminderContinue.fur%2"
+msgctxt "dlgScEvaluationReminderContinue.fur"
 msgid "To use SmartGit in a commercial environment, you will have to \\[$1 purchase a license\\].\\n\\nFor \\[$2 certain uses\\] we grant free licenses."
 msgstr "商用環境で SmartGit を使用するには、\\[$1 ライセンスを購入\\]する必要があります。\\n\\n \\[$2 特定の用途\\] については、無料のライセンスを付与します。"
 
-msgctxt "dlgScEvaluationReminderContinue.hdl%1"
+msgctxt "dlgScEvaluationReminderContinue.hdl"
 msgid "Your SmartGit evaluation ends in $1 days."
 msgstr "SmartGit の評価期間は $1 日後に終了します。"
 
@@ -1081,11 +1081,11 @@ msgctxt "dlgScEvaluationReminderContinue.tle"
 msgid "Evaluation"
 msgstr "評価"
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl%2"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.hdl"
 msgid "Cannot run program \"$1\": $2"
 msgstr "プログラム「\"$1\": $2」を実行できません"
 
-msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle%1"
+msgctxt "dlgScExternalFileStarterCommandInvocationFailed.tle"
 msgid "\\[$1\\] - Conflict Solver"
 msgstr "\\[$1\\] - コンフリクトソルバー"
 
@@ -1249,7 +1249,7 @@ msgctxt "dlgScFilePatternsEdit.edt:"
 msgid "File Pattern"
 msgstr "ファイルパターン"
 
-msgctxt "dlgScFilePatternsEdit.hdl%1"
+msgctxt "dlgScFilePatternsEdit.hdl"
 msgid "Language: $1"
 msgstr "言語: $1"
 
@@ -1381,7 +1381,7 @@ msgctxt "dlgScJiraResolveIssue.edt:"
 msgid "Summary"
 msgstr "概要"
 
-msgctxt "dlgScJiraResolveIssue.hdl%1"
+msgctxt "dlgScJiraResolveIssue.hdl"
 msgid "Resolve issue $1"
 msgstr "課題 $1 を解決"
 
@@ -1513,7 +1513,7 @@ msgctxt "dlgScPropertiesReset.fur"
 msgid "The new values will be active after restarting SmartGit."
 msgstr "新しい値は、SmartGitを再起動すると有効になります。"
 
-msgctxt "dlgScPropertiesReset.hdl%1"
+msgctxt "dlgScPropertiesReset.hdl"
 msgid "Do you want to reset $1 system properties to their defaults?"
 msgstr "$1 システムのプロパティをデフォルトにリセットしますか？"
 
@@ -1529,7 +1529,7 @@ msgctxt "dlgScPropertyEdit.hdl"
 msgid "Edit low-level property value"
 msgstr "ローレベルのプロパティ値を編集する"
 
-msgctxt "dlgScPropertyEdit.inf%1"
+msgctxt "dlgScPropertyEdit.inf"
 msgid "Set the value for property '$1'"
 msgstr "プロパティ '$1' の値を設定します。"
 
@@ -1901,7 +1901,7 @@ msgctxt "dlgScUpdateInstallationUpdateManuallyFailure.tle"
 msgid "SmartGit Installation Update"
 msgstr "SmartGit インストールの更新"
 
-msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur%1"
+msgctxt "dlgScUpdateInstallationUpdateManuallyInfo.fur"
 msgid "Please get rid of '$1' manually and retry the upgrade."
 msgstr "'$1' を手動で削除して、アップグレードを再試行してください。"
 
@@ -1917,7 +1917,7 @@ msgctxt "dlgScUpdateInstallationUpgrade.btn:"
 msgid "Upgrade Now"
 msgstr "今すぐアップグレード"
 
-msgctxt "dlgScUpdateInstallationUpgrade.fur%1"
+msgctxt "dlgScUpdateInstallationUpgrade.fur"
 msgid "The new version $1 has been downloaded which needs to be installed."
 msgstr "インストールが必要な新しいバージョン $1 がダウンロードされました。"
 
@@ -2113,7 +2113,7 @@ msgctxt "dlgSgAbout.tle"
 msgid "About SmartGit"
 msgstr "SmartGitについて"
 
-msgctxt "dlgSgApplicationAlreadyRunning.fur%1"
+msgctxt "dlgSgApplicationAlreadyRunning.fur"
 msgid "Instead of running separate instances you can open multiple project windows in SmartGit.\\n\\nIf you are sure that no SmartGit instance is running any more you should delete the lock file\\n$1"
 msgstr "別々のインスタンスを実行する代わりに、SmartGit で複数のプロジェクト ウィンドウを開くことができます。\\n\\n SmartGit のインスタンスがもう実行されていないことが確実な場合は、ロック ファイルを削除する必要があります。\\n $1"
 
@@ -2157,7 +2157,7 @@ msgctxt "dlgSgAuthenticationShowPassword.edt:"
 msgid "Password"
 msgstr "パスワード"
 
-msgctxt "dlgSgAuthenticationShowPassword.tle%1"
+msgctxt "dlgSgAuthenticationShowPassword.tle"
 msgid "Password for $1"
 msgstr "$1 のパスワード"
 
@@ -2201,7 +2201,7 @@ msgctxt "dlgSgBisectResult.btn:"
 msgid "Leave Bisect"
 msgstr "問題箇所の特定をやめる"
 
-msgctxt "dlgSgBisectResult.fur%1"
+msgctxt "dlgSgBisectResult.fur"
 msgid "$1"
 msgstr "$1"
 
@@ -2325,7 +2325,7 @@ msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.fur"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr "「キャンセル」をクリックすると、別のブランチ名を選択することができます。"
 
-msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl%1"
+msgctxt "dlgSgBranchAddCheckoutOverwriteExisting.hdl"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr "ブランチ '$1' はすでに存在しています。上書きしますか？"
 
@@ -2377,7 +2377,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl:"
 msgid "Do you want to delete $1 local branches?"
 msgstr "$1 件のローカル ブランチを削除しますか?"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl%1"
+msgctxt "dlgSgBranchDeleteLocalConfirmMultiple.hdl"
 msgid "Do you want to delete $1 local branches?"
 msgstr "$1個のローカルブランチを削除しますか？"
 
@@ -2417,7 +2417,7 @@ msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl:"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "ローカル ブランチ '$1' を削除しますか?"
 
-msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl%1"
+msgctxt "dlgSgBranchDeleteLocalConfirmSingle.hdl"
 msgid "Do you want to delete the local branch '$1'?"
 msgstr "ローカルブランチ'$1'を削除しますか？"
 
@@ -2445,7 +2445,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk:"
 msgid "Delete from remote repository '$1'"
 msgstr "リモートリポジトリ'$1'から削除"
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk%1"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.chk"
 msgid "Delete from remote repository '$1'"
 msgstr "リモートリポジトリ '$1' から削除する"
 
@@ -2461,7 +2461,7 @@ msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl:"
 msgid "Do you want to delete the remote branch '$1'?"
 msgstr "リモートブランチ'$1'を削除しますか？"
 
-msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl%1"
+msgctxt "dlgSgBranchDeleteRemoteConfirmSingle.hdl"
 msgid "Do you want to delete the branch '$1'?"
 msgstr "ブランチ '$1' を削除しますか？"
 
@@ -2477,7 +2477,7 @@ msgctxt "dlgSgBranchTrackingResetConfirm.fur"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr "必要な設定は .git/config ファイルで行います。"
 
-msgctxt "dlgSgBranchTrackingResetConfirm.hdl%2"
+msgctxt "dlgSgBranchTrackingResetConfirm.hdl"
 msgid "Should branch '$1' stop tracking '$2'?"
 msgstr "ブランチ'$1'は'$2'の追跡を停止しますか?"
 
@@ -2493,7 +2493,7 @@ msgctxt "dlgSgBranchTrackingSetConfirm.fur"
 msgid "The necessary configuration will be performed in the .git/config file."
 msgstr "必要な設定は .git/config ファイルで行います。"
 
-msgctxt "dlgSgBranchTrackingSetConfirm.hdl%2"
+msgctxt "dlgSgBranchTrackingSetConfirm.hdl"
 msgid "Do you want to configure '$1' to track '$2'?"
 msgstr "$1'を'$2'に追従させるように設定しますか？"
 
@@ -2569,7 +2569,7 @@ msgctxt "dlgSgCheckoutFastForwardMerge.fur"
 msgid "Fast-forward-merging automatically moves the branch forward to the tracked remote branch."
 msgstr "ファストフォワードマージは、ブランチを追跡対象のリモート ブランチに自動的に移動します。"
 
-msgctxt "dlgSgCheckoutFastForwardMerge.hdl%1"
+msgctxt "dlgSgCheckoutFastForwardMerge.hdl"
 msgid "Do you want to fast-forward-merge remote changes after checking out '$1'?"
 msgstr "$1'をチェックアウトした後、リモートの変更を ファストフォワードマージしますか？"
 
@@ -2585,11 +2585,11 @@ msgctxt "dlgSgCheckoutLocalBranchConfirm.chk"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.fur%1"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.fur"
 msgid "This will make '$1' your current branch."
 msgstr "この操作により '$1' が現在のブランチになります。"
 
-msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl%1"
+msgctxt "dlgSgCheckoutLocalBranchConfirm.hdl"
 msgid "Do you want to checkout the branch '$1'?"
 msgstr "ブランチ '$1' をチェックアウトしますか？"
 
@@ -2677,7 +2677,7 @@ msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.fur"
 msgid "Click 'Cancel' to choose a different branch name."
 msgstr "「キャンセル」をクリックすると、別のブランチ名を選択することができます。"
 
-msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl%1"
+msgctxt "dlgSgCheckoutTargetAlreadyExistsOverwrite.hdl"
 msgid "The branch '$1' already exists. Do you want to overwrite it?"
 msgstr "ブランチ '$1' はすでに存在しています。上書きしますか？"
 
@@ -3505,7 +3505,7 @@ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.hdl"
 msgid "The right file is not editable because of mixed line-endings."
 msgstr "右側のファイルは、改行コードが混在しているため編集できません。"
 
-msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle%3"
+msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
 msgid "\\[$1\\] - \\[$2\\] - $3"
 msgstr ""
 
@@ -3641,7 +3641,7 @@ msgctxt "dlgSgDeleteDirTrash.fur"
 msgid "If you click Delete you may require file recovery tools to restore the deleted files!"
 msgstr "「削除」をクリックすると、削除されたファイルを復元するためにファイル復旧ツールが必要になる可能性があります!"
 
-msgctxt "dlgSgDeleteDirTrash.hdl%1"
+msgctxt "dlgSgDeleteDirTrash.hdl"
 msgid "Do you want to delete '$1' recursively?"
 msgstr "'$1' を再帰的に削除しますか？"
 
@@ -3649,11 +3649,11 @@ msgctxt "dlgSgDeleteDirTrash.tle"
 msgid "Delete"
 msgstr "削除"
 
-msgctxt "dlgSgDeleteFileTrash.hdl%1"
+msgctxt "dlgSgDeleteFileTrash.hdl"
 msgid "Do you want to delete '$1'?"
 msgstr "'$1'を削除しますか？"
 
-msgctxt "dlgSgDeleteFilesTrash.hdl%1"
+msgctxt "dlgSgDeleteFilesTrash.hdl"
 msgid "Do you want to delete the $1 selected files?"
 msgstr "選択した$1個のファイルを削除しますか？"
 
@@ -3749,11 +3749,11 @@ msgctxt "dlgSgDiscardNotApplicableForIndexFiles.tle"
 msgid "Discard"
 msgstr "破棄"
 
-msgctxt "dlgSgDiscardRevertToHead.hdl%1"
+msgctxt "dlgSgDiscardRevertToHead.hdl"
 msgid "Do you want to reset $1 files back to their HEAD state?"
 msgstr "$1 個のファイルを HEAD の状態に戻しますか?"
 
-msgctxt "dlgSgDiscardRevertToIndex.hdl%1"
+msgctxt "dlgSgDiscardRevertToIndex.hdl"
 msgid "Do you want to reset $1 files back to their Index state?"
 msgstr "$1 個のファイルをインデックスの状態に戻しますか?"
 
@@ -3827,7 +3827,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.btn:"
 msgid "Force Opening"
 msgstr "強制的に開く"
 
-msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl%1"
+msgctxt "dlgSgFileCompareConflictSolverNoTextFile.hdl"
 msgid "Could not open Conflict Solver for '$1', because it seems to be no text file."
 msgstr "'$1'はテキスト ファイルではないようなので、コンフリクトソルバーを開くことができませんでした。"
 
@@ -3835,7 +3835,7 @@ msgctxt "dlgSgFileCompareConflictSolverNoTextFile.tle"
 msgid "Conflict Solver"
 msgstr "コンフリクトソルバー"
 
-msgctxt "dlgSgFileCompareInvokerFailedIO.hdl%1"
+msgctxt "dlgSgFileCompareInvokerFailedIO.hdl"
 msgid "'$1' could not be invoked."
 msgstr "'$1' を呼び出すことができませんでした。"
 
@@ -3875,11 +3875,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.btn:"
 msgid "Fast-Forward"
 msgstr "ファストフォワード"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur%3"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.fur"
 msgid "The local branch '$1' is behind its tracked branch '$2'. You may fast-forward now or do it manually later, e.g. by checking out the branch '$3'."
 msgstr "ローカル ブランチ '$1' は、追跡されているブランチ '$2' の後ろにあります。ここでファストフォワードすることも、後で手動で行うこともできます。\\nたとえば、ブランチ '$3' をチェックアウトするなど、手動で行っても良いでしょう。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerFastForward.hdl"
 msgid "Should branch '$1' be fast-forwarded to '$2'?"
 msgstr "ブランチ '$1' を '$2' にファストフォワードする必要がありますか?"
 
@@ -3891,11 +3891,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.btn:"
 msgid "Replace"
 msgstr "置換"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.fur"
 msgid "The local branch '$1' seems to contain more recent but rewritten commits of remote branch '$2'.\\n\\nIf you are not sure whether the local branch is actually more recent than the remote branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr "ローカルブランチ '$1' には、リモートブランチ '$2' の書き換えられたコミットよりも新しいものが含まれているようです。\\n\\nローカルブランチがリモートブランチよりも実際に新しいかどうかわからない場合は、この操作をキャンセルしてローカルおよびリモートでの変更をより詳細に調査することをお勧めします。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerReplaceRemote.hdl"
 msgid "Should branch '$1' replace remote branch '$2'?"
 msgstr "リモートブランチ'$2'をブランチ'$1'に置き換えますか?"
 
@@ -3907,11 +3907,11 @@ msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.btn:"
 msgid "Reset"
 msgstr "リセット"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.fur"
 msgid "The remote branch '$1' seems to contain more recent but rewritten commits of local branch '$2'.\\n\\nIf you are not sure whether the remote branch is actually more recent than the local branch, you should better cancel this operation and investigate local and remote changes in more detail."
 msgstr "リモート ブランチ '$1' には、ローカル ブランチ '$2' の最近の書き換えられたコミットが含まれているようです。\\n\\nリモート ブランチが実際にローカル ブランチよりも新しいかどうかわからない場合は、この操作をキャンセルして、ローカルおよびリモートの変更をより詳細に調査することをお勧めします。"
 
-msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl%2"
+msgctxt "dlgSgFlowBranchDivergedHandlerResetToRemote.hdl"
 msgid "Should branch '$1' be reset to remote branch '$2'?"
 msgstr "ブランチ '$1' をリモート ブランチ '$2' にリセットする必要がありますか?"
 
@@ -4095,7 +4095,7 @@ msgctxt "dlgSgFlowFeatureStart.hdl"
 msgid "Start a new feature"
 msgstr "新しい feature を開始する"
 
-msgctxt "dlgSgFlowFeatureStart.inf%1"
+msgctxt "dlgSgFlowFeatureStart.inf"
 msgid "Enter the name of the new feature branch. This operation will fork a new branch from the '$1' branch."
 msgstr "新しいFeatureブランチの名前を入力します。この操作により、'$1' ブランチから新しいブランチがフォークされます。"
 
@@ -4199,7 +4199,7 @@ msgctxt "dlgSgFlowHotfixStart.hdl"
 msgid "Start a new hotfix"
 msgstr "新しい hotfix を開始する"
 
-msgctxt "dlgSgFlowHotfixStart.inf%1"
+msgctxt "dlgSgFlowHotfixStart.inf"
 msgid "Enter the name of the new hotfix branch. This operation will fork a new branch from the '$1' branch."
 msgstr "新しいHotfixブランチの名前を入力します。この操作により、'$1'ブランチから新しいブランチがフォークされます。"
 
@@ -4219,7 +4219,7 @@ msgctxt "dlgSgFlowIntegrateDevelop.chk:"
 msgid "Fetch latest '$1' commits from remote repository"
 msgstr "リモートリポジトリから最新の '$1' コミットを取得する"
 
-msgctxt "dlgSgFlowIntegrateDevelop.hdl%1"
+msgctxt "dlgSgFlowIntegrateDevelop.hdl"
 msgid "Integrate commits from '$1'"
 msgstr "'$1' からコミットを統合"
 
@@ -4331,7 +4331,7 @@ msgctxt "dlgSgFlowReleaseStart.hdl"
 msgid "Start a new release"
 msgstr "新しい release を開始する"
 
-msgctxt "dlgSgFlowReleaseStart.inf%1"
+msgctxt "dlgSgFlowReleaseStart.inf"
 msgid "Enter the name of the new release branch. This operation will fork a new branch from the '$1' branch."
 msgstr "新しいReleaseブランチの名前を入力してください。この操作により、'$1' ブランチから新しいブランチがフォークされます。"
 
@@ -4367,7 +4367,7 @@ msgctxt "dlgSgFlowSupportStart.hdl"
 msgid "Start a new support"
 msgstr "サポートを開始"
 
-msgctxt "dlgSgFlowSupportStart.inf%1"
+msgctxt "dlgSgFlowSupportStart.inf"
 msgid "Enter the name of the new support branch. This operation will fork a new branch from the '$1' branch."
 msgstr "新しいサポート ブランチの名前を入力します。この操作により、'$1' ブランチから新しいブランチがフォークされます。"
 
@@ -4793,7 +4793,7 @@ msgctxt "dlgSgHistoryModifySplitConfirm.fur"
 msgid "'Modify' will stop after the commit.\\n\\n'Split' will put the changes into the Index. You may discard some changes that should go into the second commit.\\n\\nAfter you've done the changes, process the remaining commits by continuing the rebase."
 msgstr "「変更」はコミット後に停止します。\\n\\n 「分割」は、変更をインデックスに格納します。 2 番目のコミットに入れる必要があるいくつかの変更を破棄することができます。\\n\\n変更を行った後、リベースを続行して残りのコミットを処理します。"
 
-msgctxt "dlgSgHistoryModifySplitConfirm.hdl%1"
+msgctxt "dlgSgHistoryModifySplitConfirm.hdl"
 msgid "Do you want to modify or split commit $1?"
 msgstr "コミットした $1 を修正又は分割しますか?"
 
@@ -4809,7 +4809,7 @@ msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.fur"
 msgid "Pushing to the remote branch is not fast-forward, so the push has to be forced. The commits in the remote branch will be lost."
 msgstr "リモートブランチへのプッシュは ファストフォワードできないので、強制的にプッシュする必要があります。リモートブランチでのコミットは失われます。"
 
-msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl%1"
+msgctxt "dlgSgHistoryPushCommitsReplaceRemoteBranch.hdl"
 msgid "Do you want to replace the remote branch by commit $1?"
 msgstr "リモートブランチをコミット $1 で置き換えますか？"
 
@@ -4825,7 +4825,7 @@ msgctxt "dlgSgHistoryPushCommitsUpToCommit.fur"
 msgid "All commits up to the selected commit will be pushed to the remote repository."
 msgstr "選択したコミットまでのすべてのコミットが、リモートリポジトリにプッシュされます。"
 
-msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl%1"
+msgctxt "dlgSgHistoryPushCommitsUpToCommit.hdl"
 msgid "Do you want to push changes up to commit $1?"
 msgstr "コミット$1まで変更をプッシュしますか？"
 
@@ -5191,11 +5191,11 @@ msgctxt "dlgSgHostingProviderEdit.err:"
 msgid "The provided SSL client certificate path is invalid."
 msgstr "指定されたSSLクライアント証明書のパスが無効です。"
 
-msgctxt "dlgSgHostingProviderEdit.hdl%1"
+msgctxt "dlgSgHostingProviderEdit.hdl"
 msgid "Configure $1 account"
 msgstr "$1 アカウントの設定"
 
-msgctxt "dlgSgHostingProviderEdit.inf%1"
+msgctxt "dlgSgHostingProviderEdit.inf"
 msgid "Please specify your credentials to connect to $1."
 msgstr "$1 に接続するための認証情報を指定してください。"
 
@@ -5307,11 +5307,11 @@ msgctxt "dlgSgHostingProvider(Add|Edit).lbl:"
 msgid "Optional SSL configuration"
 msgstr "オプションのSSL設定"
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur%3"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.fur"
 msgid "The OAuth-access token could not be requested. Most likely your $1 configuration has changed and SmartGit's stored OAuth credentials are invalid.\\n\\nTo resolve, recreate the $2 hosting provider in the Preferences.\\n\\nDetails:\\n\\n$3"
 msgstr "OAuth アクセス トークンを要求できませんでした。 ほとんどの場合 $1 の設定が変更され、SmartGit に保存されている OAuth 資格情報が無効になっています。\\n\\n解決するには、環境設定で $2 ホスティング プロバイダーを再作成します。\\n\\n詳細：\\n\\n $3"
 
-msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl%1"
+msgctxt "dlgSgHttpPasswordAuthenticationFailedCause1.hdl"
 msgid "$1 OAuth-authentication failed"
 msgstr "$1 OAuth認証に失敗しました"
 
@@ -5335,7 +5335,7 @@ msgctxt "dlgSgHttpPasswordCredentials.edt:"
 msgid "User Name"
 msgstr "ユーザ名"
 
-msgctxt "dlgSgHttpPasswordCredentials.hdl%1"
+msgctxt "dlgSgHttpPasswordCredentials.hdl"
 msgid "Login to '$1'"
 msgstr "'$1' にログインする"
 
@@ -5387,7 +5387,7 @@ msgctxt "dlgSgIgnoreDirectoryConfirm.fur"
 msgid "The directory name will be added to the ignore file. If the ignore file does not exist, it will be created."
 msgstr "このディレクトリ名は、.ignore ファイルに追加されます。 .ignore ファイルが存在しない場合は、作成されます。"
 
-msgctxt "dlgSgIgnoreDirectoryConfirm.hdl%1"
+msgctxt "dlgSgIgnoreDirectoryConfirm.hdl"
 msgid "Do you want to ignore directory '$1'?"
 msgstr "ディレクトリ'$1'を無視しますか？"
 
@@ -5511,11 +5511,11 @@ msgctxt "dlgSgJournalDoubleClick.btn:"
 msgid "Open Log"
 msgstr "ログを開く"
 
-msgctxt "dlgSgJournalDoubleClick.fur%1"
+msgctxt "dlgSgJournalDoubleClick.fur"
 msgid "Select either to check out '$1' or to open the Log for the selected commit."
 msgstr "'$1' をチェックアウトするか、選択したコミットのログを開くかを選択します。"
 
-msgctxt "dlgSgJournalDoubleClick.hdl%1"
+msgctxt "dlgSgJournalDoubleClick.hdl"
 msgid "Do you want to check out '$1'?"
 msgstr "'$1' をチェックアウトしますか？"
 
@@ -5591,7 +5591,7 @@ msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.btn:"
 msgid "Revert"
 msgstr "リバート"
 
-msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur%1"
+msgctxt "dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.fur"
 msgid "You are about to apply lines from the Index to the working tree file '$1'. The modifications will be saved immediately."
 msgstr "インデックスの行を作業ツリーのファイル '$1' に適用しようとしています。変更はすぐに保存されます。"
 
@@ -5643,7 +5643,7 @@ msgctxt "dlgSgLogCheckoutFileAs.tle"
 msgid "Save File As"
 msgstr "ファイルを別名で保存"
 
-msgctxt "dlgSgLogCommentDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogCommentDeleteConfirm.hdl"
 msgid "Do you really want to delete comment '$1'?"
 msgstr "本当にコメント'$1'を削除しますか？"
 
@@ -5659,7 +5659,7 @@ msgctxt "dlgSgLogComment(|s)DeleteConfirm.tle"
 msgid "Delete Comment"
 msgstr "コミットを削除"
 
-msgctxt "dlgSgLogCommentsDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogCommentsDeleteConfirm.hdl"
 msgid "Do you really want to delete $1 comments?"
 msgstr "$1のコメントを本当に削除しますか？"
 
@@ -5803,7 +5803,7 @@ msgctxt "dlgSgLogRefActionsDeleteConfirm.fur"
 msgid "You may lose unpushed changes or it might be complicated to restore the branch\\(es\\)!"
 msgstr "プッシュされていない変更が失われたり、ブランチの復元が困難になる可能性があります。"
 
-msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl%1"
+msgctxt "dlgSgLogRefActionsDeleteConfirm.hdl"
 msgid "Do you really want to delete the local branch '$1'?"
 msgstr "本当にローカルブランチ'$1'を削除しますか？"
 
@@ -5819,11 +5819,11 @@ msgctxt "dlgSgLogRefreshRepositoryInvalid.btn:"
 msgid "Remove Repository"
 msgstr "リポジトリを削除"
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.fur%1"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.fur"
 msgid "This could mean that the repository at\\n\\n$1was removed or renamed outside SmartGit."
 msgstr "下記のリポジトリが削除されたか、SmartGit の外部で名前が変更された可能性があります。\\n\\n$1"
 
-msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl%1"
+msgctxt "dlgSgLogRefreshRepositoryInvalid.hdl"
 msgid "The opened repository '$1' became invalid."
 msgstr "開いていたリポジトリ'$1'が無効になりました。"
 
@@ -5959,7 +5959,7 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.fur"
 msgid "The specified directory does not appear to be a valid Git repository."
 msgstr "指定されたディレクトリは、有効な Git リポジトリではないようです。"
 
-msgctxt "dlgSgOpenRepositoryInitializeGit.hdl%1"
+msgctxt "dlgSgOpenRepositoryInitializeGit.hdl"
 msgid "Should '$1' be initialized as a new Git repository?"
 msgstr "'$1' を新しい Git リポジトリとして初期化しますか?"
 
@@ -5967,7 +5967,7 @@ msgctxt "dlgSgOpenRepositoryInitializeGit.tle"
 msgid "Add or Create Repository"
 msgstr "リポジトリの追加又は作成"
 
-msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur%1"
+msgctxt "dlgSgOpenRepositorySvnWorkingCopy.fur"
 msgid "You are trying to open an existing SVN working copy which is not possible with SmartGit. Instead, please use $1 to create a Git clone of your SVN repository \\(i.e. a working copy based on Git instead of SVN\\)."
 msgstr "SmartGit では不可能な既存の SVN 作業コピーを開こうとしています。代わりに、$1 を使用して、SVN リポジトリの Git クローン \\(つまり、SVN ではなく Git に基づく作業コピー\\) を作成してください。"
 
@@ -6207,11 +6207,11 @@ msgctxt "dlgSgOutput.tle:"
 msgid "Output"
 msgstr "出力"
 
-msgctxt "dlgSgPingRepositoryFailed.fur%1"
+msgctxt "dlgSgPingRepositoryFailed.fur"
 msgid "Please check the repository URL.\\n\\n$1"
 msgstr "リポジトリURLを確認してください。\\n\\n$1"
 
-msgctxt "dlgSgPingRepositoryFailed.hdl%1"
+msgctxt "dlgSgPingRepositoryFailed.hdl"
 msgid "Could not connect to the repository '$1'."
 msgstr "リポジトリ'$1'に接続できませんでした。"
 
@@ -7519,7 +7519,7 @@ msgctxt "dlgSgProviderGenerateToken.edt:"
 msgid "Link"
 msgstr "リンク"
 
-msgctxt "dlgSgProviderGenerateToken.hdl%1"
+msgctxt "dlgSgProviderGenerateToken.hdl"
 msgid "Generate a new API token for $1"
 msgstr ""
 
@@ -7579,7 +7579,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur"
 msgid "The merge request itself will not be deleted on the server."
 msgstr "マージリクエスト自体はサーバー上で削除されません。"
 
-msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl%1"
+msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl"
 msgid "Do you really want to drop the local commits of merge request $1?"
 msgstr "本当にマージリクエスト$1のローカルコミットを削除しますか?"
 
@@ -7595,7 +7595,7 @@ msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur"
 msgid "The pull request itself will not be deleted on the server."
 msgstr "プルリクエスト自体はサーバー上で削除されることはありません。"
 
-msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl%1"
+msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl"
 msgid "Do you want to drop the local commits of pull request $1?"
 msgstr "プルリクエスト $1 のローカルコミットを本当に削除しますか?"
 
@@ -7731,7 +7731,7 @@ msgctxt "dlgSgPullMergeInsteadOfRebase.btn:"
 msgid "Rebase"
 msgstr "リベース"
 
-msgctxt "dlgSgPullMergeInsteadOfRebase.fur%1"
+msgctxt "dlgSgPullMergeInsteadOfRebase.fur"
 msgid "Amongst the changes to rebase there is merge-commit $1. Rebasing merge-commits can easily cause troubles."
 msgstr "リベースの対象となる変更の中に、マージコミット $1 があります。マージコミットをリベースすると、簡単にトラブルが発生します。"
 
@@ -7779,7 +7779,7 @@ msgctxt "dlgSgPullOrJustFetch.fur"
 msgid "You can change the Pull behavior in the Repository Settings."
 msgstr "プルの動作は、リポジトリ設定で変更することができます。"
 
-msgctxt "dlgSgPullOrJustFetch.hdl%1"
+msgctxt "dlgSgPullOrJustFetch.hdl"
 msgid "Do you want to pull or just fetch $1 repositories?"
 msgstr "リポジトリ $1 をフェッチしますか?"
 
@@ -7807,11 +7807,11 @@ msgctxt "dlgSgPushConfirmSingleBranch.chk"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-msgctxt "dlgSgPushConfirmSingleBranch.fur%1"
+msgctxt "dlgSgPushConfirmSingleBranch.fur"
 msgid "1 branch will be pushed to '$1'."
 msgstr "1つのブランチが'$1'にプッシュされます。"
 
-msgctxt "dlgSgPushConfirmSingleBranch.hdl%1"
+msgctxt "dlgSgPushConfirmSingleBranch.hdl"
 msgid "Do you want to push branch '$1'?"
 msgstr "ブランチ'$1'をプッシュしますか？"
 
@@ -7995,11 +7995,11 @@ msgctxt "dlgSgPushToRemote.edt:"
 msgid "Target Repository"
 msgstr "ターゲットリポジトリ"
 
-msgctxt "dlgSgPushToRemote.hdl%1"
+msgctxt "dlgSgPushToRemote.hdl"
 msgid "Push '$1' branches to another remote"
 msgstr "別のリモートに '$1' ブランチをプッシュする"
 
-msgctxt "dlgSgPushToRemote.inf%1"
+msgctxt "dlgSgPushToRemote.inf"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
 msgstr "'$1' のすべてのブランチがターゲットリポジトリにプッシュされます。\\r\\(リモートにローカルと対応するブランチが作成されます。\\)"
 
@@ -8055,7 +8055,7 @@ msgctxt "dlgSgPushTrackingConfigureSingle.fur"
 msgid "For your current branch tracking \\(its corresponding remote branch\\) has not been configured yet. Configuring tracking will keep your local branches in sync with the remote branches."
 msgstr "現在のブランチでは、トラッキング\\(対応するリモートブランチ\\)はまだ設定されていません。トラッキングを設定することで、ローカルブランチとリモートブランチの同期が保たれます。"
 
-msgctxt "dlgSgPushTrackingConfigureSingle.hdl%1"
+msgctxt "dlgSgPushTrackingConfigureSingle.hdl"
 msgid "Do you want to configure tracking for '$1' branch?"
 msgstr "'$1' ブランチに対してトラッキングを設定しますか？"
 
@@ -8091,7 +8091,7 @@ msgctxt "dlgSgRebaseConfirmUnreachable.fur"
 msgid "You only might be able to access this commit using the 'Recyclable Commits' option of the Branches view."
 msgstr "「ブランチ」 ビューの 「Recyclable Commits」 を選択することでのみ、このコミットにアクセスできる場合があります。"
 
-msgctxt "dlgSgRebaseConfirmUnreachable.hdl%1"
+msgctxt "dlgSgRebaseConfirmUnreachable.hdl"
 msgid "The Commit $1 would become unreachable by refs."
 msgstr "コミット $1 は参照\\(refs\\)によって到達不能になります。"
 
@@ -8107,7 +8107,7 @@ msgctxt "dlgSgRebaseContinueAfterSplittingCommit.chk"
 msgid "Don't show again"
 msgstr "次回から表示しない"
 
-msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur%1"
+msgctxt "dlgSgRebaseContinueAfterSplittingCommit.fur"
 msgid "The splitting of commit $1 still is in progress and all changes of this commit have been applied."
 msgstr "コミット $1 の分割はまだ進行中で、このコミットのすべての変更が適用されています。"
 
@@ -8250,7 +8250,7 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.btn:"
 msgid "Put Changes into Index"
 msgstr "Indexに変更を反映"
 
-msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur%1"
+msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.fur"
 msgid "The splitting of commit $1 still is in progress, but not all changes of this commit have been applied.\\n\\nIf this is intentional, you can continue. Otherwise, you should click 'Put Changes into Index' and review your changes."
 msgstr "コミット $1 の分割はまだ進行中ですが、このコミットのすべての変更が適用されているわけではありません。\\n\\nこれが意図的なものである場合は、続行できます。それ以外の場合は、「Indexに変更を反映」 をクリックして、変更内容を確認してください。"
 
@@ -8262,19 +8262,19 @@ msgctxt "dlgSgRebaseContinueWithoutApplyingAllChanges.tle"
 msgid "Rebase"
 msgstr "リベース"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur%1"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.fur"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) onto the selected commit."
 msgstr "これにより、作業ツリーのブランチ '$1' \\(HEAD\\) からのすべてのコミットが、選択したコミットに適用されます。"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl%1"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBc.hdl"
 msgid "Do you want to rebase '$1' onto the selected commit?"
 msgstr "'$1' を選択したコミットにリベースしますか？"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur%2"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.fur"
 msgid "This will apply all commits from the working tree branch '$1' \\(HEAD\\) to '$2'."
 msgstr "これは、作業ツリーのブランチ '$1' \\(HEAD\\) からのすべてのコミットを '$2' に適用します。"
 
-msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl%2"
+msgctxt "dlgSgRebaseHeadToCommitConfirmBr.hdl"
 msgid "Do you want to rebase '$1' to '$2'?"
 msgstr "'$1' を '$2' にリベースしますか？"
 
@@ -8394,7 +8394,7 @@ msgctxt "dlgSgRebaseInteractiveRemoveCommit.fur"
 msgid "It might become hard or impossible to recover the commit again."
 msgstr "コミットを再び回復することが困難または不可能になる可能性があります。"
 
-msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl%1"
+msgctxt "dlgSgRebaseInteractiveRemoveCommit.hdl"
 msgid "Do you want to remove the selected commit $1?"
 msgstr "選択したコミット $1 を削除しますか?"
 
@@ -8438,7 +8438,7 @@ msgctxt "dlgSgRebaseTagCommit.fur"
 msgid "After the rebase, the remaining commit won't be reachable anymore."
 msgstr "リベースの後、残りのコミットには到達できなくなります。"
 
-msgctxt "dlgSgRebaseTagCommit.hdl%1"
+msgctxt "dlgSgRebaseTagCommit.hdl"
 msgid "Should commit $1 be tagged?"
 msgstr "コミット$1 にタグを付ける必要がありますか？"
 
@@ -8530,7 +8530,7 @@ msgctxt "dlgSgRemoteDeleteConfirm.fur"
 msgid "This will just delete the link to the remote repository."
 msgstr "これは、リモートリポジトリへのリンクを削除するだけです。"
 
-msgctxt "dlgSgRemoteDeleteConfirm.hdl%1"
+msgctxt "dlgSgRemoteDeleteConfirm.hdl"
 msgid "Do you want to delete the remote repository '$1'?"
 msgstr "リモートリポジトリ'$1'を削除しますか？"
 
@@ -8690,7 +8690,7 @@ msgctxt "dlgSgRemotesAdd.tle"
 msgid "Add Remote Repository"
 msgstr "リモートリポジトリを追加"
 
-msgctxt "dlgSgRemotesNoRemoteDetected.fur%1"
+msgctxt "dlgSgRemotesNoRemoteDetected.fur"
 msgid "To perform the operation the repository configuration for $1 must contain one uniquely determined remote."
 msgstr "このこの操作を行うには、$1 のリポジトリ構成に、一意に決定された 1 つのリモートが含まれている必要があります。"
 
@@ -8742,7 +8742,7 @@ msgctxt "dlgSgRenameBranch.hdl"
 msgid "Rename branch"
 msgstr "ブランチの名前を変更する"
 
-msgctxt "dlgSgRenameBranch.inf%1"
+msgctxt "dlgSgRenameBranch.inf"
 msgid "Enter the new name for the branch '$1'."
 msgstr "ブランチの新しい名前 '$1' を入力してください。"
 
@@ -8938,7 +8938,7 @@ msgctxt "dlgSgRepositoryOpen.fur"
 msgid "If it is relocated, remove it and add its new location."
 msgstr "移動した場合は、削除して新しい場所を追加してください。"
 
-msgctxt "dlgSgRepositoryOpen.hdl%1"
+msgctxt "dlgSgRepositoryOpen.hdl"
 msgid "Do you want to remove the missing repository '$1'?"
 msgstr "見つからないリポジトリ'$1'を削除しますか？"
 
@@ -8950,7 +8950,7 @@ msgctxt "dlgSgRepositoryRemoveFailed1.fur"
 msgid "This could happen if the repository is open in another window or currently commands are executed."
 msgstr "別のウィンドウでリポジトリが開かれている場合や、コマンドが実行中の場合に、このようなことが起こる可能性があります。"
 
-msgctxt "dlgSgRepositoryRemoveFailed1.hdl%1"
+msgctxt "dlgSgRepositoryRemoveFailed1.hdl"
 msgid "The repository '$1' could not be removed."
 msgstr "リポジトリ '$1' を削除できませんでした。"
 
@@ -8962,7 +8962,7 @@ msgctxt "dlgSgRepositoryRemoveMultiGroup.fur"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr "削除されたグループ内のリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl%1"
+msgctxt "dlgSgRepositoryRemoveMultiGroup.hdl"
 msgid "Do you want to remove $1 groups?"
 msgstr "グループ'$1'を削除しますか？"
 
@@ -8970,7 +8970,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepo.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr "これは、ディスク上のリポジトリを維持しつつ、SmartGitに忘れさせるだけです。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl%1"
+msgctxt "dlgSgRepositoryRemoveMultiRepo.hdl"
 msgid "Do you want to remove $1 repositories?"
 msgstr "リポジトリ'$1'を削除しますか？"
 
@@ -8978,7 +8978,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveMultiRepoMultiGroup.hdl"
 msgid "Do you want to remove $1 repositories and $2 groups?"
 msgstr "リポジトリ'$1'とグループ'$2'を削除しますか？"
 
@@ -8986,7 +8986,7 @@ msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveMultiRepoSingleGroup.hdl"
 msgid "Do you want to remove $1 repositories and the group \"$2\"?"
 msgstr "リポジトリ'$1'とグループ'$2'を削除しますか？"
 
@@ -8994,7 +8994,7 @@ msgctxt "dlgSgRepositoryRemoveSingleGroup.fur"
 msgid "Repositories inside a removed group will be moved out of the group."
 msgstr "削除されたグループ内のリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl%1"
+msgctxt "dlgSgRepositoryRemoveSingleGroup.hdl"
 msgid "Do you want to remove the group \"$1\"?"
 msgstr "グループ'$1'を削除しますか？"
 
@@ -9002,7 +9002,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepo.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them."
 msgstr "これは、ディスク上のリポジトリを維持しつつ、SmartGitに忘れさせるだけです。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl%1"
+msgctxt "dlgSgRepositoryRemoveSingleRepo.hdl"
 msgid "Do you want to remove the repository \"$1\"?"
 msgstr "リポジトリ '$1' を削除しますか?"
 
@@ -9010,7 +9010,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveSingleRepoMultiGroup.hdl"
 msgid "Do you want to remove the repository \"$1\" and $2 groups?"
 msgstr "リポジトリ '$1' および '$2' グループを削除しますか?"
 
@@ -9018,7 +9018,7 @@ msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.fur"
 msgid "This will keep the repositories on disk, but just let SmartGit forget about them. Repositories inside a removed group will be moved out of the group."
 msgstr "これにより、ディスク上のリポジトリは維持されますが、SmartGitはそのことを忘れてしまいます。削除されたグループの中にあるリポジトリは、グループの外に移動されます。"
 
-msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl%2"
+msgctxt "dlgSgRepositoryRemoveSingleRepoSingleGroup.hdl"
 msgid "Do you want to remove the repository \"$1\" and the group \"$2\"?"
 msgstr "リポジトリ '$1' とグループ '$2' を削除しますか?"
 
@@ -9178,7 +9178,7 @@ msgctxt "dlgSgResetAdv.chk:"
 msgid "Thoroughly fix line-endings according to .gitattributes"
 msgstr ".gitattributes に従って行末を徹底的に修正する"
 
-msgctxt "dlgSgResetAdv.hdl%1"
+msgctxt "dlgSgResetAdv.hdl"
 msgid "Reset to commit $1"
 msgstr "コミット $1 にリセット"
 
@@ -9238,7 +9238,7 @@ msgctxt "dlgSgResetConfirm.fur"
 msgid "Current staged and local changes will be lost!"
 msgstr "現在のステージング領域とローカルの変更は失われます"
 
-msgctxt "dlgSgResetConfirm.hdl%1"
+msgctxt "dlgSgResetConfirm.hdl"
 msgid "Do you want to reset the HEAD to commit $1?"
 msgstr "HEADを コミット'$1' にリセットしますか？"
 
@@ -9298,7 +9298,7 @@ msgctxt "dlgSgResolveManuallyModifiedSingle.btn:"
 msgid "Overwrite"
 msgstr "上書き"
 
-msgctxt "dlgSgResolveManuallyModifiedSingle.fur%1"
+msgctxt "dlgSgResolveManuallyModifiedSingle.fur"
 msgid "$1 seems to contain manual conflict resolutions. They will be lost when continuing."
 msgstr "$1では、手動でコンフリクトを解決しているようです。続行すると失われます。"
 
@@ -9346,7 +9346,7 @@ msgctxt "dlgSgRevealCommitLocalOrTracked.chk"
 msgid "Always reveal local branch"
 msgstr "常にローカルブランチを表示する"
 
-msgctxt "dlgSgRevealCommitLocalOrTracked.fur%2"
+msgctxt "dlgSgRevealCommitLocalOrTracked.fur"
 msgid "Select whether to reveal '$1' or '$2'."
 msgstr "どちらを表示するかを選択してください。\\r'$1'\\r'$2'"
 
@@ -9734,7 +9734,7 @@ msgctxt "dlgSgRollbackToCommit.fur"
 msgid "All differences between the HEAD and the selected commit will be checked out into the working tree and optionally be staged."
 msgstr "HEAD と選択したコミット間のすべての差分が作業ツリーにチェックアウトされ、オプションでステージングされます。"
 
-msgctxt "dlgSgRollbackToCommit.hdl%1"
+msgctxt "dlgSgRollbackToCommit.hdl"
 msgid "Do you want to rollback the Index to the state of commit $1?"
 msgstr "インデックスをコミット $1 の状態にロールバックしますか？"
 
@@ -9986,7 +9986,7 @@ msgctxt "dlgSgSetupStdWnd.hdl"
 msgid "Do you want to use the Standard Window?"
 msgstr "スタンダードウィンドウを使用しますか？"
 
-msgctxt "dlgSgSetupStdWnd.tle%1"
+msgctxt "dlgSgSetupStdWnd.tle"
 msgid "Setup SmartGit $1"
 msgstr "SmartGit $1 のセットアップ"
 
@@ -9994,7 +9994,7 @@ msgctxt "dlgSgShowLocalChanges.btn:"
 msgid "Compare"
 msgstr "比較"
 
-msgctxt "dlgSgShowLocalChanges.hdl%1"
+msgctxt "dlgSgShowLocalChanges.hdl"
 msgid "File $1 modified in Index and working tree"
 msgstr "インデックスと作業ツリーでファイル$1が変更されました。"
 
@@ -10094,7 +10094,7 @@ msgctxt "dlgSgSshCredentials.hdl"
 msgid "SSH Credentials"
 msgstr "SSH 資格情報"
 
-msgctxt "dlgSgSshCredentials.inf%2"
+msgctxt "dlgSgSshCredentials.inf"
 msgid "Provide the credentials for authenticating to the SSH server '$1' as user '$2'."
 msgstr "ユーザー '$2' として SSH サーバー '$1' に接続するための資格情報を入力してください。"
 
@@ -10126,7 +10126,7 @@ msgctxt "dlgSgStageConflict.fur"
 msgid "The file contains conflict markers which indicate that you have not resolved all conflicts."
 msgstr "このファイルには、すべての競合が解決されていないことを示す競合マーカーが含まれています。"
 
-msgctxt "dlgSgStageConflict.hdl%1"
+msgctxt "dlgSgStageConflict.hdl"
 msgid "Should $1 really be staged?"
 msgstr "$1 は本当にステージングする必要がありますか?"
 
@@ -10514,7 +10514,7 @@ msgctxt "dlgSgSubmoduleDeinitConfirm.fur"
 msgid "The submodule will be skipped from the working tree. To get rid from the \\(remote\\) repository, you have to use Unregister instead."
 msgstr "サブモジュールは作業ツリーからスキップされます。 \\(リモート\\) リポジトリから削除するには、代わりに 「登録を解除」 を使用する必要があります。"
 
-msgctxt "dlgSgSubmoduleDeinitConfirm.hdl%1"
+msgctxt "dlgSgSubmoduleDeinitConfirm.hdl"
 msgid "Do you want to deinit submodule '$1'?"
 msgstr "サブモジュール'$1'をdeinitしますか？"
 
@@ -10590,7 +10590,7 @@ msgctxt "dlgSgSubmoduleResetConfirm.fur"
 msgid "The corresponding commit will be checked out, so the submodule content will match the content of the registered commit."
 msgstr "対応するコミットがチェックアウトされるため、サブモジュールの内容は登録されたコミットの内容と一致します。"
 
-msgctxt "dlgSgSubmoduleResetConfirm.hdl%1"
+msgctxt "dlgSgSubmoduleResetConfirm.hdl"
 msgid "Do you want to reset submodule '$1' to the commit registered in the repository?"
 msgstr "サブモジュール '$1' をリポジトリに登録されているコミットの状態にリセットしますか？"
 
@@ -10738,7 +10738,7 @@ msgctxt "dlgSgSvnClientCertificate.hdl"
 msgid "Client Certificate"
 msgstr "クライアント証明書"
 
-msgctxt "dlgSgSvnClientCertificate.inf%1"
+msgctxt "dlgSgSvnClientCertificate.inf"
 msgid "Provide the client certificate for authentication to the SVN repository '$1'."
 msgstr "SVNリポジトリ'$1'への認証用クライアント証明書を提供します。"
 
@@ -10846,7 +10846,7 @@ msgctxt "dlgSgTagAddOverwrite.fur"
 msgid "Click 'Cancel' to choose a different tag name."
 msgstr "'キャンセル'をクリックすると、別のタグ名を選択できます。"
 
-msgctxt "dlgSgTagAddOverwrite.hdl%1"
+msgctxt "dlgSgTagAddOverwrite.hdl"
 msgid "The tag '$1' already exists. Do you want to overwrite it?"
 msgstr "タグ '$1' はすでに存在しています。上書きしますか？"
 
@@ -10862,7 +10862,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.chk"
 msgid "Delete from all remotes"
 msgstr "すべてのリモートから削除"
 
-msgctxt "dlgSgTagDeleteConfirmSingle.chk%1"
+msgctxt "dlgSgTagDeleteConfirmSingle.chk"
 msgid "Delete from remote '$1'"
 msgstr "リモート '$1' から削除"
 
@@ -10870,7 +10870,7 @@ msgctxt "dlgSgTagDeleteConfirmSingle.fur"
 msgid "You will not be able to restore it."
 msgstr "復元できなくなります。"
 
-msgctxt "dlgSgTagDeleteConfirmSingle.hdl%1"
+msgctxt "dlgSgTagDeleteConfirmSingle.hdl"
 msgid "Do you want to delete the tag '$1'?"
 msgstr "タグ'$1'を削除しますか？"
 
