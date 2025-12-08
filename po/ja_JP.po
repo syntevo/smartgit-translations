@@ -10944,7 +10944,7 @@ msgstr "内部エラー発生後、自動的に「クラッシュフットプリ
 
 msgctxt "dlgSgSetup.chk:"
 msgid "I understand and agree to all terms and conditions of the"
-msgstr "すべての条件を理解し、同意します。"
+msgstr "すべての利用条件を理解し、同意します"
 
 msgctxt "dlgSgSetup.chk:"
 msgid "Register existing license"
@@ -14391,10 +14391,12 @@ msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "over from somewhere else"
 msgstr "\\(別の場所から\\)"
 
+# プレースホルダはありませんが、実際には '80%の類似度,1行のOrigin' のように表示されます。
 msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "similarity for $1 origin line"
 msgstr "の類似度,$1行のOrigin"
 
+# プレースホルダはありませんが、実際には '80%の類似度,1行のOrigin' のように表示されます。
 msgctxt "wndDeepgit.lblOriginCandidate:"
 msgid "similarity for $1 origin lines"
 msgstr "の類似度,$1行のOrigin"
