@@ -6787,6 +6787,11 @@ msgctxt "dlgSgOutput.chk:"
 msgid "Show automatically for failed command"
 msgstr "失敗したコマンドを自動的に表示する"
 
+# $1: Command name, $2: Return code
+msgctxt "dlgSgOutput.lbl:"
+msgid "$1 failed \\(return code $2\\)"
+msgstr "$1 に失敗しました \\(リターンコード $2\\)"
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Authentication using OAuth failed \\(see details below\\)"
 msgstr "OAuth を使用した認証に失敗しました \\(以下の詳細を参照\\)"
@@ -7035,10 +7040,6 @@ msgstr "マージが完了していません \\(MERGE_HEAD が存在します\\)
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "次のファイルに対するローカルの変更は、チェックアウトによって上書きされます:\\n HEAD をデタッチできませんでした"
-
-msgctxt "dlgSgOutput.lbl:"
-msgid "stash failed \\(return code $1\\)"
-msgstr "スタッシュに失敗しました \\(return code $1\\)"
 
 # Needs Review
 msgctxt "dlgSgOutput.lbl:"
@@ -12116,10 +12117,6 @@ msgctxt "dlgSgSubtreeReset.fur:"
 msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at '$2'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
 msgstr "これにより、メイン履歴のサブディレクトリ '$1' が、サブツリー履歴の '$2' と同じ状態にリセットされます。\\n\\nメイン履歴のコミットにのみ存在するサブディレクトリの変更は失われます。この操作は、変更がサブツリー履歴にマージされた後にのみ使用してください！"
 
-msgctxt "dlgSgSubtreeReset.fur:"
-msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at 'master'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
-msgstr "これにより、メイン履歴のサブディレクトリ '$1' が、サブツリー履歴の 'master' と同じ状態にリセットされます。\\n\\nメイン履歴のコミットにのみ存在するサブディレクトリの変更は失われます。この操作は、変更がサブツリー履歴にマージされた後にのみ使用してください！"
-
 msgctxt "dlgSgSubtreeReset.hdl:"
 msgid "Do you want to reset subtree '$1'?"
 msgstr "サブツリー '$1' をリセットしますか？"
@@ -12745,8 +12742,8 @@ msgid "You can configure one or more <b>Main Branches</b> by specifying their na
 msgstr "セミコロンで区切って名前を指定することで、1つまたは複数の<b>メインブランチ</b>を設定できます。単一の名前の代わりにパターンを指定するには、正規表現を使用します。例: <tt>main,release-.*</tt>。"
 
 msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
-msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
-msgstr "「master」がメインブランチとして、「feature/」がフィーチャープレフィックスとして設定されました。"
+msgid "'$1' has been configured as main branch and '$2' as feature-prefix."
+msgstr "'$1'がメインブランチとして、'$2'がフィーチャープレフィックスとして設定されました。"
 
 msgctxt "dlgStdFeatureFinish.btn:"
 msgid "Select"
@@ -13202,10 +13199,6 @@ msgid "$1 needs to be restarted now for the changes to take effect."
 msgstr "$1 は、変更を有効にするために今すぐ再起動する必要があります。"
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
-msgstr "SmartGit $1 プレビューは、変更を適用するために今すぐ再起動する必要があります。"
-
-msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "SmartGit needs to be restarted now for the changes to take effect."
 msgstr "変更を有効にするには、SmartGit を再起動する必要があります。"
 
@@ -13344,10 +13337,6 @@ msgstr "アップデートを購入"
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "$1 にサポート期間が終了しました。"
-
-msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: $1"
-msgstr "アンケート: $1"
 
 msgctxt "nttUpdateCheck:"
 msgid "Vote"
@@ -18572,3 +18561,23 @@ msgstr "$1 \\[$2\\] - $3 のログ"
 msgctxt "wnd(Log|Std|).mniOpen:"
 msgid "Open from Working Tree"
 msgstr "作業ツリーから開く"
+
+#~ msgctxt "dlgSgOutput.lbl:"
+#~ msgid "stash failed \\(return code $1\\)"
+#~ msgstr "スタッシュに失敗しました \\(return code $1\\)"
+
+#~ msgctxt "dlgSgSubtreeReset.fur:"
+#~ msgid "This will reset the sub-directory '$1' in your main history to the same state as in the subtree history at 'master'.\\n\\nChanges in the sub-directory which are only present in your main history commits will be lost. Only use this operation after your changes have been merged into the subtree history!"
+#~ msgstr "これにより、メイン履歴のサブディレクトリ '$1' が、サブツリー履歴の 'master' と同じ状態にリセットされます。\\n\\nメイン履歴のコミットにのみ存在するサブディレクトリの変更は失われます。この操作は、変更がサブツリー履歴にマージされた後にのみ使用してください！"
+
+#~ msgctxt "dlgStdFeatureConfigurationSimple.hdl:"
+#~ msgid "'master' has been configured as main branch and 'feature/' as feature-prefix."
+#~ msgstr "「master」がメインブランチとして、「feature/」がフィーチャープレフィックスとして設定されました。"
+
+#~ msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+#~ msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
+#~ msgstr "SmartGit $1 プレビューは、変更を適用するために今すぐ再起動する必要があります。"
+
+#~ msgctxt "nttUpdateCheck:"
+#~ msgid "Quick Poll: $1"
+#~ msgstr "アンケート: $1"
