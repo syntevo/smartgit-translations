@@ -18488,10 +18488,6 @@ msgstr ""
 #~ msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 #~ msgstr "作業ツリーは「リベース中」の状態です。リベースを中止できます。現在のパッチをスキップしたい場合は、代わりに\\[ブランチ\\]→\\[リベース\\]→\\[リベース HEAD to\\] を使用してください。\\n\\n中止すると、ローカルの変更を消去することができます。\\('git reset --hard' の実行\\）"
 
-#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
-#~ msgid "Do you want to abort the current revert?"
-#~ msgstr ""
-
 #~ msgctxt "dlgSgAbortRevertingConfirm.tle"
 #~ msgid "Discard"
 #~ msgstr "破棄"
@@ -18526,14 +18522,6 @@ msgstr ""
 #~ msgid "Configure a new hosting provider account"
 #~ msgstr "ホスティングプロバイダーの新規アカウント設定"
 
-#~ msgctxt "dlgSgHostingProviderAdd.inf"
-#~ msgid "Set or select the options according to your account."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgOutput.lbl:"
-#~ msgid "stash failed \\(return code $1\\)"
-#~ msgstr ""
-
 #~ msgctxt "dlgSgProviderGenerateToken.hdl"
 #~ msgid "Generate a new API token for $1"
 #~ msgstr "$1 用の新しいAPIトークンを生成する"
@@ -18553,10 +18541,6 @@ msgstr ""
 #~ msgctxt "dlgSgRepositorySettings.inf:"
 #~ msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 #~ msgstr "ここでは、このリポジトリ用のGit設定を編集することができます。デフォルトの設定は「環境設定」にあります。"
-
-#~ msgctxt "dlgSgResetAdv.inf"
-#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-#~ msgstr ""
 
 #~ msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\":"
 #~ msgid "Set to $1 \\(\"ours\", $2\\)"
@@ -18593,14 +18577,6 @@ msgstr ""
 #~ msgctxt "dlgTxtEditor.fileModified.hdl:"
 #~ msgid "The file config was changed. Reload it?"
 #~ msgstr "ファイル構成が変更されました。再読み込みしますか？"
-
-#~ msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-#~ msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
-#~ msgstr ""
-
-#~ msgctxt "nttUpdateCheck:"
-#~ msgid "Quick Poll: $1"
-#~ msgstr ""
 
 #~ msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\":"
 #~ msgid "<b>Last Updated By: </b>$1"
