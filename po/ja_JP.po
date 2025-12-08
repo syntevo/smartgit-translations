@@ -13995,7 +13995,7 @@ msgstr "$1 - $3の$2のBlame"
 
 msgctxt "wndAnnotate.tle:"
 msgid "$1 - Blame"
-msgstr "$1 - ブレーム"
+msgstr "$1 - ブレイム"
 
 msgctxt "wndCompare.lbl:"
 msgid "Force Compare"
@@ -14239,7 +14239,7 @@ msgstr "\\*Origin ビュー\\*: 選択されたOrigin候補を強調表示しま
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view displays all /origin candidates/ for the selected line from the \\*Blame\\* view: If the selected line has not been modified\\\\/added in the \\*Blame\\* view commit itself, the \\*Appeared here\\* origin takes you to this commit. Otherwise, the \\*Changed in-place\\* entry shows the actual change. \\*Moved\\* entries denote possible moves. The selected origin candidate will be highlighted in the \\*Blame\\* view as well as the \\*Origin\\* view. To inspect changes of the origin candidate in greater detail, switch to the \\*Origins\\* perspective."
-msgstr "このビューには、\\*ブレーム\\* ビューで選択された行のすべての/Origin候補/が表示されます。選択した行が\\*ブレーム\\*ビューのコミットで変更\\\\/追加されていない場合、\\*ここで登場\\* はこのコミットに移動します。 そうでない場合は、\\*その場で変更された\\*に実際の変更が表示されます。\\*移動された\\*は、移動の可能性を示します。選択されたOrigin候補は、\\*Origin\\*ビューと同様に\\*ブレーム\\*ビューでもハイライト表示されます。Origin候補の変更をより詳細に調べるには、\\*Origin\\*パースペクティブに切り替えてください。"
+msgstr "このビューには、\\*ブレイム\\* ビューで選択された行のすべての/Origin候補/が表示されます。選択した行が\\*ブレイム\\*ビューのコミットで変更\\\\/追加されていない場合、\\*ここで登場\\* はこのコミットに移動します。 そうでない場合は、\\*その場で変更された\\*に実際の変更が表示されます。\\*移動された\\*は、移動の可能性を示します。選択されたOrigin候補は、\\*Origin\\*ビューと同様に\\*ブレイム\\*ビューでもハイライト表示されます。Origin候補の変更をより詳細に調べるには、\\*Origin\\*パースペクティブに切り替えてください。"
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view displays all changes for the selected commit from the \\*Navigation\\* view. The selected file will be compared in the below view."
@@ -14247,19 +14247,19 @@ msgstr "このビューは、\\*ナビゲーション\\* ビューから選択�
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view displays all files which have changed as part of the selected \\*Blame\\* line's commit. The selected file will be compared in the below view."
-msgstr "このビューには、選択した \\*ブレーム\\* 行のコミットの一部として変更されたすべてのファイルが表示されます。選択したファイルが下のビューで比較されます。"
+msgstr "このビューには、選択した \\*ブレイム\\* 行のコミットの一部として変更されたすべてのファイルが表示されます。選択したファイルが下のビューで比較されます。"
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view shows how the selected line from the \\*Blame\\* view has changed in the past."
-msgstr "このビューは、\\*ブレーム\\* ビューで選択された行が、過去にどのように変更されたかを表示します。"
+msgstr "このビューは、\\*ブレイム\\* ビューで選択された行が、過去にどのように変更されたかを表示します。"
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view shows the Log for the investigated file and for all previous files you have navigated to. For the selected commit, more details will be displayed which depend on the current perspective: \\n# in the \\*Blame\\* perspective the file's content will be displayed in the \\*Blame\\* view, \\n# in the \\*Diff\\* perspective the file's modifications will be displayed, \\n# in the \\*Log\\* perspective a summary of all modified files will be displayed in the \\*Files\\* view."
-msgstr "このビューには、調査対象のファイルと、そこに至るまでの全てのファイルのログが表示されます。選択したコミットについて、現在のパースペクティブに応じて詳細が表示されます。\\n # \\*ブレーム\\* パースペクティブでは、ファイルの内容は \\*ブレーム\\* ビューに表示されます。\\n # \\*差分\\* パースペクティブでは、ファイルの変更が表示されます。\\n # \\*ログ\\* パースペクティブでは、変更されたすべてのファイルの概要が \\*Files\\* ビューに表示されます。"
+msgstr "このビューには、調査対象のファイルと、そこに至るまでの全てのファイルのログが表示されます。選択したコミットについて、現在のパースペクティブに応じて詳細が表示されます。\\n # \\*ブレイム\\* パースペクティブでは、ファイルの内容は \\*ブレイム\\* ビューに表示されます。\\n # \\*差分\\* パースペクティブでは、ファイルの変更が表示されます。\\n # \\*ログ\\* パースペクティブでは、変更されたすべてのファイルの概要が \\*Files\\* ビューに表示されます。"
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view shows the blame for the selected file\\\\/commit from the \\*Navigation\\* tree. When selecting a line DeepGit will start searching for the origin of this line and show results in the \\*Origin Candidates\\* view \\(only available in the \\*Blame+Origins\\* perspective\\). The best origin candidate will be selected and highlighted. DeepGit will follow across line moves and file renames and taking into account the line's vicinity, so origin candidates will usually be blocks, not just single lines."
-msgstr "このビューには、\\*ナビゲーション\\* ツリーから選択したファイル\\\\/コミットに対するブレーム結果が表示されます。行を選択すると、DeepGit はこの行の起源の検索を開始し、\\*Origin候補\\* ビューに結果を表示します \\(\\*ブレーム+Origins\\* パースペクティブでのみ使用できます\\)。最適なOrigin候補が選択され、ハイライトされます。DeepGit は、行の移動とファイル名の変更を追跡し、行の周辺を考慮するため、Origin候補は通常、1 行だけでなくブロックになります。"
+msgstr "このビューには、\\*ナビゲーション\\* ツリーから選択したファイル\\\\/コミットに対するブレイム結果が表示されます。行を選択すると、DeepGit はこの行の起源の検索を開始し、\\*Origin候補\\* ビューに結果を表示します \\(\\*ブレイム+Origins\\* パースペクティブでのみ使用できます\\)。最適なOrigin候補が選択され、ハイライトされます。DeepGit は、行の移動とファイル名の変更を追跡し、行の周辺を考慮するため、Origin候補は通常、1 行だけでなくブロックになります。"
 
 msgctxt "wndDeepgit.ihp:"
 msgid "This view shows the diff for the selected file from the above \\*Files\\* view."
@@ -14279,17 +14279,17 @@ msgstr "類似性検出は単一行に対してのみ実行されました。一
 
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress...\\)"
-msgstr "ブレーム\\(処理中…\\)"
+msgstr "ブレイム\\(処理中…\\)"
 
 # [decode] msgctxt "wndDeepgit.lblBlameHeader"Blame \(in progress…\)""
 # [decode] msgid "Blame \(in progress…\)"
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame \\(in progress\\u2026\\)"
-msgstr "ブレーム\\(処理中…\\)"
+msgstr "ブレイム\\(処理中…\\)"
 
 msgctxt "wndDeepgit.lblBlameHeader:"
 msgid "Blame for"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wndDeepgit.lblBlameMatchPopup:"
 msgid "Appeared here"
@@ -14559,11 +14559,11 @@ msgstr "Optimize 'Appeared Here' Origins"
 
 msgctxt "wndDeepgit.mniDgPerspectiveBlameOrigin:"
 msgid "Blame+Origins Perspective"
-msgstr "ブレーム+Origins パースペクティブ"
+msgstr "ブレイム+Origins パースペクティブ"
 
 msgctxt "wndDeepgit.mniDgPerspectiveBlameSimple:"
 msgid "Blame Perspective"
-msgstr "ブレームパースペクティブ"
+msgstr "ブレイムパースペクティブ"
 
 msgctxt "wndDeepgit.mniDgPerspectiveCommit:"
 msgid "Log Perspective"
@@ -14607,11 +14607,11 @@ msgstr "ツールバーを表示"
 
 msgctxt "wndDeepgit.mniDgWindowHorizontalLayout:"
 msgid "Horizontal Blame + Origins Layout"
-msgstr "左右にブレームとOriginsを並べる"
+msgstr "左右にブレイムとOriginsを並べる"
 
 msgctxt "wndDeepgit.mniDgWindowVerticalLayout:"
 msgid "Vertical Blame + Origins Layout"
-msgstr "上下にブレームとOriginsを並べる"
+msgstr "上下にブレイムとOriginsを並べる"
 
 msgctxt "wndDeepgit.mniEdit-copy:"
 msgid "Copy"
@@ -14729,11 +14729,11 @@ msgstr "戻る"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Blame+Origins"
-msgstr "ブレーム+Origins"
+msgstr "ブレイム+Origins"
 
 msgctxt "wndDeepgit.tbr:"
 msgid "Diff"
@@ -14761,15 +14761,15 @@ msgstr "前の変更点に移動します。"
 
 msgctxt "wndDeepgit.tbtBack:"
 msgid "Go back to previous blame..."
-msgstr "前のブレームに戻る..."
+msgstr "前のブレイムに戻る..."
 
 msgctxt "wndDeepgit.tbtDbBack:"
 msgid "Go back to previous blame..."
-msgstr "前のブレームに戻る..."
+msgstr "前のブレイムに戻る..."
 
 msgctxt "wndDeepgit.tbtDgForward:"
 msgid "Go forward to next blame..."
-msgstr "次のブレームに進む..."
+msgstr "次のブレイムに進む..."
 
 msgctxt "wndDeepgit.tbtDgPerspectiveBlameOrigin:"
 msgid "Find where the line originates from in cases where you need to choose from one of possible Origins."
@@ -14793,7 +14793,7 @@ msgstr "その行が発生した場所で他に何が起こったのかを調査
 
 msgctxt "wndDeepgit.tbtForward:"
 msgid "Go forward to next blame..."
-msgstr "次のブレームに進む..."
+msgstr "次のブレイムに進む..."
 
 msgctxt "wndDeepgit.tbtPerspectiveBlameOrigin:"
 msgid "Find where the line originates from in cases where you need to choose from one of possible Origins."
@@ -15237,7 +15237,7 @@ msgstr "スタッシュを適用"
 
 msgctxt "wndStd.mni:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wndStd.mni:"
 msgid "Changed files"
@@ -16757,7 +16757,7 @@ msgstr "追加"
 
 msgctxt "wnd(Log|Project|Std|).mniAnnotate:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wnd(Log|Project|Std|).mniAssume-unchanged-toggle:"
 msgid "Toggle 'Assume Unchanged'"
@@ -18080,7 +18080,7 @@ msgstr "適用"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Blame"
-msgstr "ブレーム"
+msgstr "ブレイム"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Branch"
@@ -18322,7 +18322,7 @@ msgstr "ディレクトリツリーを表示"
 
 msgctxt "wnd(Log|Project|Std|).tbtAnnotate:"
 msgid "Show a blame \\(annotated\\) view of the selected file."
-msgstr "選択したファイルのブレーム \\(注釈付き\\) ビューを表示します。"
+msgstr "選択したファイルのブレイム \\(注釈付き\\) ビューを表示します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtBranchAdd:"
 msgid "Add a new branch for the current commit."
