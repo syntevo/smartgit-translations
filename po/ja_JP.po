@@ -231,7 +231,7 @@ msgstr "情報"
 
 msgctxt "dlgDgAbout.tab:"
 msgid "Licensee"
-msgstr "ライセンス"
+msgstr "ライセンシー"
 
 msgctxt "dlgDgAbout.tle:"
 msgid "About DeepGit"
@@ -863,6 +863,7 @@ msgctxt "dlgScCustomizeAccelerators.btn:"
 msgid "Reset"
 msgstr "リセット"
 
+# 意図的な意訳
 msgctxt "dlgScCustomizeAccelerators.col:"
 msgid "Accelerator"
 msgstr "ショートカット"
@@ -875,6 +876,7 @@ msgctxt "dlgScCustomizeAccelerators.col:"
 msgid "Menu Item"
 msgstr "メニュー項目"
 
+# 意図的な意訳
 msgctxt "dlgScCustomizeAccelerators.edt:"
 msgid "Accelerator"
 msgstr "ショートカット"
@@ -1624,7 +1626,7 @@ msgstr "新しい値は、SmartGitを再起動すると有効になります。"
 
 msgctxt "dlgScPropertiesReset.hdl:"
 msgid "Do you want to reset $1 system properties to their defaults?"
-msgstr "$1 システムのプロパティをデフォルトにリセットしますか？"
+msgstr "$1 つのシステムプロパティをデフォルトにリセットしますか？"
 
 msgctxt "dlgScPropertiesReset.tle:"
 msgid "Reset Properties"
@@ -2277,7 +2279,7 @@ msgstr "情報"
 
 msgctxt "dlgSgAbout.tab:"
 msgid "Licensee"
-msgstr "ライセンス"
+msgstr "ライセンシー"
 
 msgctxt "dlgSgAbout.tle:"
 msgid "About SmartGit"
@@ -2396,7 +2398,7 @@ msgstr "書き直す"
 
 msgctxt "dlgSgAiCommitMessageReworder.fur:"
 msgid "SmartGit has detected a commit message containing an AI-generation marker. If the commit has not yet been pushed, it can be automatically reworded in the background.\\n\\nYou can enable or disable this option from the AI popup menu."
-msgstr "SmartGitはAI生成マーカーを含むコミットメッセージを検出しました。コミットがまだプッシュされていない場合、バックグラウンドで自動的にメッセージを書き直すことができます。"
+msgstr "SmartGitはAI生成マーカーを含むコミットメッセージを検出しました。コミットがまだプッシュされていない場合、バックグラウンドで自動的にメッセージを書き直すことができます。\\n\\nこのオプションはAIポップアップメニューから有効/無効を切り替えることができます。"
 
 msgctxt "dlgSgAiCommitMessageReworder.hdl:"
 msgid "Do you want to reword marked commits in the background?"
@@ -3066,7 +3068,7 @@ msgstr "クラッシュレポート"
 
 msgctxt "dlgSgBugReportSettings.inf:"
 msgid "Please help to improve SmartGit's quality by automatically sending 'crash footprints'."
-msgstr "「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 \" このオプションは、後で [環境設定] で変更できます。"
+msgstr "「クラッシュ フットプリント」を自動的に送信して、SmartGitの品質向上にご協力ください。"
 
 msgctxt "dlgSgBugReportSettings.lbl:"
 msgid "A 'crash footprint' contains details about your machine \\(e.g. version of operating system\\), SmartGit's version/build number, the JVM state and where the internal error occurred.\\n\\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."
@@ -5344,7 +5346,7 @@ msgstr "影響を受けたコミットの少なくとも1つは、HEADの最初�
 
 msgctxt "dlgSgHistoryCommitCantBeModified.fur:"
 msgid "To modify commits of a different branch, you need to first check out this branch."
-msgstr "影響を受けるコミットのうち少なくとも1つは、HEADの最初の親となる履歴の一部ではありません。"
+msgstr "別のブランチのコミットを変更するには、まずそのブランチをチェックアウトする必要があります。"
 
 msgctxt "dlgSgHistoryCommitCantBeModified.hdl:"
 msgid "At least one selected commit can't be modified."
@@ -5593,7 +5595,7 @@ msgstr "ファイルを分割"
 
 msgctxt "dlgSgHistoryPushedCommitsModifyPushedCommits.tle:"
 msgid "Squash Commits"
-msgstr "スカッシュコミット"
+msgstr "コミットのスカッシュ"
 
 msgctxt "dlgSgHistorySplitConfirm.btn:"
 msgid "Split"
@@ -5633,11 +5635,11 @@ msgstr "選択"
 
 msgctxt "dlgSgHistorySquash.btn:"
 msgid "Squash Commits"
-msgstr "スカッシュコミット"
+msgstr "コミットのスカッシュ"
 
 msgctxt "dlgSgHistorySquash.edt:"
 msgid "Authorship"
-msgstr "著作権"
+msgstr "著者"
 
 msgctxt "dlgSgHistorySquash.edt:"
 msgid "Commit Message"
@@ -5661,7 +5663,7 @@ msgstr "ログ"
 
 msgctxt "dlgSgHistorySquash.tle:"
 msgid "Squash Commits"
-msgstr "スカッシュコミット"
+msgstr "コミットのスカッシュ"
 
 msgctxt "dlgSgHostingProviderAdd.btn:"
 msgid "Add"
@@ -6315,7 +6317,7 @@ msgstr "LFS インストール"
 
 msgctxt "dlgSgLfsPruneConfirm.btn:"
 msgid "Prune"
-msgstr "プルーン\\(Prune\\)"
+msgstr "Prune"
 
 msgctxt "dlgSgLfsPruneConfirm.fur:"
 msgid "This will call the remote to ensure that any LFS files to be deleted have copies on the remote before actually deleting them."
@@ -6327,7 +6329,7 @@ msgstr "ローカルストレージから古いLFSファイルを削除します
 
 msgctxt "dlgSgLfsPruneConfirm.tle:"
 msgid "LFS Prune"
-msgstr "LFS プルーン"
+msgstr "LFS Prune"
 
 msgctxt "dlgSgLfsTrack.edt:"
 msgid "Pattern"
@@ -6378,10 +6380,12 @@ msgctxt "dlgSgLocalCommandRepositoryEmpty.tle:"
 msgid "Save Stash"
 msgstr "スタッシュに保存"
 
+# 選択したコミットの状態のファイルに名前を付けて保存する画面で、コミットの前のファイルを保存するか、後のファイルを保存するかの選択肢として表示されるボタンです
 msgctxt "dlgSgLogCheckoutFileAs.btn:"
 msgid "Save After"
 msgstr "後を保存"
 
+# 選択したコミットの状態のファイルに名前を付けて保存する画面で、コミットの前のファイルを保存するか、後のファイルを保存するかの選択肢として表示されるボタンです
 msgctxt "dlgSgLogCheckoutFileAs.btn:"
 msgid "Save Before"
 msgstr "前を保存"
@@ -6601,7 +6605,7 @@ msgstr "ブランチ"
 
 msgctxt "dlgSgMerge.btn:"
 msgid "Create Merge-Commit"
-msgstr "マージリクエストを作成"
+msgstr "マージコミットを作成"
 
 msgctxt "dlgSgMerge.btn:"
 msgid "Merge to Working Tree"
@@ -6653,7 +6657,7 @@ msgstr "マージ"
 
 msgctxt "dlgSgMergeHowToMerge.btn:"
 msgid "Create Merge-Commit"
-msgstr "マージリクエストを作成"
+msgstr "マージコミットを作成"
 
 msgctxt "dlgSgMergeHowToMerge.btn:"
 msgid "Fast-Forward"
@@ -7756,7 +7760,7 @@ msgstr "ポート"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Prefer"
-msgstr "Prefer"
+msgstr "優先"
 
 msgctxt "dlgSgPreferences.edt:"
 msgid "Preview"
@@ -7960,7 +7964,7 @@ msgstr "「クラッシュ フットプリント」と使用状況統計を自�
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\\n\\nA 'crash footprint' contains details about your machine \\(e.g. version of operating system\\), SmartGit's version/build number, the JVM state and where the internal error occurred.\\n\\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."
-msgstr "「クラッシュ フットプリント」と使用状況統計を自動的に送信することで、SmartGit の品質向上にご協力ください。 \" このオプションは、後で [環境設定] で変更できます。\\n\\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれていますが、ユーザー名、電子メール アドレス、ファイルの内容、ファイル パス、サーバー名など、機密情報になりうる可能性のある情報は一切含まれていません。"
+msgstr "機密情報を含まない「クラッシュ フットプリント」を自動的に送信することで、SmartGit の品質向上にご協力ください。このオプションは、後で [環境設定] で変更できます。\\n\\n「クラッシュ フットプリント」には、お使いのマシンの詳細（オペレーティング システムのバージョンなど）、SmartGit のバージョン/ビルド番号、JVM の状態、内部エラーが発生した場所などが含まれます。\\n\\nユーザー名、メール アドレス、ファイルの内容、ファイル パス、サーバー名などの機密情報になりうる情報は一切含まれていません。"
 
 msgctxt "dlgSgPreferences.lbl:"
 msgid "Preview:"
@@ -8309,7 +8313,7 @@ msgstr "外部の Git 実行ファイル:"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Prefer light-weight updates stored in home directory"
-msgstr "ホームディレクトリに保存される軽量なアップデート"
+msgstr "ホームディレクトリに保存される軽量なアップデートを優先"
 
 msgctxt "dlgSgPreferences.rbt:"
 msgid "Show changes or open"
@@ -8806,7 +8810,7 @@ msgstr "プルの動作は、リポジトリ設定で変更することができ
 
 msgctxt "dlgSgPullOrJustFetch.hdl:"
 msgid "Do you want to pull or just fetch $1 repositories?"
-msgstr "リポジトリ $1 をフェッチしますか?"
+msgstr "$1 個のリポジトリをプルしますか、それともフェッチのみにしますか?"
 
 msgctxt "dlgSgPullOrJustFetch.tle:"
 msgid "Pull"
@@ -10480,7 +10484,7 @@ msgstr "ローカルを表示"
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.btn:"
 msgid "Reveal Tracked"
-msgstr "追跡ブランチを表示"
+msgstr "追跡対象を表示"
 
 msgctxt "dlgSgRevealCommitLocalOrTracked.chk:"
 msgid "Always reveal local branch"
@@ -11372,11 +11376,11 @@ msgstr "+ ワーキングツリーを残す"
 
 msgctxt "dlgSgStashAll.btn:"
 msgid "Stash All"
-msgstr "すべての変更を隠す"
+msgstr "すべてをスタッシュ"
 
 msgctxt "dlgSgStashAll.btn:"
 msgid "Stash Selection"
-msgstr "選択した変更を隠す"
+msgstr "選択項目をスタッシュ"
 
 msgctxt "dlgSgStashAll.edt:"
 msgid "Message"
@@ -11572,7 +11576,7 @@ msgstr "リセット"
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
 msgid "Once you have concluded the Reorder Commits, you should manually apply the latest stash to get your local changes back into the working tree."
-msgstr "プルが完了したら、最新のスタッシュを手動で適用し、ローカルの変更を作業ツリーに戻す必要があります。"
+msgstr "コミットの並べ替えが完了したら、最新のスタッシュを手動で適用し、ローカルの変更を作業ツリーに戻す必要があります。"
 
 msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.hdl:"
 msgid "Your local changes have been stashed away, but could not be reapplied."
@@ -11592,7 +11596,7 @@ msgstr "技術的な理由により、変更を自動的にスタッシュする
 
 msgctxt "dlgSgStashOnDemandProceedWithoutStashing.hdl:"
 msgid "Do you want to proceed without stashing changes?"
-msgstr "変更を保存せずに続行しますか?"
+msgstr "変更をスタッシュせずに続行しますか?"
 
 msgctxt "dlgSgStashOnDemandProceedWithoutStashing.tle:"
 msgid "Reset"
@@ -14521,7 +14525,7 @@ msgstr "選択範囲をフィルターとして設定"
 
 msgctxt "wndDeepgit.mniDgFollowInsignificantMerges:"
 msgid "Follow Insignificant Merges \\(experimental\\)"
-msgstr "無視できないマージを追跡する \\(実験的\\)"
+msgstr "些細なマージを追跡する \\(実験的\\)"
 
 msgctxt "wndDeepgit.mniDgFollowRenames:"
 msgid "Follow Renames"
@@ -15223,7 +15227,7 @@ msgstr "すべてのファイル (無視されたファイルを含む)"
 
 msgctxt "wndStd.mni:"
 msgid "All my branches"
-msgstr "すべてのmyブランチ"
+msgstr "自分のすべてのブランチ"
 
 msgctxt "wndStd.mni:"
 msgid "Apply Stash"
@@ -16218,7 +16222,7 @@ msgstr "ローカルを削除"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
-msgstr "コミット '$1' を編集"
+msgstr "コメント '$1' を編集"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit in Index Editor"
@@ -17144,7 +17148,7 @@ msgstr "ロック"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsPrune:"
 msgid "Prune"
-msgstr "プルーン\\(Prune\\)"
+msgstr "Prune"
 
 msgctxt "wnd(Log|Project|Std|).mniLfsTrack:"
 msgid "Track"
@@ -17294,6 +17298,8 @@ msgctxt "wnd(Log|Project|Std|).mniPush:"
 msgid "Push"
 msgstr "プッシュ"
 
+# コミットのコンテキストメニューとして表示されます。
+# 選択したコミットまでのすべてのコミットが、リモートリポジトリにプッシュされます。
 msgctxt "wnd(Log|Project|Std|).mniPushCommits:"
 msgid "Push Up To"
 msgstr "ここまでをプッシュ"
