@@ -6762,6 +6762,11 @@ msgctxt "dlgSgOutput.chk:"
 msgid "Show automatically for failed command"
 msgstr "自动显示失败的命令"
 
+# $1: Command name, $2: Return code
+msgctxt "dlgSgOutput.lbl:"
+msgid "$1 failed \\(return code $2\\)"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Authentication using OAuth failed \\(see details below\\)"
 msgstr ""
@@ -7005,10 +7010,6 @@ msgstr ""
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
 msgstr "您对以下文件的本地更改将被签出覆盖:\\n无法分离 HEAD"
-
-msgctxt "dlgSgOutput.lbl:"
-msgid "stash failed \\(return code $1\\)"
-msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "unable to access '$1': Could not resolve host: $2"
@@ -13137,14 +13138,9 @@ msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
 msgstr "After the new version has been downloaded successfully, you will be notified again."
 
-# TODO: Check if the variable range is correct.
-#| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
+# $1: Software name and version
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "$1 needs to be restarted now for the changes to take effect."
-msgstr ""
-
-msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -13286,10 +13282,6 @@ msgstr "购买更新"
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
 msgstr "您的支持服务将于 $1 过期."
-
-msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: $1"
-msgstr ""
 
 msgctxt "nttUpdateCheck:"
 msgid "Vote"
@@ -18559,6 +18551,10 @@ msgstr ""
 #~ msgid "Set or select the options according to your account."
 #~ msgstr ""
 
+#~ msgctxt "dlgSgOutput.lbl:"
+#~ msgid "stash failed \\(return code $1\\)"
+#~ msgstr ""
+
 #~ msgctxt "dlgSgProviderGenerateToken.hdl"
 #~ msgid "Generate a new API token for $1"
 #~ msgstr ""
@@ -18618,6 +18614,14 @@ msgstr ""
 #~ msgctxt "dlgTxtEditor.fileModified.hdl:"
 #~ msgid "The file config was changed. Reload it?"
 #~ msgstr "该文件配置已变更. 是否重新加载?"
+
+#~ msgctxt "ntmUpdateCheckFetchVersionSuccess:"
+#~ msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
+#~ msgstr ""
+
+#~ msgctxt "nttUpdateCheck:"
+#~ msgid "Quick Poll: $1"
+#~ msgstr ""
 
 #~ msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\":"
 #~ msgid "<b>Last Updated By: </b>$1"
