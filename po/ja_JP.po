@@ -10431,10 +10431,9 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
 msgstr "リベースターゲットに設定 \\(\"theirs\", $1\\)"
 
-#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
-msgstr "Set to rebased branch '$1' \\(\"ours\", $2\\)"
+msgstr "リベース中のブランチ '$1' に設定 \\(\"ours\", $2\\)"
 
 msgctxt "dlgSgResolve.tle:"
 msgid "Resolve"
@@ -15706,6 +15705,8 @@ msgctxt "wnd(Log|Project|Std|).:"
 msgid "Recreate Conflict"
 msgstr "競合した状態に戻す"
 
+# ToolTip:　Rerun the filter, this time also searching for the filter text in commit messages, authors, ...
+# 明らかに原文から逸脱していますが、このボタンをクリックすると詳細な条件を設定するためのボタンが出現するというGUIの挙動から意図的に変更しています。
 msgctxt "wnd(Log|Project|Std|).:"
 msgid "Rerun Thoroughly"
 msgstr "詳細条件を設定"
