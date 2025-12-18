@@ -6761,6 +6761,11 @@ msgctxt "dlgSgOutput.chk:"
 msgid "Show automatically for failed command"
 msgstr ""
 
+# $1: Command name, $2: Return code
+msgctxt "dlgSgOutput.lbl:"
+msgid "$1 failed \\(return code $2\\)"
+msgstr ""
+
 msgctxt "dlgSgOutput.lbl:"
 msgid "Authentication using OAuth failed \\(see details below\\)"
 msgstr ""
@@ -7003,10 +7008,6 @@ msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
 msgid "Your local changes to the following files would be overwritten by checkout:\\ncould not detach HEAD"
-msgstr ""
-
-msgctxt "dlgSgOutput.lbl:"
-msgid "stash failed \\(return code $1\\)"
 msgstr ""
 
 msgctxt "dlgSgOutput.lbl:"
@@ -13132,14 +13133,9 @@ msgctxt "ntmUpdateCheckFetchVersionStart:"
 msgid "After the new version has been downloaded successfully, you will be notified again."
 msgstr ""
 
-# TODO: Check if the variable range is correct.
-#| msgid "SmartGit 25.1.093 needs to be restarted now for the changes to take effect."
+# $1: Software name and version
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
 msgid "$1 needs to be restarted now for the changes to take effect."
-msgstr ""
-
-msgctxt "ntmUpdateCheckFetchVersionSuccess:"
-msgid "SmartGit $1 Preview needs to be restarted now for the changes to take effect."
 msgstr ""
 
 msgctxt "ntmUpdateCheckFetchVersionSuccess:"
@@ -13280,10 +13276,6 @@ msgstr ""
 
 msgctxt "nttSupportExpired:"
 msgid "Your support period has expired on $1."
-msgstr ""
-
-msgctxt "nttUpdateCheck:"
-msgid "Quick Poll: $1"
 msgstr ""
 
 msgctxt "nttUpdateCheck:"
@@ -18484,105 +18476,17 @@ msgstr ""
 #~ msgid "Please wait"
 #~ msgstr "Пожалуйста, подождите..."
 
-#~ msgctxt "dlgScConflictSolverInconsistentLineEndings.tle"
-#~ msgid "\\[$1\\] - $2"
-#~ msgstr ""
-
 #~ msgctxt "dlgSgAbortRebasingConfirm.fur:"
 #~ msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
 #~ msgstr "Рабочий каталог находится в состоянии 'перемещения'. Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
-
-#~ msgctxt "dlgSgAbortRevertingConfirm.hdl"
-#~ msgid "Do you want to abort the current revert?"
-#~ msgstr ""
 
 #~ msgctxt "dlgSgClone.chk\"Skip large files \\(\\\"partial clone\\\"\\)\":"
 #~ msgid "Skip large files \\(\"partial clone\"\\)"
 #~ msgstr "Пропустить большие файлы \\(\"частичное клонирование\"\\)"
 
-#~ msgctxt "dlgSgCommit.rbt\"Simple commit \\(one parent, \\\"squash\\\"\\)\":"
-#~ msgid "Simple commit \\(one parent, \"squash\"\\)"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgCompareTwoFilesFrameMixedLineEndingsRight.tle"
-#~ msgid "\\[$1\\] - \\[$2\\] - $3"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgErrorUtilsClientException.fur:"
-#~ msgid "Server returned HTTP response code: 400 for URL: https://gitlab.com/oauth/token"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgHostingProviderAdd.inf"
-#~ msgid "Set or select the options according to your account."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgProviderGenerateToken.hdl"
-#~ msgid "Generate a new API token for $1"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgPushForced.hdl:"
-#~ msgid "Do you want to force-push \\(replace\\) the remote branch?"
-#~ msgstr ""
-
 #~ msgctxt "dlgSgRepositorySettings.inf:"
 #~ msgid "Here you can edit the Git settings for the repository. The default settings can be found in the preferences."
 #~ msgstr "Здесь вы можете изменить настройки Git для репозитория. Параметры по умолчанию можно найти в меню Параметры"
-
-#~ msgctxt "dlgSgResetAdv.inf"
-#~ msgid "Reset the current branch (HEAD) to the selected commit and optionally update Index and working tree."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"ours\\\", $2\\)\":"
-#~ msgid "Set to $1 \\(\"ours\", $2\\)"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgResolve.rbt\"Set to $1 \\(\\\"theirs\\\", $2\\)\":"
-#~ msgid "Set to $1 \\(\"theirs\", $2\\)"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgResolve.rbt\"Set to rebase target \\(\\\"theirs\\\", $1\\)\":"
-#~ msgid "Set to rebase target \\(\"theirs\", $1\\)"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgResolve.rbt\"Set to rebased branch '$1' \\(\\\"ours\\\", $2\\)\":"
-#~ msgid "Set to rebased branch '$1' \\(\"ours\", $2\\)"
-#~ msgstr ""
-
-#~ msgctxt "dlgSgSetupStdWnd.fur:"
-#~ msgid "We recommend the Standard window for \\*new or less experienced Git users\\*.\\n\\nIf you have used older SmartGit versions, you might be surprised that the Standard window \\*looks different\\* than you are used to. In case you want to get the previous experience, consider to select the \\*Log Graph\\* or \\*Working Tree\\* window instead."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgStashOnDemandLocalChangesCantBeReapplied.fur:"
-#~ msgid "Once you have concluded the Pull, you should manually apply the latest stash to get your local changes back into the working tree."
-#~ msgstr ""
-
-#~ msgctxt "dlgSgSvnClientCertificate.wrn\"Authentication to the SVN repository '$1' failed with error: $2\":"
-#~ msgid "Authentication to the SVN repository '$1' failed with error: $2'"
-#~ msgstr ""
-
-#~ msgctxt "dlgTxtEditor.fileModified.hdl:"
-#~ msgid "The file config was changed. Reload it?"
-#~ msgstr ""
-
-#~ msgctxt "ttpBranches\"<b>Last Updated By:\\t</b>$1\":"
-#~ msgid "<b>Last Updated By: </b>$1"
-#~ msgstr ""
-
-#~ msgctxt "ttpBranches\"<b>On:\\t</b>$1\":"
-#~ msgid "<b>On: </b>$1"
-#~ msgstr ""
-
-#~ msgctxt "ttpBranches\"<b>Outgoing</b> from branch <b>main</b> to repository <b>$1</b> branch <b>$2</b>\":"
-#~ msgid "<b>Outgoing</b> from branch <b>$1</b> to repository <b>$2</b> branch <b>main</b>"
-#~ msgstr ""
-
-#~ msgctxt "wndStd.mni:"
-#~ msgid "On master: SmartGit: automatic stash on Pull."
-#~ msgstr ""
-
-#~ msgctxt "wnd(Log|Project|Std|).mni\"  Show Rewritten Behind Commits\":"
-#~ msgid "Show Rewritten Behind Commits"
-#~ msgstr ""
 
 #~ msgctxt "wnd(Log|Project|Std|).tbr\"  History  \":"
 #~ msgid "History"
