@@ -701,7 +701,7 @@ msgstr "改行コードを修正"
 
 msgctxt "dlgScAboutUpdateInstallation.btn:"
 msgid "Upgrade Installation"
-msgstr "アップグレードのインストール"
+msgstr "アップグレードをインストール"
 
 msgctxt "dlgScAboutUpdateInstallation.fur:"
 msgid "This will take a few moments and has to restart SmartGit."
@@ -9042,7 +9042,7 @@ msgstr "別のリモートに '$1' ブランチをプッシュする"
 
 msgctxt "dlgSgPushToRemote.inf:"
 msgid "All branches of '$1' \\(as locally represented by the corresponding remote branches\\) will be pushed to the target repository."
-msgstr "'$1' のすべてのブランチがターゲットリポジトリにプッシュされます。\\r\\(リモートにローカルと対応するブランチが作成されます。\\)"
+msgstr "'$1' のすべてのブランチ（ローカル側では対応するリモート追跡ブランチとして表現されています）が、ターゲットリポジトリにプッシュされます。"
 
 msgctxt "dlgSgPushToRemote.tle:"
 msgid "Push To"
@@ -10427,10 +10427,9 @@ msgctxt "dlgSgResolve.rbt:"
 msgid "Set to $1 \\(\"theirs\", $2\\)"
 msgstr "Set to $1 \\(\"theirs\", $2\\)"
 
-#, fuzzy
 msgctxt "dlgSgResolve.rbt:"
 msgid "Set to rebase target \\(\"theirs\", $1\\)"
-msgstr "Set to rebase target \\(\"theirs\", $1\\)"
+msgstr "リベースターゲットに設定 \\(\"theirs\", $1\\)"
 
 #, fuzzy
 msgctxt "dlgSgResolve.rbt:"
