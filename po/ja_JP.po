@@ -2285,10 +2285,10 @@ msgctxt "dlgSgAbout.tle:"
 msgid "About SmartGit"
 msgstr "SmartGitについて"
 
-# コミットビューの右上のAIボタン→「すべてのAI関連ノートを削除」
+# コミットビューの右上のAIボタン→「すべてのAI関連ノートを破棄」
 msgctxt "dlgSgAiAnnotatorDropAllNotes.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "破棄"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.fur:"
 msgid "This will remove all AI-related Git notes from the repository."
@@ -2300,7 +2300,7 @@ msgstr "AI関連のすべてのGit noteを削除しますか？"
 
 msgctxt "dlgSgAiAnnotatorDropAllNotes.tle:"
 msgid "Drop AI Notes"
-msgstr "AIノートを削除"
+msgstr "AIノートを破棄"
 
 msgctxt "dlgSgAiAnnotatorSelectOldAndNewCommit.btn:"
 msgid "Swap"
@@ -8605,7 +8605,7 @@ msgstr "マージリクエストを作成"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.fur:"
 msgid "The merge request itself will not be deleted on the server."
@@ -8613,15 +8613,15 @@ msgstr "マージリクエスト自体はサーバー上で削除されません
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.hdl:"
 msgid "Do you really want to drop the local commits of merge request $1?"
-msgstr "本当にマージリクエスト$1のローカルコミットを削除しますか?"
+msgstr "本当にマージリクエスト$1のローカルコミットを破棄しますか?"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmMr.tle:"
 msgid "Drop Merge Request"
-msgstr "マージ リクエストの削除"
+msgstr "マージリクエストの破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.btn:"
 msgid "Drop"
-msgstr "削除"
+msgstr "破棄"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.fur:"
 msgid "The pull request itself will not be deleted on the server."
@@ -8629,11 +8629,11 @@ msgstr "プルリクエスト自体はサーバー上で削除されることは
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.hdl:"
 msgid "Do you want to drop the local commits of pull request $1?"
-msgstr "プルリクエスト $1 のローカルコミットを本当に削除しますか?"
+msgstr "プルリクエスト $1 のローカルコミットを本当に破棄しますか?"
 
 msgctxt "dlgSgProviderPullRequestDropConfirmPr.tle:"
 msgid "Drop Pull Request"
-msgstr "プルリクエストの削除"
+msgstr "プルリクエストの破棄"
 
 msgctxt "dlgSgProviderPullRequestRetractMr.btn:"
 msgid "Retract"
@@ -11401,7 +11401,7 @@ msgstr "スタッシュに保存"
 
 msgctxt "dlgSgStashApply.btn:"
 msgid "Apply && Drop"
-msgstr "適用してドロップ"
+msgstr "適用して破棄"
 
 msgctxt "dlgSgStashApply.btn:"
 msgid "Apply"
@@ -11625,11 +11625,11 @@ msgstr "名前を変更"
 
 msgctxt "dlgSgStashesDropConfirm.btn:"
 msgid "Drop Stash"
-msgstr "スタッシュを削除"
+msgstr "スタッシュを破棄"
 
 msgctxt "dlgSgStashesDropConfirm.btn:"
 msgid "Drop Stashes"
-msgstr "スタッシュを削除"
+msgstr "スタッシュを破棄"
 
 msgctxt "dlgSgStashesDropConfirm.fur:"
 msgid "The stashed changes will be lost."
@@ -11641,7 +11641,7 @@ msgstr "選択したスタッシュを削除しますか？"
 
 msgctxt "dlgSgStashesDropConfirm.tle:"
 msgid "Drop Stash"
-msgstr "スタッシュを削除"
+msgstr "スタッシュを破棄"
 
 msgctxt "dlgSgSubmoduleAdd.btn:"
 msgid "Configure"
@@ -14987,7 +14987,7 @@ msgstr "名前をコピー <email>"
 # ToDo: AIボタン配下に表示される項目なので、コンテキストからAI関連のGitノートとしているが、合っているかを確認すること。
 msgctxt "wndLog.mni:"
 msgid "Drop All Notes"
-msgstr "すべてのAI関連のGitノートを削除"
+msgstr "すべてのAI関連のGitノートを破棄"
 
 msgctxt "wndLog.mni:"
 msgid "Explain Commit"
@@ -15258,7 +15258,7 @@ msgstr "プルリクエストを表示しない"
 
 msgctxt "wndStd.mni:"
 msgid "Drop All Notes"
-msgstr "すべてのAI関連のGitノートを削除"
+msgstr "すべてのAI関連のGitノートを破棄"
 
 msgctxt "wndStd.mni:"
 msgid "Explain Commit"
@@ -16207,11 +16207,11 @@ msgstr "選択範囲の変更を破棄"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Drop Local Data"
-msgstr "ローカルデータの削除"
+msgstr "ローカルデータを破棄"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Drop Local"
-msgstr "ローカルを削除"
+msgstr "ローカルを破棄"
 
 msgctxt "wnd(Log|Project|Std|).mni:"
 msgid "Edit 'Comment $1'"
@@ -17613,7 +17613,7 @@ msgstr "スタッシュを適用"
 
 msgctxt "wnd(Log|Project|Std|).mniStashDrop:"
 msgid "Drop Stash"
-msgstr "スタッシュを削除"
+msgstr "スタッシュを破棄"
 
 msgctxt "wnd(Log|Project|Std|).mniStashRename:"
 msgid "Rename Stash"
@@ -18116,7 +18116,7 @@ msgstr "破棄"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Drop Stash"
-msgstr "スタッシュを削除"
+msgstr "スタッシュを破棄"
 
 msgctxt "wnd(Log|Project|Std|).tbr:"
 msgid "Fetch"
@@ -18486,7 +18486,7 @@ msgstr "スタッシュからローカルに変更を再適用します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStashDrop:"
 msgid "Drop one or more stashes from the repository."
-msgstr "リポジトリから1つまたは複数のスタッシュを削除します。"
+msgstr "リポジトリから1つまたは複数のスタッシュを破棄します。"
 
 msgctxt "wnd(Log|Project|Std|).tbtStashSave:"
 msgid "Stash current local changes."
