@@ -4468,7 +4468,7 @@ msgstr "次回から表示しない"
 
 msgctxt "dlgSgFileCompareNoChanges.fur:"
 msgid "Both file contents are byte-wise equal.\\nTo see the file contents anyway, click 'Open'."
-msgstr "ファイルの内容を確認するには、「開く」をクリックしてください。"
+msgstr "ファイルの内容はバイトレベルで一致しています。\\nそれでも表示するには「開く」をクリックしてください。"
 
 msgctxt "dlgSgFileCompareNoChanges.hdl:"
 msgid "Open the file compare though no changes will be shown?"
@@ -5125,7 +5125,7 @@ msgstr "GitHub 用の新しいAPIトークンの生成"
 
 msgctxt "dlgSgGitHubGenerateToken.inf:"
 msgid "Authenticate at GitHub and grant access to SmartGit."
-msgstr "OAuthまたは認証情報を用いてGitHubで認証します。"
+msgstr "GitHubで認証し、SmartGitにアクセスを許可してください。"
 
 msgctxt "dlgSgGitHubGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
@@ -6138,6 +6138,8 @@ msgctxt "dlgSgIgnoreDirectoryConfirm.cmb:"
 msgid ".gitignore in repository root directory"
 msgstr "リポジトリのルートディレクトリの .gitignore"
 
+# どこにある .gitignore ファイルを使うかを選択するためのコンボボックスのラベルです。
+# ここでは「ファイルを無視」のような翻訳は不適切です。
 msgctxt "dlgSgIgnoreDirectoryConfirm.edt:"
 msgid "Ignore File"
 msgstr "Ignoreファイル"
@@ -8555,7 +8557,7 @@ msgstr "GitHubで認証し、SmartGitにアクセスを許可してください�
 
 msgctxt "dlgSgProviderGenerateToken.inf:"
 msgid "Authenticate at GitLab and grant access to SmartGit."
-msgstr "GitLabで認証し、SmartGitへのアクセスを許可してください。"
+msgstr "GitLabで認証し、SmartGitにアクセスを許可してください。"
 
 msgctxt "dlgSgProviderGenerateToken.lbl:"
 msgid "Your browser should have opened automatically, let you authenticate with your preferred account at GitHub and grant access to SmartGit. If this didn't happen, manually open following link:"
@@ -13822,7 +13824,7 @@ msgstr "著者"
 
 msgctxt "wndAnnotate.cmb:"
 msgid "Changes Since"
-msgstr "変更日時"
+msgstr "以降の変更"
 
 msgctxt "wndAnnotate.edt:"
 msgid "By"
