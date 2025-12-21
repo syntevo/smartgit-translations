@@ -2006,9 +2006,14 @@ msgctxt "dlgSgAbortRebasingConfirm.btn:"
 msgid "Abort Rebase"
 msgstr "Прервать перемещение"
 
+# Could a native Russian speaker please confirm whether the current translation of “rebasing” is reasonable here?
+# Also, please confirm that $1 correctly refers to the localized menu item for “Branch | Rebase | Rebase”.
+#| msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+#| msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
+#, fuzzy
 msgctxt "dlgSgAbortRebasingConfirm.fur"
-msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use Branch \\| Rebase \\| Rebase instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
-msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте Ветки\\|Переместить\\|Пропустить.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
+msgid "Your working tree is in 'rebasing' state. You may abort rebasing; if you just want to skip the current patch, use $1 instead.\\n\\nAborting will clean any local modification \\(by invoking 'git rebase --abort'\\)!"
+msgstr "Рабочий каталог находится в состоянии «перемещения». Вы можете прервать перемещение. Если хотите просто пропустить текущий патч, используйте $1.\\n\\nПри отмене будут удалены любые локальные изменения \\(путем вызова 'git rebase --abort'\\)!"
 
 msgctxt "dlgSgAbortRebasingConfirm.hdl"
 msgid "Do you want to abort the rebasing?"
